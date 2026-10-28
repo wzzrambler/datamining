@@ -1,0 +1,586 @@
+{
+ "directed": true,
+ "multigraph": true,
+ "graph": {},
+ "nodes": [
+  {
+   "ntype": "景区",
+   "label": "九寨沟风景名胜区",
+   "id": "九寨沟风景名胜区"
+  },
+  {
+   "ntype": "景点",
+   "label": "原始森林",
+   "area": "九寨沟风景名胜区",
+   "tips": [
+    "可以探索丛林大冒险，感受侏罗纪原始森林的奇妙之处。"
+   ],
+   "id": "原始森林"
+  },
+  {
+   "ntype": "时间",
+   "label": "上午",
+   "id": "上午时段"
+  },
+  {
+   "ntype": "景点",
+   "label": "芳草海",
+   "area": "九寨沟风景名胜区",
+   "id": "芳草海"
+  },
+  {
+   "ntype": "景点",
+   "label": "天鹅海",
+   "area": "九寨沟风景名胜区",
+   "id": "天鹅海"
+  },
+  {
+   "ntype": "景点",
+   "label": "箭竹海",
+   "area": "九寨沟风景名胜区",
+   "tips": [
+    "建议你在箭竹海下车——这里是九寨沟最容易见到成群绿头鸭的地方，水波荡漾，野鸭游弋"
+   ],
+   "id": "箭竹海"
+  },
+  {
+   "ntype": "景点",
+   "label": "熊猫海",
+   "area": "九寨沟风景名胜区",
+   "id": "熊猫海"
+  },
+  {
+   "ntype": "景点",
+   "label": "五花海",
+   "area": "九寨沟风景名胜区",
+   "id": "五花海"
+  },
+  {
+   "ntype": "景点",
+   "label": "镜海",
+   "area": "九寨沟风景名胜区",
+   "id": "镜海"
+  },
+  {
+   "ntype": "景点",
+   "label": "诺日朗群海",
+   "area": "九寨沟风景名胜区",
+   "id": "诺日朗群海"
+  },
+  {
+   "ntype": "时间",
+   "label": "中午",
+   "id": "中午时段"
+  },
+  {
+   "ntype": "景点",
+   "label": "诺日朗中心站",
+   "area": "九寨沟风景名胜区",
+   "id": "诺日朗中心站"
+  },
+  {
+   "ntype": "景点",
+   "label": "长海",
+   "area": "九寨沟风景名胜区",
+   "id": "长海"
+  },
+  {
+   "ntype": "时间",
+   "label": "下午",
+   "id": "下午时段"
+  },
+  {
+   "ntype": "景点",
+   "label": "五彩池",
+   "area": "九寨沟风景名胜区",
+   "id": "五彩池"
+  },
+  {
+   "ntype": "景点",
+   "label": "犀牛海",
+   "area": "九寨沟风景名胜区",
+   "id": "犀牛海"
+  },
+  {
+   "ntype": "景点",
+   "label": "老虎海",
+   "area": "九寨沟风景名胜区",
+   "id": "老虎海"
+  },
+  {
+   "ntype": "景点",
+   "label": "树正瀑布",
+   "area": "九寨沟风景名胜区",
+   "id": "树正瀑布"
+  },
+  {
+   "ntype": "景点",
+   "label": "树正磨房",
+   "area": "九寨沟风景名胜区",
+   "id": "树正磨房"
+  },
+  {
+   "ntype": "景点",
+   "label": "树正寨",
+   "area": "九寨沟风景名胜区",
+   "id": "树正寨"
+  },
+  {
+   "ntype": "景点",
+   "label": "卧龙海",
+   "area": "九寨沟风景名胜区",
+   "id": "卧龙海"
+  },
+  {
+   "ntype": "景点",
+   "label": "双龙海",
+   "area": "九寨沟风景名胜区",
+   "id": "双龙海"
+  },
+  {
+   "ntype": "景点",
+   "label": "盆景滩",
+   "area": "九寨沟风景名胜区",
+   "id": "盆景滩"
+  },
+  {
+   "ntype": "景点",
+   "label": "沟口",
+   "area": "九寨沟风景名胜区",
+   "id": "沟口"
+  }
+ ],
+ "links": [
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "原始森林",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "芳草海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "天鹅海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "箭竹海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "熊猫海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "五花海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "镜海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "诺日朗群海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "诺日朗中心站",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "长海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "五彩池",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "犀牛海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "老虎海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "树正瀑布",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "树正磨房",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "树正寨",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "卧龙海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "双龙海",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "盆景滩",
+   "key": "belong"
+  },
+  {
+   "rel": "BELONG",
+   "source": "九寨沟风景名胜区",
+   "target": "沟口",
+   "key": "belong"
+  },
+  {
+   "rel": "AT",
+   "time_start": "07:00",
+   "source": "原始森林",
+   "target": "上午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "08:10",
+   "route": "JZG-OFF-01-R1",
+   "source": "原始森林",
+   "target": "芳草海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "08:10",
+   "source": "芳草海",
+   "target": "上午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "09:00",
+   "route": "JZG-OFF-01-R1",
+   "source": "芳草海",
+   "target": "天鹅海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "09:00",
+   "source": "天鹅海",
+   "target": "上午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "09:15",
+   "route": "JZG-OFF-01-R1",
+   "source": "天鹅海",
+   "target": "箭竹海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "09:15",
+   "source": "箭竹海",
+   "target": "上午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "09:45",
+   "route": "JZG-OFF-01-R1",
+   "source": "箭竹海",
+   "target": "熊猫海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "09:45",
+   "source": "熊猫海",
+   "target": "上午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "10:10",
+   "route": "JZG-OFF-01-R1",
+   "source": "熊猫海",
+   "target": "五花海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "10:10",
+   "source": "五花海",
+   "target": "上午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "10:40",
+   "route": "JZG-OFF-01-R1",
+   "source": "五花海",
+   "target": "镜海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "10:40",
+   "source": "镜海",
+   "target": "上午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "11:10",
+   "route": "JZG-OFF-01-R1",
+   "source": "镜海",
+   "target": "诺日朗群海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "11:10",
+   "source": "诺日朗群海",
+   "target": "中午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "",
+   "time": "11:30",
+   "route": "JZG-OFF-01-R1",
+   "source": "诺日朗群海",
+   "target": "诺日朗中心站",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "11:30",
+   "source": "诺日朗中心站",
+   "target": "中午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "13:30",
+   "route": "JZG-OFF-01-R1",
+   "source": "诺日朗中心站",
+   "target": "长海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "13:30",
+   "source": "长海",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "14:20",
+   "route": "JZG-OFF-01-R1",
+   "source": "长海",
+   "target": "五彩池",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "14:20",
+   "source": "五彩池",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "14:50",
+   "route": "JZG-OFF-01-R1",
+   "source": "五彩池",
+   "target": "犀牛海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "14:50",
+   "source": "犀牛海",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "15:40",
+   "route": "JZG-OFF-01-R1",
+   "source": "犀牛海",
+   "target": "老虎海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "15:40",
+   "source": "老虎海",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "",
+   "route": "JZG-OFF-01-R1",
+   "source": "老虎海",
+   "target": "树正瀑布",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "",
+   "source": "树正瀑布",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "",
+   "route": "JZG-OFF-01-R1",
+   "source": "树正瀑布",
+   "target": "树正磨房",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "",
+   "source": "树正磨房",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "",
+   "route": "JZG-OFF-01-R1",
+   "source": "树正磨房",
+   "target": "树正寨",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "",
+   "source": "树正寨",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "",
+   "route": "JZG-OFF-01-R1",
+   "source": "树正寨",
+   "target": "卧龙海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "",
+   "source": "卧龙海",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "步行",
+   "time": "",
+   "route": "JZG-OFF-01-R1",
+   "source": "卧龙海",
+   "target": "双龙海",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "",
+   "source": "双龙海",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "17:00",
+   "route": "JZG-OFF-01-R1",
+   "source": "双龙海",
+   "target": "盆景滩",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "17:00",
+   "source": "盆景滩",
+   "target": "下午时段",
+   "key": "at"
+  },
+  {
+   "rel": "NEXT",
+   "transport": "观光车",
+   "time": "17:00",
+   "route": "JZG-OFF-01-R1",
+   "source": "盆景滩",
+   "target": "沟口",
+   "key": "next"
+  },
+  {
+   "rel": "AT",
+   "time_start": "17:00",
+   "source": "沟口",
+   "target": "下午时段",
+   "key": "at"
+  }
+ ]
+}

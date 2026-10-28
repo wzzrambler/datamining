@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "task": "《数据挖掘》探索性实验 项目1：景区指南数据采集与预处理",
+    "version": "1.0",
+    "crawl_date": "2026-10-28",
+    "note": "官方路线来自景区官方网站；游客游记/攻略通过搜狗微信搜索检索公众号文章获得。"
+  },
+  "scenic_areas": [
+    {
+      "code": "GZCL",
+      "name": "广州长隆旅游度假区",
+      "city": "广州",
+      "category": "主题乐园",
+      "official_pages": [
+        {
+          "url": "https://www.chimelong.com/gz/trip/3536.html",
+          "doc_type": "route_theme_park",
+          "note": "野生动物世界一日游（情侣/双人），含第一站~第十一站与具体时刻"
+        },
+        {
+          "url": "https://www.chimelong.com/gz/trip/3537.html",
+          "doc_type": "route_theme_park",
+          "note": "欢乐世界一日游"
+        },
+        {
+          "url": "https://www.chimelong.com/gz/trip/6957.html",
+          "doc_type": "route_multi_day",
+          "note": "3天2夜多日行程"
+        }
+      ],
+      "weixin_queries": [
+        "长隆野生动物世界 游记",
+        "广州长隆 亲子游 攻略"
+      ]
+    },
+    {
+      "code": "ZHCL",
+      "name": "珠海横琴长隆国际海洋度假区",
+      "city": "珠海",
+      "category": "主题乐园",
+      "official_pages": [
+        {
+          "url": "https://www.chimelong.com/zh/trip/6961.html",
+          "doc_type": "route_multi_day",
+          "note": "横琴长隆游玩攻略（含海洋王国分时段安排）"
+        },
+        {
+          "url": "https://www.chimelong.com/zh/trip/3659.html",
+          "doc_type": "route_theme_park",
+          "note": "美妈攻略：亲子游玩法、必去打卡点与游览顺序"
+        }
+      ],
+      "weixin_queries": [
+        "珠海长隆海洋王国 游记",
+        "长隆海洋王国 亲子 攻略"
+      ]
+    },
+    {
+      "code": "JZG",
+      "name": "九寨沟风景名胜区",
+      "city": "阿坝州",
+      "category": "自然遗产",
+      "official_pages": [
+        {
+          "url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+          "doc_type": "route_nature",
+          "note": "官方游玩方式：一日精华游（含上午/中午/下午时间段的景点与交通方式）"
+        }
+      ],
+      "weixin_queries": [
+        "九寨沟 游记",
+        "九寨沟 一日游 攻略 路线",
+        "九寨沟 自由行 攻略 五花海",
+        "九寨沟 秋天 游记 分享"
+      ],
+      "manual_notes": [
+        {
+          "doc_id": "JZG-NOTE-02",
+          "title": "止戈行途･山河行途川西三日游记 Day3九寨沟，赴一场秋与碧水的邀约",
+          "author": "止戈行途",
+          "publish_date": "",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI1NjU4ODM3Mw==&mid=2247483890&idx=1&sn=0621e0c81c995af8d9dff5df986623d8",
+          "file": "data/raw/manual/JZG-NOTE-02.txt",
+          "note": "搜狗微信检索接口限流后，改用检索接口返回的正文快照，本地留存原文"
+        },
+        {
+          "doc_id": "JZG-NOTE-03",
+          "title": "九寨沟一日游避坑攻略：观光车坐对，三条沟精华轻松逛完",
+          "author": "九寨沟旅行笔记",
+          "publish_date": "",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYzMTA5MjU0Mg==&mid=2247486452&idx=1&sn=f67b35e89cb5bd45ac505110130b89bf",
+          "file": "data/raw/manual/JZG-NOTE-03.txt",
+          "note": "同上"
+        }
+      ]
+    }
+  ]
+}

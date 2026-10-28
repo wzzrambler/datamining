@@ -1,0 +1,9 @@
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+pandas>=2.0
+openpyxl>=3.1
+matplotlib>=3.7
+jieba>=0.42
+networkx>=3.1
+wordcloud>=1.9

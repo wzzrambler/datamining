@@ -1,0 +1,18 @@
+﻿doc_id,scenic_area,text_type,source_platform,source_url,http_code,status,error
+GZCL-NOTE-01,广州长隆旅游度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=3&timestamp=1793182593&ver=1&signature=0j97IAlqS58l2NdIUnNjtqRgttGRGG0riyj6yEJcWD*KTcxrnSjiR5z3rWQpGF9sDuTskDV3OHaROYNya9PNni41EvB4Px0hPcD6BkUGYb0uuNbC4JevRDg8BVGEBm0JOAMKSoEdybonSja8cBC5dE43ar0OUtd65vX4Xil0T6Y=,200,ok,
+GZCL-NOTE-02,广州长隆旅游度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=11&timestamp=1793182593&ver=7054&signature=U45kQb*Mf1Ze8gBtQ7Ydsv5yOCm0W0aBVxIIELw*Qgn7s*AWq2G9qqfrH-L2rpAZ0KML71*tYC9MVk0QL92zgH0FhjbdXnwV62LMErDyJphxvf5ydO0Y0mv5ReLc7zXA&new=1,200,ok,
+GZCL-NOTE-03,广州长隆旅游度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=11&timestamp=1793182593&ver=7054&signature=lLkdOyRJ-f1RRRZ3wFj6X0Ic8c*sR-4PRPx86LCqsVU*cDHq8KHXTljRnC13p*IJG83yx-XgL3dn7ash8O0NjfPAZdqtEXYEXxevdUFvPDd-rDTOIN1J1oVY5m8i4D9c&new=1,200,ok,
+GZCL-NOTE-04,广州长隆旅游度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=11&timestamp=1793182593&ver=7054&signature=k9kYLVaVdpQPSkUqd*0sNoZjkn5zK5ubhjr75jFBXK7ESxlkDVvwgwaLlPzwlOIku0g7LHv79tmZDCNyDcCiq9WtbbvL1m4DWd0tAXo9aMHWyCbniaVUKrwtZbQzkj6N&new=1,200,ok,
+GZCL-NOTE-05,广州长隆旅游度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=11&timestamp=1793182593&ver=7054&signature=8qJ8GHIN2SRjPV7S9Ns8t9k7enw4i6obSZYpZ2lSO3vML7USWQ5PpDgreXYFGh4R7yH9YeAglhqI1MltpwkDYZKu6cZpAaFX4CpMk4pQmPR-kefIsINPs6Sm5OWo6NWT&new=1,200,ok,
+GZCL-OFF-01,广州长隆旅游度假区,official_route,景区官方网站,https://www.chimelong.com/gz/trip/3536.html,200,ok,野生动物世界一日游（情侣/双人），含第一站~第十一站与具体时刻
+GZCL-OFF-02,广州长隆旅游度假区,official_route,景区官方网站,https://www.chimelong.com/gz/trip/3537.html,200,ok,欢乐世界一日游
+GZCL-OFF-03,广州长隆旅游度假区,official_route,景区官方网站,https://www.chimelong.com/gz/trip/6957.html,200,ok,3天2夜多日行程
+JZG-NOTE-01,九寨沟风景名胜区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=11&timestamp=1793182726&ver=7054&signature=chKWlO-ZlZEiRlvJhJPYgknyT-x7c1snA0Fk7L-niiA*yV0Ha0w64Pl28XuaZCLJCnk52P09LU*Q0dw82GF*vJECU6Tex9tLTZpK7bZZBcTAR3eTG2ihYeAzdAYm4KZi&new=1,200,ok,
+JZG-NOTE-02,九寨沟风景名胜区,travel_note,微信公众号（正文快照）,http://mp.weixin.qq.com/s?__biz=MzI1NjU4ODM3Mw==&mid=2247483890&idx=1&sn=0621e0c81c995af8d9dff5df986623d8,0,ok,搜狗微信检索限流后改用检索服务返回的正文快照，原始 TXT 不在网页存档中
+JZG-NOTE-03,九寨沟风景名胜区,travel_note,微信公众号（正文快照）,http://mp.weixin.qq.com/s?__biz=MzYzMTA5MjU0Mg==&mid=2247486452&idx=1&sn=f67b35e89cb5bd45ac505110130b89bf,0,ok,搜狗微信检索限流后改用检索服务返回的正文快照，原始 TXT 不在网页存档中
+JZG-OFF-01,九寨沟风景名胜区,official_route,景区官方网站,https://www.jiuzhai.com/intelligent-service/way-of-play,200,ok,官方游玩方式：一日精华游（含上午/中午/下午时间段的景点与交通方式）
+ZHCL-NOTE-01,珠海横琴长隆国际海洋度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=11&timestamp=1793182626&ver=7054&signature=2owt5AcOOXnzdVlJ1AU1YA9*rt2KsS23IbQyVe7VHCRuyrBetMJWYr5xQVlPAk3SShRaulMBYnXOSoA3gdt--hckFpGpoo54ZT*oWQ5t1cDnmyKfVHx8sH2CCmzQqlro&new=1,200,ok,
+ZHCL-NOTE-02,珠海横琴长隆国际海洋度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=11&timestamp=1793182626&ver=7054&signature=LNJ7UWxqbjeYAGm*z2sK-V4NEGeUA5SfgXbsCo*ko6KONHk8yVmsdVYJ3oGWWu4Em11FpL8BEbyka9eGZC7ta0ZJ2QKk8yoJNvAO21D-dYwGTxADcGpHn241bls3TFg*&new=1,200,ok,
+ZHCL-NOTE-03,珠海横琴长隆国际海洋度假区,travel_note,微信公众号,https://mp.weixin.qq.com/s?src=3&timestamp=1793182626&ver=1&signature=tbXgvXAEOm*5a5BDvJOmgliQCJd84i7l7r*UPjdWylg4k---P8Ra5esG32Tnbxp*EDZIttYGV5Ab7Yl9HMGlq5Kp5d9BBsWrYHqH0Dq*S600vJEZ3XYIE9cY-8nquF4LwUPeyKaSKX965XtPOQxCX7Dnn-CBNjli6AfbYgkz2C0=,200,ok,
+ZHCL-OFF-01,珠海横琴长隆国际海洋度假区,official_route,景区官方网站,https://www.chimelong.com/zh/trip/6961.html,200,ok,横琴长隆游玩攻略（含海洋王国分时段安排）
+ZHCL-OFF-02,珠海横琴长隆国际海洋度假区,official_route,景区官方网站,https://www.chimelong.com/zh/trip/3659.html,200,ok,美妈攻略：亲子游玩法、必去打卡点与游览顺序

@@ -1,0 +1,1755 @@
+[
+ {
+  "input": "带爸妈去九寨沟玩一天，他们走不动太久",
+  "status": "ok",
+  "slots": {
+   "area": "九寨沟风景名胜区",
+   "other_place": "",
+   "visitor": "老人",
+   "days": 1
+  },
+  "route_id": "JZG-OFF-01-R1",
+  "plan": {
+   "area": "九寨沟风景名胜区",
+   "visitor": "老人",
+   "days": 1,
+   "route_id": "JZG-OFF-01-R1",
+   "steps": [
+    {
+     "step": 1,
+     "period": "上午",
+     "time": "07:00",
+     "spot": "原始森林",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 2,
+     "period": "上午",
+     "time": "08:10",
+     "spot": "芳草海",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 3,
+     "period": "上午",
+     "time": "09:00",
+     "spot": "天鹅海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 4,
+     "period": "上午",
+     "time": "09:15",
+     "spot": "箭竹海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 5,
+     "period": "上午",
+     "time": "09:45",
+     "spot": "熊猫海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 6,
+     "period": "上午",
+     "time": "10:10",
+     "spot": "五花海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 7,
+     "period": "上午",
+     "time": "10:40",
+     "spot": "镜海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 8,
+     "period": "中午",
+     "time": "11:10",
+     "spot": "诺日朗群海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 9,
+     "period": "中午",
+     "time": "11:30",
+     "spot": "诺日朗中心站",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 10,
+     "period": "下午",
+     "time": "13:30",
+     "spot": "长海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 11,
+     "period": "下午",
+     "time": "14:20",
+     "spot": "五彩池",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 12,
+     "period": "下午",
+     "time": "14:50",
+     "spot": "犀牛海",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 13,
+     "period": "下午",
+     "time": "15:40",
+     "spot": "老虎海",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 14,
+     "period": "下午",
+     "time": "",
+     "spot": "树正瀑布",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 15,
+     "period": "下午",
+     "time": "",
+     "spot": "树正磨房",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 16,
+     "period": "下午",
+     "time": "",
+     "spot": "树正寨",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 17,
+     "period": "下午",
+     "time": "",
+     "spot": "卧龙海",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 18,
+     "period": "下午",
+     "time": "",
+     "spot": "双龙海",
+     "transport": "步行",
+     "tag": "可跳过"
+    },
+    {
+     "step": 19,
+     "period": "下午",
+     "time": "17:00",
+     "spot": "盆景滩",
+     "transport": "观光车",
+     "tag": ""
+    },
+    {
+     "step": 20,
+     "period": "下午",
+     "time": "17:00",
+     "spot": "沟口",
+     "transport": "观光车",
+     "tag": ""
+    }
+   ],
+   "tips": [
+    "一定要随身；",
+    "别走远，保存好体力。",
+    "别每站都下，挑精华下，保存体力。"
+   ],
+   "notes": []
+  },
+  "answer": "按九寨沟的一日精华游给你排了 20 步：\n【上午】\n  原始森林（07:00）\n  芳草海（08:10），步行（可跳过）\n  天鹅海（09:00），观光车\n  箭竹海（09:15），观光车\n  熊猫海（09:45），观光车\n  五花海（10:10），观光车\n  镜海（10:40），观光车\n【中午】\n  诺日朗群海（11:10），观光车\n  诺日朗中心站（11:30）\n【下午】\n  长海（13:30），观光车\n  五彩池（14:20），步行（可跳过）\n  犀牛海（14:50），观光车\n  老虎海（15:40），步行（可跳过）\n  树正瀑布，步行（可跳过）\n  树正磨房，步行（可跳过）\n  树正寨，步行（可跳过）\n  卧龙海，步行（可跳过）\n  双龙海，步行（可跳过）\n  盆景滩（17:00），观光车\n  沟口（17:00），观光车\n注意：一定要随身；；别走远，保存好体力。",
+  "turns": [
+   {
+    "turn": 0,
+    "thought": "先把这句话里的景区、人群、天数拆出来",
+    "action": "parse_slots",
+    "args": {
+     "text": "带爸妈去九寨沟玩一天，他们走不动太久"
+    },
+    "observation": "景区 九寨沟／人群 老人／1 天"
+   },
+   {
+    "turn": 1,
+    "thought": "先确认这个景区库里有没有路线",
+    "action": "check_area",
+    "args": {
+     "area": "九寨沟风景名胜区"
+    },
+    "observation": "库里有 2 条路线"
+   },
+   {
+    "turn": 2,
+    "thought": "景区在库里，先取一条符合天数的路线",
+    "action": "get_route",
+    "args": {
+     "area": "九寨沟风景名胜区",
+     "days": 1
+    },
+    "observation": "JZG-OFF-01-R1，20 步，07:00—17:35"
+   },
+   {
+    "turn": 3,
+    "thought": "再看这个景区有哪些景点能排进去",
+    "action": "search_spots",
+    "args": {
+     "area": "九寨沟风景名胜区",
+     "visitor": "老人",
+     "top_k": 8
+    },
+    "observation": "命中 68 个景点，取前 8 个"
+   },
+   {
+    "turn": 4,
+    "thought": "顺手取这个景区的注意事项，最后一起给",
+    "action": "get_tips",
+    "args": {
+     "area": "九寨沟风景名胜区",
+     "keyword": ""
+    },
+    "observation": "候选中 5 条，取前 3 条"
+   },
+   {
+    "turn": 5,
+    "thought": "材料齐了，按人群把路线裁一版",
+    "action": "tailor_route",
+    "args": {
+     "route": {
+      "ok": true,
+      "route_id": "JZG-OFF-01-R1",
+      "steps": [
+       {
+        "step": 1,
+        "period": "上午",
+        "time_start": "07:00",
+        "time_end": "08:10",
+        "from": "沟口",
+        "to": "原始森林",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→原始森林（07:00-08:10 一个小时车程）",
+        "time_source": "range"
+       },
+       {
+        "step": 2,
+        "period": "上午",
+        "time_start": "08:10",
+        "time_end": "09:00",
+        "from": "原始森林",
+        "to": "芳草海",
+        "activity": "",
+        "transport": "步行",
+        "raw": "原始森林→芳草海（08:10-09:00 步行30分钟，游览时间20分钟）",
+        "time_source": "range"
+       },
+       {
+        "step": 3,
+        "period": "上午",
+        "time_start": "09:00",
+        "time_end": "09:15",
+        "from": "芳草海",
+        "to": "天鹅海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "芳草海→天鹅海（09:00-09:15 换乘观光车，约5分钟车程，游览时间10分钟）",
+        "time_source": "range"
+       },
+       {
+        "step": 4,
+        "period": "上午",
+        "time_start": "09:15",
+        "time_end": "09:45",
+        "from": "天鹅海",
+        "to": "箭竹海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "天鹅海→箭竹海（09:15-09:45 换乘观光车，约15分钟车程，游览时间15分钟）",
+        "time_source": "range"
+       },
+       {
+        "step": 5,
+        "period": "上午",
+        "time_start": "09:45",
+        "time_end": "10:10",
+        "from": "箭竹海",
+        "to": "熊猫海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "箭竹海→熊猫海（09:45-10:10 换乘观光车，约10分钟车程，游览时间15分钟）",
+        "time_source": "range"
+       },
+       {
+        "step": 6,
+        "period": "上午",
+        "time_start": "10:10",
+        "time_end": "10:40",
+        "from": "熊猫海",
+        "to": "五花海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "熊猫海→五花海（10:10-10:40 换乘观光车，约10分钟车程，游览时间20分钟）",
+        "time_source": "range"
+       },
+       {
+        "step": 7,
+        "period": "上午",
+        "time_start": "10:40",
+        "time_end": "11:10",
+        "from": "五花海",
+        "to": "镜海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "五花海→镜海（10:40-11:10 换乘观光车，约10分钟车程，游览时间20分钟）",
+        "time_source": "range"
+       },
+       {
+        "step": 8,
+        "period": "中午",
+        "time_start": "11:10",
+        "time_end": "11:25",
+        "from": "镜海",
+        "to": "诺日朗群海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "镜海→诺日朗群海（11:10-11:25 换乘观光车，约5分钟车程，游览时间10分钟）",
+        "time_source": "range"
+       },
+       {
+        "step": 9,
+        "period": "中午",
+        "time_start": "11:30",
+        "time_end": "13:30",
+        "from": "诺日朗群海",
+        "to": "诺日朗中心站",
+        "activity": "",
+        "transport": "",
+        "raw": "诺日朗群海→诺日朗中心站（11:30-13:30诺日朗餐厅用餐，用餐和休息时间2个小时，可观赏诺日朗瀑布）",
+        "time_source": "range"
+       },
+       {
+        "step": 10,
+        "period": "下午",
+        "time_start": "13:30",
+        "time_end": "14:20",
+        "from": "诺日朗中心站",
+        "to": "长海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "诺日朗中心站→长海（13:30-14:20乘坐观光车，约30分钟车程，游览时间20分钟 ）",
+        "time_source": "range"
+       },
+       {
+        "step": 11,
+        "period": "下午",
+        "time_start": "14:20",
+        "time_end": "14:50",
+        "from": "长海",
+        "to": "五彩池",
+        "activity": "",
+        "transport": "步行",
+        "raw": "长海→五彩池（14:20-14:50步行15分钟，游览时间15分钟 ）",
+        "time_source": "range"
+       },
+       {
+        "step": 12,
+        "period": "下午",
+        "time_start": "14:50",
+        "time_end": "15:40",
+        "from": "五彩池",
+        "to": "犀牛海",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "五彩池→犀牛海（14:50-15:40乘坐观光车，约30分钟车程，游览时间20分钟 ）",
+        "time_source": "range"
+       },
+       {
+        "step": 13,
+        "period": "下午",
+        "time_start": "15:40",
+        "time_end": "",
+        "from": "犀牛海",
+        "to": "老虎海",
+        "activity": "",
+        "transport": "步行",
+        "raw": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海（15:40-17:00步行+乘车的方式，约1个多小时游览时间）",
+        "time_source": "range"
+       },
+       {
+        "step": 14,
+        "period": "下午",
+        "time_start": "",
+        "time_end": "",
+        "from": "老虎海",
+        "to": "树正瀑布",
+        "activity": "",
+        "transport": "步行",
+        "raw": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海（15:40-17:00步行+乘车的方式，约1个多小时游览时间）",
+        "time_source": "range"
+       },
+       {
+        "step": 15,
+        "period": "下午",
+        "time_start": "",
+        "time_end": "",
+        "from": "树正瀑布",
+        "to": "树正磨房",
+        "activity": "",
+        "transport": "步行",
+        "raw": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海（15:40-17:00步行+乘车的方式，约1个多小时游览时间）",
+        "time_source": "range"
+       },
+       {
+        "step": 16,
+        "period": "下午",
+        "time_start": "",
+        "time_end": "",
+        "from": "树正磨房",
+        "to": "树正寨",
+        "activity": "",
+        "transport": "步行",
+        "raw": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海（15:40-17:00步行+乘车的方式，约1个多小时游览时间）",
+        "time_source": "range"
+       },
+       {
+        "step": 17,
+        "period": "下午",
+        "time_start": "",
+        "time_end": "",
+        "from": "树正寨",
+        "to": "卧龙海",
+        "activity": "",
+        "transport": "步行",
+        "raw": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海（15:40-17:00步行+乘车的方式，约1个多小时游览时间）",
+        "time_source": "range"
+       },
+       {
+        "step": 18,
+        "period": "下午",
+        "time_start": "",
+        "time_end": "17:00",
+        "from": "卧龙海",
+        "to": "双龙海",
+        "activity": "",
+        "transport": "步行",
+        "raw": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海（15:40-17:00步行+乘车的方式，约1个多小时游览时间）",
+        "time_source": "range"
+       },
+       {
+        "step": 19,
+        "period": "下午",
+        "time_start": "17:00",
+        "time_end": "17:20",
+        "from": "双龙海",
+        "to": "盆景滩",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "双龙海→盆景滩（17:00-17:20乘坐观光车，约10分钟车程，游览时间10分钟 ）",
+        "time_source": "range"
+       },
+       {
+        "step": 20,
+        "period": "下午",
+        "time_start": "17:00",
+        "time_end": "17:35",
+        "from": "盆景滩",
+        "to": "沟口",
+        "activity": "",
+        "transport": "观光车",
+        "raw": "盆景滩→沟口（17:00-17:35乘坐观光车，约15分钟车程 ）",
+        "time_source": "range"
+       }
+      ],
+      "step_count": 20,
+      "span": "07:00—17:35",
+      "sub_route": "一日精华游",
+      "coarse": false,
+      "title": "九寨沟景区官方网站 - 游玩方式"
+     },
+     "visitor": "老人"
+    },
+    "observation": "成行 20 步，标注 8 处"
+   },
+   {
+    "turn": 6,
+    "thought": "信息够了，可以出方案",
+    "action": "final",
+    "args": {
+     "reason": "done"
+    },
+    "observation": "结束"
+   }
+  ],
+  "mode": "rule",
+  "elapsed": 0.0
+ },
+ {
+  "input": "带6岁孩子去广州长隆，一天怎么安排",
+  "status": "ok",
+  "slots": {
+   "area": "广州长隆旅游度假区",
+   "other_place": "",
+   "visitor": "亲子",
+   "days": 1
+  },
+  "route_id": "GZCL-OFF-01-R1",
+  "plan": {
+   "area": "广州长隆旅游度假区",
+   "visitor": "亲子",
+   "days": 1,
+   "route_id": "GZCL-OFF-01-R1",
+   "steps": [
+    {
+     "step": 1,
+     "period": "上午",
+     "time": "10:00",
+     "spot": "小火车游览",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 2,
+     "period": "中午",
+     "time": "11:00",
+     "spot": "青龙山",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 3,
+     "period": "中午",
+     "time": "11:50",
+     "spot": "考拉园",
+     "transport": "",
+     "tag": "适合孩子"
+    },
+    {
+     "step": 4,
+     "period": "中午",
+     "time": "12:10",
+     "spot": "熊猫乐园",
+     "transport": "",
+     "tag": "适合孩子"
+    },
+    {
+     "step": 5,
+     "period": "中午",
+     "time": "12:30",
+     "spot": "熊猫餐厅",
+     "transport": "",
+     "tag": "适合孩子"
+    },
+    {
+     "step": 6,
+     "period": "下午",
+     "time": "14:00",
+     "spot": "四维影院",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 7,
+     "period": "下午",
+     "time": "15:00",
+     "spot": "亚洲象园",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 8,
+     "period": "下午",
+     "time": "15:30",
+     "spot": "长颈鹿广场",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 9,
+     "period": "下午",
+     "time": "16:00",
+     "spot": "空中缆车",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 10,
+     "period": "下午",
+     "time": "17:00",
+     "spot": "看火烈鸟",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 11,
+     "period": "下午",
+     "time": "17:30",
+     "spot": "南门纪念品商场",
+     "transport": "",
+     "tag": ""
+    }
+   ],
+   "tips": [
+    "别墨迹，一墨迹转身就会发现停车场已被管制，得绕好远才能停好车了。",
+    "建议租辆婴儿车。",
+    "大熊猫中心可以带小朋友们去体验一下保育员的工作～能让宝宝们跟大熊猫亲密接触！"
+   ],
+   "notes": []
+  },
+  "answer": "按广州长隆的官方路线给你排了 11 步：\n【上午】\n  小火车游览（10:00）\n【中午】\n  青龙山（11:00）\n  考拉园（11:50）（适合孩子）\n  熊猫乐园（12:10）（适合孩子）\n  熊猫餐厅（12:30）（适合孩子）\n【下午】\n  四维影院（14:00）\n  亚洲象园（15:00）\n  长颈鹿广场（15:30）\n  空中缆车（16:00）\n  看火烈鸟（17:00）\n  南门纪念品商场（17:30）\n注意：别墨迹，一墨迹转身就会发现停车场已被管制，得绕好远才能停好车了。；建议租辆婴儿车。",
+  "turns": [
+   {
+    "turn": 0,
+    "thought": "先把这句话里的景区、人群、天数拆出来",
+    "action": "parse_slots",
+    "args": {
+     "text": "带6岁孩子去广州长隆，一天怎么安排"
+    },
+    "observation": "景区 广州长隆／人群 亲子／1 天"
+   },
+   {
+    "turn": 1,
+    "thought": "先确认这个景区库里有没有路线",
+    "action": "check_area",
+    "args": {
+     "area": "广州长隆旅游度假区"
+    },
+    "observation": "库里有 3 条路线"
+   },
+   {
+    "turn": 2,
+    "thought": "景区在库里，先取一条符合天数的路线",
+    "action": "get_route",
+    "args": {
+     "area": "广州长隆旅游度假区",
+     "days": 1
+    },
+    "observation": "GZCL-OFF-01-R1，11 步，10:00 起"
+   },
+   {
+    "turn": 3,
+    "thought": "再看这个景区有哪些景点能排进去",
+    "action": "search_spots",
+    "args": {
+     "area": "广州长隆旅游度假区",
+     "visitor": "亲子",
+     "top_k": 8
+    },
+    "observation": "命中 73 个景点，取前 8 个"
+   },
+   {
+    "turn": 4,
+    "thought": "顺手取这个景区的注意事项，最后一起给",
+    "action": "get_tips",
+    "args": {
+     "area": "广州长隆旅游度假区",
+     "keyword": ""
+    },
+    "observation": "候选中 54 条，取前 3 条"
+   },
+   {
+    "turn": 5,
+    "thought": "材料齐了，按人群把路线裁一版",
+    "action": "tailor_route",
+    "args": {
+     "route": {
+      "ok": true,
+      "route_id": "GZCL-OFF-01-R1",
+      "steps": [
+       {
+        "step": 1,
+        "period": "上午",
+        "time_start": "10:00",
+        "time_end": "",
+        "from": "",
+        "to": "小火车游览",
+        "activity": "小火车游览",
+        "transport": "",
+        "raw": "第一站（10:00）：小火车游览",
+        "time_source": "clock"
+       },
+       {
+        "step": 2,
+        "period": "中午",
+        "time_start": "11:00",
+        "time_end": "",
+        "from": "",
+        "to": "青龙山",
+        "activity": "青龙山",
+        "transport": "",
+        "raw": "第二站（11:00）：青龙山",
+        "time_source": "clock"
+       },
+       {
+        "step": 3,
+        "period": "中午",
+        "time_start": "11:50",
+        "time_end": "",
+        "from": "",
+        "to": "考拉园",
+        "activity": "考拉园",
+        "transport": "",
+        "raw": "第三站（11:50）：考拉园",
+        "time_source": "clock"
+       },
+       {
+        "step": 4,
+        "period": "中午",
+        "time_start": "12:10",
+        "time_end": "",
+        "from": "",
+        "to": "熊猫乐园",
+        "activity": "熊猫乐园",
+        "transport": "",
+        "raw": "第四站（12:10）：熊猫乐园",
+        "time_source": "clock"
+       },
+       {
+        "step": 5,
+        "period": "中午",
+        "time_start": "12:30",
+        "time_end": "",
+        "from": "",
+        "to": "熊猫餐厅",
+        "activity": "熊猫餐厅",
+        "transport": "",
+        "raw": "第五站（12:30）：熊猫餐厅",
+        "time_source": "clock"
+       },
+       {
+        "step": 6,
+        "period": "下午",
+        "time_start": "14:00",
+        "time_end": "",
+        "from": "",
+        "to": "四维影院",
+        "activity": "4D影院",
+        "transport": "",
+        "raw": "第六站（14:00）：4D影院",
+        "time_source": "clock"
+       },
+       {
+        "step": 7,
+        "period": "下午",
+        "time_start": "15:00",
+        "time_end": "",
+        "from": "",
+        "to": "亚洲象园",
+        "activity": "亚洲象园",
+        "transport": "",
+        "raw": "第七站（15:00）：亚洲象园",
+        "time_source": "clock"
+       },
+       {
+        "step": 8,
+        "period": "下午",
+        "time_start": "15:30",
+        "time_end": "",
+        "from": "",
+        "to": "长颈鹿广场",
+        "activity": "长颈鹿广场",
+        "transport": "",
+        "raw": "第八站（15:30）：长颈鹿广场",
+        "time_source": "clock"
+       },
+       {
+        "step": 9,
+        "period": "下午",
+        "time_start": "16:00",
+        "time_end": "",
+        "from": "",
+        "to": "空中缆车",
+        "activity": "空中缆车",
+        "transport": "",
+        "raw": "第九站（16:00）：空中缆车",
+        "time_source": "clock"
+       },
+       {
+        "step": 10,
+        "period": "下午",
+        "time_start": "17:00",
+        "time_end": "",
+        "from": "",
+        "to": "看火烈鸟",
+        "activity": "看火烈鸟",
+        "transport": "",
+        "raw": "第十站（17:00）：看火烈鸟",
+        "time_source": "clock"
+       },
+       {
+        "step": 11,
+        "period": "下午",
+        "time_start": "17:30",
+        "time_end": "",
+        "from": "",
+        "to": "南门纪念品商场",
+        "activity": "南门纪念品商场",
+        "transport": "",
+        "raw": "第十一站（17:30）：南门纪念品商场",
+        "time_source": "clock"
+       }
+      ],
+      "step_count": 11,
+      "span": "10:00 起",
+      "sub_route": "",
+      "coarse": false,
+      "title": "广州长隆野生动物世界游玩攻略"
+     },
+     "visitor": "亲子"
+    },
+    "observation": "成行 11 步，标注 3 处"
+   },
+   {
+    "turn": 6,
+    "thought": "信息够了，可以出方案",
+    "action": "final",
+    "args": {
+     "reason": "done"
+    },
+    "observation": "结束"
+   }
+  ],
+  "mode": "rule",
+  "elapsed": 0.0
+ },
+ {
+  "input": "和女朋友去珠海长隆海洋王国玩两天",
+  "status": "partial",
+  "slots": {
+   "area": "珠海横琴长隆国际海洋度假区",
+   "other_place": "",
+   "visitor": "情侣",
+   "days": 2
+  },
+  "route_id": "ZHCL-OFF-01-R1",
+  "plan": {
+   "area": "珠海横琴长隆国际海洋度假区",
+   "visitor": "情侣",
+   "days": 2,
+   "route_id": "ZHCL-OFF-01-R1",
+   "steps": [
+    {
+     "step": 1,
+     "period": "",
+     "time": "",
+     "spot": "长隆飞船乐园",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 2,
+     "period": "",
+     "time": "",
+     "spot": "长隆海洋王国",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 3,
+     "period": "",
+     "time": "",
+     "spot": "长隆剧院",
+     "transport": "",
+     "tag": ""
+    }
+   ],
+   "tips": [
+    "可以的，不过小心被小海豚喷到水哟～",
+    "这个一定要玩，坐在动感座椅上看《卡卡大冒险》，跟随小老虎卡卡经历惊心动魄的大冒险，时而空中飞",
+    "还是大胆的不怕生那种，尽量往最前面、最中间、最靠近中间走道的两排就坐。"
+   ],
+   "notes": [
+    "路线只到园区级（3 步），撑不起 2 天",
+    "这条路线原文没写时刻，只能给顺序",
+    "路线只到园区级（3 步），撑不起 2 天",
+    "这条路线原文没写时刻，只能给顺序",
+    "路线只到园区级（3 步），撑不起 2 天",
+    "这条路线原文没写时刻，只能给顺序",
+    "路线只到园区级（3 步），撑不起 2 天",
+    "这条路线原文没写时刻，只能给顺序"
+   ]
+  },
+  "answer": "按珠海长隆的官方路线给你排了 3 步：\n  长隆飞船乐园\n  长隆海洋王国\n  长隆剧院\n注意：可以的，不过小心被小海豚喷到水哟～；这个一定要玩，坐在动感座椅上看《卡卡大冒险》，跟随小老虎卡卡经历惊心动魄的大冒险，时而空中飞\n提醒：路线只到园区级（3 步），撑不起 2 天；这条路线原文没写时刻，只能给顺序；路线只到园区级（3 步），撑不起 2 天；这条路线原文没写时刻，只能给顺序；路线只到园区级（3 步），撑不起 2 天；这条路线原文没写时刻，只能给顺序；路线只到园区级（3 步），撑不起 2 天；这条路线原文没写时刻，只能给顺序",
+  "turns": [
+   {
+    "turn": 0,
+    "thought": "先把这句话里的景区、人群、天数拆出来",
+    "action": "parse_slots",
+    "args": {
+     "text": "和女朋友去珠海长隆海洋王国玩两天"
+    },
+    "observation": "景区 珠海长隆／人群 情侣／2 天"
+   },
+   {
+    "turn": 1,
+    "thought": "先确认这个景区库里有没有路线",
+    "action": "check_area",
+    "args": {
+     "area": "珠海横琴长隆国际海洋度假区"
+    },
+    "observation": "库里有 1 条路线"
+   },
+   {
+    "turn": 2,
+    "thought": "景区在库里，先取一条符合天数的路线",
+    "action": "get_route",
+    "args": {
+     "area": "珠海横琴长隆国际海洋度假区",
+     "days": 2
+    },
+    "observation": "ZHCL-OFF-01-R1，3 步，无时刻（只到园区级）"
+   },
+   {
+    "turn": 3,
+    "thought": "再看这个景区有哪些景点能排进去",
+    "action": "search_spots",
+    "args": {
+     "area": "珠海横琴长隆国际海洋度假区",
+     "visitor": "情侣",
+     "top_k": 8
+    },
+    "observation": "命中 61 个景点，取前 8 个"
+   },
+   {
+    "turn": 4,
+    "thought": "顺手取这个景区的注意事项，最后一起给",
+    "action": "get_tips",
+    "args": {
+     "area": "珠海横琴长隆国际海洋度假区",
+     "keyword": ""
+    },
+    "observation": "候选中 20 条，取前 3 条"
+   },
+   {
+    "turn": 5,
+    "thought": "材料齐了，按人群把路线裁一版",
+    "action": "tailor_route",
+    "args": {
+     "route": {
+      "ok": true,
+      "route_id": "ZHCL-OFF-01-R1",
+      "steps": [
+       {
+        "step": 1,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "",
+        "to": "长隆飞船乐园",
+        "activity": "长隆飞船乐园",
+        "transport": "",
+        "raw": "第一站：长隆飞船乐园",
+        "time_source": "none"
+       },
+       {
+        "step": 2,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "",
+        "to": "长隆海洋王国",
+        "activity": "长隆海洋王国",
+        "transport": "",
+        "raw": "第二站：长隆海洋王国",
+        "time_source": "none"
+       },
+       {
+        "step": 3,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "",
+        "to": "长隆剧院",
+        "activity": "长隆剧院",
+        "transport": "",
+        "raw": "第三站：长隆剧院",
+        "time_source": "none"
+       }
+      ],
+      "step_count": 3,
+      "span": "",
+      "sub_route": "",
+      "coarse": true,
+      "title": "横琴长隆游玩攻略"
+     },
+     "visitor": "情侣"
+    },
+    "observation": "成行 3 步，标注 0 处"
+   },
+   {
+    "turn": 6,
+    "thought": "信息够了，可以出方案",
+    "action": "final",
+    "args": {
+     "reason": "done"
+    },
+    "observation": "结束"
+   }
+  ],
+  "mode": "rule",
+  "elapsed": 0.0
+ },
+ {
+  "input": "去三亚玩三天",
+  "status": "no_data",
+  "slots": {
+   "area": "",
+   "other_place": "三亚",
+   "visitor": "",
+   "days": 3
+  },
+  "route_id": "",
+  "plan": null,
+  "answer": "库里只有九寨沟、广州长隆、珠海长隆三个景区的路线，没有 三亚 的数据，换个景区我可以直接排。",
+  "turns": [
+   {
+    "turn": 0,
+    "thought": "先把这句话里的景区、人群、天数拆出来",
+    "action": "parse_slots",
+    "args": {
+     "text": "去三亚玩三天"
+    },
+    "observation": "景区 三亚／人群 未提到／3 天"
+   },
+   {
+    "turn": 1,
+    "thought": "用户说的是 三亚，库里没有这个地方，直接说明",
+    "action": "final",
+    "args": {
+     "reason": "no_data",
+     "message": "库里只有九寨沟、广州长隆、珠海长隆三个景区的路线，没有 三亚 的数据，换个景区我可以直接排。"
+    },
+    "observation": "结束"
+   }
+  ],
+  "mode": "rule",
+  "elapsed": 0.0
+ },
+ {
+  "input": "帮我规划一下",
+  "status": "need_info",
+  "slots": {
+   "area": "",
+   "other_place": "",
+   "visitor": "",
+   "days": 1
+  },
+  "route_id": "",
+  "plan": null,
+  "answer": "想去哪个景区？库里现成的有九寨沟、广州长隆、珠海长隆。",
+  "turns": [
+   {
+    "turn": 0,
+    "thought": "先把这句话里的景区、人群、天数拆出来",
+    "action": "parse_slots",
+    "args": {
+     "text": "帮我规划一下"
+    },
+    "observation": "景区 未提到／人群 未提到／1 天"
+   },
+   {
+    "turn": 1,
+    "thought": "没说去哪个景区，先反问，不猜",
+    "action": "ask",
+    "args": {
+     "message": "想去哪个景区？库里现成的有九寨沟、广州长隆、珠海长隆。"
+    },
+    "observation": "结束"
+   }
+  ],
+  "mode": "rule",
+  "elapsed": 0.0
+ },
+ {
+  "input": "一天想把广州长隆和珠海长隆都玩了",
+  "status": "conflict",
+  "slots": {
+   "area": "",
+   "other_place": "",
+   "visitor": "",
+   "days": 1
+  },
+  "route_id": "",
+  "plan": null,
+  "answer": "一次只能排一个景区。广州长隆、珠海长隆 不在同一片区域，一天之内走不完，建议先选一个，另一个放到第二天。",
+  "turns": [
+   {
+    "turn": 0,
+    "thought": "先把这句话里的景区、人群、天数拆出来",
+    "action": "parse_slots",
+    "args": {
+     "text": "一天想把广州长隆和珠海长隆都玩了"
+    },
+    "observation": "景区 广州长隆、珠海长隆／人群 未提到／1 天"
+   },
+   {
+    "turn": 1,
+    "thought": "用户点了多个景区但只给一天，先说明排不开",
+    "action": "final",
+    "args": {
+     "reason": "conflict",
+     "message": "一次只能排一个景区。广州长隆、珠海长隆 不在同一片区域，一天之内走不完，建议先选一个，另一个放到第二天。"
+    },
+    "observation": "结束"
+   }
+  ],
+  "mode": "rule",
+  "elapsed": 0.0
+ },
+ {
+  "input": "九寨沟玩两天，怎么安排",
+  "status": "partial",
+  "slots": {
+   "area": "九寨沟风景名胜区",
+   "other_place": "",
+   "visitor": "",
+   "days": 2
+  },
+  "route_id": "JZG-OFF-01-R2",
+  "plan": {
+   "area": "九寨沟风景名胜区",
+   "visitor": "未指定",
+   "days": 2,
+   "route_id": "JZG-OFF-01-R2",
+   "steps": [
+    {
+     "step": 1,
+     "period": "",
+     "time": "",
+     "spot": "长海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 2,
+     "period": "",
+     "time": "",
+     "spot": "五彩池",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 3,
+     "period": "",
+     "time": "",
+     "spot": "诺日朗中心站",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 4,
+     "period": "",
+     "time": "",
+     "spot": "诺日朗瀑布",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 5,
+     "period": "",
+     "time": "",
+     "spot": "犀牛海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 6,
+     "period": "",
+     "time": "",
+     "spot": "树正瀑布",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 7,
+     "period": "",
+     "time": "",
+     "spot": "树正群海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 8,
+     "period": "",
+     "time": "",
+     "spot": "双龙海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 9,
+     "period": "",
+     "time": "",
+     "spot": "芦苇海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 10,
+     "period": "",
+     "time": "",
+     "spot": "盆景滩",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 11,
+     "period": "",
+     "time": "",
+     "spot": "出沟",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 12,
+     "period": "",
+     "time": "",
+     "spot": "原始森林",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 13,
+     "period": "",
+     "time": "",
+     "spot": "芳草海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 14,
+     "period": "",
+     "time": "",
+     "spot": "天鹅湖",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 15,
+     "period": "",
+     "time": "",
+     "spot": "箭竹海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 16,
+     "period": "",
+     "time": "",
+     "spot": "熊猫海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 17,
+     "period": "",
+     "time": "",
+     "spot": "珍珠滩",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 18,
+     "period": "",
+     "time": "",
+     "spot": "五花海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 19,
+     "period": "",
+     "time": "",
+     "spot": "诺日朗中心站",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 20,
+     "period": "",
+     "time": "",
+     "spot": "诺日朗瀑布",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 21,
+     "period": "",
+     "time": "",
+     "spot": "犀牛海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 22,
+     "period": "",
+     "time": "",
+     "spot": "树正瀑布",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 23,
+     "period": "",
+     "time": "",
+     "spot": "树正群海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 24,
+     "period": "",
+     "time": "",
+     "spot": "双龙海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 25,
+     "period": "",
+     "time": "",
+     "spot": "芦苇海",
+     "transport": "",
+     "tag": ""
+    },
+    {
+     "step": 26,
+     "period": "",
+     "time": "",
+     "spot": "盆景滩",
+     "transport": "",
+     "tag": ""
+    }
+   ],
+   "tips": [
+    "一定要随身；",
+    "别走远，保存好体力。",
+    "别每站都下，挑精华下，保存体力。"
+   ],
+   "notes": [
+    "这条路线原文没写时刻，只能给顺序",
+    "这条路线原文没写时刻，只能给顺序",
+    "这条路线原文没写时刻，只能给顺序",
+    "这条路线原文没写时刻，只能给顺序"
+   ]
+  },
+  "answer": "按九寨沟的二日舒适游给你排了 26 步：\n  长海\n  五彩池\n  诺日朗中心站\n  诺日朗瀑布\n  犀牛海\n  树正瀑布\n  树正群海\n  双龙海\n  芦苇海\n  盆景滩\n  出沟\n  原始森林\n  芳草海\n  天鹅湖\n  箭竹海\n  熊猫海\n  珍珠滩\n  五花海\n  诺日朗中心站\n  诺日朗瀑布\n  犀牛海\n  树正瀑布\n  树正群海\n  双龙海\n  芦苇海\n  盆景滩\n注意：一定要随身；；别走远，保存好体力。\n提醒：这条路线原文没写时刻，只能给顺序；这条路线原文没写时刻，只能给顺序；这条路线原文没写时刻，只能给顺序；这条路线原文没写时刻，只能给顺序",
+  "turns": [
+   {
+    "turn": 0,
+    "thought": "先把这句话里的景区、人群、天数拆出来",
+    "action": "parse_slots",
+    "args": {
+     "text": "九寨沟玩两天，怎么安排"
+    },
+    "observation": "景区 九寨沟／人群 未提到／2 天"
+   },
+   {
+    "turn": 1,
+    "thought": "先确认这个景区库里有没有路线",
+    "action": "check_area",
+    "args": {
+     "area": "九寨沟风景名胜区"
+    },
+    "observation": "库里有 2 条路线"
+   },
+   {
+    "turn": 2,
+    "thought": "景区在库里，先取一条符合天数的路线",
+    "action": "get_route",
+    "args": {
+     "area": "九寨沟风景名胜区",
+     "days": 2
+    },
+    "observation": "JZG-OFF-01-R2，26 步，无时刻"
+   },
+   {
+    "turn": 3,
+    "thought": "再看这个景区有哪些景点能排进去",
+    "action": "search_spots",
+    "args": {
+     "area": "九寨沟风景名胜区",
+     "visitor": "",
+     "top_k": 8
+    },
+    "observation": "命中 68 个景点，取前 8 个"
+   },
+   {
+    "turn": 4,
+    "thought": "顺手取这个景区的注意事项，最后一起给",
+    "action": "get_tips",
+    "args": {
+     "area": "九寨沟风景名胜区",
+     "keyword": ""
+    },
+    "observation": "候选中 5 条，取前 3 条"
+   },
+   {
+    "turn": 5,
+    "thought": "材料齐了，按人群把路线裁一版",
+    "action": "tailor_route",
+    "args": {
+     "route": {
+      "ok": true,
+      "route_id": "JZG-OFF-01-R2",
+      "steps": [
+       {
+        "step": 1,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "沟口",
+        "to": "长海",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 2,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "长海",
+        "to": "五彩池",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 3,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "五彩池",
+        "to": "诺日朗中心站",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 4,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "诺日朗中心站",
+        "to": "诺日朗瀑布",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 5,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "诺日朗瀑布",
+        "to": "犀牛海",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 6,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "犀牛海",
+        "to": "树正瀑布",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 7,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "树正瀑布",
+        "to": "树正群海",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 8,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "树正群海",
+        "to": "双龙海",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 9,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "双龙海",
+        "to": "芦苇海",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 10,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "芦苇海",
+        "to": "盆景滩",
+        "activity": "",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 11,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "盆景滩",
+        "to": "出沟",
+        "activity": "【Day 2】",
+        "transport": "",
+        "raw": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩→出沟",
+        "time_source": "none"
+       },
+       {
+        "step": 12,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "游客中心",
+        "to": "原始森林",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 13,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "原始森林",
+        "to": "芳草海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 14,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "芳草海",
+        "to": "天鹅湖",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 15,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "天鹅湖",
+        "to": "箭竹海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 16,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "箭竹海",
+        "to": "熊猫海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 17,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "熊猫海",
+        "to": "珍珠滩",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 18,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "珍珠滩",
+        "to": "五花海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 19,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "五花海",
+        "to": "诺日朗中心站",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 20,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "诺日朗中心站",
+        "to": "诺日朗瀑布",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 21,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "诺日朗瀑布",
+        "to": "犀牛海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 22,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "犀牛海",
+        "to": "树正瀑布",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 23,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "树正瀑布",
+        "to": "树正群海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 24,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "树正群海",
+        "to": "双龙海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 25,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "双龙海",
+        "to": "芦苇海",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       },
+       {
+        "step": 26,
+        "period": "",
+        "time_start": "",
+        "time_end": "",
+        "from": "芦苇海",
+        "to": "盆景滩",
+        "activity": "",
+        "transport": "",
+        "raw": "游客中心→原始森林→芳草海→天鹅湖→箭竹海→熊猫海→珍珠滩→五花海→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→盆景滩",
+        "time_source": "none"
+       }
+      ],
+      "step_count": 26,
+      "span": "",
+      "sub_route": "二日舒适游",
+      "coarse": false,
+      "title": "九寨沟景区官方网站 - 游玩方式"
+     },
+     "visitor": ""
+    },
+    "observation": "成行 26 步，标注 0 处"
+   },
+   {
+    "turn": 6,
+    "thought": "信息够了，可以出方案",
+    "action": "final",
+    "args": {
+     "reason": "done"
+    },
+    "observation": "结束"
+   }
+  ],
+  "mode": "rule",
+  "elapsed": 0.0
+ }
+]

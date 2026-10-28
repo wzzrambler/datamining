@@ -1,0 +1,470 @@
+{
+ "stats": {
+  "total": 13,
+  "clear": 10,
+  "correct": 10,
+  "accuracy": 1.0,
+  "no_antecedent": 3,
+  "coverage": 0.769,
+  "baseline_correct": 5,
+  "baseline_accuracy": 0.5
+ },
+ "rows": [
+  {
+   "id": "C001",
+   "doc_id": "GZCL-NOTE-01",
+   "pronoun": "这里",
+   "sentence": "在这里感谢那些用自己的经历给大家写攻略，提供方便的朋友们。",
+   "candidates": [
+    {
+     "text": "策略",
+     "is_poi": false,
+     "dist": 4,
+     "score": 0.2
+    },
+    {
+     "text": "食物",
+     "is_poi": false,
+     "dist": 16,
+     "score": 0.059
+    }
+   ],
+   "pred": "策略",
+   "gold": "",
+   "gold_type": "discourse",
+   "no_antecedent": true,
+   "correct": 0
+  },
+  {
+   "id": "C002",
+   "doc_id": "GZCL-NOTE-01",
+   "pronoun": "这里",
+   "sentence": "这里重点提醒：",
+   "candidates": [],
+   "pred": "",
+   "gold": "",
+   "gold_type": "discourse",
+   "no_antecedent": true,
+   "correct": 1
+  },
+  {
+   "id": "C004",
+   "doc_id": "GZCL-NOTE-01",
+   "pronoun": "他们",
+   "sentence": "大象传奇还不错，一头成年大象拥有五岁幼儿的智商，他们非常的聪明，会写毛笔字，会踢球，投篮，会撒娇耍萌，很可爱。",
+   "candidates": [
+    {
+     "text": "大象",
+     "is_poi": false,
+     "dist": 12,
+     "score": 3.077
+    },
+    {
+     "text": "智商",
+     "is_poi": false,
+     "dist": 3,
+     "score": 0.25
+    },
+    {
+     "text": "幼儿",
+     "is_poi": false,
+     "dist": 6,
+     "score": 0.143
+    },
+    {
+     "text": "成年",
+     "is_poi": false,
+     "dist": 14,
+     "score": 0.067
+    },
+    {
+     "text": "不错",
+     "is_poi": false,
+     "dist": 19,
+     "score": 0.05
+    }
+   ],
+   "pred": "大象",
+   "gold": "大象",
+   "gold_type": "animal",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C005",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "它们",
+   "sentence": "漫游在广州长隆野生动物世界的24小时，在此准确捕捉到了童年的感觉，有很多个瞬间都觉得自己不像是个20多岁的成年人，站在园区内，感觉自己宛如一个涉世未深的孩童，看看着眼前的每一个动物，就想要更多的去了解它们，对眼前的风景充满了无穷的好奇。",
+   "candidates": [
+    {
+     "text": "野生动物世界",
+     "is_poi": true,
+     "dist": 93,
+     "score": 3.011
+    },
+    {
+     "text": "长隆野生动物世界",
+     "is_poi": true,
+     "dist": 95,
+     "score": 3.01
+    },
+    {
+     "text": "动物",
+     "is_poi": false,
+     "dist": 12,
+     "score": 0.077
+    },
+    {
+     "text": "眼前",
+     "is_poi": false,
+     "dist": 18,
+     "score": 0.053
+    },
+    {
+     "text": "孩童",
+     "is_poi": false,
+     "dist": 24,
+     "score": 0.04
+    }
+   ],
+   "pred": "野生动物世界",
+   "gold": "",
+   "gold_type": "generic",
+   "no_antecedent": true,
+   "correct": 0
+  },
+  {
+   "id": "C006",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "这里",
+   "sentence": "景点干货必备：天鹅湖缆车一定要带宝宝们去打卡，这里能俯视到野生动物世界的全貌，搭乘小火车去非洲草原如果能坐到靠窗的位置请尽量选择靠窗的位置，大熊猫中心可以带小朋友们去体验一下保育员的工作～能让宝宝们跟大熊猫亲密接触！",
+   "candidates": [
+    {
+     "text": "天鹅湖缆车",
+     "is_poi": true,
+     "dist": 16,
+     "score": 3.059
+    },
+    {
+     "text": "天鹅湖",
+     "is_poi": true,
+     "dist": 16,
+     "score": 3.059
+    },
+    {
+     "text": "干货",
+     "is_poi": false,
+     "dist": 21,
+     "score": 0.045
+    },
+    {
+     "text": "景点",
+     "is_poi": false,
+     "dist": 23,
+     "score": 0.042
+    }
+   ],
+   "pred": "天鹅湖缆车",
+   "gold": "天鹅湖缆车",
+   "gold_type": "poi",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C009",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "这里",
+   "sentence": "小火车游览的第一站便是澳洲森林，这里住着澳大利亚的国兽——大赤袋鼠。",
+   "candidates": [
+    {
+     "text": "澳洲森林",
+     "is_poi": true,
+     "dist": 5,
+     "score": 3.167
+    },
+    {
+     "text": "便是澳洲森林",
+     "is_poi": true,
+     "dist": 7,
+     "score": 3.125
+    },
+    {
+     "text": "森林",
+     "is_poi": false,
+     "dist": 3,
+     "score": 0.25
+    },
+    {
+     "text": "火车",
+     "is_poi": false,
+     "dist": 15,
+     "score": 0.062
+    }
+   ],
+   "pred": "澳洲森林",
+   "gold": "澳洲森林",
+   "gold_type": "poi",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C010",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "它",
+   "sentence": "如果幸运的话，还可能会看到憨态可掬的羊驼，在经过一道弯之后，还会看到美丽的黑颈天鹅，它高雅的行走在丛林大地之上，一点都没有被我们的到来而影响。",
+   "candidates": [
+    {
+     "text": "黑颈天鹅",
+     "is_poi": true,
+     "dist": 5,
+     "score": 3.167
+    },
+    {
+     "text": "黑颈",
+     "is_poi": false,
+     "dist": 5,
+     "score": 0.167
+    },
+    {
+     "text": "羊驼",
+     "is_poi": false,
+     "dist": 24,
+     "score": 0.04
+    },
+    {
+     "text": "幸运",
+     "is_poi": false,
+     "dist": 40,
+     "score": 0.024
+    },
+    {
+     "text": "最大",
+     "is_poi": false,
+     "dist": 49,
+     "score": 0.02
+    }
+   ],
+   "pred": "黑颈天鹅",
+   "gold": "黑颈天鹅",
+   "gold_type": "animal",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C014",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "它",
+   "sentence": "第五站来到了欧洲山地，它作为世界地势最低的一个山地，在这里生活着欧洲独特的盘羊和岩羊，还有着精致美丽的黇鹿、马鹿、白唇鹿，它们步伐矫健地走着，跳着，仿佛在欢迎游客的到来。",
+   "candidates": [
+    {
+     "text": "欧洲山地",
+     "is_poi": true,
+     "dist": 5,
+     "score": 3.167
+    },
+    {
+     "text": "山地",
+     "is_poi": false,
+     "dist": 3,
+     "score": 0.25
+    }
+   ],
+   "pred": "欧洲山地",
+   "gold": "欧洲山地",
+   "gold_type": "poi",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C025",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "那里",
+   "sentence": "在侏罗纪森林旁边还有一处金蛇秘境，但因从小就害怕蛇类，只得绕路去下一站，听前往于此的朋友说，那里更是“危机四伏”，玩得就是一场惊心动魄之旅。",
+   "candidates": [
+    {
+     "text": "金蛇秘境",
+     "is_poi": true,
+     "dist": 34,
+     "score": 3.029
+    },
+    {
+     "text": "侏罗纪森林",
+     "is_poi": true,
+     "dist": 45,
+     "score": 3.022
+    },
+    {
+     "text": "朋友",
+     "is_poi": false,
+     "dist": 4,
+     "score": 0.2
+    },
+    {
+     "text": "前往",
+     "is_poi": false,
+     "dist": 9,
+     "score": 0.1
+    },
+    {
+     "text": "去下",
+     "is_poi": false,
+     "dist": 15,
+     "score": 0.062
+    }
+   ],
+   "pred": "金蛇秘境",
+   "gold": "金蛇秘境",
+   "gold_type": "poi",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C026",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "这里",
+   "sentence": "在广州长隆野生动物园中有着一座百虎山，在这里生活着长隆野生动物世界的园中之宝——白虎。",
+   "candidates": [
+    {
+     "text": "百虎山",
+     "is_poi": true,
+     "dist": 5,
+     "score": 3.167
+    },
+    {
+     "text": "动物园",
+     "is_poi": false,
+     "dist": 13,
+     "score": 0.071
+    },
+    {
+     "text": "动物",
+     "is_poi": false,
+     "dist": 13,
+     "score": 0.071
+    },
+    {
+     "text": "之中",
+     "is_poi": false,
+     "dist": 40,
+     "score": 0.024
+    }
+   ],
+   "pred": "百虎山",
+   "gold": "百虎山",
+   "gold_type": "poi",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C027",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "它",
+   "sentence": "在百虎山中一共生活着300多只老虎，它也是世界上老虎最多的园区，用老虎王国来称呼它都不为过，百虎山最值得一看的当属白虎，白虎在自然界非常难存活，在野外已经灭绝，现在世界上仅存几百只白虎，而长隆就有150多只，这足以见证这里的生态环境适合白虎居住。",
+   "candidates": [
+    {
+     "text": "百虎山",
+     "is_poi": true,
+     "dist": 17,
+     "score": 3.056
+    },
+    {
+     "text": "野生动物世界",
+     "is_poi": true,
+     "dist": 34,
+     "score": 3.029
+    },
+    {
+     "text": "长隆野生动物世界",
+     "is_poi": true,
+     "dist": 36,
+     "score": 3.027
+    },
+    {
+     "text": "一共",
+     "is_poi": false,
+     "dist": 13,
+     "score": 0.071
+    },
+    {
+     "text": "园中",
+     "is_poi": false,
+     "dist": 27,
+     "score": 0.036
+    }
+   ],
+   "pred": "百虎山",
+   "gold": "百虎山",
+   "gold_type": "poi",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C031",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "它",
+   "sentence": "最好客的莫属东南亚的豚尾猴了，它仿佛是搞怪的小丑一般。",
+   "candidates": [
+    {
+     "text": "豚尾猴",
+     "is_poi": false,
+     "dist": 5,
+     "score": 0.167
+    },
+    {
+     "text": "好客",
+     "is_poi": false,
+     "dist": 14,
+     "score": 0.067
+    },
+    {
+     "text": "风采",
+     "is_poi": false,
+     "dist": 18,
+     "score": 0.053
+    },
+    {
+     "text": "它们",
+     "is_poi": false,
+     "dist": 21,
+     "score": 0.045
+    },
+    {
+     "text": "博士",
+     "is_poi": false,
+     "dist": 36,
+     "score": 0.027
+    }
+   ],
+   "pred": "豚尾猴",
+   "gold": "豚尾猴",
+   "gold_type": "animal",
+   "no_antecedent": false,
+   "correct": 1
+  },
+  {
+   "id": "C032",
+   "doc_id": "GZCL-NOTE-02",
+   "pronoun": "这里",
+   "sentence": "在广州长隆野生动物园中就有一个大熊猫中心，生活在这里的大熊猫十分的悠闲自在，光是面积就达到了20000平方米，自然环境优越，里面一共生活着十只憨态可掬的大熊猫，开园至今，这里的熊猫还产过三胞胎熊猫宝宝。",
+   "candidates": [
+    {
+     "text": "大熊猫中心",
+     "is_poi": true,
+     "dist": 9,
+     "score": 3.1
+    },
+    {
+     "text": "动物园",
+     "is_poi": false,
+     "dist": 17,
+     "score": 0.056
+    }
+   ],
+   "pred": "大熊猫中心",
+   "gold": "大熊猫中心",
+   "gold_type": "poi",
+   "no_antecedent": false,
+   "correct": 1
+  }
+ ]
+}

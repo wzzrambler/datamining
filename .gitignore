@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# 打包脚本生成的中间目录和成品 zip（用 tools/打包.py 可随时重建）
+提交包/
+*.zip
+
+# 报告被占用时生成的副本，正式文件只留一份
+outputs/*（新*.docx
+
+# 临时文件
+outputs/_*
+*.log
