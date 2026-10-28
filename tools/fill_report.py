@@ -25,7 +25,9 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE = r"C:\Users\31879\Desktop\第X组_组长姓名_《数据挖掘》探索性实验报告（模板）.docx"
+# 模板放在桌面，用当前用户的家目录拼，别把本机路径写死进仓库
+TEMPLATE = os.path.join(os.path.expanduser("~"), "Desktop",
+                        "第X组_组长姓名_《数据挖掘》探索性实验报告（模板）.docx")
 OUT = os.path.join(ROOT, "outputs", "第X组_组长姓名_《数据挖掘》探索性实验报告_项目1.docx")
 FIG = os.path.join(ROOT, "outputs", "figures")
 
