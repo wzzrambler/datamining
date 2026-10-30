@@ -1,0 +1,16 @@
+# 三人环境不一样时，换行符不统一会让整个文件都变成 diff
+* text=auto
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.csv  text eol=lf
+*.yml  text eol=lf
+*.txt  text eol=lf
+
+# 二进制文件不要当成文本去合并
+*.docx  binary
+*.xlsx  binary
+*.png   binary
+*.pdf   binary
+*.zip   binary
