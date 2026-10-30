@@ -2,6 +2,8 @@
 
 《数据挖掘》探索性实验 —— 景区游览指南的程序性知识挖掘
 
+![自检](https://github.com/wzzrambler/datamining/actions/workflows/check.yml/badge.svg)
+
 本目录包含项目1的全部代码、原始数据、结构化数据与质量检查产物，
 可直接支撑后续项目2（实体识别）、项目3（路线层级）、项目5（条件建议）的输入需求。
 
@@ -241,4 +243,6 @@ JSON 带 `content` 和 `paragraphs`，是后面几个项目的输入。
 - 报告 docx 是二进制没法合并：谁重新生成了报告（`python tools/fill_report.py`）谁提交，
   其他人在他 push 之后再 pull，不要同时覆盖。
 - 改完代码跑一遍 `python src/verify.py`，报告数字和产物对得上再提交。
+  推送后 GitHub Actions 也会自动跑同一套检查，右上角徽章是绿的说明一致，
+  红了就看 Actions 里哪一项没过。
 - 提交信息写清楚改了哪个项目，例如「p3：路线时间层级增加耗时统计」。
