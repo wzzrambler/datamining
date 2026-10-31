@@ -12,3 +12,6 @@ outputs/*（新*.docx
 # 临时文件
 outputs/_*
 *.log
+
+# Word/WPS 打开文档时生成的锁文件
+~$*
