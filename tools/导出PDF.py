@@ -6,6 +6,7 @@ PowerShell 里走 Word COM 的 ExportAsFixedFormat 会卡死（DisplayAlerts=0 �
 需要装了 Word 和 pywin32。没装 Word 的机器上这个脚本跑不了，报告 docx 本身不受影响。
 """
 
+import glob
 import os
 import shutil
 import sys
@@ -14,17 +15,26 @@ import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NAME = "第X组_组长姓名_《数据挖掘》探索性实验报告_项目1"
-SRC = os.path.join(ROOT, "outputs", NAME + ".docx")
 DST = os.path.join(ROOT, "outputs", "报告PDF预览.pdf")
+
+
+def newest_report():
+    """正式文件常被预览面板锁着，这时脚本会另存出"（新）"副本，取最新的那个来转。"""
+    cands = glob.glob(os.path.join(ROOT, "outputs", NAME + "*.docx"))
+    cands = [c for c in cands if os.path.basename(c) != "~$" + NAME + ".docx"]
+    if not cands:
+        raise SystemExit("outputs 下没有报告 docx")
+    return max(cands, key=os.path.getmtime)
 
 
 def convert():
     """返回导出的 PDF 路径。"""
-    if not os.path.exists(SRC):
-        raise SystemExit("找不到报告：%s" % SRC)
+    src = newest_report()
+    if not os.path.exists(src):
+        raise SystemExit("找不到报告：%s" % src)
     tmp_doc = os.path.join(tempfile.gettempdir(), "rep_export.docx")
     tmp_pdf = os.path.join(tempfile.gettempdir(), "rep_export.pdf")
-    shutil.copyfile(SRC, tmp_doc)
+    shutil.copyfile(src, tmp_doc)
     if os.path.exists(tmp_pdf):
         os.remove(tmp_pdf)
 

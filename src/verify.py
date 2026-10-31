@@ -65,6 +65,30 @@ def main():
                     n += 1
         return n
 
+    # 词频这类"第几名是多少"最容易和产物脱节：改完词典重跑，正文里的名次还停在上一版。
+    # 所以取前六名拼成字符串来查，而不是只查单个数字。
+    def top_poi(data, k=6):
+        freq = {}
+        for r in data:
+            for e in r["entities"]:
+                if e["type"] == "POI":
+                    freq[e["text"]] = freq.get(e["text"], 0) + 1
+        items = sorted(freq.items(), key=lambda x: (-x[1], x[0]))[:k]
+        return items
+
+    v2_top = top_poi(e2)
+    # 报告正文写的是"后面是北门 34、南门 31、海洋王国 26"，取第二到第四名连着查，
+    # 名次一错位这条就断，比单独查数字管用
+    v2_rank = "、".join("%s %d" % (w, c) for w, c in v2_top[1:4])
+
+    det = load("coref_candidates.json")
+    src_travel = sum(1 for c in conds if c["text_type"] == "travel_note")
+    src_official = sum(1 for c in conds if c["text_type"] == "official_route")
+    with open(os.path.join(OUT, "quality_stats.json"), encoding="utf-8") as f:
+        stats = json.load(f)
+    tags = stats["cleaning"]["html_tags_total"]
+    mean_len = sum(d["raw_char_len"] for d in docs) / len(docs)
+
     checks = [
         ("文档篇数", str(len(docs))),
         ("清洗后总字数", str(sum(d["clean_char_len"] for d in docs))),
@@ -80,6 +104,12 @@ def main():
         ("图谱节点数", str(len(graph["nodes"]))),
         ("图谱边数", str(len(graph["links"]))),
         ("测试场景数", str(len(runs))),
+        ("抽取标签总数", str(tags)),
+        ("原文均长", "%.0f" % mean_len),
+        ("v2 第二到第四名", v2_rank),
+        ("代词检测处数", "%d 处" % len(det)),
+        ("游记来源条件", "%d 条来自游记" % src_travel),
+        ("官方来源条件", "%d 条来自官方路线" % src_official),
     ]
 
     text = read_report()

@@ -196,7 +196,7 @@ JSON 带 `content` 和 `paragraphs`，是后面几个项目的输入。
 报告由 `tools/fill_report.py` 生成，章节文字在 `tools/content_project1.py` 里维护，
 改文字只动内容模块，排版逻辑不用碰。正文中的数字与 `outputs/quality_stats.json`、
 `data/processed/dataset.xlsx` 一一对应；修改数据后重跑
-`python src/pipeline.py && python tools/fill_report.py` 即可同步更新。
+`python src/run_all.py && python tools/fill_report.py` 即可同步更新。
 
 > 注意：如果生成时该 docx 正在 Word/WPS 中打开，脚本会因文件占用而失败。
 > 此时可先关闭文档，或用 `python tools/fill_report.py --out outputs/报告.docx` 另存。
