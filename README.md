@@ -201,6 +201,9 @@ JSON 带 `content` 和 `paragraphs`，是后面几个项目的输入。
 > 注意：如果生成时该 docx 正在 Word/WPS 中打开，脚本会因文件占用而失败。
 > 此时可先关闭文档，或用 `python tools/fill_report.py --out outputs/报告.docx` 另存。
 
+PDF 预览由 `python tools/导出PDF.py` 生成，调本机 Word 转换，需要 pywin32。
+换成别的机器或没装 Word 时这一步会失败，不影响 docx 和两个提交包。
+
 ## 8. 已知问题
 
 - 微信公众号文章由搜狗中转获取，链接带时效签名，`source_url` 中的 `timestamp/signature`
