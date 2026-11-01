@@ -14,14 +14,18 @@ import tempfile
 import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NAME = "第X组_组长姓名_《数据挖掘》探索性实验报告_项目1"
 DST = os.path.join(ROOT, "outputs", "报告PDF预览.pdf")
 
 
 def newest_report():
-    """正式文件常被预览面板锁着，这时脚本会另存出"（新）"副本，取最新的那个来转。"""
-    cands = glob.glob(os.path.join(ROOT, "outputs", NAME + "*.docx"))
-    cands = [c for c in cands if os.path.basename(c) != "~$" + NAME + ".docx"]
+    """取 outputs 下最新的报告。
+
+    正式文件常被预览面板锁着，这时脚本会另存出"（新）"副本；填过封面后文件名
+    也变成了「第3组_张三_…」，所以按后缀通配，不认死某一个前缀。
+    """
+    cands = [f for f in glob.glob(os.path.join(ROOT, "outputs",
+                                               "*《数据挖掘》探索性实验报告_项目1*.docx"))
+             if not os.path.basename(f).startswith("~$")]
     if not cands:
         raise SystemExit("outputs 下没有报告 docx")
     return max(cands, key=os.path.getmtime)

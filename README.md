@@ -204,6 +204,22 @@ JSON 带 `content` 和 `paragraphs`，是后面几个项目的输入。
 PDF 预览由 `python tools/导出PDF.py` 生成，调本机 Word 转换，需要 pywin32。
 换成别的机器或没装 Word 时这一步会失败，不影响 docx 和两个提交包。
 
+### 填封面与打包
+
+报告模板里的组号、姓名、学号是占位，交之前要填成自己组的：
+
+```bash
+cp tools/封面信息.示例.json tools/封面信息.json   # 先复制一份
+# 编辑 tools/封面信息.json：组号、组长/学号、组员列表、授课教师
+python tools/填封面.py          # 生成「第N组_姓名_…」开头的报告，评分表行数自动增减
+python tools/导出PDF.py         # 封面变了，PDF 要重导
+python tools/打包.py            # 生成两个提交 zip
+```
+
+`封面信息.json` 含真名学号，已被 `.gitignore` 排除，不会进仓库。
+`tools/打包.py` 取 `outputs/` 下最新的一份报告，zip 名前缀跟着文件名走，
+所以填完封面直接打包即可，不用改脚本。
+
 ## 8. 已知问题
 
 - 微信公众号文章由搜狗中转获取，链接带时效签名，`source_url` 中的 `timestamp/signature`
