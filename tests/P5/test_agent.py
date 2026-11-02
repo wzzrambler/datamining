@@ -376,6 +376,20 @@ class CorpusExportTests(unittest.TestCase):
         for package in self.packages:
             validator.validate(package["context"])
 
+    def test_full_release_rebuild_preserves_production_graph(self):
+        import shutil
+        from p5_agent.export import export_run
+        source = ROOT / 'processed/P5条件建议抽取/runs/full-final-20261101'
+        parent = ROOT / '.test_tmp'
+        parent.mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=parent, prefix='p5_release_') as temp:
+            output = Path(temp)
+            for name in ('raw_observations.json', 'summary.json', 'input_manifest.json'):
+                shutil.copy2(source / name, output / name)
+            export_run(output, self.corpus, [])
+            self.assertEqual(read_json(output / 'integrated/graph.json'),
+                             read_json(source / 'integrated/graph.json'))
+
     def test_selection_is_accounted_for_every_paragraph(self):
         expected = {(d["doc_id"], p["i"]) for d in self.corpus.documents.values() for p in d["paragraphs"]}
         actual = [(r["doc_id"], r["para_id"]) for r in self.corpus.coverage]

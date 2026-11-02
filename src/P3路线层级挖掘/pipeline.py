@@ -10,6 +10,8 @@ from parser import period_for_clock
 
 BASE=Path(__file__).resolve().parent
 ROOT=BASE.parents[1]
+sys.path.insert(0, str(ROOT / 'src'))
+from artifact_integrity import matches_sha256
 OUT=ROOT/'processed/P3路线层级挖掘'
 DISPLAY=ROOT/'outputs/P3'
 INPUTS={'p1':ROOT/'processed/P1爬虫数据清洗/documents.json',
@@ -73,9 +75,9 @@ def run(plots=True):
     paths=INPUTS;input_hashes={k:digest(p) for k,p in paths.items()}
     documents=json.loads(paths['p1'].read_text('utf-8'))
     entities=json.loads(paths['p2'].read_text('utf-8'))
-    if entities['config_version']!='v2' or entities['input_sha256']!=input_hashes['p1']:
+    if entities['config_version']!='v2' or not matches_sha256(paths['p1'], entities['input_sha256']):
         raise ValueError('P2 v2必须与本次P1正文对应')
-    if entities.get('origin_sha256') and entities['origin_sha256']!=input_hashes['sources']:
+    if entities.get('origin_sha256') and not matches_sha256(paths['sources'], entities['origin_sha256']):
         raise ValueError('P2来源映射与P1段落来源不对应')
     edocs={d['doc_id']:d for d in entities['documents']}
     if {d['doc_id'] for d in documents}!=set(edocs):raise ValueError('P1/P2文档不一致')

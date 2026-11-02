@@ -69,8 +69,9 @@ def run_package(package, client, contracts, budget, checkpoint: Path, entity_sce
     s = budget.settings
     tools = contracts.api_tools()
     host = ToolHost(package, contracts, s.max_same_error, entity_scenes)
-    implementation = {p.name: file_hash(p) for p in Path(__file__).parent.glob("*.py")}
-    assets = {p.name: file_hash(p) for p in ASSETS.iterdir() if p.is_file()}
+    implementation = {p.name: file_hash(p) for p in sorted(Path(__file__).parent.glob("*.py"))}
+    implementation['artifact_integrity.py'] = file_hash(Path(__file__).resolve().parents[2] / 'artifact_integrity.py')
+    assets = {p.name: file_hash(p) for p in sorted(ASSETS.iterdir()) if p.is_file()}
     fingerprint = digest({"package": package, "settings": s.public_dict(), "code": implementation, "assets": assets})
     state = {"fingerprint": fingerprint, "rounds": 0, "tool_calls": 0,
              "messages": initial_messages(package["context"]), "responses": [],

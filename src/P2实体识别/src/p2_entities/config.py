@@ -1,10 +1,13 @@
 """正式配置与版本哈希；不依赖旧实现或草案。"""
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 PHASE = Path(__file__).resolve().parents[2]
 ROOT = PHASE.parents[1]
+sys.path.insert(0, str(ROOT / 'src'))
+from artifact_integrity import matches_sha256
 
 
 def encode(value):
@@ -29,7 +32,7 @@ def load_config(folder=None):
         if Path(name).name != name:
             raise ValueError('配置文件名越界')
         raw = (folder / name).read_bytes()
-        if digest(raw) != sha:
+        if not matches_sha256(folder / name, sha):
             raise ValueError(f'冻结配置被更改：{name}')
         values[Path(name).stem] = json.loads(raw.decode('utf-8'))
     return manifest, values

@@ -38,8 +38,6 @@ class RouteCurationTests(unittest.TestCase):
 
     def test_production_graph_preserves_transport_and_retained_sequences(self):
         p = ROOT / 'processed/P6知识图谱/quality-stages/route-filtered'
-        if not p.exists():
-            self.skipTest('formal curation not built')
         before = curation.load(curation.P5 / 'integrated/graph.json')
         after = curation.load(p / 'graph.json')
         raw_routes = {r['route_id']: r for r in curation.load(curation.P5 / 'integrated/routes.json')}
@@ -57,10 +55,8 @@ class RouteCurationTests(unittest.TestCase):
 
     def test_rebuild_is_deterministic_and_p5_frozen(self):
         p = ROOT / 'processed/P6知识图谱/quality-stages/route-filtered'
-        if not p.exists():
-            self.skipTest('formal curation not built')
         summary = curation.load(p / 'cleaning_summary.json')
-        self.assertTrue(all(curation.sha(ROOT / path) == digest for path, digest in summary['protected_p5_hashes'].items()))
+        curation.verify_protected_p5(summary['protected_p5_hashes'])
         observations = {r['record_id']: r for r in curation.load(curation.P5 / 'raw_observations.json')}
         docs = {d['doc_id']: d for d in curation.load(ROOT / 'processed/P1爬虫数据清洗/documents.json')}
         result = curation.curate(curation.load(curation.P5 / 'integrated/graph.json'), curation.load(curation.P5 / 'integrated/routes.json'), observations, docs)

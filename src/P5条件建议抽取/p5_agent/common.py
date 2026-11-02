@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import sys
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
@@ -10,6 +11,8 @@ from typing import Any
 BASE = Path(__file__).resolve().parents[1]
 ROOT = BASE.parents[1]
 ASSETS = BASE / "assets"
+sys.path.insert(0, str(ROOT / 'src'))
+from artifact_integrity import file_sha256, matches_sha256
 
 
 def compact(value: Any) -> str:
@@ -25,13 +28,13 @@ def digest(value: Any) -> str:
 
 
 def file_hash(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    return file_sha256(path)
 
 
 def write_json(path: Path, value: Any):
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+    tmp.write_bytes((json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n").encode('utf-8'))
     os.replace(tmp, path)
 
 

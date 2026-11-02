@@ -4,10 +4,13 @@ import hashlib
 import json
 import os
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / 'src'))
+from artifact_integrity import matches_sha256
 LABELS = {"POI", "TRANSPORT", "ROUTE", "ROUTE_STEP", "TRANSPORT_LEG", "CONDITIONAL_RULE", "FACT", "OBSERVATION", "TIME_SUMMARY", "ADVICE_SUMMARY"}
 RELATIONS = {"HAS_STEP", "VISITS", "MENTIONS_MODE", "PRECEDES", "FROM", "TO", "USES_MODE", "USES_LEG", "APPLIES_TO", "PART_OF", "HAS_FACT", "SUPPORTED_BY", "HAS_TIME_SUMMARY", "HAS_ADVICE_SUMMARY", "DERIVED_FROM"}
 CONSTRAINT = "CREATE CONSTRAINT p5_scoped_id IF NOT EXISTS FOR (n:P5Node) REQUIRE (n.dataset, n.id) IS UNIQUE"
@@ -33,7 +36,7 @@ def validate_quality(graph_path, graph):
               'source_p5_graph_sha256': ROOT / 'processed/P5条件建议抽取/runs/full-final-20261101/integrated/graph.json',
               'raw_observations_sha256': ROOT / 'processed/P5条件建议抽取/runs/full-final-20261101/raw_observations.json',
               'documents_sha256': ROOT / 'processed/P1爬虫数据清洗/documents.json'}
-    if any(manifest.get(k) != hashlib.sha256(p.read_bytes()).hexdigest() for k,p in checks.items()):
+    if any(not matches_sha256(p, manifest.get(k)) for k,p in checks.items()):
         raise ValueError('质量流水线图谱或输入已变化，重新运行quality_pipeline.py')
     theme_release=ROOT/'processed/P6知识图谱/llm_advice/release.json'
     if theme_release.exists():

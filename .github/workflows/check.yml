@@ -61,3 +61,7 @@ jobs:
           include-hidden-files: true
           retention-days: 14
           if-no-files-found: error
+      - name: P2/P5/P6跨平台换行与隔离检出回归
+        # Ubuntu直接检查LF文件，再用隔离副本覆盖Windows的CRLF检出。
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
+        run: python tools/check_portability.py --line-ending crlf

@@ -4,7 +4,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from .budget import initial_messages
-from .common import ROOT, digest, file_hash, read_json
+from .common import ROOT, digest, file_hash, read_json, matches_sha256
 
 
 class Corpus:
@@ -16,10 +16,16 @@ class Corpus:
             "sources": root / "processed/P1爬虫数据清洗/辅助资料/paragraph_sources.json",
         }
         self.hashes = {k: file_hash(p) for k, p in paths.items()}
+        # Keep existing release/provenance IDs when bytes differ only by EOL.
+        release = root / 'processed/P5条件建议抽取/runs/full-final-20261101/input_manifest.json'
+        if release.is_file():
+            for key, expected in read_json(release).get('input_hashes', {}).items():
+                if key in paths and matches_sha256(paths[key], expected):
+                    self.hashes[key] = expected
         docs, p2, p3, sources = (read_json(paths[k]) for k in paths)
-        if p2.get("input_sha256") != self.hashes["p1"]:
+        if not matches_sha256(paths['p1'], p2.get('input_sha256')):
             raise ValueError("P2与P1输入哈希不一致，请先更新前置阶段")
-        if p2.get("origin_sha256") != self.hashes["sources"]:
+        if not matches_sha256(paths['sources'], p2.get('origin_sha256')):
             raise ValueError("P2来源映射与P1不一致")
         self.documents = {d["doc_id"]: d for d in docs}
         self.entity_documents = {d["doc_id"]: d for d in p2["documents"]}

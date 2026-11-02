@@ -8,12 +8,14 @@ import argparse
 from collections import Counter, defaultdict
 from copy import deepcopy
 import csv
-import hashlib
 import json
 from pathlib import Path
 import re
+import sys
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / 'src'))
+from artifact_integrity import file_sha256, matches_sha256, repository_path
 P5 = ROOT / "processed/P5条件建议抽取/runs/full-final-20261101"
 OUT = ROOT / "processed/P6知识图谱/quality-stages/route-filtered"
 VERSION = "p6-route-curation-v1"
@@ -25,11 +27,18 @@ def load(path):
 
 def save(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+    path.write_bytes((json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n").encode('utf-8'))
 
 
 def sha(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    return file_sha256(path)
+
+
+def verify_protected_p5(hashes, root=ROOT):
+    for name, expected in hashes.items():
+        path = repository_path(root, name)
+        if not matches_sha256(path, expected):
+            raise ValueError(f'Upstream P5 changed: {name}')
 
 
 def normalized(text):
@@ -302,7 +311,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUT)
     args = parser.parse_args()
-    protected = {str(p.relative_to(ROOT)): sha(p) for p in (ROOT / "processed/P5条件建议抽取").rglob("*") if p.is_file()}
+    protected = {p.relative_to(ROOT).as_posix(): sha(p) for p in sorted((ROOT / "processed/P5条件建议抽取").rglob("*")) if p.is_file()}
     graph = load(P5 / "integrated/graph.json")
     observations = {r["record_id"]: r for r in load(P5 / "raw_observations.json")}
     docs = {d["doc_id"]: d for d in load(ROOT / "processed/P1爬虫数据清洗/documents.json")}
@@ -343,7 +352,7 @@ def main():
     with (args.output / "route_decisions.csv").open("w", encoding="utf-8-sig", newline="") as f:
         fields = ["route_id", "scenic_code", "upstream", "step_count", "ordered_mapped_stage_count", "mapped_step_count", "different_poi_count_diagnostic_only", "status", "route_class", "reason", "affiliation_status", "parent_route_ids"]
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore"); writer.writeheader(); writer.writerows(decisions)
-    assert all(sha(ROOT / p) == h for p, h in protected.items()), "Upstream P5 changed"
+    verify_protected_p5(protected)
     print(json.dumps({k: v for k, v in summary.items() if k != "protected_p5_hashes"}, ensure_ascii=False, indent=2))
 
 

@@ -5,7 +5,7 @@ from pathlib import Path
 import platform
 
 from . import __version__
-from .config import ROOT, PHASE, digest, load_config, write_json
+from .config import ROOT, PHASE, digest, load_config, write_json, matches_sha256
 from .extractor import Extractor, normalized
 from .candidates import collect_candidates
 
@@ -101,8 +101,11 @@ def run(output=None, figures=None, draw=True):
     source = ROOT / 'processed/P1爬虫数据清洗/documents.json'
     origin_path = ROOT / 'processed/P1爬虫数据清洗/辅助资料/paragraph_sources.json'
     raw, origin_raw = source.read_bytes(), origin_path.read_bytes()
-    if digest(raw) != manifest['input_sha256']:
+    if not matches_sha256(source, manifest['input_sha256']):
         raise ValueError('P1输入版本已变，请先重新确认词表及正式配置')
+    acceptance = json.loads((PHASE / 'config/acceptance.json').read_text(encoding='utf-8'))
+    if not matches_sha256(origin_path, acceptance['origin_sha256']):
+        raise ValueError('P1段落来源版本已变，请先重新确认正式配置')
     docs = json.loads(raw.decode('utf-8-sig'))
     origins = json.loads(origin_raw.decode('utf-8-sig'))
     validate_input(docs)
@@ -117,8 +120,9 @@ def run(output=None, figures=None, draw=True):
         extracted, notes = extractor.extract(doc)
         outputs.append(extracted)
         diagnostics.extend(notes)
-    result = {'schema_version': 'p2-entities-1', 'input_sha256': digest(raw),
-              'origin_sha256': digest(origin_raw), 'config_version': manifest['config_version'],
+    # Preserve the approved release fingerprints when only checkout EOL differs.
+    result = {'schema_version': 'p2-entities-1', 'input_sha256': manifest['input_sha256'],
+              'origin_sha256': acceptance['origin_sha256'], 'config_version': manifest['config_version'],
               'config_hash': manifest['config_hash'], 'documents': outputs}
     checked = validate_entities(result, docs)
     freq, stats = frequencies(result), summary(result, diagnostics)
