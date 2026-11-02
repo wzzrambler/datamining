@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "13ae969e0e826e3db721ba03285852d3cc774ea771044e5e69afe09a95ca33da",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1603525,
+  "round_trip_ms": 258.99390000267886,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1080,
+      "width": 1920
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            754.0,
+            965.0
+          ],
+          [
+            1169.0,
+            962.0
+          ],
+          [
+            1169.0,
+            1041.0
+          ],
+          [
+            755.0,
+            1045.0
+          ]
+        ],
+        "confidence": 0.8430283665657043,
+        "text": "cJI OSMO POCKET 3"
+      },
+      {
+        "box": [
+          [
+            1842.0,
+            1034.0
+          ],
+          [
+            1902.0,
+            1034.0
+          ],
+          [
+            1902.0,
+            1065.0
+          ],
+          [
+            1842.0,
+            1065.0
+          ]
+        ],
+        "confidence": 0.7646703124046326,
+        "text": "小x书"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.751831,
+      "decode": 31.096387,
+      "det_infer": 154.842246,
+      "det_post": 1.349068,
+      "det_pre": 46.907731,
+      "pipeline": 214.652413,
+      "rec_infer": 4.975531,
+      "rec_post": 0.194583,
+      "rec_pre": 0.12859399999999999,
+      "server_compute": 245.749472,
+      "sort": 0.004008
+    },
+    "request_id": "clean-13ae969e0e826e3db721ba03"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "54ae73fde7d75b89eeb9cd0f31c3a8bfd8974e710a03ed72fcd37c5cfa4db32a",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2727756,
+  "round_trip_ms": 205.66439999674913,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1443,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            93.0,
+            563.0
+          ],
+          [
+            993.0,
+            569.0
+          ],
+          [
+            992.0,
+            730.0
+          ],
+          [
+            92.0,
+            724.0
+          ]
+        ],
+        "confidence": 0.9965466260910034,
+        "text": "广州长隆3天2晚"
+      },
+      {
+        "box": [
+          [
+            180.0,
+            745.0
+          ],
+          [
+            910.0,
+            745.0
+          ],
+          [
+            910.0,
+            823.0
+          ],
+          [
+            180.0,
+            823.0
+          ]
+        ],
+        "confidence": 0.8886444568634033,
+        "text": "详细政略直接抄作业！"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 3.970794,
+      "decode": 31.251446,
+      "det_infer": 106.292345,
+      "det_post": 1.027194,
+      "det_pre": 33.614833,
+      "pipeline": 157.476418,
+      "rec_infer": 8.200409,
+      "rec_post": 0.406281,
+      "rec_pre": 0.22494399999999998,
+      "server_compute": 188.728685,
+      "sort": 0.001974
+    },
+    "request_id": "clean-54ae73fde7d75b89eeb9cd0f"
+  }
+}

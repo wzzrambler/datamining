@@ -1,0 +1,1356 @@
+[
+  {
+    "official_route_id": "GZCL-OFF-01-R-b98590e484",
+    "visitor_route_id": "GZCL-NOTE-06-R-3ff34f39b9",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "青龙山",
+      "考拉园",
+      "熊猫乐园",
+      "4D影院",
+      "亚洲象园",
+      "长颈鹿广场"
+    ],
+    "visitor_sequence": [
+      "青龙山",
+      "未归一:白虎山",
+      "长颈鹿广场",
+      "考拉园",
+      "熊猫村",
+      "火烈鸟岛",
+      "4D影院",
+      "未归一:熊森林",
+      "黑猩猩展区"
+    ],
+    "shared": [
+      "4D影院",
+      "考拉园",
+      "长颈鹿广场",
+      "青龙山"
+    ],
+    "official_only": [
+      "亚洲象园",
+      "熊猫乐园"
+    ],
+    "visitor_only": [
+      "未归一:熊森林",
+      "未归一:白虎山",
+      "火烈鸟岛",
+      "熊猫村",
+      "黑猩猩展区"
+    ],
+    "official_coverage": 0.6666666666666666,
+    "jaccard": 0.36363636363636365,
+    "common_sequence_lcs": 3,
+    "common_order_similarity": 0.75,
+    "order_status": "applicable",
+    "time_distribution": {
+      "GZCL-OFF-01-R-b98590e484": {
+        "上午": 3,
+        "中午": 2,
+        "下午": 6
+      },
+      "GZCL-NOTE-06-R-3ff34f39b9": {
+        "未说明": 16
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点4个，官方独有2个，游客文本独有5个。共同景点顺序相似度为0.750。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "GZCL-OFF-01-R-b98590e484",
+    "visitor_route_id": "GZCL-NOTE-08-R-fc0bc11cde",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "青龙山",
+      "考拉园",
+      "熊猫乐园",
+      "4D影院",
+      "亚洲象园",
+      "长颈鹿广场"
+    ],
+    "visitor_sequence": [
+      "火烈鸟岛",
+      "熊猫村",
+      "天鹅湖",
+      "青龙山",
+      "未归一:白虎山",
+      "科莫多龙园区",
+      "考拉园"
+    ],
+    "shared": [
+      "考拉园",
+      "青龙山"
+    ],
+    "official_only": [
+      "4D影院",
+      "亚洲象园",
+      "熊猫乐园",
+      "长颈鹿广场"
+    ],
+    "visitor_only": [
+      "天鹅湖",
+      "未归一:白虎山",
+      "火烈鸟岛",
+      "熊猫村",
+      "科莫多龙园区"
+    ],
+    "official_coverage": 0.3333333333333333,
+    "jaccard": 0.18181818181818182,
+    "common_sequence_lcs": null,
+    "common_order_similarity": null,
+    "order_status": "not_applicable",
+    "time_distribution": {
+      "GZCL-OFF-01-R-b98590e484": {
+        "上午": 3,
+        "中午": 2,
+        "下午": 6
+      },
+      "GZCL-NOTE-08-R-fc0bc11cde": {
+        "上午": 4,
+        "中午": 2,
+        "下午": 4
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点2个，官方独有4个，游客文本独有5个。存在无序组或未决分支，顺序指标不适用。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "GZCL-OFF-01-R-b98590e484",
+    "visitor_route_id": "GZCL-NOTE-12-R-f5fee04dec",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "青龙山",
+      "考拉园",
+      "熊猫乐园",
+      "4D影院",
+      "亚洲象园",
+      "长颈鹿广场"
+    ],
+    "visitor_sequence": [
+      "青龙山",
+      "长颈鹿广场",
+      "考拉园",
+      "熊猫乐园",
+      "百虎山",
+      "火烈鸟岛"
+    ],
+    "shared": [
+      "熊猫乐园",
+      "考拉园",
+      "长颈鹿广场",
+      "青龙山"
+    ],
+    "official_only": [
+      "4D影院",
+      "亚洲象园"
+    ],
+    "visitor_only": [
+      "火烈鸟岛",
+      "百虎山"
+    ],
+    "official_coverage": 0.6666666666666666,
+    "jaccard": 0.5,
+    "common_sequence_lcs": null,
+    "common_order_similarity": null,
+    "order_status": "not_applicable",
+    "time_distribution": {
+      "GZCL-OFF-01-R-b98590e484": {
+        "上午": 3,
+        "中午": 2,
+        "下午": 6
+      },
+      "GZCL-NOTE-12-R-f5fee04dec": {
+        "上午": 3,
+        "下午": 4,
+        "未说明": 1
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点4个，官方独有2个，游客文本独有2个。存在无序组或未决分支，顺序指标不适用。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-02-R-0765aea403",
+    "visitor_nature": "visitor_unspecified",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "镜海"
+    ],
+    "shared": [
+      "五彩池",
+      "镜海",
+      "长海"
+    ],
+    "official_only": [
+      "五花海",
+      "卧龙海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "树正寨",
+      "树正瀑布",
+      "树正磨房",
+      "熊猫海",
+      "犀牛海",
+      "盆景滩",
+      "箭竹海",
+      "老虎海",
+      "芳草海",
+      "诺日朗群海"
+    ],
+    "visitor_only": [],
+    "official_coverage": 0.16666666666666666,
+    "jaccard": 0.16666666666666666,
+    "common_sequence_lcs": 2,
+    "common_order_similarity": 0.6666666666666666,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-02-R-0765aea403": {
+        "清晨": 1,
+        "未说明": 2
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点3个，官方独有15个，游客文本独有0个。共同景点顺序相似度为0.667。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-03-R-7f44fd1c84",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "珍珠滩",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正群海",
+      "火花海"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "树正瀑布",
+      "熊猫海",
+      "犀牛海",
+      "箭竹海",
+      "老虎海",
+      "长海"
+    ],
+    "official_only": [
+      "卧龙海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "树正寨",
+      "树正磨房",
+      "盆景滩",
+      "芳草海",
+      "诺日朗群海",
+      "镜海"
+    ],
+    "visitor_only": [
+      "树正群海",
+      "火花海",
+      "珍珠滩"
+    ],
+    "official_coverage": 0.4444444444444444,
+    "jaccard": 0.38095238095238093,
+    "common_sequence_lcs": 6,
+    "common_order_similarity": 0.75,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-03-R-7f44fd1c84": {
+        "上午": 3,
+        "中午": 1,
+        "下午": 5,
+        "傍晚": 6
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点8个，官方独有10个，游客文本独有3个。共同景点顺序相似度为0.750。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-04-R-2cf46b07bb",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "五花海",
+      "珍珠滩",
+      "长海",
+      "五彩池",
+      "树正群海"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "长海"
+    ],
+    "official_only": [
+      "卧龙海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "树正寨",
+      "树正瀑布",
+      "树正磨房",
+      "熊猫海",
+      "犀牛海",
+      "盆景滩",
+      "箭竹海",
+      "老虎海",
+      "芳草海",
+      "诺日朗群海",
+      "镜海"
+    ],
+    "visitor_only": [
+      "树正群海",
+      "珍珠滩"
+    ],
+    "official_coverage": 0.16666666666666666,
+    "jaccard": 0.15,
+    "common_sequence_lcs": 3,
+    "common_order_similarity": 1.0,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-04-R-2cf46b07bb": {
+        "上午": 4,
+        "中午": 1,
+        "下午": 3
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点3个，官方独有15个，游客文本独有2个。共同景点顺序相似度为1.000。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-05-R-749b346213",
+    "visitor_nature": "visitor_actual_claim",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "火花海",
+      "双龙海",
+      "芦苇海",
+      "原始森林",
+      "树正沟"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "熊猫海",
+      "犀牛海",
+      "箭竹海",
+      "芳草海",
+      "镜海",
+      "长海"
+    ],
+    "official_only": [
+      "卧龙海",
+      "树正寨",
+      "树正瀑布",
+      "树正磨房",
+      "盆景滩",
+      "老虎海",
+      "诺日朗群海"
+    ],
+    "visitor_only": [
+      "树正沟",
+      "火花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "芦苇海",
+      "诺日朗瀑布"
+    ],
+    "official_coverage": 0.6111111111111112,
+    "jaccard": 0.4583333333333333,
+    "common_sequence_lcs": 9,
+    "common_order_similarity": 0.75,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-05-R-749b346213": {
+        "未说明": 24
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点11个，官方独有7个，游客文本独有6个。共同景点顺序相似度为0.750。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-11-R-4ef6e6a46e",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "箭竹海",
+      "熊猫海",
+      "熊猫海瀑布",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海"
+    ],
+    "shared": [
+      "五花海",
+      "熊猫海",
+      "箭竹海",
+      "镜海"
+    ],
+    "official_only": [
+      "五彩池",
+      "卧龙海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "树正寨",
+      "树正瀑布",
+      "树正磨房",
+      "犀牛海",
+      "盆景滩",
+      "老虎海",
+      "芳草海",
+      "诺日朗群海",
+      "长海"
+    ],
+    "visitor_only": [
+      "熊猫海瀑布",
+      "珍珠滩",
+      "珍珠滩瀑布"
+    ],
+    "official_coverage": 0.2222222222222222,
+    "jaccard": 0.19047619047619047,
+    "common_sequence_lcs": 4,
+    "common_order_similarity": 1.0,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-11-R-4ef6e6a46e": {
+        "未说明": 7
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点4个，官方独有14个，游客文本独有3个。共同景点顺序相似度为1.000。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-11-R-7b1d341d07",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "熊猫海瀑布",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海"
+    ],
+    "shared": [
+      "五花海",
+      "镜海"
+    ],
+    "official_only": [
+      "五彩池",
+      "卧龙海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "树正寨",
+      "树正瀑布",
+      "树正磨房",
+      "熊猫海",
+      "犀牛海",
+      "盆景滩",
+      "箭竹海",
+      "老虎海",
+      "芳草海",
+      "诺日朗群海",
+      "长海"
+    ],
+    "visitor_only": [
+      "熊猫海瀑布",
+      "珍珠滩",
+      "珍珠滩瀑布"
+    ],
+    "official_coverage": 0.1111111111111111,
+    "jaccard": 0.09523809523809523,
+    "common_sequence_lcs": 2,
+    "common_order_similarity": 1.0,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-11-R-7b1d341d07": {
+        "上午": 5
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点2个，官方独有16个，游客文本独有3个。共同景点顺序相似度为1.000。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-11-R-a7eac262f6",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "树正群海",
+      "树正瀑布",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "shared": [
+      "五彩池",
+      "树正瀑布",
+      "盆景滩",
+      "长海"
+    ],
+    "official_only": [
+      "五花海",
+      "卧龙海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "树正寨",
+      "树正磨房",
+      "熊猫海",
+      "犀牛海",
+      "箭竹海",
+      "老虎海",
+      "芳草海",
+      "诺日朗群海",
+      "镜海"
+    ],
+    "visitor_only": [
+      "树正群海",
+      "芦苇海"
+    ],
+    "official_coverage": 0.2222222222222222,
+    "jaccard": 0.2,
+    "common_sequence_lcs": 4,
+    "common_order_similarity": 1.0,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-11-R-a7eac262f6": {
+        "未说明": 8
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点4个，官方独有14个，游客文本独有2个。共同景点顺序相似度为1.000。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-02-R-0765aea403",
+    "visitor_nature": "visitor_unspecified",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "镜海"
+    ],
+    "shared": [
+      "五彩池",
+      "长海"
+    ],
+    "official_only": [
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "树正瀑布",
+      "树正群海",
+      "熊猫海",
+      "犀牛海",
+      "珍珠滩",
+      "盆景滩",
+      "箭竹海",
+      "芦苇海",
+      "芳草海",
+      "诺日朗瀑布"
+    ],
+    "visitor_only": [
+      "镜海"
+    ],
+    "official_coverage": 0.13333333333333333,
+    "jaccard": 0.125,
+    "common_sequence_lcs": 2,
+    "common_order_similarity": 1.0,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-02-R-0765aea403": {
+        "清晨": 1,
+        "未说明": 2
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点2个，官方独有13个，游客文本独有1个。共同景点顺序相似度为1.000。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-03-R-7f44fd1c84",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "珍珠滩",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正群海",
+      "火花海"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "树正瀑布",
+      "树正群海",
+      "熊猫海",
+      "犀牛海",
+      "珍珠滩",
+      "箭竹海",
+      "长海"
+    ],
+    "official_only": [
+      "原始森林",
+      "双龙海",
+      "盆景滩",
+      "芦苇海",
+      "芳草海",
+      "诺日朗瀑布"
+    ],
+    "visitor_only": [
+      "火花海",
+      "老虎海"
+    ],
+    "official_coverage": 0.6,
+    "jaccard": 0.5294117647058824,
+    "common_sequence_lcs": 8,
+    "common_order_similarity": 0.6666666666666666,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-03-R-7f44fd1c84": {
+        "上午": 3,
+        "中午": 1,
+        "下午": 5,
+        "傍晚": 6
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点9个，官方独有6个，游客文本独有2个。共同景点顺序相似度为0.667。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-04-R-2cf46b07bb",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "五花海",
+      "珍珠滩",
+      "长海",
+      "五彩池",
+      "树正群海"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "树正群海",
+      "珍珠滩",
+      "长海"
+    ],
+    "official_only": [
+      "原始森林",
+      "双龙海",
+      "树正瀑布",
+      "熊猫海",
+      "犀牛海",
+      "盆景滩",
+      "箭竹海",
+      "芦苇海",
+      "芳草海",
+      "诺日朗瀑布"
+    ],
+    "visitor_only": [],
+    "official_coverage": 0.3333333333333333,
+    "jaccard": 0.3333333333333333,
+    "common_sequence_lcs": 3,
+    "common_order_similarity": 0.5,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-04-R-2cf46b07bb": {
+        "上午": 4,
+        "中午": 1,
+        "下午": 3
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点5个，官方独有10个，游客文本独有0个。共同景点顺序相似度为0.500。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-04-R-707071b5c2",
+    "visitor_nature": "visitor_actual_claim",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "犀牛海",
+      "树正群海",
+      "芦苇海"
+    ],
+    "shared": [
+      "树正群海",
+      "犀牛海",
+      "芦苇海"
+    ],
+    "official_only": [
+      "五彩池",
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "树正瀑布",
+      "熊猫海",
+      "珍珠滩",
+      "盆景滩",
+      "箭竹海",
+      "芳草海",
+      "诺日朗瀑布",
+      "长海"
+    ],
+    "visitor_only": [],
+    "official_coverage": 0.2,
+    "jaccard": 0.2,
+    "common_sequence_lcs": 3,
+    "common_order_similarity": 0.5,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-04-R-707071b5c2": {
+        "下午": 3
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点3个，官方独有12个，游客文本独有0个。共同景点顺序相似度为0.500。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-05-R-749b346213",
+    "visitor_nature": "visitor_actual_claim",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "火花海",
+      "双龙海",
+      "芦苇海",
+      "原始森林",
+      "树正沟"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "熊猫海",
+      "犀牛海",
+      "珍珠滩",
+      "箭竹海",
+      "芦苇海",
+      "芳草海",
+      "诺日朗瀑布",
+      "长海"
+    ],
+    "official_only": [
+      "树正瀑布",
+      "树正群海",
+      "盆景滩"
+    ],
+    "visitor_only": [
+      "天鹅海",
+      "树正沟",
+      "火花海",
+      "珍珠滩瀑布",
+      "镜海"
+    ],
+    "official_coverage": 0.8,
+    "jaccard": 0.6,
+    "common_sequence_lcs": 11,
+    "common_order_similarity": 0.6875,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-05-R-749b346213": {
+        "未说明": 24
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点12个，官方独有3个，游客文本独有5个。共同景点顺序相似度为0.688。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-11-R-4ef6e6a46e",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "箭竹海",
+      "熊猫海",
+      "熊猫海瀑布",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海"
+    ],
+    "shared": [
+      "五花海",
+      "熊猫海",
+      "珍珠滩",
+      "箭竹海"
+    ],
+    "official_only": [
+      "五彩池",
+      "原始森林",
+      "双龙海",
+      "树正瀑布",
+      "树正群海",
+      "犀牛海",
+      "盆景滩",
+      "芦苇海",
+      "芳草海",
+      "诺日朗瀑布",
+      "长海"
+    ],
+    "visitor_only": [
+      "熊猫海瀑布",
+      "珍珠滩瀑布",
+      "镜海"
+    ],
+    "official_coverage": 0.26666666666666666,
+    "jaccard": 0.2222222222222222,
+    "common_sequence_lcs": 3,
+    "common_order_similarity": 0.75,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-11-R-4ef6e6a46e": {
+        "未说明": 7
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点4个，官方独有11个，游客文本独有3个。共同景点顺序相似度为0.750。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-11-R-7b1d341d07",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "熊猫海瀑布",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海"
+    ],
+    "shared": [
+      "五花海",
+      "珍珠滩"
+    ],
+    "official_only": [
+      "五彩池",
+      "原始森林",
+      "双龙海",
+      "树正瀑布",
+      "树正群海",
+      "熊猫海",
+      "犀牛海",
+      "盆景滩",
+      "箭竹海",
+      "芦苇海",
+      "芳草海",
+      "诺日朗瀑布",
+      "长海"
+    ],
+    "visitor_only": [
+      "熊猫海瀑布",
+      "珍珠滩瀑布",
+      "镜海"
+    ],
+    "official_coverage": 0.13333333333333333,
+    "jaccard": 0.1111111111111111,
+    "common_sequence_lcs": 1,
+    "common_order_similarity": 0.5,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-11-R-7b1d341d07": {
+        "上午": 5
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点2个，官方独有13个，游客文本独有3个。共同景点顺序相似度为0.500。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  {
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-11-R-a7eac262f6",
+    "visitor_nature": "visitor_recommendation",
+    "official_sequence": [
+      "长海",
+      "五彩池",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩",
+      "原始森林",
+      "芳草海",
+      "箭竹海",
+      "熊猫海",
+      "珍珠滩",
+      "五花海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "树正瀑布",
+      "树正群海",
+      "双龙海",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "树正群海",
+      "树正瀑布",
+      "芦苇海",
+      "盆景滩"
+    ],
+    "shared": [
+      "五彩池",
+      "树正瀑布",
+      "树正群海",
+      "盆景滩",
+      "芦苇海",
+      "长海"
+    ],
+    "official_only": [
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "熊猫海",
+      "犀牛海",
+      "珍珠滩",
+      "箭竹海",
+      "芳草海",
+      "诺日朗瀑布"
+    ],
+    "visitor_only": [],
+    "official_coverage": 0.4,
+    "jaccard": 0.4,
+    "common_sequence_lcs": 6,
+    "common_order_similarity": 0.6,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-6716383269": {
+        "未说明": 28
+      },
+      "JZG-NOTE-11-R-a7eac262f6": {
+        "未说明": 8
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点6个，官方独有9个，游客文本独有0个。共同景点顺序相似度为0.600。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  }
+]

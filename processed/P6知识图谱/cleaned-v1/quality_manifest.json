@@ -1,0 +1,116 @@
+{
+  "version": "p6-quality-themes-v1",
+  "stages": [
+    "route_quality_filter",
+    "historical_time_summary",
+    "condition_recommendation_summary",
+    "entity_scoped_llm_theme_summary"
+  ],
+  "all_stages_completed": true,
+  "source_p5_graph_sha256": "261d170a36f27b649064afa02af8bbea558002df6bd28e419d5b85fd07cbbd68",
+  "raw_observations_sha256": "ea22478db9c6829c2403c30b4b18e29983273734f3a1dfde2d71c853b44d83bb",
+  "documents_sha256": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+  "graph_sha256": "f459a3af480475cd3e22d7607b40cc6c73e07d14d9e6f6cad242bfa63be53ec7",
+  "nodes": 6763,
+  "edges": 9824,
+  "time_summaries": 217,
+  "advice_summaries": 265,
+  "advice_audit": {
+    "input_records": 1470,
+    "rules": 1358,
+    "attribute_records": 112,
+    "summaries": 265,
+    "quarantined_records": [
+      {
+        "source_record_id": "FACT-4a86b60c81b1a9ae6a34",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "FACT-9d1f441a241e4c5c489a",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-1012b71297614c324064",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-3347ab53eaa397a0f0b2",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-588b7e3b21853d84278b",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-5a992ed221b6a3eba5f6",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-5d929ce9f939d771963c",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-5ef004a3f4d7f33fab9f",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-6bb6fa69c94a805ea7c4",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-76970136aa56586286ec",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-9b114a843e334120448a",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-bf45b1153eaa78d1ed75",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-c5892f7b160887c99664",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-ea868eb7adff27251bf3",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      },
+      {
+        "source_record_id": "RULE-ea8e4f9301646c4f0360",
+        "reason": "excluded_route_fragment_scope",
+        "included_in_default_recommendations": false
+      }
+    ],
+    "input_target_memberships": 1816,
+    "summary_items": 1815,
+    "exact_duplicate_memberships_merged": 1,
+    "semantic_merge_completed": false,
+    "llm_calls": 0,
+    "limitations": [
+      "主题及分栏是程序标签，不是语义核真",
+      "仅合并同条件、同语气、同目标及同作用域的明确重复",
+      "尚未进行LLM同义归并或全面矛盾检测；不将多来源数量视为可信度"
+    ]
+  },
+  "llm_calls": 0,
+  "llm_theme_result_sha256": "9f893bba0e244f432d34f5ffe4a1cc04ccc811ac5cf43b22104974e7e0a11780",
+  "llm_theme_entity_scene_groups": 257,
+  "llm_theme_unique_entity_ids": 249,
+  "llm_theme_count": 548
+}

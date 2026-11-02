@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "a29e01f3851f1967ca050f199a50be9727f41c3d04a70e6600158f8a95712bdd",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1631695,
+  "round_trip_ms": 198.64119999692775,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1080,
+      "width": 1440
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            214.0,
+            193.0
+          ],
+          [
+            323.0,
+            193.0
+          ],
+          [
+            323.0,
+            263.0
+          ],
+          [
+            214.0,
+            263.0
+          ]
+        ],
+        "confidence": 0.9941378831863403,
+        "text": "长隆"
+      },
+      {
+        "box": [
+          [
+            224.0,
+            245.0
+          ],
+          [
+            313.0,
+            241.0
+          ],
+          [
+            314.0,
+            268.0
+          ],
+          [
+            226.0,
+            272.0
+          ]
+        ],
+        "confidence": 0.9949434995651245,
+        "text": "CHIMELONG"
+      },
+      {
+        "box": [
+          [
+            1380.0,
+            1044.0
+          ],
+          [
+            1427.0,
+            1044.0
+          ],
+          [
+            1427.0,
+            1069.0
+          ],
+          [
+            1380.0,
+            1069.0
+          ]
+        ],
+        "confidence": 0.5465526580810547,
+        "text": "小电书"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.329558,
+      "decode": 24.211867,
+      "det_infer": 98.536124,
+      "det_post": 1.019317,
+      "det_pre": 36.905558,
+      "pipeline": 142.707667,
+      "rec_infer": 5.626837,
+      "rec_post": 0.17952500000000002,
+      "rec_pre": 0.104205,
+      "server_compute": 166.920186,
+      "sort": 0.001153
+    },
+    "request_id": "clean-a29e01f3851f1967ca050f19"
+  }
+}

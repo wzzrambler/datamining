@@ -1,0 +1,2071 @@
+{
+  "run_id": "themes-20261101-v2",
+  "model": "deepseek-flash",
+  "context_limit": 30000,
+  "max_output_tokens": 8192,
+  "eligible_entities": 257,
+  "selected_entities": 257,
+  "estimated_mean_prompt_tokens": 2784.2,
+  "estimated_max_prompt_tokens": 19455,
+  "estimated_max_prompt_plus_output_and_safety": 28671,
+  "estimation_method": "offline_CJK_ASCII_estimate_not_official_tokenizer",
+  "prompt_sha256": "b2eea37b82c691ccd800ff8a1e7a8fc9ec2921f0ddf0b3fbddd43bc5af7a25f4",
+  "packages": [
+    {
+      "summary_id": "ADVICE-b56d14bfc0f3bdab8a6b",
+      "entity_id": "POI-a9df4e391f8f4dc5",
+      "scenic_code": "ZHCL",
+      "items": 75,
+      "estimated_prompt_tokens": 19455,
+      "fingerprint": "03c46886b96f35fcb37ce1917753c55b6ccb3498fe340e58dc2d8f9a485a0496"
+    },
+    {
+      "summary_id": "ADVICE-14a12373d3be92c1ab50",
+      "entity_id": "POI-cb24680dd82e15c1",
+      "scenic_code": "JZG",
+      "items": 71,
+      "estimated_prompt_tokens": 17755,
+      "fingerprint": "85605aa8320c8b9687082e2a8e6f7b9c26105186191cc8298eb42c21cde496a4"
+    },
+    {
+      "summary_id": "ADVICE-a4858a0451ebf42c9e56",
+      "entity_id": "POI-a62c2af16093cd29",
+      "scenic_code": "GZCL",
+      "items": 58,
+      "estimated_prompt_tokens": 15585,
+      "fingerprint": "2d7b99d20072df9db32130941e62d05430f6604ee33a1d48dbfb978f929fabeb"
+    },
+    {
+      "summary_id": "ADVICE-ed15b31698caed283336",
+      "entity_id": "TRANSPORT-9b5ed8e652f8e344",
+      "scenic_code": "GZCL",
+      "items": 35,
+      "estimated_prompt_tokens": 10735,
+      "fingerprint": "a9d9b7dd9d1e0971b8d36d0b931a3618b12b910263df852881fd957ce3a8a26b"
+    },
+    {
+      "summary_id": "ADVICE-29f1a5a03f663dc57377",
+      "entity_id": "POI-1fc2c78de022d941",
+      "scenic_code": "GZCL",
+      "items": 34,
+      "estimated_prompt_tokens": 12695,
+      "fingerprint": "108a6edac076c3ca9c84519af49e72ec0b0b34ac5b6013c2f7636cf8383bf8cc"
+    },
+    {
+      "summary_id": "ADVICE-2fe2b991b9fce9e7c753",
+      "entity_id": "POI-a861b1470d96ab5f",
+      "scenic_code": "GZCL",
+      "items": 30,
+      "estimated_prompt_tokens": 9594,
+      "fingerprint": "a4ecbf269a12b0d59c6331d48044e3fdbff875956d8a3144f389bb631ed90caf"
+    },
+    {
+      "summary_id": "ADVICE-317471c3dc4b125b9eb0",
+      "entity_id": "POI-0baa51d763ec4739",
+      "scenic_code": "GZCL",
+      "items": 26,
+      "estimated_prompt_tokens": 7858,
+      "fingerprint": "8b25605c892d729fefaf4e62fed515fca85d351b6eba6acc4f26d23c58296dbe"
+    },
+    {
+      "summary_id": "ADVICE-556fa9ddb926ddb35e62",
+      "entity_id": "POI-aac7d90bfc5ff426",
+      "scenic_code": "GZCL",
+      "items": 25,
+      "estimated_prompt_tokens": 9539,
+      "fingerprint": "2b5e1cc4171fc98d8595ea4b041492933149f1e7d2867c924907e2c14fee7826"
+    },
+    {
+      "summary_id": "ADVICE-04c2b719d021bc4ddc19",
+      "entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "scenic_code": "JZG",
+      "items": 24,
+      "estimated_prompt_tokens": 6869,
+      "fingerprint": "8145bfc1ac3463922e1874bea66cb90a0dd51bfc553d4f295ef42f5cada28d5a"
+    },
+    {
+      "summary_id": "ADVICE-2c80b92992b046408a8b",
+      "entity_id": "POI-859e5641d28e8b93",
+      "scenic_code": "JZG",
+      "items": 22,
+      "estimated_prompt_tokens": 6446,
+      "fingerprint": "46fa1faee2fb1670ad45366b1b1a488abf5fda1b80b98877f35b2b7b063624bf"
+    },
+    {
+      "summary_id": "ADVICE-4c33ba63d7104f7bbe22",
+      "entity_id": "POI-3236debf17c97904",
+      "scenic_code": "ZHCL",
+      "items": 21,
+      "estimated_prompt_tokens": 6399,
+      "fingerprint": "ac8da4320ab9df941601813e67e990fc3f68c187c06fdd8b13afe0d3125cacba"
+    },
+    {
+      "summary_id": "ADVICE-77f486196afa602e6f86",
+      "entity_id": "POI-49cc28405c4af399",
+      "scenic_code": "ZHCL",
+      "items": 21,
+      "estimated_prompt_tokens": 6680,
+      "fingerprint": "f286d46899ab52420cc5d056bad202379e9006d13d17ce7cefc0285b3ad54426"
+    },
+    {
+      "summary_id": "ADVICE-098cc9c828b80cb1b6b2",
+      "entity_id": "POI-24536d158b9d592d",
+      "scenic_code": "ZHCL",
+      "items": 18,
+      "estimated_prompt_tokens": 5524,
+      "fingerprint": "066c2c0353544984792ed63ed705e52cae0c348fda5b8782a71d4bbb2c4bebb6"
+    },
+    {
+      "summary_id": "ADVICE-5c1c25f7301cc6341d57",
+      "entity_id": "POI-d6697eb23bea8174",
+      "scenic_code": "ZHCL",
+      "items": 17,
+      "estimated_prompt_tokens": 5519,
+      "fingerprint": "a14a8025b3d6f13e1ffb7f0ecce62a300d3f347ceb65d7af0756a73a3fc383dc"
+    },
+    {
+      "summary_id": "ADVICE-fbe11274f758313ff486",
+      "entity_id": "POI-39f671334b05bd19",
+      "scenic_code": "JZG",
+      "items": 17,
+      "estimated_prompt_tokens": 6910,
+      "fingerprint": "2a7da769357bac399958bb93bc97b09775c07509b84fe8f9bb7ad020fb0ea920"
+    },
+    {
+      "summary_id": "ADVICE-40a4508b8635414d7f3e",
+      "entity_id": "POI-f2b4e627e9f8f21e",
+      "scenic_code": "ZHCL",
+      "items": 16,
+      "estimated_prompt_tokens": 5050,
+      "fingerprint": "dc17647acd5e96f7a4ca8011736707fdb8112a1134c3332b2ab5503eb0580917"
+    },
+    {
+      "summary_id": "ADVICE-434ef9948dcf56dde538",
+      "entity_id": "POI-3ee90e175366fdcd",
+      "scenic_code": "ZHCL",
+      "items": 16,
+      "estimated_prompt_tokens": 5816,
+      "fingerprint": "e4a5c0137ce8d6ffff51ec9c8f08cfd71d01872420bbeb8075a2929421481375"
+    },
+    {
+      "summary_id": "ADVICE-fec39265e57bf456eb88",
+      "entity_id": "POI-54159dd45e739e0c",
+      "scenic_code": "JZG",
+      "items": 16,
+      "estimated_prompt_tokens": 5285,
+      "fingerprint": "f992d57e0b3214518b830035d1996d1204b5bbca384989fbc21acbc7d5beb57b"
+    },
+    {
+      "summary_id": "ADVICE-d0c756b7655a64d18977",
+      "entity_id": "POI-5f6108e8b89839dd",
+      "scenic_code": "GZCL",
+      "items": 15,
+      "estimated_prompt_tokens": 5215,
+      "fingerprint": "a9836c74c013f89934f2e4953977a08be0e3521ca8fe74ca4477de1de5e5278b"
+    },
+    {
+      "summary_id": "ADVICE-2d7af4d921f95c51531e",
+      "entity_id": "POI-d84c258e38dc6005",
+      "scenic_code": "JZG",
+      "items": 14,
+      "estimated_prompt_tokens": 5525,
+      "fingerprint": "68c060a943af9f67506cffb4c5d8a3a6e73a708b6d15589fb431059408171653"
+    },
+    {
+      "summary_id": "ADVICE-73173efbf81375464016",
+      "entity_id": "TRANSPORT-1f9dec76824b98e0",
+      "scenic_code": "GZCL",
+      "items": 14,
+      "estimated_prompt_tokens": 4845,
+      "fingerprint": "3e4dbecb6ad5008c6270daab19870ee55d7cdc39d6038a6f43a58f99de2271f5"
+    },
+    {
+      "summary_id": "ADVICE-fa434793ce647f1de91a",
+      "entity_id": "POI-af9f086f65127147",
+      "scenic_code": "JZG",
+      "items": 14,
+      "estimated_prompt_tokens": 4651,
+      "fingerprint": "fbd8bed4633db6b08288ecb5d92bb9d7804b309aecc2cc2768fce91df18f4225"
+    },
+    {
+      "summary_id": "ADVICE-3864016bd97ae802219b",
+      "entity_id": "POI-2e158f7f7465f6f2",
+      "scenic_code": "GZCL",
+      "items": 13,
+      "estimated_prompt_tokens": 5026,
+      "fingerprint": "e4e8a6d43736e8e2d484b1cb0c75ce778833473cd533f82f98d08c17568b2614"
+    },
+    {
+      "summary_id": "ADVICE-87f6363b1c95c8df0c4e",
+      "entity_id": "POI-10e8a874d4a64eeb",
+      "scenic_code": "JZG",
+      "items": 13,
+      "estimated_prompt_tokens": 4969,
+      "fingerprint": "3475f2d3027457ab7908242b2496d843aaab8f388dc281adc1189126f359e51a"
+    },
+    {
+      "summary_id": "ADVICE-a912c465722acf6f83c0",
+      "entity_id": "POI-73de67c9bb37b2da",
+      "scenic_code": "GZCL",
+      "items": 13,
+      "estimated_prompt_tokens": 5784,
+      "fingerprint": "869cf0989b54ab450b6cec63245897b813925c0d4e9751e4bf81a8830bc91b74"
+    },
+    {
+      "summary_id": "ADVICE-1522c9eff4324f005d99",
+      "entity_id": "POI-0e708b4c23900ae0",
+      "scenic_code": "ZHCL",
+      "items": 12,
+      "estimated_prompt_tokens": 4183,
+      "fingerprint": "ef853674255803ce57f7ca2c228544c4560b35a61b2654025d30f214c9803a9e"
+    },
+    {
+      "summary_id": "ADVICE-476624d54d52b56814a7",
+      "entity_id": "TRANSPORT-78f05fe80a344b95",
+      "scenic_code": "GZCL",
+      "items": 12,
+      "estimated_prompt_tokens": 4350,
+      "fingerprint": "5a7312daebe7fa6fe62ed178049815361f4e88261a3c681e6f6e8b243f353228"
+    },
+    {
+      "summary_id": "ADVICE-7f4846f386297f17dbaf",
+      "entity_id": "POI-87daa5f702674d91",
+      "scenic_code": "ZHCL",
+      "items": 12,
+      "estimated_prompt_tokens": 4069,
+      "fingerprint": "376e31b58587dcc08e09cdb52ffa98a891f708cecfcb68ec6d984eff7cb5b030"
+    },
+    {
+      "summary_id": "ADVICE-0b903690f9a7e225b692",
+      "entity_id": "TRANSPORT-302154bebe2201cc",
+      "scenic_code": "JZG",
+      "items": 11,
+      "estimated_prompt_tokens": 3885,
+      "fingerprint": "229eb34f9c5e1f9523913356cb90ca22790aa49ffe11df8bad50662962e086c0"
+    },
+    {
+      "summary_id": "ADVICE-0e5b192f9e6f1b39d75e",
+      "entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+      "scenic_code": "GZCL",
+      "items": 11,
+      "estimated_prompt_tokens": 3761,
+      "fingerprint": "55cd44d1a59c749b4ce761eb459acba4cce48535a3ef2a842283cca7035d81b5"
+    },
+    {
+      "summary_id": "ADVICE-5311ced7b1ae6d8ef4c1",
+      "entity_id": "TRANSPORT-4dfe4ae37d7ac7ce",
+      "scenic_code": "JZG",
+      "items": 11,
+      "estimated_prompt_tokens": 3763,
+      "fingerprint": "723009b6b58f917a95f853118aaa805dafce97a28f4fbf12a8ca63b601d34cde"
+    },
+    {
+      "summary_id": "ADVICE-603153f14a8f47e4611d",
+      "entity_id": "POI-aa28ef8584e34841",
+      "scenic_code": "GZCL",
+      "items": 11,
+      "estimated_prompt_tokens": 5095,
+      "fingerprint": "6d990f371c9d587cd4627312d73c5363b5f0dcb644c64e0f8531d1a70f32094a"
+    },
+    {
+      "summary_id": "ADVICE-8aa47c9a5c1a0db78370",
+      "entity_id": "POI-c5d3794a5bd479c4",
+      "scenic_code": "ZHCL",
+      "items": 11,
+      "estimated_prompt_tokens": 3955,
+      "fingerprint": "9189313622f8a6e243a64ff47c50797aa4192a15e19ca8baa884969a311ecf0c"
+    },
+    {
+      "summary_id": "ADVICE-dffe119b18a9d617d791",
+      "entity_id": "POI-0bcb1dea43e5296a",
+      "scenic_code": "JZG",
+      "items": 11,
+      "estimated_prompt_tokens": 4400,
+      "fingerprint": "601cbd434b9ffbf0538544cf3d9a0426e3015e3abcde14e7061f29dd3358f684"
+    },
+    {
+      "summary_id": "ADVICE-86949f22a802a7e9fc31",
+      "entity_id": "POI-945872fa06706211",
+      "scenic_code": "GZCL",
+      "items": 10,
+      "estimated_prompt_tokens": 4384,
+      "fingerprint": "ed976dda7425f73ef78d85c2455f8ff14ca52fe33ca1aaedee87f6d3d2dde932"
+    },
+    {
+      "summary_id": "ADVICE-d19873bd0688905caaf4",
+      "entity_id": "POI-13228cccee608f7d",
+      "scenic_code": "JZG",
+      "items": 10,
+      "estimated_prompt_tokens": 3740,
+      "fingerprint": "d74d052aea9f0715b6e189037fd5f7abfbc48eb2b9c145db7d3d8adadb335d22"
+    },
+    {
+      "summary_id": "ADVICE-e215ff1782f0dae7ac0f",
+      "entity_id": "POI-e22d48e99c31fe08",
+      "scenic_code": "ZHCL",
+      "items": 10,
+      "estimated_prompt_tokens": 3774,
+      "fingerprint": "85146b3b7ca24e7da1a565402fd87685eb2df479d534e312d7502abcabb72538"
+    },
+    {
+      "summary_id": "ADVICE-2252377a67c73c076282",
+      "entity_id": "POI-41d5eefef861e525",
+      "scenic_code": "GZCL",
+      "items": 9,
+      "estimated_prompt_tokens": 4323,
+      "fingerprint": "a8c3c711e3deda588c41f02cc6fa106d467609968a542093e0d932bbc6ea3ae6"
+    },
+    {
+      "summary_id": "ADVICE-28f6d0451618fc8c320b",
+      "entity_id": "POI-c9eafeca46dfede7",
+      "scenic_code": "GZCL",
+      "items": 9,
+      "estimated_prompt_tokens": 3646,
+      "fingerprint": "bb49f83f7e028aba242dd39a48c27cd7bd10f4c3a7fa16f5ed571cf123fd9b9f"
+    },
+    {
+      "summary_id": "ADVICE-3fade1785257f2a9de73",
+      "entity_id": "POI-b52544c6bf257d41",
+      "scenic_code": "GZCL",
+      "items": 9,
+      "estimated_prompt_tokens": 4680,
+      "fingerprint": "cf4400250a3cf0714f7343f804e018445842900d7b53c95c78f688a78825d57f"
+    },
+    {
+      "summary_id": "ADVICE-6aa009b613b236f96f48",
+      "entity_id": "POI-9eab3d0f42d1581a",
+      "scenic_code": "ZHCL",
+      "items": 9,
+      "estimated_prompt_tokens": 3555,
+      "fingerprint": "972e9cf3a1f47a000d23a98680d89f53782f482fc68a2e5506af6b9ae7a4641a"
+    },
+    {
+      "summary_id": "ADVICE-8baa801393f3666c60c3",
+      "entity_id": "TRANSPORT-cff4603db8535366",
+      "scenic_code": "GZCL",
+      "items": 9,
+      "estimated_prompt_tokens": 3709,
+      "fingerprint": "b2a5b33b91f1d1a54dc931bb016602773472488ef20031679c149dabe7e863c5"
+    },
+    {
+      "summary_id": "ADVICE-9704454584ab6e7fcbcc",
+      "entity_id": "POI-b9dffee86bef7b13",
+      "scenic_code": "ZHCL",
+      "items": 9,
+      "estimated_prompt_tokens": 3588,
+      "fingerprint": "dc342c4f609eb1686170c460c247c72fac61fe9412369c473ad9733b847c4e7b"
+    },
+    {
+      "summary_id": "ADVICE-9852e51c4b4c84315370",
+      "entity_id": "POI-25d53e13a3ca790d",
+      "scenic_code": "GZCL",
+      "items": 9,
+      "estimated_prompt_tokens": 4339,
+      "fingerprint": "cc863ea0a23197847087fe9f46035b585a8c29ea7a8ba9c123c8595e03312da8"
+    },
+    {
+      "summary_id": "ADVICE-6e208ecd29a31157556b",
+      "entity_id": "POI-ff1c7f688a819aea",
+      "scenic_code": "JZG",
+      "items": 8,
+      "estimated_prompt_tokens": 4088,
+      "fingerprint": "4995169055e8d02fdd92fca8cccb16e34d159956bbd5fb1205e8e570ac285f62"
+    },
+    {
+      "summary_id": "ADVICE-8f04a5339d85ed11f5e5",
+      "entity_id": "POI-6a4e18c9617ef088",
+      "scenic_code": "ZHCL",
+      "items": 8,
+      "estimated_prompt_tokens": 3230,
+      "fingerprint": "56896a9f77641e9bc946a2417c79a6fa7480629f2a9d25ac7f1a28fbfdcb6c57"
+    },
+    {
+      "summary_id": "ADVICE-e24520ee7a1893de54a7",
+      "entity_id": "POI-301f03111a2d5c2f",
+      "scenic_code": "ZHCL",
+      "items": 8,
+      "estimated_prompt_tokens": 3359,
+      "fingerprint": "3e8031e7f4d0aa613b826b5cabad2568e43cd9f7224e85cc575853b3d94efef9"
+    },
+    {
+      "summary_id": "ADVICE-1de5f943652e9ef75f71",
+      "entity_id": "POI-dfe674a2b7c954bf",
+      "scenic_code": "GZCL",
+      "items": 7,
+      "estimated_prompt_tokens": 3756,
+      "fingerprint": "0da345bff69d25041a718334bdacf4e0dbd88457b2baa366b8db781bbd07aaf2"
+    },
+    {
+      "summary_id": "ADVICE-9cc101a573e084afa143",
+      "entity_id": "POI-e08ce45abf2ba51f",
+      "scenic_code": "GZCL",
+      "items": 7,
+      "estimated_prompt_tokens": 2840,
+      "fingerprint": "93552240ea59ad496c8b0725fdf6ee859f4b20ac26f5fcbc96fad4100070afbc"
+    },
+    {
+      "summary_id": "ADVICE-f92bf82e938ed93b59b1",
+      "entity_id": "POI-de6db9a7cdd443ab",
+      "scenic_code": "JZG",
+      "items": 7,
+      "estimated_prompt_tokens": 3028,
+      "fingerprint": "7ba3b01749c76e411f3a1f27052c0e68198a21d51de7b5dd7e6d9f31bf667d09"
+    },
+    {
+      "summary_id": "ADVICE-1410f9b6e4d0fe247a38",
+      "entity_id": "POI-af9b3fc71949150f",
+      "scenic_code": "GZCL",
+      "items": 6,
+      "estimated_prompt_tokens": 2921,
+      "fingerprint": "bd9a58c7ba569c5b2db77a08368ab3e6c55f3625585449bfb22a5f49d48602ca"
+    },
+    {
+      "summary_id": "ADVICE-3b65778262ba27c3350d",
+      "entity_id": "POI-b1f6b7b2ab56bf1d",
+      "scenic_code": "GZCL",
+      "items": 6,
+      "estimated_prompt_tokens": 4068,
+      "fingerprint": "4df8f71961d8740f2e7de846cdffc097b01d57ced07c22652122584c246322f5"
+    },
+    {
+      "summary_id": "ADVICE-6035c411de51149f5c41",
+      "entity_id": "POI-5fa63dd98f5dd264",
+      "scenic_code": "JZG",
+      "items": 6,
+      "estimated_prompt_tokens": 3146,
+      "fingerprint": "615b6320cd4abbae64a6f2a3dc53d9955a58a708c2d8acae6dd6e9e1b490a585"
+    },
+    {
+      "summary_id": "ADVICE-70128eb8da22e645b661",
+      "entity_id": "POI-6f192b5902b5c9e3",
+      "scenic_code": "ZHCL",
+      "items": 6,
+      "estimated_prompt_tokens": 2808,
+      "fingerprint": "1f4d47d0efd3b059c5b1136df320f00be21474921686424de8337c7df9a46a50"
+    },
+    {
+      "summary_id": "ADVICE-7f7cb9684b8962491afe",
+      "entity_id": "POI-a9f1a43dfb4dde70",
+      "scenic_code": "GZCL",
+      "items": 6,
+      "estimated_prompt_tokens": 3670,
+      "fingerprint": "6637292d8a80d45fdf5480104036c86c5cdd8e546790f41c1c6273da403e1618"
+    },
+    {
+      "summary_id": "ADVICE-e4cf092f6665bd1fd38b",
+      "entity_id": "POI-3e926955a726b66f",
+      "scenic_code": "GZCL",
+      "items": 6,
+      "estimated_prompt_tokens": 2900,
+      "fingerprint": "8a725185c8cee056b768d60272e02f582b49dad092a16c14ab8369655ce926d4"
+    },
+    {
+      "summary_id": "ADVICE-f0fe876bab21bb8d598f",
+      "entity_id": "POI-9cb8ef99d892b62b",
+      "scenic_code": "JZG",
+      "items": 6,
+      "estimated_prompt_tokens": 2979,
+      "fingerprint": "548ad6071868f4a2f4a70fa91d1bb7d5fbd048bf864f5c08b3809b3c86b79305"
+    },
+    {
+      "summary_id": "ADVICE-fc0428771e2807ea029c",
+      "entity_id": "POI-545fccca3e7cf427",
+      "scenic_code": "JZG",
+      "items": 6,
+      "estimated_prompt_tokens": 2959,
+      "fingerprint": "a8ca977f4d8f9522cde60b84fcb2e8222e309c038896d8d51322c18cbfd0d854"
+    },
+    {
+      "summary_id": "ADVICE-63aa5a2fe0401bcab211",
+      "entity_id": "POI-8e30af6143e8c689",
+      "scenic_code": "ZHCL",
+      "items": 5,
+      "estimated_prompt_tokens": 2681,
+      "fingerprint": "aa066991d790dafbd595608f7d7b2b4808875d1780d8816fcc920c143cce3add"
+    },
+    {
+      "summary_id": "ADVICE-69097ef1c84b48074cd9",
+      "entity_id": "TRANSPORT-76947892b9ca8a44",
+      "scenic_code": "GZCL",
+      "items": 5,
+      "estimated_prompt_tokens": 2563,
+      "fingerprint": "b0664d5d5b2951ca3ce88b0a85751648af34acc2f1115428d01d5b8a8042c0d1"
+    },
+    {
+      "summary_id": "ADVICE-b49f0f75a8e2a123a00a",
+      "entity_id": "POI-547fc046adb8d376",
+      "scenic_code": "GZCL",
+      "items": 5,
+      "estimated_prompt_tokens": 2671,
+      "fingerprint": "a0673b773f2120edb5c24734d7a1ea9a8cd5bc370a8e0e8da2ba4d7a37a3e311"
+    },
+    {
+      "summary_id": "ADVICE-b90d0d445b72ec216b1b",
+      "entity_id": "TRANSPORT-beb59f353edcb983",
+      "scenic_code": "JZG",
+      "items": 5,
+      "estimated_prompt_tokens": 2515,
+      "fingerprint": "12214551efd917ea6ba99edf3082d1a0312523dbf47e9f67fe7f684f0481bb52"
+    },
+    {
+      "summary_id": "ADVICE-bed1ee98bce6129d2256",
+      "entity_id": "POI-85e6ae3c03e7893e",
+      "scenic_code": "GZCL",
+      "items": 5,
+      "estimated_prompt_tokens": 2725,
+      "fingerprint": "52261bf0ca7372a0d7ad4c316cb7960bfcac2df14646fe8594f7abaf7fbc5465"
+    },
+    {
+      "summary_id": "ADVICE-ea3b8aa623315735b7bf",
+      "entity_id": "POI-007a647d74f009b6",
+      "scenic_code": "GZCL",
+      "items": 5,
+      "estimated_prompt_tokens": 2926,
+      "fingerprint": "18e410d8242387ba415e54545db439be36634bb314ab82dd13d1ab3e0ff0e405"
+    },
+    {
+      "summary_id": "ADVICE-fa6eb164328769123ea6",
+      "entity_id": "POI-13fccb128c3272b4",
+      "scenic_code": "ZHCL",
+      "items": 5,
+      "estimated_prompt_tokens": 2446,
+      "fingerprint": "7ed0f8f126ebfaefb46b89ac33ea14f63967a505de35ac204d0de1687335e218"
+    },
+    {
+      "summary_id": "ADVICE-0dd55858ba32e2526188",
+      "entity_id": "POI-871c3b6e819c218e",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2744,
+      "fingerprint": "1d1d25b62c2f2253a4c50cd10be817d70409a07e21cceb65b298ab20c83ea2e2"
+    },
+    {
+      "summary_id": "ADVICE-2191967993214dc82c63",
+      "entity_id": "POI-275d47d6c2001f3f",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2726,
+      "fingerprint": "6f8e0f40bec25307a06ba6a02f2be250ea8b872f599e148a4724de55c20f014d"
+    },
+    {
+      "summary_id": "ADVICE-21a52b7375d33a773a83",
+      "entity_id": "POI-35e41b7e200a7bc0",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2625,
+      "fingerprint": "d0fff4c01322b1787bffbc112fccdd2ca9c9a36c679e8fe80dbb473342de439f"
+    },
+    {
+      "summary_id": "ADVICE-32d8426d8353a370dcc7",
+      "entity_id": "POI-1d40a08230988180",
+      "scenic_code": "ZHCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2311,
+      "fingerprint": "d2a4439a15127195f1c4e37df33fd80af9832cc336203e413d2aa3cc072ef3e5"
+    },
+    {
+      "summary_id": "ADVICE-38bb96ce8cb31df05fc7",
+      "entity_id": "LEG-5a58362f5f83f8260819",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2420,
+      "fingerprint": "1d56f4ecb4eb0c99481dbcc4d8cc927d4dc955686be408bc6ab683309c63551a"
+    },
+    {
+      "summary_id": "ADVICE-39bdc4fbaa08a7b726ed",
+      "entity_id": "LEG-4e98eba290f8fe1c283c",
+      "scenic_code": "GZCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2604,
+      "fingerprint": "06979f6eb7e79baa3939640e85950544dd24191f222f5d23839129917650ca70"
+    },
+    {
+      "summary_id": "ADVICE-4c8518d8fa8a60e7cdd0",
+      "entity_id": "POI-360c92072be143c1",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2343,
+      "fingerprint": "498f408a419a401ba71cc89bc43c8fbd5635ef75561b6361ae05724f05c0332b"
+    },
+    {
+      "summary_id": "ADVICE-57e17562eca1b1e7aafc",
+      "entity_id": "POI-5bfe3687eda400d9",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2394,
+      "fingerprint": "79131c2297bfb84b06bceee67223a331bce2bcf05983dd060c0985ee7955cdd9"
+    },
+    {
+      "summary_id": "ADVICE-695e2fb4c62ad5c06e63",
+      "entity_id": "POI-10ba21d884f53f2b",
+      "scenic_code": "ZHCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2329,
+      "fingerprint": "98eeea7dab60a061936b668877f3127afc54330afe11029ce94761449904ce32"
+    },
+    {
+      "summary_id": "ADVICE-6a805bcfc20bc01c62fe",
+      "entity_id": "LEG-186e9d5c3f1b522e8b21",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2505,
+      "fingerprint": "02cd5260a75e4af74a8ed57b45dcdc2b172984ab3545d5aa7e07de15da83912f"
+    },
+    {
+      "summary_id": "ADVICE-6b4d4dde2db45a516324",
+      "entity_id": "POI-aef8bb15db756e34",
+      "scenic_code": "ZHCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2426,
+      "fingerprint": "ae14bde73cc9bdcb33bb4b1ef5efdc0da0d7a9e6f1a889e40135cd3284739e2d"
+    },
+    {
+      "summary_id": "ADVICE-73fe541525fd6207bab4",
+      "entity_id": "POI-4cd36701be59f2ee",
+      "scenic_code": "ZHCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2418,
+      "fingerprint": "6722b50e22445a3770df364335ecf30b651b3610944e0e6cf9008918f340dce6"
+    },
+    {
+      "summary_id": "ADVICE-92e4d185baaeab0a6340",
+      "entity_id": "POI-9beeec837463067a",
+      "scenic_code": "ZHCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2344,
+      "fingerprint": "ed49d05abd36bedb130e5c34beabd8e7f0bcec6f3910090afa0ca8e04cebd681"
+    },
+    {
+      "summary_id": "ADVICE-94234720f101f365488a",
+      "entity_id": "POI-57664aee61e24331",
+      "scenic_code": "GZCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2413,
+      "fingerprint": "b1adda5a931e63f2649cb776695569febea4e89b7c793b38a90216353b568651"
+    },
+    {
+      "summary_id": "ADVICE-9c4e1c87a3c3dbd3a219",
+      "entity_id": "POI-a5e2ae7adbddb3ba",
+      "scenic_code": "GZCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2898,
+      "fingerprint": "bd41c6f6f25107462574f47f4bc517494a5ebccf2b5d931004f0924734d9716c"
+    },
+    {
+      "summary_id": "ADVICE-ac3d66a42a38f255c30f",
+      "entity_id": "POI-94a402b198679532",
+      "scenic_code": "GZCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2434,
+      "fingerprint": "f1071ee306ba156650e51c3ecfc3fd850b1032cbd69915dc95450fabcc609bfd"
+    },
+    {
+      "summary_id": "ADVICE-b3ee53514cb224e7892f",
+      "entity_id": "POI-2bc3cb4622efb0de",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2623,
+      "fingerprint": "295ec883f8240296077c4b084945436bfe3c8c35a8d0494bfed02d6426b60cb0"
+    },
+    {
+      "summary_id": "ADVICE-d470d4619e792cccfa44",
+      "entity_id": "POI-32a00d8fe0899f41",
+      "scenic_code": "GZCL",
+      "items": 4,
+      "estimated_prompt_tokens": 2481,
+      "fingerprint": "1bac8099e0cadbdb8bcc2fda4bdcb6a15a67132d28973e5fcca72e03ea9b376d"
+    },
+    {
+      "summary_id": "ADVICE-e6c94bb6cf88ec68fcbd",
+      "entity_id": "LEG-a05d858dbc2b4fbf526b",
+      "scenic_code": "JZG",
+      "items": 4,
+      "estimated_prompt_tokens": 2321,
+      "fingerprint": "925032786619ec70bb301882be38a0cc236263822f140ff4a9455981fc1ae493"
+    },
+    {
+      "summary_id": "ADVICE-0312e41f556a379cd4ab",
+      "entity_id": "POI-ebc9c6b6cc39c0aa",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2750,
+      "fingerprint": "d291020b99cca60fb9a168dbca8c29e714ef0a413dd348453272d8a4644b7e64"
+    },
+    {
+      "summary_id": "ADVICE-0619f26a9e62708fe4ff",
+      "entity_id": "POI-85a9974dcb5d66c0",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2056,
+      "fingerprint": "e486b4c3d4b2d1e7a674d14b3fe5572a3d526042290300dabd98fb25a2bb2d77"
+    },
+    {
+      "summary_id": "ADVICE-09b2bad2862898dcb8b0",
+      "entity_id": "POI-28a22fc7ce651360",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2288,
+      "fingerprint": "1b176d8ee3f7c24713a656a02420b3de21def6beffcf6bc59f4d134b83007c94"
+    },
+    {
+      "summary_id": "ADVICE-0b691e5200625607f8ea",
+      "entity_id": "POI-081574ee84e23fb5",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2060,
+      "fingerprint": "f33ca6180dec8af7a2383f5201ab962abb65db336248342859889590e1516a31"
+    },
+    {
+      "summary_id": "ADVICE-268040bc968a36595a02",
+      "entity_id": "POI-86a654325b202f68",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2356,
+      "fingerprint": "99c60992599da7ba2335b6a8ca659a521f67b14c9d2c9659acf6fced5fd43eab"
+    },
+    {
+      "summary_id": "ADVICE-30d4d6efcb2c5fe49dcb",
+      "entity_id": "TRANSPORT-8db4eab278163653",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2158,
+      "fingerprint": "78cfddac27971a99584f8108bb250fe11ef197955a3727f81bb64af1d687030c"
+    },
+    {
+      "summary_id": "ADVICE-41416511e04b9f7b7a39",
+      "entity_id": "POI-11db8601a1e93894",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2806,
+      "fingerprint": "f757b2a625845a3966a416f28ce1712da76c90f673431a03032f9e7baa6d50bd"
+    },
+    {
+      "summary_id": "ADVICE-43fd77d5cb70d728b0b5",
+      "entity_id": "POI-de48037e474f5793",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2343,
+      "fingerprint": "7e95c5d334f514ba7f37e62fc10e9fdfb03693c6d59e67708b8d1b7f5af60f01"
+    },
+    {
+      "summary_id": "ADVICE-5c9775f5965fe113ba1c",
+      "entity_id": "POI-25d5c8122d40c935",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2049,
+      "fingerprint": "812c6bddfa5486be5ef13ffa85e29a45959335b770386f07fcf14b251d0b3e41"
+    },
+    {
+      "summary_id": "ADVICE-6a2eb934e6572e4d3dbd",
+      "entity_id": "POI-9ea54f9e5e92a0ee",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2270,
+      "fingerprint": "944595a3e98055c7c9835582a0fd45b5fcea516fab565ce2a2696733f036cdb5"
+    },
+    {
+      "summary_id": "ADVICE-72342bf1d724f925ce21",
+      "entity_id": "POI-ee07143d3d6c6f04",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2361,
+      "fingerprint": "7bafe4204333614699c151ebb21ae827dfa8146cee237ffaa7d108002335bd73"
+    },
+    {
+      "summary_id": "ADVICE-75571c591a30f257d790",
+      "entity_id": "POI-a2a8d994442ab582",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2085,
+      "fingerprint": "9ba3e77ac606a6ffd988506dae644bbb48f45cfd8bf2dbbf540b722afe78bc74"
+    },
+    {
+      "summary_id": "ADVICE-8183763ab71f4454afd4",
+      "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2141,
+      "fingerprint": "feb552250e847246dc4acb7466b51e3ac1848456b8504a5a2c8dad68d811413e"
+    },
+    {
+      "summary_id": "ADVICE-85b2bc0999c8f099d248",
+      "entity_id": "TRANSPORT-9d18c03e51c3bc72",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2054,
+      "fingerprint": "77b7837b2f639a313ae8c76c02f77dd1f8d18601961585af6fd18ceeab8d9d98"
+    },
+    {
+      "summary_id": "ADVICE-90524b8285b75908f86e",
+      "entity_id": "POI-01558223b1ad3062",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2314,
+      "fingerprint": "c648749924065c6a096f3be744ff5522222a1f7c35f10b30c2a8e8e4667edc14"
+    },
+    {
+      "summary_id": "ADVICE-93d4a9b3432a180b59a6",
+      "entity_id": "TRANSPORT-ecf22b3f7c37cdb9",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2098,
+      "fingerprint": "8334f659bad8c53cf591381825297c05164c1b8eba68dc8068d99267db2d6f42"
+    },
+    {
+      "summary_id": "ADVICE-945eb85f9c96321fbd0f",
+      "entity_id": "POI-cec436cb21d421e3",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2309,
+      "fingerprint": "9ec86f1232e7a59f0af77caf0de5ac4efe29d0eb264508e00d60fc0dfac3fdcc"
+    },
+    {
+      "summary_id": "ADVICE-9a5bc77c87d965e7cc74",
+      "entity_id": "TRANSPORT-eb0da5555fe3ef39",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2200,
+      "fingerprint": "be4905ab6ce0b46d6c8f9fb904922508b9b351ae460db46a7f7cac7436733d0b"
+    },
+    {
+      "summary_id": "ADVICE-9af5c552ba256e05e733",
+      "entity_id": "POI-f5c247b15cea1e11",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2334,
+      "fingerprint": "bd621b9c6f153f1420af8075b7d420c14f7ce7fabb23165f93da0f593228fe39"
+    },
+    {
+      "summary_id": "ADVICE-9bd2140cf729a5376a11",
+      "entity_id": "POI-44b2356447ef131d",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2231,
+      "fingerprint": "3f803841646a7411492ab309ece1aeb95e47b21261ad48635fafe642c0c7076b"
+    },
+    {
+      "summary_id": "ADVICE-9deb3ac76155b1dbd286",
+      "entity_id": "LEG-14b745b526b8f0a1a8d7",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2324,
+      "fingerprint": "3ee6e4ff48156d8f8ad89a907611a6953fa6ae1b7a6cce3ad6a2304c8cb0003e"
+    },
+    {
+      "summary_id": "ADVICE-a418318b25034f6ee493",
+      "entity_id": "POI-805a28099052ccae",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2169,
+      "fingerprint": "71dfe13b479511db3cb88b9a92ee9aedf2e8c6a52962e291da7dc67a5f40d709"
+    },
+    {
+      "summary_id": "ADVICE-a5208f310b6471e6f754",
+      "entity_id": "POI-d896be8c097d9bf2",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2415,
+      "fingerprint": "4ecabae66f2679b585c7149b1fe8a06ba86a8a97be31e8085cb22494d05fbdfc"
+    },
+    {
+      "summary_id": "ADVICE-a8615334d1f4c93803e6",
+      "entity_id": "POI-90e6d6cf975ce322",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2334,
+      "fingerprint": "f2471e4bbb27541f17b76c17c3ea0a799b2ba6b6c998f762035eaa780005a1a8"
+    },
+    {
+      "summary_id": "ADVICE-b2fc5967aa0e95027f35",
+      "entity_id": "POI-7cb68e6dca15dc07",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2104,
+      "fingerprint": "8cba9dff857f0ad3300bdd32755d63bc93eaeaa0bb7032717f5286e0035c0e33"
+    },
+    {
+      "summary_id": "ADVICE-b72b0c6b43c0482dba25",
+      "entity_id": "POI-f7a56253a0e929d3",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2199,
+      "fingerprint": "005c0e49835820221acf2e8cfbdeff83b8328175e285a45bd4978136c9384863"
+    },
+    {
+      "summary_id": "ADVICE-c7bf6fb5fa04d4a824a1",
+      "entity_id": "TRANSPORT-78f05fe80a344b95",
+      "scenic_code": "ZHCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2228,
+      "fingerprint": "89a6314622195cd633c12b5593d17d0b07a7cb1d813c775ce5424fb0d9efe245"
+    },
+    {
+      "summary_id": "ADVICE-d6f599676e7fe82b3b78",
+      "entity_id": "POI-ce892d48eef9a02f",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2103,
+      "fingerprint": "ea49077bde81af3a2f84b09e3c9f335aba0d169866be5860c656ce83337a7f29"
+    },
+    {
+      "summary_id": "ADVICE-e13d60c2f0713739b62c",
+      "entity_id": "TRANSPORT-944131ff56396c57",
+      "scenic_code": "JZG",
+      "items": 3,
+      "estimated_prompt_tokens": 2079,
+      "fingerprint": "d84dca4f5986b9817cd2c1ea5d995a97416fd2fd0a00b261e63079da15fddde6"
+    },
+    {
+      "summary_id": "ADVICE-ed48434a6bbb64e91f3a",
+      "entity_id": "POI-bd5b63d0628931ad",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2211,
+      "fingerprint": "73bd0db4418cd7f263af2118aeb915b5916ed1997ab3ddf9d20873dd430b4460"
+    },
+    {
+      "summary_id": "ADVICE-f747e0d98eebfb57571a",
+      "entity_id": "TRANSPORT-8db4eab278163653",
+      "scenic_code": "GZCL",
+      "items": 3,
+      "estimated_prompt_tokens": 2483,
+      "fingerprint": "c4d5807811f56ced6c57e8ed3b77038f16e296ed4206329ad0203724a1bfaa0c"
+    },
+    {
+      "summary_id": "ADVICE-0322dbf976e0e518784e",
+      "entity_id": "POI-16faaf4bb4e64e09",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1904,
+      "fingerprint": "a72d6d2d27387d62f68483019ca61277170d8e4eccac38424cbb06e47088843c"
+    },
+    {
+      "summary_id": "ADVICE-0b03cef3e55cf162b293",
+      "entity_id": "TRANSPORT-b30efd4e6d99e09f",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1918,
+      "fingerprint": "743a4a7fb1f909f4de0c334560fedf87f6fe78fb68ffc1f65f3f937dec95d96c"
+    },
+    {
+      "summary_id": "ADVICE-0fc6d17edc04eed720f6",
+      "entity_id": "GZCL-NOTE-12-R-f5fee04dec",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1878,
+      "fingerprint": "037fb71e8117d0cee930ea1df937b5481473d7301a176e8c8e66d74d664bd18a"
+    },
+    {
+      "summary_id": "ADVICE-15a022f45a909f68a446",
+      "entity_id": "POI-64d156a680f41327",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1949,
+      "fingerprint": "23ca5572137a699a3ec85559d79d0d4b2d082105724794f91658988ebba43645"
+    },
+    {
+      "summary_id": "ADVICE-1670947c2a1f9853dd70",
+      "entity_id": "POI-5803354d56bd9e8f",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1940,
+      "fingerprint": "3c0cdbe905d85456b4c3b80cffc00dda8cc8f865bfad44595213b11a5b516f61"
+    },
+    {
+      "summary_id": "ADVICE-193e4a7e2ec5f2005d2d",
+      "entity_id": "POI-ccbcc24cc2878c83",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1844,
+      "fingerprint": "596d3dc58ab7364e2d47ed4198634eba5038051b59410bcae0deb1c64f226827"
+    },
+    {
+      "summary_id": "ADVICE-22de44a9532b6cb167b8",
+      "entity_id": "POI-4635c21b138627dc",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1913,
+      "fingerprint": "97bdb808b9c6993da6ba0f52d152c29492e43bbdabe45a2c25781350da504c16"
+    },
+    {
+      "summary_id": "ADVICE-43f70c4c55e43f03c2df",
+      "entity_id": "TRANSPORT-32f5806de7c230c5",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1900,
+      "fingerprint": "502631ac528b249b045d6d4eeab663fe20247b16b05a119cb4e08ac7336aae8a"
+    },
+    {
+      "summary_id": "ADVICE-58da43bb8343e8da496f",
+      "entity_id": "LEG-39dad3cfe11d98d959c3",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1890,
+      "fingerprint": "7a6a0a2447f8ec437ed9aecdd4d3245b5ae364893c03eff079b0d50c94d385e4"
+    },
+    {
+      "summary_id": "ADVICE-5b76bfc80ea7b87fd9cb",
+      "entity_id": "POI-396e9403f2183845",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1961,
+      "fingerprint": "3b1cd6b1cc510c1d147af2d20d05581335f37c2a893741fbdfc6ffd0ab343b89"
+    },
+    {
+      "summary_id": "ADVICE-6161b70e668708f27eab",
+      "entity_id": "POI-c97ee39818a3536c",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1800,
+      "fingerprint": "86fa22e5a78942a0e4a24edf2270c167520d4c73c435faf1b2009c5c07d0343d"
+    },
+    {
+      "summary_id": "ADVICE-67e38114395d3b31111c",
+      "entity_id": "POI-92bc2c0b78685230",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1855,
+      "fingerprint": "645e67f45945ab0f66c28cbf9355d3844d92b13f5aab7dbcf153d43b9653c81d"
+    },
+    {
+      "summary_id": "ADVICE-6d2684a3c19a15808856",
+      "entity_id": "LEG-0d9284c42bf6e67a97e2",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 2076,
+      "fingerprint": "dcf6192e070253865bf3e0f1448ce7349431e197616792f382d9da56f669fa6a"
+    },
+    {
+      "summary_id": "ADVICE-6d6c2053e46dfe3f038c",
+      "entity_id": "POI-d49792b6a476a673",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 2020,
+      "fingerprint": "abe66883fe1ce0e827e66a962559a6aa879ef6ecf31964f34dabeafdac4683cb"
+    },
+    {
+      "summary_id": "ADVICE-71ffeb2bb940222eb1d8",
+      "entity_id": "TRANSPORT-6117ff03af895cae",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1901,
+      "fingerprint": "851da93277e34c6e176eb5d8517507acf4aefd4711627b96240f2012ebe2b37e"
+    },
+    {
+      "summary_id": "ADVICE-75be8d00b18997039c18",
+      "entity_id": "LEG-59be62f73aa81ef8f3dc",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2010,
+      "fingerprint": "2b8984fbc013034a6957750c5b6f55224315f62b61bba4bc17854c2f0dc104f8"
+    },
+    {
+      "summary_id": "ADVICE-781818c10da86588641b",
+      "entity_id": "POI-e21a9617f29290f0",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1869,
+      "fingerprint": "9dae83859bbbe76afd466bbf513a39c1cd824805afa40af42889d2ae537e514f"
+    },
+    {
+      "summary_id": "ADVICE-834796ee407255797fbe",
+      "entity_id": "POI-093f0023e45f6198",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2069,
+      "fingerprint": "0a2a6b817ba342b5544cb0400da4d9ab6bd8ef5aab8b6e36b3991ed0e7c721f8"
+    },
+    {
+      "summary_id": "ADVICE-84bd63bd18fe15046a25",
+      "entity_id": "LEG-0cedd0325fb46993b50d",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2026,
+      "fingerprint": "ec0ca22abc6602493a4f08816db6669f022f84233b8b165826b389fdd948bbb3"
+    },
+    {
+      "summary_id": "ADVICE-85b963bcd8c0c7c3acbb",
+      "entity_id": "POI-612a6e7d55fb0b0a",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1859,
+      "fingerprint": "72b9140b9c238fd9b94cdba2f733cea592746c00262dbdcc40fc77411d7286e6"
+    },
+    {
+      "summary_id": "ADVICE-873629bca60fb35c59cd",
+      "entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1898,
+      "fingerprint": "ffe79cca505c12939a770e3e0deebed7ffff3175916b1680a0c8e75505b93cbd"
+    },
+    {
+      "summary_id": "ADVICE-885fd874804107739f62",
+      "entity_id": "POI-e31ab2d08ba0a109",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1906,
+      "fingerprint": "5bbb3257beec4d61c39c212bea22de73c3efb62f435003f292918be13147b6c9"
+    },
+    {
+      "summary_id": "ADVICE-8e1eb7252d1b8b85efe7",
+      "entity_id": "TRANSPORT-7e07d15b43087423",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1898,
+      "fingerprint": "3049d853855b35206f2da90d746da989dbb7e56a81dbb61e9f3df389d15c1539"
+    },
+    {
+      "summary_id": "ADVICE-8ff115191216c96f3ee4",
+      "entity_id": "LEG-1dd3fae0129dc525d6b3",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 2104,
+      "fingerprint": "11e8186d73f99a84d7eda3bfa88e88a77bf99a9d1df2fe0923f5105b34060e76"
+    },
+    {
+      "summary_id": "ADVICE-926a549479e58188b10a",
+      "entity_id": "LEG-b51f52e8eedb53ee7cc3",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1940,
+      "fingerprint": "d7627d30c31a313229d1e69e89c7ad02f409282e3582290ccdf5774813863836"
+    },
+    {
+      "summary_id": "ADVICE-94c7f68673b41f719b9f",
+      "entity_id": "LEG-f38e63af3e24de4a5343",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 2065,
+      "fingerprint": "38f60715501e996a288858459952ab2de9c6d27fc248a52cab86658a7af2f8f3"
+    },
+    {
+      "summary_id": "ADVICE-9afe870a95480608888e",
+      "entity_id": "POI-f84f479f75d655c0",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2011,
+      "fingerprint": "8856497528134fe99d72874903a650b8fd1749a5772ba4a7bec8f997962642dd"
+    },
+    {
+      "summary_id": "ADVICE-9fffe36933b156add657",
+      "entity_id": "TRANSPORT-c7876b90c7441768",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2038,
+      "fingerprint": "08357201135b01c6f1fb87c7355a013201f6c8d5759abd372783b2eac76db472"
+    },
+    {
+      "summary_id": "ADVICE-a2ce90db25aa504f316e",
+      "entity_id": "POI-20bcff6ec260b6ce",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 2649,
+      "fingerprint": "a80bc9cf1dfce663796950425a8c508936bb93602dbd45d987272e72dfc2bcae"
+    },
+    {
+      "summary_id": "ADVICE-a5041f1bab5fb7bdd1b0",
+      "entity_id": "POI-db5b34348b0b1b08",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1849,
+      "fingerprint": "02bd7f374cd54ac72ecfe0dd45f135de618f4a95611d8a9e477c90d92dea6490"
+    },
+    {
+      "summary_id": "ADVICE-ab0da07f883e7fe47e65",
+      "entity_id": "LEG-3ba8fb337c4d13485fb7",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2028,
+      "fingerprint": "56613e98144c02e770980489428b81d1f0c3f7fa6dd59d02e6ca101ac1809b3e"
+    },
+    {
+      "summary_id": "ADVICE-bf36d1fe317c1826762d",
+      "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1953,
+      "fingerprint": "a8984a722490f2fdd4f9f25b06a503a8e639563dc44041019865e374118b0581"
+    },
+    {
+      "summary_id": "ADVICE-bf400c9ebe7809842d17",
+      "entity_id": "POI-593cc605673fc5d0",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1914,
+      "fingerprint": "65037e0c9b6dea470b83d172a15d961161de5dc2a04e45ef83088e2268e4e2e6"
+    },
+    {
+      "summary_id": "ADVICE-c5154f77f76bf78f2dea",
+      "entity_id": "POI-a59bdf752fbbc666",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2003,
+      "fingerprint": "54ebe8e91a5ec71d57112400035c1745de84e8cd229536d0de80d129cb065c5e"
+    },
+    {
+      "summary_id": "ADVICE-cab6f0bf699bd7bd19a9",
+      "entity_id": "POI-2b7514761c560358",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1793,
+      "fingerprint": "d402771dd4acba4019459343dda29987213963f05351e958ddc57ee82d319922"
+    },
+    {
+      "summary_id": "ADVICE-db05fd70bbc2be4b35cc",
+      "entity_id": "POI-7927973cb5fc8e4d",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 2105,
+      "fingerprint": "6977cf829053eac7569b7646c4bc8604d450569ac7d2d363086ecd3ed4e18848"
+    },
+    {
+      "summary_id": "ADVICE-e315dbea8a8ace821be4",
+      "entity_id": "POI-cfdaa794db8764b9",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1913,
+      "fingerprint": "bdfcca961487595984166960e3d2edcf5b577787700d9f5b7d4919342160fdae"
+    },
+    {
+      "summary_id": "ADVICE-e32d4ac8c961531d81a5",
+      "entity_id": "LEG-0777fa5d500669e62f66",
+      "scenic_code": "JZG",
+      "items": 2,
+      "estimated_prompt_tokens": 1896,
+      "fingerprint": "1d970b791233f306b89bba8a03df1c20417a9e7c7816c457f373cdb657fbb029"
+    },
+    {
+      "summary_id": "ADVICE-e758bac0a922c11ff090",
+      "entity_id": "POI-10623fdfb68c00fa",
+      "scenic_code": "ZHCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1788,
+      "fingerprint": "675d87c473d5fffd47a04f6459724792306c1b0686e2834b534ca743bdcd8911"
+    },
+    {
+      "summary_id": "ADVICE-e96aeecadc7d8224dba8",
+      "entity_id": "LEG-57296f2949dbe61fd69c",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 2294,
+      "fingerprint": "4e71f41c546b81530ef66b815232364fe923f0696f13a1ab6f01c770e2ffc970"
+    },
+    {
+      "summary_id": "ADVICE-ef97f11da7d23dec2c71",
+      "entity_id": "POI-0341febabde17574",
+      "scenic_code": "GZCL",
+      "items": 2,
+      "estimated_prompt_tokens": 1899,
+      "fingerprint": "f4096f77e5f34fb9f7ddc1a94a9e341f98af6a90502eee1667eaf7f0790b49d9"
+    },
+    {
+      "summary_id": "ADVICE-02258854739223124ace",
+      "entity_id": "LEG-b80c4a47dc9c94b2b083",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1798,
+      "fingerprint": "16e3883c1d2b360acfff3a47e708154b33b081b2a4d41740060bbb5bb1187957"
+    },
+    {
+      "summary_id": "ADVICE-056c38a66228336c3a1c",
+      "entity_id": "POI-4da05841a736a1f2",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1665,
+      "fingerprint": "46ee04e45ff4155a80f0fd1ae3c03327aa637841e15f4718c72b3af7eeaefa0d"
+    },
+    {
+      "summary_id": "ADVICE-074096d0cedcc988cf3e",
+      "entity_id": "POI-6cfbebe4c178f2ad",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1603,
+      "fingerprint": "5fb51b5b098e1e44541fbf4e9d66e30ca4a3835f0891170d9422f33825174045"
+    },
+    {
+      "summary_id": "ADVICE-0ba9f893fec3bda00148",
+      "entity_id": "LEG-7c76d0a0edbee0209194",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1706,
+      "fingerprint": "2799aeec866ea877abf008bf0f988729805a78f431e4c3307d110b91c22a4b96"
+    },
+    {
+      "summary_id": "ADVICE-102dc9a344f57b00c12f",
+      "entity_id": "TRANSPORT-8f91c620f059eb51",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1710,
+      "fingerprint": "bea440f14b4c37beaac90cec29238c8d178a8bbd240a38d0b7bd4cee5f872f7f"
+    },
+    {
+      "summary_id": "ADVICE-1103a8f71787982ba1da",
+      "entity_id": "LEG-cddd42af300c992268d0",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1769,
+      "fingerprint": "56817b9491e12c331ea0adae4d2f648cc49af24d5e505122d2aadfcb3a96d253"
+    },
+    {
+      "summary_id": "ADVICE-11188613abb22182719f",
+      "entity_id": "POI-b8e64b9bb6c121a4",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1709,
+      "fingerprint": "494a7477f77007dbc9bb9f1d050f29671c622acefef49ce69f324cd78fbd3fae"
+    },
+    {
+      "summary_id": "ADVICE-1185d39efb6a4b55be64",
+      "entity_id": "LEG-463419cb64e3b4f80acc",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1714,
+      "fingerprint": "c1159227b982f3a9e18f5d40a961f95b02086b3cd531015badf3b8962ba762e0"
+    },
+    {
+      "summary_id": "ADVICE-12d30869b19e4896d242",
+      "entity_id": "POI-80605da8eed5dfe5",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1595,
+      "fingerprint": "a29de9fcfb23d6545993c6b41155f8753e3af5f36f4d61efa294d70fac42a6fd"
+    },
+    {
+      "summary_id": "ADVICE-16b06ce142433ec4b272",
+      "entity_id": "LEG-d02bde6bcec5a9248a53",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1776,
+      "fingerprint": "706772fd247c99e00d3ff04fdabcb82189cd32099416904a7f62326c4592f459"
+    },
+    {
+      "summary_id": "ADVICE-192d13685a499eda08bd",
+      "entity_id": "POI-21976f5decc08f5c",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1603,
+      "fingerprint": "2a46a7bf4076aae4495e8412175b24f2ccdc435a3fff75d682992e22b9db3179"
+    },
+    {
+      "summary_id": "ADVICE-1a385ed244916c94dd56",
+      "entity_id": "POI-c61a71c431ecfe62",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1649,
+      "fingerprint": "db72073c6b2c6925004fc03714273ff85277ac8bbd15cdb59cdc123d68a0bf12"
+    },
+    {
+      "summary_id": "ADVICE-1cdb623964fb3f53112c",
+      "entity_id": "LEG-454fa72def96cbf92004",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1716,
+      "fingerprint": "107f10c28bd707f52d8f50f26ba08c1406b8273c36752e39673ee080c811a3b9"
+    },
+    {
+      "summary_id": "ADVICE-1ea53cbdba11cfb49e5d",
+      "entity_id": "LEG-ae15aa3fb46dafa24497",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1755,
+      "fingerprint": "e43b19c691d505528d6edeb2489879df4bd91e2b18f69d1e47df6bc1f64ed46d"
+    },
+    {
+      "summary_id": "ADVICE-2462afe9eb2182808365",
+      "entity_id": "TRANSPORT-eb0da5555fe3ef39",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1645,
+      "fingerprint": "81e038025228ed73d1c27d76e7230bc815eda071df597e0cebed04824b36f546"
+    },
+    {
+      "summary_id": "ADVICE-250fd4eb9d3dd5176921",
+      "entity_id": "GZCL-NOTE-08-R-fc0bc11cde",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1619,
+      "fingerprint": "cc89e68f939293302747fa4baae3bb87aa1d7922a268b7097eae9adfd55affb3"
+    },
+    {
+      "summary_id": "ADVICE-27577273832c5e417a96",
+      "entity_id": "POI-9f04ae367d10711d",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1685,
+      "fingerprint": "75c2938f0a6adb0b4431522a08f1cbd156eb65f1ed5f169f7c58810e003e051a"
+    },
+    {
+      "summary_id": "ADVICE-28e8c8ce6653ba536b36",
+      "entity_id": "LEG-ec38a517145944f2b5f5",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1754,
+      "fingerprint": "5bcc95e6c97f2798e346267ade7f192a2ee548bff55f72ef3535bed523f0cfbf"
+    },
+    {
+      "summary_id": "ADVICE-297d677f3b6000895bee",
+      "entity_id": "LEG-d3d78c378effc8c072a2",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2354,
+      "fingerprint": "5fb7f19ad90d5496e15d07cf6d013baaec3d389574a1f19cb831ccbb5754e28e"
+    },
+    {
+      "summary_id": "ADVICE-2b4d83e227b9c05a6077",
+      "entity_id": "LEG-ed2234b7b48e55ce0339",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1704,
+      "fingerprint": "84c946c793edc2bcc140d1ac3cfb8824759e0216f481ed7aaa522b780e80141e"
+    },
+    {
+      "summary_id": "ADVICE-2bc4837e4d5be6ddf8b5",
+      "entity_id": "TRANSPORT-43ad5aba181a61a3",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1718,
+      "fingerprint": "e705a9e479d783c66fe0d7509cf57ade252466726b5faae33f086ab45b089231"
+    },
+    {
+      "summary_id": "ADVICE-2cf2ebc5b5510f0eaace",
+      "entity_id": "LEG-a23e355dcc2f91344ad5",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1746,
+      "fingerprint": "f364ca9fdd795b37dc124d2d0a69fb5c74b4eb9fea6e411d8676207c47da0e6e"
+    },
+    {
+      "summary_id": "ADVICE-2d4d64c772c3f6afe47e",
+      "entity_id": "LEG-b320e4be620d24b33cde",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1848,
+      "fingerprint": "a480e44c38ed8fdb2143ffaa240997867519da81c690b46e26075e32d06870bb"
+    },
+    {
+      "summary_id": "ADVICE-3274de1b61fcb1c1a412",
+      "entity_id": "POI-5976f654ecaa88ba",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1758,
+      "fingerprint": "1bb453364cb717407e51b80ff187480f4847bd26eecd8e97a15d1c79b0e8cc32"
+    },
+    {
+      "summary_id": "ADVICE-33af02d50884a1f2899a",
+      "entity_id": "POI-66a720f3c8c91124",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1620,
+      "fingerprint": "e411f85875a05f7beb6e0be6e24d539c8365ae173cc94bbd90d27231018c6a5a"
+    },
+    {
+      "summary_id": "ADVICE-35cbad4cde9b255aa222",
+      "entity_id": "LEG-cbba065408fb11ec6753",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1769,
+      "fingerprint": "16ec2664cf35e95f7bc71f6f847aa277ff81d6832e0589c5243d78219ec68e00"
+    },
+    {
+      "summary_id": "ADVICE-3b9a714bf9e195219f34",
+      "entity_id": "TRANSPORT-eb0da5555fe3ef39",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1701,
+      "fingerprint": "b44a8873e1ede22d3924c5dd4f6741e9ee8db6bedae93b01e314082536f8e2eb"
+    },
+    {
+      "summary_id": "ADVICE-3d80812a558827a09959",
+      "entity_id": "TRANSPORT-9039e85044983122",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1666,
+      "fingerprint": "7746a9a8dacdc3217b66c32096edf9f88565298574c2c729a4d4a1a1190f52cb"
+    },
+    {
+      "summary_id": "ADVICE-3fb5047c5f5a75f6bc6e",
+      "entity_id": "LEG-02b814f26c5fa0083eca",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2005,
+      "fingerprint": "74985edc98a65d73bd68d001ffc0e07ba01bcecf39322b02adf87eb44803d679"
+    },
+    {
+      "summary_id": "ADVICE-4202bbc92708757e73a5",
+      "entity_id": "TRANSPORT-660c137bb180f34a",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1690,
+      "fingerprint": "47c4d0ca3bd23045fb3048973517517e1ca280aca1e68af7130231b9cadb48ac"
+    },
+    {
+      "summary_id": "ADVICE-49d1bfb0531615416273",
+      "entity_id": "POI-3464c42c5541834f",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1710,
+      "fingerprint": "54054075a0ec40fcac00e23e6f66758eb8b0f70576e56317b065190e34b1e335"
+    },
+    {
+      "summary_id": "ADVICE-4d546412e521115d3a39",
+      "entity_id": "POI-7ca82081a5796ec8",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1593,
+      "fingerprint": "5f5c6b6520fc786b8f0297ef178ce0557a62ba73b0419af71e81d3a0d4c24576"
+    },
+    {
+      "summary_id": "ADVICE-526ea374a9ae6f79acb4",
+      "entity_id": "LEG-4caf0ff99e8941571635",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2005,
+      "fingerprint": "8b764681358a9b7f532fb3942b3253fee85f67c4186ce0f127418d8ef69c06b9"
+    },
+    {
+      "summary_id": "ADVICE-56083203dbf25b859d66",
+      "entity_id": "POI-f0f39c100df65c62",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1750,
+      "fingerprint": "e9c3d7df68dbd3178d6cc14798e7f652ca6f14a579a61978510dd9b3c982a35f"
+    },
+    {
+      "summary_id": "ADVICE-5685f54ab4082a21009b",
+      "entity_id": "TRANSPORT-78f05fe80a344b95",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1710,
+      "fingerprint": "acaa6f452792787aa6f5e349121d2431f419089404a240f868fc29e1f304465b"
+    },
+    {
+      "summary_id": "ADVICE-5a2a8b16e54cd9014083",
+      "entity_id": "ZHCL-NOTE-10-R-4955be8095",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1631,
+      "fingerprint": "e422529c02322b4fa5ac87428d367170358cd5cb0e7489d6739ed71e33b62b37"
+    },
+    {
+      "summary_id": "ADVICE-5d4426509b6ef5c78f29",
+      "entity_id": "ZHCL-NOTE-06-R-be5972460c",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1681,
+      "fingerprint": "940b36dea2283a079e989a7edd58518e465d4e78e4d4a52e16b97ceface27859"
+    },
+    {
+      "summary_id": "ADVICE-63a367b19246f1936b7b",
+      "entity_id": "LEG-ae9cc6236ae342f5077b",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2001,
+      "fingerprint": "c09e51487908243017247faa23bec05c9976bb4219b7330480a956aca9c82fb7"
+    },
+    {
+      "summary_id": "ADVICE-63bcddab8e4a77a2cce1",
+      "entity_id": "POI-3ef0236163488097",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1763,
+      "fingerprint": "8f9891388487ea3ee198698d730f60a5eadb33f0f212fcd63d57f3e02374ba47"
+    },
+    {
+      "summary_id": "ADVICE-65b1ac0a52aae9fe3b40",
+      "entity_id": "POI-6fd93b0ab9766f13",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1600,
+      "fingerprint": "d8cf5f0dbf971a3d0fb5fab2928d551b92ce16870e104045eb9bb861de757576"
+    },
+    {
+      "summary_id": "ADVICE-65f8945c9f6d48802d3e",
+      "entity_id": "LEG-acf565bd6277e0f10ea4",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1781,
+      "fingerprint": "ffe22b73239874e87a7929a838c85992f465ffed0c571f1fadb993bd2d28f2b0"
+    },
+    {
+      "summary_id": "ADVICE-665d58a8e740827c2927",
+      "entity_id": "LEG-f51274ca2cb375f03053",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1736,
+      "fingerprint": "7ec475f6fe748cb4fabd0709ae6ea6b849c616fcd22fe509cf622a9edc92dafc"
+    },
+    {
+      "summary_id": "ADVICE-6b69d9300874a4c066a0",
+      "entity_id": "TRANSPORT-4b27a2166b41d88e",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1599,
+      "fingerprint": "a93f6834ab9d5ac6d1aeb814e4eccd52d74518c31c779bc5e5f941fad978b338"
+    },
+    {
+      "summary_id": "ADVICE-6d09432c7a43220380c9",
+      "entity_id": "LEG-152f6a51c3997c5ac330",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1830,
+      "fingerprint": "4f16251058fa31faf38a2c0755fc3a40a8491ccf6f4b39d1eaf1c83963db28f0"
+    },
+    {
+      "summary_id": "ADVICE-73bd40a9b1cb03a6d98b",
+      "entity_id": "LEG-6b900fea195dc9332fa5",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1839,
+      "fingerprint": "cf899c9064a236b1ff3d4f85f28789a2eb14d8772cd5f209fe38aabaee11c285"
+    },
+    {
+      "summary_id": "ADVICE-7a08dea9171d0f6fd565",
+      "entity_id": "LEG-ccd9fc6c19320433385e",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1758,
+      "fingerprint": "2ff3d28b40b925b467ff65a6b427d82437e5a414f1b93b3b52578e2636d4a8d0"
+    },
+    {
+      "summary_id": "ADVICE-7c8ce187660277564ade",
+      "entity_id": "TRANSPORT-329fe166d508c4ba",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1624,
+      "fingerprint": "1c82315f58f76ff647297da6561dfbf410f71b9e66a768ce92241ac10be478a5"
+    },
+    {
+      "summary_id": "ADVICE-85395cae014699cdc223",
+      "entity_id": "LEG-8f3405076da2a1f37c53",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1841,
+      "fingerprint": "c6f62a570baaf94038b760d5d3b4f44a2f4cf9677da315822f1db71673d272a8"
+    },
+    {
+      "summary_id": "ADVICE-88039c18b0f1c6a76023",
+      "entity_id": "POI-b0a1ca9ec7604bec",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1629,
+      "fingerprint": "93d6993dbf5a9e124629d1f7e7c6770b36d48b9700ae1e2cb522ab2a7ed47c55"
+    },
+    {
+      "summary_id": "ADVICE-8a5b3ebf5dda645cb8fe",
+      "entity_id": "LEG-a6cf8a60e3474d1db331",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1755,
+      "fingerprint": "38e033dfbc193cb571a60c4453f2fed064a56e6013300f47e30b58048af68d7c"
+    },
+    {
+      "summary_id": "ADVICE-8e373e908b8a2776e25e",
+      "entity_id": "POI-96228e426b4b14f4",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1683,
+      "fingerprint": "2dd08805c9988e3af6e806022dff4abfcd93db5a6ba60f58300708ea962c748c"
+    },
+    {
+      "summary_id": "ADVICE-8f35788b71c922586f8b",
+      "entity_id": "POI-865c34ecb346cb07",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1691,
+      "fingerprint": "28a9b4b3d914c0e839685385ff71b1314bf4a8f80ee95705b16797d3be898dfc"
+    },
+    {
+      "summary_id": "ADVICE-91748887f1ff2b8d871b",
+      "entity_id": "POI-1be9085647ce28d5",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1595,
+      "fingerprint": "38a203ade402a8abc6481ff690b7d7e4c5b47fb5739dabd7bc7cd851cf9b66e1"
+    },
+    {
+      "summary_id": "ADVICE-919d34c366d6adcfb24a",
+      "entity_id": "LEG-a0a8d86b28ae51014a21",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1758,
+      "fingerprint": "20eb9a4523989d4475ab1d078510318d704990d1da0ac0e848fbafcdf60621c9"
+    },
+    {
+      "summary_id": "ADVICE-91b7782501d3c95624f3",
+      "entity_id": "POI-e8c126011afa05ef",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1591,
+      "fingerprint": "784bea5041258e6042664a1dfe56c7de97dbcf65ee3fd18b6774e69523f26fe1"
+    },
+    {
+      "summary_id": "ADVICE-925fb21b5f60a856897a",
+      "entity_id": "POI-46b7eb6b4b6b049e",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1650,
+      "fingerprint": "346f541b6cec7526fce85bf233fe1ac3068be81bbecec85ed9a303bbdb656bae"
+    },
+    {
+      "summary_id": "ADVICE-99c7925620a2831b9409",
+      "entity_id": "POI-345f2bdb655eca07",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1593,
+      "fingerprint": "d8195b86fb4a2b21b3767f0cfe63291f8dd5c73a64f3cf813604a88b2a8d8464"
+    },
+    {
+      "summary_id": "ADVICE-9d5a45ee192825a30ee1",
+      "entity_id": "LEG-f57ba2dc5a591a9ae2ee",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1710,
+      "fingerprint": "bfbccdc11471ab8784116b9becf87973331aab674d2e45ee1912ab3236a5cca3"
+    },
+    {
+      "summary_id": "ADVICE-9ddc8f859faf0c644643",
+      "entity_id": "LEG-36ed2dcd7e3e743be8c3",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1641,
+      "fingerprint": "cd42885e184f302582e74ce99c28938aaf54e08f72ff6ac5aa8f8d5c1a489113"
+    },
+    {
+      "summary_id": "ADVICE-9e33d0b3e3789bafd199",
+      "entity_id": "POI-dda73c5206efbef9",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1764,
+      "fingerprint": "6760151484c01c797d2c0264e6d768b6448e31cad0e9748a5e04ccc8d6b5b3c8"
+    },
+    {
+      "summary_id": "ADVICE-9eb4bb6dfd56857f52d8",
+      "entity_id": "TRANSPORT-cff4603db8535366",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1740,
+      "fingerprint": "3bb769cafb86e1a05b03fe0153cc3feb7f95954782a7b9e84be8eb8d96b5235d"
+    },
+    {
+      "summary_id": "ADVICE-9ed6324bc1cda1d74c2c",
+      "entity_id": "LEG-ba7e4dcc5c802120a826",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1848,
+      "fingerprint": "31f47ebbb2c697ffb5954957b3381bdecbb564eb3c15766d598da72490ea1286"
+    },
+    {
+      "summary_id": "ADVICE-9f2e44811157300bd86a",
+      "entity_id": "LEG-ae9edb3d2b21ee855b90",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1858,
+      "fingerprint": "5daf27307ae63f1e855632955a30a4c4628609d870f02d06d69de736dc94bff4"
+    },
+    {
+      "summary_id": "ADVICE-a1316a393a2ff5483b91",
+      "entity_id": "LEG-82cc1d067729d3d1a66f",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1784,
+      "fingerprint": "453d279417864aa5890361856c2c22c46843dd5deff1819093d089bf4ff2bf8f"
+    },
+    {
+      "summary_id": "ADVICE-a456455be828a58d7aab",
+      "entity_id": "LEG-8c324891a5febcd8100c",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1818,
+      "fingerprint": "686024b0c0e17031de451b668201b54bb6d4ea60d1de535f76c86e63b139e2b4"
+    },
+    {
+      "summary_id": "ADVICE-a739dc5ddd7c37f79025",
+      "entity_id": "POI-a2f2a450e902b7ef",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1705,
+      "fingerprint": "c1f9408f2411d5d78271b1a817de58f524174ea0dedf8c5c51e5842a5765fe1c"
+    },
+    {
+      "summary_id": "ADVICE-aa35d07ad28084957997",
+      "entity_id": "LEG-3179056ff157cacabe33",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2001,
+      "fingerprint": "2df0456dc863906e4ae3f982c6f6abb2229e48f87692494e7efcd24a84e23238"
+    },
+    {
+      "summary_id": "ADVICE-b39fc80018234ccf8d21",
+      "entity_id": "LEG-3d22f6f4d6eefa8baa71",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2003,
+      "fingerprint": "cfd0973c7a1e214920aa201a34b846515959724fe829a5cef89cd74cc3fda82c"
+    },
+    {
+      "summary_id": "ADVICE-b3e1101eb391d02bd38e",
+      "entity_id": "LEG-b05b126b3c93c8b60fe5",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1798,
+      "fingerprint": "130d8aff13da62f0ae8577d3ff2c0c910a7c2694dfa4337def25952ee7f52506"
+    },
+    {
+      "summary_id": "ADVICE-b547634f0b36d0736f1b",
+      "entity_id": "POI-65869ec7fc0bc172",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1628,
+      "fingerprint": "89b09fa1c1f124e43b895980793a3e2a0f74eca49951dd148dba62053594a940"
+    },
+    {
+      "summary_id": "ADVICE-b7968d83157b08c6ece7",
+      "entity_id": "LEG-6cecc398513dd1cdb7eb",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1656,
+      "fingerprint": "0c0d640e0206f7090be7171b6c9937bb83935f74e50dfbd7c6352d6757b1ba21"
+    },
+    {
+      "summary_id": "ADVICE-b7abaa709cfdd02fefbc",
+      "entity_id": "LEG-ea9b63c682486bb96515",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1765,
+      "fingerprint": "985224cd85208030f721df8a8d6da6439f0677d33bde37fb3a5e1742fd63f645"
+    },
+    {
+      "summary_id": "ADVICE-b8c49a913b709277e347",
+      "entity_id": "TRANSPORT-d2bf62a59b44ce35",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1725,
+      "fingerprint": "934ab26b3b975421f7c57e3169ea0307a2c5d14120d8176b7897e901033a64ea"
+    },
+    {
+      "summary_id": "ADVICE-bb86732422fc47f27fc7",
+      "entity_id": "LEG-2b4e6c504034bb948565",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1925,
+      "fingerprint": "4ae33b1c72597c0fa0d98a91128cfe822544a310ae2ffd37a863fbcacb3eebd2"
+    },
+    {
+      "summary_id": "ADVICE-bd82d96911256b050092",
+      "entity_id": "POI-b8df7fda51359cb0",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1593,
+      "fingerprint": "d0ef3f7d0efc32ec1be1f3ed4fc3e0637693a15f12f34fa65c9cf0541c516659"
+    },
+    {
+      "summary_id": "ADVICE-c0dd62e4baed38fe15ea",
+      "entity_id": "LEG-ce21855636ade249b736",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1814,
+      "fingerprint": "2c07339c6a531e1cbb9f95e29d53a5cde1db0b5cb2be774a5cee725ec7187e3a"
+    },
+    {
+      "summary_id": "ADVICE-c4a600303b529692070b",
+      "entity_id": "LEG-817718f2d0722ff0625a",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1720,
+      "fingerprint": "ecada38f0c728d5f6056c17a3e7e636a9e9d21bc2f4ed00c18a689e096ba5bce"
+    },
+    {
+      "summary_id": "ADVICE-c67ec3da07f248c247c2",
+      "entity_id": "LEG-444903db5e61967e0925",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1784,
+      "fingerprint": "a3cbc701d99e11396793844c735ca93c5f1db786939ccea15b25df7baf1149cc"
+    },
+    {
+      "summary_id": "ADVICE-c7f8e447f62e5e5a4973",
+      "entity_id": "POI-8f273301ad492c25",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1634,
+      "fingerprint": "df3ebe86dafdc718f628e90b551f837ddeab32edf4322e88768a6c4541b45785"
+    },
+    {
+      "summary_id": "ADVICE-ca2839aed20830bea2b8",
+      "entity_id": "TRANSPORT-3e6ffc2ed535ade0",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1618,
+      "fingerprint": "7c8c0c15089ebf970b23baac66e7bc6bd1e7f191ae4245b29a1d563e24c4ac50"
+    },
+    {
+      "summary_id": "ADVICE-d087714298d3aa325c93",
+      "entity_id": "LEG-90d4099d588d39086836",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1700,
+      "fingerprint": "a848ff7357134ad017c916f1d9960d49e94e589e9303591b43296c0413c4ae79"
+    },
+    {
+      "summary_id": "ADVICE-d288cd7bcbf4e8fd284e",
+      "entity_id": "POI-bbc557d2673e93f6",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1814,
+      "fingerprint": "258f88afa597f8e79de633f0379fd29c516443f4b0a27c7722155f980a77738d"
+    },
+    {
+      "summary_id": "ADVICE-d5fa8a32ff3f90a340e8",
+      "entity_id": "LEG-86623645f63851300fb2",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1828,
+      "fingerprint": "ee090452189d150d2a542d095fd33bb92699eebb53f46abd08590f039e621b4d"
+    },
+    {
+      "summary_id": "ADVICE-d9ef1e7be3878f73b0d5",
+      "entity_id": "POI-bdd6408fd477a09a",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1601,
+      "fingerprint": "97c895bdbc72d5a910ed13446fc14df16ac527b1146733dea597ab002b57c306"
+    },
+    {
+      "summary_id": "ADVICE-dae65af83c584e943c44",
+      "entity_id": "LEG-bd17fc6640100c81ed56",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1854,
+      "fingerprint": "147d2ff9970c8f40162277b2e1e5abe5d9e6cbec9b04ae51dbff41ef7c5e6df5"
+    },
+    {
+      "summary_id": "ADVICE-daf1874f955289e9ae46",
+      "entity_id": "POI-d627ae6e7e97f00c",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1650,
+      "fingerprint": "e68d84d45ac3deb5e2559c61e6c7df47fd56f750706d57d767eb8611888f940b"
+    },
+    {
+      "summary_id": "ADVICE-db176abd3b0c40de87df",
+      "entity_id": "LEG-536696f0d231a029127e",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1814,
+      "fingerprint": "297bfadcdc4c14b94ec49bac080d9b0b496c4460a4ad68a887fdae52f318ea3b"
+    },
+    {
+      "summary_id": "ADVICE-dd1da48cbb2dd18e76d5",
+      "entity_id": "LEG-cd0cf1571409a1d2ea10",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1776,
+      "fingerprint": "bd3eb57c468f4fccbc5b72ca32a715eafb2bcbf96b9c0029ee68608f60861eb4"
+    },
+    {
+      "summary_id": "ADVICE-dfd9c8a0bc4506594c2a",
+      "entity_id": "LEG-12fa8b2d672ddfb9955d",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1876,
+      "fingerprint": "2c48016ad18db47a2d30215df6577a43f9305c5b7e56eeeabe1f3c1e51cb4e1d"
+    },
+    {
+      "summary_id": "ADVICE-e2761fb66b02d68ccaa0",
+      "entity_id": "ROUTEOBS-0241508369618998",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2339,
+      "fingerprint": "76a06f8b9e32c0f08a52226dbfb8b972529f4363e98ecf8180947a959fe74778"
+    },
+    {
+      "summary_id": "ADVICE-e56950e5b4e5d538cf0b",
+      "entity_id": "LEG-ac139ef7f56617b1cd0d",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1795,
+      "fingerprint": "f1983104b7dc1d358d5472af3d057740d8660edbef4fe1793f7840e0f34a9558"
+    },
+    {
+      "summary_id": "ADVICE-e8b8f1518d44f094bdb3",
+      "entity_id": "TRANSPORT-0bda7df0b7655a1b",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1588,
+      "fingerprint": "ef18fa111d8e8692a6bc273382b227efda25e45dcffe544124e249a18c22a163"
+    },
+    {
+      "summary_id": "ADVICE-eb41931998d2d59c43d7",
+      "entity_id": "LEG-a7cd0150e7e8f53dc2a1",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1650,
+      "fingerprint": "3445d90fa54dc188ad1173ab141bb51c8ee23de295a8e81484172a6dfd3771e3"
+    },
+    {
+      "summary_id": "ADVICE-f148c02f074c6392dd7d",
+      "entity_id": "POI-8c9f9c26ca3fdd35",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1584,
+      "fingerprint": "dcbfc1464e2c2359d3ae9ed2f8a3b07de50437b39d55e266b8e3738b908f905a"
+    },
+    {
+      "summary_id": "ADVICE-f2fa073d50510a8122f8",
+      "entity_id": "LEG-320a7a9ddc3f9a675d7c",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2175,
+      "fingerprint": "4be3bfb131c970cdac8e5307140a8bba15a13a361c07cc3927c9865271996a0c"
+    },
+    {
+      "summary_id": "ADVICE-f5f69a58062749b81f05",
+      "entity_id": "LEG-c978f9804ae8a4531056",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1831,
+      "fingerprint": "717ac27b0ac39096c225a5e598d7a3f56ef521c04888e5c78c6e4c7a2315387f"
+    },
+    {
+      "summary_id": "ADVICE-f78469afaf1bdf3dc01d",
+      "entity_id": "LEG-fb143f9042a451602046",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 2170,
+      "fingerprint": "43c5c95d8e18dd73b78362f3da6e75cccfe76dcd8d690c1c8882792e8677bbef"
+    },
+    {
+      "summary_id": "ADVICE-fa3f0f11a0f601c66db2",
+      "entity_id": "POI-b2651a45b778b60b",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1649,
+      "fingerprint": "a02c1d3b17fa5ce5c94544fb763949ee6b337d8dfed421641efab4acb0f085fc"
+    },
+    {
+      "summary_id": "ADVICE-fac89e38bba8caf21a1a",
+      "entity_id": "POI-0823899e1cb7827e",
+      "scenic_code": "ZHCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1633,
+      "fingerprint": "7ced42f8560d2b38aa860d9e63b3c5694505c93908538493ac011923c8f1c2ec"
+    },
+    {
+      "summary_id": "ADVICE-fcb6c9d4d87b80629b90",
+      "entity_id": "LEG-8f834520c41821805071",
+      "scenic_code": "GZCL",
+      "items": 1,
+      "estimated_prompt_tokens": 1638,
+      "fingerprint": "5c1b188167a6ff9773a6023672725bec48996c6110cd5a1d4945e7731781f8e6"
+    },
+    {
+      "summary_id": "ADVICE-fcd234857c242053edc3",
+      "entity_id": "TRANSPORT-9039e85044983122",
+      "scenic_code": "JZG",
+      "items": 1,
+      "estimated_prompt_tokens": 1591,
+      "fingerprint": "e0f0dc17909b594fee7cba6172f350b2180a1c554fcb84eedf2dcb33b0e8d295"
+    }
+  ]
+}

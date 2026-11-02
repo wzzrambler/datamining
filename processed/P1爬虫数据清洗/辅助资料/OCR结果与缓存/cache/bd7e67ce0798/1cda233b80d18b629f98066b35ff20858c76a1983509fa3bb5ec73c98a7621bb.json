@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "1cda233b80d18b629f98066b35ff20858c76a1983509fa3bb5ec73c98a7621bb",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2972912,
+  "round_trip_ms": 242.65300000843126,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            0.0,
+            72.0
+          ],
+          [
+            261.0,
+            62.0
+          ],
+          [
+            267.0,
+            245.0
+          ],
+          [
+            0.0,
+            255.0
+          ]
+        ],
+        "confidence": 0.0,
+        "text": ""
+      },
+      {
+        "box": [
+          [
+            0.0,
+            264.0
+          ],
+          [
+            330.0,
+            257.0
+          ],
+          [
+            332.0,
+            340.0
+          ],
+          [
+            0.0,
+            347.0
+          ]
+        ],
+        "confidence": 0.8904975652694702,
+        "text": "飞鸟乐园"
+      },
+      {
+        "box": [
+          [
+            0.0,
+            337.0
+          ],
+          [
+            328.0,
+            330.0
+          ],
+          [
+            329.0,
+            363.0
+          ],
+          [
+            0.0,
+            369.0
+          ]
+        ],
+        "confidence": 0.9803218245506287,
+        "text": "LONGBIRDSRARK"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.8158539999999999,
+      "decode": 30.572932,
+      "det_infer": 100.626586,
+      "det_post": 1.344045,
+      "det_pre": 33.111578,
+      "pipeline": 150.616396,
+      "rec_infer": 9.167008,
+      "rec_post": 0.414686,
+      "rec_pre": 0.198851,
+      "server_compute": 181.1899,
+      "sort": 0.001874
+    },
+    "request_id": "clean-1cda233b80d18b629f98066b"
+  }
+}

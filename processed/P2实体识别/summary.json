@@ -1,0 +1,95 @@
+{
+  "scenic_summaries": [
+    {
+      "scenic_code": "GZCL",
+      "documents": 18,
+      "counts": {
+        "TIME": 464,
+        "POI": 616,
+        "TRANSPORT": 149
+      },
+      "poi_roles": {
+        "support": 212,
+        "attraction": 404
+      },
+      "no_mentions": []
+    },
+    {
+      "scenic_code": "ZHCL",
+      "documents": 15,
+      "counts": {
+        "POI": 629,
+        "TIME": 429,
+        "TRANSPORT": 51
+      },
+      "poi_roles": {
+        "attraction": 550,
+        "support": 79
+      },
+      "no_mentions": []
+    },
+    {
+      "scenic_code": "JZG",
+      "documents": 14,
+      "counts": {
+        "TIME": 360,
+        "POI": 686,
+        "TRANSPORT": 263
+      },
+      "poi_roles": {
+        "attraction": 612,
+        "support": 74
+      },
+      "no_mentions": []
+    }
+  ],
+  "diagnostic_occurrences": 327,
+  "diagnostic_terms": {
+    "北门": 10,
+    "南门": 29,
+    "地铁": 6,
+    "缆车": 35,
+    "小火车": 31,
+    "双溪长隆站": 1,
+    "火烈鸟": 17,
+    "空中缆车": 9,
+    "高铁": 10,
+    "步行": 1,
+    "飞": 10,
+    "原始森林": 5,
+    "诺日朗": 19,
+    "沟口": 39,
+    "企鹅": 36,
+    "深海世界": 3,
+    "旋转水转": 1,
+    "小船": 2,
+    "航海家号": 2,
+    "水濑之家": 2,
+    "水世界": 20,
+    "正门": 5,
+    "熊森林": 4,
+    "细尾蒙": 4,
+    "山題": 5,
+    "D/E口": 3,
+    "汉溪大道": 2,
+    "2/3号停车场": 1,
+    "海洋奇现": 1,
+    "海底互动胎": 1,
+    "鹦瞒过山车": 1,
+    "卡卡剧院": 2,
+    "飞机": 4,
+    "老虎嘴": 1,
+    "九寨黄龍棍場": 1,
+    "珍珠潍站": 1,
+    "镑竹海": 1,
+    "熊漏海": 1,
+    "诺日诺中心站": 1
+  },
+  "origin_counts": {
+    "legacy": 1197,
+    "body": 1136,
+    "image": 1215,
+    "comment": 99
+  },
+  "note": "提及次数不是独立地点数；同一提及可有多条来源。尚无人工P/R/F1。"
+}

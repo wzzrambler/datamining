@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "de6d93da0aa14fff70c8afbd1b6773a3fa342015a42e5006a4a7839252dd9928",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1461016,
+  "round_trip_ms": 184.5261999987997,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1080,
+      "width": 1440
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            777.0,
+            658.0
+          ],
+          [
+            916.0,
+            623.0
+          ],
+          [
+            927.0,
+            664.0
+          ],
+          [
+            787.0,
+            698.0
+          ]
+        ],
+        "confidence": 0.624900221824646,
+        "text": "国际金视中"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.176688,
+      "decode": 24.861885,
+      "det_infer": 99.306063,
+      "det_post": 1.288206,
+      "det_pre": 34.158111,
+      "pipeline": 137.778567,
+      "rec_infer": 2.698623,
+      "rec_post": 0.094937,
+      "rec_pre": 0.050179,
+      "server_compute": 162.641484,
+      "sort": 0.000721
+    },
+    "request_id": "clean-de6d93da0aa14fff70c8afbd"
+  }
+}

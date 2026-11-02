@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "1e174697afdb2ec8e8c59d1fba4e43e4ca283d256196c23a90f1b3c2142fb66b",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1435525,
+  "round_trip_ms": 194.19350000680424,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            267.0,
+            676.0
+          ],
+          [
+            818.0,
+            674.0
+          ],
+          [
+            818.0,
+            760.0
+          ],
+          [
+            267.0,
+            762.0
+          ]
+        ],
+        "confidence": 0.9849053621292114,
+        "text": "#海洋夜光大巡游"
+      },
+      {
+        "box": [
+          [
+            1035.0,
+            1412.0
+          ],
+          [
+            1073.0,
+            1412.0
+          ],
+          [
+            1073.0,
+            1432.0
+          ],
+          [
+            1035.0,
+            1432.0
+          ]
+        ],
+        "confidence": 0.28032541275024414,
+        "text": "电节"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.041731,
+      "decode": 25.954593,
+      "det_infer": 111.353087,
+      "det_post": 1.006631,
+      "det_pre": 35.083021,
+      "pipeline": 156.414258,
+      "rec_infer": 7.4594629999999995,
+      "rec_post": 0.227848,
+      "rec_pre": 0.23030299999999998,
+      "server_compute": 182.369623,
+      "sort": 0.000982
+    },
+    "request_id": "clean-1e174697afdb2ec8e8c59d1f"
+  }
+}

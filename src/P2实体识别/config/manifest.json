@@ -1,0 +1,20 @@
+{
+  "config_version": "v2",
+  "schema_version": "p2-config-1",
+  "parent_config_hash": "692c600a1d15b3952290e0f31dbef81265f18bdd4740acbeb65a3468434b4756",
+  "input_sha256": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+  "draft_sha256": {
+    "GZCL": "720589159fa9bedae9aceb2bf1b586fa6511323abbde0d4dc5c3bc178859f966",
+    "ZHCL": "f97b911b8177dd72bd8b89ecbb89a800f0118699123631198be6716056f35eea",
+    "JZG": "a364815d8c83a4a38a7d9ca4fc701a01bf927ad2194b336b16850f7e36ab9908"
+  },
+  "file_sha256": {
+    "lexicon.json": "431b0f41f427a8b91600b36f0a405f39309b2f12cd11979dac2e7d258b965044",
+    "policy.json": "001e6e6fbba3813b0f15230a5e5f47a5495f5ee9ac52a1c5d1b98a55d66e166e",
+    "decisions.json": "4e8a76831eed7536716fe16deaafb1b085303ed8f673772445d540d7640b0486",
+    "time_rules.json": "c5af85a25c95cc9339bf5782d2e094ac59f4997e312dfb946b87e6518ad3bb8f",
+    "candidate_specs.json": "611bc1a4309c76bede5a1ae3ef8ffe361339ba1028ad82260c559f7982d8a1a2",
+    "changes.json": "121dfb262815549423c7d07f57f024cd67ae3cf9271f646c5eade320d196254d"
+  },
+  "config_hash": "4bb0102da57bb27ef2263a00b88f59810b9f8c1bd3e9b9958fa6751783c8080b"
+}

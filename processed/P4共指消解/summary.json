@@ -1,0 +1,498 @@
+{
+  "documents_scanned": 47,
+  "records": 548,
+  "status_counts": {
+    "non_entity_reference": 4,
+    "unresolved": 397,
+    "resolved": 76,
+    "excluded": 71
+  },
+  "reason_counts": {
+    "discourse_expression": 4,
+    "type_mismatch": 248,
+    "event_structure_rule": 12,
+    "event_candidate_missing": 48,
+    "ambiguous": 27,
+    "type_distance_rule": 64,
+    "lexical_non_reference": 71,
+    "low_score": 23,
+    "no_candidate": 51
+  },
+  "reference_type_counts": {
+    "location": 118,
+    "unknown": 227,
+    "event": 69,
+    "person": 70,
+    "nonperson": 46,
+    "group": 9,
+    "animal": 2,
+    "object": 7
+  },
+  "baseline_links_on_detected_targets": 186,
+  "parameter_status": "development_rules_not_independent_validation",
+  "independent_semantic_accuracy": null,
+  "uses_annotations_for_prediction": false,
+  "documents": [
+    {
+      "doc_id": "GZCL-NOTE-01",
+      "scenic_code": "GZCL",
+      "content_sha256": "4e62c30fcad43d1ee26f2486c5cd29630afdf4940ff020da2a5a9175ed42221c",
+      "records": 19,
+      "status_counts": {
+        "non_entity_reference": 3,
+        "unresolved": 10,
+        "resolved": 3,
+        "excluded": 3
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-02",
+      "scenic_code": "GZCL",
+      "content_sha256": "9930419105a6f408095774903d63c5c91cfc2d0454dcfb757a6020c155f5298a",
+      "records": 68,
+      "status_counts": {
+        "resolved": 15,
+        "unresolved": 50,
+        "excluded": 3
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-03",
+      "scenic_code": "GZCL",
+      "content_sha256": "68050221c2f85ca755516e11f25c9369b45484bd895720bd4d907d35700ab592",
+      "records": 44,
+      "status_counts": {
+        "unresolved": 36,
+        "resolved": 4,
+        "excluded": 4
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-04",
+      "scenic_code": "GZCL",
+      "content_sha256": "b42fd1bb3025f2a04e01d48ec57a13f98fc14865aa8182d011e76aa68a21edd1",
+      "records": 26,
+      "status_counts": {
+        "unresolved": 16,
+        "excluded": 8,
+        "resolved": 2
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-05",
+      "scenic_code": "GZCL",
+      "content_sha256": "32fa51e974c1715d5ce465208066bf4705527fc2b202142375f0f0b4380f3e7a",
+      "records": 16,
+      "status_counts": {
+        "unresolved": 13,
+        "resolved": 2,
+        "excluded": 1
+      }
+    },
+    {
+      "doc_id": "GZCL-OFF-01",
+      "scenic_code": "GZCL",
+      "content_sha256": "77807de6d35b3fe5e4501ef15ee2184927f75fd7dc11166a422314304ea4e036",
+      "records": 23,
+      "status_counts": {
+        "excluded": 8,
+        "resolved": 2,
+        "unresolved": 13
+      }
+    },
+    {
+      "doc_id": "GZCL-OFF-02",
+      "scenic_code": "GZCL",
+      "content_sha256": "f655b4353a13eae4aa250713350a629f945865658bad035324e3c9ef2983f22d",
+      "records": 31,
+      "status_counts": {
+        "excluded": 4,
+        "resolved": 7,
+        "unresolved": 20
+      }
+    },
+    {
+      "doc_id": "GZCL-OFF-03",
+      "scenic_code": "GZCL",
+      "content_sha256": "ee7a36a7e882423e2fb09051722080ebbff5ba0daab191de8fc95c84baf0d9d8",
+      "records": 9,
+      "status_counts": {
+        "unresolved": 7,
+        "resolved": 2
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-01",
+      "scenic_code": "JZG",
+      "content_sha256": "5103229ca6e04526cb368ba64fc071f6c939ff18114c5827469c228ac34260f1",
+      "records": 10,
+      "status_counts": {
+        "excluded": 1,
+        "unresolved": 8,
+        "resolved": 1
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-02",
+      "scenic_code": "JZG",
+      "content_sha256": "fd5adf720cf5ce44603a458afad2b52f3426ea0c89b2fefff543b4a450e71d36",
+      "records": 15,
+      "status_counts": {
+        "unresolved": 15
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-03",
+      "scenic_code": "JZG",
+      "content_sha256": "07493ff6a9a05b34eb110231f07d7cc05d9adba6e90f14b22087b7a923f94ed1",
+      "records": 7,
+      "status_counts": {
+        "resolved": 3,
+        "unresolved": 4
+      }
+    },
+    {
+      "doc_id": "JZG-OFF-01",
+      "scenic_code": "JZG",
+      "content_sha256": "63da26a169d93d11d205c9f598f485d7fd6b63ec36de3293c5a15403b0ca7147",
+      "records": 9,
+      "status_counts": {
+        "resolved": 4,
+        "unresolved": 4,
+        "excluded": 1
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-01",
+      "scenic_code": "ZHCL",
+      "content_sha256": "44952cb39a2348e3008a1461b40943bc761fbd88ca097a00ae390d43f8105090",
+      "records": 5,
+      "status_counts": {
+        "unresolved": 5
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-02",
+      "scenic_code": "ZHCL",
+      "content_sha256": "243075f9047ef7f4f63116cefda8310c911a7a64cf2d7e994421b873aa9f68b3",
+      "records": 14,
+      "status_counts": {
+        "unresolved": 9,
+        "resolved": 3,
+        "excluded": 2
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-03",
+      "scenic_code": "ZHCL",
+      "content_sha256": "003d6a9f3a61a7a4806df01478911ad0b3ebf9a776d4d86d61356b771cace740",
+      "records": 58,
+      "status_counts": {
+        "unresolved": 41,
+        "excluded": 10,
+        "resolved": 7
+      }
+    },
+    {
+      "doc_id": "ZHCL-OFF-01",
+      "scenic_code": "ZHCL",
+      "content_sha256": "ba61237494725c5cc99d016249f687ee5b18c3a5dcb252b58ddd2ef159e2eeb9",
+      "records": 7,
+      "status_counts": {
+        "unresolved": 6,
+        "resolved": 1
+      }
+    },
+    {
+      "doc_id": "ZHCL-OFF-02",
+      "scenic_code": "ZHCL",
+      "content_sha256": "e3ca9b9c59efa25fbc53f858c7f6b7e7f9ea2b07016accf2f828f6cb6b0d4286",
+      "records": 20,
+      "status_counts": {
+        "unresolved": 15,
+        "resolved": 3,
+        "excluded": 2
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-06",
+      "scenic_code": "GZCL",
+      "content_sha256": "ea00ba5add9e206cc3c26c3cc658718952a5a32f75a868e1fcd99adc0419afec",
+      "records": 0,
+      "status_counts": {}
+    },
+    {
+      "doc_id": "GZCL-NOTE-07",
+      "scenic_code": "GZCL",
+      "content_sha256": "d6d781dbb7d371002af3dc503db8edfcd58becefc0dbd32a3d5f2ac723bd3f90",
+      "records": 4,
+      "status_counts": {
+        "resolved": 1,
+        "excluded": 1,
+        "unresolved": 2
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-08",
+      "scenic_code": "GZCL",
+      "content_sha256": "8c7e2a7d729016335f22db6c80519a091ad7a91876c3f87a6cc9ff0a86be7faa",
+      "records": 5,
+      "status_counts": {
+        "unresolved": 3,
+        "excluded": 1,
+        "resolved": 1
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-09",
+      "scenic_code": "GZCL",
+      "content_sha256": "fc6eb5067bc89d497e359c81161c4dc19f94dde0ba41b47ca39080a8c426a1e3",
+      "records": 1,
+      "status_counts": {
+        "unresolved": 1
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-10",
+      "scenic_code": "GZCL",
+      "content_sha256": "e7c4ceeba3bed253dd1b3e2f78787f0da88a5310a453f4a507171498876f2ce9",
+      "records": 1,
+      "status_counts": {
+        "unresolved": 1
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-11",
+      "scenic_code": "GZCL",
+      "content_sha256": "315f682d35171b1ff3fc6cd45fd0123da4d89148255b23160d64524a2d81722b",
+      "records": 16,
+      "status_counts": {
+        "unresolved": 14,
+        "resolved": 2
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-12",
+      "scenic_code": "GZCL",
+      "content_sha256": "8f3ed6a18bc832ff5c36ddaa60cea19f32129109aa449235ef7f2b296acab656",
+      "records": 0,
+      "status_counts": {}
+    },
+    {
+      "doc_id": "GZCL-NOTE-13",
+      "scenic_code": "GZCL",
+      "content_sha256": "e27f1760b11b68b6dc64cfd4f4693e64a4d12ed0ae87520d6e1a5d3fb0f5a5b6",
+      "records": 0,
+      "status_counts": {}
+    },
+    {
+      "doc_id": "GZCL-NOTE-14",
+      "scenic_code": "GZCL",
+      "content_sha256": "f46371aefd7c6219b27c60e38961049a5b7e16e81a6744ed1408120de6a40fe8",
+      "records": 8,
+      "status_counts": {
+        "unresolved": 8
+      }
+    },
+    {
+      "doc_id": "GZCL-NOTE-15",
+      "scenic_code": "GZCL",
+      "content_sha256": "7ad3656c77a58257951f78668fd459d1e15603c7661dc0c1718ab0a9c9e0d5f6",
+      "records": 2,
+      "status_counts": {
+        "unresolved": 2
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-04",
+      "scenic_code": "ZHCL",
+      "content_sha256": "1fdf8c7c9101efa4ae9eb0b551e828418a4d0b8617b843a22150a2f5e20ee595",
+      "records": 2,
+      "status_counts": {
+        "unresolved": 2
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-05",
+      "scenic_code": "ZHCL",
+      "content_sha256": "423fa8b40936138e89f84d989a06c74c71d8ac019ba3c7fff716a49cf1a864cd",
+      "records": 0,
+      "status_counts": {}
+    },
+    {
+      "doc_id": "ZHCL-NOTE-06",
+      "scenic_code": "ZHCL",
+      "content_sha256": "58aff198510af9b327a10079703338772b760a571bf00907499b3f96b925142f",
+      "records": 4,
+      "status_counts": {
+        "excluded": 1,
+        "unresolved": 3
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-07",
+      "scenic_code": "ZHCL",
+      "content_sha256": "7691f9005f9a2ff00ebc1aaf6f0f4a2c81bc4e0d6c7c49398543b9abb598d18d",
+      "records": 3,
+      "status_counts": {
+        "excluded": 1,
+        "unresolved": 2
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-08",
+      "scenic_code": "ZHCL",
+      "content_sha256": "d95e04c674069c8e9f290236ff081d52c89b3433efe5fc1bb845f0fa25401371",
+      "records": 9,
+      "status_counts": {
+        "unresolved": 4,
+        "excluded": 1,
+        "resolved": 4
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-09",
+      "scenic_code": "ZHCL",
+      "content_sha256": "bf5f154204224c45fb8e4fb0e078b9af351994bc5c0f21b13f8e8bc824b1e302",
+      "records": 14,
+      "status_counts": {
+        "unresolved": 8,
+        "excluded": 4,
+        "resolved": 2
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-10",
+      "scenic_code": "ZHCL",
+      "content_sha256": "b0a1e1cb43a4b941b86ea9d72c2948a59266cc0078ca33b04dfa94daa31849ad",
+      "records": 6,
+      "status_counts": {
+        "unresolved": 6
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-11",
+      "scenic_code": "ZHCL",
+      "content_sha256": "4df7687b86c20b95113ac31467e24a6e29060eaab105f3561aa11e76c007654e",
+      "records": 0,
+      "status_counts": {}
+    },
+    {
+      "doc_id": "ZHCL-NOTE-12",
+      "scenic_code": "ZHCL",
+      "content_sha256": "eaa264b16e93b003571c46b193d31a85276e772b03dfaaf2ae00d9fd61e45a00",
+      "records": 7,
+      "status_counts": {
+        "unresolved": 7
+      }
+    },
+    {
+      "doc_id": "ZHCL-NOTE-13",
+      "scenic_code": "ZHCL",
+      "content_sha256": "4893ad0cc6af03d0cbf680fc2fef72835bb215bbffff3be593bc3051d7e1a7e9",
+      "records": 25,
+      "status_counts": {
+        "unresolved": 20,
+        "excluded": 4,
+        "resolved": 1
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-04",
+      "scenic_code": "JZG",
+      "content_sha256": "413ffcd18a736aa37a9282fa92c0fa6c02dc8db70a2cd7dadb705b3a41eb4f97",
+      "records": 1,
+      "status_counts": {
+        "unresolved": 1
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-05",
+      "scenic_code": "JZG",
+      "content_sha256": "b9b4d5fb5a9c936155ddb6f3b888c5d89da7c91488fea495153e1fa0ae9f407f",
+      "records": 6,
+      "status_counts": {
+        "resolved": 3,
+        "non_entity_reference": 1,
+        "unresolved": 2
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-06",
+      "scenic_code": "JZG",
+      "content_sha256": "a7a08d0ecdb47c759c2159e79d7068a677f0d2d6b9857befb5e6c0c9ec2bde6d",
+      "records": 20,
+      "status_counts": {
+        "unresolved": 15,
+        "excluded": 5
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-07",
+      "scenic_code": "JZG",
+      "content_sha256": "c25b44d18a29bf49acaef558612dd49da72d26f146e57290b70fcf6760151f04",
+      "records": 0,
+      "status_counts": {}
+    },
+    {
+      "doc_id": "JZG-NOTE-08",
+      "scenic_code": "JZG",
+      "content_sha256": "82fdd91affec0d63c7b6fb6a1b26f4fa13453f0e79d7571b95e4a945c4446653",
+      "records": 7,
+      "status_counts": {
+        "unresolved": 4,
+        "resolved": 2,
+        "excluded": 1
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-09",
+      "scenic_code": "JZG",
+      "content_sha256": "839cbf9b61c67f7fb33afd6f0c465fa7933b5cd527b4e17da4b016928954b07e",
+      "records": 5,
+      "status_counts": {
+        "excluded": 3,
+        "resolved": 1,
+        "unresolved": 1
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-10",
+      "scenic_code": "JZG",
+      "content_sha256": "55976912890d90c5699ffa73748d3ab4b7d3c47919db19a48c01aeaa214fdac4",
+      "records": 7,
+      "status_counts": {
+        "unresolved": 7
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-11",
+      "scenic_code": "JZG",
+      "content_sha256": "d131b2487e75c558944c948ea95d8016d4135aec2a4690fa14cbea6fcde28cca",
+      "records": 9,
+      "status_counts": {
+        "unresolved": 8,
+        "excluded": 1
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-12",
+      "scenic_code": "JZG",
+      "content_sha256": "bc9a0b5c1bec9841b4bffc908056b7aa3c400e83e35f5f95f10e570ac483218f",
+      "records": 3,
+      "status_counts": {
+        "unresolved": 2,
+        "excluded": 1
+      }
+    },
+    {
+      "doc_id": "JZG-NOTE-13",
+      "scenic_code": "JZG",
+      "content_sha256": "71ccae613996a90d6b8ca8f1033016175acd210757c2d46d1c30c908d16db50f",
+      "records": 2,
+      "status_counts": {
+        "unresolved": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,5934 @@
+{
+  "GZCL": {
+    "entries": [
+      {
+        "term": "广州长隆野生动物世界",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "长隆野生动物世界",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "园区完整名称",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 2,
+            "quote": "漫游在广州长隆野生动物世界的24小时,在此准确捕捉到了童年的感觉,有很多个瞬间都觉得自己不像是个20多岁的成年人,站在园区内,感觉自己宛如一个涉世未深的孩童,看看着眼前的每一个动物,就想要更多的去了解它们,对眼前的风景充满了无穷的好奇。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-001",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆野生动物世界",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "长隆野生动物世界",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "园区简称",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 2,
+            "quote": "漫游在广州长隆野生动物世界的24小时,在此准确捕捉到了童年的感觉,有很多个瞬间都觉得自己不像是个20多岁的成年人,站在园区内,感觉自己宛如一个涉世未深的孩童,看看着眼前的每一个动物,就想要更多的去了解它们,对眼前的风景充满了无穷的好奇。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-002",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆欢乐世界",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "长隆欢乐世界",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "独立园区",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 2,
+            "quote": "广州长隆欢乐世界情侣游玩攻略"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-003",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆水上乐园",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "长隆水上乐园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "独立园区",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 14,
+            "quote": "第三站:长隆水上乐园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-004",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆飞鸟乐园",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "长隆飞鸟乐园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "独立园区",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-09",
+            "para_id": 121,
+            "quote": "Day3长隆飞鸟乐园(半天精简路线,必看"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-005",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆国际大马戏",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "长隆国际大马戏",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "演出场馆/产品名",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 10,
+            "quote": "长隆国际大马戏:坐地铁到汉溪长隆地铁站,7号线还有3号线都可以到,下地铁之后,D出口或者E出口下,搭园区的免费穿梭巴士去到大马戏剧院"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-006",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "小火车游览区",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "小火车游览区",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "明确区域名",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-01",
+            "para_id": 13,
+            "quote": "北门——小火车游览区——青龙山——考拉园——熊猫乐园——熊猫餐厅——4D影院——亚洲象园——长颈鹿广场——空中缆车——火烈鸟——南门纪念品商店——出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-007",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "青龙山",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "青龙山",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 5,
+            "quote": "南门进园-搭乘天鹅湖缆车-到达天鹅湖游览-搭乘小火车游览非洲大草原-青龙山-百虎山-金狮王国-大熊猫中心-大象园-南门返程-观看大马戏表演"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-008",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "侏罗纪森林",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "侏罗纪森林",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 29,
+            "quote": "在美丽的青龙山景区之中,还隐藏着一座侏罗纪森林和金蛇秘境。最值得一提的是侏罗纪森林,在一个占地只有十平方米的地方,居然将侏罗纪森林的全景真实的呈现出来,仿佛进入一个时空隧道,带我们走入原始森林时期,一回头就能够看到逼真无比的大恐龙,它用一种前所未有的方式让恐龙“复活”在我们眼前,生动而又有趣。在这里,我们可以探索丛林大冒险,感受侏罗纪原始森林的奇妙之处。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-009",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "雨林仙踪",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "雨林仙踪",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 27,
+            "quote": "北门进入—乘坐小火车游览—侏罗纪世界—金蛇秘境—雨林仙踪—白虎馆—长颈鹿广场—考拉馆—大熊猫中心—亚洲象—熊猫乐园—非洲森林—火烈鸟岛—南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-010",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "金蛇秘境",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "金蛇秘境",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 29,
+            "quote": "在美丽的青龙山景区之中,还隐藏着一座侏罗纪森林和金蛇秘境。最值得一提的是侏罗纪森林,在一个占地只有十平方米的地方,居然将侏罗纪森林的全景真实的呈现出来,仿佛进入一个时空隧道,带我们走入原始森林时期,一回头就能够看到逼真无比的大恐龙,它用一种前所未有的方式让恐龙“复活”在我们眼前,生动而又有趣。在这里,我们可以探索丛林大冒险,感受侏罗纪原始森林的奇妙之处。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-011",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "百虎山",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "百虎山",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 5,
+            "quote": "南门进园-搭乘天鹅湖缆车-到达天鹅湖游览-搭乘小火车游览非洲大草原-青龙山-百虎山-金狮王国-大熊猫中心-大象园-南门返程-观看大马戏表演"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-012",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长颈鹿广场",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "长颈鹿广场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 27,
+            "quote": "北门进入—乘坐小火车游览—侏罗纪世界—金蛇秘境—雨林仙踪—白虎馆—长颈鹿广场—考拉馆—大熊猫中心—亚洲象—熊猫乐园—非洲森林—火烈鸟岛—南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-013",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "考拉园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "考拉园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 12,
+            "quote": "通常游客有一天的时间游览步行园区,我建议的游览方式是从北门进入,不过桥直接去左手边的金猴王国,然后沿着湖边走看看天鹅鹈鹕,在去花果山看看猴子,然后右拐到百虎山看各种老虎,下山后可以顺路喂喂长颈鹿,调戏下亚洲象园里的大象们。然后到据说是口味最好的熊猫餐厅吃午饭,吃完饭在逛逛考拉园和熊猫村,然后前往熊猫乐园站乘坐缆车返回北门。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-014",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫乐园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "熊猫乐园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "与熊猫村分别保留",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 6,
+            "quote": "野生动物园主要有北门和南门两个入口。北门比较适合旅行团和自驾开车前往;南门公共交通比较方便,适合乘坐公共交通前往。西边的乘车游览区,可以自驾或者乘坐小火车;中间和东面的主题园区,主要通过缆车和步行前往。北门和南门之间,通过天鹅湖线缆车往返,从天鹅湖站到熊猫乐园站。缆车线路基本是三角形,但非洲草原站是不停也不允许上下的;此外景区内还有30元/位的电瓶车。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-015",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫村",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "熊猫村",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "与熊猫乐园分别保留",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 12,
+            "quote": "通常游客有一天的时间游览步行园区,我建议的游览方式是从北门进入,不过桥直接去左手边的金猴王国,然后沿着湖边走看看天鹅鹈鹕,在去花果山看看猴子,然后右拐到百虎山看各种老虎,下山后可以顺路喂喂长颈鹿,调戏下亚洲象园里的大象们。然后到据说是口味最好的熊猫餐厅吃午饭,吃完饭在逛逛考拉园和熊猫村,然后前往熊猫乐园站乘坐缆车返回北门。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-016",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆大熊猫中心",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "长隆大熊猫中心",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-11",
+            "para_id": 142,
+            "quote": "亚洲象→长隆大熊猫中心(妹猪和"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-017",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "亚洲象园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "亚洲象园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 12,
+            "quote": "通常游客有一天的时间游览步行园区,我建议的游览方式是从北门进入,不过桥直接去左手边的金猴王国,然后沿着湖边走看看天鹅鹈鹕,在去花果山看看猴子,然后右拐到百虎山看各种老虎,下山后可以顺路喂喂长颈鹿,调戏下亚洲象园里的大象们。然后到据说是口味最好的熊猫餐厅吃午饭,吃完饭在逛逛考拉园和熊猫村,然后前往熊猫乐园站乘坐缆车返回北门。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-018",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "火烈鸟岛",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "火烈鸟岛",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 27,
+            "quote": "北门进入—乘坐小火车游览—侏罗纪世界—金蛇秘境—雨林仙踪—白虎馆—长颈鹿广场—考拉馆—大熊猫中心—亚洲象—熊猫乐园—非洲森林—火烈鸟岛—南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-019",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "天鹅湖",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "天鹅湖",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 5,
+            "quote": "南门进园-搭乘天鹅湖缆车-到达天鹅湖游览-搭乘小火车游览非洲大草原-青龙山-百虎山-金狮王国-大熊猫中心-大象园-南门返程-观看大马戏表演"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-020",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "非洲草原",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "非洲草原",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "乘车游览区域",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 6,
+            "quote": "景点干货必备:天鹅湖缆车一定要带宝宝们去打卡,这里能俯视到野生动物世界的全貌,搭乘小火车去非洲草原如果能坐到靠窗的位置请尽量选择靠窗的位置,大熊猫中心可以带小朋友们去体验一下保育员的工作~能让宝宝们跟大熊猫亲密接触!这几个景点都为重点推荐观赏景点!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-021",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "东非草原",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "东非草原",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 27,
+            "quote": "最后一站则是激动人心的东非草原。这里生活的动物种类最为丰富,不管是大群的长颈鹿、斑马、黑斑羚等等,还是喜欢悠闲漫步的鸵鸟、非洲冠鹤等等,如此多的动物们齐聚一堂,热闹非凡。短短几十分钟的小火车之旅便能够让我们看到世界各大洲的珍稀动物,仿佛经历了一次世界森林冒险一般,闯过一关又一关。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-022",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "非洲森林",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "非洲森林",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 27,
+            "quote": "北门进入—乘坐小火车游览—侏罗纪世界—金蛇秘境—雨林仙踪—白虎馆—长颈鹿广场—考拉馆—大熊猫中心—亚洲象—熊猫乐园—非洲森林—火烈鸟岛—南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-023",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "狂野地带",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "狂野地带",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 25,
+            "quote": "见过了前五站各种珍稀动物之后,来到了最惊险,最刺激的第六站,即狂野地带。这一站也是最为期待的一站,来到这里首先就会被刻着狂野地带的巨石所吸引,而在这之后,便是各式各样的凶猛的肉食动物的欢迎仪式,与其他的园区不一样的是,狂野地带的园林设计都是十分特别的,它根据动物们的极限跳跃距离和安全距离范围专门设置了壕沟,这样我们不仅可以看到猛兽们自由活动,还可以有效的保障大家的安全。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-024",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "南非高原园区",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "南非高原园区",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 26,
+            "quote": "还没达到第七站的时候,便已会看到许许多多的白犀牛探出头来跟我们打招呼,这便是南非高原园区。在这里不仅有着可爱的白犀牛,还生活着懒洋洋的河马,河马们最喜欢的就是沐浴了,而在南非高原园区的另一边还有着大羚羊、南非剑羚和金毛羚羊等等,它们早已摆好了姿势,等着我们给它们拍照,很是可爱。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-025",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "南亚雨林",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "南亚雨林",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 23,
+            "quote": "在西亚荒漠的尽头处,便是一座茂密的热带雨林,在南亚雨林的拐角处有着一个神奇的大象王国,这里有着各种各样的亚洲象群,在最常见的景象是母象或是巨大的公象后面一起散步的小象,远观超级萌态。除此之外,在南亚雨林中还生活着来自马来西亚的马来貘,十分稀有。因为这种动物比较少见,一定要仔细听工组人员介绍才能辨别的出来。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-026",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "青龙山景区",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "青龙山景区",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "区域称呼",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 29,
+            "quote": "在美丽的青龙山景区之中,还隐藏着一座侏罗纪森林和金蛇秘境。最值得一提的是侏罗纪森林,在一个占地只有十平方米的地方,居然将侏罗纪森林的全景真实的呈现出来,仿佛进入一个时空隧道,带我们走入原始森林时期,一回头就能够看到逼真无比的大恐龙,它用一种前所未有的方式让恐龙“复活”在我们眼前,生动而又有趣。在这里,我们可以探索丛林大冒险,感受侏罗纪原始森林的奇妙之处。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-027",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "金猴王国",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "金猴王国",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 34,
+            "quote": "金猴王国-在花果山遇见美猴王"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-028",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "花果山",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "花果山",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 34,
+            "quote": "金猴王国-在花果山遇见美猴王"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-029",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "萌帅酷乐园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "萌帅酷乐园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 37,
+            "quote": "熊猫乐园—萌帅酷乐园—火烈鸟岛—南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-030",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "骐骥天地",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "骐骥天地",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 218,
+            "quote": "骐骥天地"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-031",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "科莫多龙园区",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "科莫多龙园区",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-08",
+            "para_id": 21,
+            "quote": "8⃣15:00-16:00 科莫多龙园区+考拉园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-032",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "黑猩猩展区",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "黑猩猩展区",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 8,
+            "quote": "北门入园 → 小火车 → 青龙山 → 白虎山 → 长颈鹿广场 → 考拉园 → 午餐休整 → 熊猫村 → 亚洲象区 → 空中缆车 → 火烈鸟岛 → 4D 影院 → 花车巡游 → 熊森林 → 黑猩猩展区 → 南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-033",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "动物幼儿园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "动物幼儿园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 42,
+            "quote": "野生动物世界内,四处还有一些适合小朋友们游玩的游乐设施,如儿童版跳伞塔,碰碰车和旋转木马等一系列深受孩子喜爱的游乐项目,挺适合亲子一起互动去玩耍。每一个游玩设备都是为孩子们量身定制,就算宝宝们年龄偏小也无妨,简直堪称是小孩的天堂,每一个孩子都能在这里尽情释放天性,无忧玩乐。如果对动物世界感兴趣的话,还可以去广州长隆野生动物世界的科普厅看一看,如果有小朋友在的话,还可以带着小朋友去动物幼儿园的科普课程,这里有着很多萌萌的小动物,这样可以很好的培养孩子们的爱心,让孩子们更加的了解世界上的动物,与动物们进行一次亲密的接触。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-034",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "方舟剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "方舟剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 39,
+            "quote": "北门进入—野生区自驾游—动物幼儿园—方舟剧场—大象传奇—小小保育员(熊猫、考拉或白虎)—"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-035",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "4D影院",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "4D影院",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-01",
+            "para_id": 13,
+            "quote": "北门——小火车游览区——青龙山——考拉园——熊猫乐园——熊猫餐厅——4D影院——亚洲象园——长颈鹿广场——空中缆车——火烈鸟——南门纪念品商店——出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-036",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "科普剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "科普剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 170,
+            "quote": "科普剧场"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-037",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "骑士剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "骑士剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 175,
+            "quote": "骑士剧场"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-038",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆野生动物世界北门",
+        "poi_role": "support",
+        "subtype": "gate",
+        "canonical_name": "长隆野生动物世界北门",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "园区具体入口",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-01",
+            "para_id": 5,
+            "quote": "享用完早餐,可以凭房号前往礼宾部寄存行李,然后出门乘坐免费巴士到达长隆野生动物世界北门,我们打算从北门入园,先乘坐小火车游览一遍,然后一路向南,完美!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-039",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "北门",
+        "poi_role": "support",
+        "subtype": "gate",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "长隆野生动物世界语境",
+        "note": "需同文语境定位",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 3,
+            "quote": "初三我们6点半起床,因为两个孩子吃早餐,各种拖延,导致8点半才从深圳出发。到达长隆动物园已经十点。从北门进,看到里面还有车位,工作人员指示我们往前开,听着指示我们驶过北门,穿南门再经欢乐世界一直开到了一个特别远的停车场。步行到动物园至少得四十分钟,此时已经十一点。我提议这种情况就干脆在广州住一夜,改票到初四。打了个电话给出票的工作人员,很快帮我们把票给改了,初三我们在广州大夫森林公园玩了一下午,骑单车,放风筝。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-040",
+        "guard": "gate",
+        "enabled": true
+      },
+      {
+        "term": "南门",
+        "poi_role": "support",
+        "subtype": "gate",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "长隆野生动物世界语境",
+        "note": "需同文语境定位",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 3,
+            "quote": "初三我们6点半起床,因为两个孩子吃早餐,各种拖延,导致8点半才从深圳出发。到达长隆动物园已经十点。从北门进,看到里面还有车位,工作人员指示我们往前开,听着指示我们驶过北门,穿南门再经欢乐世界一直开到了一个特别远的停车场。步行到动物园至少得四十分钟,此时已经十一点。我提议这种情况就干脆在广州住一夜,改票到初四。打了个电话给出票的工作人员,很快帮我们把票给改了,初三我们在广州大夫森林公园玩了一下午,骑单车,放风筝。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-041",
+        "guard": "gate",
+        "enabled": true
+      },
+      {
+        "term": "汉溪长隆站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "汉溪长隆站",
+        "scope": "outside",
+        "context_required": "",
+        "note": "地铁站",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 4,
+            "quote": "3/7号线坐到汉溪长隆站D/E口 免费接驳巴士直达北门"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-042",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "汉溪长隆地铁站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "汉溪长隆站",
+        "scope": "outside",
+        "context_required": "",
+        "note": "同一站完整写法",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 10,
+            "quote": "长隆国际大马戏:坐地铁到汉溪长隆地铁站,7号线还有3号线都可以到,下地铁之后,D出口或者E出口下,搭园区的免费穿梭巴士去到大马戏剧院"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-043",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "天鹅湖站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "天鹅湖站",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "缆车站",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 6,
+            "quote": "野生动物园主要有北门和南门两个入口。北门比较适合旅行团和自驾开车前往;南门公共交通比较方便,适合乘坐公共交通前往。西边的乘车游览区,可以自驾或者乘坐小火车;中间和东面的主题园区,主要通过缆车和步行前往。北门和南门之间,通过天鹅湖线缆车往返,从天鹅湖站到熊猫乐园站。缆车线路基本是三角形,但非洲草原站是不停也不允许上下的;此外景区内还有30元/位的电瓶车。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-044",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫乐园站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "熊猫乐园站",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "缆车站",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 6,
+            "quote": "野生动物园主要有北门和南门两个入口。北门比较适合旅行团和自驾开车前往;南门公共交通比较方便,适合乘坐公共交通前往。西边的乘车游览区,可以自驾或者乘坐小火车;中间和东面的主题园区,主要通过缆车和步行前往。北门和南门之间,通过天鹅湖线缆车往返,从天鹅湖站到熊猫乐园站。缆车线路基本是三角形,但非洲草原站是不停也不允许上下的;此外景区内还有30元/位的电瓶车。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-045",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "非洲草原站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "非洲草原站",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "缆车站",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 6,
+            "quote": "野生动物园主要有北门和南门两个入口。北门比较适合旅行团和自驾开车前往;南门公共交通比较方便,适合乘坐公共交通前往。西边的乘车游览区,可以自驾或者乘坐小火车;中间和东面的主题园区,主要通过缆车和步行前往。北门和南门之间,通过天鹅湖线缆车往返,从天鹅湖站到熊猫乐园站。缆车线路基本是三角形,但非洲草原站是不停也不允许上下的;此外景区内还有30元/位的电瓶车。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-046",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 19,
+            "quote": "熊猫村是必去的场馆,长隆曾顺利繁育了熊猫三胞胎,而且把她们作为品牌代言人拍摄了动画片,在长隆酒店电视上不间断播放,园区内随处可见熊猫三胞胎的雕像。在熊猫村你可以看到帅帅和酷酷,大姐萌萌去四川相亲去啦。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-047",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "熊猫酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 121,
+            "quote": "长隆酒店与熊猫酒店"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-048",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆熊猫酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆熊猫酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 4,
+            "quote": "因为当天晚上要入住广州长隆熊猫酒店,所以我们先前往酒店寄存行李!在地铁7号线汉溪长隆地铁站E出口,可直接乘坐免费巴士到达长隆熊猫酒店,到达酒店先前往一楼酒店大堂服务中心寄存行李。从广州长隆熊猫酒店出发步行至广州长隆欢乐世界北门,几分钟即可到达,散散步当放松也不错~"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-049",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "香江酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "香江酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-13",
+            "para_id": 28,
+            "quote": "长隆香江酒店:野生动物园步行直达,性价比高"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-050",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆香江酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆香江酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-13",
+            "para_id": 28,
+            "quote": "长隆香江酒店:野生动物园步行直达,性价比高"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-051",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "熊猫餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "设施而非动物景点",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 56,
+            "quote": "在长隆野生动物世界和长隆大马戏剧院都有许多美食餐厅,比较推荐长隆野生动物世界的熊猫餐厅和长隆大马戏剧院的明星餐厅,人均消费60-100元左右,熊猫餐厅是一个以熊猫主题的餐厅,有着很多美食,价格实惠,味道也很不错,并且每到菜里都能够看到熊猫元素,很多小朋友都很喜欢在熊猫餐厅里用餐。如果是带着孩子一同来观赏的话,还可以带着孩子去熊猫餐厅旁边的儿童天地玩一玩,这里有着很多的游玩设施,十分有趣。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-052",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫亲子餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "熊猫亲子餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 106,
+            "quote": "环境与菜品最好的,当数熊猫亲子餐厅"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-053",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "白虎自助餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "白虎自助餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 131,
+            "quote": "白虎自助餐厅"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-054",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "考拉餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "考拉餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-11",
+            "para_id": 140,
+            "quote": "左转,会看到考拉餐厅,穿过考拉餐厅,就"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-055",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "椰林餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "椰林餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 13,
+            "quote": "中午:椰林餐厅+欢乐嘉年华"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-056",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "花果山餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "花果山餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-08",
+            "para_id": 17,
+            "quote": "推荐花果山餐厅,边用餐边看小猿猴,也可选择园区内其他快餐,补充体力为下午行程蓄力"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-057",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "美宜佳便利店",
+        "poi_role": "support",
+        "subtype": "shop",
+        "canonical_name": "",
+        "scope": "uncertain",
+        "context_required": "",
+        "note": "便利店配套服务，不是餐厅",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-07",
+            "para_id": 12,
+            "quote": "熊猫酒店外卖送不进来,需要自己去园区入口处取,一般给放在美宜佳便利店,来回15分钟左右,提前规划好时间。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-058",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "火箭过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "火箭过山车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施，欢乐世界",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 10,
+            "quote": "火箭过山车 尖叫指数:※※※※※"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-059",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "垂直过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "垂直过山车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施，欢乐世界",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 20,
+            "quote": "都说女生心目中都有一个公主梦,那就带她来梦幻转马吧~这个项目可以说是来广州长隆欢乐世界,除了垂直过山车外第二个比打卡的了哈哈,至少在梦幻转马前留下一张甜甜的剪影图也好呀~"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-060",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "飞马家庭过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "飞马家庭过山车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施，欢乐世界",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 7,
+            "quote": "谁说欢乐世界只适合大朋友,这里有小朋友也能玩的飞马家庭过山车,刺激又奇幻,家庭出游千万不要错过。最浪漫的打卡点还是梦幻转马,无论是小朋友还是拥有少女心的你,都可以进入梦幻童话世界, 打卡到人生照片"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-061",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "梦幻转马",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "梦幻转马",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 19,
+            "quote": "梦幻转马 浪漫指数:※※※※"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-062",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "超级大摆锤",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "超级大摆锤",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 27,
+            "quote": "在欢乐剧场看完表演后稍继续游玩,就来到了丛林探险和律动天地,又开启了我们的尖叫路线啦~ps.其实往垂直过山车走的路上,我们又体验了一次超级大摆锤哈哈~我感觉急流勇进也挺好玩的,但是有水,男朋友怕鞋子湿了死活不肯去哈哈,男人果然爱鞋如命,想玩的朋友也别担心噢,排队的地方会有雨衣卖滴!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-063",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "龙卷风暴",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "龙卷风暴",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 12,
+            "quote": "龙卷风暴 尖叫指数:※※※※※"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-064",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "欢乐跳跳",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "欢乐跳跳",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 22,
+            "quote": "欢乐跳跳 尖叫指数:※※※※"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-065",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "急流勇进",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "急流勇进",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "命名游乐设施",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 27,
+            "quote": "在欢乐剧场看完表演后稍继续游玩,就来到了丛林探险和律动天地,又开启了我们的尖叫路线啦~ps.其实往垂直过山车走的路上,我们又体验了一次超级大摆锤哈哈~我感觉急流勇进也挺好玩的,但是有水,男朋友怕鞋子湿了死活不肯去哈哈,男人果然爱鞋如命,想玩的朋友也别担心噢,排队的地方会有雨衣卖滴!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-066",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "巨星剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "巨星剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "欢乐世界剧场",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-13",
+            "para_id": 17,
+            "quote": "15:00有欢乐朋克大巡游、13:00/16:00有巨星剧场极潮派演出"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-067",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "欢乐剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "欢乐剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "欢乐世界剧场",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-02",
+            "para_id": 25,
+            "quote": "欢乐剧场《魔法奇幻之旅》表演 好看指数:※※※※"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-068",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "午夜港片城",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "午夜港片城",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "万圣节主题打卡区域，需核实是否季节性",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-15",
+            "para_id": 5,
+            "quote": "南门进 → 午夜港片城 → 幽暗海盗湾 → 诡异马戏村￼ → 后宫修罗场￼ → 粉小琦庄园 → 南门出。￼"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-069",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "幽暗海盗湾",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "幽暗海盗湾",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "万圣节主题打卡区域，需核实是否季节性",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-15",
+            "para_id": 5,
+            "quote": "南门进 → 午夜港片城 → 幽暗海盗湾 → 诡异马戏村￼ → 后宫修罗场￼ → 粉小琦庄园 → 南门出。￼"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-070",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "诡异马戏村",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "诡异马戏村",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "万圣节主题打卡区域，需核实是否季节性",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-15",
+            "para_id": 5,
+            "quote": "南门进 → 午夜港片城 → 幽暗海盗湾 → 诡异马戏村￼ → 后宫修罗场￼ → 粉小琦庄园 → 南门出。￼"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-071",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "后宫修罗场",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "后宫修罗场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "万圣节主题打卡区域，需核实是否季节性",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-15",
+            "para_id": 5,
+            "quote": "南门进 → 午夜港片城 → 幽暗海盗湾 → 诡异马戏村￼ → 后宫修罗场￼ → 粉小琦庄园 → 南门出。￼"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-072",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "粉小琦庄园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "粉小琦庄园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "万圣节主题打卡区域，需核实是否季节性",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-15",
+            "para_id": 5,
+            "quote": "南门进 → 午夜港片城 → 幽暗海盗湾 → 诡异马戏村￼ → 后宫修罗场￼ → 粉小琦庄园 → 南门出。￼"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-073",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "大夫森林公园",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "大夫森林公园",
+        "scope": "outside",
+        "context_required": "",
+        "note": "原文提及的外部具体景点",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 3,
+            "quote": "初三我们6点半起床,因为两个孩子吃早餐,各种拖延,导致8点半才从深圳出发。到达长隆动物园已经十点。从北门进,看到里面还有车位,工作人员指示我们往前开,听着指示我们驶过北门,穿南门再经欢乐世界一直开到了一个特别远的停车场。步行到动物园至少得四十分钟,此时已经十一点。我提议这种情况就干脆在广州住一夜,改票到初四。打了个电话给出票的工作人员,很快帮我们把票给改了,初三我们在广州大夫森林公园玩了一下午,骑单车,放风筝。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-POI-074",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "地铁",
+        "canonical_name": "地铁",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 8,
+            "quote": "动物园九点半开园,开车族一定要早点去,早点去才能停到好位置。坐地铁去的也早点,不用排长队。正确的路线因该是:北门进,将车停在北门,看到车位就停,别墨迹,一墨迹转身就会发现停车场已被管制,得绕好远才能停好车了。搞得不好大半个上午就会耗费在停车这一块。停好车进北门坐小火车穿越五大洲,然后步行到南门,慢慢逛。从北门进还有一个最重要的原因,上午十一点半和下午五点南门有很多场表演,从北门进来两个点的表演都可以看到。我们这次因为路线不对,耗费了很多时间只看了两个馆的表演。在南门逛完,看完所有的表演从南门坐小火车回北门,开车返程。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-001",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "坐地铁",
+        "canonical_name": "地铁",
+        "context_required": "乘坐语境",
+        "note": "不与站点混淆",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 8,
+            "quote": "动物园九点半开园,开车族一定要早点去,早点去才能停到好位置。坐地铁去的也早点,不用排长队。正确的路线因该是:北门进,将车停在北门,看到车位就停,别墨迹,一墨迹转身就会发现停车场已被管制,得绕好远才能停好车了。搞得不好大半个上午就会耗费在停车这一块。停好车进北门坐小火车穿越五大洲,然后步行到南门,慢慢逛。从北门进还有一个最重要的原因,上午十一点半和下午五点南门有很多场表演,从北门进来两个点的表演都可以看到。我们这次因为路线不对,耗费了很多时间只看了两个馆的表演。在南门逛完,看完所有的表演从南门坐小火车回北门,开车返程。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-002",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "高铁",
+        "canonical_name": "高铁",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 40,
+            "quote": "高铁轻轨:"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-003",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "自驾",
+        "canonical_name": "自驾",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 22,
+            "quote": "最后,可以开车入园,里面有自驾区。一台车是一张票的价格。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-004",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "自驾游",
+        "canonical_name": "自驾",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 2,
+            "quote": "广州长隆野生动物世界位于广州市番禺区,园区分为自驾游览区和步行游园区,有500多种2万余只野生动物,在国内和国际都属于较高水准的野生动物主题公园。野生动物世界在广州长隆度假区内,度假区内还包含欢乐世界、长隆大马戏、多家酒店和高尔夫训练中心。度假区面积很大,内部都要自驾或者乘坐穿梭巴士。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-005",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "打车",
+        "canonical_name": "打车",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-09",
+            "para_id": 24,
+            "quote": "• 看非洲动物、火烈鸟,南门出(做接驳车回酒店,也可以打车去万达广场吃饭,打车18元左右)"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-006",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "步行",
+        "canonical_name": "步行",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 3,
+            "quote": "初三我们6点半起床,因为两个孩子吃早餐,各种拖延,导致8点半才从深圳出发。到达长隆动物园已经十点。从北门进,看到里面还有车位,工作人员指示我们往前开,听着指示我们驶过北门,穿南门再经欢乐世界一直开到了一个特别远的停车场。步行到动物园至少得四十分钟,此时已经十一点。我提议这种情况就干脆在广州住一夜,改票到初四。打了个电话给出票的工作人员,很快帮我们把票给改了,初三我们在广州大夫森林公园玩了一下午,骑单车,放风筝。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-007",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "小火车",
+        "canonical_name": "小火车",
+        "context_required": "乘坐/排队/发车语境",
+        "note": "明确游玩体验时按POI，不强双标",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 8,
+            "quote": "动物园九点半开园,开车族一定要早点去,早点去才能停到好位置。坐地铁去的也早点,不用排长队。正确的路线因该是:北门进,将车停在北门,看到车位就停,别墨迹,一墨迹转身就会发现停车场已被管制,得绕好远才能停好车了。搞得不好大半个上午就会耗费在停车这一块。停好车进北门坐小火车穿越五大洲,然后步行到南门,慢慢逛。从北门进还有一个最重要的原因,上午十一点半和下午五点南门有很多场表演,从北门进来两个点的表演都可以看到。我们这次因为路线不对,耗费了很多时间只看了两个馆的表演。在南门逛完,看完所有的表演从南门坐小火车回北门,开车返程。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-008",
+        "guard": "dual_mobility",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "森林小火车",
+        "canonical_name": "森林小火车",
+        "context_required": "明确乘坐语境",
+        "note": "兼有游览体验",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 11,
+            "quote": "乘坐森林小火车,穿越五大洲的珍稀动物世界,近距离接触可爱的动物朋友"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-009",
+        "guard": "dual_mobility",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "缆车",
+        "canonical_name": "缆车",
+        "context_required": "乘坐/路线语境",
+        "note": "具体站点按POI/support",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 5,
+            "quote": "南门进园-搭乘天鹅湖缆车-到达天鹅湖游览-搭乘小火车游览非洲大草原-青龙山-百虎山-金狮王国-大熊猫中心-大象园-南门返程-观看大马戏表演"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-010",
+        "guard": "dual_mobility",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "空中缆车",
+        "canonical_name": "空中缆车",
+        "context_required": "乘坐/路线语境",
+        "note": "项目体验时需按上下文",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 15,
+            "quote": "从长隆野生动物世界的南门进入,动物园内会提供了各式各样的交通工具,其中最不可错过的就是可俯览全貌美景的缆车,长隆野生动物园的空中缆车是免费乘坐的,有2条线路,非洲草原线和天鹅湖线,非洲草原主要是观赏动物园的全貌,乘坐缆车可以将野生动物园的全景都饱览眼底,"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-011",
+        "guard": "dual_mobility",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "穿梭巴士",
+        "canonical_name": "穿梭巴士",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 10,
+            "quote": "长隆国际大马戏:坐地铁到汉溪长隆地铁站,7号线还有3号线都可以到,下地铁之后,D出口或者E出口下,搭园区的免费穿梭巴士去到大马戏剧院"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-012",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "接驳巴士",
+        "canonical_name": "接驳巴士",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-05",
+            "para_id": 123,
+            "quote": "两家亲子酒店,设施都不错;位置离园区近,且有免费接驳巴士,带着宝宝可以省力不少。入住长隆旗下酒店,可购买酒店与园区的联票,"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-013",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "园区巴士",
+        "canonical_name": "园区巴士",
+        "context_required": "",
+        "note": "OCR variant",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-11",
+            "para_id": 186,
+            "quote": "南门出后,往A站台走,坐园区巴士0到"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-014",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "公交巴士",
+        "canonical_name": "公交巴士",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 44,
+            "quote": "公交巴士:"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-015",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "机场快线",
+        "canonical_name": "机场快线",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 39,
+            "quote": "从广州白云机场出发搭乘机场快线约1小时15分钟直达广州长隆度假旅游区。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-016",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "乘船",
+        "canonical_name": "乘船",
+        "context_required": "",
+        "note": "交通方式",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-13",
+            "para_id": 23,
+            "quote": "还能乘船探秘湿地岛屿,近距离观赏五大洲珍稀雀鸟,途中可以投喂哦"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "GZCL-TRANSPORT-017",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "火烈鸟",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "supporting_route_stop",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-01",
+            "para_id": 13,
+            "quote": "北门——小火车游览区——青龙山——考拉园——熊猫乐园——熊猫餐厅——4D影院——亚洲象园——长颈鹿广场——空中缆车——火烈鸟——南门纪念品商店——出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-V2-ADD-001",
+        "guard": "route_label",
+        "enabled": true
+      },
+      {
+        "term": "白虎山",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "literal_name_no_alias_merge",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 8,
+            "quote": "北门入园 → 小火车 → 青龙山 → 白虎山 → 长颈鹿广场 → 考拉园 → 午餐休整 → 熊猫村 → 亚洲象区 → 空中缆车 → 火烈鸟岛 → 4D 影院 → 花车巡游 → 熊森林 → 黑猩猩展区 → 南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-V2-ADD-002",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊森林",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "literal_route_label",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 8,
+            "quote": "北门入园 → 小火车 → 青龙山 → 白虎山 → 长颈鹿广场 → 考拉园 → 午餐休整 → 熊猫村 → 亚洲象区 → 空中缆车 → 火烈鸟岛 → 4D 影院 → 花车巡游 → 熊森林 → 黑猩猩展区 → 南门出园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-V2-ADD-003",
+        "guard": "route_label",
+        "enabled": true
+      },
+      {
+        "term": "D/E口",
+        "poi_role": "support",
+        "subtype": "gate",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "station_context_required",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 4,
+            "quote": "3/7号线坐到汉溪长隆站D/E口 免费接驳巴士直达北门"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "GZCL-V2-ADD-004",
+        "guard": "station_exit",
+        "enabled": true
+      }
+    ],
+    "review_terms": [
+      {
+        "term": "汉溪大道",
+        "issue": "OCR地图存在近形错字，不能当作车站名",
+        "suggestion": "仅清晰写法归一，其他保留歧义",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-13",
+            "para_id": 82,
+            "quote": "汉溪大道"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "山題",
+        "issue": "OCR疑似“山魅”错识",
+        "suggestion": "不规范化，须对照原图",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-11",
+            "para_id": 169,
+            "quote": "细尾蒙看完,继续走1分钟,对面就是山題,"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "细尾蒙",
+        "issue": "疑似OCR/原文错字",
+        "suggestion": "保留原写法不猜名",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-11",
+            "para_id": 164,
+            "quote": "骐骥天地→细尾蒙"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "双溪长隆站",
+        "issue": "疑似OCR/笔误，站名无法确证",
+        "suggestion": "不自动改为汉溪长隆站",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 3,
+            "quote": "从广州市区可以乘坐地铁三号线到双溪长隆站,E出口有野生动物世界的免费穿梭巴士接驳;从深圳自驾前往走沿江高速,如果虎门大桥不堵车的话,一个半小时就可以抵达,可惜虎门大桥从来没有不堵车的时候。"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "小火车",
+        "issue": "兼具交通和独立体验功能",
+        "suggestion": "按语境择类，不强制双标",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 8,
+            "quote": "动物园九点半开园,开车族一定要早点去,早点去才能停到好位置。坐地铁去的也早点,不用排长队。正确的路线因该是:北门进,将车停在北门,看到车位就停,别墨迹,一墨迹转身就会发现停车场已被管制,得绕好远才能停好车了。搞得不好大半个上午就会耗费在停车这一块。停好车进北门坐小火车穿越五大洲,然后步行到南门,慢慢逛。从北门进还有一个最重要的原因,上午十一点半和下午五点南门有很多场表演,从北门进来两个点的表演都可以看到。我们这次因为路线不对,耗费了很多时间只看了两个馆的表演。在南门逛完,看完所有的表演从南门坐小火车回北门,开车返程。"
+          }
+        ],
+        "action": "contextual"
+      },
+      {
+        "term": "缆车",
+        "issue": "兼具交通和观景体验语境",
+        "suggestion": "按语境择类，站点为support",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 5,
+            "quote": "南门进园-搭乘天鹅湖缆车-到达天鹅湖游览-搭乘小火车游览非洲大草原-青龙山-百虎山-金狮王国-大熊猫中心-大象园-南门返程-观看大马戏表演"
+          }
+        ],
+        "action": "contextual"
+      },
+      {
+        "term": "熊猫村",
+        "issue": "评论称熊猫村无熊猫，正文却作为参观点",
+        "suggestion": "保留名称并待核实园区地理边界",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 12,
+            "quote": "通常游客有一天的时间游览步行园区,我建议的游览方式是从北门进入,不过桥直接去左手边的金猴王国,然后沿着湖边走看看天鹅鹈鹕,在去花果山看看猴子,然后右拐到百虎山看各种老虎,下山后可以顺路喂喂长颈鹿,调戏下亚洲象园里的大象们。然后到据说是口味最好的熊猫餐厅吃午饭,吃完饭在逛逛考拉园和熊猫村,然后前往熊猫乐园站乘坐缆车返回北门。"
+          }
+        ],
+        "action": "contextual"
+      },
+      {
+        "term": "北门",
+        "issue": "多个园区均可能有北门",
+        "suggestion": "必须以所属园区语境限定",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 3,
+            "quote": "初三我们6点半起床,因为两个孩子吃早餐,各种拖延,导致8点半才从深圳出发。到达长隆动物园已经十点。从北门进,看到里面还有车位,工作人员指示我们往前开,听着指示我们驶过北门,穿南门再经欢乐世界一直开到了一个特别远的停车场。步行到动物园至少得四十分钟,此时已经十一点。我提议这种情况就干脆在广州住一夜,改票到初四。打了个电话给出票的工作人员,很快帮我们把票给改了,初三我们在广州大夫森林公园玩了一下午,骑单车,放风筝。"
+          }
+        ],
+        "action": "contextual"
+      }
+    ],
+    "excluded": [
+      {
+        "term": "酒店",
+        "reason": "泛称，无具体命名设施",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-04",
+            "para_id": 2,
+            "quote": "广州长隆野生动物世界位于广州市番禺区,园区分为自驾游览区和步行游园区,有500多种2万余只野生动物,在国内和国际都属于较高水准的野生动物主题公园。野生动物世界在广州长隆度假区内,度假区内还包含欢乐世界、长隆大马戏、多家酒店和高尔夫训练中心。度假区面积很大,内部都要自驾或者乘坐穿梭巴士。"
+          }
+        ]
+      },
+      {
+        "term": "餐厅",
+        "reason": "泛称，无具体命名设施",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-02",
+            "para_id": 56,
+            "quote": "在长隆野生动物世界和长隆大马戏剧院都有许多美食餐厅,比较推荐长隆野生动物世界的熊猫餐厅和长隆大马戏剧院的明星餐厅,人均消费60-100元左右,熊猫餐厅是一个以熊猫主题的餐厅,有着很多美食,价格实惠,味道也很不错,并且每到菜里都能够看到熊猫元素,很多小朋友都很喜欢在熊猫餐厅里用餐。如果是带着孩子一同来观赏的话,还可以带着孩子去熊猫餐厅旁边的儿童天地玩一玩,这里有着很多的游玩设施,十分有趣。"
+          }
+        ]
+      },
+      {
+        "term": "车站",
+        "reason": "泛称，无法定位具体站点",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 41,
+            "quote": "从广州南高铁站出发搭乘地铁7号线到达汉溪长隆地铁站(E出口);从广州东高铁站出发搭乘地铁3号线北延段到达体育西地铁站转3号线到达汉溪长隆地铁站(E出口);从广州火车站地铁站出发搭乘地铁5号线到达珠江新城站转3号线到达汉溪长隆地铁站(E出口)。"
+          }
+        ]
+      },
+      {
+        "term": "停车场",
+        "reason": "泛称，无命名停车场",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 3,
+            "quote": "初三我们6点半起床,因为两个孩子吃早餐,各种拖延,导致8点半才从深圳出发。到达长隆动物园已经十点。从北门进,看到里面还有车位,工作人员指示我们往前开,听着指示我们驶过北门,穿南门再经欢乐世界一直开到了一个特别远的停车场。步行到动物园至少得四十分钟,此时已经十一点。我提议这种情况就干脆在广州住一夜,改票到初四。打了个电话给出票的工作人员,很快帮我们把票给改了,初三我们在广州大夫森林公园玩了一下午,骑单车,放风筝。"
+          }
+        ]
+      },
+      {
+        "term": "花车巡游",
+        "reason": "活动，不是地点POI",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 8,
+            "quote": "北门入园 → 小火车 → 青龙山 → 白虎山 → 长颈鹿广场 → 考拉园 → 午餐休整 → 熊猫村 → 亚洲象区 → 空中缆车 → 火烈鸟岛 → 4D 影院 → 花车巡游 → 熊森林 → 黑猩猩展区 → 南门出园"
+          }
+        ]
+      },
+      {
+        "term": "大象传奇",
+        "reason": "节目名，不自动是场馆POI",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-01",
+            "para_id": 14,
+            "quote": "我们看了大象传奇和亚州森林。大象传奇还不错,一头成年大象拥有五岁幼儿的智商,他们非常的聪明,会写毛笔字,会踢球,投篮,会撒娇耍萌,很可爱。亚州森林特别好看,特别震撼,特别棒。据说是全园动物最多的一场表演。骆驼,老虎,狼,老鹰非常多,视觉冲击特别棒,一定要去看看。坐在前三排的孩子有机会与小丑开场,如果孩子喜欢就提前去占位置。大象传奇十一点半开场,12点表演,亚洲森林是1点半。我直接上图片吧。"
+          }
+        ]
+      },
+      {
+        "term": "白虎跳水",
+        "reason": "表演，不自动是地点POI",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-06",
+            "para_id": 25,
+            "quote": "▪ 白虎跳水:11:30–17:00(每半小时一场)"
+          }
+        ]
+      },
+      {
+        "term": "诡夜大巡游",
+        "reason": "活动，不是地点POI",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-15",
+            "para_id": 11,
+            "quote": "21:00: 诡夜大巡游￼ (提前15-20分钟去主干道占位)。"
+          }
+        ]
+      },
+      {
+        "term": "水上升明月满月派对",
+        "reason": "活动，不是地点POI",
+        "evidence": [
+          {
+            "doc_id": "GZCL-NOTE-13",
+            "para_id": 19,
+            "quote": "70+项水上设备,夜场入园提前至15:00了~中秋国庆有限定派对!9.25「水上升明月满月派对」10.1「水上正当红狂欢派对」水上电音氛围拉满"
+          }
+        ]
+      },
+      {
+        "term": "珠江新城",
+        "reason": "城市区域名不纳入本阶段POI",
+        "evidence": [
+          {
+            "doc_id": "GZCL-OFF-03",
+            "para_id": 41,
+            "quote": "从广州南高铁站出发搭乘地铁7号线到达汉溪长隆地铁站(E出口);从广州东高铁站出发搭乘地铁3号线北延段到达体育西地铁站转3号线到达汉溪长隆地铁站(E出口);从广州火车站地铁站出发搭乘地铁5号线到达珠江新城站转3号线到达汉溪长隆地铁站(E出口)。"
+          }
+        ]
+      }
+    ]
+  },
+  "ZHCL": {
+    "entries": [
+      {
+        "term": "珠海长隆海洋王国",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "珠海长隆海洋王国",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "景区主体名称。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 83,
+            "quote": "一键查看珠海长隆海洋王国"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-001",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆海洋王国",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "珠海长隆海洋王国",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "省略珠海的常见写法。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 1,
+            "quote": "长隆海洋王国"
+          },
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 2,
+            "quote": "长隆海洋王国位于广东珠海横琴长隆国际海洋度假区,是一个以海洋为主题的主题公园。海洋王国获得了主题娱乐协会(TEA) 在2014年颁发的唯一的主题公园「杰出成就奖」。这里有世界至大的水族馆之一,可以和鲸鲨、白鲸、北极熊、企鹅等等可爱的海洋动物见面,也可以挑战动感游乐设施,还有精彩的剧场表演、花车巡游、横琴海汇演等等,丝毫不逊色于著名的迪斯尼乐园。且海洋王国园区面积并不大,相比广州长隆更加适合带孩子亲子游。"
+          },
+          {
+            "doc_id": "ZHCL-NOTE-10",
+            "para_id": 1,
+            "quote": "作为珠海本地宝妈,珠海长隆海洋王国已经刷过N+1遍,无论是次票,年卡,假期高峰还是疫情期间“包场”,都有过不同体验。最近恰逢暑假,给大家整理一份一日游攻略和最佳游览路线"
+          },
+          {
+            "doc_id": "ZHCL-NOTE-13",
+            "para_id": 6,
+            "quote": "长隆海洋王国游玩攻略:酒店选择、交通路"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-002",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆飞船乐园",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "长隆飞船乐园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "独立园区。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 3,
+            "quote": "第一站:长隆飞船乐园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-003",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "飞船乐园",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "长隆飞船乐园",
+        "scope": "in_area",
+        "context_required": "长隆飞船乐园",
+        "note": "飞船园简称。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-07",
+            "para_id": 11,
+            "quote": "Day3⃣ 上午+返程:飞船乐园"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-004",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "横琴湾水世界",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "横琴湾水世界",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "酒店配套水上游乐区域。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 8,
+            "quote": "携程订的酒店,可能是还没到暑假,又是周中淡季,所以价钱非常合适。1450rmb包括了一晚上酒店住宿含双早以及2张海洋王国2日无限次入园的门票。办理入住的时候给了我第一个惊喜:送了两张横琴湾水世界的门票。这个水世界下面会细表。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-005",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "水世界",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "uncertain",
+        "context_required": "横琴湾酒店",
+        "note": "有明确酒店语境时指酒店水世界；单独出现需上下文。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 51,
+            "quote": "这个水世界是长隆给我们的一个惊喜,也是我后来屡次推荐横琴湾酒店的原因之一,最重要的原因。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-006",
+        "guard": "deferred",
+        "enabled": false
+      },
+      {
+        "term": "鲸鲨馆",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "鲸鲨馆",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "展馆。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 63,
+            "quote": "鲸鲨馆"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-007",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "白鲸馆",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "白鲸馆",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "展馆，区别白鲸剧场。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 69,
+            "quote": "白鲸馆"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-008",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "企鹅馆",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "企鹅馆",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 67,
+            "quote": "企鹅馆"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-009",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "北极熊馆",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "北极熊馆",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 71,
+            "quote": "北极熊馆"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-010",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海牛馆",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "海牛馆",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 31,
+            "quote": "动物展馆:海牛馆"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-011",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海豚剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "海豚剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 56,
+            "quote": "海豚剧场"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-012",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "白鲸剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "白鲸剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 58,
+            "quote": "白鲸剧场"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-013",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海狮剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "海狮剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 61,
+            "quote": "海狮剧场"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-014",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海洋露天剧场",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "海洋露天剧场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 73,
+            "quote": "表演剧场:海洋露天剧场"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-015",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海豚岛",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海豚岛",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 18,
+            "quote": "动物展馆:中华白海豚、海豚岛"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-016",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海象岛",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海象岛",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 79,
+            "quote": "动物展馆:海象岛、海狮港湾"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-017",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海狮港湾",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海狮港湾",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 79,
+            "quote": "动物展馆:海象岛、海狮港湾"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-018",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海鸟世界",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海鸟世界",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "明确列为游览区/区域。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 19,
+            "quote": "海鸟世界(2⭐,户外的各种鹤、鸟等,可以不去)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-019",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "水獭之家",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "水獭之家",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "原文俗写/错写另见歧义条目“水濑之家”。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-08",
+            "para_id": 10,
+            "quote": "3⃣喜欢疯狂动物城的记得要去水獭之家,海象岛,北极熊馆,你会找到电影中的原型"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-020",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "中华白海豚",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "中华白海豚",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "项目列表中列为展馆展示对象区域。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 18,
+            "quote": "动物展馆:中华白海豚、海豚岛"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-021",
+        "guard": "animal_site",
+        "enabled": true
+      },
+      {
+        "term": "海豚湾",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海豚湾",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "主题街区/区域。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 16,
+            "quote": "海豚湾"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-022",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海洋大街",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海洋大街",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "主题街区/入口通道。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 14,
+            "quote": "海洋大街"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-023",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "雨林飞翔",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "雨林飞翔",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "主题街区。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 28,
+            "quote": "雨林飞翔"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-024",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海洋奇观",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海洋奇观",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "主题街区。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 40,
+            "quote": "海洋奇观"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-025",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "极地探险",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "极地探险",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "主题街区。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 57,
+            "quote": "极地探险"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-026",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "英雄岛",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "英雄岛",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "主题街区。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 69,
+            "quote": "英雄岛"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-027",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海象山",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "海象山",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "主题街区。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 76,
+            "quote": "海象山"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-028",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "横琴海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "横琴海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "园区水域及表演观赏区域，具体指向依上下文。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 48,
+            "quote": "横琴海"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-029",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "深海世界",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "深海世界",
+        "scope": "uncertain",
+        "context_required": "",
+        "note": "文中称门口取地图，疑为场馆/设施；暂不确认为正式POI。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 4,
+            "quote": "园区十点开园,09:30开始售票,可以提前一点排队,准备进行安检。进园后,在深海世界门口(左边)拿一份景点游玩地图,上面详细标注了有海洋动物展览、机动游戏等。地图有中文版、英文版,不要拿错了。(也可以使用二维码扫描出的电子地图)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-030",
+        "guard": "deferred",
+        "enabled": false
+      },
+      {
+        "term": "鹦鹉过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "鹦鹉过山车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 8,
+            "quote": "三大过山车:鹦鹉过山车、冰山过山车、超级激流过山车"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-031",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "冰山过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "冰山过山车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 8,
+            "quote": "三大过山车:鹦鹉过山车、冰山过山车、超级激流过山车"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-032",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "超级激流",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "超级激流",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "别名“超级激流过山车”保留为待核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 81,
+            "quote": "「超级激流」"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-033",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "超级激流过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "疑似带功能后缀的写法。 名称别称未获确证，暂保留原词，不归一。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 8,
+            "quote": "三大过山车:鹦鹉过山车、冰山过山车、超级激流过山车"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-034",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "丛林过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "丛林过山车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 77,
+            "quote": "游乐设施:激浪帆船、超级激流、丛林过山车"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-035",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "企鹅过山车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "企鹅过山车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 70,
+            "quote": "游乐设施:碰碰乐、冒险家游戏广场、海怪塔、企鹅过山车"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-036",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海底互动船",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "海底互动船",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "固定游乐设施，按POI/attraction收录；普通乘坐语境不转作TRANSPORT。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 44,
+            "quote": "「海底互动船」"
+          },
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 34,
+            "quote": "白鲸馆和鲸鲨馆之间有个项目叫海底互动船,一次可以坐3个人,非常适合一家三口。且这个项目对身高的要求仅仅是90cm,于是这个就成了我宝宝除旋转木马外能玩的唯一项目了。坐进“船舱”开始在海底潜行,各种海底动物就在身边畅游,里面还有个用声光技术模拟的海底火山喷发的场景,还蛮震撼的。我宝宝连着坐了三遍都不过瘾,于是第四遍连工作人员都默许她不下船直接继续坐了。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-037",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海豚转转车",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "海豚转转车",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 50,
+            "quote": "海豚转转车"
+          },
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 20,
+            "quote": "「海豚转转车」"
+          },
+          {
+            "doc_id": "ZHCL-NOTE-13",
+            "para_id": 98,
+            "quote": "海豚转转车 95cm+:这个很好玩儿可以自"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-038",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "5D城堡影院",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "5D城堡影院",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 45,
+            "quote": "5D城堡影院"
+          },
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 6,
+            "quote": "一大影院:5D城堡影院(最震撼)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-039",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "5D城堡电影",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "文章中简称/异写，保留原词。 名称别称未获确证，暂保留原词，不归一。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 43,
+            "quote": "这次选择的路线是右手边:海洋大街-海豚湾-海豚剧场-丛林飞跃-鲸鲨馆-5D城堡电影-烟花幻彩横琴海"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-040",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "激浪帆船",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "激浪帆船",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 10,
+            "quote": "五大设施:激浪帆船、旋转水战、海底互动船、欢乐碰碰车、梦幻海洋"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-041",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "旋转水战",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "旋转水战",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 10,
+            "quote": "五大设施:激浪帆船、旋转水战、海底互动船、欢乐碰碰车、梦幻海洋"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-042",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "梦幻海洋",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "梦幻海洋",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 10,
+            "quote": "五大设施:激浪帆船、旋转水战、海底互动船、欢乐碰碰车、梦幻海洋"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-043",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "雨林升降塔",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "雨林升降塔",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 29,
+            "quote": "游乐设施:雨林升降塔、鹦鹉过山车"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-044",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "航海家号",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "航海家号",
+        "scope": "uncertain",
+        "context_required": "",
+        "note": "地图/列表实体，是否为展项或船型装置需核实。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 50,
+            "quote": "动物展馆:航海家号"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-045",
+        "guard": "deferred",
+        "enabled": false
+      },
+      {
+        "term": "火烈鸟岛",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "火烈鸟岛",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "横琴湾酒店区域内可游览点。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 36,
+            "quote": "火烈鸟岛、南花园美景,还有无敌海景"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-046",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "南花园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "南花园",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "横琴湾酒店园林。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 36,
+            "quote": "火烈鸟岛、南花园美景,还有无敌海景"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-047",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆剧院",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "长隆剧院",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "独立演出场馆。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 14,
+            "quote": "第三站:长隆剧院"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-048",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "国际马戏城",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "国际马戏城",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "文中指剧场邻近场馆。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 49,
+            "quote": "1、步行1分钟即可直达国际马戏城。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-049",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "企鹅",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆企鹅酒店",
+        "scope": "in_area",
+        "context_required": "酒店选择语境",
+        "note": "此处“企鹅”省略酒店二字，只有住宿语境才可归一。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 5,
+            "quote": "珠海距离深圳也就2个小时左右的车程,综合了其他朋友的意见我们选择了自驾,彼时两个宝宝都不到3岁,出行要带的东西还是比较多的,自驾会方便些。订酒店,企鹅和横琴湾二选一。没有选择企鹅的原因很简单,刚装修完没多久,我可不想去当人肉净化器于是横琴湾酒店就成了唯一选择。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-050",
+        "guard": "deferred",
+        "enabled": false
+      },
+      {
+        "term": "横琴湾酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "横琴湾酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "酒店名简称。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 5,
+            "quote": "珠海距离深圳也就2个小时左右的车程,综合了其他朋友的意见我们选择了自驾,彼时两个宝宝都不到3岁,出行要带的东西还是比较多的,自驾会方便些。订酒店,企鹅和横琴湾二选一。没有选择企鹅的原因很简单,刚装修完没多久,我可不想去当人肉净化器于是横琴湾酒店就成了唯一选择。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-051",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆横琴湾酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "横琴湾酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "酒店全称变体。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 10,
+            "quote": "第一天上午10点左右出发,路况很好,大概在12点左右就抵达了珠海长隆横琴湾酒店。虽然酒店提示的入住时间是15:00,但也许是淡季人少吧,我们到店就顺利拿到了房卡办理了入住。(这里有一个小插曲:办理入住的时候前台告诉我房卡里有两张水世界的门票但我朋友办理的时候却没有,于是我们打电话去前台询问又补送了两张,不得不说横琴湾酒店的服务还不错。)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-052",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆企鹅酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆企鹅酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 28,
+            "quote": "长隆企鹅酒店"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-053",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "马戏酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆马戏酒店",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 24,
+            "quote": "珠海横琴长隆海洋王国有4个酒店可供选择,这次安排入住长隆横琴湾酒店,口碑极好的还有企鹅酒店 、马戏酒店,还有一个长隆迎海酒店公寓。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-054",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长隆迎海酒店公寓",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆迎海酒店公寓",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 24,
+            "quote": "珠海横琴长隆海洋王国有4个酒店可供选择,这次安排入住长隆横琴湾酒店,口碑极好的还有企鹅酒店 、马戏酒店,还有一个长隆迎海酒店公寓。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-055",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "飞船酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆飞船酒店",
+        "scope": "in_area",
+        "context_required": "长隆横琴度假区",
+        "note": "飞船酒店简称。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-11",
+            "para_id": 5,
+            "quote": "飞船酒店住宿"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-056",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "探险家餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "探险家餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 17,
+            "quote": "飞船乐园推荐:探险家餐厅"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-057",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "雨林餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "雨林餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 19,
+            "quote": "海洋王国:雨林餐厅"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-058",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "帝企鹅自助餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "帝企鹅自助餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-08",
+            "para_id": 1,
+            "quote": "假期当然要来一次珠海长隆海洋王国啦我们这次来主打看海洋动物们,从从容容游玩。早上8点多才到帝企鹅自助餐厅吃早餐,这时候人不多,早餐非常丰富,主要是还能观赏企鹅,实在是情绪价值拉满。从企鹅酒店出来走连廊到海洋王国门口只需要5分钟,非常方便。而且凭房卡可以提前1小时入园。我们是10点到的门口,上午的路线:"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-059",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "渔港食街",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "渔港食街",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 11,
+            "quote": "两个孩子在酒店入口看到海狮海豹的雕塑时就已经hi了,可是已经中午了,且日头正足,还是先吃饭的要紧。横琴湾酒店有大大小小10间餐厅,中餐西餐日料。去客房部的电梯厅路上路过了海景轩,中餐,海鲜为主,看了一眼菜牌,这间应该更加适合商务宴请。于是我们中餐选择在了渔港食街。海鲜,粤式餐厅,还有各式茶点,亦比较适合小宝宝。提供宝宝餐具,价位适中。中饭吃完,好感十足,于是接下来基本上都在这里解决了。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-060",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海景轩",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "海景轩",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 11,
+            "quote": "两个孩子在酒店入口看到海狮海豹的雕塑时就已经hi了,可是已经中午了,且日头正足,还是先吃饭的要紧。横琴湾酒店有大大小小10间餐厅,中餐西餐日料。去客房部的电梯厅路上路过了海景轩,中餐,海鲜为主,看了一眼菜牌,这间应该更加适合商务宴请。于是我们中餐选择在了渔港食街。海鲜,粤式餐厅,还有各式茶点,亦比较适合小宝宝。提供宝宝餐具,价位适中。中饭吃完,好感十足,于是接下来基本上都在这里解决了。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-061",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "珊瑚自助餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "珊瑚自助餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 53,
+            "quote": "第一天园区回来以后,大大小小都吃得很好睡得很好。第二天起床早饭以后谁也没有勇气顶着上午的大太阳踏进园子,于是决定去酒店的水世界。这里稍微说一下横琴湾酒店的早餐。酒店早餐是开在珊瑚自助餐厅和亚马逊森林美食廊,视客流情况逐步开放。都是自助餐形式,并没有什么不同。餐厅中间都有圆柱型的水族箱,可以跟鱼啊珊瑚啊什么的共进早餐。1.1M以下的儿童免费,这个标准已经比刚开业90cm的身高规定合理了很多。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-062",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "亚马逊森林美食廊",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "亚马逊森林美食廊",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 53,
+            "quote": "第一天园区回来以后,大大小小都吃得很好睡得很好。第二天起床早饭以后谁也没有勇气顶着上午的大太阳踏进园子,于是决定去酒店的水世界。这里稍微说一下横琴湾酒店的早餐。酒店早餐是开在珊瑚自助餐厅和亚马逊森林美食廊,视客流情况逐步开放。都是自助餐形式,并没有什么不同。餐厅中间都有圆柱型的水族箱,可以跟鱼啊珊瑚啊什么的共进早餐。1.1M以下的儿童免费,这个标准已经比刚开业90cm的身高规定合理了很多。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-063",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海底餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "海底餐厅",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "飞船乐园内命名餐厅。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-11",
+            "para_id": 29,
+            "quote": "海底餐厅(必去)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-064",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "珠海长隆站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "珠海长隆站",
+        "scope": "outside",
+        "context_required": "",
+        "note": "城轨站；原文名。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 34,
+            "quote": "高铁/轻轨线路:● 路线选择:“广珠城轨珠海站”(即拱北站)● 站内转乘: “珠海长隆站\",可选择公交车或度假区穿梭巴或打车前往度假区"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-065",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "横琴口岸",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "横琴口岸",
+        "scope": "outside",
+        "context_required": "",
+        "note": "口岸位置与长隆园区不同。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-11",
+            "para_id": 93,
+            "quote": "最快的方式是:飞到澳门,乘坐出租车前往横琴口岸(约10–15分钟),在横琴口岸办理出入境手续。进入中国珠海后,再打车(使用中国打车软件滴滴)前往长隆酒店(约10–15分钟)。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-066",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "正门",
+        "poi_role": "support",
+        "subtype": "gate",
+        "canonical_name": "",
+        "scope": "uncertain",
+        "context_required": "珠海长隆海洋王国",
+        "note": "描述园区正门/到达入口；未形成正式命名，按场景局部名保留。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 31,
+            "quote": "关于打车:去时打车一定定位珠海长隆海洋王国正门,下车走几步就是入口!如果看完烟花走很难打到车,建议提前约,约不到就坐86路公交往前坐3-6站,下车后再打车很好打!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-067",
+        "guard": "deferred",
+        "enabled": false
+      },
+      {
+        "term": "长隆海洋王国正门",
+        "poi_role": "support",
+        "subtype": "gate",
+        "canonical_name": "长隆海洋王国正门",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "指定打车终点的出入口。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 31,
+            "quote": "关于打车:去时打车一定定位珠海长隆海洋王国正门,下车走几步就是入口!如果看完烟花走很难打到车,建议提前约,约不到就坐86路公交往前坐3-6站,下车后再打车很好打!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-068",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "2/3号停车场",
+        "poi_role": "support",
+        "subtype": "parking",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "地图OCR中出现编号停车区，官方名称/格式待核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 218,
+            "quote": "前往2/3号停车场/巴士站/出租车/网约车渠车点"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-069",
+        "guard": "deferred",
+        "enabled": false
+      },
+      {
+        "term": "喷泉广场",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "喷泉广场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "园区广场/打卡点。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-13",
+            "para_id": 33,
+            "quote": "问客服中心要成长礼盒。在喷泉广场打卡还"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-070",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "企鹅酒店",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "长隆企鹅酒店",
+        "scope": "in_area",
+        "context_required": "长隆横琴度假区酒店语境",
+        "note": "正文常用的酒店原词；归一名称依据同语料“长隆企鹅酒店”。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 18,
+            "quote": "下了巴士走去园区,首先看到的是长隆海洋王国的吉祥物卡卡—喷水池,迎接着大大小小的游人。同时也看到了企鹅酒店,没错,就在园区入口的右手边。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-POI-071",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "自驾",
+        "canonical_name": "自驾",
+        "context_required": "",
+        "note": "文章明确自驾出行。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 5,
+            "quote": "珠海距离深圳也就2个小时左右的车程,综合了其他朋友的意见我们选择了自驾,彼时两个宝宝都不到3岁,出行要带的东西还是比较多的,自驾会方便些。订酒店,企鹅和横琴湾二选一。没有选择企鹅的原因很简单,刚装修完没多久,我可不想去当人肉净化器于是横琴湾酒店就成了唯一选择。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-001",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "步行",
+        "canonical_name": "步行",
+        "context_required": "",
+        "note": "步行方式。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 32,
+            "quote": "3、步行20分钟"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-002",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "打车",
+        "canonical_name": "打车",
+        "context_required": "",
+        "note": "打车方式。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 12,
+            "quote": "2、高铁+打车"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-003",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "高铁",
+        "canonical_name": "高铁",
+        "context_required": "",
+        "note": "高铁方式。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 12,
+            "quote": "2、高铁+打车"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-004",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "接驳巴士",
+        "canonical_name": "接驳巴士",
+        "context_required": "",
+        "note": "园区间接驳交通。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 15,
+            "quote": "3、高铁+接驳巴士"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-005",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "免费穿梭巴士",
+        "canonical_name": "穿梭巴士",
+        "context_required": "",
+        "note": "酒店至园区接驳。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 17,
+            "quote": "横琴湾酒店不在海洋王国门口,有点距离。酒店在园区间有免费穿梭巴士,15分钟一班,车程5分钟。这个距离并不远,当天晚上朋友一家从海洋王国走回酒店也不过20分钟而已。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-006",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "游艇",
+        "canonical_name": "游艇",
+        "context_required": "",
+        "note": "酒店至园区水路交通；明确乘坐语境。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-02",
+            "para_id": 30,
+            "quote": "1、坐游艇8-10分钟,超赞的体验"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-007",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "小船",
+        "canonical_name": "游船/小船",
+        "context_required": "长隆酒店至海洋王国",
+        "note": "酒店接驳语境下的小型船只。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-07",
+            "para_id": 5,
+            "quote": "专属水世界+坐小船直达海洋王国,度假感拉满!海景房傍晚看海超治愈"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-008",
+        "guard": "shuttle_boat",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "公交车",
+        "canonical_name": "公交车",
+        "context_required": "",
+        "note": "公交出行。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 34,
+            "quote": "高铁/轻轨线路:● 路线选择:“广珠城轨珠海站”(即拱北站)● 站内转乘: “珠海长隆站\",可选择公交车或度假区穿梭巴或打车前往度假区"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-009",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "86路公交",
+        "canonical_name": "公交车",
+        "context_required": "",
+        "note": "线路交通方式；号码不作站点POI。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 31,
+            "quote": "关于打车:去时打车一定定位珠海长隆海洋王国正门,下车走几步就是入口!如果看完烟花走很难打到车,建议提前约,约不到就坐86路公交往前坐3-6站,下车后再打车很好打!"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-010",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "出租车",
+        "canonical_name": "出租车",
+        "context_required": "",
+        "note": "出租车方式。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-11",
+            "para_id": 93,
+            "quote": "最快的方式是:飞到澳门,乘坐出租车前往横琴口岸(约10–15分钟),在横琴口岸办理出入境手续。进入中国珠海后,再打车(使用中国打车软件滴滴)前往长隆酒店(约10–15分钟)。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "ZHCL-TRANSPORT-011",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "百慕大历险",
+        "poi_role": "attraction",
+        "subtype": "ride",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "explicit_simulator_facility",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 6,
+            "quote": "百慕大历险:变身探险家,进入全球最大容量动态模拟装置,全身心接受海洋冒险的震撼!感受迎面而来的海上风浪,与探险号一起乘风破浪!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-V2-ADD-005",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "水母墙",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "explicit_photo_point",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 10,
+            "quote": "来酷炫的鲸鲨馆,和全球至大的鱼类鲸鲨面对面,还有梦幻的水母墙,美到让人窒息,拍照打卡超出片!"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-V2-ADD-006",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "宇宙乐园",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "explicit_restaurant_location",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-OFF-01",
+            "para_id": 18,
+            "quote": "探险家餐厅坐落于宇宙乐园二层,爱冒险的探险家收集了世界各国的美食。在这里只有美食还不够,巨大明亮的玻璃窗外就是探索大学堂,仿佛置身表演之内,快来感受一下虎鲸嘴边进食的刺激"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-V2-ADD-007",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "海象馆",
+        "poi_role": "attraction",
+        "subtype": "venue",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "literal_name_no_alias_merge",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 7,
+            "quote": "海豚湾—白鲸馆—鲸鲨馆—雨林餐厅(午饭)—海豚剧场13点—白鲸剧场14点—北极熊馆—企鹅馆—海鸟世界—丛林过山车—海象馆—激浪帆船—海狮剧场17点—超级激流—梦幻海洋—冰山过山车—鹦鹉过山车—烟花秀20点。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "ZHCL-V2-ADD-008",
+        "guard": "named",
+        "enabled": true
+      }
+    ],
+    "review_terms": [
+      {
+        "term": "水濑之家",
+        "issue": "与“水獭之家”不一致，原文既有异写又有OCR可能；保留原词，需实地/官方名核对。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 72,
+            "quote": "动物展馆:水濑之家、触摸池、瑶鱼池"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "海象馆",
+        "issue": "NOTE-04路线出现；其他正文和图中多见“海象岛/海象山”，可能为泛馆名或OCR异写。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 18,
+            "quote": "海象馆(2⭐,可以不去,只有海象)"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "海底互动胎",
+        "issue": "OCR疑似“海底互动船”，不能自动改写为规范词。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-05",
+            "para_id": 23,
+            "quote": "海底互动胎"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "鹦瞒过山车",
+        "issue": "OCR疑似“鹦鹉过山车”。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-05",
+            "para_id": 36,
+            "quote": "鹦瞒过山车"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "旋转水转",
+        "issue": "疑似“旋转水战”笔误。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 24,
+            "quote": "「旋转水转」"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "海洋奇现",
+        "issue": "OCR疑似“海洋奇观”。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-05",
+            "para_id": 22,
+            "quote": "海洋奇现"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "长隆秀",
+        "issue": "演出活动/节目，不是POI。场地可能是长隆剧院但原文不应补造。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-06",
+            "para_id": 17,
+            "quote": "17:00《长隆秀》很震撼,中间有个平台时不时会有巡游表演,建议坐进场往上一层,体验感会更好,主舞台和过道表演都能看到"
+          }
+        ],
+        "action": "activity_not_poi"
+      },
+      {
+        "term": "海洋保卫战",
+        "issue": "烟花与水上演艺活动名称，不作POI。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 55,
+            "quote": "「海洋保卫战」"
+          }
+        ],
+        "action": "activity_not_poi"
+      },
+      {
+        "term": "海洋夜光大巡游",
+        "issue": "巡游活动，不作POI。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-02",
+            "para_id": 52,
+            "quote": "「海洋夜光大巡游」"
+          }
+        ],
+        "action": "activity_not_poi"
+      },
+      {
+        "term": "烟花秀",
+        "issue": "活动类型泛称，不作POI。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 32,
+            "quote": "⭐长隆确实值得一去!本人心中必刷TOP:海豚+白鲸剧场、鲸鲨+企鹅馆、冰山过山车、10分钟烟花秀!"
+          }
+        ],
+        "action": "activity_not_poi"
+      },
+      {
+        "term": "卡卡剧院",
+        "issue": "有些语境指演出/节目场次，亦可能为场馆简称，不能直接等同长隆剧院。",
+        "suggestion": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-13",
+            "para_id": 60,
+            "quote": "7关于卡卡剧院:想和演员互动,推荐选择"
+          }
+        ],
+        "action": "defer"
+      }
+    ],
+    "excluded": [
+      {
+        "term": "门口",
+        "reason": "泛称；有明确名称的园区正门另行收录。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-08",
+            "para_id": 1,
+            "quote": "假期当然要来一次珠海长隆海洋王国啦我们这次来主打看海洋动物们,从从容容游玩。早上8点多才到帝企鹅自助餐厅吃早餐,这时候人不多,早餐非常丰富,主要是还能观赏企鹅,实在是情绪价值拉满。从企鹅酒店出来走连廊到海洋王国门口只需要5分钟,非常方便。而且凭房卡可以提前1小时入园。我们是10点到的门口,上午的路线:"
+          }
+        ]
+      },
+      {
+        "term": "酒店",
+        "reason": "泛称，不纳入命名酒店词条。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 5,
+            "quote": "珠海距离深圳也就2个小时左右的车程,综合了其他朋友的意见我们选择了自驾,彼时两个宝宝都不到3岁,出行要带的东西还是比较多的,自驾会方便些。订酒店,企鹅和横琴湾二选一。没有选择企鹅的原因很简单,刚装修完没多久,我可不想去当人肉净化器于是横琴湾酒店就成了唯一选择。"
+          }
+        ]
+      },
+      {
+        "term": "餐厅",
+        "reason": "泛称，不纳入命名餐厅词条。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 11,
+            "quote": "两个孩子在酒店入口看到海狮海豹的雕塑时就已经hi了,可是已经中午了,且日头正足,还是先吃饭的要紧。横琴湾酒店有大大小小10间餐厅,中餐西餐日料。去客房部的电梯厅路上路过了海景轩,中餐,海鲜为主,看了一眼菜牌,这间应该更加适合商务宴请。于是我们中餐选择在了渔港食街。海鲜,粤式餐厅,还有各式茶点,亦比较适合小宝宝。提供宝宝餐具,价位适中。中饭吃完,好感十足,于是接下来基本上都在这里解决了。"
+          }
+        ]
+      },
+      {
+        "term": "烟花表演",
+        "reason": "演艺活动，不是地点。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-01",
+            "para_id": 35,
+            "quote": "观赏震撼唯美的烟花表演"
+          }
+        ]
+      },
+      {
+        "term": "海洋大巡游",
+        "reason": "巡游活动，不是地点。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-03",
+            "para_id": 24,
+            "quote": "走过海洋大街,恰巧海洋大巡游开始了。好多辆不同主题的巡游花车,有美人鱼、海龟、章鱼、巨鲸、极地游戏、潜水艇等等,演员们载歌载舞,小家伙眼睛都不够用了。(ps:这里录的是视频,就不上传啦!)"
+          }
+        ]
+      },
+      {
+        "term": "游客服务中心",
+        "reason": "地图上的通用服务类别称谓，不是可唯一定位的命名站点/POI。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 251,
+            "quote": "游客服务中心"
+          }
+        ]
+      },
+      {
+        "term": "团体售票处",
+        "reason": "地图上的通用服务类别称谓，不是可唯一定位的命名站点/POI。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 261,
+            "quote": "团体售票处"
+          }
+        ]
+      },
+      {
+        "term": "尊享服务中心",
+        "reason": "地图上的通用服务类别称谓，不是可唯一定位的命名站点/POI。",
+        "evidence": [
+          {
+            "doc_id": "ZHCL-NOTE-04",
+            "para_id": 266,
+            "quote": "尊享服务中心"
+          }
+        ]
+      }
+    ]
+  },
+  "JZG": {
+    "entries": [
+      {
+        "term": "九寨沟",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "九寨沟",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-01",
+            "para_id": 7,
+            "quote": "一同来感受下雨中的九寨沟"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-001",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "长海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "长海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 3,
+            "quote": "清晨第一站,便是长海。狭长的海子静卧在群山环抱之中,湖水是沉静温润的墨绿,两岸山林已经晕开初秋的色彩,松柏苍劲,阔叶树悄悄染上浅黄。天高云淡,丝缕云絮铺在湛蓝天幕上,远山岩壁轮廓硬朗,一湖碧水安然躺在峡谷里,辽阔静谧,一眼便让人的心绪沉静下来。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-002",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "五彩池",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "五彩池",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 4,
+            "quote": "顺着栈道下行,抵达五彩池。这是九寨里小巧玲珑的一抹蓝,池水通透至极,钙华池底纹理清晰,在日光下幻化出层次丰富的蒂芙尼蓝、翡翠青。观景台前游人驻足,都静静举着相机,舍不得惊扰这一方藏在密林里的彩池,一汪清水,像大地藏起来的宝石。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-003",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "镜海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "镜海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 5,
+            "quote": "继续前行遇见镜海。今日恰逢无风,湖面平整如镜,将两岸青山、流云、彩林原原本本复刻在水中。实景与倒影两两相对,山在水里,云在波心,分不清边界。枝叶从画面上方垂落,天然框住这片倒影,温柔如梦,是九寨独有的含蓄浪漫。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-004",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "五花海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "五花海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 6,
+            "quote": "五花海,九寨的灵魂所在。湖水澄澈见底,巨大的枯木静沉湖底,枝干轮廓分毫毕现,水面浮着细碎的树影。蓝绿相间的湖水层层晕染,深浅变幻,阳光穿透水面,把水底钙华与沉木映照得清清楚楚,这是别处很难遇见的通透与斑斓。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-005",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "珍珠滩",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "珍珠滩",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 7,
+            "quote": "这里就是86版《西游记》经典片段的取景地——珍珠滩瀑布。宽阔的瀑面顺着层叠岩石铺展而下,水流分成无数股,漫过礁石,奔涌跌落。白浪翻涌,水雾漫开,水声轰鸣。山岩、流水、云天相融,童年记忆里师徒涉水而过的画面,一下子和眼前实景重合。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-006",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "珍珠滩瀑布",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "珍珠滩瀑布",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 7,
+            "quote": "这里就是86版《西游记》经典片段的取景地——珍珠滩瀑布。宽阔的瀑面顺着层叠岩石铺展而下,水流分成无数股,漫过礁石,奔涌跌落。白浪翻涌,水雾漫开,水声轰鸣。山岩、流水、云天相融,童年记忆里师徒涉水而过的画面,一下子和眼前实景重合。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-007",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "树正沟",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "树正沟",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 8,
+            "quote": "走到树正沟,便是连绵的树正群海。湖水顺着错落的钙化堤埂漫流,在树丛之间分出无数细碎溪流,清浅的流水在石头上叮咚奔淌。灌木与小树扎根在浅滩之中,水流绕着林木蜿蜒,一叠叠浅瀑连绵铺开,温柔又富有生机。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-008",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "树正群海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "树正群海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 8,
+            "quote": "走到树正沟,便是连绵的树正群海。湖水顺着错落的钙化堤埂漫流,在树丛之间分出无数细碎溪流,清浅的流水在石头上叮咚奔淌。灌木与小树扎根在浅滩之中,水流绕着林木蜿蜒,一叠叠浅瀑连绵铺开,温柔又富有生机。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-009",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "原始森林",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "原始森林",
+        "scope": "in_area",
+        "context_required": "九寨沟景区内右线命名游览地点语境；森林泛称不匹配",
+        "note": "九寨沟右线命名地点。仅在明确指景区线路/站点/景点时匹配；“遍布原始森林”等普通自然描述不匹配。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-01",
+            "para_id": 23,
+            "quote": "眼前原始森林遍布"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-010",
+        "guard": "forest",
+        "enabled": true
+      },
+      {
+        "term": "芳草海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "芳草海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 3,
+            "quote": "“Y”字型的右边枝头是日则沟,这是九寨沟最主要也是最精华的景点区,有原始森林、芳草海、天鹅海、箭竹海、箭竹海瀑布、熊猫海、熊猫海瀑布、五花海、孔雀河道、大小金铃海、珍珠滩、珍珠滩瀑布、镜海、诺日朗瀑布。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-011",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "天鹅海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "天鹅海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 3,
+            "quote": "“Y”字型的右边枝头是日则沟,这是九寨沟最主要也是最精华的景点区,有原始森林、芳草海、天鹅海、箭竹海、箭竹海瀑布、熊猫海、熊猫海瀑布、五花海、孔雀河道、大小金铃海、珍珠滩、珍珠滩瀑布、镜海、诺日朗瀑布。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-012",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "箭竹海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "箭竹海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 2,
+            "quote": "刚从九寨沟回来,说句大实话:90%第一次来的人,都会在观光车上踩坑。我亲眼见过不少游客,跟着网上攻略每个站点都急匆匆下车打卡。尤其是很多叔叔阿姨,舍不得漏掉任何一处,孩子一路跑跑停停,体力早就消耗光了。等到了树正沟片区,时间所剩无几,犀牛海、老虎海只能匆匆扫一眼,根本沉不下心好好欣赏。还有更吃亏的——直接在原始森林站点下车,硬靠双腿徒步走到箭竹海。很多人事先根本不清楚,两站之间足足相隔7公里,来回折腾两个多小时,腿脚酸痛,大半游玩时间全耗在路上,玩得身心俱疲。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-013",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "箭竹海瀑布",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "箭竹海瀑布",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 3,
+            "quote": "“Y”字型的右边枝头是日则沟,这是九寨沟最主要也是最精华的景点区,有原始森林、芳草海、天鹅海、箭竹海、箭竹海瀑布、熊猫海、熊猫海瀑布、五花海、孔雀河道、大小金铃海、珍珠滩、珍珠滩瀑布、镜海、诺日朗瀑布。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-014",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "熊猫海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 6,
+            "quote": "右线日则沟:箭竹海到五花海。接着换乘去右线,上车尽量靠右边坐,好看的风景大多在右侧。右线最顶端是原始森林,但我建议你在箭竹海下车——这里是九寨沟最容易见到成群绿头鸭的地方,水波荡漾,野鸭游弋,氛围感特别有意思。从箭竹海乘车到熊猫海,不用停留太久,直接冲五花海。这是绝对不能错过的精华,被誉为“九寨沟的骄傲”。湖水清澈透亮,湖底枯木与钙化形成梦幻的水上森林,随手一拍就是手机壁纸。游玩结束在五花海站点上车,回到诺日朗中心,步行观赏诺日朗瀑布,再换乘前往沟口方向的观光车到犀牛海下车。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-015",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "熊猫海瀑布",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "熊猫海瀑布",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 3,
+            "quote": "“Y”字型的右边枝头是日则沟,这是九寨沟最主要也是最精华的景点区,有原始森林、芳草海、天鹅海、箭竹海、箭竹海瀑布、熊猫海、熊猫海瀑布、五花海、孔雀河道、大小金铃海、珍珠滩、珍珠滩瀑布、镜海、诺日朗瀑布。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-016",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "孔雀河道",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "孔雀河道",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 3,
+            "quote": "“Y”字型的右边枝头是日则沟,这是九寨沟最主要也是最精华的景点区,有原始森林、芳草海、天鹅海、箭竹海、箭竹海瀑布、熊猫海、熊猫海瀑布、五花海、孔雀河道、大小金铃海、珍珠滩、珍珠滩瀑布、镜海、诺日朗瀑布。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-017",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "小金铃海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "小金铃海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 3,
+            "quote": "“Y”字型的右边枝头是日则沟,这是九寨沟最主要也是最精华的景点区,有原始森林、芳草海、天鹅海、箭竹海、箭竹海瀑布、熊猫海、熊猫海瀑布、五花海、孔雀河道、大小金铃海、珍珠滩、珍珠滩瀑布、镜海、诺日朗瀑布。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-018",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "上季节海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "上季节海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 4,
+            "quote": "“Y”字型的左边枝头是则查洼沟,主要景点有长海、五彩池、上季节海和下季节海,其中上下季节海由于是季节性的海子,观光车不停,步行距离太远。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-019",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "下季节海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "下季节海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 4,
+            "quote": "“Y”字型的左边枝头是则查洼沟,主要景点有长海、五彩池、上季节海和下季节海,其中上下季节海由于是季节性的海子,观光车不停,步行距离太远。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-020",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "犀牛海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "犀牛海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 2,
+            "quote": "刚从九寨沟回来,说句大实话:90%第一次来的人,都会在观光车上踩坑。我亲眼见过不少游客,跟着网上攻略每个站点都急匆匆下车打卡。尤其是很多叔叔阿姨,舍不得漏掉任何一处,孩子一路跑跑停停,体力早就消耗光了。等到了树正沟片区,时间所剩无几,犀牛海、老虎海只能匆匆扫一眼,根本沉不下心好好欣赏。还有更吃亏的——直接在原始森林站点下车,硬靠双腿徒步走到箭竹海。很多人事先根本不清楚,两站之间足足相隔7公里,来回折腾两个多小时,腿脚酸痛,大半游玩时间全耗在路上,玩得身心俱疲。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-021",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "老虎海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "老虎海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 2,
+            "quote": "刚从九寨沟回来,说句大实话:90%第一次来的人,都会在观光车上踩坑。我亲眼见过不少游客,跟着网上攻略每个站点都急匆匆下车打卡。尤其是很多叔叔阿姨,舍不得漏掉任何一处,孩子一路跑跑停停,体力早就消耗光了。等到了树正沟片区,时间所剩无几,犀牛海、老虎海只能匆匆扫一眼,根本沉不下心好好欣赏。还有更吃亏的——直接在原始森林站点下车,硬靠双腿徒步走到箭竹海。很多人事先根本不清楚,两站之间足足相隔7公里,来回折腾两个多小时,腿脚酸痛,大半游玩时间全耗在路上,玩得身心俱疲。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-022",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "树正瀑布",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "树正瀑布",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 7,
+            "quote": "树正沟:平路步行,一路出片。接下来这一段是精华平路,步行800米,沿途老虎海、树正瀑布、公主海、树正群海一路连绵。路面平缓不累脚,还特别出片。走到树正站再上车前往火花海。阳光洒在湖面,仿佛千万朵火花跳跃,光影十分惊艳,非常值得一看。顺路逛完双龙海、芦苇海就可以出沟了。整体全程游览5到6个小时,按照这一套路线走,玩得轻松省心。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-023",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "树正磨房",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "树正磨房",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 5,
+            "quote": "“Y”字型的下面就是树正沟了,其主要景点从上到下包括犀牛海、老虎海、树正瀑布、树正磨房、树正寨、树正群海、卧龙海、花海、双龙海、芦苇海和盆景滩。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-024",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "树正寨",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "树正寨",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 5,
+            "quote": "“Y”字型的下面就是树正沟了,其主要景点从上到下包括犀牛海、老虎海、树正瀑布、树正磨房、树正寨、树正群海、卧龙海、花海、双龙海、芦苇海和盆景滩。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-025",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "卧龙海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "卧龙海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 5,
+            "quote": "“Y”字型的下面就是树正沟了,其主要景点从上到下包括犀牛海、老虎海、树正瀑布、树正磨房、树正寨、树正群海、卧龙海、花海、双龙海、芦苇海和盆景滩。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-026",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "双龙海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "双龙海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 7,
+            "quote": "树正沟:平路步行,一路出片。接下来这一段是精华平路,步行800米,沿途老虎海、树正瀑布、公主海、树正群海一路连绵。路面平缓不累脚,还特别出片。走到树正站再上车前往火花海。阳光洒在湖面,仿佛千万朵火花跳跃,光影十分惊艳,非常值得一看。顺路逛完双龙海、芦苇海就可以出沟了。整体全程游览5到6个小时,按照这一套路线走,玩得轻松省心。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-027",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "芦苇海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "芦苇海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 7,
+            "quote": "树正沟:平路步行,一路出片。接下来这一段是精华平路,步行800米,沿途老虎海、树正瀑布、公主海、树正群海一路连绵。路面平缓不累脚,还特别出片。走到树正站再上车前往火花海。阳光洒在湖面,仿佛千万朵火花跳跃,光影十分惊艳,非常值得一看。顺路逛完双龙海、芦苇海就可以出沟了。整体全程游览5到6个小时,按照这一套路线走,玩得轻松省心。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-028",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "盆景滩",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "盆景滩",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 5,
+            "quote": "“Y”字型的下面就是树正沟了,其主要景点从上到下包括犀牛海、老虎海、树正瀑布、树正磨房、树正寨、树正群海、卧龙海、花海、双龙海、芦苇海和盆景滩。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-029",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "诺日朗瀑布",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "诺日朗瀑布",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 6,
+            "quote": "右线日则沟:箭竹海到五花海。接着换乘去右线,上车尽量靠右边坐,好看的风景大多在右侧。右线最顶端是原始森林,但我建议你在箭竹海下车——这里是九寨沟最容易见到成群绿头鸭的地方,水波荡漾,野鸭游弋,氛围感特别有意思。从箭竹海乘车到熊猫海,不用停留太久,直接冲五花海。这是绝对不能错过的精华,被誉为“九寨沟的骄傲”。湖水清澈透亮,湖底枯木与钙化形成梦幻的水上森林,随手一拍就是手机壁纸。游玩结束在五花海站点上车,回到诺日朗中心,步行观赏诺日朗瀑布,再换乘前往沟口方向的观光车到犀牛海下车。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-030",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "诺日朗群海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "诺日朗群海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 16,
+            "quote": "镜海→诺日朗群海(11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-031",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "火花海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "火花海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 7,
+            "quote": "树正沟:平路步行,一路出片。接下来这一段是精华平路,步行800米,沿途老虎海、树正瀑布、公主海、树正群海一路连绵。路面平缓不累脚,还特别出片。走到树正站再上车前往火花海。阳光洒在湖面,仿佛千万朵火花跳跃,光影十分惊艳,非常值得一看。顺路逛完双龙海、芦苇海就可以出沟了。整体全程游览5到6个小时,按照这一套路线走,玩得轻松省心。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-032",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "公主海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "公主海",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "九寨沟沟内命名地点；父子地点保持独立。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 7,
+            "quote": "树正沟:平路步行,一路出片。接下来这一段是精华平路,步行800米,沿途老虎海、树正瀑布、公主海、树正群海一路连绵。路面平缓不累脚,还特别出片。走到树正站再上车前往火花海。阳光洒在湖面,仿佛千万朵火花跳跃,光影十分惊艳,非常值得一看。顺路逛完双龙海、芦苇海就可以出沟了。整体全程游览5到6个小时,按照这一套路线走,玩得轻松省心。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-033",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "诺日朗中心站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "诺日朗中心站",
+        "scope": "in_area",
+        "context_required": "景区内换乘/站点语境",
+        "note": "诺日朗也指区域、餐饮；需按语境区分。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 18,
+            "quote": "诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-034",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "沟口游客中心",
+        "poi_role": "support",
+        "subtype": "service_center",
+        "canonical_name": "沟口游客中心",
+        "scope": "in_area",
+        "context_required": "九寨沟景区游客中心语境",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 11,
+            "quote": "8点,步行出发去沟口游客中心(10分钟)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-035",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "诺日朗餐厅",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "诺日朗餐厅",
+        "scope": "in_area",
+        "context_required": "诺日朗中心餐饮语境",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 18,
+            "quote": "诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-036",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "诺日朗中心",
+        "poi_role": "support",
+        "subtype": "service_center",
+        "canonical_name": "诺日朗中心",
+        "scope": "in_area",
+        "context_required": "九寨沟景区内的诺日朗服务/换乘中心语境；若仅泛指餐饮区域，须结合文本确认",
+        "note": "服务与换乘中心语境可作support；同文也以诺日朗中心指餐饮区域，不能把所有出现自动标作站点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 5,
+            "quote": "第一站:长海、五彩池。第一站先去长海。长海是九寨沟海拔最高、湖水最深、面积最大的海子。带长辈出行的朋友,就在长海观景台简单看一看,别走远,保存好体力。往下步行800米就到五彩池,这是九寨沟最小巧艳丽的海子。阳光洒下来,就像上帝打翻的调色盘,拍照根本不用滤镜。看完五彩池,坐车前往诺日朗中心。这里是景区唯一的餐厅和吸烟区,逛累了正好在这里休整、吃饭、接热水。但注意:诺日朗别急着逛,先换乘去右线方向。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-037",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "成都东站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "成都东站",
+        "scope": "outside",
+        "context_required": "",
+        "note": "外部交通站点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 4,
+            "quote": "打车20分钟到成都东站(路上贴晕车贴,一边耳朵就行,说是管3天)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-038",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "黄龙九寨站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "黄龙九寨站",
+        "scope": "outside",
+        "context_required": "",
+        "note": "外部接驳高铁站。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 22,
+            "quote": "成都东→黄龙九寨站高铁约2h,出站换乘\"九旅悦行\"直通车约2h到沟口。直通车提前在小程序买票。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-039",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "九寨黄龙机场",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "九寨黄龙机场",
+        "scope": "outside",
+        "context_required": "",
+        "note": "外部机场。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-11",
+            "para_id": 4,
+            "quote": "到九寨沟主要有九寨黄龙机场、九寨沟口两种抵达方式,部分住宿可以安排接送,提前咨询即可。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-040",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "成都天府机场",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "成都天府机场",
+        "scope": "outside",
+        "context_required": "",
+        "note": "外部机场。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 3,
+            "quote": "南京出发,到达成都天府机场后,坐地铁18号线到火车南站,45分钟,这个是分快车慢车的,慢车就是中间好几站停靠,快车是直达火车南站。之后,出站,打车到南堂馆川菜文化餐厅(天府店),吃午饭,好吃的服务也不错。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-041",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "火车南站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "火车南站",
+        "scope": "outside",
+        "context_required": "",
+        "note": "外部交通站点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 3,
+            "quote": "南京出发,到达成都天府机场后,坐地铁18号线到火车南站,45分钟,这个是分快车慢车的,慢车就是中间好几站停靠,快车是直达火车南站。之后,出站,打车到南堂馆川菜文化餐厅(天府店),吃午饭,好吃的服务也不错。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-042",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "藏王宴舞停车场",
+        "poi_role": "support",
+        "subtype": "parking",
+        "canonical_name": "藏王宴舞停车场",
+        "scope": "outside",
+        "context_required": "",
+        "note": "酒店接驳下车点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 6,
+            "quote": "九悦旅行上可以订黄龙九寨高铁站到九寨沟以及黄龙的直通车,可以选择离住的酒店近的下车点。我订的是五点十五这班车,车程约2h,到藏王宴舞停车场这个下车点下的,下来就是全季酒店,我订的是全季酒店(九寨沟景区店) 。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-043",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "镜海停车场",
+        "poi_role": "support",
+        "subtype": "parking",
+        "canonical_name": "镜海停车场",
+        "scope": "in_area",
+        "context_required": "",
+        "note": "景区内停车/乘车点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-05",
+            "para_id": 24,
+            "quote": "珍珠滩 → 珍珠滩瀑布 → 镜海停车场"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-044",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "九寨沟神仙池景区",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "九寨沟神仙池景区",
+        "scope": "outside",
+        "context_required": "",
+        "note": "景区外具体游览地点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 36,
+            "quote": "如果您时间充足,那么三天的时间您可以把九寨沟县城、九寨沟神仙池景区一并游览完。九寨沟县城比较小,可以悠闲地逛逛街,享受高原的时光;神仙池景区集九寨之秀、黄龙之奇于一身,整个景区被浩瀚的林海包围,古木参天,云雾蒸腾,有清澈明亮的高山湖泊、发育完好的大面积钙化景观、苍茫无边的原始森林在这里交融出奇妙的神韵。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-045",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "松潘古城",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "松潘古城",
+        "scope": "outside",
+        "context_required": "",
+        "note": "景区外具体游览地点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 2,
+            "quote": "止戈以静心,行途以阅世。有松潘古城留给我们慢慢适应高原的从容,又经历黄龙那场猝不及防的落雪相逢,待到晴好的清晨,我们正式走进九寨沟。世人都说“九寨归来不看水”,从前只在影像里想象,直到站在这片 UNESCO 世界自然遗产的山谷之间,亲眼看见这一汪碧水,才读懂这句赞叹的分量。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-046",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "黄龙景区",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "黄龙景区",
+        "scope": "outside",
+        "context_required": "",
+        "note": "景区外具体景区。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 8,
+            "quote": "第三天:一早去黄龙景区(),然后坐车去黄龙高铁站,坐高铁去成都,晚上飞机回深圳。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-047",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "全季酒店(九寨沟景区店)",
+        "poi_role": "support",
+        "subtype": "hotel",
+        "canonical_name": "",
+        "scope": "outside",
+        "context_required": "九寨沟景区住宿语境",
+        "note": "命名酒店；NOTE-06另以“全季酒店”“全季(九寨沟店)”简称提及。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 6,
+            "quote": "九悦旅行上可以订黄龙九寨高铁站到九寨沟以及黄龙的直通车,可以选择离住的酒店近的下车点。我订的是五点十五这班车,车程约2h,到藏王宴舞停车场这个下车点下的,下来就是全季酒店,我订的是全季酒店(九寨沟景区店) 。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-048",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "南堂馆川菜文化餐厅(天府店)",
+        "poi_role": "support",
+        "subtype": "restaurant",
+        "canonical_name": "",
+        "scope": "outside",
+        "context_required": "成都天府店餐饮语境",
+        "note": "景区外命名餐厅。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 3,
+            "quote": "南京出发,到达成都天府机场后,坐地铁18号线到火车南站,45分钟,这个是分快车慢车的,慢车就是中间好几站停靠,快车是直达火车南站。之后,出站,打车到南堂馆川菜文化餐厅(天府店),吃午饭,好吃的服务也不错。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-049",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "老虎嘴观景台",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "五花海附近观景台语境",
+        "note": "命名观景点，区别于泛称老虎嘴。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 6,
+            "quote": "· 五花海:九寨沟的C位,环湖栈道随便走都是美景,老虎嘴观景台一定要上去俯拍"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-050",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "成都东",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "成都东站",
+        "scope": "outside",
+        "context_required": "铁路行程/成都东站交通语境",
+        "note": "“成都东站”的行程简称，保留表面写法。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 22,
+            "quote": "成都东→黄龙九寨站高铁约2h,出站换乘\"九旅悦行\"直通车约2h到沟口。直通车提前在小程序买票。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-051",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "松潘站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "",
+        "scope": "outside",
+        "context_required": "铁路返程站点语境",
+        "note": "景区外交通站点。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-13",
+            "para_id": 7,
+            "quote": "• 17:00 准时出园→17:30大巴去松潘站(56r)"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-052",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "黄龙九寨高铁站",
+        "poi_role": "support",
+        "subtype": "station",
+        "canonical_name": "",
+        "scope": "outside",
+        "context_required": "高铁接驳站点语境",
+        "note": "景区外站点，与黄龙九寨站为近似写法，保留歧义。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 6,
+            "quote": "九悦旅行上可以订黄龙九寨高铁站到九寨沟以及黄龙的直通车,可以选择离住的酒店近的下车点。我订的是五点十五这班车,车程约2h,到藏王宴舞停车场这个下车点下的,下来就是全季酒店,我订的是全季酒店(九寨沟景区店) 。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-053",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "日则沟",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "日则沟",
+        "scope": "in_area",
+        "context_required": "九寨沟景区线路/沟域语境",
+        "note": "景区Y形右线命名沟域。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 6,
+            "quote": "右线日则沟:箭竹海到五花海。接着换乘去右线,上车尽量靠右边坐,好看的风景大多在右侧。右线最顶端是原始森林,但我建议你在箭竹海下车——这里是九寨沟最容易见到成群绿头鸭的地方,水波荡漾,野鸭游弋,氛围感特别有意思。从箭竹海乘车到熊猫海,不用停留太久,直接冲五花海。这是绝对不能错过的精华,被誉为“九寨沟的骄傲”。湖水清澈透亮,湖底枯木与钙化形成梦幻的水上森林,随手一拍就是手机壁纸。游玩结束在五花海站点上车,回到诺日朗中心,步行观赏诺日朗瀑布,再换乘前往沟口方向的观光车到犀牛海下车。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-054",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "则查洼沟",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "则查洼沟",
+        "scope": "in_area",
+        "context_required": "九寨沟景区线路/沟域语境",
+        "note": "景区Y形左线命名沟域。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 2,
+            "quote": "九寨沟景区景点由则查洼沟、日则沟、树正沟三条主沟形成“Y”形分布,总长度约60余公里。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-055",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "则渣洼沟",
+        "poi_role": "attraction",
+        "subtype": "scenic",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "九寨沟景区线路/沟域语境",
+        "note": "OFF-01原文异写，与则查洼沟疑似同指但不自动合并。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 28,
+            "quote": "两天的时间对于游览九寨沟来说恰到好处,初入高原的朋友,建议第一日尽量不进行剧烈的运动,所以第一天是适应期,主要游览则渣洼沟和树正沟,第二天则是徒步居多,主要游览九寨沟的精华日则沟。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-056",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "老虎嘴",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "五花海附近观景点语境",
+        "note": "与命名实体“老虎嘴观景台”相关；独立地名依据有限，暂不做规范名归一。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 6,
+            "quote": "· 五花海:九寨沟的C位,环湖栈道随便走都是美景,老虎嘴观景台一定要上去俯拍"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-POI-057",
+        "guard": "named",
+        "enabled": true
+      },
+      {
+        "term": "观光车",
+        "canonical_name": "观光车",
+        "context_required": "景区内游览交通",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 13,
+            "quote": "九寨沟出行注意事项:九寨沟景区面积极大,推荐先坐观光车抵达高处站点,顺着海子栈道一路下行徒步,省力很多;高原行走切记不要快跑、大步急行,量力而行。秋日山区温差悬殊,水边、瀑布边风力更大,防风外套一定要随身;林间栈道常年潮湿长青苔,走路留意脚下,谨防打滑。景区内补给物价偏高,提前备好保温杯,带上坚果、巧克力等轻便零食,高原旅途,多喝温水十分重要。镜海绝美倒影只在无风的清晨,想要遇见镜面倒影,尽量早入沟;日上三竿起风之后,倒影很快消散。这里是珍贵的世界自然遗产,钙化地貌极其脆弱,请勿踩踏钙化滩,不攀折草木、不乱扔垃圾,只带走照片与回忆,守护这片碧水青山。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-001",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "观光大巴",
+        "canonical_name": "观光大巴",
+        "context_required": "景区内游览交通",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 38,
+            "quote": "九寨沟神仙池景区景点:莲台映彩、青龙海、仙女池、金流泛波、莲花台、金银滩、瑶池、水帘洞、竹林幽径、翠绿海、万层滩、涌莲泉等。您可以选择乘坐景区双层敞篷式观光大巴,一览雪山、红叶、碧水、绿草,化旅途劳顿为轻松休闲。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-002",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "接驳车",
+        "canonical_name": "接驳车",
+        "context_required": "景区与车站/沟口间接驳",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-10",
+            "para_id": 16,
+            "quote": "动车到黄龙九寨站后,还要换乘接驳车约2小时到沟口。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-003",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "直通车",
+        "canonical_name": "直通车",
+        "context_required": "车站与景区/住宿间交通",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 22,
+            "quote": "成都东→黄龙九寨站高铁约2h,出站换乘\"九旅悦行\"直通车约2h到沟口。直通车提前在小程序买票。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-004",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "高铁",
+        "canonical_name": "高铁",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 22,
+            "quote": "成都东→黄龙九寨站高铁约2h,出站换乘\"九旅悦行\"直通车约2h到沟口。直通车提前在小程序买票。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-005",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "动车",
+        "canonical_name": "动车",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-05",
+            "para_id": 44,
+            "quote": "动车往返200酒店280门票280吃吃喝喝自己算算包车240(人均60),好像并没有太多。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-006",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "地铁",
+        "canonical_name": "地铁",
+        "context_required": "乘坐地铁语境",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 3,
+            "quote": "南京出发,到达成都天府机场后,坐地铁18号线到火车南站,45分钟,这个是分快车慢车的,慢车就是中间好几站停靠,快车是直达火车南站。之后,出站,打车到南堂馆川菜文化餐厅(天府店),吃午饭,好吃的服务也不错。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-007",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "打车",
+        "canonical_name": "打车",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 24,
+            "quote": "住沟口漳扎镇,步行15-20分钟到景区大门最方便。选提供接送服务的酒店,早高峰沟口路段非常堵,打车基本打不到。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-008",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "自驾",
+        "canonical_name": "自驾",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-01",
+            "para_id": 76,
+            "quote": "九寨游记 | 我想带你看世界·追寻一抹蓝色,九寨沟自驾行"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-009",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "步行",
+        "canonical_name": "步行",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-01",
+            "para_id": 21,
+            "quote": "雨中的九寨犹如一位飘逸的仙女,她举起手臂,用修长的衣袖遮蔽阳光,那轻薄的上衣在阵阵清风中随风飘动;她轻盈得象飞鸟一样,在水波上细步行走,脚下生起朵朵莲花,时而行踪不定,时而喜忧不明;她眼波柔情流动,目光神采飞扬,云雾润泽着美丽的面容,好像有许多情话蕴在贝齿间,气息中仿佛散发着幽幽兰香,那份羞涩的静美,深深地吸引着我而不知身在何处。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-010",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "徒步",
+        "canonical_name": "徒步",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 11,
+            "quote": "旅途收尾,落脚鸡毛店。暖黄灯光包裹着这栋藏式小楼,红灯笼点缀檐下,庭院里桌椅整齐。奔波一整天,用一顿地道川味,消解徒步的疲惫,为这一天的山水之行画上温暖的句号。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-011",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "大巴",
+        "canonical_name": "大巴",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 38,
+            "quote": "九寨沟神仙池景区景点:莲台映彩、青龙海、仙女池、金流泛波、莲花台、金银滩、瑶池、水帘洞、竹林幽径、翠绿海、万层滩、涌莲泉等。您可以选择乘坐景区双层敞篷式观光大巴,一览雪山、红叶、碧水、绿草,化旅途劳顿为轻松休闲。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-012",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "包车",
+        "canonical_name": "包车",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-05",
+            "para_id": 44,
+            "quote": "动车往返200酒店280门票280吃吃喝喝自己算算包车240(人均60),好像并没有太多。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-013",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "拼车",
+        "canonical_name": "拼车",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 6,
+            "quote": "3.黄龙九寨站包车/拼车去九寨沟景区"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-014",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "缆车",
+        "canonical_name": "缆车",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-07",
+            "para_id": 17,
+            "quote": "上山:缆车+观光大巴轻松登顶"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-015",
+        "guard": "dual_mobility",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "索道",
+        "canonical_name": "索道",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 31,
+            "quote": "行李寄存:去景区游客中心免费寄存,不要存在索道处!徒步下山出口不在索道口。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-016",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "摆渡车",
+        "canonical_name": "摆渡车",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 23,
+            "quote": "进景区排队坐摆渡车上山,**看到排队通道挂 “区间” 牌子不要上!**会带到中线开始玩"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-017",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "公交",
+        "canonical_name": "公交",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-04",
+            "para_id": 29,
+            "quote": "· 出沟后可能没公交回酒店,住远的一定要确认接送安排"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-018",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "出租车",
+        "canonical_name": "出租车",
+        "context_required": "",
+        "note": "",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-09",
+            "para_id": 18,
+            "quote": "*九寨沟-黄龙九寨大巴 13:30,51,小程序购票,建议至少预留3h,如时间充足多多益善,如路遇堵车赶不上高铁就很麻烦;避雷景区门口搭讪的出租车"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-019",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "飞机",
+        "canonical_name": "飞机",
+        "context_required": "以乘坐飞机或航班出行为语境",
+        "note": "交通方式；泛指飞机实体不匹配。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 29,
+            "quote": "对……我在南京,早上五点出门的,晚上八点才到沟子口酒店的(我吃了个午饭耽误点时间),开车——打车——飞机——地铁——打车——地铁——高铁——大巴……"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-020",
+        "guard": "aviation",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "直飞",
+        "canonical_name": "直飞",
+        "context_required": "明确航班直达/乘飞机出行语境",
+        "note": "航空交通表达。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-07",
+            "para_id": 28,
+            "quote": "养足精神直飞深圳,完美收官川西治愈之旅"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-021",
+        "guard": "aviation",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "飞",
+        "canonical_name": "飞",
+        "context_required": "明确“飞成都/飞深圳/直飞”等航空出行语境",
+        "note": "单字有多义，仅在航班出行上下文中匹配。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-01",
+            "para_id": 21,
+            "quote": "雨中的九寨犹如一位飘逸的仙女,她举起手臂,用修长的衣袖遮蔽阳光,那轻薄的上衣在阵阵清风中随风飘动;她轻盈得象飞鸟一样,在水波上细步行走,脚下生起朵朵莲花,时而行踪不定,时而喜忧不明;她眼波柔情流动,目光神采飞扬,云雾润泽着美丽的面容,好像有许多情话蕴在贝齿间,气息中仿佛散发着幽幽兰香,那份羞涩的静美,深深地吸引着我而不知身在何处。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-022",
+        "guard": "aviation",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "乘车",
+        "canonical_name": "乘车",
+        "context_required": "乘坐车辆出行语境",
+        "note": "通用乘车方式。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 6,
+            "quote": "右线日则沟:箭竹海到五花海。接着换乘去右线,上车尽量靠右边坐,好看的风景大多在右侧。右线最顶端是原始森林,但我建议你在箭竹海下车——这里是九寨沟最容易见到成群绿头鸭的地方,水波荡漾,野鸭游弋,氛围感特别有意思。从箭竹海乘车到熊猫海,不用停留太久,直接冲五花海。这是绝对不能错过的精华,被誉为“九寨沟的骄傲”。湖水清澈透亮,湖底枯木与钙化形成梦幻的水上森林,随手一拍就是手机壁纸。游玩结束在五花海站点上车,回到诺日朗中心,步行观赏诺日朗瀑布,再换乘前往沟口方向的观光车到犀牛海下车。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-023",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "坐车",
+        "canonical_name": "坐车",
+        "context_required": "乘坐车辆出行语境",
+        "note": "通用乘车方式；不代替具体观光车/接驳车词项。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 4,
+            "quote": "先划重点:门票和选座。九寨沟旺季门票280元,包含门票加观光车,景区里坐车不用额外再花钱。进景区上观光车,尽量选靠左手边靠窗的位置,风景视野都非常好。"
+          }
+        ],
+        "type": "TRANSPORT",
+        "rule_id": "JZG-TRANSPORT-024",
+        "guard": "named",
+        "enabled": true,
+        "poi_role": "",
+        "subtype": "mode",
+        "scope": ""
+      },
+      {
+        "term": "花海",
+        "poi_role": "attraction",
+        "subtype": "spot",
+        "canonical_name": "",
+        "scope": "in_area",
+        "context_required": "standalone_list_item_only",
+        "note": "按本项目规范核验原文后补入；不推造别名或现实事实",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 5,
+            "quote": "“Y”字型的下面就是树正沟了,其主要景点从上到下包括犀牛海、老虎海、树正瀑布、树正磨房、树正寨、树正群海、卧龙海、花海、双龙海、芦苇海和盆景滩。"
+          }
+        ],
+        "type": "POI",
+        "rule_id": "JZG-V2-ADD-009",
+        "guard": "route_label",
+        "enabled": true
+      }
+    ],
+    "review_terms": [
+      {
+        "term": "诺日朗",
+        "issue": "可指瀑布、中心/站点、区域及餐饮语境。",
+        "suggestion": "具名词条分开，裸称依上下文判定。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 5,
+            "quote": "第一站:长海、五彩池。第一站先去长海。长海是九寨沟海拔最高、湖水最深、面积最大的海子。带长辈出行的朋友,就在长海观景台简单看一看,别走远,保存好体力。往下步行800米就到五彩池,这是九寨沟最小巧艳丽的海子。阳光洒下来,就像上帝打翻的调色盘,拍照根本不用滤镜。看完五彩池,坐车前往诺日朗中心。这里是景区唯一的餐厅和吸烟区,逛累了正好在这里休整、吃饭、接热水。但注意:诺日朗别急着逛,先换乘去右线方向。"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "珍珠潍站",
+        "issue": "疑似OCR把滩识为潍。",
+        "suggestion": "保留原词，核图确认后再归一。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 103,
+            "quote": "随后乘车前往珍珠潍站"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "镑竹海",
+        "issue": "疑似OCR错字。",
+        "suggestion": "不要自动归为箭竹海。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 112,
+            "quote": "镑竹海上车站⑥"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "熊漏海",
+        "issue": "疑似OCR错字。",
+        "suggestion": "不要自动归为熊猫海。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 118,
+            "quote": "熊漏海站⑥"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "诺日诺中心站",
+        "issue": "疑似OCR/笔误。",
+        "suggestion": "核图后再判断是否诺日朗中心站。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 142,
+            "quote": "4、游览完后返回“诺日诺中心站”,吃午餐"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "九寨黄龍棍場",
+        "issue": "地图OCR无法确认。",
+        "suggestion": "不静默归一。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-11",
+            "para_id": 408,
+            "quote": "九寨黄龍棍場"
+          }
+        ],
+        "action": "defer"
+      },
+      {
+        "term": "沟口",
+        "issue": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+        "suggestion": "保留为待定位歧义；只有上下文明确指具体入口时，后续可按景区局部名称处理。",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 9,
+            "quote": "沟口乘车→原始森林(07:00-08:10 一个小时车程)"
+          }
+        ],
+        "action": "defer"
+      }
+    ],
+    "excluded": [
+      {
+        "term": "酒店",
+        "reason": "泛称设施，无具体命名",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-01",
+            "para_id": 83,
+            "quote": "景区内不允许住宿,前来的游客请提前预订酒店住宿。九寨沟景区属于高原地区,天气多变,昼夜温差较大,请游客朋友们在出发前务必备好保暖衣物和防晒。"
+          }
+        ]
+      },
+      {
+        "term": "餐厅",
+        "reason": "泛称设施",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-03",
+            "para_id": 5,
+            "quote": "第一站:长海、五彩池。第一站先去长海。长海是九寨沟海拔最高、湖水最深、面积最大的海子。带长辈出行的朋友,就在长海观景台简单看一看,别走远,保存好体力。往下步行800米就到五彩池,这是九寨沟最小巧艳丽的海子。阳光洒下来,就像上帝打翻的调色盘,拍照根本不用滤镜。看完五彩池,坐车前往诺日朗中心。这里是景区唯一的餐厅和吸烟区,逛累了正好在这里休整、吃饭、接热水。但注意:诺日朗别急着逛,先换乘去右线方向。"
+          }
+        ]
+      },
+      {
+        "term": "门口",
+        "reason": "泛称且无法定位具体出入口",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-06",
+            "para_id": 28,
+            "quote": "老师我住的全季(九寨沟店),不算远,大概不到一公里,走路到景区门口大概十分钟~但因为距离比较近,基本上打不到车,得自己走过去"
+          }
+        ]
+      },
+      {
+        "term": "城市",
+        "reason": "行政城市泛称",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-02",
+            "para_id": 9,
+            "quote": "离开景区,来到一面趣味打卡墙。以九寨为原点,标注着去往全国各大城市的距离,看见熟悉的重庆,599公里,这是我们跨越山河奔赴而来的距离。一行行数字,记录这场从重庆到岷山深处的奔赴。"
+          }
+        ]
+      },
+      {
+        "term": "《藏谜》表演",
+        "reason": "节目活动，不是场所",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 26,
+            "quote": "一天的游览对体能有所要求,因此来到九寨沟的第一天晚上可以好好休息,第二天游览完景区之后,可以去观赏九寨沟藏羌原生态的《藏谜》表演,体验不一样的民族风情。充实的一天伴随着愉快的回忆完美结束,晚上回到酒店放松身体好好休息一番,把这份九寨的美好带回家。"
+          }
+        ]
+      },
+      {
+        "term": "九寨沟县城",
+        "reason": "行政城镇范围",
+        "evidence": [
+          {
+            "doc_id": "JZG-OFF-01",
+            "para_id": 36,
+            "quote": "如果您时间充足,那么三天的时间您可以把九寨沟县城、九寨沟神仙池景区一并游览完。九寨沟县城比较小,可以悠闲地逛逛街,享受高原的时光;神仙池景区集九寨之秀、黄龙之奇于一身,整个景区被浩瀚的林海包围,古木参天,云雾蒸腾,有清澈明亮的高山湖泊、发育完好的大面积钙化景观、苍茫无边的原始森林在这里交融出奇妙的神韵。"
+          }
+        ]
+      },
+      {
+        "term": "景区入口",
+        "reason": "泛称入口，不是有专名的出入口；景区语境不能使其成为命名POI。",
+        "evidence": [
+          {
+            "doc_id": "JZG-NOTE-12",
+            "para_id": 18,
+            "quote": "住九寨沟漳扎镇,紧挨着景区入口,短途车程 / 步行可达。"
+          }
+        ]
+      }
+    ]
+  }
+}

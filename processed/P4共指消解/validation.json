@@ -1,0 +1,8 @@
+{
+  "records": 548,
+  "unique_ids": true,
+  "all_spans_roundtrip": true,
+  "all_links_preceding_same_source_with_continuity_evidence": true,
+  "semantic_accuracy": null,
+  "note": "结构校验，不代表人工语义准确率"
+}

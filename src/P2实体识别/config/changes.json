@@ -1,0 +1,56 @@
+[
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "火烈鸟",
+    "reason": "supporting_route_stop"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "白虎山",
+    "reason": "literal_name_no_alias_merge"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "熊森林",
+    "reason": "literal_route_label"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "D/E口",
+    "reason": "station_context_required"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "百慕大历险",
+    "reason": "explicit_simulator_facility"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "水母墙",
+    "reason": "explicit_photo_point"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "宇宙乐园",
+    "reason": "explicit_restaurant_location"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "海象馆",
+    "reason": "literal_name_no_alias_merge"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "JZG",
+    "term": "花海",
+    "reason": "standalone_list_item_only"
+  }
+]

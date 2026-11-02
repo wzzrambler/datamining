@@ -1,0 +1,14 @@
+{
+  "model": "deepseek-flash",
+  "context_limit": 30000,
+  "output_tokens": 4096,
+  "safety_tokens": 1024,
+  "history_reserve": 6000,
+  "max_rounds": 12,
+  "max_tool_calls": 48,
+  "max_same_error": 2,
+  "timeout_seconds": 120,
+  "api_retries": 2,
+  "temperature": 0.1,
+  "thinking": false
+}

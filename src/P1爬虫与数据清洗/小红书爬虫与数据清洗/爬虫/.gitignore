@@ -1,0 +1,7 @@
+.browser-profile/
+.profiles/
+.state/
+.test-tmp/
+*cookie*
+output/
+__pycache__/

@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "13ca37aa25162787e041001172e8460ab438c36bc588d5059012bc56fe52d6a2",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3215592,
+  "round_trip_ms": 217.08480000961572,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            222.0,
+            655.0
+          ],
+          [
+            341.0,
+            648.0
+          ],
+          [
+            344.0,
+            701.0
+          ],
+          [
+            225.0,
+            709.0
+          ]
+        ],
+        "confidence": 0.3570384681224823,
+        "text": "S川"
+      },
+      {
+        "box": [
+          [
+            797.0,
+            746.0
+          ],
+          [
+            863.0,
+            750.0
+          ],
+          [
+            858.0,
+            834.0
+          ],
+          [
+            791.0,
+            830.0
+          ]
+        ],
+        "confidence": 0.3050846755504608,
+        "text": "中"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.440828,
+      "decode": 32.460319,
+      "det_infer": 118.077026,
+      "det_post": 1.37078,
+      "det_pre": 36.376652,
+      "pipeline": 165.272011,
+      "rec_infer": 4.627397,
+      "rec_post": 0.090138,
+      "rec_pre": 0.11437499999999999,
+      "server_compute": 197.732901,
+      "sort": 0.002264
+    },
+    "request_id": "clean-13ca37aa25162787e0410011"
+  }
+}

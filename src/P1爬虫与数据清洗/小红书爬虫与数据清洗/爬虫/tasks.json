@@ -1,0 +1,56 @@
+[
+  {
+    "keyword": "广州长隆旅游攻略",
+    "target_count": 10,
+    "wait": {
+      "min_seconds": 10,
+      "max_seconds": 60,
+      "long_probability": 0.05,
+      "long_min_seconds": 300,
+      "long_max_seconds": 600
+    },
+    "budget": {
+      "max_requests": 15000,
+      "daily_requests": 20000,
+      "task_requests": 15000,
+      "total_requests": null,
+      "max_minutes": 180
+    }
+  },
+  {
+    "keyword": "珠海长隆旅游攻略",
+    "target_count": 10,
+    "wait": {
+      "min_seconds": 10,
+      "max_seconds": 60,
+      "long_probability": 0.05,
+      "long_min_seconds": 300,
+      "long_max_seconds": 600
+    },
+    "budget": {
+      "max_requests": 15000,
+      "daily_requests": 20000,
+      "task_requests": 15000,
+      "total_requests": null,
+      "max_minutes": 180
+    }
+  },
+  {
+    "keyword": "九寨沟旅游攻略",
+    "target_count": 10,
+    "wait": {
+      "min_seconds": 10,
+      "max_seconds": 60,
+      "long_probability": 0.05,
+      "long_min_seconds": 300,
+      "long_max_seconds": 600
+    },
+    "budget": {
+      "max_requests": 15000,
+      "daily_requests": 20000,
+      "task_requests": 15000,
+      "total_requests": null,
+      "max_minutes": 180
+    }
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "5add55d4240bb596b3594e02bfbfa92d5a6f2763d6d24a90f7a696c94e02cb3c",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1900589,
+  "round_trip_ms": 260.9947999881115,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1920,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            419.0,
+            574.0
+          ],
+          [
+            653.0,
+            570.0
+          ],
+          [
+            653.0,
+            612.0
+          ],
+          [
+            420.0,
+            616.0
+          ]
+        ],
+        "confidence": 0.790838360786438,
+        "text": "Ji OSMO podKET3"
+      },
+      {
+        "box": [
+          [
+            428.0,
+            1219.0
+          ],
+          [
+            659.0,
+            1219.0
+          ],
+          [
+            659.0,
+            1250.0
+          ],
+          [
+            428.0,
+            1250.0
+          ]
+        ],
+        "confidence": 0.9231497049331665,
+        "text": "dJOSMO POCKET 3"
+      },
+      {
+        "box": [
+          [
+            416.0,
+            1849.0
+          ],
+          [
+            664.0,
+            1845.0
+          ],
+          [
+            665.0,
+            1894.0
+          ],
+          [
+            417.0,
+            1898.0
+          ]
+        ],
+        "confidence": 0.9173151254653931,
+        "text": "JAOSMO POCKET 3"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.752281,
+      "decode": 31.940611,
+      "det_infer": 144.001088,
+      "det_post": 1.850224,
+      "det_pre": 44.189649,
+      "pipeline": 208.619089,
+      "rec_infer": 11.523128999999999,
+      "rec_post": 0.49037699999999995,
+      "rec_pre": 0.29841799999999996,
+      "server_compute": 240.560682,
+      "sort": 0.003527
+    },
+    "request_id": "clean-5add55d4240bb596b3594e02"
+  }
+}

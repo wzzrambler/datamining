@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "a1bd7484bf53dbfd2f482dd55b0b6323236d0a76f39c6745f2d037fd085ebb55",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1936801,
+  "round_trip_ms": 194.10250001237728,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1080,
+      "width": 1440
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            547.0,
+            406.0
+          ],
+          [
+            789.0,
+            402.0
+          ],
+          [
+            791.0,
+            469.0
+          ],
+          [
+            549.0,
+            473.0
+          ]
+        ],
+        "confidence": 0.9513479471206665,
+        "text": "百家班"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.357083,
+      "decode": 29.24098,
+      "det_infer": 106.979935,
+      "det_post": 1.308385,
+      "det_pre": 33.170788,
+      "pipeline": 145.127492,
+      "rec_infer": 3.13787,
+      "rec_post": 0.100398,
+      "rec_pre": 0.065298,
+      "server_compute": 174.369284,
+      "sort": 0.000772
+    },
+    "request_id": "clean-a1bd7484bf53dbfd2f482dd5"
+  }
+}

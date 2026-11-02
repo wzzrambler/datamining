@@ -1,0 +1,22 @@
+[
+  {
+    "doc_id": "JZG-OFF-01",
+    "para_id": 3,
+    "source_text": "大小金铃海",
+    "start": 123,
+    "end": 128,
+    "suggested_names": [
+      "大金铃海",
+      "小金铃海"
+    ],
+    "status": "not_entity_mentions",
+    "note": "省略展开候选，不为大金铃海伪造连续offset；不并入实体文件",
+    "origin": [
+      {
+        "doc_id": "JZG-OFF-01",
+        "para_id": 3,
+        "kind": "legacy"
+      }
+    ]
+  }
+]

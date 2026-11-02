@@ -1,0 +1,17 @@
+{
+  "integrated_sha256": {
+    "conditions.csv": "9628fcd4b60797f5c9c0a7c2fc40a1b1410fdeed32a9ea44f70e8c1827376160",
+    "conditions.json": "ccd1c7c0812af616e61b566a60fd3d5349155c43bdc9b0e284f132d7cc4437c9",
+    "entities.json": "988b92fbc75c0749201e0c599bf64fad5b191f26f7d9b9d45eb1c364c9a178d0",
+    "graph.json": "261d170a36f27b649064afa02af8bbea558002df6bd28e419d5b85fd07cbbd68",
+    "normalizations.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "observations.json": "6a9f46a2126ab4c0e20bea2c3ef9fe0e9d4db895d05270d867b8545da878e581",
+    "routes.json": "8aeac037c4a7b00fdc88e4e4100b20c42dd05fbb96f11598f9597fcd2b170c75",
+    "transport_legs.json": "421df358feb083b9cc43820e8318439a0526dd16ebd97a6d3d66080bfae72bfd"
+  },
+  "raw_observations_sha256": "ea22478db9c6829c2403c30b4b18e29983273734f3a1dfde2d71c853b44d83bb",
+  "canonical_graph_ordering": true,
+  "quality_processing_owner": "P6",
+  "raw_business_equivalence_verified": true,
+  "only_removed_derived_time_nodes": 217
+}

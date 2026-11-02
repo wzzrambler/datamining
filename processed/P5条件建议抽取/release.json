@@ -1,0 +1,16 @@
+{
+  "release": "full-final-20261101",
+  "original_packages": 2226,
+  "effective_packages": 2229,
+  "raw_observations": "runs/full-final-20261101/raw_observations.json",
+  "input_manifest": "runs/full-final-20261101/input_manifest.json",
+  "integrated": "runs/full-final-20261101/integrated",
+  "teacher_mapping_csv": "表格/条件建议映射表.csv",
+  "teacher_mapping_count": 291,
+  "extended_rules_count": 1358,
+  "graph_nodes": 6900,
+  "graph_edges": 8748,
+  "development_logs_required_for_offline_export": false,
+  "quality_processing_owner": "P6",
+  "historical_time_outputs_moved_to": "../P6知识图谱/migration/time-from-P5"
+}

@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "39923b0ea9662519756d227ef35a8005e0c0a5bc1c36ae02b407215d8462057c",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2721503,
+  "round_trip_ms": 196.4371000067331,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1080,
+      "width": 1440
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            795.0,
+            979.0
+          ],
+          [
+            824.0,
+            979.0
+          ],
+          [
+            824.0,
+            1017.0
+          ],
+          [
+            795.0,
+            1017.0
+          ]
+        ],
+        "confidence": 0.2523096203804016,
+        "text": "V"
+      },
+      {
+        "box": [
+          [
+            1380.0,
+            1044.0
+          ],
+          [
+            1427.0,
+            1044.0
+          ],
+          [
+            1427.0,
+            1069.0
+          ],
+          [
+            1380.0,
+            1069.0
+          ]
+        ],
+        "confidence": 0.6041954755783081,
+        "text": "JÉI书"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.079677,
+      "decode": 32.443556,
+      "det_infer": 98.128911,
+      "det_post": 0.974218,
+      "det_pre": 35.125832,
+      "pipeline": 137.326839,
+      "rec_infer": 2.888466,
+      "rec_post": 0.072293,
+      "rec_pre": 0.051982,
+      "server_compute": 169.771347,
+      "sort": 0.000802
+    },
+    "request_id": "clean-39923b0ea9662519756d227e"
+  }
+}

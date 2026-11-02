@@ -1,0 +1,446 @@
+{
+  "date": "2026-10-31",
+  "scope": "旧17篇等价格式转换；所有文档句数统一按中英文句末/分号及换行切分",
+  "content_before_sha256": "782ee8283075f206f0b2202022e1fcafc2e90a398993947ce833e826d71baefd",
+  "content_after_sha256": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+  "legacy_original_files_unchanged": true,
+  "new_30_content_unchanged": true,
+  "network_requests": 0,
+  "noise_char_removed_definition": "max(0,raw_char_len-clean_char_len)，非负净缩减量，不是实际删除字符次数",
+  "changes": [
+    {
+      "doc_id": "GZCL-NOTE-01",
+      "changed_fields": [
+        "noise_char_removed",
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 148,
+      "noise_char_removed_before": -2,
+      "noise_char_removed_after": 0,
+      "sentence_count_before": 78,
+      "sentence_count_after": 78
+    },
+    {
+      "doc_id": "GZCL-NOTE-02",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 318,
+      "noise_char_removed_before": 32,
+      "noise_char_removed_after": 32,
+      "sentence_count_before": 95,
+      "sentence_count_after": 95
+    },
+    {
+      "doc_id": "GZCL-NOTE-03",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 166,
+      "noise_char_removed_before": 13,
+      "noise_char_removed_after": 13,
+      "sentence_count_before": 138,
+      "sentence_count_after": 138
+    },
+    {
+      "doc_id": "GZCL-NOTE-04",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 171,
+      "noise_char_removed_before": 0,
+      "noise_char_removed_after": 0,
+      "sentence_count_before": 81,
+      "sentence_count_after": 81
+    },
+    {
+      "doc_id": "GZCL-NOTE-05",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 242,
+      "noise_char_removed_before": 131,
+      "noise_char_removed_after": 131,
+      "sentence_count_before": 158,
+      "sentence_count_after": 158
+    },
+    {
+      "doc_id": "GZCL-OFF-01",
+      "changed_fields": [
+        "noise_char_removed",
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 175,
+      "noise_char_removed_before": -4,
+      "noise_char_removed_after": 0,
+      "sentence_count_before": 62,
+      "sentence_count_after": 62
+    },
+    {
+      "doc_id": "GZCL-OFF-02",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 191,
+      "noise_char_removed_before": 13,
+      "noise_char_removed_after": 13,
+      "sentence_count_before": 56,
+      "sentence_count_after": 56
+    },
+    {
+      "doc_id": "GZCL-OFF-03",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 94,
+      "noise_char_removed_before": 0,
+      "noise_char_removed_after": 0,
+      "sentence_count_before": 56,
+      "sentence_count_after": 56
+    },
+    {
+      "doc_id": "JZG-NOTE-01",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 41,
+      "noise_char_removed_before": 20,
+      "noise_char_removed_after": 20,
+      "sentence_count_before": 80,
+      "sentence_count_after": 80
+    },
+    {
+      "doc_id": "JZG-NOTE-02",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 113,
+      "noise_char_removed_before": 0,
+      "noise_char_removed_after": 0,
+      "sentence_count_before": 48,
+      "sentence_count_after": 48
+    },
+    {
+      "doc_id": "JZG-NOTE-03",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 82,
+      "noise_char_removed_before": 0,
+      "noise_char_removed_after": 0,
+      "sentence_count_before": 47,
+      "sentence_count_after": 47
+    },
+    {
+      "doc_id": "JZG-OFF-01",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 131,
+      "noise_char_removed_before": 134,
+      "noise_char_removed_after": 134,
+      "sentence_count_before": 43,
+      "sentence_count_after": 43
+    },
+    {
+      "doc_id": "ZHCL-NOTE-01",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 71,
+      "noise_char_removed_before": 388,
+      "noise_char_removed_after": 388,
+      "sentence_count_before": 104,
+      "sentence_count_after": 104
+    },
+    {
+      "doc_id": "ZHCL-NOTE-02",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 225,
+      "noise_char_removed_before": 13,
+      "noise_char_removed_after": 13,
+      "sentence_count_before": 116,
+      "sentence_count_after": 116
+    },
+    {
+      "doc_id": "ZHCL-NOTE-03",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 263,
+      "noise_char_removed_before": 149,
+      "noise_char_removed_after": 149,
+      "sentence_count_before": 139,
+      "sentence_count_after": 139
+    },
+    {
+      "doc_id": "ZHCL-OFF-01",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 81,
+      "noise_char_removed_before": 0,
+      "noise_char_removed_after": 0,
+      "sentence_count_before": 44,
+      "sentence_count_after": 44
+    },
+    {
+      "doc_id": "ZHCL-OFF-02",
+      "changed_fields": [
+        "content",
+        "paragraphs"
+      ],
+      "converted_characters": 165,
+      "noise_char_removed_before": 20,
+      "noise_char_removed_after": 20,
+      "sentence_count_before": 90,
+      "sentence_count_after": 90
+    },
+    {
+      "doc_id": "GZCL-NOTE-06",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 393,
+      "noise_char_removed_after": 393,
+      "sentence_count_before": 170,
+      "sentence_count_after": 172
+    },
+    {
+      "doc_id": "GZCL-NOTE-07",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 127,
+      "noise_char_removed_after": 127,
+      "sentence_count_before": 49,
+      "sentence_count_after": 52
+    },
+    {
+      "doc_id": "GZCL-NOTE-09",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 577,
+      "noise_char_removed_after": 577,
+      "sentence_count_before": 147,
+      "sentence_count_after": 146
+    },
+    {
+      "doc_id": "GZCL-NOTE-10",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 177,
+      "noise_char_removed_after": 177,
+      "sentence_count_before": 57,
+      "sentence_count_after": 63
+    },
+    {
+      "doc_id": "GZCL-NOTE-11",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 260,
+      "noise_char_removed_after": 260,
+      "sentence_count_before": 195,
+      "sentence_count_after": 215
+    },
+    {
+      "doc_id": "GZCL-NOTE-12",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 99,
+      "noise_char_removed_after": 99,
+      "sentence_count_before": 31,
+      "sentence_count_after": 34
+    },
+    {
+      "doc_id": "GZCL-NOTE-13",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 238,
+      "noise_char_removed_after": 238,
+      "sentence_count_before": 73,
+      "sentence_count_after": 75
+    },
+    {
+      "doc_id": "GZCL-NOTE-15",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 177,
+      "noise_char_removed_after": 177,
+      "sentence_count_before": 38,
+      "sentence_count_after": 39
+    },
+    {
+      "doc_id": "ZHCL-NOTE-04",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 1039,
+      "noise_char_removed_after": 1039,
+      "sentence_count_before": 231,
+      "sentence_count_after": 239
+    },
+    {
+      "doc_id": "ZHCL-NOTE-07",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 173,
+      "noise_char_removed_after": 173,
+      "sentence_count_before": 29,
+      "sentence_count_after": 40
+    },
+    {
+      "doc_id": "ZHCL-NOTE-09",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 282,
+      "noise_char_removed_after": 282,
+      "sentence_count_before": 159,
+      "sentence_count_after": 160
+    },
+    {
+      "doc_id": "ZHCL-NOTE-10",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 160,
+      "noise_char_removed_after": 160,
+      "sentence_count_before": 90,
+      "sentence_count_after": 91
+    },
+    {
+      "doc_id": "ZHCL-NOTE-12",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 416,
+      "noise_char_removed_after": 416,
+      "sentence_count_before": 147,
+      "sentence_count_after": 156
+    },
+    {
+      "doc_id": "JZG-NOTE-04",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 125,
+      "noise_char_removed_after": 125,
+      "sentence_count_before": 34,
+      "sentence_count_after": 36
+    },
+    {
+      "doc_id": "JZG-NOTE-05",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 185,
+      "noise_char_removed_after": 185,
+      "sentence_count_before": 45,
+      "sentence_count_after": 46
+    },
+    {
+      "doc_id": "JZG-NOTE-06",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 84,
+      "noise_char_removed_after": 84,
+      "sentence_count_before": 41,
+      "sentence_count_after": 42
+    },
+    {
+      "doc_id": "JZG-NOTE-09",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 102,
+      "noise_char_removed_after": 102,
+      "sentence_count_before": 26,
+      "sentence_count_after": 30
+    },
+    {
+      "doc_id": "JZG-NOTE-11",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 270,
+      "noise_char_removed_after": 270,
+      "sentence_count_before": 337,
+      "sentence_count_after": 324
+    },
+    {
+      "doc_id": "JZG-NOTE-12",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 65,
+      "noise_char_removed_after": 65,
+      "sentence_count_before": 160,
+      "sentence_count_after": 164
+    },
+    {
+      "doc_id": "JZG-NOTE-13",
+      "changed_fields": [
+        "sentence_count"
+      ],
+      "converted_characters": 0,
+      "noise_char_removed_before": 34,
+      "noise_char_removed_after": 34,
+      "sentence_count_before": 39,
+      "sentence_count_after": 41
+    }
+  ],
+  "protected_files": {
+    "processed\\P1爬虫数据清洗\\辅助资料\\legacy_documents.json": "d2a7db7698f299cd58022944739b2f9d27bba9d31da1ded96d4ab550ddcf1469",
+    "processed\\P1爬虫数据清洗\\历史17篇清洗后数据\\cleaning_examples.md": "c0b739fc5f4b11b89f0a97ff52260baa636986e5a0ccf0225db33ecd364bedcb",
+    "processed\\P1爬虫数据清洗\\历史17篇清洗后数据\\dataset.xlsx": "9446ea4f3dba4bf86e439c9e23f580bcad94174310f0b05088dd53dffd8f908a",
+    "processed\\P1爬虫数据清洗\\历史17篇清洗后数据\\documents.csv": "e1a04ae30f3568e98ee5651621045c852fc694a0b1a8669bdce8ec8a80d367eb",
+    "processed\\P1爬虫数据清洗\\历史17篇清洗后数据\\documents.json": "37e500e6913e04c5933795e1cf7ccfe3b2691053f13fe16808a3bb298bcbd2d5",
+    "processed\\P1爬虫数据清洗\\历史17篇清洗后数据\\paragraphs.csv": "c4495fcb2fb4eec1ff43ff68a2ffc5b0dca5d8270b7070cf8ba788e8478cf0b2"
+  }
+}

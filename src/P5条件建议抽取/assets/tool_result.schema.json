@@ -1,0 +1,346 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "宿主向抽取Agent返回的统一结果",
+  "type": "object",
+  "properties": {
+    "ok": {
+      "type": "boolean"
+    },
+    "code": {
+      "type": "string",
+      "enum": [
+        "OK",
+        "ALREADY_ACCEPTED",
+        "INVALID_ARGUMENTS",
+        "UNKNOWN_REFERENCE",
+        "SCENIC_SCOPE_MISMATCH",
+        "REFERENCE_TYPE_MISMATCH",
+        "REFERENCE_NOT_IN_CONTEXT",
+        "ROUTE_NOT_IN_PACKAGE",
+        "STEP_ROUTE_MISMATCH",
+        "STEP_ENDPOINT_MISMATCH",
+        "LEG_NOT_IN_SESSION",
+        "UNSUPPORTED_RELATION",
+        "INVALID_PARENT_MEMBERSHIP",
+        "UNKNOWN_ISSUE",
+        "ISSUE_NOT_RESOLVED",
+        "DEPENDENTS_REQUIRE_RETRACTION",
+        "RECORD_NOT_IN_SESSION",
+        "RECORD_RETRACTED",
+        "CONTRADICTORY_REFINEMENT",
+        "P2_ID_CONFLICT",
+        "NORMALIZATION_MENTION_NOT_IN_PACKAGE",
+        "OPEN_ERRORS_REMAIN",
+        "INVALID_FINISH_DECLARATION",
+        "LIMIT_REACHED",
+        "NO_TOOL_CALL",
+        "TRUNCATED_OUTPUT",
+        "CONDITION_RECORD_NOT_AVAILABLE",
+        "ROUTE_STEPS_MISMATCH",
+        "MISSING_POI_RECORDS"
+      ]
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "pattern": "\\S"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 64
+        },
+        "leg_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 64
+        },
+        "dependent_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 64
+        },
+        "open_issue_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 64
+        },
+        "skipped_issue_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 64
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "POI",
+                  "TRANSPORT",
+                  "ROUTE",
+                  "LEG"
+                ]
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 200,
+                "pattern": "\\S"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300,
+                "pattern": "\\S"
+              },
+              "eligible_in_context": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "kind",
+              "id",
+              "name",
+              "eligible_in_context"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 8
+        },
+        "issue_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "finished": {
+          "type": "boolean"
+        },
+        "route_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "minItems": 0,
+          "maxItems": 1000
+        },
+        "step_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "minItems": 0,
+          "maxItems": 1000
+        }
+      },
+      "required": [
+        "record_ids",
+        "leg_refs",
+        "dependent_record_ids",
+        "open_issue_ids",
+        "skipped_issue_ids",
+        "candidates",
+        "issue_id",
+        "finished",
+        "route_ids",
+        "step_ids"
+      ],
+      "additionalProperties": false
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500,
+            "pattern": "\\S"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "INVALID_ARGUMENTS",
+              "UNKNOWN_REFERENCE",
+              "SCENIC_SCOPE_MISMATCH",
+              "REFERENCE_TYPE_MISMATCH",
+              "REFERENCE_NOT_IN_CONTEXT",
+              "ROUTE_NOT_IN_PACKAGE",
+              "STEP_ROUTE_MISMATCH",
+              "STEP_ENDPOINT_MISMATCH",
+              "LEG_NOT_IN_SESSION",
+              "UNSUPPORTED_RELATION",
+              "INVALID_PARENT_MEMBERSHIP",
+              "UNKNOWN_ISSUE",
+              "ISSUE_NOT_RESOLVED",
+              "DEPENDENTS_REQUIRE_RETRACTION",
+              "RECORD_NOT_IN_SESSION",
+              "RECORD_RETRACTED",
+              "CONTRADICTORY_REFINEMENT",
+              "P2_ID_CONFLICT",
+              "NORMALIZATION_MENTION_NOT_IN_PACKAGE",
+              "OPEN_ERRORS_REMAIN",
+              "INVALID_FINISH_DECLARATION",
+              "LIMIT_REACHED",
+              "NO_TOOL_CALL",
+              "TRUNCATED_OUTPUT"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1600,
+            "pattern": "\\S"
+          },
+          "retryable": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "code",
+          "message",
+          "retryable"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 30
+    },
+    "next_actions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "review_context",
+          "retry_arguments",
+          "skip_relation",
+          "retract_records",
+          "finish_chunk",
+          "stop"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 6,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "ok",
+    "code",
+    "message",
+    "data",
+    "errors",
+    "next_actions"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "ok": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "code": {
+            "enum": [
+              "OK",
+              "ALREADY_ACCEPTED"
+            ]
+          },
+          "errors": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "code": {
+            "enum": [
+              "INVALID_ARGUMENTS",
+              "UNKNOWN_REFERENCE",
+              "SCENIC_SCOPE_MISMATCH",
+              "REFERENCE_TYPE_MISMATCH",
+              "REFERENCE_NOT_IN_CONTEXT",
+              "ROUTE_NOT_IN_PACKAGE",
+              "STEP_ROUTE_MISMATCH",
+              "STEP_ENDPOINT_MISMATCH",
+              "LEG_NOT_IN_SESSION",
+              "UNSUPPORTED_RELATION",
+              "INVALID_PARENT_MEMBERSHIP",
+              "UNKNOWN_ISSUE",
+              "ISSUE_NOT_RESOLVED",
+              "DEPENDENTS_REQUIRE_RETRACTION",
+              "RECORD_NOT_IN_SESSION",
+              "RECORD_RETRACTED",
+              "CONTRADICTORY_REFINEMENT",
+              "P2_ID_CONFLICT",
+              "NORMALIZATION_MENTION_NOT_IN_PACKAGE",
+              "OPEN_ERRORS_REMAIN",
+              "INVALID_FINISH_DECLARATION",
+              "LIMIT_REACHED",
+              "NO_TOOL_CALL",
+              "TRUNCATED_OUTPUT"
+            ]
+          },
+          "errors": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}

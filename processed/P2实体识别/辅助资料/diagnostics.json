@@ -1,0 +1,3272 @@
+[
+  {
+    "doc_id": "GZCL-NOTE-01",
+    "para_id": 6,
+    "term": "北门",
+    "start": 595,
+    "end": 597,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "早上八点我们就到了动物园,直接把车停在南门。之前看了一个攻略说从南门进北门出,我们按照这个路线游玩,亲身体验告诉我,这路线不科学。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-01",
+    "para_id": 6,
+    "term": "南门",
+    "start": 579,
+    "end": 581,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "有了前一天的经验,初四早上八点我们就到了动物园,直接把车停在南门。之前看了一个攻略说从南门进北门出,我们按照这个路线游玩,亲身体验告诉我,这路线不科学。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-01",
+    "para_id": 6,
+    "term": "南门",
+    "start": 592,
+    "end": 594,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": ",初四早上八点我们就到了动物园,直接把车停在南门。之前看了一个攻略说从南门进北门出,我们按照这个路线游玩,亲身体验告诉我,这路线不科学。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-02",
+    "para_id": 9,
+    "term": "地铁",
+    "start": 625,
+    "end": 627,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "长隆野生动物世界:广州地铁三号线汉溪地铁站d出口,跟随里面的地标步行约10分钟左右即可抵达南门"
+  },
+  {
+    "doc_id": "GZCL-NOTE-02",
+    "para_id": 16,
+    "term": "缆车",
+    "start": 1042,
+    "end": 1044,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "可以俯视到整个天鹅湖的美景,四处山林呼应,青龙山、白虎山等绿树成荫,当缆车行驶至湖泊上方还可听到和谐的天籁合鸣曲。置身于此也会开始惊讶恍惚于在广州这座繁华的大都市中"
+  },
+  {
+    "doc_id": "GZCL-NOTE-02",
+    "para_id": 20,
+    "term": "小火车",
+    "start": 1444,
+    "end": 1447,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车游览的第一站便是澳洲森林,这里住着澳大利亚的国兽——大赤袋鼠。大赤袋鼠性格活泼机敏,时不时"
+  },
+  {
+    "doc_id": "GZCL-NOTE-02",
+    "para_id": 27,
+    "term": "小火车",
+    "start": 2533,
+    "end": 2536,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "的鸵鸟、非洲冠鹤等等,如此多的动物们齐聚一堂,热闹非凡。短短几十分钟的小火车之旅便能够让我们看到世界各大洲的珍稀动物,仿佛经历了一次世界森林冒险一般,闯过一关又一关。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-03",
+    "para_id": 4,
+    "term": "地铁",
+    "start": 181,
+    "end": 183,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": ",巴士站在买票的地方往左边走穿过停车场就能看到了。巴士是可以坐到附近的地铁站的 。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 3,
+    "term": "双溪长隆站",
+    "start": 171,
+    "end": 176,
+    "reason": "疑似OCR/笔误，站名无法确证",
+    "action": "deferred",
+    "context": "从广州市区可以乘坐地铁三号线到双溪长隆站,E出口有野生动物世界的免费穿梭巴士接驳;从深圳自驾前往走沿江高速,如果虎门大桥不堵车的话"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 5,
+    "term": "小火车",
+    "start": 391,
+    "end": 394,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "动物园的总体印象非常不错:景区提供野生动物散养区域,可以通过自驾车或者小火车游览,能够看到相对野生自由状态下的动物,除了观赏动物还有大量配套的科普,这是国内很多动物园"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 5,
+    "term": "小火车",
+    "start": 486,
+    "end": 489,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "务非常完善和人性化,几乎在每个路口和园区,都能找到工作人员闻讯和协助,小火车和缆车管理完善井然有序。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 5,
+    "term": "缆车",
+    "start": 490,
+    "end": 492,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "善和人性化,几乎在每个路口和园区,都能找到工作人员闻讯和协助,小火车和缆车管理完善井然有序。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 6,
+    "term": "缆车",
+    "start": 595,
+    "end": 597,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "边的乘车游览区,可以自驾或者乘坐小火车;中间和东面的主题园区,主要通过缆车和步行前往。北门和南门之间,通过天鹅湖线缆车往返,从天鹅湖站到熊猫乐园站。缆车线路基本是三"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 6,
+    "term": "缆车",
+    "start": 617,
+    "end": 619,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "和东面的主题园区,主要通过缆车和步行前往。北门和南门之间,通过天鹅湖线缆车往返,从天鹅湖站到熊猫乐园站。缆车线路基本是三角形,但非洲草原站是不停也不允许上下的;此外"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 6,
+    "term": "缆车",
+    "start": 634,
+    "end": 636,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "行前往。北门和南门之间,通过天鹅湖线缆车往返,从天鹅湖站到熊猫乐园站。缆车线路基本是三角形,但非洲草原站是不停也不允许上下的;此外景区内还有30元/位的电瓶车。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 7,
+    "term": "小火车",
+    "start": 824,
+    "end": 827,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "的,但是自驾车的最大好处是可以想停就停,非常适合拍摄野生状态下的动物。小火车是不停车的,而且车上比较颠簸,还经常会被自驾车挡在动物前面,所以小火车很难拍出好照片,但是"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 7,
+    "term": "小火车",
+    "start": 900,
+    "end": 903,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "出好照片,但是仍然值得乘坐去看看那些动物。自驾车游览我用了一个多小时,小火车只用了15分钟。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 8,
+    "term": "小火车",
+    "start": 912,
+    "end": 915,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车是不停车的,而且车上比较颠簸,还经常会被自驾车挡在动物前面,所以小火车很难拍出好照片,但是"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 11,
+    "term": "缆车",
+    "start": 1319,
+    "end": 1321,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "缆车除了是园区内的重要交通工具,也提供了从空中观察动物的机会。从天鹅湖到非洲草原站,就是经过野"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 11,
+    "term": "火烈鸟",
+    "start": 1477,
+    "end": 1480,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "到天鹅湖站,可以看到树上的蜘蛛猴和鹦鹉白鹭,还可以看到湖里的鹈鹕黑天鹅火烈鸟等等。但由于距离比较远或者有遮挡,很难拍出特别漂亮的照片,不过换个角度看动物是很有趣的事情"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 24,
+    "term": "火烈鸟",
+    "start": 2811,
+    "end": 2814,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "啡厅,隔着窗户就可以看到外面的白虎;自助餐所在的白虎堂,也可看到白虎和火烈鸟。酒店高级间淡季800块钱左右,早晨每位150元中餐每位350元晚餐自助每位400多元,酒"
+  },
+  {
+    "doc_id": "GZCL-NOTE-04",
+    "para_id": 26,
+    "term": "火烈鸟",
+    "start": 3107,
+    "end": 3110,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "东面馆、砂锅粥档、烧烤、铁板烧、甜品和饮料。两侧隔着玻璃可以看到白虎和火烈鸟,尽量选择靠窗的位置。自助餐期间还有各种卡通角色和气球师串场活跃气氛。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-05",
+    "para_id": 42,
+    "term": "缆车",
+    "start": 1053,
+    "end": 1055,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "空中缆车熊猫乐园站"
+  },
+  {
+    "doc_id": "GZCL-NOTE-05",
+    "para_id": 42,
+    "term": "空中缆车",
+    "start": 1051,
+    "end": 1055,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "空中缆车熊猫乐园站"
+  },
+  {
+    "doc_id": "GZCL-NOTE-05",
+    "para_id": 132,
+    "term": "火烈鸟",
+    "start": 3146,
+    "end": 3149,
+    "reason": "裸动物名不因独立成行就作为地点",
+    "action": "deferred",
+    "context": ",分为两个区域:火烈鸟区与白虎区,可以一边用餐一边看动物,还可以观赏森林童话剧。早餐不接受位置预定,中餐和晚餐可"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 13,
+    "term": "缆车",
+    "start": 353,
+    "end": 355,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "——熊猫乐园——熊猫餐厅——4D影院——亚洲象园——长颈鹿广场——空中缆车——火烈鸟——南门纪念品商店——出园"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 13,
+    "term": "空中缆车",
+    "start": 351,
+    "end": 355,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "拉园——熊猫乐园——熊猫餐厅——4D影院——亚洲象园——长颈鹿广场——空中缆车——火烈鸟——南门纪念品商店——出园"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 14,
+    "term": "小火车",
+    "start": 385,
+    "end": 388,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "第一站(10:00):小火车游览"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 17,
+    "term": "小火车",
+    "start": 580,
+    "end": 583,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车下来就是青龙山,按照路标我们来到了一直心心念念的侏罗纪森林,这个时候就是男朋友展示男友力的"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 30,
+    "term": "缆车",
+    "start": 1516,
+    "end": 1518,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "第九站(16:00):空中缆车"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 30,
+    "term": "空中缆车",
+    "start": 1514,
+    "end": 1518,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "第九站(16:00):空中缆车"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 31,
+    "term": "缆车",
+    "start": 1547,
+    "end": 1549,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "这个时候感觉已经走了好久好久,是时候休息一下了,于是空中缆车走起!空中缆车有两条路线:环园线和天鹅湖线!重点还是免费哦!这票价真的值了!"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 31,
+    "term": "缆车",
+    "start": 1554,
+    "end": 1556,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "这个时候感觉已经走了好久好久,是时候休息一下了,于是空中缆车走起!空中缆车有两条路线:环园线和天鹅湖线!重点还是免费哦!这票价真的值了!"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 31,
+    "term": "空中缆车",
+    "start": 1545,
+    "end": 1549,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "这个时候感觉已经走了好久好久,是时候休息一下了,于是空中缆车走起!空中缆车有两条路线:环园线和天鹅湖线!重点还是免费哦!这票价真的值了!"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 31,
+    "term": "空中缆车",
+    "start": 1552,
+    "end": 1556,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "这个时候感觉已经走了好久好久,是时候休息一下了,于是空中缆车走起!空中缆车有两条路线:环园线和天鹅湖线!重点还是免费哦!这票价真的值了!"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 36,
+    "term": "火烈鸟",
+    "start": 1933,
+    "end": 1936,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "第十站(17:00):看火烈鸟"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 37,
+    "term": "火烈鸟",
+    "start": 1985,
+    "end": 1988,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "时间啦!沿着路标往南门走,路上还能相遇很多小动物,其中就有风靡时尚圈的火烈鸟!红红火火真的是太耀眼了,有红的白的,太美了!看着看着旁边的傻货突然神秘兮兮地问我你知道为"
+  },
+  {
+    "doc_id": "GZCL-OFF-01",
+    "para_id": 37,
+    "term": "火烈鸟",
+    "start": 2035,
+    "end": 2038,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": ",有红的白的,太美了!看着看着旁边的傻货突然神秘兮兮地问我你知道为什么火烈鸟有的是白色有的是红色吗?“不知道哇”“那我就勉为其难地跟你科普一下”然后巴拉巴拉讲了一通之"
+  },
+  {
+    "doc_id": "GZCL-OFF-03",
+    "para_id": 41,
+    "term": "地铁",
+    "start": 1411,
+    "end": 1413,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "长隆地铁站(E出口);从广州东高铁站出发搭乘地铁3号线北延段到达体育西地铁站转3号线到达汉溪长隆地铁站(E出口);从广州火车站地铁站出发搭乘地铁5号线到达珠江新城站"
+  },
+  {
+    "doc_id": "GZCL-OFF-03",
+    "para_id": 41,
+    "term": "地铁",
+    "start": 1439,
+    "end": 1441,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "延段到达体育西地铁站转3号线到达汉溪长隆地铁站(E出口);从广州火车站地铁站出发搭乘地铁5号线到达珠江新城站转3号线到达汉溪长隆地铁站(E出口)。"
+  },
+  {
+    "doc_id": "GZCL-OFF-03",
+    "para_id": 41,
+    "term": "高铁",
+    "start": 1360,
+    "end": 1362,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "从广州南高铁站出发搭乘地铁7号线到达汉溪长隆地铁站(E出口);从广州东高铁站出发搭乘地铁3号线北延段到"
+  },
+  {
+    "doc_id": "GZCL-OFF-03",
+    "para_id": 41,
+    "term": "高铁",
+    "start": 1391,
+    "end": 1393,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "从广州南高铁站出发搭乘地铁7号线到达汉溪长隆地铁站(E出口);从广州东高铁站出发搭乘地铁3号线北延段到达体育西地铁站转3号线到达汉溪长隆地铁站(E出口);从广州火车"
+  },
+  {
+    "doc_id": "GZCL-OFF-03",
+    "para_id": 43,
+    "term": "地铁",
+    "start": 1486,
+    "end": 1488,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "从广州各地铁站点搭乘至3号线或7号线(E出口)。"
+  },
+  {
+    "doc_id": "JZG-NOTE-01",
+    "para_id": 21,
+    "term": "步行",
+    "start": 235,
+    "end": 237,
+    "reason": "叙事细步行走的内部子串，不是步行交通方式提及",
+    "action": "deferred",
+    "context": "阳光,那轻薄的上衣在阵阵清风中随风飘动;她轻盈得象飞鸟一样,在水波上细步行走,脚下生起朵朵莲花,时而行踪不定,时而喜忧不明;她眼波柔情流动,目光神采飞扬,云雾润泽着"
+  },
+  {
+    "doc_id": "JZG-NOTE-01",
+    "para_id": 21,
+    "term": "飞",
+    "start": 225,
+    "end": 226,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "臂,用修长的衣袖遮蔽阳光,那轻薄的上衣在阵阵清风中随风飘动;她轻盈得象飞鸟一样,在水波上细步行走,脚下生起朵朵莲花,时而行踪不定,时而喜忧不明;她眼波柔情流动,目"
+  },
+  {
+    "doc_id": "JZG-NOTE-01",
+    "para_id": 21,
+    "term": "飞",
+    "start": 274,
+    "end": 275,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "脚下生起朵朵莲花,时而行踪不定,时而喜忧不明;她眼波柔情流动,目光神采飞扬,云雾润泽着美丽的面容,好像有许多情话蕴在贝齿间,气息中仿佛散发着幽幽兰香,那份羞涩的静"
+  },
+  {
+    "doc_id": "JZG-NOTE-01",
+    "para_id": 23,
+    "term": "原始森林",
+    "start": 348,
+    "end": 352,
+    "reason": "原始森林疑为自然描述而非命名地点",
+    "action": "deferred",
+    "context": "眼前原始森林遍布"
+  },
+  {
+    "doc_id": "JZG-NOTE-01",
+    "para_id": 40,
+    "term": "飞",
+    "start": 469,
+    "end": 470,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "随处可见飞鸟小虫跃过"
+  },
+  {
+    "doc_id": "JZG-NOTE-02",
+    "para_id": 12,
+    "term": "飞",
+    "start": 1228,
+    "end": 1229,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "辽阔、五彩池的剔透、镜海的倒影、珍珠滩瀑布的浩荡。白天看遍海子、彩林、飞瀑,傍晚游走小镇街巷,一餐烟火收尾。山水壮阔,人间温热,一路相伴同行,所有奔波,都值得。此"
+  },
+  {
+    "doc_id": "JZG-NOTE-03",
+    "para_id": 5,
+    "term": "诺日朗",
+    "start": 580,
+    "end": 583,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "是景区唯一的餐厅和吸烟区,逛累了正好在这里休整、吃饭、接热水。但注意:诺日朗别急着逛,先换乘去右线方向。"
+  },
+  {
+    "doc_id": "JZG-NOTE-03",
+    "para_id": 6,
+    "term": "沟口",
+    "start": 823,
+    "end": 825,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "玩结束在五花海站点上车,回到诺日朗中心,步行观赏诺日朗瀑布,再换乘前往沟口方向的观光车到犀牛海下车。"
+  },
+  {
+    "doc_id": "JZG-NOTE-03",
+    "para_id": 8,
+    "term": "诺日朗",
+    "start": 1091,
+    "end": 1094,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "站都下,挑精华下,保存体力。树正沟放最后,下午光线好、人少、下坡省力。诺日朗是唯一餐厅,饭点人多,可错峰或自带干粮。"
+  },
+  {
+    "doc_id": "JZG-NOTE-03",
+    "para_id": 9,
+    "term": "诺日朗",
+    "start": 1131,
+    "end": 1134,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "路线节奏总结:上午长海→五彩池→诺日朗换乘;中午诺日朗吃饭休整;下午箭竹海→熊猫海→五花海→珍珠滩→诺日朗换乘;傍晚犀牛海→老虎"
+  },
+  {
+    "doc_id": "JZG-NOTE-03",
+    "para_id": 9,
+    "term": "诺日朗",
+    "start": 1139,
+    "end": 1142,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "路线节奏总结:上午长海→五彩池→诺日朗换乘;中午诺日朗吃饭休整;下午箭竹海→熊猫海→五花海→珍珠滩→诺日朗换乘;傍晚犀牛海→老虎海→树正瀑布→树"
+  },
+  {
+    "doc_id": "JZG-NOTE-03",
+    "para_id": 9,
+    "term": "诺日朗",
+    "start": 1165,
+    "end": 1168,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "→诺日朗换乘;中午诺日朗吃饭休整;下午箭竹海→熊猫海→五花海→珍珠滩→诺日朗换乘;傍晚犀牛海→老虎海→树正瀑布→树正群海→火花海→出沟。"
+  },
+  {
+    "doc_id": "JZG-OFF-01",
+    "para_id": 9,
+    "term": "沟口",
+    "start": 353,
+    "end": 355,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "沟口乘车→原始森林(07:00-08:10 一个小时车程)"
+  },
+  {
+    "doc_id": "JZG-OFF-01",
+    "para_id": 25,
+    "term": "沟口",
+    "start": 983,
+    "end": 985,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )"
+  },
+  {
+    "doc_id": "JZG-OFF-01",
+    "para_id": 30,
+    "term": "沟口",
+    "start": 1242,
+    "end": 1244,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "沟口乘车→长海→五彩池→诺日朗中心站→诺日朗瀑布→犀牛海→树正瀑布→树正群海→双龙海→芦苇海→"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-01",
+    "para_id": 34,
+    "term": "企鹅",
+    "start": 424,
+    "end": 426,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "看遍可爱企鹅的呆萌步伐"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-01",
+    "para_id": 68,
+    "term": "企鹅",
+    "start": 1118,
+    "end": 1120,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "与体型至大的帝企鹅和可爱活泼的阿德利企鹅say Hi。在这里你会发现,企鹅也能快如闪电!"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-01",
+    "para_id": 68,
+    "term": "企鹅",
+    "start": 1129,
+    "end": 1131,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "与体型至大的帝企鹅和可爱活泼的阿德利企鹅say Hi。在这里你会发现,企鹅也能快如闪电!"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-01",
+    "para_id": 68,
+    "term": "企鹅",
+    "start": 1146,
+    "end": 1148,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "与体型至大的帝企鹅和可爱活泼的阿德利企鹅say Hi。在这里你会发现,企鹅也能快如闪电!"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 4,
+    "term": "深海世界",
+    "start": 279,
+    "end": 283,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "点开园,09:30开始售票,可以提前一点排队,准备进行安检。进园后,在深海世界门口(左边)拿一份景点游玩地图,上面详细标注了有海洋动物展览、机动游戏等。地图有中文版、英"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 24,
+    "term": "旋转水转",
+    "start": 940,
+    "end": 944,
+    "reason": "疑似“旋转水战”笔误。",
+    "action": "deferred",
+    "context": "「旋转水转」"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 27,
+    "term": "小船",
+    "start": 1168,
+    "end": 1170,
+    "reason": "小船未明确作为酒店/园区接驳交通",
+    "action": "deferred",
+    "context": "最靠近中间走道的两排就坐。到时候主持人会邀请一个小朋友和小海豚玩,坐在小船上被小海豚拉着,就像是水上的小公主一样,哇哇哇~被幼儿园的小朋友各种羡慕嫉妒恨,而且对小朋"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 50,
+    "term": "航海家号",
+    "start": 2034,
+    "end": 2038,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "动物展馆:航海家号"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 68,
+    "term": "企鹅",
+    "start": 2719,
+    "end": 2721,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅种类齐全,第一次见到企鹅,憨态十足、笨拙呆萌的走路姿势,让人忍俊不禁。当企鹅在水中恣意畅游"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 68,
+    "term": "企鹅",
+    "start": 2731,
+    "end": 2733,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅种类齐全,第一次见到企鹅,憨态十足、笨拙呆萌的走路姿势,让人忍俊不禁。当企鹅在水中恣意畅游时,矫健的身躯灵活自如,"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 68,
+    "term": "企鹅",
+    "start": 2757,
+    "end": 2759,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "类齐全,第一次见到企鹅,憨态十足、笨拙呆萌的走路姿势,让人忍俊不禁。当企鹅在水中恣意畅游时,矫健的身躯灵活自如,跟陆地上的笨拙截然不同。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 72,
+    "term": "水濑之家",
+    "start": 2840,
+    "end": 2844,
+    "reason": "与“水獭之家”不一致，原文既有异写又有OCR可能；保留原词，需实地/官方名核对。",
+    "action": "deferred",
+    "context": "动物展馆:水濑之家、触摸池、瑶鱼池"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 2,
+    "term": "企鹅",
+    "start": 202,
+    "end": 204,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "「杰出成就奖」。这里有世界至大的水族馆之一,可以和鲸鲨、白鲸、北极熊、企鹅等等可爱的海洋动物见面,也可以挑战动感游乐设施,还有精彩的剧场表演、花车巡游、横琴海汇演等"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 5,
+    "term": "企鹅",
+    "start": 440,
+    "end": 442,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "两个宝宝都不到3岁,出行要带的东西还是比较多的,自驾会方便些。订酒店,企鹅和横琴湾二选一。没有选择企鹅的原因很简单,刚装修完没多久,我可不想去当人肉净化器于是横琴湾"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 5,
+    "term": "企鹅",
+    "start": 454,
+    "end": 456,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "的东西还是比较多的,自驾会方便些。订酒店,企鹅和横琴湾二选一。没有选择企鹅的原因很简单,刚装修完没多久,我可不想去当人肉净化器于是横琴湾酒店就成了唯一选择。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 8,
+    "term": "水世界",
+    "start": 646,
+    "end": 649,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "门票。办理入住的时候给了我第一个惊喜:送了两张横琴湾水世界的门票。这个水世界下面会细表。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 10,
+    "term": "水世界",
+    "start": 899,
+    "end": 902,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "卡办理了入住。(这里有一个小插曲:办理入住的时候前台告诉我房卡里有两张水世界的门票但我朋友办理的时候却没有,于是我们打电话去前台询问又补送了两张,不得不说横琴湾酒店的"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 19,
+    "term": "企鹅",
+    "start": 1510,
+    "end": 1512,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "(Tips5:如果带着1岁以内的宝宝来长隆还是建议选择企鹅的,方便随时进出园区休息。)"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 22,
+    "term": "正门",
+    "start": 1715,
+    "end": 1717,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "所以如果携老扶幼又是在高峰期还是很建议购买此项服务的。购买地点在园区外正门售票处以及园区内的几个商店,详询工作人员。)"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 23,
+    "term": "企鹅",
+    "start": 1816,
+    "end": 1818,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "天幕,让人恍若置身海底世界。天幕之下,巨型魔鬼鱼从头顶呼啸飞过,可爱小企鹅写意漫步,色彩斑斓的小鱼成群结队穿梭其中。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 30,
+    "term": "企鹅",
+    "start": 2296,
+    "end": 2298,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅们一只只憨态可掬,加之馆内确实凉快,大人孩子都看的不愿意走,话说这也是我第一次看到企鹅的泳"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 30,
+    "term": "企鹅",
+    "start": 2339,
+    "end": 2341,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "可掬,加之馆内确实凉快,大人孩子都看的不愿意走,话说这也是我第一次看到企鹅的泳姿,太可爱了!"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 50,
+    "term": "水世界",
+    "start": 3766,
+    "end": 3769,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "关于横琴湾酒店水世界"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 51,
+    "term": "水世界",
+    "start": 3772,
+    "end": 3775,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "这个水世界是长隆给我们的一个惊喜,也是我后来屡次推荐横琴湾酒店的原因之一,最重要的原因。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 52,
+    "term": "水世界",
+    "start": 3821,
+    "end": 3824,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "横琴湾酒店的水世界分室内和室外两部分,1M以下的儿童免费。这个水世界对住店客人有极大优惠,目前官网显示的住店"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 52,
+    "term": "水世界",
+    "start": 3846,
+    "end": 3849,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "横琴湾酒店的水世界分室内和室外两部分,1M以下的儿童免费。这个水世界对住店客人有极大优惠,目前官网显示的住店客人票价为80rmb,1-1,5M的儿童及65岁以"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 53,
+    "term": "水世界",
+    "start": 3991,
+    "end": 3994,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "二天起床早饭以后谁也没有勇气顶着上午的大太阳踏进园子,于是决定去酒店的水世界。这里稍微说一下横琴湾酒店的早餐。酒店早餐是开在珊瑚自助餐厅和亚马逊森林美食廊,视客流情况"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 54,
+    "term": "水世界",
+    "start": 4128,
+    "end": 4131,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "水世界从酒店海马区进入,有自己独立的更衣区、储存柜和淋浴区。这个很重要,因为我们在12:00退房"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 55,
+    "term": "水世界",
+    "start": 4191,
+    "end": 4194,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "进入水世界首先进入的是室内部分,这里有室内滑道、按摩池、水寨等。规模当然不能跟广州长隆的水世界相比,"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 55,
+    "term": "水世界",
+    "start": 4233,
+    "end": 4236,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "的是室内部分,这里有室内滑道、按摩池、水寨等。规模当然不能跟广州长隆的水世界相比,但做为酒店的配套足够了,而且更加适合小孩子。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 58,
+    "term": "水世界",
+    "start": 4426,
+    "end": 4429,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "片玻璃,一不小心海豚就已经游到你眼前了!重点的重点是:这个海豚池不通过水世界压根无法到达!"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 60,
+    "term": "水世界",
+    "start": 4553,
+    "end": 4556,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "珠海长隆并且决定了入住横琴湾酒店,那么请一定带好泳衣,并且一定一定要去水世界!中途出来办理退房手续或者吃饭什么的出口的工作人员会在你的手臂上盖一个印章,千万不要擦掉了"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-03",
+    "para_id": 60,
+    "term": "水世界",
+    "start": 4611,
+    "end": 4614,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "的工作人员会在你的手臂上盖一个印章,千万不要擦掉了,这个是当天再次进入水世界的凭证。)"
+  },
+  {
+    "doc_id": "ZHCL-OFF-01",
+    "para_id": 12,
+    "term": "企鹅",
+    "start": 550,
+    "end": 552,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅馆里憨态可掬的企鹅宝宝、海豚岛里聪明又亲人的小海豚,都非常惹人喜爱"
+  },
+  {
+    "doc_id": "ZHCL-OFF-01",
+    "para_id": 29,
+    "term": "企鹅",
+    "start": 1007,
+    "end": 1009,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅雪屋家庭房"
+  },
+  {
+    "doc_id": "ZHCL-OFF-01",
+    "para_id": 30,
+    "term": "企鹅",
+    "start": 1018,
+    "end": 1020,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "以南极企鹅群为主题,随着小企鹅的脚步走进童趣可爱的雪屋!房间配有一张1.5米以下小童适用的雪橇主题儿"
+  },
+  {
+    "doc_id": "ZHCL-OFF-01",
+    "para_id": 30,
+    "term": "企鹅",
+    "start": 1028,
+    "end": 1030,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "以南极企鹅群为主题,随着小企鹅的脚步走进童趣可爱的雪屋!房间配有一张1.5米以下小童适用的雪橇主题儿童床,尽享冰雪欢乐亲"
+  },
+  {
+    "doc_id": "ZHCL-OFF-02",
+    "para_id": 34,
+    "term": "水世界",
+    "start": 895,
+    "end": 898,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "水世界!超棒!!大人小孩玩一天,旁边就有海豚!"
+  },
+  {
+    "doc_id": "ZHCL-OFF-02",
+    "para_id": 40,
+    "term": "水世界",
+    "start": 1039,
+    "end": 1042,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "2、室内、外水世界简直棒呆,大人和孩子都能玩high,3天2夜之旅简直完美,设有刺激的滑道、亲子水寨、百米漂"
+  },
+  {
+    "doc_id": "ZHCL-OFF-02",
+    "para_id": 40,
+    "term": "水世界",
+    "start": 1112,
+    "end": 1115,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "道、亲子水寨、百米漂流河等多个丰富的水上娱乐项目,酒店住客可免费多次玩水世界!钱花得好值得啊。"
+  },
+  {
+    "doc_id": "ZHCL-OFF-02",
+    "para_id": 42,
+    "term": "企鹅",
+    "start": 1171,
+    "end": 1173,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅酒店2015年建立,紧邻海洋王国主题公园,是以企鹅为主题的度假亲子酒店,包含各类主题客房多达2000间。"
+  },
+  {
+    "doc_id": "ZHCL-OFF-02",
+    "para_id": 46,
+    "term": "水世界",
+    "start": 1301,
+    "end": 1304,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "不足:去水世界好远啊"
+  },
+  {
+    "doc_id": "ZHCL-OFF-02",
+    "para_id": 62,
+    "term": "企鹅",
+    "start": 1934,
+    "end": 1936,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "属美食和专属儿童餐具,方便孩子自如取餐,有鸡蛋面、蔬菜面、无盐水蒸蛋、企鹅包子、水煮鸡蛋等,方方吃得可香了。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 8,
+    "term": "小火车",
+    "start": 165,
+    "end": 168,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "北门入园 → 小火车 → 青龙山 → 白虎山 → 长颈鹿广场 → 考拉园 → 午餐休整 → 熊猫村 → 亚洲象"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 8,
+    "term": "缆车",
+    "start": 219,
+    "end": 221,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "颈鹿广场 → 考拉园 → 午餐休整 → 熊猫村 → 亚洲象区 → 空中缆车 → 火烈鸟岛 → 4D 影院 → 花车巡游 → 熊森林 → 黑猩猩展区 → 南门出园"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 8,
+    "term": "空中缆车",
+    "start": 217,
+    "end": 221,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": " 长颈鹿广场 → 考拉园 → 午餐休整 → 熊猫村 → 亚洲象区 → 空中缆车 → 火烈鸟岛 → 4D 影院 → 花车巡游 → 熊森林 → 黑猩猩展区 → 南门出园"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 32,
+    "term": "小火车",
+    "start": 712,
+    "end": 715,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 72,
+    "term": "火烈鸟",
+    "start": 1050,
+    "end": 1053,
+    "reason": "裸动物名不因独立成行就作为地点",
+    "action": "deferred",
+    "context": "火烈鸟"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 73,
+    "term": "缆车",
+    "start": 1056,
+    "end": 1058,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "空中缆车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 73,
+    "term": "空中缆车",
+    "start": 1054,
+    "end": 1058,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "空中缆车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 78,
+    "term": "火烈鸟",
+    "start": 1115,
+    "end": 1118,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "成片粉色火烈鸟,随手拍"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 88,
+    "term": "熊森林",
+    "start": 1181,
+    "end": 1184,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "母熊森林"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 181,
+    "term": "缆车",
+    "start": 2128,
+    "end": 2130,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "缆车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 193,
+    "term": "缆车",
+    "start": 2238,
+    "end": 2240,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "缆车天鹅湖站入口旁"
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 199,
+    "term": "缆车",
+    "start": 2280,
+    "end": 2282,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "缆车熊猫乐园站入口旁"
+  },
+  {
+    "doc_id": "GZCL-NOTE-07",
+    "para_id": 13,
+    "term": "小火车",
+    "start": 312,
+    "end": 315,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "关于小火车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-07",
+    "para_id": 15,
+    "term": "北门",
+    "start": 334,
+    "end": 336,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "08:50前到北门,09:00发车,09:30结束。游客09:30才入园,赶上第一波进园早、体验好很多。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-07",
+    "para_id": 46,
+    "term": "小火车",
+    "start": 1212,
+    "end": 1215,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "李,时间稍微有点紧张,可以安排欢乐世界,欢乐世界和马戏挨着,第二天早晨小火车,然后一直在动物园逛,如果起晚了可以参考我们第三天的行程,一个家长带着娃逛动物园,一个家长"
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 8,
+    "term": "缆车",
+    "start": 184,
+    "end": 186,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "3⃣10:40-11:20 熊猫村 → 天鹅湖缆车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 18,
+    "term": "小火车",
+    "start": 458,
+    "end": 461,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "7⃣13:40-15:00 小火车穿越五大洲"
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 20,
+    "term": "小火车",
+    "start": 529,
+    "end": 532,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车全程穿越“五大洲”,沉浸式和百兽同行"
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 27,
+    "term": "小火车",
+    "start": 770,
+    "end": 773,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "熊猫村 → 天鹅湖缆车 → 青龙山探秘 → 白虎山跳水 → 午餐 → 小火车 → 科莫多龙园区 → 考拉园 → 花车巡游 → 北门出园"
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 27,
+    "term": "缆车",
+    "start": 744,
+    "end": 746,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "南门进 → 火烈鸟岛 → 熊猫村 → 天鹅湖缆车 → 青龙山探秘 → 白虎山跳水 → 午餐 → 小火车 → 科莫多龙园区 → 考拉园 → "
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 3,
+    "term": "北门",
+    "start": 22,
+    "end": 24,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "北门进,南门出!相信我,这是精髓。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 3,
+    "term": "南门",
+    "start": 26,
+    "end": 28,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "北门进,南门出!相信我,这是精髓。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 5,
+    "term": "北门",
+    "start": 72,
+    "end": 74,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "09:00 北门入园→直奔小火车(必坐右侧)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 19,
+    "term": "缆车",
+    "start": 452,
+    "end": 454,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "15:00 空中缆车(环园线·免费)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 19,
+    "term": "空中缆车",
+    "start": 450,
+    "end": 454,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "15:00 空中缆车(环园线·免费)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 24,
+    "term": "南门",
+    "start": 625,
+    "end": 627,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "• 看非洲动物、火烈鸟,南门出(做接驳车回酒店,也可以打车去万达广场吃饭,打车18元左右)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 24,
+    "term": "火烈鸟",
+    "start": 621,
+    "end": 624,
+    "reason": "裸动物名不因独立成行就作为地点",
+    "action": "deferred",
+    "context": "• 看非洲动物、火烈鸟,南门出(做接驳车回酒店,也可以打车去万达广场吃饭,打车18元左右)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 36,
+    "term": "北门",
+    "start": 724,
+    "end": 726,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "北门"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 68,
+    "term": "南门",
+    "start": 983,
+    "end": 985,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "10:30入园(南门进)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 86,
+    "term": "小火车",
+    "start": 1193,
+    "end": 1196,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "Day2野生动物园(从小火车开始·北门进)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 87,
+    "term": "小火车",
+    "start": 1219,
+    "end": 1222,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "上午动物们精神最好,进门直接冲小火车,"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 118,
+    "term": "南门",
+    "start": 1674,
+    "end": 1676,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "·看非洲动物、火烈鸟,南门出(做接驳车回"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 118,
+    "term": "火烈鸟",
+    "start": 1670,
+    "end": 1673,
+    "reason": "裸动物名不因独立成行就作为地点",
+    "action": "deferred",
+    "context": "·看非洲动物、火烈鸟,南门出(做接驳车回"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 126,
+    "term": "南门",
+    "start": 1790,
+    "end": 1792,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "·看23:58物、火烈鸟,南门出(做挤会"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 126,
+    "term": "火烈鸟",
+    "start": 1786,
+    "end": 1789,
+    "reason": "裸动物名不因独立成行就作为地点",
+    "action": "deferred",
+    "context": "·看23:58物、火烈鸟,南门出(做挤会"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 167,
+    "term": "北门",
+    "start": 2379,
+    "end": 2381,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "北门路线:"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 168,
+    "term": "北门",
+    "start": 2386,
+    "end": 2388,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "•北门入园小火车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 168,
+    "term": "小火车",
+    "start": 2390,
+    "end": 2393,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "•北门入园小火车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 183,
+    "term": "火烈鸟",
+    "start": 2464,
+    "end": 2467,
+    "reason": "裸动物名不因独立成行就作为地点",
+    "action": "deferred",
+    "context": "火烈鸟"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 189,
+    "term": "南门",
+    "start": 2488,
+    "end": 2490,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门路线:"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 190,
+    "term": "南门",
+    "start": 2495,
+    "end": 2497,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "•南门入园"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 197,
+    "term": "小火车",
+    "start": 2530,
+    "end": 2533,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车站点"
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 199,
+    "term": "南门",
+    "start": 2540,
+    "end": 2542,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-10",
+    "para_id": 23,
+    "term": "火烈鸟",
+    "start": 532,
+    "end": 535,
+    "reason": "裸动物名不因独立成行就作为地点",
+    "action": "deferred",
+    "context": "百鸟齐飞大型表演、火烈鸟花海、鹈鹕投喂,人少安静,拍照巨出片"
+  },
+  {
+    "doc_id": "GZCL-NOTE-10",
+    "para_id": 25,
+    "term": "火烈鸟",
+    "start": 581,
+    "end": 584,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "11:30 湿地火烈鸟区域打卡"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 1,
+    "term": "南门",
+    "start": 17,
+    "end": 19,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "⁉很多人问我最多的一个问题就是:我南门进,是不是就赶不上小火车啦?南门进是不是要走上坡路,走很多回头路?? 以下是我的答案:"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 1,
+    "term": "南门",
+    "start": 33,
+    "end": 35,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "⁉很多人问我最多的一个问题就是:我南门进,是不是就赶不上小火车啦?南门进是不是要走上坡路,走很多回头路?? 以下是我的答案:"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 1,
+    "term": "小火车",
+    "start": 28,
+    "end": 31,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "⁉很多人问我最多的一个问题就是:我南门进,是不是就赶不上小火车啦?南门进是不是要走上坡路,走很多回头路?? 以下是我的答案:"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 15,
+    "term": "小火车",
+    "start": 513,
+    "end": 516,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "园逛遍,小火车缆车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 15,
+    "term": "缆车",
+    "start": 516,
+    "end": 518,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "园逛遍,小火车缆车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 17,
+    "term": "南门",
+    "start": 529,
+    "end": 531,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门进-南门出保姆"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 17,
+    "term": "南门",
+    "start": 533,
+    "end": 535,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门进-南门出保姆"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 24,
+    "term": "南门",
+    "start": 581,
+    "end": 583,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "九月长隆南门进-南门出一"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 24,
+    "term": "南门",
+    "start": 585,
+    "end": 587,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "九月长隆南门进-南门出一"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 28,
+    "term": "缆车",
+    "start": 642,
+    "end": 644,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "特别提醒:九月长隆开园时间09:30!缆车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 29,
+    "term": "小火车",
+    "start": 657,
+    "end": 660,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "10:30-17:00;小火车09:30-16:30;中心区"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 31,
+    "term": "南门",
+    "start": 684,
+    "end": 686,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门-熊森林:"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 31,
+    "term": "熊森林",
+    "start": 687,
+    "end": 690,
+    "reason": "仅接纳独立路线/列表项，不把动物或自然景物泛称当地点",
+    "action": "deferred",
+    "context": "南门-熊森林:"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 32,
+    "term": "南门",
+    "start": 692,
+    "end": 694,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门一入园,右转直走1分钟,就到达熊森林"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 32,
+    "term": "熊森林",
+    "start": 709,
+    "end": 712,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "南门一入园,右转直走1分钟,就到达熊森林"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 35,
+    "term": "熊森林",
+    "start": 746,
+    "end": 749,
+    "reason": "仅接纳独立路线/列表项，不把动物或自然景物泛称当地点",
+    "action": "deferred",
+    "context": "熊森林-丛林发现"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 49,
+    "term": "缆车",
+    "start": 975,
+    "end": 977,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "黑猩猩→缆车熊猫乐园站环园线品"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 51,
+    "term": "缆车",
+    "start": 1018,
+    "end": 1020,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "来后,继续走,就到达缆车熊猫乐园站,"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 55,
+    "term": "缆车",
+    "start": 1061,
+    "end": 1063,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "1.九月缆车运行时间是10:30!如果你【10"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 58,
+    "term": "缆车",
+    "start": 1123,
+    "end": 1125,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "且早上的缆车环园线很凉快!!"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 59,
+    "term": "缆车",
+    "start": 1137,
+    "end": 1139,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "2. 缆车熊猫乐园站分环园线和天鹅湖线"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 61,
+    "term": "北门",
+    "start": 1177,
+    "end": 1179,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "湖线是到达北门小火车,青龙山那边的,"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 61,
+    "term": "小火车",
+    "start": 1179,
+    "end": 1182,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "湖线是到达北门小火车,青龙山那边的,"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 64,
+    "term": "缆车",
+    "start": 1218,
+    "end": 1220,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "缆车熊猫乐园站-萌帅酷乐园(4D影院)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 65,
+    "term": "缆车",
+    "start": 1238,
+    "end": 1240,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "缆车熊猫乐园站出站后,直走1分钟会遇到亚"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 79,
+    "term": "北门",
+    "start": 1480,
+    "end": 1482,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "金猴王国是最快从南门到北门的路径,因为金"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 79,
+    "term": "南门",
+    "start": 1477,
+    "end": 1479,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "金猴王国是最快从南门到北门的路径,因为金"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 80,
+    "term": "北门",
+    "start": 1499,
+    "end": 1501,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "猴王国出来后,就是北门了!"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 85,
+    "term": "小火车",
+    "start": 1538,
+    "end": 1541,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "金猴王国→小火车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 87,
+    "term": "小火车",
+    "start": 1576,
+    "end": 1579,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "分钟,到桥的另一头,就是小火车入口处!"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 90,
+    "term": "小火车",
+    "start": 1625,
+    "end": 1628,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车大概25分钟,或者30分钟,并没有网"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 93,
+    "term": "小火车",
+    "start": 1686,
+    "end": 1689,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "小火车→青龙山2"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 164,
+    "term": "细尾蒙",
+    "start": 2885,
+    "end": 2888,
+    "reason": "疑似OCR/原文错字",
+    "action": "deferred",
+    "context": "骐骥天地→细尾蒙"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 166,
+    "term": "细尾蒙",
+    "start": 2920,
+    "end": 2923,
+    "reason": "疑似OCR/原文错字",
+    "action": "deferred",
+    "context": "坡路,走1分钟,就是细尾蒙和鹦鹉,鹦鹉"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 168,
+    "term": "细尾蒙",
+    "start": 2938,
+    "end": 2941,
+    "reason": "疑似OCR/原文错字",
+    "action": "deferred",
+    "context": "细尾蒙→山魅→花车巡游16:30"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 169,
+    "term": "山題",
+    "start": 2972,
+    "end": 2974,
+    "reason": "OCR疑似“山魅”错识",
+    "action": "deferred",
+    "context": "细尾蒙看完,继续走1分钟,对面就是山題,"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 169,
+    "term": "细尾蒙",
+    "start": 2955,
+    "end": 2958,
+    "reason": "疑似OCR/原文错字",
+    "action": "deferred",
+    "context": "细尾蒙看完,继续走1分钟,对面就是山題,"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 173,
+    "term": "山題",
+    "start": 3035,
+    "end": 3037,
+    "reason": "OCR疑似“山魅”错识",
+    "action": "deferred",
+    "context": "院开始,到达山題地方大概是16:42左右!"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 174,
+    "term": "山題",
+    "start": 3053,
+    "end": 3055,
+    "reason": "OCR疑似“山魅”错识",
+    "action": "deferred",
+    "context": "21山題→湿地精灵"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 175,
+    "term": "山題",
+    "start": 3061,
+    "end": 3063,
+    "reason": "OCR疑似“山魅”错识",
+    "action": "deferred",
+    "context": "山題之后,继续前行,就是湿地精灵,不知道"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 176,
+    "term": "山題",
+    "start": 3088,
+    "end": 3090,
+    "reason": "OCR疑似“山魅”错识",
+    "action": "deferred",
+    "context": "咋走,直接在山題那问工作人员怎么去看湿地"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 178,
+    "term": "火烈鸟",
+    "start": 3117,
+    "end": 3120,
+    "reason": "仅接纳独立路线/列表项，不把动物或自然景物泛称当地点",
+    "action": "deferred",
+    "context": "22湿地精灵→火烈鸟²"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 182,
+    "term": "南门",
+    "start": 3185,
+    "end": 3187,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "火烈鸟→南门"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 183,
+    "term": "南门",
+    "start": 3204,
+    "end": 3206,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "看完火烈鸟,走1分钟再右转走就是南门出"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 183,
+    "term": "火烈鸟",
+    "start": 3190,
+    "end": 3193,
+    "reason": "短名称嵌在更长汉字串中，不能独立成地点",
+    "action": "deferred",
+    "context": "看完火烈鸟,走1分钟再右转走就是南门出"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 185,
+    "term": "南门",
+    "start": 3220,
+    "end": 3222,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门→大马戏"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 186,
+    "term": "南门",
+    "start": 3227,
+    "end": 3229,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门出后,往A站台走,坐园区巴士0到"
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 210,
+    "term": "南门",
+    "start": 3567,
+    "end": 3569,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "谢谢你给大家一个参考! 终于有人会说南门进下坡路多的啦! 其实这个路线因为下坡路多,所以全程走下来真的还不错,虽然走青龙山会累一点"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 2,
+    "term": "小火车",
+    "start": 19,
+    "end": 22,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "园区分北门区(小火车+青龙山)和南门区(熊猫乐园+缆车+百虎山)两大块,精华是小火车和缆车,都包含在门票里不用"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 2,
+    "term": "小火车",
+    "start": 51,
+    "end": 54,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "门区(小火车+青龙山)和南门区(熊猫乐园+缆车+百虎山)两大块,精华是小火车和缆车,都包含在门票里不用另付费。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 2,
+    "term": "缆车",
+    "start": 37,
+    "end": 39,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "园区分北门区(小火车+青龙山)和南门区(熊猫乐园+缆车+百虎山)两大块,精华是小火车和缆车,都包含在门票里不用另付费。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 2,
+    "term": "缆车",
+    "start": 55,
+    "end": 57,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "火车+青龙山)和南门区(熊猫乐园+缆车+百虎山)两大块,精华是小火车和缆车,都包含在门票里不用另付费。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 5,
+    "term": "D/E口",
+    "start": 177,
+    "end": 181,
+    "reason": "站口缺少同段明确站名，不补造出口归属",
+    "action": "deferred",
+    "context": "地铁:乘坐3号线或7号线至“汉溪长隆站”,从D/E口出站后换乘免费接驳巴士,可直达北门或南门,最省心。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 8,
+    "term": "小火车",
+    "start": 285,
+    "end": 288,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "1⃣09:30 开园直冲小火车"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 16,
+    "term": "缆车",
+    "start": 516,
+    "end": 518,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "5⃣14:30 空中缆车(选环园线)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 16,
+    "term": "空中缆车",
+    "start": 514,
+    "end": 518,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "5⃣14:30 空中缆车(选环园线)"
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 30,
+    "term": "D/E口",
+    "start": 984,
+    "end": 988,
+    "reason": "站口缺少同段明确站名，不补造出口归属",
+    "action": "deferred",
+    "context": "乘坐3号线或7号线至“汉溪长隆站”,从D/E口出站后换乘免费接驳巴士,可直达北门或南门"
+  },
+  {
+    "doc_id": "GZCL-NOTE-13",
+    "para_id": 74,
+    "term": "南门",
+    "start": 1018,
+    "end": 1020,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门"
+  },
+  {
+    "doc_id": "GZCL-NOTE-13",
+    "para_id": 82,
+    "term": "汉溪大道",
+    "start": 1064,
+    "end": 1068,
+    "reason": "OCR地图存在近形错字，不能当作车站名",
+    "action": "deferred",
+    "context": "汉溪大道"
+  },
+  {
+    "doc_id": "GZCL-NOTE-13",
+    "para_id": 89,
+    "term": "汉溪大道",
+    "start": 1130,
+    "end": 1134,
+    "reason": "OCR地图存在近形错字，不能当作车站名",
+    "action": "deferred",
+    "context": "汉溪大道收费口"
+  },
+  {
+    "doc_id": "GZCL-NOTE-15",
+    "para_id": 3,
+    "term": "南门",
+    "start": 72,
+    "end": 74,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "交通:地铁3/7号线 汉溪长隆站￼ D/E口出,步行几分钟到南门。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-15",
+    "para_id": 3,
+    "term": "D/E口",
+    "start": 60,
+    "end": 64,
+    "reason": "站口缺少同段明确站名，不补造出口归属",
+    "action": "deferred",
+    "context": "交通:地铁3/7号线 汉溪长隆站￼ D/E口出,步行几分钟到南门。"
+  },
+  {
+    "doc_id": "GZCL-NOTE-15",
+    "para_id": 5,
+    "term": "南门",
+    "start": 84,
+    "end": 86,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "南门进 → 午夜港片城 → 幽暗海盗湾 → 诡异马戏村￼ → 后宫修罗场￼ → 粉小琦庄园 →"
+  },
+  {
+    "doc_id": "GZCL-NOTE-15",
+    "para_id": 5,
+    "term": "南门",
+    "start": 132,
+    "end": 134,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": " 幽暗海盗湾 → 诡异马戏村￼ → 后宫修罗场￼ → 粉小琦庄园 → 南门出。￼"
+  },
+  {
+    "doc_id": "GZCL-NOTE-15",
+    "para_id": 24,
+    "term": "南门",
+    "start": 649,
+    "end": 651,
+    "reason": "未确定出入口所属园区，不合并同名门",
+    "action": "deferred",
+    "context": "。穿搭推荐万圣节cos或复古港风,和 午夜港片城￼ 的霓虹背景特别搭。南门入园处有免费特效妆点,入园就能化。￼"
+  },
+  {
+    "doc_id": "GZCL-NOTE-15",
+    "para_id": 26,
+    "term": "地铁",
+    "start": 691,
+    "end": 693,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "卸妆再坐地铁:夸张妆容不让进站,地铁站有卸妆巾。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 14,
+    "term": "企鹅",
+    "start": 322,
+    "end": 324,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅馆(5⭐推荐,图10中间,好多企鹅超级可爱,还有看企鹅游泳的海底隧道)"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 14,
+    "term": "企鹅",
+    "start": 332,
+    "end": 334,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅馆(5⭐推荐,图10中间,好多企鹅超级可爱,还有看企鹅游泳的海底隧道)"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 31,
+    "term": "正门",
+    "start": 898,
+    "end": 900,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "关于打车:去时打车一定定位珠海长隆海洋王国正门,下车走几步就是入口!如果看完烟花走很难打到车,建议提前约,约不到就坐86路公交往前坐3-"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 63,
+    "term": "企鹅",
+    "start": 1349,
+    "end": 1351,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅馆(5推荐,好多企鹅超级可爱,还"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 64,
+    "term": "企鹅",
+    "start": 1362,
+    "end": 1364,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "有可以看企鹅游泳的海底隧道,不错)"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 93,
+    "term": "正门",
+    "start": 1888,
+    "end": 1890,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "海洋王国正门,下车走几步就是入口!如果看"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 109,
+    "term": "航海家号",
+    "start": 2052,
+    "end": 2056,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "航海家号"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 196,
+    "term": "深海世界",
+    "start": 2528,
+    "end": 2532,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "深海世界"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 218,
+    "term": "2/3号停车场",
+    "start": 2629,
+    "end": 2636,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "前往2/3号停车场/巴士站/出租车/网约车渠车点"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 223,
+    "term": "正门",
+    "start": 2687,
+    "end": 2689,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "正门"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-05",
+    "para_id": 22,
+    "term": "海洋奇现",
+    "start": 706,
+    "end": 710,
+    "reason": "OCR疑似“海洋奇观”。",
+    "action": "deferred",
+    "context": "海洋奇现"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-05",
+    "para_id": 23,
+    "term": "海底互动胎",
+    "start": 711,
+    "end": 716,
+    "reason": "OCR疑似“海底互动船”，不能自动改写为规范词。",
+    "action": "deferred",
+    "context": "海底互动胎"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-05",
+    "para_id": 36,
+    "term": "鹦瞒过山车",
+    "start": 764,
+    "end": 769,
+    "reason": "OCR疑似“鹦鹉过山车”。",
+    "action": "deferred",
+    "context": "鹦瞒过山车"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 5,
+    "term": "水世界",
+    "start": 72,
+    "end": 75,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "专属水世界+坐小船直达海洋王国,度假感拉满!海景房傍晚看海超治愈"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 10,
+    "term": "水世界",
+    "start": 443,
+    "end": 446,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "世界,低龄友好) 5D城堡影院(娃连刷两遍) 集闪卡换拼图 下午回酒店水世界玩水(住客免费,低龄友好) 晚上去看长隆秀!马戏级视听盛宴,全程无尿点,小朋友眼睛都看直了"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 22,
+    "term": "水世界",
+    "start": 866,
+    "end": 869,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "离园区近选企鹅,追求度假感选横琴!多坐几分钟接驳车,但沙滩海景+水世界太加分了"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 22,
+    "term": "企鹅",
+    "start": 839,
+    "end": 841,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "离园区近选企鹅,追求度假感选横琴!多坐几分钟接驳车,但沙滩海景+水世界太加分了"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-08",
+    "para_id": 1,
+    "term": "企鹅",
+    "start": 77,
+    "end": 79,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "多才到帝企鹅自助餐厅吃早餐,这时候人不多,早餐非常丰富,主要是还能观赏企鹅,实在是情绪价值拉满。从企鹅酒店出来走连廊到海洋王国门口只需要5分钟,非常方便。而且凭房卡"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 192,
+    "term": "企鹅",
+    "start": 2642,
+    "end": 2644,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "横琴长隆企鹅酒店(距离海洋王国入口5分钟, 自助早午餐可以看企鹅)"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 19,
+    "term": "水濑之家",
+    "start": 611,
+    "end": 615,
+    "reason": "与“水獭之家”不一致，原文既有异写又有OCR可能；保留原词，需实地/官方名核对。",
+    "action": "deferred",
+    "context": "第五站:北极熊馆+企鹅馆+水濑之家"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 52,
+    "term": "深海世界",
+    "start": 1134,
+    "end": 1138,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "深海世界"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 60,
+    "term": "正门",
+    "start": 1165,
+    "end": 1167,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "正门"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 7,
+    "term": "企鹅",
+    "start": 231,
+    "end": 233,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "企鹅馆记得带薄外套,里面是真的冷,看帝企鹅走路能笑一下午。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 41,
+    "term": "小船",
+    "start": 780,
+    "end": 782,
+    "reason": "小船未明确作为酒店/园区接驳交通",
+    "action": "deferred",
+    "context": "坐着小船穿梭海底隧道"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 55,
+    "term": "企鹅",
+    "start": 933,
+    "end": 935,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "超多企鹅,帝企鹅、阿德利企鹅都有"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 55,
+    "term": "企鹅",
+    "start": 937,
+    "end": 939,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "超多企鹅,帝企鹅、阿德利企鹅都有"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 55,
+    "term": "企鹅",
+    "start": 943,
+    "end": 945,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "超多企鹅,帝企鹅、阿德利企鹅都有"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 148,
+    "term": "企鹅",
+    "start": 1917,
+    "end": 1919,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "汇聚了多种珍稀企鹅,帝企鹅、王企鹅·…看着它们走路摇摇"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 148,
+    "term": "企鹅",
+    "start": 1921,
+    "end": 1923,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "汇聚了多种珍稀企鹅,帝企鹅、王企鹅·…看着它们走路摇摇"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 148,
+    "term": "企鹅",
+    "start": 1925,
+    "end": 1927,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "汇聚了多种珍稀企鹅,帝企鹅、王企鹅·…看着它们走路摇摇"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 1,
+    "term": "卡卡剧院",
+    "start": 57,
+    "end": 61,
+    "reason": "有些语境指演出/节目场次，亦可能为场馆简称，不能直接等同长隆剧院。",
+    "action": "deferred",
+    "context": "鹅酒店,离园区近。酒店送礼物,带娃升房。住酒店需带零食、外套。长隆秀和卡卡剧院适合大人。海洋王国提前一小时入园,推荐早起。"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 34,
+    "term": "企鹅",
+    "start": 613,
+    "end": 615,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "送企鹅拼图。酒店本身的水,一次性牙刷,"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 60,
+    "term": "卡卡剧院",
+    "start": 1026,
+    "end": 1030,
+    "reason": "有些语境指演出/节目场次，亦可能为场馆简称，不能直接等同长隆剧院。",
+    "action": "deferred",
+    "context": "7关于卡卡剧院:想和演员互动,推荐选择"
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 89,
+    "term": "企鹅",
+    "start": 1490,
+    "end": 1492,
+    "reason": "指向或命名未确定，按冻结决策暂缓",
+    "action": "deferred",
+    "context": "13:30看完北极熊和企鹅之后海怪塔90cm+:"
+  },
+  {
+    "doc_id": "JZG-NOTE-04",
+    "para_id": 16,
+    "term": "诺日朗",
+    "start": 441,
+    "end": 444,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "入园 → 09:00 五花海 → 10:30 珍珠滩 → 11:30 诺日朗午餐"
+  },
+  {
+    "doc_id": "JZG-NOTE-04",
+    "para_id": 22,
+    "term": "沟口",
+    "start": 618,
+    "end": 620,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "成都东→黄龙九寨站高铁约2h,出站换乘\"九旅悦行\"直通车约2h到沟口。直通车提前在小程序买票。"
+  },
+  {
+    "doc_id": "JZG-NOTE-04",
+    "para_id": 24,
+    "term": "沟口",
+    "start": 638,
+    "end": 640,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "住沟口漳扎镇,步行15-20分钟到景区大门最方便。选提供接送服务的酒店,早高峰沟口路段非常堵,打"
+  },
+  {
+    "doc_id": "JZG-NOTE-04",
+    "para_id": 24,
+    "term": "沟口",
+    "start": 676,
+    "end": 678,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "扎镇,步行15-20分钟到景区大门最方便。选提供接送服务的酒店,早高峰沟口路段非常堵,打车基本打不到。"
+  },
+  {
+    "doc_id": "JZG-NOTE-04",
+    "para_id": 26,
+    "term": "诺日朗",
+    "start": 711,
+    "end": 714,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "· 观光车终点随机分配,到诺日朗可以下车换乘,不用纠结"
+  },
+  {
+    "doc_id": "JZG-NOTE-04",
+    "para_id": 31,
+    "term": "沟口",
+    "start": 839,
+    "end": 841,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "沟内只有诺日朗中心有餐饮,价格偏贵,建议自带零食干粮补充体力。沟口漳扎镇配套成熟,牦牛火锅人均80-120值得一试。"
+  },
+  {
+    "doc_id": "JZG-NOTE-05",
+    "para_id": 8,
+    "term": "诺日朗",
+    "start": 140,
+    "end": 143,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "进景区 → 长海 → 五彩池 → 诺日朗中转"
+  },
+  {
+    "doc_id": "JZG-NOTE-05",
+    "para_id": 11,
+    "term": "诺日朗",
+    "start": 198,
+    "end": 201,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "诺日朗 → 原始森林"
+  },
+  {
+    "doc_id": "JZG-NOTE-05",
+    "para_id": 26,
+    "term": "诺日朗",
+    "start": 597,
+    "end": 600,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "之后我们又从镜海停车场走去看镜海,再坐观光车前往诺日朗。"
+  },
+  {
+    "doc_id": "JZG-NOTE-05",
+    "para_id": 43,
+    "term": "诺日朗",
+    "start": 936,
+    "end": 939,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "不用,慢慢玩儿下午2点前玩完回到诺日朗可以坐车去左线速通,我一开始还祈祷能直接右线呢"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 12,
+    "term": "诺日朗",
+    "start": 540,
+    "end": 543,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "九寨沟是一个Y字形景区,很神奇的地方是上车以后过了中线到了诺日朗(Y字的那个交汇处)后,工作人员此时会听从景区调度决定这个车是开往左线还是右线。左线就是则"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 12,
+    "term": "诺日朗",
+    "start": 636,
+    "end": 639,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "沟(原始森林) 。一般攻略都是建议先去右线,因为右线景点多,那就需要在诺日朗换乘车子。我盲盒开到了左线长海,我没动,就直接去了长海,我觉得也是OK的,反正都要去的。"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 14,
+    "term": "诺日朗",
+    "start": 702,
+    "end": 705,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "- 沟口→诺日朗:左边"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 14,
+    "term": "沟口",
+    "start": 699,
+    "end": 701,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "- 沟口→诺日朗:左边"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 15,
+    "term": "诺日朗",
+    "start": 711,
+    "end": 714,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "- 诺日朗→长海(左线):左边"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 16,
+    "term": "诺日朗",
+    "start": 727,
+    "end": 730,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "- 诺日朗→箭竹海(右线):右边"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 20,
+    "term": "诺日朗",
+    "start": 865,
+    "end": 868,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "诺日朗坐大巴到右线,右线坐到箭竹海下来,徒步到熊猫海,再一个个景点走走看看,走累了就坐一截巴士,"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 22,
+    "term": "原始森林",
+    "start": 1029,
+    "end": 1033,
+    "reason": "命名原始森林地点语境不足",
+    "action": "deferred",
+    "context": "一天也能玩 就是比较赶 只能玩玩精华 原始森林徒步以及芦苇海徒步就基本上走不太起来"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 23,
+    "term": "原始森林",
+    "start": 1063,
+    "end": 1067,
+    "reason": "命名原始森林地点语境不足",
+    "action": "deferred",
+    "context": "安全是很安全的 即使是原始森林徒步也都前后不少人就是一个人单次旅行时间不能太长,长了也会有点孤独哈哈"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 29,
+    "term": "飞机",
+    "start": 1412,
+    "end": 1414,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": ",晚上八点才到沟子口酒店的(我吃了个午饭耽误点时间),开车——打车——飞机——地铁——打车——地铁——高铁——大巴……"
+  },
+  {
+    "doc_id": "JZG-NOTE-06",
+    "para_id": 29,
+    "term": "飞",
+    "start": 1412,
+    "end": 1413,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": ",晚上八点才到沟子口酒店的(我吃了个午饭耽误点时间),开车——打车——飞机——地铁——打车——地铁——高铁——大巴……"
+  },
+  {
+    "doc_id": "JZG-NOTE-07",
+    "para_id": 7,
+    "term": "沟口",
+    "start": 110,
+    "end": 112,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "直接入住沟口附近酒店"
+  },
+  {
+    "doc_id": "JZG-NOTE-07",
+    "para_id": 17,
+    "term": "缆车",
+    "start": 264,
+    "end": 266,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "上山:缆车+观光大巴轻松登顶"
+  },
+  {
+    "doc_id": "JZG-NOTE-07",
+    "para_id": 19,
+    "term": "高铁",
+    "start": 303,
+    "end": 305,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "游玩结束直达高铁站,傍晚高铁返蓉"
+  },
+  {
+    "doc_id": "JZG-NOTE-08",
+    "para_id": 27,
+    "term": "原始森林",
+    "start": 879,
+    "end": 883,
+    "reason": "命名原始森林地点语境不足",
+    "action": "deferred",
+    "context": "原始森林(17km)"
+  },
+  {
+    "doc_id": "JZG-NOTE-08",
+    "para_id": 35,
+    "term": "原始森林",
+    "start": 932,
+    "end": 936,
+    "reason": "命名原始森林地点语境不足",
+    "action": "deferred",
+    "context": "原始森林P"
+  },
+  {
+    "doc_id": "JZG-NOTE-08",
+    "para_id": 56,
+    "term": "老虎嘴",
+    "start": 1050,
+    "end": 1053,
+    "reason": "老虎嘴缺少五花海观景点定位语境",
+    "action": "deferred",
+    "context": "老虎嘴"
+  },
+  {
+    "doc_id": "JZG-NOTE-09",
+    "para_id": 6,
+    "term": "高铁",
+    "start": 261,
+    "end": 263,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "九寨沟保姆车,16:20,¥61,某程预定,司机提前半小时电话联系,在高铁站停车场上车;优点是比大巴快且舒适,且可送达入住酒店,行程中会下车休息一次上卫生间;缺点是"
+  },
+  {
+    "doc_id": "JZG-NOTE-09",
+    "para_id": 31,
+    "term": "诺日朗",
+    "start": 967,
+    "end": 970,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "我在某程定的,沟内住宿主要分布在树正寨 荷叶寨 诺日朗,订的时候可以看下民宿位置"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 4,
+    "term": "沟口",
+    "start": 59,
+    "end": 61,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "Day1|成都东→黄龙九寨站→接驳到沟口,入住休息"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 15,
+    "term": "高铁",
+    "start": 201,
+    "end": 203,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "高铁站≠景区门口!"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 16,
+    "term": "沟口",
+    "start": 233,
+    "end": 235,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "动车到黄龙九寨站后,还要换乘接驳车约2小时到沟口。"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 20,
+    "term": "沟口",
+    "start": 296,
+    "end": 298,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "优先选沟口附近,两晚连住更省事。"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 22,
+    "term": "沟口",
+    "start": 341,
+    "end": 343,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "注意区分「九寨沟县城」和「景区沟口」。"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 39,
+    "term": "沟口",
+    "start": 609,
+    "end": 611,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "抵达沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 42,
+    "term": "高铁",
+    "start": 630,
+    "end": 632,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "高铁站不在景区门口!"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 46,
+    "term": "沟口",
+    "start": 691,
+    "end": 693,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "再换乘景区接驳车,约2小时到沟口。"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 54,
+    "term": "沟口",
+    "start": 744,
+    "end": 746,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "约2小时到沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 62,
+    "term": "沟口",
+    "start": 828,
+    "end": 830,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "优先选沟口附近,"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 63,
+    "term": "沟口",
+    "start": 836,
+    "end": 838,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "抵达沟口→入住→吃饭→休息。"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 74,
+    "term": "沟口",
+    "start": 916,
+    "end": 918,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "九寨沟沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 150,
+    "term": "沟口",
+    "start": 1652,
+    "end": 1654,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "优先选择沟口附近的酒店,两晚连住更省事。"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 151,
+    "term": "沟口",
+    "start": 1680,
+    "end": 1682,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "「九寨沟县城」≠「景区沟口」"
+  },
+  {
+    "doc_id": "JZG-NOTE-10",
+    "para_id": 155,
+    "term": "沟口",
+    "start": 1725,
+    "end": 1727,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "沟口附近酒店"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 4,
+    "term": "沟口",
+    "start": 112,
+    "end": 114,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "到九寨沟主要有九寨黄龙机场、九寨沟口两种抵达方式,部分住宿可以安排接送,提前咨询即可。"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 5,
+    "term": "沟口",
+    "start": 145,
+    "end": 147,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "住宿建议住沟口附近,第二天进景区更方便。到达后先放行李、熟悉周边,不用急着塞景点。"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 30,
+    "term": "沟口",
+    "start": 714,
+    "end": 716,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "(②九寨沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 35,
+    "term": "沟口",
+    "start": 774,
+    "end": 776,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "我们住的民宿就在九寨沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 373,
+    "term": "沟口",
+    "start": 3752,
+    "end": 3754,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "优先选九寨沟口周边"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 380,
+    "term": "沟口",
+    "start": 3815,
+    "end": 3817,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "九寨沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 392,
+    "term": "飞机",
+    "start": 3910,
+    "end": 3912,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "不飞机:"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 392,
+    "term": "飞",
+    "start": 3910,
+    "end": 3911,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "不飞机:"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 400,
+    "term": "沟口",
+    "start": 3968,
+    "end": 3970,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "离沟口距离远,可以选"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 408,
+    "term": "九寨黄龍棍場",
+    "start": 4042,
+    "end": 4048,
+    "reason": "地图OCR无法确认。",
+    "action": "deferred",
+    "context": "九寨黄龍棍場"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 429,
+    "term": "沟口",
+    "start": 4195,
+    "end": 4197,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "住宿选沟口附近→第二天进沟更从容"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 433,
+    "term": "飞机",
+    "start": 4232,
+    "end": 4234,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "飞机/自驾/观光车/步行,各有各的方便"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 433,
+    "term": "飞",
+    "start": 4232,
+    "end": 4233,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "飞机/自驾/观光车/步行,各有各的方便"
+  },
+  {
+    "doc_id": "JZG-NOTE-11",
+    "para_id": 463,
+    "term": "沟口",
+    "start": 4464,
+    "end": 4466,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "九寨黃龙机场离九寨沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 3,
+    "term": "沟口",
+    "start": 72,
+    "end": 74,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "第一天:深圳出发到九寨沟口,晚上住九寨沟口旁(提前定酒店)"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 3,
+    "term": "沟口",
+    "start": 80,
+    "end": 82,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "第一天:深圳出发到九寨沟口,晚上住九寨沟口旁(提前定酒店)"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 8,
+    "term": "高铁",
+    "start": 174,
+    "end": 176,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "第三天:一早去黄龙景区(),然后坐车去黄龙高铁站,坐高铁去成都,晚上飞机回深圳。"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 10,
+    "term": "缆车",
+    "start": 234,
+    "end": 236,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "2. 10:00-15:00游玩,缆车+观光车上山,徒步下山"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 13,
+    "term": "高铁",
+    "start": 281,
+    "end": 283,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "黄龙高铁站出站直接拼车 / 包车,不到2个小时直达九寨沟景区门口,省时省力"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 16,
+    "term": "缆车",
+    "start": 385,
+    "end": 387,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "门票有免票政策,但景区内观光车和缆车票需要单独提前买**,微信小程序提前预约,票很容易售罄,提前买!"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 39,
+    "term": "高铁",
+    "start": 947,
+    "end": 949,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "高铁站美食:"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 47,
+    "term": "沟口",
+    "start": 1056,
+    "end": 1058,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "深圳→成都→黄龙九寨站→九寨沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 50,
+    "term": "沟口",
+    "start": 1091,
+    "end": 1093,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "Day 1|抵达九寨沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 55,
+    "term": "沟口",
+    "start": 1152,
+    "end": 1154,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "出站拼车/包车去九寨沟口"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 73,
+    "term": "沟口",
+    "start": 1369,
+    "end": 1371,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "07:30 九寨沟口拼车去黄龙|约1.5小时"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 82,
+    "term": "飞机",
+    "start": 1484,
+    "end": 1486,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "之后高铁回成都,晚班飞机回深圳"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 82,
+    "term": "飞",
+    "start": 1484,
+    "end": 1485,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "之后高铁回成都,晚班飞机回深圳"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 88,
+    "term": "缆车",
+    "start": 1549,
+    "end": 1551,
+    "reason": "交通/游览体验双功能，缺少明确语境",
+    "action": "deferred",
+    "context": "景区观光车、缆车票需单独提前买"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 103,
+    "term": "珍珠潍站",
+    "start": 1720,
+    "end": 1724,
+    "reason": "疑似OCR把滩识为潍。",
+    "action": "deferred",
+    "context": "随后乘车前往珍珠潍站"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 112,
+    "term": "镑竹海",
+    "start": 1812,
+    "end": 1815,
+    "reason": "疑似OCR错字。",
+    "action": "deferred",
+    "context": "镑竹海上车站⑥"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 118,
+    "term": "熊漏海",
+    "start": 1870,
+    "end": 1873,
+    "reason": "疑似OCR错字。",
+    "action": "deferred",
+    "context": "熊漏海站⑥"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 128,
+    "term": "沟口",
+    "start": 1963,
+    "end": 1965,
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "action": "deferred",
+    "context": "1、往“沟口方向”步行350米前往“诺日朗瀑布”"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 136,
+    "term": "诺日朗",
+    "start": 2052,
+    "end": 2055,
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "action": "deferred",
+    "context": "3、瀑布面前的公路对面栈道往上走,可从对面南处洒室“诺日朗"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 142,
+    "term": "诺日诺中心站",
+    "start": 2097,
+    "end": 2103,
+    "reason": "疑似OCR/笔误。",
+    "action": "deferred",
+    "context": "4、游览完后返回“诺日诺中心站”,吃午餐"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 213,
+    "term": "飞",
+    "start": 2790,
+    "end": 2791,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "莲台飞瀑"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 215,
+    "term": "飞",
+    "start": 2797,
+    "end": 2798,
+    "reason": "缺少明确航空出行语境",
+    "action": "deferred",
+    "context": "飞瀑流辉"
+  },
+  {
+    "doc_id": "JZG-NOTE-12",
+    "para_id": 222,
+    "term": "高铁",
+    "start": 2925,
+    "end": 2927,
+    "reason": "交通词后接站：应识别具体站点，不抽取内部方式子串",
+    "action": "deferred",
+    "context": "不用,你出高铁站就有人问你,价格也就比大巴贵2-5块钱。大巴车就是旧一点,还得提前买票。"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "run_id": "themes-20261101-v2",
+  "date": "2026-11-01",
+  "model": "deepseek-flash",
+  "context_limit_tokens": 30000,
+  "estimated_mean_prompt_tokens_all_entities": 2784.2,
+  "estimated_max_prompt_tokens": 19455,
+  "estimated_max_prompt_plus_output_and_safety": 28671,
+  "actual_requests": 262,
+  "actual_entity_scene_groups": 257,
+  "unique_entity_ids": 249,
+  "actual_theme_summaries": 548,
+  "actual_mean_prompt_tokens": 1443.5,
+  "actual_mean_total_tokens": 1618.7,
+  "actual_max_prompt_tokens": 9243,
+  "actual_max_total_tokens": 11023,
+  "all_json_and_source_references_validated": true,
+  "full_source_coverage": true,
+  "semantic_correctness_independently_verified": false,
+  "manual_scope": "未逐条人工复核全部548条；主题摘要可通过原始记录ID追溯",
+  "result_path": "../../processed/P6知识图谱/llm_advice/runs/themes-20261101-v2/entity_theme_summaries.json",
+  "result_sha256": "9f893bba0e244f432d34f5ffe4a1cc04ccc811ac5cf43b22104974e7e0a11780",
+  "graph_dataset": "p6-quality-themes-v1-1bae9157a9a3",
+  "graph_sha256": "f459a3af480475cd3e22d7607b40cc6c73e07d14d9e6f6cad242bfa63be53ec7",
+  "neo4j_entities_with_theme_json": 249,
+  "neo4j_all_node_and_edge_payloads_roundtrip": true,
+  "html_scenes_checked": [
+    {
+      "scene": "广州长隆",
+      "canvas_click_types": 4,
+      "theme_summaries_checked": true,
+      "time_before_themes_order_checks": 2,
+      "search_zoom_filters": true,
+      "js_errors": []
+    },
+    {
+      "scene": "九寨沟",
+      "canvas_click_types": 4,
+      "theme_summaries_checked": true,
+      "time_before_themes_order_checks": 2,
+      "search_zoom_filters": true,
+      "js_errors": []
+    },
+    {
+      "scene": "珠海长隆",
+      "canvas_click_types": 4,
+      "theme_summaries_checked": true,
+      "time_before_themes_order_checks": 2,
+      "search_zoom_filters": true,
+      "js_errors": []
+    }
+  ],
+  "report_regenerated": true,
+  "checkpoints_and_raw_responses": "D:\\文档\\大三上\\数据挖掘\\实验一\\小组仓库外我自己的资源\\P6_LLM主题汇总_20261101\\themes-20261101-v2\\checkpoints",
+  "html_time_before_theme_order_verified": true,
+  "report_updated_date": "2026-11-02",
+  "report_path": "../第X组_组长姓名_《数据挖掘》探索性实验报告_P1至P6完整版_P6汇总更新版.docx"
+}

@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "9e34d2fcc416428ee751147cf03f7446940d3099553485abe239f5189b261279",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2757512,
+  "round_trip_ms": 275.58760000101756,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1920,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            468.0,
+            580.0
+          ],
+          [
+            658.0,
+            580.0
+          ],
+          [
+            658.0,
+            607.0
+          ],
+          [
+            468.0,
+            607.0
+          ]
+        ],
+        "confidence": 0.9223785996437073,
+        "text": "1OSMO POCKET 3"
+      },
+      {
+        "box": [
+          [
+            433.0,
+            1221.0
+          ],
+          [
+            657.0,
+            1221.0
+          ],
+          [
+            657.0,
+            1248.0
+          ],
+          [
+            433.0,
+            1248.0
+          ]
+        ],
+        "confidence": 0.9104452133178711,
+        "text": "JFOSMO POCKET 3"
+      },
+      {
+        "box": [
+          [
+            425.0,
+            1860.0
+          ],
+          [
+            658.0,
+            1857.0
+          ],
+          [
+            658.0,
+            1886.0
+          ],
+          [
+            425.0,
+            1890.0
+          ]
+        ],
+        "confidence": 0.8762629628181458,
+        "text": "CdJIOSMO POCKET 3"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.501279,
+      "decode": 36.50066,
+      "det_infer": 147.596221,
+      "det_post": 1.465738,
+      "det_pre": 46.333031,
+      "pipeline": 216.651172,
+      "rec_infer": 14.704377000000001,
+      "rec_post": 0.615723,
+      "rec_pre": 0.312134,
+      "server_compute": 253.152694,
+      "sort": 0.003797
+    },
+    "request_id": "clean-9e34d2fcc416428ee751147c"
+  }
+}

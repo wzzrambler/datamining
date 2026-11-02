@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "广州长隆",
+    "canvas_click_types": 4,
+    "theme_summaries_checked": true,
+    "time_before_themes_order_checks": 2,
+    "search_zoom_filters": true,
+    "js_errors": []
+  },
+  {
+    "scene": "九寨沟",
+    "canvas_click_types": 4,
+    "theme_summaries_checked": true,
+    "time_before_themes_order_checks": 2,
+    "search_zoom_filters": true,
+    "js_errors": []
+  },
+  {
+    "scene": "珠海长隆",
+    "canvas_click_types": 4,
+    "theme_summaries_checked": true,
+    "time_before_themes_order_checks": 2,
+    "search_zoom_filters": true,
+    "js_errors": []
+  }
+]

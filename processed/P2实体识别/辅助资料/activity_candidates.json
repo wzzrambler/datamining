@@ -1,0 +1,1552 @@
+[
+  {
+    "doc_id": "GZCL-NOTE-01",
+    "para_id": 14,
+    "text": "大象传奇",
+    "start": 1387,
+    "end": 1391,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-01",
+        "para_id": 14,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-01",
+    "para_id": 14,
+    "text": "大象传奇",
+    "start": 1397,
+    "end": 1401,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-01",
+        "para_id": 14,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-01",
+    "para_id": 14,
+    "text": "大象传奇",
+    "start": 1545,
+    "end": 1549,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-01",
+        "para_id": 14,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-05",
+    "para_id": 39,
+    "text": "大象传奇",
+    "start": 997,
+    "end": 1001,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-05",
+        "para_id": 39,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-01",
+    "para_id": 39,
+    "text": "海洋保卫战",
+    "start": 479,
+    "end": 484,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-01",
+        "para_id": 39,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 9,
+    "text": "海洋保卫战",
+    "start": 434,
+    "end": 439,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-02",
+        "para_id": 9,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 9,
+    "text": "海洋夜光大巡游",
+    "start": 440,
+    "end": 447,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-02",
+        "para_id": 9,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 51,
+    "text": "海洋保卫战",
+    "start": 2075,
+    "end": 2080,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-02",
+        "para_id": 51,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 51,
+    "text": "海洋夜光大巡游",
+    "start": 2067,
+    "end": 2074,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-02",
+        "para_id": 51,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 52,
+    "text": "海洋夜光大巡游",
+    "start": 2083,
+    "end": 2090,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-02",
+        "para_id": 52,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-02",
+    "para_id": 55,
+    "text": "海洋保卫战",
+    "start": 2189,
+    "end": 2194,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-02",
+        "para_id": 55,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-OFF-01",
+    "para_id": 11,
+    "text": "海洋夜光大巡游",
+    "start": 471,
+    "end": 478,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-OFF-01",
+        "para_id": 11,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-OFF-01",
+    "para_id": 11,
+    "text": "超级猛犸大巡游",
+    "start": 463,
+    "end": 470,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-OFF-01",
+        "para_id": 11,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-OFF-01",
+    "para_id": 11,
+    "text": "烟花秀",
+    "start": 513,
+    "end": 516,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-OFF-01",
+        "para_id": 11,
+        "kind": "legacy"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 8,
+    "text": "花车巡游",
+    "start": 239,
+    "end": 243,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 8,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 25,
+    "text": "白虎跳水",
+    "start": 592,
+    "end": 596,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 25,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 26,
+    "text": "大象传奇",
+    "start": 619,
+    "end": 623,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 26,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 27,
+    "text": "非洲发现",
+    "start": 638,
+    "end": 642,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 27,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 28,
+    "text": "花车巡游",
+    "start": 663,
+    "end": 667,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 28,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 53,
+    "text": "白虎跳水",
+    "start": 897,
+    "end": 901,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 53,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/001_02.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 87,
+    "text": "花车巡游",
+    "start": 1175,
+    "end": 1179,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 87,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/001_02.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 148,
+    "text": "白虎跳水",
+    "start": 1759,
+    "end": 1763,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 148,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 163,
+    "text": "大象传奇",
+    "start": 1931,
+    "end": 1935,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 163,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-06",
+    "para_id": 171,
+    "text": "非洲发现",
+    "start": 2010,
+    "end": 2014,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-06",
+        "para_id": 171,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-07",
+    "para_id": 31,
+    "text": "花车巡游",
+    "start": 678,
+    "end": 682,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-07",
+        "para_id": 31,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-07",
+    "para_id": 40,
+    "text": "白虎跳水",
+    "start": 872,
+    "end": 876,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-07",
+        "para_id": 40,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-07",
+    "para_id": 45,
+    "text": "花车巡游",
+    "start": 1098,
+    "end": 1102,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-07",
+        "para_id": 45,
+        "kind": "comment",
+        "source": "6acebb85000000000b036903"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 15,
+    "text": "白虎跳水",
+    "start": 342,
+    "end": 346,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-08",
+        "para_id": 15,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 24,
+    "text": "花车巡游",
+    "start": 674,
+    "end": 678,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-08",
+        "para_id": 24,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 25,
+    "text": "花车巡游",
+    "start": 705,
+    "end": 709,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-08",
+        "para_id": 25,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-08",
+    "para_id": 27,
+    "text": "花车巡游",
+    "start": 791,
+    "end": 795,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-08",
+        "para_id": 27,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 12,
+    "text": "白虎跳水",
+    "start": 248,
+    "end": 252,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-09",
+        "para_id": 12,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-09",
+    "para_id": 181,
+    "text": "非洲发现",
+    "start": 2455,
+    "end": 2459,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-09",
+        "para_id": 181,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/009_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-10",
+    "para_id": 9,
+    "text": "白虎跳水",
+    "start": 241,
+    "end": 245,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-10",
+        "para_id": 9,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-10",
+    "para_id": 11,
+    "text": "花车巡游",
+    "start": 282,
+    "end": 286,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-10",
+        "para_id": 11,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 112,
+    "text": "白虎跳水",
+    "start": 2013,
+    "end": 2017,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 112,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/006_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 113,
+    "text": "白虎跳水",
+    "start": 2033,
+    "end": 2037,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 113,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/006_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 114,
+    "text": "白虎跳水",
+    "start": 2041,
+    "end": 2045,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 114,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/006_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 119,
+    "text": "白虎跳水",
+    "start": 2130,
+    "end": 2134,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 119,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/007_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 120,
+    "text": "白虎跳水",
+    "start": 2143,
+    "end": 2147,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 120,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/007_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 168,
+    "text": "花车巡游",
+    "start": 2945,
+    "end": 2949,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 168,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
+    "para_id": 172,
+    "text": "花车巡游",
+    "start": 3014,
+    "end": 3018,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 172,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 19,
+    "text": "白虎跳水",
+    "start": 632,
+    "end": 636,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-12",
+        "para_id": 19,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 20,
+    "text": "大象传奇",
+    "start": 666,
+    "end": 670,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-12",
+        "para_id": 20,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 21,
+    "text": "大象传奇",
+    "start": 681,
+    "end": 685,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-12",
+        "para_id": 21,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 21,
+    "text": "非洲发现",
+    "start": 691,
+    "end": 695,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-12",
+        "para_id": 21,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 22,
+    "text": "花车巡游",
+    "start": 712,
+    "end": 716,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-12",
+        "para_id": 22,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-12",
+    "para_id": 23,
+    "text": "花车巡游",
+    "start": 722,
+    "end": 726,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-12",
+        "para_id": 23,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 7,
+    "text": "烟花秀",
+    "start": 180,
+    "end": 183,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 7,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 32,
+    "text": "烟花秀",
+    "start": 1004,
+    "end": 1007,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 32,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 46,
+    "text": "烟花秀",
+    "start": 1192,
+    "end": 1195,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 46,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/001_02.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 99,
+    "text": "烟花秀",
+    "start": 2001,
+    "end": 2004,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 99,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 125,
+    "text": "海洋夜光大巡游",
+    "start": 2154,
+    "end": 2161,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 125,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 127,
+    "text": "烟花秀",
+    "start": 2173,
+    "end": 2176,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 127,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 130,
+    "text": "超级猛犸大巡游",
+    "start": 2194,
+    "end": 2201,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 130,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 160,
+    "text": "烟花秀",
+    "start": 2336,
+    "end": 2339,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 160,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 179,
+    "text": "烟花秀",
+    "start": 2440,
+    "end": 2443,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 179,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-04",
+    "para_id": 341,
+    "text": "海洋夜光大巡游",
+    "start": 3672,
+    "end": 3679,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-04",
+        "para_id": 341,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/005_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-05",
+    "para_id": 13,
+    "text": "烟花秀",
+    "start": 533,
+    "end": 536,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-05",
+        "para_id": 13,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-05",
+    "para_id": 35,
+    "text": "烟花秀",
+    "start": 760,
+    "end": 763,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-05",
+        "para_id": 35,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6aaa7d7700000000280030b5/0004/images/001_02.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-05",
+    "para_id": 150,
+    "text": "海洋夜光大巡游",
+    "start": 1642,
+    "end": 1649,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-05",
+        "para_id": 150,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6aaa7d7700000000280030b5/0004/images/002_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-05",
+    "para_id": 154,
+    "text": "烟花秀",
+    "start": 1685,
+    "end": 1688,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-05",
+        "para_id": 154,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6aaa7d7700000000280030b5/0004/images/002_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-06",
+    "para_id": 17,
+    "text": "长隆秀",
+    "start": 259,
+    "end": 262,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-06",
+        "para_id": 17,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 1,
+    "text": "长隆秀",
+    "start": 16,
+    "end": 19,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-07",
+        "para_id": 1,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 8,
+    "text": "海洋保卫战",
+    "start": 223,
+    "end": 228,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-07",
+        "para_id": 8,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 8,
+    "text": "烟花秀",
+    "start": 229,
+    "end": 232,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-07",
+        "para_id": 8,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 10,
+    "text": "长隆秀",
+    "start": 464,
+    "end": 467,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-07",
+        "para_id": 10,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-07",
+    "para_id": 30,
+    "text": "长隆秀",
+    "start": 971,
+    "end": 974,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-07",
+        "para_id": 30,
+        "kind": "comment",
+        "source": "6a92bd7e000000001402ed1e"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 35,
+    "text": "烟花秀",
+    "start": 551,
+    "end": 554,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 35,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 36,
+    "text": "长隆秀",
+    "start": 566,
+    "end": 569,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 36,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 38,
+    "text": "烟花秀",
+    "start": 672,
+    "end": 675,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 38,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 38,
+    "text": "长隆秀",
+    "start": 646,
+    "end": 649,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 38,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 139,
+    "text": "海洋夜光大巡游",
+    "start": 1967,
+    "end": 1974,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 139,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/006_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 143,
+    "text": "烟花秀",
+    "start": 2010,
+    "end": 2013,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 143,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/006_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 195,
+    "text": "长隆秀",
+    "start": 2713,
+    "end": 2716,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 195,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/008_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 26,
+    "text": "烟花秀",
+    "start": 829,
+    "end": 832,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-10",
+        "para_id": 26,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 27,
+    "text": "烟花秀",
+    "start": 868,
+    "end": 871,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-10",
+        "para_id": 27,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 27,
+    "text": "烟花秀",
+    "start": 892,
+    "end": 895,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-10",
+        "para_id": 27,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 40,
+    "text": "烟花秀",
+    "start": 1085,
+    "end": 1088,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-10",
+        "para_id": 40,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a7a047d000000003302cf22/0009/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 114,
+    "text": "海洋夜光大巡游",
+    "start": 1630,
+    "end": 1637,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-10",
+        "para_id": 114,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a7a047d000000003302cf22/0009/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-10",
+    "para_id": 118,
+    "text": "烟花秀",
+    "start": 1673,
+    "end": 1676,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-10",
+        "para_id": 118,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a7a047d000000003302cf22/0009/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-11",
+    "para_id": 50,
+    "text": "烟花秀",
+    "start": 666,
+    "end": 669,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-11",
+        "para_id": 50,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 13,
+    "text": "海洋保卫战",
+    "start": 416,
+    "end": 421,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-12",
+        "para_id": 13,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 44,
+    "text": "海洋保卫战",
+    "start": 809,
+    "end": 814,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-12",
+        "para_id": 44,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 102,
+    "text": "海洋保卫战",
+    "start": 1349,
+    "end": 1354,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-12",
+        "para_id": 102,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-12",
+    "para_id": 109,
+    "text": "海洋保卫战",
+    "start": 1420,
+    "end": 1425,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-12",
+        "para_id": 109,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 1,
+    "text": "长隆秀",
+    "start": 53,
+    "end": 56,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-13",
+        "para_id": 1,
+        "kind": "body",
+        "source": "notes.content"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 12,
+    "text": "长隆秀",
+    "start": 228,
+    "end": 231,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-13",
+        "para_id": 12,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/002_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 48,
+    "text": "长隆秀",
+    "start": 846,
+    "end": 849,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-13",
+        "para_id": 48,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/004_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 103,
+    "text": "烟花秀",
+    "start": 1711,
+    "end": 1714,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-13",
+        "para_id": 103,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/008_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 108,
+    "text": "烟花秀",
+    "start": 1796,
+    "end": 1799,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-13",
+        "para_id": 108,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/009_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-13",
+    "para_id": 108,
+    "text": "长隆秀",
+    "start": 1808,
+    "end": 1811,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-13",
+        "para_id": 108,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/009_01.webp"
+      }
+    ]
+  }
+]

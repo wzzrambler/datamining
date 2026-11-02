@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "330407963d042f689a9b649db4aaf23d45ad08c6d37cb6e4e1e67cf75b72cb49",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2144739,
+  "round_trip_ms": 195.5156000040006,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            95.0,
+            72.0
+          ],
+          [
+            982.0,
+            68.0
+          ],
+          [
+            983.0,
+            301.0
+          ],
+          [
+            95.0,
+            304.0
+          ]
+        ],
+        "confidence": 0.9995427131652832,
+        "text": "西游记取景地"
+      },
+      {
+        "box": [
+          [
+            866.0,
+            305.0
+          ],
+          [
+            926.0,
+            303.0
+          ],
+          [
+            927.0,
+            331.0
+          ],
+          [
+            867.0,
+            333.0
+          ]
+        ],
+        "confidence": 0.22848045825958252,
+        "text": "惠11"
+      },
+      {
+        "box": [
+          [
+            582.0,
+            332.0
+          ],
+          [
+            949.0,
+            332.0
+          ],
+          [
+            949.0,
+            412.0
+          ],
+          [
+            582.0,
+            412.0
+          ]
+        ],
+        "confidence": 0.8337020874023438,
+        "text": "珍珠滩暴布"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 4.532422,
+      "decode": 26.137054,
+      "det_infer": 98.009137,
+      "det_post": 1.108893,
+      "det_pre": 32.245055,
+      "pipeline": 143.479452,
+      "rec_infer": 7.105186,
+      "rec_post": 0.29989,
+      "rec_pre": 0.17276,
+      "server_compute": 169.617418,
+      "sort": 0.000892
+    },
+    "request_id": "clean-330407963d042f689a9b649d"
+  }
+}

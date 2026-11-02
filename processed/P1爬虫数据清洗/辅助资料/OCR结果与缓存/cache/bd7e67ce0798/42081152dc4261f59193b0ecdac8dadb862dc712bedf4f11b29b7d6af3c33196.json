@@ -1,0 +1,121 @@
+{
+  "status": "recognized",
+  "source_sha256": "42081152dc4261f59193b0ecdac8dadb862dc712bedf4f11b29b7d6af3c33196",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2674495,
+  "round_trip_ms": 211.13429999968503,
+  "response": {
+    "detected_boxes": 4,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            453.0,
+            439.0
+          ],
+          [
+            604.0,
+            439.0
+          ],
+          [
+            604.0,
+            481.0
+          ],
+          [
+            453.0,
+            481.0
+          ]
+        ],
+        "confidence": 0.7136960625648499,
+        "text": "海厂州长隆"
+      },
+      {
+        "box": [
+          [
+            485.0,
+            476.0
+          ],
+          [
+            561.0,
+            476.0
+          ],
+          [
+            561.0,
+            488.0
+          ],
+          [
+            485.0,
+            488.0
+          ]
+        ],
+        "confidence": 0.909677267074585,
+        "text": "GUANGZHOU CH"
+      },
+      {
+        "box": [
+          [
+            238.0,
+            864.0
+          ],
+          [
+            382.0,
+            864.0
+          ],
+          [
+            382.0,
+            906.0
+          ],
+          [
+            238.0,
+            906.0
+          ]
+        ],
+        "confidence": 0.9997239112854004,
+        "text": "粉红琵鹭"
+      },
+      {
+        "box": [
+          [
+            224.0,
+            905.0
+          ],
+          [
+            398.0,
+            903.0
+          ],
+          [
+            399.0,
+            929.0
+          ],
+          [
+            224.0,
+            930.0
+          ]
+        ],
+        "confidence": 0.9942206740379333,
+        "text": "RoseateSpoonbill"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.487699,
+      "decode": 29.677366,
+      "det_infer": 100.530258,
+      "det_post": 1.100237,
+      "det_pre": 33.712335,
+      "pipeline": 152.831475,
+      "rec_infer": 11.934,
+      "rec_post": 0.545225,
+      "rec_pre": 0.209264,
+      "server_compute": 182.509482,
+      "sort": 0.008337
+    },
+    "request_id": "clean-42081152dc4261f59193b0ec"
+  }
+}

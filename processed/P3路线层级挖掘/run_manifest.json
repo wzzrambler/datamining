@@ -1,0 +1,44 @@
+{
+  "implementation_version": "2.0.0",
+  "python": "3.13.13",
+  "inputs": {
+    "p1": "processed\\P1爬虫数据清洗\\documents.json",
+    "p2": "processed\\P2实体识别\\entities.json",
+    "sources": "processed\\P1爬虫数据清洗\\辅助资料\\paragraph_sources.json"
+  },
+  "input_sha256": {
+    "p1": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+    "p2": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
+    "sources": "1b8aa3ddde75d27df408cb3531c54f0ba4b6cebae8d7b623970091cc82e0cba9"
+  },
+  "implementation_sha256": {
+    "discovery.py": "0f8b68334cfb0d843148273b611fe707a97ba9fbbb9830b07712324297cae754",
+    "parser.py": "02d93108fb845b27676d82848dce815d3cad1e9d35c16c07adaedca6bc129b8b",
+    "pipeline.py": "f09a0eab2e1dac049870ba94d51cf0f8536852fb836fe8a851f42be17085b08c",
+    "run.py": "9e63c4a10bb4289cb158742e7892d8a6906858a35b4cd5c43a4ff89f1691c712"
+  },
+  "automation": "full_text_rules_no_preselected_locations",
+  "preselected_location_config": false,
+  "offline": true,
+  "outputs_sha256": {
+    "candidate_inventory.json": "cd9232075cc6cd42188ffac50e388b96add624a23f437471dd1458321f0f0688",
+    "diagnostics.json": "1a1eb12660d510c9a8ed95409df64fd8a8cb444807c9f5865aa8fd77ede523a4",
+    "README.md": "08b7dc78853843f7bf012fa56b353263ecaf1bc088ec9f74e3ca269b5d0d0427",
+    "route_compare.json": "01fba710fac47b4976d0dd52284f4db58bc4824f23fe260e6e7499aadfc8ab1b",
+    "route_steps.csv": "e6ae3e8c252f647b881a28be0fb26f9547d827a14739b03832f508ec039366fa",
+    "routes.json": "9d68cff56697fa8c69c61171ef168f8c5268c3a3eb69d4c91c18a6e248c5d2ed",
+    "summary.json": "06e1c0bc3c6f6329ff9181536f7b7eeabf2df5a49b42aa504fae956c25675520",
+    "validation.json": "aab588d9706457be5a5c30e041f78884efc308f79287e6802a104c7bcc1302c7"
+  },
+  "display_sha256": {
+    "P3实验报告正文.md": "12da924a8167d49325943a7192dfa3bc78d8fc3c81a88570597d436c0c7b2982",
+    "README.md": "bf4c98d235c444aebdd61566898223281134dbfaff32fb40d40adcaba12fd255",
+    "图表\\对比图索引.json": "a9f2a4fdbb5cf14565bb2ea98b5dbe29c22132c815d26a8d564f0d4d504bd5f8",
+    "图表\\时间层级概览.png": "300be4916db8e622546737875c262c012b1afa55e7a825d56e690b2dee11cc1a",
+    "图表\\时间层级概览.svg": "55938497d23bcb6d6ab15438030cf26b084bda2222a4acc9e135f5bde3db3fe5",
+    "图表\\路线对比.png": "facaa7396dee25e10373f6196b3ddac3f215a66f0d3bb07df983ad637840f973",
+    "图表\\路线对比.svg": "fdb1bba2212d391fafe67a45011e2acf0db1f8d50642417d2642bcc2bc97d8c2",
+    "质量核对记录.json": "54d24ab7385f9e96fe54736d099b5a75ab9aac52e6984887b5d20bcf18aad423",
+    "路线结果与时间层级.md": "61750e55ce7a089eac5ecab593659ad9efe20c1fa181aee1045aee821585e632"
+  }
+}

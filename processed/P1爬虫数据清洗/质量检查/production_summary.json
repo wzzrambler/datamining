@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-31",
+  "new_documents": 30,
+  "merged_documents": 47,
+  "valid_new_documents": 30,
+  "new_counts": {
+    "GZCL": 10,
+    "ZHCL": 10,
+    "JZG": 10
+  },
+  "new_characters": 53986,
+  "new_paragraphs": 3724,
+  "ocr_images": 324,
+  "ocr_lines": 3646,
+  "ocr_status": {
+    "cached": 324
+  },
+  "included_images": 112,
+  "saved_comments": 626,
+  "author_comments": 255,
+  "included_author_comments": 56,
+  "quality_flags": {
+    "标题缺失": 1
+  },
+  "missing_title_ids": [
+    "GZCL-NOTE-11"
+  ],
+  "offset_errors": [],
+  "duplicate_pairs": [],
+  "legacy_values_unchanged": false,
+  "schema_matches_legacy": true,
+  "new_null_values": 0,
+  "input_files_verified": 482,
+  "changed_input_files": [],
+  "legacy_original_files_unchanged": true,
+  "legacy_format_normalized": true,
+  "legacy_normalization_record": "辅助资料/旧17篇格式统一记录.json"
+}

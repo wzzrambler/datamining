@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "ec78b63382ee286c79c367edd30d85abb9c1fefe12c075fb5b554e43a7d7d468",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3702848,
+  "round_trip_ms": 211.37770000495948,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            390.0,
+            501.0
+          ],
+          [
+            559.0,
+            492.0
+          ],
+          [
+            561.0,
+            526.0
+          ],
+          [
+            392.0,
+            535.0
+          ]
+        ],
+        "confidence": 0.11676765233278275,
+        "text": "黑化西建器聖"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.146489,
+      "decode": 34.781318,
+      "det_infer": 100.127028,
+      "det_post": 1.065567,
+      "det_pre": 40.152216,
+      "pipeline": 144.877916,
+      "rec_infer": 3.152054,
+      "rec_post": 0.161057,
+      "rec_pre": 0.067422,
+      "server_compute": 179.660476,
+      "sort": 0.000641
+    },
+    "request_id": "clean-ec78b63382ee286c79c367ed"
+  }
+}

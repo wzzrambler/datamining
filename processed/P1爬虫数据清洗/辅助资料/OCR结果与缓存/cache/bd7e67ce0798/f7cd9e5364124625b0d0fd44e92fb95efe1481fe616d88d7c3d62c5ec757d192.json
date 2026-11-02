@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "f7cd9e5364124625b0d0fd44e92fb95efe1481fe616d88d7c3d62c5ec757d192",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2499616,
+  "round_trip_ms": 237.79250000370666,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            713.0,
+            510.0
+          ],
+          [
+            1080.0,
+            557.0
+          ],
+          [
+            1080.0,
+            713.0
+          ],
+          [
+            694.0,
+            666.0
+          ]
+        ],
+        "confidence": 0.18843026459217072,
+        "text": "新"
+      },
+      {
+        "box": [
+          [
+            469.0,
+            612.0
+          ],
+          [
+            1011.0,
+            694.0
+          ],
+          [
+            1004.0,
+            737.0
+          ],
+          [
+            463.0,
+            654.0
+          ]
+        ],
+        "confidence": 0.9586328864097595,
+        "text": "生动物世界 Chimelong safari park"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.770177,
+      "decode": 30.448817,
+      "det_infer": 99.148311,
+      "det_post": 1.184202,
+      "det_pre": 35.498365,
+      "pipeline": 150.091975,
+      "rec_infer": 8.331424,
+      "rec_post": 0.408856,
+      "rec_pre": 0.174454,
+      "server_compute": 180.541614,
+      "sort": 0.001633
+    },
+    "request_id": "clean-f7cd9e5364124625b0d0fd44"
+  }
+}

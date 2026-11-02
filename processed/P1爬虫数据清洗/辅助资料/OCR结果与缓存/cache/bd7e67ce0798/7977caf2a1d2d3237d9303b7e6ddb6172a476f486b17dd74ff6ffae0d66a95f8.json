@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "7977caf2a1d2d3237d9303b7e6ddb6172a476f486b17dd74ff6ffae0d66a95f8",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3115394,
+  "round_trip_ms": 258.94170001265593,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            951.0,
+            895.0
+          ],
+          [
+            1047.0,
+            863.0
+          ],
+          [
+            1056.0,
+            891.0
+          ],
+          [
+            960.0,
+            923.0
+          ]
+        ],
+        "confidence": 0.6692472100257874,
+        "text": "长联飞的乐园"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.123864,
+      "decode": 33.259998,
+      "det_infer": 104.80049,
+      "det_post": 1.00049,
+      "det_pre": 33.50457,
+      "pipeline": 142.372459,
+      "rec_infer": 2.785555,
+      "rec_post": 0.096279,
+      "rec_pre": 0.055269,
+      "server_compute": 175.632988,
+      "sort": 0.000771
+    },
+    "request_id": "clean-7977caf2a1d2d3237d9303b7"
+  }
+}

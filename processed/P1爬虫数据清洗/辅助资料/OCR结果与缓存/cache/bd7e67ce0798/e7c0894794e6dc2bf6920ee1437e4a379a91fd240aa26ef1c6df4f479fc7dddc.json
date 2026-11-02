@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "e7c0894794e6dc2bf6920ee1437e4a379a91fd240aa26ef1c6df4f479fc7dddc",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2781109,
+  "round_trip_ms": 226.71469999477267,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1443,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            324.0,
+            642.0
+          ],
+          [
+            750.0,
+            642.0
+          ],
+          [
+            750.0,
+            727.0
+          ],
+          [
+            324.0,
+            727.0
+          ]
+        ],
+        "confidence": 0.9987829327583313,
+        "text": "长隆水上乐园"
+      },
+      {
+        "box": [
+          [
+            105.0,
+            736.0
+          ],
+          [
+            995.0,
+            738.0
+          ],
+          [
+            995.0,
+            789.0
+          ],
+          [
+            105.0,
+            787.0
+          ]
+        ],
+        "confidence": 0.9780506491661072,
+        "text": "「全球玩水大巡礼」+中秋满月派对+国庆狂欢派对"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.58838,
+      "decode": 31.573893,
+      "det_infer": 108.992617,
+      "det_post": 1.057414,
+      "det_pre": 32.228091,
+      "pipeline": 159.936987,
+      "rec_infer": 11.436435,
+      "rec_post": 0.6167560000000001,
+      "rec_pre": 0.252027,
+      "server_compute": 191.511652,
+      "sort": 0.002375
+    },
+    "request_id": "clean-e7c0894794e6dc2bf6920ee1"
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "input_sha256": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+  "review_scope": {
+    "documents": 9,
+    "displayed_characters": 7957,
+    "provenance": "第三方定性意见由用户转述，按用户裁定的项目规范逐处核对；未提供审核人姓名",
+    "reviewer": "",
+    "complete_gold": false
+  },
+  "policy_decisions": {
+    "decision_date": "2026-10-31",
+    "authority": "用户明确裁定",
+    "review_provenance": "第三方审核意见由用户转述；第三方姓名未提供，不自动填为已通过的完整标注",
+    "project_policy_has_priority": true,
+    "walking_transport": "保留步行和徒步，统一TRANSPORT/mode；只修复具体叙事子串误命中",
+    "performance_as_poi": "场馆收POI，节目、巡游、烟花等活动只另存候选",
+    "time_span_boundary": "采用核心值边界，相对及约略提示词保存在time_context",
+    "used_for_v2_tuning": true,
+    "full_gold_completed": false,
+    "metric_policy": "允许报告定性意见、程序修复及定点回归；不以部分意见计算完整P/R/F1"
+  },
+  "feedback_decisions": [
+    {
+      "feedback_id": "R1-01",
+      "doc_id": "GZCL-OFF-01",
+      "proposal": "新增support/restaurant",
+      "status": "already_detected",
+      "recommendation": "原样保留：样本中已有精确命中，无需新增重复实体。"
+    },
+    {
+      "feedback_id": "R1-02",
+      "doc_id": "GZCL-OFF-01",
+      "proposal": "路线中的attraction/spot",
+      "status": "confirmed_contextual_miss",
+      "recommendation": "仅路线链中的点位用法可补候选，动物叙述不补；标准地点名不凭空填。"
+    },
+    {
+      "feedback_id": "R1-03",
+      "doc_id": "GZCL-OFF-01",
+      "proposal": "动物名称不标POI",
+      "status": "retain_policy",
+      "recommendation": "保留动物/地点区分；已命名广场、展区等按完整名称识别。"
+    },
+    {
+      "feedback_id": "R1-04",
+      "doc_id": "GZCL-NOTE-01",
+      "proposal": "不标确定地点",
+      "status": "retain_project_literal_name",
+      "recommendation": "未证实错名猜测不构成程序错误；保持原词，不改名，不因猜测删除。"
+    },
+    {
+      "feedback_id": "R1-05",
+      "doc_id": "GZCL-NOTE-01",
+      "proposal": "统一交通方式范围",
+      "status": "retain_transport_policy",
+      "recommendation": "用户明确保留步行和徒步。"
+    },
+    {
+      "feedback_id": "R1-06",
+      "doc_id": "GZCL-NOTE-06",
+      "proposal": "新增attraction/spot",
+      "status": "confirmed_contextual_miss",
+      "recommendation": "样本路线中确有原词；补词需保留证据，疑似异写不擅自合并百虎山等。"
+    },
+    {
+      "feedback_id": "R1-07",
+      "doc_id": "GZCL-NOTE-06",
+      "proposal": "新增演出名称attraction/venue",
+      "status": "exclude_activity_from_poi",
+      "recommendation": "表演名称另存候选，不作POI/venue。"
+    },
+    {
+      "feedback_id": "R1-08",
+      "doc_id": "GZCL-NOTE-06",
+      "proposal": "全文统一游览项目ride",
+      "status": "retain_contextual_roles",
+      "recommendation": "拒绝全文统一ride，只修复语境规则的实际误判。"
+    },
+    {
+      "feedback_id": "R1-09",
+      "doc_id": "GZCL-NOTE-06",
+      "proposal": "站口support/gate",
+      "status": "confirmed_contextual_miss",
+      "recommendation": "所属汉溪长隆站在同段明确，可纳入具体站口；不拆造原文不存在的D口/E口两个连续实体。"
+    },
+    {
+      "feedback_id": "R1-10",
+      "doc_id": "GZCL-NOTE-06",
+      "proposal": "不从OCR残片补标",
+      "status": "retain_policy",
+      "recommendation": "不跨段拼词，不根据残片补造地点；常见单字本身不作为POI。"
+    },
+    {
+      "feedback_id": "R1-11",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "具体游览项目attraction/ride",
+      "status": "partially_supported",
+      "recommendation": "百慕大历险有明确模拟装置依据，补ride；虎鲸之约/宇宙世界类型未充分证实，留候选。"
+    },
+    {
+      "feedback_id": "R1-12",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "核对出现位置",
+      "status": "already_detected",
+      "recommendation": "样本内已精确识别，可保留。"
+    },
+    {
+      "feedback_id": "R1-13",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "独立打卡点spot",
+      "status": "confirmed_contextual_miss",
+      "recommendation": "本段明确描述可拍照打卡的园内点位，作为上下文约束候选。"
+    },
+    {
+      "feedback_id": "R1-14",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "演出/活动范围选择",
+      "status": "exclude_activity_from_poi",
+      "recommendation": "巡游和烟花候选不作POI。"
+    },
+    {
+      "feedback_id": "R1-15",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "餐厅位置中的命名地点",
+      "status": "confirmed_contextual_miss",
+      "recommendation": "保留具体园内区域候选，不只识别本文重点推荐地点。"
+    },
+    {
+      "feedback_id": "R1-16",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "位置/演出名称待核对",
+      "status": "context_dispute",
+      "recommendation": "仅凭餐厅窗外可见、仿佛置身表演的描述，暂不强定场馆或项目类型。"
+    },
+    {
+      "feedback_id": "R1-17",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "地点边界",
+      "status": "context_dispute",
+      "recommendation": "不把风情街泛称全局收为确定POI；完整描述可保留待定位，不能把描述短语当作已确认正式名。"
+    },
+    {
+      "feedback_id": "R1-18",
+      "doc_id": "ZHCL-OFF-01",
+      "proposal": "简称及餐厅多次出现保留",
+      "status": "retain_policy",
+      "recommendation": "同一词不同位置分别保留，重叠的长短名称才择一。"
+    },
+    {
+      "feedback_id": "R1-19",
+      "doc_id": "ZHCL-NOTE-01",
+      "proposal": "演出名称POI",
+      "status": "exclude_activity_from_poi",
+      "recommendation": "海洋保卫战作为节目候选，不作场馆。"
+    },
+    {
+      "feedback_id": "R1-20",
+      "doc_id": "ZHCL-NOTE-01",
+      "proposal": "新增TIME/clock",
+      "status": "confirmed_miss",
+      "recommendation": "样本原文演出时间:19:30确有时刻。v1边界规则误拒绝紧邻冒号标签的时间。"
+    },
+    {
+      "feedback_id": "R1-21",
+      "doc_id": "ZHCL-NOTE-01",
+      "proposal": "新增游乐项目ride",
+      "status": "already_detected",
+      "recommendation": "样本内均已有精确POI/ride命中，不重复新增。"
+    },
+    {
+      "feedback_id": "R1-22",
+      "doc_id": "ZHCL-NOTE-01",
+      "proposal": "全文地点补查",
+      "status": "scope_check",
+      "recommendation": "逐处记录是否超出本次连续样本，块外意见不能作为该样本金标准。"
+    },
+    {
+      "feedback_id": "R1-23",
+      "doc_id": "ZHCL-NOTE-01",
+      "proposal": "园区地点保留",
+      "status": "retain_policy",
+      "recommendation": "已命中的原文园区名保留；票价、票种和裸宣传长隆不补POI。"
+    },
+    {
+      "feedback_id": "R1-24",
+      "doc_id": "ZHCL-NOTE-01",
+      "proposal": "TIME边界改为23:59",
+      "status": "accepted_core_time_boundary",
+      "recommendation": "按用户确认，23:59为clock，前保留time_context。"
+    },
+    {
+      "feedback_id": "R1-25",
+      "doc_id": "ZHCL-NOTE-01",
+      "proposal": "保留相对时间",
+      "status": "source_wording_difference",
+      "recommendation": "本篇实际为出游前一天，未出现提前一天；只对原文真实表达标位置。"
+    },
+    {
+      "feedback_id": "R1-26",
+      "doc_id": "ZHCL-NOTE-04",
+      "proposal": "新增attraction/venue",
+      "status": "confirmed_contextual_miss",
+      "recommendation": "样本有路线和介绍两处完整原词；可保留原名候选，但不自动归一到海象岛或海象山。"
+    },
+    {
+      "feedback_id": "R1-27",
+      "doc_id": "ZHCL-NOTE-04",
+      "proposal": "保留游览点spot",
+      "status": "retain_policy",
+      "recommendation": "已有命中按具体园内区域保留。"
+    },
+    {
+      "feedback_id": "R1-28",
+      "doc_id": "ZHCL-NOTE-04",
+      "proposal": "TIME边界改为下午五点",
+      "status": "accepted_core_time_boundary",
+      "recommendation": "下午五点为clock，以后保留time_context。"
+    },
+    {
+      "feedback_id": "R1-29",
+      "doc_id": "JZG-OFF-01",
+      "proposal": "缩略并列拆两个实体",
+      "status": "non_contiguous_expansion",
+      "recommendation": "大金铃海并非原文连续字符串；保留小金铃海原文提及，省略展开应另存候选和源表达，不能编造offset。"
+    },
+    {
+      "feedback_id": "R1-30",
+      "doc_id": "JZG-OFF-01",
+      "proposal": "新增attraction/spot",
+      "status": "confirmed_contextual_miss",
+      "recommendation": "全文既有五花海内部子串，也有卧龙海、花海、双龙海的独立列表项；仅后者进入候选，不自动改成火花海。"
+    },
+    {
+      "feedback_id": "R1-31",
+      "doc_id": "JZG-OFF-01",
+      "proposal": "回查原文",
+      "status": "source_confirmed",
+      "recommendation": "官方文本路线中确有两处完整名称，且v1已命中；保留原文名称，不扩展边界或声称现实地名已外部核验。"
+    },
+    {
+      "feedback_id": "R1-32",
+      "doc_id": "JZG-OFF-01",
+      "proposal": "统一时长范围",
+      "status": "retain_policy",
+      "recommendation": "建议保留一日精华游/一天时间等明确时长，区别行程日序；不把所有日常叙述一概当精确时间事实。"
+    },
+    {
+      "feedback_id": "R1-33",
+      "doc_id": "JZG-NOTE-01",
+      "proposal": "误识别/交通范围",
+      "status": "confirmed_false_positive",
+      "recommendation": "实际位于细步行走，不是出行指令；即使全局保留步行交通方式，也应过滤这处子串命中。"
+    },
+    {
+      "feedback_id": "R1-34",
+      "doc_id": "JZG-NOTE-01",
+      "proposal": "新增景点spot",
+      "status": "context_dispute",
+      "recommendation": "眼前原始森林遍布是自然景观描述，不能仅凭同名推断为命名景点；建议维持不标该处。"
+    },
+    {
+      "feedback_id": "R1-35",
+      "doc_id": "JZG-NOTE-01",
+      "proposal": "保留专名，泛称不补",
+      "status": "retain_policy",
+      "recommendation": "命名九寨沟提及可保留，海子泛称不变成地点实体。"
+    },
+    {
+      "feedback_id": "R1-36",
+      "doc_id": "JZG-NOTE-04",
+      "proposal": "保留support/station",
+      "status": "already_detected",
+      "recommendation": "样本内站点已有正确命中。"
+    },
+    {
+      "feedback_id": "R1-37",
+      "doc_id": "JZG-NOTE-04",
+      "proposal": "完整日期边界",
+      "status": "confirmed_boundary_issue",
+      "recommendation": "v1误优先抽取内部15日为duration，导致完整日期漏失，应在v2调整日期/时长优先级。"
+    },
+    {
+      "feedback_id": "R1-38",
+      "doc_id": "JZG-NOTE-04",
+      "proposal": "TIME只标7-14天",
+      "status": "accepted_core_time_boundary",
+      "recommendation": "7-14天为duration，提前保留time_context。"
+    },
+    {
+      "feedback_id": "R1-39",
+      "doc_id": "JZG-NOTE-04",
+      "proposal": "时段范围统一",
+      "status": "retain_policy",
+      "recommendation": "当前TIME/period明确纳入季节客流与交通时段，建议保留。"
+    },
+    {
+      "feedback_id": "R1-40",
+      "doc_id": "JZG-NOTE-04",
+      "proposal": "交通方式保留",
+      "status": "retain_policy",
+      "recommendation": "按明确出行语境保留；原文中未出现的词不补造。"
+    },
+    {
+      "feedback_id": "R1-41",
+      "doc_id": "JZG-NOTE-04",
+      "proposal": "行政地名不纳入",
+      "status": "retain_policy",
+      "recommendation": "维持已确认范围：不把一般行政地名作为本阶段景区/配套POI。"
+    }
+  ],
+  "iteration_summary": {
+    "before": {
+      "TIME": 1232,
+      "POI": 1906,
+      "TRANSPORT": 477
+    },
+    "current": {
+      "TIME": 1253,
+      "POI": 1931,
+      "TRANSPORT": 463
+    },
+    "before_targeted_passed": 21,
+    "current_targeted_passed": 39,
+    "targeted_cases": 39,
+    "note": "历史汇总仅用于报告；早期逐条预测及代码按用户要求删除。定点断言采用最终口径，不是独立准确率。"
+  }
+}

@@ -1,0 +1,11 @@
+﻿条件类型,code,GZCL,JZG,ZHCL
+游客类型,audience,27,5,27
+天气,weather,1,7,3
+日期时段,date_time,29,25,16
+体力健康,fitness,2,6,1
+时间预算,time_budget,8,9,4
+客流排队,crowding,5,0,6
+服务可用性,service_availability,3,4,1
+票务,ticket,0,1,6
+准入,access,10,0,7
+其他,other,36,24,37

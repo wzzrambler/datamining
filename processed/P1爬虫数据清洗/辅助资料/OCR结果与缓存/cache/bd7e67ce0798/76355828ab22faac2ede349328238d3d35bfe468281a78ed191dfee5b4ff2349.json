@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "76355828ab22faac2ede349328238d3d35bfe468281a78ed191dfee5b4ff2349",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1458865,
+  "round_trip_ms": 189.2985000013141,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1433,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            507.0,
+            216.0
+          ],
+          [
+            743.0,
+            324.0
+          ],
+          [
+            706.0,
+            405.0
+          ],
+          [
+            470.0,
+            297.0
+          ]
+        ],
+        "confidence": 0.3248123824596405,
+        "text": "美工I"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.520355,
+      "decode": 23.410732,
+      "det_infer": 98.447939,
+      "det_post": 1.030018,
+      "det_pre": 36.241241,
+      "pipeline": 138.967995,
+      "rec_infer": 2.597545,
+      "rec_post": 0.077131,
+      "rec_pre": 0.048395,
+      "server_compute": 162.379988,
+      "sort": 0.000762
+    },
+    "request_id": "clean-76355828ab22faac2ede3493"
+  }
+}

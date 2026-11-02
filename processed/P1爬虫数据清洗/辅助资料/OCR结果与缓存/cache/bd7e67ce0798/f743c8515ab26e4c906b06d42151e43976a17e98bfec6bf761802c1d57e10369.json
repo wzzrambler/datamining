@@ -1,0 +1,32 @@
+{
+  "status": "recognized",
+  "source_sha256": "f743c8515ab26e4c906b06d42151e43976a17e98bfec6bf761802c1d57e10369",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3105396,
+  "round_trip_ms": 241.38680000032764,
+  "response": {
+    "detected_boxes": 0,
+    "image": {
+      "height": 1920,
+      "width": 1080
+    },
+    "lines": [],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.0,
+      "decode": 37.745686,
+      "det_infer": 134.031749,
+      "det_post": 1.405598,
+      "det_pre": 45.057842,
+      "pipeline": 185.096447,
+      "rec_infer": 0.0,
+      "rec_post": 0.0,
+      "rec_pre": 0.0,
+      "server_compute": 222.843205,
+      "sort": 3e-05
+    },
+    "request_id": "clean-f743c8515ab26e4c906b06d4"
+  }
+}

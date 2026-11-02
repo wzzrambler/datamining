@@ -1,0 +1,19 @@
+{
+  "confirmation_date": "2026-10-31",
+  "basis": "用户明确确认9篇抽查均无问题，由助手代填；助手未另行逐篇核验",
+  "scope": "9篇抽查，不代替全量内容验收，不自动关闭自动检测问题",
+  "record_file": "人工抽查记录_已确认.csv",
+  "doc_ids": [
+    "GZCL-OFF-01",
+    "GZCL-NOTE-07",
+    "GZCL-NOTE-11",
+    "ZHCL-OFF-01",
+    "ZHCL-NOTE-06",
+    "ZHCL-NOTE-13",
+    "JZG-OFF-01",
+    "JZG-NOTE-04",
+    "JZG-NOTE-11"
+  ],
+  "reviewer": "",
+  "documents_sha256": "782ee8283075f206f0b2202022e1fcafc2e90a398993947ce833e826d71baefd"
+}

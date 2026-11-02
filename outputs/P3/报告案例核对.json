@@ -1,0 +1,929 @@
+{
+  "purpose": "报告案例与指标核对，不是独立准确率评测",
+  "formal_pair": {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-05-R-749b346213",
+    "visitor_nature": "visitor_actual_claim",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "火花海",
+      "双龙海",
+      "芦苇海",
+      "原始森林",
+      "树正沟"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "熊猫海",
+      "犀牛海",
+      "箭竹海",
+      "芳草海",
+      "镜海",
+      "长海"
+    ],
+    "official_only": [
+      "卧龙海",
+      "树正寨",
+      "树正瀑布",
+      "树正磨房",
+      "盆景滩",
+      "老虎海",
+      "诺日朗群海"
+    ],
+    "visitor_only": [
+      "树正沟",
+      "火花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "芦苇海",
+      "诺日朗瀑布"
+    ],
+    "official_coverage": 0.6111111111111112,
+    "jaccard": 0.4583333333333333,
+    "common_sequence_lcs": 9,
+    "common_order_similarity": 0.75,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-05-R-749b346213": {
+        "未说明": 24
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。",
+    "pairing_rule": "same_scenic_scope_granularity_and_at_least_two_shared_poi",
+    "analysis": "程序识别到共同景点11个，官方独有7个，游客文本独有6个。共同景点顺序相似度为0.750。文本路线结构差异不能独立证明游客偏好或实际用时；原因需结合原文证据解释。"
+  },
+  "traceable_examples": [
+    {
+      "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+      "evidence": {
+        "doc_id": "JZG-OFF-01",
+        "start": 383,
+        "end": 420,
+        "text": "原始森林→芳草海(08:10-09:00 步行30分钟,游览时间20分钟)",
+        "para_ids": [
+          10
+        ],
+        "origins": [
+          {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        ]
+      },
+      "time": {
+        "period": "上午",
+        "basis": "explicit_heading",
+        "evidence": {
+          "doc_id": "JZG-OFF-01",
+          "start": 348,
+          "end": 352,
+          "text": "【上午】",
+          "para_ids": [
+            8
+          ],
+          "origins": [
+            {
+              "kind": "legacy",
+              "para_id": 8
+            }
+          ]
+        },
+        "clock_texts": [
+          "08:10",
+          "09:00"
+        ],
+        "start_minute": 490,
+        "end_minute": 540,
+        "day": null,
+        "day_evidence": null
+      },
+      "activity": [
+        {
+          "text": "步行",
+          "start": 404,
+          "end": 406,
+          "method": "literal_action"
+        },
+        {
+          "text": "游览",
+          "start": 411,
+          "end": 413,
+          "method": "literal_action"
+        }
+      ],
+      "poi_refs": [
+        {
+          "mention_id": "M-1ed60ae9b2fd090d",
+          "entity_id": "POI-0bcb1dea43e5296a",
+          "text": "原始森林",
+          "canonical_name": "原始森林",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 383,
+          "end": 387
+        },
+        {
+          "mention_id": "M-9596d243514fc95d",
+          "entity_id": "POI-bbc557d2673e93f6",
+          "text": "芳草海",
+          "canonical_name": "芳草海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 388,
+          "end": 391
+        }
+      ],
+      "route_poi_refs": [
+        {
+          "mention_id": "M-1ed60ae9b2fd090d",
+          "entity_id": "POI-0bcb1dea43e5296a",
+          "text": "原始森林",
+          "canonical_name": "原始森林",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 383,
+          "end": 387
+        },
+        {
+          "mention_id": "M-9596d243514fc95d",
+          "entity_id": "POI-bbc557d2673e93f6",
+          "text": "芳草海",
+          "canonical_name": "芳草海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 388,
+          "end": 391
+        }
+      ]
+    },
+    {
+      "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+      "evidence": {
+        "doc_id": "JZG-OFF-01",
+        "start": 688,
+        "end": 741,
+        "text": "诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)",
+        "para_ids": [
+          18
+        ],
+        "origins": [
+          {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        ]
+      },
+      "time": {
+        "period": "中午",
+        "basis": "explicit_heading",
+        "evidence": {
+          "doc_id": "JZG-OFF-01",
+          "start": 683,
+          "end": 687,
+          "text": "【中午】",
+          "para_ids": [
+            17
+          ],
+          "origins": [
+            {
+              "kind": "legacy",
+              "para_id": 17
+            }
+          ]
+        },
+        "clock_texts": [
+          "11:30",
+          "13:30"
+        ],
+        "start_minute": 690,
+        "end_minute": 810,
+        "day": null,
+        "day_evidence": null
+      },
+      "activity": [
+        {
+          "text": "用餐",
+          "start": 717,
+          "end": 719,
+          "method": "literal_action"
+        },
+        {
+          "text": "用餐",
+          "start": 720,
+          "end": 722,
+          "method": "literal_action"
+        },
+        {
+          "text": "休息",
+          "start": 723,
+          "end": 725,
+          "method": "literal_action"
+        }
+      ],
+      "poi_refs": [
+        {
+          "mention_id": "M-ea5cf2e06cd80740",
+          "entity_id": "POI-4286d8a6a4a416df",
+          "text": "诺日朗群海",
+          "canonical_name": "诺日朗群海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 688,
+          "end": 693
+        },
+        {
+          "mention_id": "M-3a0ef8fd4d254d1f",
+          "entity_id": "POI-4da05841a736a1f2",
+          "text": "诺日朗中心站",
+          "canonical_name": "诺日朗中心站",
+          "poi_role": "support",
+          "scope": "in_area",
+          "subtype": "station",
+          "start": 694,
+          "end": 700
+        },
+        {
+          "mention_id": "M-c6e41be901e8c0cc",
+          "entity_id": "POI-6cfbebe4c178f2ad",
+          "text": "诺日朗餐厅",
+          "canonical_name": "诺日朗餐厅",
+          "poi_role": "support",
+          "scope": "in_area",
+          "subtype": "restaurant",
+          "start": 712,
+          "end": 717
+        },
+        {
+          "mention_id": "M-5ad32b9d201e9d76",
+          "entity_id": "POI-a59bdf752fbbc666",
+          "text": "诺日朗瀑布",
+          "canonical_name": "诺日朗瀑布",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 735,
+          "end": 740
+        }
+      ],
+      "route_poi_refs": [
+        {
+          "mention_id": "M-ea5cf2e06cd80740",
+          "entity_id": "POI-4286d8a6a4a416df",
+          "text": "诺日朗群海",
+          "canonical_name": "诺日朗群海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 688,
+          "end": 693
+        },
+        {
+          "mention_id": "M-3a0ef8fd4d254d1f",
+          "entity_id": "POI-4da05841a736a1f2",
+          "text": "诺日朗中心站",
+          "canonical_name": "诺日朗中心站",
+          "poi_role": "support",
+          "scope": "in_area",
+          "subtype": "station",
+          "start": 694,
+          "end": 700
+        }
+      ]
+    },
+    {
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "evidence": {
+        "doc_id": "JZG-OFF-01",
+        "start": 873,
+        "end": 934,
+        "text": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海(15:40-17:00步行+乘车的方式,约1个多小时游览时间)",
+        "para_ids": [
+          23
+        ],
+        "origins": [
+          {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        ]
+      },
+      "time": {
+        "period": "下午",
+        "basis": "explicit_heading",
+        "evidence": {
+          "doc_id": "JZG-OFF-01",
+          "start": 742,
+          "end": 746,
+          "text": "【下午】",
+          "para_ids": [
+            19
+          ],
+          "origins": [
+            {
+              "kind": "legacy",
+              "para_id": 19
+            }
+          ]
+        },
+        "clock_texts": [
+          "15:40",
+          "17:00"
+        ],
+        "start_minute": 940,
+        "end_minute": 1020,
+        "day": null,
+        "day_evidence": null
+      },
+      "activity": [
+        {
+          "text": "步行",
+          "start": 914,
+          "end": 916,
+          "method": "literal_action"
+        },
+        {
+          "text": "游览",
+          "start": 929,
+          "end": 931,
+          "method": "literal_action"
+        }
+      ],
+      "poi_refs": [
+        {
+          "mention_id": "M-c1802fea27eedc7f",
+          "entity_id": "POI-093f0023e45f6198",
+          "text": "犀牛海",
+          "canonical_name": "犀牛海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 873,
+          "end": 876
+        },
+        {
+          "mention_id": "M-2b9c75a32717bee6",
+          "entity_id": "POI-90e6d6cf975ce322",
+          "text": "老虎海",
+          "canonical_name": "老虎海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 877,
+          "end": 880
+        },
+        {
+          "mention_id": "M-9311ef95afa30a78",
+          "entity_id": "POI-35e41b7e200a7bc0",
+          "text": "树正瀑布",
+          "canonical_name": "树正瀑布",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 881,
+          "end": 885
+        },
+        {
+          "mention_id": "M-b1a44e9887958ce3",
+          "entity_id": "POI-5803354d56bd9e8f",
+          "text": "树正磨房",
+          "canonical_name": "树正磨房",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 886,
+          "end": 890
+        },
+        {
+          "mention_id": "M-eb35a51cc20c9c9d",
+          "entity_id": "POI-612a6e7d55fb0b0a",
+          "text": "树正寨",
+          "canonical_name": "树正寨",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 891,
+          "end": 894
+        },
+        {
+          "mention_id": "M-15cb517e63a6aa37",
+          "entity_id": "POI-adddfdfb0b27578b",
+          "text": "卧龙海",
+          "canonical_name": "卧龙海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 895,
+          "end": 898
+        },
+        {
+          "mention_id": "M-d20048cd83f18e6d",
+          "entity_id": "POI-c97ee39818a3536c",
+          "text": "双龙海",
+          "canonical_name": "双龙海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 899,
+          "end": 902
+        }
+      ],
+      "route_poi_refs": [
+        {
+          "mention_id": "M-c1802fea27eedc7f",
+          "entity_id": "POI-093f0023e45f6198",
+          "text": "犀牛海",
+          "canonical_name": "犀牛海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 873,
+          "end": 876
+        },
+        {
+          "mention_id": "M-2b9c75a32717bee6",
+          "entity_id": "POI-90e6d6cf975ce322",
+          "text": "老虎海",
+          "canonical_name": "老虎海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 877,
+          "end": 880
+        },
+        {
+          "mention_id": "M-9311ef95afa30a78",
+          "entity_id": "POI-35e41b7e200a7bc0",
+          "text": "树正瀑布",
+          "canonical_name": "树正瀑布",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 881,
+          "end": 885
+        },
+        {
+          "mention_id": "M-b1a44e9887958ce3",
+          "entity_id": "POI-5803354d56bd9e8f",
+          "text": "树正磨房",
+          "canonical_name": "树正磨房",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 886,
+          "end": 890
+        },
+        {
+          "mention_id": "M-eb35a51cc20c9c9d",
+          "entity_id": "POI-612a6e7d55fb0b0a",
+          "text": "树正寨",
+          "canonical_name": "树正寨",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 891,
+          "end": 894
+        },
+        {
+          "mention_id": "M-15cb517e63a6aa37",
+          "entity_id": "POI-adddfdfb0b27578b",
+          "text": "卧龙海",
+          "canonical_name": "卧龙海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 895,
+          "end": 898
+        },
+        {
+          "mention_id": "M-d20048cd83f18e6d",
+          "entity_id": "POI-c97ee39818a3536c",
+          "text": "双龙海",
+          "canonical_name": "双龙海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 899,
+          "end": 902
+        }
+      ]
+    },
+    {
+      "step_id": "JZG-OFF-01-R-5489d330c8-S014",
+      "evidence": {
+        "doc_id": "JZG-OFF-01",
+        "start": 935,
+        "end": 978,
+        "text": "双龙海→盆景滩(17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 )",
+        "para_ids": [
+          24
+        ],
+        "origins": [
+          {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        ]
+      },
+      "time": {
+        "period": "下午",
+        "basis": "explicit_heading",
+        "evidence": {
+          "doc_id": "JZG-OFF-01",
+          "start": 742,
+          "end": 746,
+          "text": "【下午】",
+          "para_ids": [
+            19
+          ],
+          "origins": [
+            {
+              "kind": "legacy",
+              "para_id": 19
+            }
+          ]
+        },
+        "clock_texts": [
+          "17:00",
+          "17:20"
+        ],
+        "start_minute": 1020,
+        "end_minute": 1040,
+        "day": null,
+        "day_evidence": null
+      },
+      "activity": [
+        {
+          "text": "乘坐",
+          "start": 954,
+          "end": 956,
+          "method": "literal_action"
+        },
+        {
+          "text": "游览",
+          "start": 968,
+          "end": 970,
+          "method": "literal_action"
+        }
+      ],
+      "poi_refs": [
+        {
+          "mention_id": "M-fceee193072cfc71",
+          "entity_id": "POI-c97ee39818a3536c",
+          "text": "双龙海",
+          "canonical_name": "双龙海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 935,
+          "end": 938
+        },
+        {
+          "mention_id": "M-674ef8bb285e9b89",
+          "entity_id": "POI-3464c42c5541834f",
+          "text": "盆景滩",
+          "canonical_name": "盆景滩",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 939,
+          "end": 942
+        }
+      ],
+      "route_poi_refs": [
+        {
+          "mention_id": "M-fceee193072cfc71",
+          "entity_id": "POI-c97ee39818a3536c",
+          "text": "双龙海",
+          "canonical_name": "双龙海",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 935,
+          "end": 938
+        },
+        {
+          "mention_id": "M-674ef8bb285e9b89",
+          "entity_id": "POI-3464c42c5541834f",
+          "text": "盆景滩",
+          "canonical_name": "盆景滩",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 939,
+          "end": 942
+        }
+      ]
+    },
+    {
+      "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+      "evidence": {
+        "doc_id": "JZG-OFF-01",
+        "start": 979,
+        "end": 1012,
+        "text": "盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )",
+        "para_ids": [
+          25
+        ],
+        "origins": [
+          {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        ]
+      },
+      "time": {
+        "period": "下午",
+        "basis": "explicit_heading",
+        "evidence": {
+          "doc_id": "JZG-OFF-01",
+          "start": 742,
+          "end": 746,
+          "text": "【下午】",
+          "para_ids": [
+            19
+          ],
+          "origins": [
+            {
+              "kind": "legacy",
+              "para_id": 19
+            }
+          ]
+        },
+        "clock_texts": [
+          "17:00",
+          "17:35"
+        ],
+        "start_minute": 1020,
+        "end_minute": 1055,
+        "day": null,
+        "day_evidence": null
+      },
+      "activity": [
+        {
+          "text": "乘坐",
+          "start": 997,
+          "end": 999,
+          "method": "literal_action"
+        }
+      ],
+      "poi_refs": [
+        {
+          "mention_id": "M-773e619392c7bef1",
+          "entity_id": "POI-3464c42c5541834f",
+          "text": "盆景滩",
+          "canonical_name": "盆景滩",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 979,
+          "end": 982
+        }
+      ],
+      "route_poi_refs": [
+        {
+          "mention_id": "M-773e619392c7bef1",
+          "entity_id": "POI-3464c42c5541834f",
+          "text": "盆景滩",
+          "canonical_name": "盆景滩",
+          "poi_role": "attraction",
+          "scope": "in_area",
+          "subtype": "spot",
+          "start": 979,
+          "end": 982
+        }
+      ]
+    }
+  ],
+  "normalization_links": [
+    {
+      "route_id": "GZCL-NOTE-02-R-82a5b2e5a8",
+      "step_id": "GZCL-NOTE-02-R-82a5b2e5a8-S008",
+      "link": {
+        "text": "大熊猫中心",
+        "canonical_name": "长隆大熊猫中心",
+        "entity_id": "POI-af9b3fc71949150f",
+        "target_p2_mention_id": "M-e6a09c90c1889e7b",
+        "start": 243,
+        "end": 248,
+        "method": "unique_canonical_suffix",
+        "poi_role": "attraction",
+        "scope": "in_area"
+      }
+    }
+  ],
+  "p2_nonidentical_mapping_pairs": 16,
+  "p2_mapping_mentions": 185,
+  "confirmed_failure": {
+    "kind": "summary_appended_as_visits",
+    "evidence": [
+      {
+        "doc_id": "JZG-NOTE-05",
+        "start": 705,
+        "end": 709,
+        "text": "左线速通",
+        "para_ids": [
+          33
+        ],
+        "origins": [
+          {
+            "doc_id": "JZG-NOTE-05",
+            "para_id": 33,
+            "kind": "body",
+            "source": "notes.content"
+          }
+        ]
+      },
+      {
+        "doc_id": "JZG-NOTE-05",
+        "start": 712,
+        "end": 718,
+        "text": "原始森林深玩",
+        "para_ids": [
+          33
+        ],
+        "origins": [
+          {
+            "doc_id": "JZG-NOTE-05",
+            "para_id": 33,
+            "kind": "body",
+            "source": "notes.content"
+          }
+        ]
+      },
+      {
+        "doc_id": "JZG-NOTE-05",
+        "start": 721,
+        "end": 726,
+        "text": "右线重点玩",
+        "para_ids": [
+          33
+        ],
+        "origins": [
+          {
+            "doc_id": "JZG-NOTE-05",
+            "para_id": 33,
+            "kind": "body",
+            "source": "notes.content"
+          }
+        ]
+      },
+      {
+        "doc_id": "JZG-NOTE-05",
+        "start": 729,
+        "end": 734,
+        "text": "树正沟收尾",
+        "para_ids": [
+          33
+        ],
+        "origins": [
+          {
+            "doc_id": "JZG-NOTE-05",
+            "para_id": 33,
+            "kind": "body",
+            "source": "notes.content"
+          }
+        ]
+      }
+    ]
+  },
+  "sensitivity_only_not_formal_output": {
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-05-R-749b346213",
+    "visitor_nature": "visitor_actual_claim",
+    "official_sequence": [
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "镜海",
+      "诺日朗群海",
+      "长海",
+      "五彩池",
+      "犀牛海",
+      "老虎海",
+      "树正瀑布",
+      "树正磨房",
+      "树正寨",
+      "卧龙海",
+      "双龙海",
+      "盆景滩"
+    ],
+    "visitor_sequence": [
+      "长海",
+      "五彩池",
+      "原始森林",
+      "芳草海",
+      "天鹅海",
+      "箭竹海",
+      "熊猫海",
+      "五花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "镜海",
+      "诺日朗瀑布",
+      "犀牛海",
+      "火花海",
+      "双龙海",
+      "芦苇海"
+    ],
+    "shared": [
+      "五彩池",
+      "五花海",
+      "原始森林",
+      "双龙海",
+      "天鹅海",
+      "熊猫海",
+      "犀牛海",
+      "箭竹海",
+      "芳草海",
+      "镜海",
+      "长海"
+    ],
+    "official_only": [
+      "卧龙海",
+      "树正寨",
+      "树正瀑布",
+      "树正磨房",
+      "盆景滩",
+      "老虎海",
+      "诺日朗群海"
+    ],
+    "visitor_only": [
+      "火花海",
+      "珍珠滩",
+      "珍珠滩瀑布",
+      "芦苇海",
+      "诺日朗瀑布"
+    ],
+    "official_coverage": 0.6111111111111112,
+    "jaccard": 0.4782608695652174,
+    "common_sequence_lcs": 9,
+    "common_order_similarity": 0.8181818181818182,
+    "order_status": "applicable",
+    "time_distribution": {
+      "JZG-OFF-01-R-5489d330c8": {
+        "上午": 8,
+        "中午": 1,
+        "下午": 6
+      },
+      "JZG-NOTE-05-R-749b346213": {
+        "未说明": 20
+      }
+    },
+    "limit": "自动配对的文本路线，不保证游客实际到访；时段步骤数不代表停留时长。"
+  },
+  "input_sha256": {
+    "processed/P1爬虫数据清洗/documents.json": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+    "processed/P2实体识别/entities.json": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
+    "processed/P3路线层级挖掘/routes.json": "9d68cff56697fa8c69c61171ef168f8c5268c3a3eb69d4c91c18a6e248c5d2ed",
+    "processed/P3路线层级挖掘/route_compare.json": "01fba710fac47b4976d0dd52284f4db58bc4824f23fe260e6e7499aadfc8ab1b"
+  }
+}

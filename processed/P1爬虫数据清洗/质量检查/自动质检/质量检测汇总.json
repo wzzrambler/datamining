@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-31",
+  "document_count": 47,
+  "characters": 100222,
+  "paragraphs": 4820,
+  "counts": [
+    {
+      "scenic_code": "GZCL",
+      "scenic_area": "广州长隆旅游度假区",
+      "official": 3,
+      "travel": 15
+    },
+    {
+      "scenic_code": "ZHCL",
+      "scenic_area": "珠海横琴长隆国际海洋度假区",
+      "official": 2,
+      "travel": 13
+    },
+    {
+      "scenic_code": "JZG",
+      "scenic_area": "九寨沟风景名胜区",
+      "official": 1,
+      "travel": 13
+    }
+  ],
+  "missing": {
+    "title": 1,
+    "author": 0,
+    "publish_date": 3,
+    "crawl_time": 17,
+    "content": 0,
+    "source_url": 0,
+    "raw_html_path": 0
+  },
+  "issue_levels": {
+    "复核": 119,
+    "记录": 21
+  },
+  "issue_rules": {
+    "旧版删减统计为负": 2,
+    "字段缺失": 21,
+    "全角ASCII残留": 17,
+    "短段落比例较高": 16,
+    "重复候选": 1,
+    "纳入图片存在低分OCR": 83
+  },
+  "duplicate_types": {
+    "跨文档重复段落": 1
+  },
+  "noise_matches": {
+    "HTML标签残留": 0,
+    "网址残留": 0,
+    "已知表情残留": 0,
+    "Unicode表情残留": 0,
+    "话题标记残留": 0,
+    "替换字符乱码": 0,
+    "控制字符残留": 0,
+    "疑似未知表情": 0,
+    "网页控件独立行": 0,
+    "疑似模板元数据": 0,
+    "邮箱残留": 0,
+    "疑似电话号码": 0,
+    "空白格式异常": 0,
+    "重复标点": 0,
+    "全角ASCII残留": 2677
+  },
+  "input_parts": {
+    "body": 30,
+    "image": 324,
+    "comment": 626
+  },
+  "included_parts": {
+    "body": 30,
+    "image": 112,
+    "comment": 56
+  },
+  "excluded_parts": {
+    "comment": 570,
+    "image": 212
+  },
+  "ocr_images": 324,
+  "nonempty_ocr_lines": 3588,
+  "ocr_lines_score_below_0_8": 599,
+  "included_image_lines_score_below_0_8": 470,
+  "deep_evidence_check": true,
+  "evidence_checks": 461,
+  "raw_coverage": {
+    "notes": 30,
+    "saved_images": 324,
+    "saved_comments": 626
+  },
+  "manual_review_status": "用户确认抽查完成：9篇通过",
+  "source_sha256": "782ee8283075f206f0b2202022e1fcafc2e90a398993947ce833e826d71baefd",
+  "automatic_structure_passed": true
+}

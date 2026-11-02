@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "39944f1ee8919d6d7a09c1db58d31d84fe60ac6d53dcdfbb1b3b9901e6711f0d",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1613723,
+  "round_trip_ms": 258.875799991074,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            734.0,
+            28.0
+          ],
+          [
+            983.0,
+            83.0
+          ],
+          [
+            962.0,
+            183.0
+          ],
+          [
+            713.0,
+            128.0
+          ]
+        ],
+        "confidence": 0.9578162431716919,
+        "text": "sleep"
+      },
+      {
+        "box": [
+          [
+            101.0,
+            1072.0
+          ],
+          [
+            659.0,
+            1120.0
+          ],
+          [
+            649.0,
+            1237.0
+          ],
+          [
+            91.0,
+            1189.0
+          ]
+        ],
+        "confidence": 0.8529294729232788,
+        "text": "Penguin cxhibit"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.881937,
+      "decode": 25.807029,
+      "det_infer": 113.666441,
+      "det_post": 1.246595,
+      "det_pre": 34.682014,
+      "pipeline": 157.487433,
+      "rec_infer": 5.677702,
+      "rec_post": 0.20343,
+      "rec_pre": 0.12104799999999999,
+      "server_compute": 183.295024,
+      "sort": 0.000911
+    },
+    "request_id": "clean-39944f1ee8919d6d7a09c1db"
+  }
+}

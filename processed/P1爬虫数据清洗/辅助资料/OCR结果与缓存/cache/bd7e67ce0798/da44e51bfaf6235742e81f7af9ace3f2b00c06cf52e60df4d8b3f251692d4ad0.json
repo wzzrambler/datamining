@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "da44e51bfaf6235742e81f7af9ace3f2b00c06cf52e60df4d8b3f251692d4ad0",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3276896,
+  "round_trip_ms": 219.47199999704026,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1443,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            319.0,
+            638.0
+          ],
+          [
+            759.0,
+            639.0
+          ],
+          [
+            758.0,
+            730.0
+          ],
+          [
+            318.0,
+            729.0
+          ]
+        ],
+        "confidence": 0.9178023338317871,
+        "text": "天玛湖的秋天"
+      },
+      {
+        "box": [
+          [
+            167.0,
+            735.0
+          ],
+          [
+            906.0,
+            735.0
+          ],
+          [
+            906.0,
+            789.0
+          ],
+          [
+            167.0,
+            789.0
+          ]
+        ],
+        "confidence": 0.9811045527458191,
+        "text": "碧波之上，天鹅舒展优雅身姿、悠然游弋"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.734778,
+      "decode": 30.811481,
+      "det_infer": 97.489181,
+      "det_post": 1.074006,
+      "det_pre": 32.029094,
+      "pipeline": 150.05193,
+      "rec_infer": 12.491558999999999,
+      "rec_post": 0.5034909999999999,
+      "rec_pre": 0.233831,
+      "server_compute": 180.863781,
+      "sort": 0.003587
+    },
+    "request_id": "clean-da44e51bfaf6235742e81f7a"
+  }
+}

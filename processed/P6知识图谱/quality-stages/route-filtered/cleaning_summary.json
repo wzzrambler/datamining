@@ -1,0 +1,97 @@
+{
+  "version": "p6-route-curation-v1",
+  "before": {
+    "nodes": 6900,
+    "edges": 8748,
+    "routes": 218
+  },
+  "after": {
+    "nodes": 6281,
+    "edges": 7186,
+    "routes": 29,
+    "node_types": {
+      "FACT": 480,
+      "ROUTE": 29,
+      "ROUTE_STEP": 344,
+      "TRANSPORT_LEG": 115,
+      "OBSERVATION": 3741,
+      "POI": 180,
+      "CONDITIONAL_RULE": 1358,
+      "TRANSPORT": 34
+    },
+    "edge_types": {
+      "SUPPORTED_BY": 4052,
+      "HAS_STEP": 344,
+      "PRECEDES": 324,
+      "VISITS": 325,
+      "MENTIONS_MODE": 38,
+      "USES_LEG": 13,
+      "FROM": 115,
+      "TO": 115,
+      "USES_MODE": 112,
+      "HAS_FACT": 480,
+      "PART_OF": 64,
+      "APPLIES_TO": 1204
+    }
+  },
+  "decisions": {
+    "long_touring_sequence": 24,
+    "local_fragment": 79,
+    "multi_park_overview": 2,
+    "transport_fragment": 24,
+    "timed_thematic_itinerary": 3,
+    "single_stage": 74,
+    "ambiguous_alternatives": 5,
+    "unresolved_fragment": 7
+  },
+  "scene_counts": {
+    "GZCL": {
+      "before": 98,
+      "after": 11
+    },
+    "JZG": {
+      "before": 84,
+      "after": 8
+    },
+    "ZHCL": {
+      "before": 36,
+      "after": 10
+    }
+  },
+  "fragments": 189,
+  "source_backed_affiliations": 0,
+  "exact_duplicates": {},
+  "cleared_active_scopes": 176,
+  "llm_calls": 0,
+  "limitations": [
+    "长序列是可检索候选，不等于每条均为全天完整行程或事实已核真",
+    "未注册地点不新增ID；原步骤及重复访问不改写",
+    "不同文章不自动拼接；相同景点不作为合并依据",
+    "只清理线路层；此前时间/条件语义存疑项仍待后续修订"
+  ],
+  "source_graph_sha256": "261d170a36f27b649064afa02af8bbea558002df6bd28e419d5b85fd07cbbd68",
+  "protected_p5_hashes": {
+    "processed\\P5条件建议抽取\\README.md": "e9d76b1cde583e42614022f9e9963b195638f655629c063e722b0fa4ef70c681",
+    "processed\\P5条件建议抽取\\release.json": "5787d4c1293ab78e0513f01c72cc2d5e2e44e8af1b6b85f1df9d5cce6fb07a5c",
+    "processed\\P5条件建议抽取\\表格\\全部条件与建议.csv": "236e2f13d2286b593be5a41d6faa234d25a72a19f9ce175ef0ce9bc93cc19547",
+    "processed\\P5条件建议抽取\\表格\\条件建议映射表.csv": "b4811a44ba730d05f33ed1d55e9887ec2e49d2bc33978747820a580463b8c1b3",
+    "processed\\P5条件建议抽取\\表格\\条件建议映射表.json": "47aac76736cea149218d08af7abb32b3e58a663951c10af92769415dbae849d6",
+    "processed\\P5条件建议抽取\\表格\\来源证据索引.csv": "2d4edf3ea60c7aba118e9c08d47a461f2c33b8823f847fa5f690f8666578cb98",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\aggregation_manifest.json": "4d14a15bea800939ece4c03e8debdfa0873bfc3469809ff1b22b5923d2b0e8fd",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\input_manifest.json": "7c38bb75c638d77706178970e158bc1dfdb91a85a975d8c0048d7889a52af301",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\input_statistics.json": "e5d30b06e10ce5ada7b5e328b3b7c05045a299b45f318d140a83494eb53ee644",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\partial_observations.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\raw_observations.json": "ea22478db9c6829c2403c30b4b18e29983273734f3a1dfde2d71c853b44d83bb",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\release_integrity.json": "a2fb8beb069103112f0d1f5a7c008bda7e496ae560726c034f44eefd089fde46",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\summary.json": "4552e42ad90b694da9cf67fd42165c0cdc2343a2e6e9f62c15566bebd5562bd0",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\conditions.csv": "9628fcd4b60797f5c9c0a7c2fc40a1b1410fdeed32a9ea44f70e8c1827376160",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\conditions.json": "ccd1c7c0812af616e61b566a60fd3d5349155c43bdc9b0e284f132d7cc4437c9",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\entities.json": "988b92fbc75c0749201e0c599bf64fad5b191f26f7d9b9d45eb1c364c9a178d0",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\graph.json": "261d170a36f27b649064afa02af8bbea558002df6bd28e419d5b85fd07cbbd68",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\normalizations.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\observations.json": "6a9f46a2126ab4c0e20bea2c3ef9fe0e9d4db895d05270d867b8545da878e581",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\routes.json": "8aeac037c4a7b00fdc88e4e4100b20c42dd05fbb96f11598f9597fcd2b170c75",
+    "processed\\P5条件建议抽取\\runs\\full-final-20261101\\integrated\\transport_legs.json": "421df358feb083b9cc43820e8318439a0526dd16ebd97a6d3d66080bfae72bfd"
+  },
+  "unconfirmed_relationship_candidates": 15
+}

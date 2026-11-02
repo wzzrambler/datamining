@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "cc20f7df270e1d37ca70f277ae895ebcd81e69d2d5d0218bce1b8b40c0390d8d",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2285860,
+  "round_trip_ms": 201.30869999411516,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            7.0,
+            1156.0
+          ],
+          [
+            491.0,
+            1156.0
+          ],
+          [
+            491.0,
+            1203.0
+          ],
+          [
+            7.0,
+            1203.0
+          ]
+        ],
+        "confidence": 0.9662640690803528,
+        "text": "小考拉睡觉觉的样子太萌啦！、"
+      },
+      {
+        "box": [
+          [
+            907.0,
+            1386.0
+          ],
+          [
+            943.0,
+            1386.0
+          ],
+          [
+            943.0,
+            1440.0
+          ],
+          [
+            907.0,
+            1440.0
+          ]
+        ],
+        "confidence": 0.9416428804397583,
+        "text": "两脚"
+      },
+      {
+        "box": [
+          [
+            929.0,
+            1379.0
+          ],
+          [
+            1016.0,
+            1379.0
+          ],
+          [
+            1016.0,
+            1440.0
+          ],
+          [
+            929.0,
+            1440.0
+          ]
+        ],
+        "confidence": 0.38513845205307007,
+        "text": "芳杂"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.664306,
+      "decode": 30.126484,
+      "det_infer": 96.747817,
+      "det_post": 1.008995,
+      "det_pre": 37.201692,
+      "pipeline": 147.874152,
+      "rec_infer": 7.843976,
+      "rec_post": 0.36152,
+      "rec_pre": 0.22092599999999998,
+      "server_compute": 178.001397,
+      "sort": 0.001924
+    },
+    "request_id": "clean-cc20f7df270e1d37ca70f277"
+  }
+}

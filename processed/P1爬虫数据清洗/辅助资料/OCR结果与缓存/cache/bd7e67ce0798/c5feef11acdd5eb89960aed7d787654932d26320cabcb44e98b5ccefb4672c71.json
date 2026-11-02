@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "c5feef11acdd5eb89960aed7d787654932d26320cabcb44e98b5ccefb4672c71",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1739195,
+  "round_trip_ms": 254.97969999560155,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            1037.0,
+            1412.0
+          ],
+          [
+            1070.0,
+            1412.0
+          ],
+          [
+            1070.0,
+            1432.0
+          ],
+          [
+            1037.0,
+            1432.0
+          ]
+        ],
+        "confidence": 0.1235198900103569,
+        "text": "理节"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.043686,
+      "decode": 26.604098,
+      "det_infer": 103.929933,
+      "det_post": 1.01008,
+      "det_pre": 37.098087,
+      "pipeline": 147.62191,
+      "rec_infer": 1.826739,
+      "rec_post": 0.04573,
+      "rec_pre": 0.044698,
+      "server_compute": 174.22681,
+      "sort": 0.001904
+    },
+    "request_id": "clean-c5feef11acdd5eb89960aed7"
+  }
+}

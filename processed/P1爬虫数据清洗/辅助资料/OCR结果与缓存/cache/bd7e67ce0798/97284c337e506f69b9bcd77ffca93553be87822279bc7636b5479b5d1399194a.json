@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "97284c337e506f69b9bcd77ffca93553be87822279bc7636b5479b5d1399194a",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3186189,
+  "round_trip_ms": 203.93419999163598,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1441,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            445.0,
+            153.0
+          ],
+          [
+            875.0,
+            119.0
+          ],
+          [
+            884.0,
+            224.0
+          ],
+          [
+            453.0,
+            259.0
+          ]
+        ],
+        "confidence": 0.9177713394165039,
+        "text": "保罗纪森林"
+      },
+      {
+        "box": [
+          [
+            471.0,
+            241.0
+          ],
+          [
+            860.0,
+            205.0
+          ],
+          [
+            865.0,
+            259.0
+          ],
+          [
+            476.0,
+            295.0
+          ]
+        ],
+        "confidence": 0.9737548232078552,
+        "text": "Jurassic Forest"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.526551,
+      "decode": 31.182249,
+      "det_infer": 97.487171,
+      "det_post": 1.142848,
+      "det_pre": 32.952706,
+      "pipeline": 144.051418,
+      "rec_infer": 6.379156999999999,
+      "rec_post": 0.300552,
+      "rec_pre": 0.16798000000000002,
+      "server_compute": 175.234039,
+      "sort": 0.001784
+    },
+    "request_id": "clean-97284c337e506f69b9bcd77f"
+  }
+}

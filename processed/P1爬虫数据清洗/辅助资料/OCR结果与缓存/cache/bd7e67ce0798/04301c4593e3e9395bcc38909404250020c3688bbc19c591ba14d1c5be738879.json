@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "04301c4593e3e9395bcc38909404250020c3688bbc19c591ba14d1c5be738879",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2455572,
+  "round_trip_ms": 282.04980000737123,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1920,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            422.0,
+            576.0
+          ],
+          [
+            661.0,
+            576.0
+          ],
+          [
+            661.0,
+            613.0
+          ],
+          [
+            422.0,
+            613.0
+          ]
+        ],
+        "confidence": 0.8823157548904419,
+        "text": "cJI OSMO POCKET 3"
+      },
+      {
+        "box": [
+          [
+            421.0,
+            1217.0
+          ],
+          [
+            659.0,
+            1213.0
+          ],
+          [
+            660.0,
+            1249.0
+          ],
+          [
+            422.0,
+            1253.0
+          ]
+        ],
+        "confidence": 0.9291127920150757,
+        "text": "CJI OSMO POCKET 3"
+      },
+      {
+        "box": [
+          [
+            422.0,
+            1859.0
+          ],
+          [
+            658.0,
+            1859.0
+          ],
+          [
+            658.0,
+            1890.0
+          ],
+          [
+            422.0,
+            1890.0
+          ]
+        ],
+        "confidence": 0.9095936417579651,
+        "text": "cdJI OSMO POCKET 3"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.604171,
+      "decode": 35.278882,
+      "det_infer": 166.790561,
+      "det_post": 1.207529,
+      "det_pre": 44.917547,
+      "pipeline": 230.529396,
+      "rec_infer": 11.064005000000002,
+      "rec_post": 0.5704830000000001,
+      "rec_pre": 0.24593500000000001,
+      "server_compute": 265.808959,
+      "sort": 0.002845
+    },
+    "request_id": "clean-04301c4593e3e9395bcc3890"
+  }
+}

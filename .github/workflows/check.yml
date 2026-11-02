@@ -1,31 +1,37 @@
-name: 自检
-
-# 三人各改各的时候，最容易出的事故是「动了数据忘了同步报告」。
-# 每次推送自动跑一遍 verify.py，数字对不上就让这次提交显示红叉。
+name: 离线检查
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
-
 jobs:
-  verify:
+  p1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          lfs: false
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
           cache: pip
-
-      - name: 装依赖
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
+      - name: 安装依赖
+        run: python -m pip install -r requirements.txt
       - name: 语法检查
-        run: python -m compileall -q src tools
-
-      - name: 报告数字与产物一致性
-        run: python src/verify.py
+        run: python -m compileall -q src tools tests
+      - name: 离线测试（无需浏览器、Docker或大归档）
+        run: python -m unittest discover -s tests/P1 -v
+      - name: 正式数据一致性
+        run: python tools/verify_p1.py
+      - name: P1全量自动质检（不下载原始归档）
+        run: python tools/quality_p1.py --output .test_tmp/ci_quality
+      - name: P2规则、配置与全量离线复跑测试
+        run: python -m unittest discover -s tests/P2 -v
+      - name: P3路线边界、层级与样本对比检查
+        run: python -m unittest discover -s tests/P3 -v
+      - name: P4指代边界、规则消解与标注评估检查
+        run: python -m unittest discover -s tests/P4 -v
+      - name: P5工具、导出与恢复离线检查
+        run: python -m unittest discover -s tests/P5 -v
+      - name: P6图谱转换与导入契约离线检查
+        run: python -m unittest discover -s tests/P6 -v

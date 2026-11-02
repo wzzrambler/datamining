@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "d63e7ffaa4cdcb5c0f2ab985e9cb8004cd656708304fa1a44ecd8dc0a6a09b76",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1846784,
+  "round_trip_ms": 203.86909999069758,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            273.0,
+            445.0
+          ],
+          [
+            368.0,
+            456.0
+          ],
+          [
+            365.0,
+            488.0
+          ],
+          [
+            269.0,
+            478.0
+          ]
+        ],
+        "confidence": 0.7018884420394897,
+        "text": "每牛馆"
+      },
+      {
+        "box": [
+          [
+            380.0,
+            675.0
+          ],
+          [
+            663.0,
+            674.0
+          ],
+          [
+            663.0,
+            761.0
+          ],
+          [
+            381.0,
+            763.0
+          ]
+        ],
+        "confidence": 0.8964188098907471,
+        "text": "＃海牛馆"
+      },
+      {
+        "box": [
+          [
+            1038.0,
+            1414.0
+          ],
+          [
+            1068.0,
+            1414.0
+          ],
+          [
+            1068.0,
+            1430.0
+          ],
+          [
+            1038.0,
+            1430.0
+          ]
+        ],
+        "confidence": 0.5258910059928894,
+        "text": "小iI务"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.683265,
+      "decode": 28.397723,
+      "det_infer": 117.406102,
+      "det_post": 1.535052,
+      "det_pre": 34.597164,
+      "pipeline": 162.118515,
+      "rec_infer": 7.506674,
+      "rec_post": 0.215233,
+      "rec_pre": 0.158683,
+      "server_compute": 190.516958,
+      "sort": 0.000912
+    },
+    "request_id": "clean-d63e7ffaa4cdcb5c0f2ab985"
+  }
+}

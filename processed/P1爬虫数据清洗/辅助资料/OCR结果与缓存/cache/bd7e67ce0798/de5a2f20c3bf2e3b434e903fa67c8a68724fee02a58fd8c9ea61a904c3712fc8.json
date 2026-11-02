@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "de5a2f20c3bf2e3b434e903fa67c8a68724fee02a58fd8c9ea61a904c3712fc8",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2609992,
+  "round_trip_ms": 212.42950001033023,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1443,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            252.0,
+            639.0
+          ],
+          [
+            823.0,
+            641.0
+          ],
+          [
+            822.0,
+            728.0
+          ],
+          [
+            252.0,
+            727.0
+          ]
+        ],
+        "confidence": 0.9622735381126404,
+        "text": "野生动物亲子时光"
+      },
+      {
+        "box": [
+          [
+            167.0,
+            737.0
+          ],
+          [
+            907.0,
+            737.0
+          ],
+          [
+            907.0,
+            789.0
+          ],
+          [
+            167.0,
+            789.0
+          ]
+        ],
+        "confidence": 0.9974371790885925,
+        "text": "超有爱的亲子画面，感受轻松温暖的时光"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.728596,
+      "decode": 32.705372,
+      "det_infer": 100.540854,
+      "det_post": 0.988768,
+      "det_pre": 34.079269,
+      "pipeline": 152.829583,
+      "rec_infer": 10.772124,
+      "rec_post": 0.561166,
+      "rec_pre": 0.23305900000000002,
+      "server_compute": 185.535988,
+      "sort": 0.002505
+    },
+    "request_id": "clean-de5a2f20c3bf2e3b434e903f"
+  }
+}

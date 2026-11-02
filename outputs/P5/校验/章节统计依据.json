@@ -1,0 +1,291 @@
+{
+  "documents": {
+    "GZCL:travel_note": 15,
+    "GZCL:official_route": 3,
+    "JZG:travel_note": 13,
+    "JZG:official_route": 1,
+    "ZHCL:travel_note": 13,
+    "ZHCL:official_route": 2
+  },
+  "p5_statistics": {
+    "kinds": {
+      "conditional_fact": 199,
+      "general_advice": 756,
+      "conditional_advice": 258,
+      "general_restriction": 40,
+      "incomplete_condition": 72,
+      "conditional_restriction": 33
+    },
+    "raw_active_rules": 1363,
+    "raw_teacher_rules": 292,
+    "visitor_rows": [
+      {
+        "游客类型": "亲子/儿童",
+        "GZCL": 10,
+        "JZG": 1,
+        "ZHCL": 9,
+        "合计": 20
+      },
+      {
+        "游客类型": "老年游客",
+        "GZCL": 0,
+        "JZG": 0,
+        "ZHCL": 0,
+        "合计": 0
+      },
+      {
+        "游客类型": "学生",
+        "GZCL": 0,
+        "JZG": 0,
+        "ZHCL": 1,
+        "合计": 1
+      },
+      {
+        "游客类型": "孕妇",
+        "GZCL": 0,
+        "JZG": 0,
+        "ZHCL": 0,
+        "合计": 0
+      },
+      {
+        "游客类型": "体力/行动受限",
+        "GZCL": 2,
+        "JZG": 1,
+        "ZHCL": 0,
+        "合计": 3
+      },
+      {
+        "游客类型": "其他明确人群",
+        "GZCL": 17,
+        "JZG": 4,
+        "ZHCL": 19,
+        "合计": 40
+      },
+      {
+        "游客类型": "未明示游客类型",
+        "GZCL": 87,
+        "JZG": 69,
+        "ZHCL": 72,
+        "合计": 228
+      }
+    ],
+    "category_rows": [
+      {
+        "条件类型": "游客类型",
+        "code": "audience",
+        "GZCL": 27,
+        "JZG": 5,
+        "ZHCL": 27
+      },
+      {
+        "条件类型": "天气",
+        "code": "weather",
+        "GZCL": 1,
+        "JZG": 7,
+        "ZHCL": 3
+      },
+      {
+        "条件类型": "日期时段",
+        "code": "date_time",
+        "GZCL": 29,
+        "JZG": 25,
+        "ZHCL": 16
+      },
+      {
+        "条件类型": "体力健康",
+        "code": "fitness",
+        "GZCL": 2,
+        "JZG": 6,
+        "ZHCL": 1
+      },
+      {
+        "条件类型": "时间预算",
+        "code": "time_budget",
+        "GZCL": 8,
+        "JZG": 9,
+        "ZHCL": 4
+      },
+      {
+        "条件类型": "客流排队",
+        "code": "crowding",
+        "GZCL": 5,
+        "JZG": 0,
+        "ZHCL": 6
+      },
+      {
+        "条件类型": "服务可用性",
+        "code": "service_availability",
+        "GZCL": 3,
+        "JZG": 4,
+        "ZHCL": 1
+      },
+      {
+        "条件类型": "票务",
+        "code": "ticket",
+        "GZCL": 0,
+        "JZG": 1,
+        "ZHCL": 6
+      },
+      {
+        "条件类型": "准入",
+        "code": "access",
+        "GZCL": 10,
+        "JZG": 0,
+        "ZHCL": 7
+      },
+      {
+        "条件类型": "其他",
+        "code": "other",
+        "GZCL": 36,
+        "JZG": 24,
+        "ZHCL": 37
+      }
+    ],
+    "merged": [
+      {
+        "rule_id": "RULE-2c68a9d1046caa8e67c4",
+        "condition": null,
+        "consequence_text": "16:30下来刚好赶上巡游可看，小朋友喜欢",
+        "observation_ids": [
+          "P5OBS-d9e61a0db9fd8e58",
+          "P5OBS-72b39c503c03252c"
+        ]
+      },
+      {
+        "rule_id": "RULE-df6bccfb8dcef9ea51b3",
+        "condition": {
+          "text": "下午",
+          "logic": "single",
+          "clauses": [
+            {
+              "category": "date_time",
+              "text": "下午"
+            }
+          ]
+        },
+        "consequence_text": "人比较少，排了一会就到了",
+        "observation_ids": [
+          "P5OBS-e9f73759dec0139c",
+          "P5OBS-4a1d4136b8672d08"
+        ]
+      },
+      {
+        "rule_id": "RULE-873afaef6896290b5268",
+        "condition": null,
+        "consequence_text": "提前20分钟去横琴海占位",
+        "observation_ids": [
+          "P5OBS-5b2725ccba232c59",
+          "P5OBS-c2ebdadc0c4339d1"
+        ]
+      },
+      {
+        "rule_id": "RULE-8192e18d02198b65e7eb",
+        "condition": {
+          "text": "上午动物们精神最好",
+          "logic": "single",
+          "clauses": [
+            {
+              "category": "date_time",
+              "text": "上午"
+            }
+          ]
+        },
+        "consequence_text": "进门直接冲小火车",
+        "observation_ids": [
+          "P5OBS-f35a5835eb179eb9",
+          "P5OBS-ccc93286ee43d9d2"
+        ]
+      },
+      {
+        "rule_id": "RULE-796db924faf583a0d69d",
+        "condition": null,
+        "consequence_text": "景区观光车",
+        "observation_ids": [
+          "P5OBS-5e0065a348f54bcf",
+          "P5OBS-5e71fdbd7bbb5d88"
+        ]
+      }
+    ],
+    "near": [
+      {
+        "rule_a": "RULE-51a919190e4274dbfabb",
+        "rule_b": "RULE-31336697ea0fbe555b1c",
+        "similarity": 0.9474,
+        "text_a": "旺季人真的超级多；必须合理安排，才能值回票价",
+        "text_b": "旺季人真的超级多；必须合理安排,值回票价",
+        "decision": "用户采纳近重复疑点，保留为待修订候选，尚未合并"
+      }
+    ]
+  },
+  "graph_view": {
+    "counts": {
+      "ROUTE": 84,
+      "TRANSPORT_LEG": 70,
+      "POI": 49,
+      "TRANSPORT": 15
+    },
+    "edges": 522,
+    "main_hubs": [
+      "黄龙九寨站",
+      "九寨沟",
+      "长海",
+      "诺日朗中心",
+      "日则沟",
+      "五彩池",
+      "箭竹海",
+      "成都东站",
+      "树正沟",
+      "五花海",
+      "熊猫海",
+      "沟口游客中心",
+      "镜海",
+      "原始森林",
+      "犀牛海",
+      "黄龙景区"
+    ]
+  },
+  "node_types": {
+    "FACT": 480,
+    "ROUTE": 218,
+    "ROUTE_STEP": 774,
+    "TRANSPORT_LEG": 115,
+    "OBSERVATION": 3741,
+    "POI": 180,
+    "CONDITIONAL_RULE": 1358,
+    "TIME_SUMMARY": 217,
+    "TRANSPORT": 34
+  },
+  "edge_types": {
+    "SUPPORTED_BY": 4587,
+    "HAS_STEP": 774,
+    "PRECEDES": 565,
+    "VISITS": 776,
+    "MENTIONS_MODE": 167,
+    "USES_LEG": 18,
+    "FROM": 115,
+    "TO": 115,
+    "USES_MODE": 112,
+    "HAS_FACT": 480,
+    "HAS_TIME_SUMMARY": 217,
+    "PART_OF": 64,
+    "APPLIES_TO": 1321
+  },
+  "user_review": {
+    "review_date": "2026-11-01",
+    "reviewer": "用户（会话确认）",
+    "user_instruction": "P5人工校验那里，采纳你审核的所有疑惑，其他全部审核通过。你帮我改一下表格以及实验报告正文里的口径",
+    "scope": "现有9条分层人工校验样本；已列异常一并采纳为待修订问题，不将样本通过结论外推到未逐条审核的全量数据",
+    "sample_count": 9,
+    "passed_count": 6,
+    "accepted_issue_count": 3,
+    "previously_flagged_issues_accepted": {
+      "time_attributes": 16,
+      "single_step_routes": 60,
+      "near_duplicate_pairs": 1,
+      "historical_threshold_omission": true,
+      "unregistered_performance_time_gap": true
+    },
+    "formal_semantic_data_modified": false,
+    "independent_gold_standard": false
+  }
+}

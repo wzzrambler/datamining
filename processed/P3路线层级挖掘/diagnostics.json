@@ -1,0 +1,54 @@
+[
+  {
+    "route_id": "JZG-OFF-01-R-5489d330c8",
+    "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+    "kind": "heading_clock_difference",
+    "heading_period": "中午",
+    "clock_mapped_period": "上午",
+    "action": "原文标题优先，钟点同时保留，分段规则差异不直接认定原文错误"
+  },
+  {
+    "route_id": "JZG-OFF-01-R-5489d330c8",
+    "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+    "kind": "time_overlap_in_source",
+    "text": "盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )",
+    "previous_end_minute": 1040,
+    "action": "保留原文，不推算或改写时间"
+  },
+  {
+    "route_id": "ZHCL-NOTE-03-R-c9d09a5f60",
+    "step_id": "ZHCL-NOTE-03-R-c9d09a5f60-S018",
+    "kind": "unresolved_poi_name",
+    "text": "5D城堡电影",
+    "action": "保留P2原始名，不模糊合并"
+  },
+  {
+    "route_id": "GZCL-NOTE-06-R-3ff34f39b9",
+    "step_id": "GZCL-NOTE-06-R-3ff34f39b9-S004",
+    "kind": "unresolved_poi_name",
+    "text": "白虎山",
+    "action": "保留P2原始名，不模糊合并"
+  },
+  {
+    "route_id": "GZCL-NOTE-06-R-3ff34f39b9",
+    "step_id": "GZCL-NOTE-06-R-3ff34f39b9-S014",
+    "kind": "unresolved_poi_name",
+    "text": "熊森林",
+    "action": "保留P2原始名，不模糊合并"
+  },
+  {
+    "route_id": "GZCL-NOTE-08-R-fc0bc11cde",
+    "step_id": "GZCL-NOTE-08-R-fc0bc11cde-S005",
+    "kind": "unresolved_poi_name",
+    "text": "白虎山",
+    "action": "保留P2原始名，不模糊合并"
+  },
+  {
+    "route_id": "ZHCL-NOTE-08-R-ac0be18076",
+    "step_id": "ZHCL-NOTE-08-R-ac0be18076-S015",
+    "kind": "heading_clock_difference",
+    "heading_period": "下午",
+    "clock_mapped_period": "晚上",
+    "action": "原文标题优先，钟点同时保留，分段规则差异不直接认定原文错误"
+  }
+]

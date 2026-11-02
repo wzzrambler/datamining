@@ -1,0 +1,3771 @@
+[
+  {
+    "from_entity_id": "POI-5bfe3687eda400d9",
+    "to_entity_id": "POI-67bcda65511d77c7",
+    "transport_entity_id": "TRANSPORT-cff4603db8535366",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "地铁18号线",
+    "leg_id": "LEG-a0a8d86b28ae51014a21",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "45分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-a0a8d86b28ae51014a21",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-88313615f84c59e4"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-b90256c5adf7015651ec"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-88313615f84c59e4"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a5e2ae7adbddb3ba",
+    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": "天鹅湖线缆车",
+    "leg_id": "LEG-3687d84fc3b200966a94",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-2117e06cdbc459a2"
+    ]
+  },
+  {
+    "from_entity_id": "POI-cb24680dd82e15c1",
+    "to_entity_id": "POI-54159dd45e739e0c",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "拼车",
+    "leg_id": "LEG-36ed2dcd7e3e743be8c3",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约 1.5h",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-36ed2dcd7e3e743be8c3",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-85bd9e8dd0272a62"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-7674d9a9bd3976ecbdf4"
+    ],
+    "restriction_rule_ids": [
+      "RULE-7674d9a9bd3976ecbdf4"
+    ],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-85bd9e8dd0272a62"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-cb24680dd82e15c1",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "service_connection",
+    "service_name_text": "黄龙九寨-九寨沟保姆车",
+    "leg_id": "LEG-186e9d5c3f1b522e8b21",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "16:20",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-186e9d5c3f1b522e8b21",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ba0bb1e7863305dd"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥61",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-186e9d5c3f1b522e8b21",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ba0bb1e7863305dd"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "某程预定,司机提前半小时电话联系,在高铁站停车场上车",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-186e9d5c3f1b522e8b21",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ba0bb1e7863305dd"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "优点是比大巴快且舒适,且可送达入住酒店,行程中会下车休息一次上卫生间;缺点是其他网友反馈无保障,且比较看司机人品,因此仅作参考",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-186e9d5c3f1b522e8b21",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ba0bb1e7863305dd"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-bb0c056bfa95e0988d66",
+      "RULE-31e3115fefa05f01cf8e"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-bb0c056bfa95e0988d66",
+      "RULE-31e3115fefa05f01cf8e"
+    ],
+    "observation_ids": [
+      "P5OBS-ba0bb1e7863305dd"
+    ]
+  },
+  {
+    "from_entity_id": "POI-007a647d74f009b6",
+    "to_entity_id": "POI-1fc2c78de022d941",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "空中缆车",
+    "leg_id": "LEG-d93bfa188f9f4e508a33",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [
+      {
+        "route_id": "ROUTEOBS-6ab0604603ef6685",
+        "from_step_id": "ROUTEOBS-6ab0604603ef6685-S005",
+        "to_step_id": "ROUTEOBS-6ab0604603ef6685-S005"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-c68d9e73c71a7a5f"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a861b1470d96ab5f",
+    "to_entity_id": "POI-a861b1470d96ab5f",
+    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
+    "assertion_kind": "unspecified",
+    "service_name_text": "小火车",
+    "leg_id": "LEG-4e98eba290f8fe1c283c",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "小火车是不停车的",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-4e98eba290f8fe1c283c",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-b6ead018dd460ecc"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "车上比较颠簸,还经常会被自驾车挡在动物前面,所以小火车很难拍出好照片",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-4e98eba290f8fe1c283c",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-b6ead018dd460ecc"
+        ]
+      },
+      {
+        "attribute": "frequency",
+        "value_text": "班次比较频繁几乎是无缝衔接,所以基本很快就可以坐上车",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-4e98eba290f8fe1c283c",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-b6ead018dd460ecc"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-c4d956fdd2cac9ea26a4",
+      "RULE-996def7a003486d44859"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-c4d956fdd2cac9ea26a4"
+    ],
+    "observation_ids": [
+      "P5OBS-b6ead018dd460ecc"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-859e5641d28e8b93",
+    "transport_entity_id": "TRANSPORT-beb59f353edcb983",
+    "assertion_kind": "service_connection",
+    "service_name_text": "接驳车",
+    "leg_id": "LEG-e711fab5f3eeeac3a8c7",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约2小时",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-e711fab5f3eeeac3a8c7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ec2c4e5545955c45"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-ec2c4e5545955c45"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-bd17fc6640100c81ed56",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-e6a9b733b8a44386bb09"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-e6a9b733b8a44386bb09"
+    ],
+    "observation_ids": [
+      "P5OBS-0ae67f84235f1815",
+      "P5OBS-31eb96281baac511"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-859e5641d28e8b93",
+    "transport_entity_id": "TRANSPORT-beb59f353edcb983",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "接驳",
+    "leg_id": "LEG-ae9edb3d2b21ee855b90",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-e6a9b733b8a44386bb09"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-e6a9b733b8a44386bb09"
+    ],
+    "observation_ids": [
+      "P5OBS-2540405e09311849"
+    ]
+  },
+  {
+    "from_entity_id": "POI-cb24680dd82e15c1",
+    "to_entity_id": "POI-54159dd45e739e0c",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-02ba970966857e453b24",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约1.5小时",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-02ba970966857e453b24",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-120e279405e04d44"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-120e279405e04d44"
+    ]
+  },
+  {
+    "from_entity_id": "POI-44b2356447ef131d",
+    "to_entity_id": "POI-a62c2af16093cd29",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-463419cb64e3b4f80acc",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-18becf1886041ef3ab26"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-18becf1886041ef3ab26"
+    ],
+    "observation_ids": [
+      "P5OBS-160fb1d9307d4af8"
+    ]
+  },
+  {
+    "from_entity_id": "POI-3ee90e175366fdcd",
+    "to_entity_id": "POI-a9df4e391f8f4dc5",
+    "transport_entity_id": "TRANSPORT-8db4eab278163653",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "接驳车",
+    "leg_id": "LEG-c2649b637af90c1fee89",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-0df95b9cbfede6de"
+    ]
+  },
+  {
+    "from_entity_id": "POI-e08ce45abf2ba51f",
+    "to_entity_id": "POI-7cb68e6dca15dc07",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-489e36f751fcf07c7452",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "三两分钟左右的路程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-489e36f751fcf07c7452",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-6f976c6c52010c96"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-6f976c6c52010c96"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d84c258e38dc6005",
+    "to_entity_id": "POI-d896be8c097d9bf2",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-90d4099d588d39086836",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-831bdbe27a466c670f1e"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-831bdbe27a466c670f1e"
+    ],
+    "observation_ids": [
+      "P5OBS-3be962ce875971fc"
+    ]
+  },
+  {
+    "from_entity_id": "POI-af9f086f65127147",
+    "to_entity_id": "POI-10e8a874d4a64eeb",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-ed5d4f320b6639fb09f4",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-9d17aab9341a169a"
+    ]
+  },
+  {
+    "from_entity_id": "POI-10e8a874d4a64eeb",
+    "to_entity_id": "POI-a59bdf752fbbc666",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-1278e6a4b11602ac8b1d",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-c2d459ef9b1a4593"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a59bdf752fbbc666",
+    "to_entity_id": "POI-093f0023e45f6198",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-0ff37e139f6f960f9113",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-9c5bdf3c9debf921"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d84c258e38dc6005",
+    "to_entity_id": "POI-d896be8c097d9bf2",
+    "transport_entity_id": "TRANSPORT-302154bebe2201cc",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "里侧的环形栈道",
+    "leg_id": "LEG-a23e355dcc2f91344ad5",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [
+      {
+        "route_id": "ROUTEOBS-b2e2480f77d2a989",
+        "from_step_id": "ROUTEOBS-b2e2480f77d2a989-S001",
+        "to_step_id": "ROUTEOBS-b2e2480f77d2a989-S002"
+      }
+    ],
+    "rule_ids": [
+      "RULE-d3e7b3b5ad985f64a1dc"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-d3e7b3b5ad985f64a1dc"
+    ],
+    "observation_ids": [
+      "P5OBS-88bb1c52c09a9861"
+    ]
+  },
+  {
+    "from_entity_id": "POI-cb24680dd82e15c1",
+    "to_entity_id": "POI-de48037e474f5793",
+    "transport_entity_id": "TRANSPORT-0bda7df0b7655a1b",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-72929e40aae7e87170f1",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约1个半小时",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-72929e40aae7e87170f1",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-5145544170a91cf0"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-5145544170a91cf0"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5976f654ecaa88ba",
+    "to_entity_id": "POI-3ee90e175366fdcd",
+    "transport_entity_id": "TRANSPORT-eb0da5555fe3ef39",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "滴滴",
+    "leg_id": "LEG-cd0cf1571409a1d2ea10",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约10–15分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-cd0cf1571409a1d2ea10",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-f106e0109b69bb56"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-81f561e1eb89bdf4ca02"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-81f561e1eb89bdf4ca02"
+    ],
+    "observation_ids": [
+      "P5OBS-f106e0109b69bb56"
+    ]
+  },
+  {
+    "from_entity_id": "POI-cb24680dd82e15c1",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-4dfe4ae37d7ac7ce",
+    "assertion_kind": "service_connection",
+    "service_name_text": "九寨沟-黄龙九寨大巴",
+    "leg_id": "LEG-5a58362f5f83f8260819",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "13:30",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-5a58362f5f83f8260819",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-1a675c7a0b9e3934"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "51",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-5a58362f5f83f8260819",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-1a675c7a0b9e3934"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "小程序购票",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-5a58362f5f83f8260819",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-1a675c7a0b9e3934"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "建议至少预留3h，如时间充足多多益善",
+        "condition": null,
+        "modality": "recommended",
+        "leg_id": "LEG-5a58362f5f83f8260819",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-1a675c7a0b9e3934"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-89244efa7e443371a4c4",
+      "RULE-04ef9e12614ea3374d3f"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-89244efa7e443371a4c4"
+    ],
+    "observation_ids": [
+      "P5OBS-1a675c7a0b9e3934"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5f6108e8b89839dd",
+    "to_entity_id": "POI-0baa51d763ec4739",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-f57ba2dc5a591a9ae2ee",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-fa32d51398eff858bad0"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-fa32d51398eff858bad0"
+    ],
+    "observation_ids": [
+      "P5OBS-3e891d3f93b8ca86"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": null,
+    "assertion_kind": "unspecified",
+    "service_name_text": null,
+    "leg_id": "LEG-545506181c13c890bb79",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-eb60e751e6dc7028"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-ecf22b3f7c37cdb9",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-00039d1ad839718e0b12",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-9c5ea9ae72684e88"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-a5e2ae7adbddb3ba",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "service_connection",
+    "service_name_text": "环园线",
+    "leg_id": "LEG-14b745b526b8f0a1a8d7",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "运营时间约10:00-17:30",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-14b745b526b8f0a1a8d7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-028493e088daa78a"
+        ]
+      },
+      {
+        "attribute": "ride_duration",
+        "value_text": "全程约25分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-14b745b526b8f0a1a8d7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-028493e088daa78a"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-14b745b526b8f0a1a8d7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-028493e088daa78a"
+        ]
+      },
+      {
+        "attribute": "frequency",
+        "value_text": "16:00后排队减半",
+        "condition": {
+          "text": "16:00后",
+          "logic": "single",
+          "clauses": [
+            {
+              "category": "date_time",
+              "text": "16:00后"
+            }
+          ]
+        },
+        "modality": "asserted",
+        "leg_id": "LEG-14b745b526b8f0a1a8d7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-028493e088daa78a"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-47b1d0e408d71474e06b",
+      "RULE-ef4b3cfb71dcec77c66e"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-47b1d0e408d71474e06b",
+      "RULE-ef4b3cfb71dcec77c66e"
+    ],
+    "observation_ids": [
+      "P5OBS-028493e088daa78a"
+    ]
+  },
+  {
+    "from_entity_id": "POI-cb24680dd82e15c1",
+    "to_entity_id": "POI-54159dd45e739e0c",
+    "transport_entity_id": "TRANSPORT-6117ff03af895cae",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-4d3f0437a2f801e6a21a",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "07:30",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-4d3f0437a2f801e6a21a",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-281428153873b6d8"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-281428153873b6d8"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-1fc2c78de022d941",
+    "transport_entity_id": "TRANSPORT-8db4eab278163653",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费接驳巴士",
+    "leg_id": "LEG-57296f2949dbe61fd69c",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-57296f2949dbe61fd69c",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-c2d7704a54d83d1a",
+          "P5OBS-3506305c2f4a3230"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-cb7dbf94824b0f6c9834",
+      "RULE-3e1dd326d9697b0c98bc"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-cb7dbf94824b0f6c9834",
+      "RULE-3e1dd326d9697b0c98bc"
+    ],
+    "observation_ids": [
+      "P5OBS-c2d7704a54d83d1a",
+      "P5OBS-3506305c2f4a3230"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-aac7d90bfc5ff426",
+    "transport_entity_id": "TRANSPORT-8db4eab278163653",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费接驳巴士",
+    "leg_id": "LEG-2b4e6c504034bb948565",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-2b4e6c504034bb948565",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-b7999d82cb300c8e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-cb7dbf94824b0f6c9834"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-cb7dbf94824b0f6c9834"
+    ],
+    "observation_ids": [
+      "P5OBS-b7999d82cb300c8e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-805a28099052ccae",
+    "to_entity_id": "POI-360c92072be143c1",
+    "transport_entity_id": "TRANSPORT-302154bebe2201cc",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-444903db5e61967e0925",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-52f79d16f1fa40dd1251"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-52f79d16f1fa40dd1251"
+    ],
+    "observation_ids": [
+      "P5OBS-a28e3c3344364745"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d46ef2f6d4e07910",
+    "to_entity_id": "POI-545fccca3e7cf427",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-53124086b188f5f3dae5",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-ea82cfb5627f265c"
+    ]
+  },
+  {
+    "from_entity_id": "POI-545fccca3e7cf427",
+    "to_entity_id": "POI-10e8a874d4a64eeb",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-e9b5ec7d664b17ef3640",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-9f61fa5100d645bc"
+    ]
+  },
+  {
+    "from_entity_id": "POI-13228cccee608f7d",
+    "to_entity_id": "POI-de6db9a7cdd443ab",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-6401e082019121a0cd56",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [
+      {
+        "route_id": "ROUTEOBS-042bf205dc30840e",
+        "from_step_id": "ROUTEOBS-042bf205dc30840e-S001",
+        "to_step_id": "ROUTEOBS-042bf205dc30840e-S002"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-7da9cae7bed1d45a"
+    ]
+  },
+  {
+    "from_entity_id": "POI-0bcb1dea43e5296a",
+    "to_entity_id": "POI-d84c258e38dc6005",
+    "transport_entity_id": "TRANSPORT-302154bebe2201cc",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-0cedd0325fb46993b50d",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "来回折腾两个多小时",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-0cedd0325fb46993b50d",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-f155e01a87189818"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "两站之间足足相隔7公里",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-0cedd0325fb46993b50d",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-f155e01a87189818"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-7e71e3f2cc0f3714507c"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-f155e01a87189818"
+    ]
+  },
+  {
+    "from_entity_id": "POI-86a654325b202f68",
+    "to_entity_id": "POI-0baa51d763ec4739",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-86623645f63851300fb2",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-11858dac0a5c2c4b177b"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-11858dac0a5c2c4b177b"
+    ],
+    "observation_ids": [
+      "P5OBS-a0c6af6bcd42f587"
+    ]
+  },
+  {
+    "from_entity_id": "POI-10e8a874d4a64eeb",
+    "to_entity_id": "POI-d84c258e38dc6005",
+    "transport_entity_id": null,
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-ec38a517145944f2b5f5",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-8b5a646acc0ddc51435e"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-8b5a646acc0ddc51435e"
+    ],
+    "observation_ids": [
+      "P5OBS-355fcc462e8316a8"
+    ]
+  },
+  {
+    "from_entity_id": "POI-10e8a874d4a64eeb",
+    "to_entity_id": "POI-7927973cb5fc8e4d",
+    "transport_entity_id": "TRANSPORT-a3087430f466be14",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-acf565bd6277e0f10ea4",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-d05e92b01d125fb307f7"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-d05e92b01d125fb307f7"
+    ],
+    "observation_ids": [
+      "P5OBS-27e786dc62a18884"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-1fc2c78de022d941",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-d3d78c378effc8c072a2",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-c32ed408c27f6f31d675"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-c32ed408c27f6f31d675"
+    ],
+    "observation_ids": [
+      "P5OBS-8e505df6dfb02494"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-cb24680dd82e15c1",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "拼车",
+    "leg_id": "LEG-cbba065408fb11ec6753",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "不到2个小时",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-cbba065408fb11ec6753",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-6a7120cee155b9ea"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-9d21ef886e2d52d55ac8"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-9d21ef886e2d52d55ac8"
+    ],
+    "observation_ids": [
+      "P5OBS-6a7120cee155b9ea"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-cb24680dd82e15c1",
+    "transport_entity_id": "TRANSPORT-6117ff03af895cae",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "包车",
+    "leg_id": "LEG-cddd42af300c992268d0",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "不到2个小时",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-cddd42af300c992268d0",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-f1bb6863cf34ea03"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-9d21ef886e2d52d55ac8"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-9d21ef886e2d52d55ac8"
+    ],
+    "observation_ids": [
+      "P5OBS-f1bb6863cf34ea03"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-ecf22b3f7c37cdb9",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-da415e1b11ca5b497db4",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-ec267eee334fad64"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "service_connection",
+    "service_name_text": "黄龙九寨-成都东",
+    "leg_id": "LEG-59be62f73aa81ef8f3dc",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "16:25-18:07",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-59be62f73aa81ef8f3dc",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ead8d80496e2e014"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥151",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-59be62f73aa81ef8f3dc",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ead8d80496e2e014"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-5461e8a6743124b547dd",
+      "RULE-270869f698b92e9b23a0"
+    ],
+    "restriction_rule_ids": [
+      "RULE-5461e8a6743124b547dd"
+    ],
+    "recommendation_rule_ids": [
+      "RULE-270869f698b92e9b23a0"
+    ],
+    "observation_ids": [
+      "P5OBS-ead8d80496e2e014"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b9dffee86bef7b13",
+    "to_entity_id": "POI-a9df4e391f8f4dc5",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "连廊",
+    "leg_id": "LEG-f51274ca2cb375f03053",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "只需要5分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-f51274ca2cb375f03053",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-f8f2f18449a4987e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-afc7cbaa066a31b775c0"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-afc7cbaa066a31b775c0"
+    ],
+    "observation_ids": [
+      "P5OBS-f8f2f18449a4987e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-1fc2c78de022d941",
+    "to_entity_id": "POI-a861b1470d96ab5f",
+    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "免费小火车",
+    "leg_id": "LEG-1dd3fae0129dc525d6b3",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "40分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-1dd3fae0129dc525d6b3",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-38c5f76e72779c75"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-1dd3fae0129dc525d6b3",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-38c5f76e72779c75"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-38674997091076955cd7",
+      "RULE-4cc6364a1974fdee04a1"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-38674997091076955cd7",
+      "RULE-4cc6364a1974fdee04a1"
+    ],
+    "observation_ids": [
+      "P5OBS-38c5f76e72779c75"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a5e2ae7adbddb3ba",
+    "to_entity_id": "POI-41d5eefef861e525",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": "单线缆车",
+    "leg_id": "LEG-817718f2d0722ff0625a",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "全程约20分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-817718f2d0722ff0625a",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-4adc3f1a3c7f97b6"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-629186f17a01c6f8daca"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-4adc3f1a3c7f97b6"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d84c258e38dc6005",
+    "to_entity_id": "POI-d896be8c097d9bf2",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "观光车",
+    "leg_id": "LEG-14478b7b341b2e7b58d0",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约10分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-14478b7b341b2e7b58d0",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "observation_ids": [
+          "P5OBS-4f0381475a044382"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S006"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-4f0381475a044382"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d896be8c097d9bf2",
+    "to_entity_id": "POI-af9f086f65127147",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "观光车",
+    "leg_id": "LEG-121a67f91df7bea63444",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约10分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-121a67f91df7bea63444",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "observation_ids": [
+          "P5OBS-3c7e592120d48152"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S007"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-3c7e592120d48152"
+    ]
+  },
+  {
+    "from_entity_id": "POI-af9f086f65127147",
+    "to_entity_id": "POI-545fccca3e7cf427",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "观光车",
+    "leg_id": "LEG-75a2479eac8b08de5157",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约10分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-75a2479eac8b08de5157",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "observation_ids": [
+          "P5OBS-5a77ddd3b9f29134"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S008"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-5a77ddd3b9f29134"
+    ]
+  },
+  {
+    "from_entity_id": "POI-545fccca3e7cf427",
+    "to_entity_id": "POI-4286d8a6a4a416df",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "观光车",
+    "leg_id": "LEG-9ea83037bf55155e26dc",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约5分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-9ea83037bf55155e26dc",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-620a35fbec8f8f97"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "to_step_id": null
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-620a35fbec8f8f97"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-a05d858dbc2b4fbf526b",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约2h",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-a05d858dbc2b4fbf526b",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3098159cc3700c81"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "13:55-15:52",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-a05d858dbc2b4fbf526b",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-39f4f1e5cb6f394b"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥151",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-a05d858dbc2b4fbf526b",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-39f4f1e5cb6f394b"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "车厢两头都有插座可以充电，很方便",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-a05d858dbc2b4fbf526b",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-39f4f1e5cb6f394b"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "直达",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-a05d858dbc2b4fbf526b",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-7f43f81b0dfe2d7e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-3082b1d1d4a44bb51291",
+      "RULE-e427837f85b9f9005711"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-3082b1d1d4a44bb51291",
+      "RULE-e427837f85b9f9005711"
+    ],
+    "observation_ids": [
+      "P5OBS-3098159cc3700c81",
+      "P5OBS-39f4f1e5cb6f394b",
+      "P5OBS-7f43f81b0dfe2d7e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-859e5641d28e8b93",
+    "transport_entity_id": "TRANSPORT-c7876b90c7441768",
+    "assertion_kind": "service_connection",
+    "service_name_text": "九旅悦行",
+    "leg_id": "LEG-ed2234b7b48e55ce0339",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约2h",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-ed2234b7b48e55ce0339",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-2e9d7f4844672415"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-45ec334a755efd6a0a1f"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-45ec334a755efd6a0a1f"
+    ],
+    "observation_ids": [
+      "P5OBS-2e9d7f4844672415"
+    ]
+  },
+  {
+    "from_entity_id": "POI-13228cccee608f7d",
+    "to_entity_id": "POI-de6db9a7cdd443ab",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-05bb03c9807fb31591d7",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "往下步行800米",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-05bb03c9807fb31591d7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-88a22f6bcd1dce89"
+        ]
+      },
+      {
+        "attribute": "ride_duration",
+        "value_text": "步行15分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-05bb03c9807fb31591d7",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "observation_ids": [
+          "P5OBS-3aed56a7d1c375ed"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "14:20-14:50",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-05bb03c9807fb31591d7",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "observation_ids": [
+          "P5OBS-3aed56a7d1c375ed"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S011"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-88a22f6bcd1dce89",
+      "P5OBS-3aed56a7d1c375ed"
+    ]
+  },
+  {
+    "from_entity_id": "POI-de6db9a7cdd443ab",
+    "to_entity_id": "POI-10e8a874d4a64eeb",
+    "transport_entity_id": "TRANSPORT-a3087430f466be14",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-f49c6d1dae93e392ac36",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-5acf34755ecad92e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-1fc2c78de022d941",
+    "to_entity_id": "POI-a861b1470d96ab5f",
+    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-8f3405076da2a1f37c53",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-5b17033af6597da8d093"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-5b17033af6597da8d093"
+    ],
+    "observation_ids": [
+      "P5OBS-f70b5c024267b986"
+    ]
+  },
+  {
+    "from_entity_id": "POI-aac7d90bfc5ff426",
+    "to_entity_id": "POI-1fc2c78de022d941",
+    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-536696f0d231a029127e",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-29fb288be485630a8b70"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-29fb288be485630a8b70"
+    ],
+    "observation_ids": [
+      "P5OBS-1cacef5b35d6e16a"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a9f1a43dfb4dde70",
+    "to_entity_id": "POI-a62c2af16093cd29",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费穿梭巴士",
+    "leg_id": "LEG-783be17beb6acc1bd722",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-783be17beb6acc1bd722",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-1edd4a29f1913172"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-1edd4a29f1913172"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-859e5641d28e8b93",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-a6cf8a60e3474d1db331",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-5dcea926376892a2ecbc"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-5dcea926376892a2ecbc"
+    ],
+    "observation_ids": [
+      "P5OBS-d9769c1d4f0938ce"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-859e5641d28e8b93",
+    "transport_entity_id": "TRANSPORT-6117ff03af895cae",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-ae15aa3fb46dafa24497",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-5dcea926376892a2ecbc"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-5dcea926376892a2ecbc"
+    ],
+    "observation_ids": [
+      "P5OBS-904b0ee10ebce83b"
+    ]
+  },
+  {
+    "from_entity_id": "POI-3ee90e175366fdcd",
+    "to_entity_id": "POI-a9df4e391f8f4dc5",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费穿梭巴士",
+    "leg_id": "LEG-ccd9fc6c19320433385e",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "frequency",
+        "value_text": "15分钟一班",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-ccd9fc6c19320433385e",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-c16c2a7c630489cd"
+        ]
+      },
+      {
+        "attribute": "ride_duration",
+        "value_text": "车程5分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-ccd9fc6c19320433385e",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-c16c2a7c630489cd"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-ccd9fc6c19320433385e",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-c16c2a7c630489cd"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-5a6272b17fe332885c62"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-c16c2a7c630489cd"
+    ]
+  },
+  {
+    "from_entity_id": "POI-093f0023e45f6198",
+    "to_entity_id": "POI-612a6e7d55fb0b0a",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-30a8b6c8ebac0e69f989",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-f2d0cfd33b2f4a12"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-cb24680dd82e15c1",
+    "transport_entity_id": "TRANSPORT-6117ff03af895cae",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-b80c4a47dc9c94b2b083",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-dbf3e048878b11b96758"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-dbf3e048878b11b96758"
+    ],
+    "observation_ids": [
+      "P5OBS-a502bea7421956c2"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-cb24680dd82e15c1",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-b05b126b3c93c8b60fe5",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-dbf3e048878b11b96758"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-dbf3e048878b11b96758"
+    ],
+    "observation_ids": [
+      "P5OBS-148d7ad5c3292d93"
+    ]
+  },
+  {
+    "from_entity_id": "POI-4da05841a736a1f2",
+    "to_entity_id": "POI-13228cccee608f7d",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-815b0cdcbbde99da9968",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约30分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-815b0cdcbbde99da9968",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "observation_ids": [
+          "P5OBS-5c28f2ada2bbdd14"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "13:30-14:20",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-815b0cdcbbde99da9968",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "observation_ids": [
+          "P5OBS-5c28f2ada2bbdd14"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S010"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-5c28f2ada2bbdd14"
+    ]
+  },
+  {
+    "from_entity_id": "POI-de6db9a7cdd443ab",
+    "to_entity_id": "POI-093f0023e45f6198",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-38d852579cdc96ba0334",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约30分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-38d852579cdc96ba0334",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "observation_ids": [
+          "P5OBS-ea14779c2c52ee04"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "14:50-15:40",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-38d852579cdc96ba0334",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "observation_ids": [
+          "P5OBS-ea14779c2c52ee04"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S012"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-ea14779c2c52ee04"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-6dc59eea71366bd1",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-fb4bdab3e86c2170c6eb",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [
+      {
+        "route_id": "GZCL-NOTE-11-R-a936970d41",
+        "from_step_id": "GZCL-NOTE-11-R-a936970d41-S001",
+        "to_step_id": "GZCL-NOTE-11-R-a936970d41-S002"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-34c901e6b19d2259"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-1fc2c78de022d941",
+    "transport_entity_id": "TRANSPORT-8db4eab278163653",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "免费接驳巴士",
+    "leg_id": "LEG-02b814f26c5fa0083eca",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-02b814f26c5fa0083eca",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3037db6d88459b8e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-c812890ece4989d885f5"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-c812890ece4989d885f5"
+    ],
+    "observation_ids": [
+      "P5OBS-3037db6d88459b8e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-aac7d90bfc5ff426",
+    "transport_entity_id": "TRANSPORT-8db4eab278163653",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "免费接驳巴士",
+    "leg_id": "LEG-4caf0ff99e8941571635",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-4caf0ff99e8941571635",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-209f57a581dc5308"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-c812890ece4989d885f5"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-c812890ece4989d885f5"
+    ],
+    "observation_ids": [
+      "P5OBS-209f57a581dc5308"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-aac7d90bfc5ff426",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-0d9284c42bf6e67a97e2",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约10分钟左右",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-0d9284c42bf6e67a97e2",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-2ed140f37fc84741"
+        ]
+      },
+      {
+        "attribute": "ride_duration",
+        "value_text": "步行几分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-0d9284c42bf6e67a97e2",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-4277036978e52425"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-1022bce9194741dfd08d",
+      "RULE-9422ca3e6a1e1b7e5f2c"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-1022bce9194741dfd08d",
+      "RULE-9422ca3e6a1e1b7e5f2c"
+    ],
+    "observation_ids": [
+      "P5OBS-2ed140f37fc84741",
+      "P5OBS-4277036978e52425"
+    ]
+  },
+  {
+    "from_entity_id": "POI-10e8a874d4a64eeb",
+    "to_entity_id": "POI-a59bdf752fbbc666",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-d02bde6bcec5a9248a53",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-0bf110a3bbcb4ad28aa5"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-0bf110a3bbcb4ad28aa5"
+    ],
+    "observation_ids": [
+      "P5OBS-17768844d886110c"
+    ]
+  },
+  {
+    "from_entity_id": "POI-360c92072be143c1",
+    "to_entity_id": "POI-545fccca3e7cf427",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-12dacd20d50a4f39b76e",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "步行350米",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-12dacd20d50a4f39b76e",
+        "route_id": "JZG-NOTE-12-R-d519b6d883",
+        "from_step_id": "JZG-NOTE-12-R-d519b6d883-S002",
+        "to_step_id": "JZG-NOTE-12-R-d519b6d883-S003",
+        "observation_ids": [
+          "P5OBS-5a1fca95283893de"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-NOTE-12-R-d519b6d883",
+        "from_step_id": "JZG-NOTE-12-R-d519b6d883-S002",
+        "to_step_id": "JZG-NOTE-12-R-d519b6d883-S003"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-5a1fca95283893de"
+    ]
+  },
+  {
+    "from_entity_id": "POI-54159dd45e739e0c",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-4dfe4ae37d7ac7ce",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-b320e4be620d24b33cde",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-04e884b3ae11f7a0bf32"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-04e884b3ae11f7a0bf32"
+    ],
+    "observation_ids": [
+      "P5OBS-93dc27fa2ad79140"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-ba7e4dcc5c802120a826",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "frequency",
+        "value_text": "最近班次",
+        "condition": null,
+        "modality": "recommended",
+        "leg_id": "LEG-ba7e4dcc5c802120a826",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-64648d7ca445c471"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-04e884b3ae11f7a0bf32"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-04e884b3ae11f7a0bf32"
+    ],
+    "observation_ids": [
+      "P5OBS-64648d7ca445c471",
+      "P5OBS-18366bce2c2d72d8"
+    ]
+  },
+  {
+    "from_entity_id": "POI-90e6d6cf975ce322",
+    "to_entity_id": "POI-35e41b7e200a7bc0",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-09a69634d9ad80410553",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "步行100米",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-09a69634d9ad80410553",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-8cec7e22e8d8e001"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-8cec7e22e8d8e001"
+    ]
+  },
+  {
+    "from_entity_id": "POI-de48037e474f5793",
+    "to_entity_id": "POI-cb24680dd82e15c1",
+    "transport_entity_id": "TRANSPORT-78f05fe80a344b95",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-ce21855636ade249b736",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-f9dc1ccff80250332a6a"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-f9dc1ccff80250332a6a"
+    ],
+    "observation_ids": [
+      "P5OBS-b134e65f4b477980"
+    ]
+  },
+  {
+    "from_entity_id": "POI-0bcb1dea43e5296a",
+    "to_entity_id": "POI-d84c258e38dc6005",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-0777fa5d500669e62f66",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "原始森林到箭竹海7公里，别徒步，坐车",
+        "condition": null,
+        "modality": "recommended",
+        "leg_id": "LEG-0777fa5d500669e62f66",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-441ce762b1afdc33"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-9b8f4f047554f14e900d"
+    ],
+    "restriction_rule_ids": [
+      "RULE-9b8f4f047554f14e900d"
+    ],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-441ce762b1afdc33"
+    ]
+  },
+  {
+    "from_entity_id": "POI-3ee90e175366fdcd",
+    "to_entity_id": "POI-a9df4e391f8f4dc5",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费巴士",
+    "leg_id": "LEG-b51f52e8eedb53ee7cc3",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-b51f52e8eedb53ee7cc3",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-c1914862b149e264"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "3楼有免费巴士直接前往",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-b51f52e8eedb53ee7cc3",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-c1914862b149e264"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-2203965321dc7f7de2c0"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-2203965321dc7f7de2c0"
+    ],
+    "observation_ids": [
+      "P5OBS-c1914862b149e264"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5bfe3687eda400d9",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-ea9b63c682486bb96515",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-0f79b91e2f9c37742c84"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-0f79b91e2f9c37742c84"
+    ],
+    "observation_ids": [
+      "P5OBS-c116bde92ffe86fd"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-dda73c5206efbef9",
+    "transport_entity_id": "TRANSPORT-c7876b90c7441768",
+    "assertion_kind": "service_connection",
+    "service_name_text": "九悦旅行直通车",
+    "leg_id": "LEG-82cc1d067729d3d1a66f",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "五点十五这班车",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-82cc1d067729d3d1a66f",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3984eaf7a6a5d028"
+        ]
+      },
+      {
+        "attribute": "ride_duration",
+        "value_text": "车程约2h",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-82cc1d067729d3d1a66f",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3984eaf7a6a5d028"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-a8892378dfa226548883"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-a8892378dfa226548883"
+    ],
+    "observation_ids": [
+      "P5OBS-3984eaf7a6a5d028"
+    ]
+  },
+  {
+    "from_entity_id": "POI-aac7d90bfc5ff426",
+    "to_entity_id": "POI-1fc2c78de022d941",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "穿梭巴士",
+    "leg_id": "LEG-8c324891a5febcd8100c",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-8c324891a5febcd8100c",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-f8b1c29d1d885d4e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-a3dc1633e4424670bb9b"
+    ],
+    "restriction_rule_ids": [
+      "RULE-a3dc1633e4424670bb9b"
+    ],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-f8b1c29d1d885d4e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-871c3b6e819c218e",
+    "to_entity_id": "POI-d84c258e38dc6005",
+    "transport_entity_id": "TRANSPORT-a3087430f466be14",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-152f6a51c3997c5ac330",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-4bfab1a54b09576a26bd"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-4bfab1a54b09576a26bd"
+    ],
+    "observation_ids": [
+      "P5OBS-d15d7863e84219af"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a62c2af16093cd29",
+    "to_entity_id": "POI-0baa51d763ec4739",
+    "transport_entity_id": "TRANSPORT-78f05fe80a344b95",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-c978f9804ae8a4531056",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "十几分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-c978f9804ae8a4531056",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-e1ad6e55e0b9d7a0"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-4ca838da007cdea3b496"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-4ca838da007cdea3b496"
+    ],
+    "observation_ids": [
+      "P5OBS-e1ad6e55e0b9d7a0"
+    ]
+  },
+  {
+    "from_entity_id": "POI-41d5eefef861e525",
+    "to_entity_id": "POI-ee07143d3d6c6f04",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-8f834520c41821805071",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "经过野生放养区上方，可以俯瞰大象犀牛长颈鹿等动物",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-8f834520c41821805071",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3839225208a281aa"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-3839225208a281aa"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ee07143d3d6c6f04",
+    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-6cecc398513dd1cdb7eb",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "除了人工刻意做出来的空中熊猫外，能看到的动物大部分被树荫遮挡看不到太多",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-6cecc398513dd1cdb7eb",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-159ac31c5dbd7d3a"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-159ac31c5dbd7d3a"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-41d5eefef861e525",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-a7cd0150e7e8f53dc2a1",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "可以看到树上的蜘蛛猴和鹦鹉白鹭，还可以看到湖里的鹈鹕黑天鹅火烈鸟等等",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-a7cd0150e7e8f53dc2a1",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-d8e593f7e5abb95e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-d8e593f7e5abb95e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "service_connection",
+    "service_name_text": "C5758",
+    "leg_id": "LEG-6b900fea195dc9332fa5",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "20:33黄龙九寨发车，22:20到成都东",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-6b900fea195dc9332fa5",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-cce2bec6928b8941"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-aa7a28cd9ea2e80e5757"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-cce2bec6928b8941"
+    ]
+  },
+  {
+    "from_entity_id": "POI-c97ee39818a3536c",
+    "to_entity_id": "POI-3464c42c5541834f",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-58a27611199a6a70dc64",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约10分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-58a27611199a6a70dc64",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "observation_ids": [
+          "P5OBS-e67ec5aee34a86f9"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "17:00-17:20",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-58a27611199a6a70dc64",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "observation_ids": [
+          "P5OBS-e67ec5aee34a86f9"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S014"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-e67ec5aee34a86f9"
+    ]
+  },
+  {
+    "from_entity_id": "POI-3464c42c5541834f",
+    "to_entity_id": "POI-859e5641d28e8b93",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-4b4e36525d52f9c17829",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约15分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-4b4e36525d52f9c17829",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "observation_ids": [
+          "P5OBS-173cb44b683b86d4"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "17:00-17:35",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-4b4e36525d52f9c17829",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "observation_ids": [
+          "P5OBS-173cb44b683b86d4"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S015"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-173cb44b683b86d4"
+    ]
+  },
+  {
+    "from_entity_id": "POI-9ea54f9e5e92a0ee",
+    "to_entity_id": "POI-aac7d90bfc5ff426",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-d23181b38a5988a29f0f",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "走1分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-d23181b38a5988a29f0f",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-9174dbd36e6ad99e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-9174dbd36e6ad99e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-d49792b6a476a673",
+    "transport_entity_id": "TRANSPORT-4b27a2166b41d88e",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费巴士",
+    "leg_id": "LEG-e779d9308fcc679ceb75",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-e779d9308fcc679ceb75",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-7a7ecfa3e01f09f8"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-7a7ecfa3e01f09f8"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d49792b6a476a673",
+    "to_entity_id": "POI-86a654325b202f68",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-ac139ef7f56617b1cd0d",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "几分钟即可到达",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-ac139ef7f56617b1cd0d",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-a8ac0fc05db11288"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-1aa77bf3c510731efa85"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-1aa77bf3c510731efa85"
+    ],
+    "observation_ids": [
+      "P5OBS-a8ac0fc05db11288"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-a5e2ae7adbddb3ba",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-3ea04a5e8c25805bf469",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-1d9a296918e1fc8c"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": "环线",
+    "leg_id": "LEG-f5a0a274852761819e24",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-a56d3cd91863312e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-5bfe3687eda400d9",
+    "transport_entity_id": null,
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-454fa72def96cbf92004",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "18:58-19:24",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-454fa72def96cbf92004",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3611c247675545f6"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥31",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-454fa72def96cbf92004",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3611c247675545f6"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-4b9601daed9486e52405"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-3611c247675545f6"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-ee07143d3d6c6f04",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "环园线",
+    "leg_id": "LEG-3d22f6f4d6eefa8baa71",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "整个路程大概30分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-3d22f6f4d6eefa8baa71",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-31ea222709157bb7"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-3c21511c40e0db856e70"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-3c21511c40e0db856e70"
+    ],
+    "observation_ids": [
+      "P5OBS-31ea222709157bb7"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ee07143d3d6c6f04",
+    "to_entity_id": "POI-a5e2ae7adbddb3ba",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "环园线",
+    "leg_id": "LEG-ae9cc6236ae342f5077b",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "整个路程大概30分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-ae9cc6236ae342f5077b",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-36bb7b50e554d2e5"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-3c21511c40e0db856e70"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-3c21511c40e0db856e70"
+    ],
+    "observation_ids": [
+      "P5OBS-36bb7b50e554d2e5"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a5e2ae7adbddb3ba",
+    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "环园线",
+    "leg_id": "LEG-3179056ff157cacabe33",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "整个路程大概30分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-3179056ff157cacabe33",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-c6a4b24ccf92225e"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-3c21511c40e0db856e70"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-3c21511c40e0db856e70"
+    ],
+    "observation_ids": [
+      "P5OBS-c6a4b24ccf92225e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-0baa51d763ec4739",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "园区的免费穿梭巴士",
+    "leg_id": "LEG-12fa8b2d672ddfb9955d",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-12fa8b2d672ddfb9955d",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-addf40c5f7b09eeb"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-376bf9fdd6cbafa19a57"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-376bf9fdd6cbafa19a57"
+    ],
+    "observation_ids": [
+      "P5OBS-addf40c5f7b09eeb"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-a5e2ae7adbddb3ba",
+    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "assertion_kind": "service_connection",
+    "service_name_text": "天鹅湖线",
+    "leg_id": "LEG-df87e17d9365edcdf87c",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-a6342fe2854dbf10"
+    ]
+  },
+  {
+    "from_entity_id": "POI-1fc2c78de022d941",
+    "to_entity_id": "POI-aac7d90bfc5ff426",
+    "transport_entity_id": "TRANSPORT-78f05fe80a344b95",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-320a7a9ddc3f9a675d7c",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-f807297c61bf52af4c7b"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-f807297c61bf52af4c7b"
+    ],
+    "observation_ids": [
+      "P5OBS-089b940078924621"
+    ]
+  },
+  {
+    "from_entity_id": "POI-aac7d90bfc5ff426",
+    "to_entity_id": "POI-945872fa06706211",
+    "transport_entity_id": "TRANSPORT-78f05fe80a344b95",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-fb143f9042a451602046",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-f807297c61bf52af4c7b"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-f807297c61bf52af4c7b"
+    ],
+    "observation_ids": [
+      "P5OBS-918c69f09541d312"
+    ]
+  },
+  {
+    "from_entity_id": "POI-10e8a874d4a64eeb",
+    "to_entity_id": "POI-d84c258e38dc6005",
+    "transport_entity_id": "TRANSPORT-4dfe4ae37d7ac7ce",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-c9a234f4630ad131cb69",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-07c83c169bf055f7"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d84c258e38dc6005",
+    "to_entity_id": "POI-d896be8c097d9bf2",
+    "transport_entity_id": "TRANSPORT-302154bebe2201cc",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-7843be3f1a6bfb1810b5",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-51d98e72b8324051"
+    ]
+  },
+  {
+    "from_entity_id": "POI-de6db9a7cdd443ab",
+    "to_entity_id": "POI-10e8a874d4a64eeb",
+    "transport_entity_id": "TRANSPORT-4dfe4ae37d7ac7ce",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-d2b8bc0d7225f7332580",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-9db96438a3c1eaa0"
+    ]
+  },
+  {
+    "from_entity_id": "POI-65869ec7fc0bc172",
+    "to_entity_id": "POI-a62c2af16093cd29",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-985fea548a2cd89d5639",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-8e0fe75c9b5ed544"
+    ]
+  },
+  {
+    "from_entity_id": "POI-d896be8c097d9bf2",
+    "to_entity_id": "POI-af9f086f65127147",
+    "transport_entity_id": "TRANSPORT-a3087430f466be14",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-3ba8fb337c4d13485fb7",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "不然你要走1.9km，属实没必要",
+        "condition": null,
+        "modality": "recommended",
+        "leg_id": "LEG-3ba8fb337c4d13485fb7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-99382d099cb8be35"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-e2077f8d46e080605491"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-e2077f8d46e080605491"
+    ],
+    "observation_ids": [
+      "P5OBS-99382d099cb8be35"
+    ]
+  },
+  {
+    "from_entity_id": "POI-1fc2c78de022d941",
+    "to_entity_id": "POI-a861b1470d96ab5f",
+    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "小火车",
+    "leg_id": "LEG-f38e63af3e24de4a5343",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "小火车只用了15分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-f38e63af3e24de4a5343",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-951670dbe343ead6"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "小火车是不停车的，而且车上比较颠簸，还经常会被自驾车挡在动物前面",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-f38e63af3e24de4a5343",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-951670dbe343ead6"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-2ea0d616a130a7bfd74a"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-2ea0d616a130a7bfd74a"
+    ],
+    "observation_ids": [
+      "P5OBS-951670dbe343ead6"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "service_connection",
+    "service_name_text": "C5782",
+    "leg_id": "LEG-7c76d0a0edbee0209194",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "06:45 成都东C5782→08:24黄龙九寨站",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-7c76d0a0edbee0209194",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-3ee7e005bce35fc7"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-e527e76be1ac64c5b3aa"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-e527e76be1ac64c5b3aa"
+    ],
+    "observation_ids": [
+      "P5OBS-3ee7e005bce35fc7"
+    ]
+  },
+  {
+    "from_entity_id": "POI-54159dd45e739e0c",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-0bda7df0b7655a1b",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-a60e4d6eea7ac03d5d86",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-fcde25eb5a0bae41"
+    ]
+  },
+  {
+    "from_entity_id": "POI-54159dd45e739e0c",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-39dad3cfe11d98d959c3",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "现场拼车",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-39dad3cfe11d98d959c3",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-32422af65427b750"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-b430dd293cdaaa72c7d2"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-b430dd293cdaaa72c7d2"
+    ],
+    "observation_ids": [
+      "P5OBS-32422af65427b750"
+    ]
+  },
+  {
+    "from_entity_id": "POI-41d5eefef861e525",
+    "to_entity_id": "POI-c9eafeca46dfede7",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-98445440f02e61b720f6",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-459487251328d732"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5bfe3687eda400d9",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-41202296c862e49f989a",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "12:50-13:19",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-41202296c862e49f989a",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-e99cc0d34ad8e1c0"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥31",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-41202296c862e49f989a",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-e99cc0d34ad8e1c0"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-e99cc0d34ad8e1c0"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5bfe3687eda400d9",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-8f91c620f059eb51",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-c48ed99867cf02d160ad",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "22-23:55",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-c48ed99867cf02d160ad",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ad48aea7c15785fe"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥524",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-c48ed99867cf02d160ad",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ad48aea7c15785fe"
+        ]
+      },
+      {
+        "attribute": "ride_duration",
+        "value_text": "大概40分钟到达登机口",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-c48ed99867cf02d160ad",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ad48aea7c15785fe"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-ad48aea7c15785fe"
+    ]
+  },
+  {
+    "from_entity_id": "POI-859e5641d28e8b93",
+    "to_entity_id": "POI-0bcb1dea43e5296a",
+    "transport_entity_id": "TRANSPORT-a3087430f466be14",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-c79b530ab3d9ff500505",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "一个小时车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-c79b530ab3d9ff500505",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "observation_ids": [
+          "P5OBS-4c4cf9842bd8f73b"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "07:00-08:10",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-c79b530ab3d9ff500505",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "observation_ids": [
+          "P5OBS-4c4cf9842bd8f73b"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S001"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-4c4cf9842bd8f73b"
+    ]
+  },
+  {
+    "from_entity_id": "POI-0bcb1dea43e5296a",
+    "to_entity_id": "POI-bbc557d2673e93f6",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-3c1266e1540b052e1e7a",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "步行30分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-3c1266e1540b052e1e7a",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "observation_ids": [
+          "P5OBS-5e845eb4cb4b6903"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "08:10-09:00",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-3c1266e1540b052e1e7a",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "observation_ids": [
+          "P5OBS-5e845eb4cb4b6903"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S002"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-5e845eb4cb4b6903"
+    ]
+  },
+  {
+    "from_entity_id": "POI-bbc557d2673e93f6",
+    "to_entity_id": "POI-871c3b6e819c218e",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-7c2c785d6143cdd9db32",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约5分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-7c2c785d6143cdd9db32",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "observation_ids": [
+          "P5OBS-eb1b3fc8f5e100a3"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "09:00-09:15",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-7c2c785d6143cdd9db32",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "observation_ids": [
+          "P5OBS-eb1b3fc8f5e100a3"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-eb1b3fc8f5e100a3"
+    ]
+  },
+  {
+    "from_entity_id": "POI-871c3b6e819c218e",
+    "to_entity_id": "POI-d84c258e38dc6005",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-8af2eb00d887bd71d52e",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约15分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-8af2eb00d887bd71d52e",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "observation_ids": [
+          "P5OBS-75af7f7d61d24526"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "09:15-09:45",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-8af2eb00d887bd71d52e",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "observation_ids": [
+          "P5OBS-75af7f7d61d24526"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-75af7f7d61d24526"
+    ]
+  }
+]

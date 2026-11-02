@@ -1,0 +1,1117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "P5抽取Agent工具调用契约（设计版）",
+  "$defs": {
+    "poi_id": {
+      "type": "string",
+      "pattern": "^POI-[0-9a-f]{16}$"
+    },
+    "transport_id": {
+      "type": "string",
+      "pattern": "^TRANSPORT-[0-9a-f]{16}$"
+    },
+    "leg_ref": {
+      "type": "string",
+      "pattern": "^LEGOBS-[0-9a-f]{16}$"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^P5OBS-[0-9a-f]{16}$"
+    },
+    "route_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 180,
+      "pattern": "\\S"
+    },
+    "step_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "\\S"
+    },
+    "issue_id": {
+      "type": "string",
+      "pattern": "^ISSUE-[0-9]{4,}$"
+    },
+    "normalization": {
+      "type": "object",
+      "properties": {
+        "mention_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "pattern": "\\S"
+        },
+        "entity_id": {
+          "$ref": "#/$defs/poi_id"
+        }
+      },
+      "required": [
+        "mention_id",
+        "entity_id"
+      ],
+      "additionalProperties": false
+    },
+    "condition_clause": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": [
+            "audience",
+            "weather",
+            "date_time",
+            "fitness",
+            "time_budget",
+            "crowding",
+            "service_availability",
+            "ticket",
+            "access",
+            "other"
+          ],
+          "description": "audience=人群，weather=天气，date_time=日期时间，fitness=体力，time_budget=时间预算，crowding=拥挤程度，service_availability=服务可用，ticket=票务，access=进入要求，other=其他。"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "pattern": "\\S",
+          "description": "这一个条件的原文文字。"
+        }
+      },
+      "required": [
+        "category",
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "condition": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200,
+          "pattern": "\\S",
+          "description": "完整条件文字，保留否定词和适用范围。"
+        },
+        "logic": {
+          "type": "string",
+          "enum": [
+            "single",
+            "all",
+            "any",
+            "complex_unspecified"
+          ],
+          "description": "single=单条件；all=全部满足；any=任一满足；complex_unspecified=保留原文表达的复杂逻辑。"
+        },
+        "clauses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/condition_clause"
+          },
+          "minItems": 1,
+          "maxItems": 20,
+          "description": "逐项填写条件，不把后果放入条件。"
+        }
+      },
+      "required": [
+        "text",
+        "logic",
+        "clauses"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "logic": {
+                "const": "single"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "clauses": {
+                "maxItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "logic": {
+                "enum": [
+                  "all",
+                  "any"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "clauses": {
+                "minItems": 2
+              }
+            }
+          }
+        }
+      ],
+      "description": "条件原文及逻辑；没有适用条件时，上层字段填写null。"
+    },
+    "target": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "POI"
+            },
+            "id": {
+              "$ref": "#/$defs/poi_id"
+            }
+          },
+          "required": [
+            "kind",
+            "id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "TRANSPORT"
+            },
+            "id": {
+              "$ref": "#/$defs/transport_id"
+            }
+          },
+          "required": [
+            "kind",
+            "id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "LEG"
+            },
+            "id": {
+              "$ref": "#/$defs/leg_ref"
+            }
+          },
+          "required": [
+            "kind",
+            "id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "ROUTE"
+            },
+            "id": {
+              "$ref": "#/$defs/route_id"
+            }
+          },
+          "required": [
+            "kind",
+            "id"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "poi_fact": {
+      "type": "object",
+      "properties": {
+        "attribute": {
+          "type": "string",
+          "enum": [
+            "parent_park",
+            "opening_time",
+            "reservation_requirement",
+            "entry_restriction",
+            "recommended_stay",
+            "visit_time",
+            "arrival_time",
+            "departure_time"
+          ],
+          "description": "parent_park=所属园区，opening_time=开放时间，reservation_requirement=预约要求，entry_restriction=进入限制，recommended_stay=建议停留时长，visit_time=游览时间，arrival_time=到达时间，departure_time=离开时间。"
+        },
+        "value_text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200,
+          "pattern": "\\S",
+          "description": "原文属性内容；时间和时长直接写自然语言。"
+        },
+        "related_poi_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/poi_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "所属园区的地点ID，仅parent_park填写，其他属性为null。"
+        },
+        "condition": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "该属性适用的条件；无条件填null。"
+        },
+        "modality": {
+          "type": "string",
+          "enum": [
+            "asserted",
+            "recommended",
+            "required",
+            "prohibited",
+            "unclear"
+          ],
+          "description": "asserted=事实，recommended=建议，required=要求，prohibited=禁止，unclear=语气不明确。"
+        }
+      },
+      "required": [
+        "attribute",
+        "value_text",
+        "related_poi_id",
+        "condition",
+        "modality"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "attribute": {
+                "const": "parent_park"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "related_poi_id": {
+                "$ref": "#/$defs/poi_id"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "related_poi_id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "leg_fact": {
+      "type": "object",
+      "properties": {
+        "attribute": {
+          "type": "string",
+          "enum": [
+            "ride_duration",
+            "operating_time",
+            "frequency",
+            "fare",
+            "limitation"
+          ],
+          "description": "ride_duration=乘坐时长，operating_time=运行时间，frequency=班次，fare=费用，limitation=适用限制。"
+        },
+        "value_text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200,
+          "pattern": "\\S",
+          "description": "原文中的时长、运行时间、班次、费用或限制文字。"
+        },
+        "condition": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "该属性适用的条件；无条件填null。"
+        },
+        "modality": {
+          "type": "string",
+          "enum": [
+            "asserted",
+            "recommended",
+            "required",
+            "prohibited",
+            "unclear"
+          ],
+          "description": "asserted=事实，recommended=建议，required=要求，prohibited=禁止，unclear=语气不明确。"
+        }
+      },
+      "required": [
+        "attribute",
+        "value_text",
+        "condition",
+        "modality"
+      ],
+      "additionalProperties": false
+    },
+    "submit_poi_facts": {
+      "type": "object",
+      "properties": {
+        "entity_id": {
+          "$ref": "#/$defs/poi_id",
+          "description": "正文所述地点在当前景区地点注册表中的ID。"
+        },
+        "route_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/route_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "本属性属于某条线路的行程安排时填写已有线路ID，独立地点信息填null。"
+        },
+        "step_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/step_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "属于具体行程步骤时填该步骤ID，否则填null。"
+        },
+        "facts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/poi_fact"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "description": "逐个地点检查全部八类属性，尽可能完整地提交原文提供的信息；同类属性存在多条信息或不同条件时分别保存。检查后没有任何属性信息才填[]。"
+        },
+        "normalizations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/normalization"
+          },
+          "minItems": 0,
+          "maxItems": 30,
+          "uniqueItems": true
+        },
+        "resolves_issue_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue_id"
+          },
+          "minItems": 0,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "description": "修复之前失败的请求时填写反馈中的issue_id；正常提交填[]。"
+        },
+        "condition_record_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/record_id"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "先调用条件工具得到的data.record_ids，填写适用于当前地点、路段或线路的记录ID；没有填[]。"
+        }
+      },
+      "required": [
+        "entity_id",
+        "route_id",
+        "step_id",
+        "facts",
+        "resolves_issue_ids",
+        "condition_record_ids"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "route_id": {
+                "type": "null"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "step_id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "submit_transport_leg": {
+      "type": "object",
+      "properties": {
+        "from_entity_id": {
+          "$ref": "#/$defs/poi_id",
+          "description": "出发地点ID，必填，从地点注册表复制。"
+        },
+        "to_entity_id": {
+          "$ref": "#/$defs/poi_id",
+          "description": "到达地点ID，必填，从地点注册表复制。"
+        },
+        "transport_entity_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/transport_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "步行、缆车、小火车等交通方式的ID；方式未说明填null。"
+        },
+        "route_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/route_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "属于已有线路时填写线路ID；独立交通信息填null。"
+        },
+        "from_step_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/step_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "出发地点对应的已有线路步骤ID；不确定填null。"
+        },
+        "to_step_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/step_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "到达地点对应的已有线路步骤ID；不确定填null。"
+        },
+        "assertion_kind": {
+          "type": "string",
+          "enum": [
+            "service_connection",
+            "visitor_movement",
+            "route_recommendation",
+            "unspecified"
+          ],
+          "description": "service_connection=交通服务连接，visitor_movement=游客实际移动，route_recommendation=推荐走法，unspecified=无法区分。"
+        },
+        "service_name_text": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "原文明示的交通服务名称；没有填null。"
+        },
+        "facts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/leg_fact"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "description": "交通属性列表，没有附加信息填[]。"
+        },
+        "normalizations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/normalization"
+          },
+          "minItems": 0,
+          "maxItems": 30,
+          "uniqueItems": true
+        },
+        "resolves_issue_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue_id"
+          },
+          "minItems": 0,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "description": "修复之前失败的请求时填写反馈中的issue_id；正常提交填[]。"
+        },
+        "condition_record_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/record_id"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "先调用条件工具得到的data.record_ids，填写适用于当前地点、路段或线路的记录ID；没有填[]。"
+        }
+      },
+      "required": [
+        "from_entity_id",
+        "to_entity_id",
+        "transport_entity_id",
+        "route_id",
+        "from_step_id",
+        "to_step_id",
+        "assertion_kind",
+        "service_name_text",
+        "facts",
+        "resolves_issue_ids",
+        "condition_record_ids"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "route_id": {
+                "type": "null"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "from_step_id": {
+                "type": "null"
+              },
+              "to_step_id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "submit_route": {
+      "type": "object",
+      "properties": {
+        "route_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/route_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "已有线路复用用户消息中的route_id；正文中新发现的线路填null，由程序生成。"
+        },
+        "summary": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1600,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "仅依据当前原文的简短线路介绍，缺少内容可填null。"
+        },
+        "recommended_audiences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "description": "原文明示的推荐人群；未说明填[]。"
+        },
+        "audience_basis": {
+          "type": "string",
+          "enum": [
+            "explicit",
+            "not_stated"
+          ],
+          "description": "原文明示人群用explicit；未说明用not_stated。"
+        },
+        "normalizations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/normalization"
+          },
+          "minItems": 0,
+          "maxItems": 30,
+          "uniqueItems": true
+        },
+        "resolves_issue_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue_id"
+          },
+          "minItems": 0,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "description": "修复之前失败的请求时填写反馈中的issue_id；正常提交填[]。"
+        },
+        "condition_record_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/record_id"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "先调用条件工具得到的data.record_ids，填写适用于当前地点、路段或线路的记录ID；没有填[]。"
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/route_step"
+          },
+          "minItems": 1,
+          "maxItems": 1000,
+          "description": "按原文步骤顺序串联地点和交通方式；重复到访保留独立步骤。已有线路提交当前包给出的全部步骤。"
+        }
+      },
+      "required": [
+        "route_id",
+        "summary",
+        "recommended_audiences",
+        "audience_basis",
+        "resolves_issue_ids",
+        "condition_record_ids",
+        "steps"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "audience_basis": {
+                "const": "not_stated"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "recommended_audiences": {
+                "maxItems": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "recommended_audiences": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "submit_conditional_advice": {
+      "type": "object",
+      "properties": {
+        "statement_kind": {
+          "type": "string",
+          "enum": [
+            "conditional_advice",
+            "conditional_restriction",
+            "conditional_fact",
+            "general_advice",
+            "general_restriction",
+            "incomplete_condition"
+          ],
+          "description": "conditional_advice=条件建议，conditional_restriction=条件限制，conditional_fact=条件事实，general_advice=一般建议，general_restriction=一般限制，incomplete_condition=仅有条件。"
+        },
+        "condition": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "有条件时填写条件文字、逻辑和各子条件；一般建议/限制填null。"
+        },
+        "consequence_text": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1600,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "建议动作、限制内容或事实；仅有条件、没有后果时填null。"
+        },
+        "force": {
+          "type": "string",
+          "enum": [
+            "recommended",
+            "avoid",
+            "prohibited",
+            "required",
+            "optional",
+            "descriptive",
+            "unspecified"
+          ],
+          "description": "recommended=建议，avoid=避免，prohibited=禁止，required=要求，optional=可选，descriptive=事实陈述，unspecified=语气不明确。"
+        },
+        "targets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/target"
+          },
+          "minItems": 0,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "description": "可以确定的关联对象。kind为POI/TRANSPORT/LEG/ROUTE，id填对应注册ID或工具返回ID；暂时无法关联填[]，后续工具通过condition_record_ids补上关联。"
+        },
+        "normalizations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/normalization"
+          },
+          "minItems": 0,
+          "maxItems": 30,
+          "uniqueItems": true
+        },
+        "resolves_issue_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue_id"
+          },
+          "minItems": 0,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "description": "修复之前失败的请求时填写反馈中的issue_id；正常提交填[]。"
+        }
+      },
+      "required": [
+        "statement_kind",
+        "condition",
+        "consequence_text",
+        "force",
+        "targets",
+        "resolves_issue_ids"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "statement_kind": {
+                "enum": [
+                  "general_advice",
+                  "general_restriction"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "condition": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "condition": {
+                "$ref": "#/$defs/condition"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "statement_kind": {
+                "const": "incomplete_condition"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "consequence_text": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "consequence_text": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1600,
+                "pattern": "\\S"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "retract_records": {
+      "type": "object",
+      "properties": {
+        "record_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/record_id"
+          },
+          "minItems": 1,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "本包之前成功反馈的记录ID；若反馈还列出依赖记录，将它们一起加入后重试。"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200,
+          "pattern": "\\S",
+          "description": "撤回原因。"
+        }
+      },
+      "required": [
+        "record_ids",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "finish_chunk": {
+      "type": "object",
+      "properties": {
+        "declaration": {
+          "type": "string",
+          "enum": [
+            "extracted",
+            "no_relevant_information",
+            "only_skipped"
+          ],
+          "description": "extracted=有有效结果，no_relevant_information=没有相关信息，only_skipped=没有有效结果且放弃了失败请求。"
+        },
+        "ignored_issue_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue_id"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "决定放弃的未解决issue_id，没有填[]。"
+        },
+        "note": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200,
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "可选处理说明；没有填null。"
+        }
+      },
+      "required": [
+        "declaration",
+        "ignored_issue_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "route_step": {
+      "type": "object",
+      "properties": {
+        "step_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/step_id"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "已有线路中的步骤ID；新线路的步骤填null，由程序生成。"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1600,
+          "pattern": "\\S",
+          "description": "该步骤对应的原文文字。"
+        },
+        "poi_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/poi_id"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "本步骤的地点ID列表；未能匹配到地点时填[]并保留text。"
+        },
+        "transport_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/transport_id"
+          },
+          "minItems": 0,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "description": "本步骤出现的交通方式ID列表，没有填[]。"
+        }
+      },
+      "required": [
+        "step_id",
+        "text",
+        "poi_ids",
+        "transport_ids"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "tool_name": {
+          "const": "submit_poi_facts"
+        },
+        "arguments": {
+          "$ref": "#/$defs/submit_poi_facts"
+        }
+      },
+      "required": [
+        "tool_name",
+        "arguments"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "tool_name": {
+          "const": "submit_transport_leg"
+        },
+        "arguments": {
+          "$ref": "#/$defs/submit_transport_leg"
+        }
+      },
+      "required": [
+        "tool_name",
+        "arguments"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "tool_name": {
+          "const": "submit_route"
+        },
+        "arguments": {
+          "$ref": "#/$defs/submit_route"
+        }
+      },
+      "required": [
+        "tool_name",
+        "arguments"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "tool_name": {
+          "const": "submit_conditional_advice"
+        },
+        "arguments": {
+          "$ref": "#/$defs/submit_conditional_advice"
+        }
+      },
+      "required": [
+        "tool_name",
+        "arguments"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "tool_name": {
+          "const": "retract_records"
+        },
+        "arguments": {
+          "$ref": "#/$defs/retract_records"
+        }
+      },
+      "required": [
+        "tool_name",
+        "arguments"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "tool_name": {
+          "const": "finish_chunk"
+        },
+        "arguments": {
+          "$ref": "#/$defs/finish_chunk"
+        }
+      },
+      "required": [
+        "tool_name",
+        "arguments"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

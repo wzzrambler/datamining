@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "7629d0736ce3aaf0d2e1521cd8a53b4777a4a2084ea35acfedcc5043c1b87393",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2500648,
+  "round_trip_ms": 227.81760001089424,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            566.0,
+            450.0
+          ],
+          [
+            791.0,
+            457.0
+          ],
+          [
+            789.0,
+            525.0
+          ],
+          [
+            563.0,
+            517.0
+          ]
+        ],
+        "confidence": 0.8306212425231934,
+        "text": "七隆次界"
+      },
+      {
+        "box": [
+          [
+            602.0,
+            513.0
+          ],
+          [
+            765.0,
+            519.0
+          ],
+          [
+            764.0,
+            541.0
+          ],
+          [
+            601.0,
+            535.0
+          ]
+        ],
+        "confidence": 0.9754189252853394,
+        "text": "CHIMELONG PARADISE"
+      },
+      {
+        "box": [
+          [
+            397.0,
+            1182.0
+          ],
+          [
+            889.0,
+            1163.0
+          ],
+          [
+            894.0,
+            1300.0
+          ],
+          [
+            403.0,
+            1319.0
+          ]
+        ],
+        "confidence": 0.7072990536689758,
+        "text": "MUEIe"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.85358,
+      "decode": 40.931778,
+      "det_infer": 110.341513,
+      "det_post": 1.117962,
+      "det_pre": 35.50221,
+      "pipeline": 163.132157,
+      "rec_infer": 9.783808,
+      "rec_post": 0.38947699999999996,
+      "rec_pre": 0.252908,
+      "server_compute": 204.064857,
+      "sort": 0.003016
+    },
+    "request_id": "clean-7629d0736ce3aaf0d2e1521c"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "input_records": 1470,
+  "rules": 1358,
+  "attribute_records": 112,
+  "summaries": 265,
+  "quarantined_records": [
+    {
+      "source_record_id": "FACT-4a86b60c81b1a9ae6a34",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "FACT-9d1f441a241e4c5c489a",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-1012b71297614c324064",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-3347ab53eaa397a0f0b2",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-588b7e3b21853d84278b",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-5a992ed221b6a3eba5f6",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-5d929ce9f939d771963c",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-5ef004a3f4d7f33fab9f",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-6bb6fa69c94a805ea7c4",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-76970136aa56586286ec",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-9b114a843e334120448a",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-bf45b1153eaa78d1ed75",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-c5892f7b160887c99664",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-ea868eb7adff27251bf3",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-ea8e4f9301646c4f0360",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    }
+  ],
+  "input_target_memberships": 1816,
+  "summary_items": 1815,
+  "exact_duplicate_memberships_merged": 1,
+  "semantic_merge_completed": false,
+  "llm_calls": 0,
+  "limitations": [
+    "主题及分栏是程序标签，不是语义核真",
+    "仅合并同条件、同语气、同目标及同作用域的明确重复",
+    "尚未进行LLM同义归并或全面矛盾检测；不将多来源数量视为可信度"
+  ]
+}

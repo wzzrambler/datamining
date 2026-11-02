@@ -1,0 +1,4 @@
+﻿rule_id,condition_text,advice_text,assistant_review,revision_basis,written_back_to_formal_results,user_review,reviewer,review_date
+RULE-3cf6c2a2c60a76ffbeef,因为午后想去星梦奇园和欢乐嘉年华溜溜,选择椰林餐厅,存疑,个人行程原因与个人选择可能被泛化为建议，需核对叙述语气。,False,人工确认存疑，待修订,,2026-11-01
+RULE-2b7dd1bc24a1e219d6be,如果不怕晒,室外比室内要好玩很多,存疑,‘室外更好玩’属于条件评价，是否足以作为建议需人工判定。,False,人工确认存疑，待修订,,2026-11-01
+RULE-28dfc38a510ec3072b77,上午去,飞船乐园人少,存疑,当前更像‘上午去→人少’的条件事实；如原文主张上午游玩，应重新核对建议动作与理由边界。,False,人工确认存疑，待修订,,2026-11-01

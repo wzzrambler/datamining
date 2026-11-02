@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "edab97e2c97de93380e077254aeaf9f25aecc93d1657b9b76df9f6af1b7f2fe4",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2530182,
+  "round_trip_ms": 229.53019999840762,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1443,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            353.0,
+            637.0
+          ],
+          [
+            721.0,
+            640.0
+          ],
+          [
+            721.0,
+            728.0
+          ],
+          [
+            353.0,
+            725.0
+          ]
+        ],
+        "confidence": 0.9989116191864014,
+        "text": "国际大马戏"
+      },
+      {
+        "box": [
+          [
+            157.0,
+            736.0
+          ],
+          [
+            917.0,
+            736.0
+          ],
+          [
+            917.0,
+            788.0
+          ],
+          [
+            157.0,
+            788.0
+          ]
+        ],
+        "confidence": 0.9972482919692993,
+        "text": "全球23个国家300余名马戏精英同台献艺"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.4521609999999998,
+      "decode": 31.086201,
+      "det_infer": 117.839226,
+      "det_post": 1.282448,
+      "det_pre": 32.676985,
+      "pipeline": 168.145787,
+      "rec_infer": 10.366916,
+      "rec_post": 0.5092139999999999,
+      "rec_pre": 0.229101,
+      "server_compute": 199.23251,
+      "sort": 0.002985
+    },
+    "request_id": "clean-edab97e2c97de93380e07725"
+  }
+}

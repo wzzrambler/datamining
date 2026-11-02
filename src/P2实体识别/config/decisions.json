@@ -1,0 +1,319 @@
+[
+  {
+    "scenic_code": "GZCL",
+    "term": "汉溪大道",
+    "action": "defer",
+    "reason": "OCR地图存在近形错字，不能当作车站名",
+    "recommendation": "仅清晰写法归一，其他保留歧义"
+  },
+  {
+    "scenic_code": "GZCL",
+    "term": "山題",
+    "action": "defer",
+    "reason": "OCR疑似“山魅”错识",
+    "recommendation": "不规范化，须对照原图"
+  },
+  {
+    "scenic_code": "GZCL",
+    "term": "细尾蒙",
+    "action": "defer",
+    "reason": "疑似OCR/原文错字",
+    "recommendation": "保留原写法不猜名"
+  },
+  {
+    "scenic_code": "GZCL",
+    "term": "双溪长隆站",
+    "action": "defer",
+    "reason": "疑似OCR/笔误，站名无法确证",
+    "recommendation": "不自动改为汉溪长隆站"
+  },
+  {
+    "scenic_code": "GZCL",
+    "term": "小火车",
+    "action": "contextual",
+    "reason": "兼具交通和独立体验功能",
+    "recommendation": "按语境择类，不强制双标"
+  },
+  {
+    "scenic_code": "GZCL",
+    "term": "缆车",
+    "action": "contextual",
+    "reason": "兼具交通和观景体验语境",
+    "recommendation": "按语境择类，站点为support"
+  },
+  {
+    "scenic_code": "GZCL",
+    "term": "熊猫村",
+    "action": "contextual",
+    "reason": "评论称熊猫村无熊猫，正文却作为参观点",
+    "recommendation": "保留名称并待核实园区地理边界"
+  },
+  {
+    "scenic_code": "GZCL",
+    "term": "北门",
+    "action": "contextual",
+    "reason": "多个园区均可能有北门",
+    "recommendation": "必须以所属园区语境限定"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "水世界",
+    "action": "defer",
+    "reason": "泛称/省略或具体指向不明，v1不自动确认为POI"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "深海世界",
+    "action": "defer",
+    "reason": "泛称/省略或具体指向不明，v1不自动确认为POI"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "航海家号",
+    "action": "defer",
+    "reason": "泛称/省略或具体指向不明，v1不自动确认为POI"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "企鹅",
+    "action": "defer",
+    "reason": "泛称/省略或具体指向不明，v1不自动确认为POI"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "正门",
+    "action": "defer",
+    "reason": "泛称/省略或具体指向不明，v1不自动确认为POI"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "2/3号停车场",
+    "action": "defer",
+    "reason": "泛称/省略或具体指向不明，v1不自动确认为POI"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "水濑之家",
+    "action": "defer",
+    "reason": "与“水獭之家”不一致，原文既有异写又有OCR可能；保留原词，需实地/官方名核对。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "海象馆",
+    "action": "defer",
+    "reason": "NOTE-04路线出现；其他正文和图中多见“海象岛/海象山”，可能为泛馆名或OCR异写。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "海底互动胎",
+    "action": "defer",
+    "reason": "OCR疑似“海底互动船”，不能自动改写为规范词。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "鹦瞒过山车",
+    "action": "defer",
+    "reason": "OCR疑似“鹦鹉过山车”。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "旋转水转",
+    "action": "defer",
+    "reason": "疑似“旋转水战”笔误。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "海洋奇现",
+    "action": "defer",
+    "reason": "OCR疑似“海洋奇观”。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "长隆秀",
+    "action": "activity_not_poi",
+    "reason": "演出活动/节目，不是POI。场地可能是长隆剧院但原文不应补造。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "海洋保卫战",
+    "action": "activity_not_poi",
+    "reason": "烟花与水上演艺活动名称，不作POI。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "海洋夜光大巡游",
+    "action": "activity_not_poi",
+    "reason": "巡游活动，不作POI。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "烟花秀",
+    "action": "activity_not_poi",
+    "reason": "活动类型泛称，不作POI。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "ZHCL",
+    "term": "卡卡剧院",
+    "action": "defer",
+    "reason": "有些语境指演出/节目场次，亦可能为场馆简称，不能直接等同长隆剧院。",
+    "recommendation": "保留原文证据，v1不自动作无依据归一；后续按地图/官方命名复核。"
+  },
+  {
+    "scenic_code": "JZG",
+    "term": "诺日朗",
+    "action": "defer",
+    "reason": "可指瀑布、中心/站点、区域及餐饮语境。",
+    "recommendation": "具名词条分开，裸称依上下文判定。"
+  },
+  {
+    "scenic_code": "JZG",
+    "term": "珍珠潍站",
+    "action": "defer",
+    "reason": "疑似OCR把滩识为潍。",
+    "recommendation": "保留原词，核图确认后再归一。"
+  },
+  {
+    "scenic_code": "JZG",
+    "term": "镑竹海",
+    "action": "defer",
+    "reason": "疑似OCR错字。",
+    "recommendation": "不要自动归为箭竹海。"
+  },
+  {
+    "scenic_code": "JZG",
+    "term": "熊漏海",
+    "action": "defer",
+    "reason": "疑似OCR错字。",
+    "recommendation": "不要自动归为熊猫海。"
+  },
+  {
+    "scenic_code": "JZG",
+    "term": "诺日诺中心站",
+    "action": "defer",
+    "reason": "疑似OCR/笔误。",
+    "recommendation": "核图后再判断是否诺日朗中心站。"
+  },
+  {
+    "scenic_code": "JZG",
+    "term": "九寨黄龍棍場",
+    "action": "defer",
+    "reason": "地图OCR无法确认。",
+    "recommendation": "不静默归一。"
+  },
+  {
+    "scenic_code": "JZG",
+    "term": "沟口",
+    "action": "defer",
+    "reason": "多处泛指九寨沟入口、景区周边住宿区域或沟内方向；不能仅据此认定为景区出入口实体。",
+    "recommendation": "保留为待定位歧义；只有上下文明确指具体入口时，后续可按景区局部名称处理。"
+  },
+  {
+    "topic": "walking",
+    "action": "retain_transport",
+    "reason": "用户确认保留步行和徒步，具体叙事子串误命中单独修复"
+  },
+  {
+    "topic": "activities",
+    "action": "candidate_only",
+    "reason": "节目/巡游/烟花不当作POI场馆，也不新增第四类实体"
+  },
+  {
+    "topic": "time_boundary",
+    "action": "core_value",
+    "reason": "用户确认核心时间值，相对提示词另留上下文"
+  },
+  {
+    "topic": "大夫森林公园",
+    "action": "retain_literal_name",
+    "reason": "未证实第三方疑似地名错误，不因猜测删去已采纳专名，也不自动改名"
+  },
+  {
+    "topic": "原始森林遍布",
+    "action": "retain_rejection",
+    "reason": "自然景物叙述，不自动对齐同名景点"
+  },
+  {
+    "topic": "大小金铃海",
+    "action": "ellipsis_candidate_only",
+    "reason": "不为非连续字符串大金铃海编造offset"
+  },
+  {
+    "topic": "小火车/缆车",
+    "action": "retain_contextual_roles",
+    "reason": "交通与体验按语境择类，拒绝全文统一ride"
+  },
+  {
+    "topic": "虎鲸之约/宇宙世界/探索大学堂",
+    "action": "unresolved_candidate_only",
+    "reason": "原文未充分区分活动、场馆及装置，不仅凭第三方建议扩为POI"
+  },
+  {
+    "topic": "风情街",
+    "action": "defer_generic_location",
+    "reason": "泛称和描述性边界不够明确，不自动扩大地点范围"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "火烈鸟",
+    "reason": "supporting_route_stop"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "白虎山",
+    "reason": "literal_name_no_alias_merge"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "熊森林",
+    "reason": "literal_route_label"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "GZCL",
+    "term": "D/E口",
+    "reason": "station_context_required"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "百慕大历险",
+    "reason": "explicit_simulator_facility"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "水母墙",
+    "reason": "explicit_photo_point"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "宇宙乐园",
+    "reason": "explicit_restaurant_location"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "ZHCL",
+    "term": "海象馆",
+    "reason": "literal_name_no_alias_merge"
+  },
+  {
+    "action": "add_verified_term",
+    "scenic_code": "JZG",
+    "term": "花海",
+    "reason": "standalone_list_item_only"
+  }
+]

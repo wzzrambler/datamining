@@ -1,0 +1,48 @@
+{
+  "run_id": "full-final-20261101",
+  "packages_prepared": 2229,
+  "packages_attempted": 2229,
+  "status_counts": {
+    "COMPLETED": 2229
+  },
+  "active_completed_observations": 3741,
+  "conditions": 1358,
+  "p5_complete_conditions": 291,
+  "transport_legs": 115,
+  "p3_routes_inherited": 42,
+  "new_routes_extracted": 176,
+  "rule_categories": {
+    "service_availability": 16,
+    "other": 180,
+    "weather": 22,
+    "audience": 96,
+    "date_time": 178,
+    "access": 27,
+    "ticket": 31,
+    "time_budget": 28,
+    "fitness": 12,
+    "crowding": 22
+  },
+  "usage": {
+    "prompt_tokens": 38112254,
+    "completion_tokens": 908213,
+    "total_tokens": 39020467
+  },
+  "max_actual_prompt_tokens": 15180,
+  "limitations": [
+    "来源精度为输入包，不声称每条事实均已定位精确引句",
+    "P5仅保存逐条抽取与关联；时间汇总、条件推荐汇总、线路筛选和入库统一由P6负责",
+    "未完成独立人工金标准评估；历史模型用量从真实日志保留，本次导出不请求模型"
+  ],
+  "usage_selected_completed": {
+    "prompt_tokens": 37970161,
+    "completion_tokens": 901513,
+    "total_tokens": 38871674
+  },
+  "original_packages_covered": 2226,
+  "original_failed_packages_replaced": 1,
+  "recovery_fragments": 4,
+  "usage_source": "preserved_real_execution_summary; offline_export_made_no_model_requests",
+  "artifact_stage": "P5_extraction_only",
+  "quality_processing_owner": "P6"
+}

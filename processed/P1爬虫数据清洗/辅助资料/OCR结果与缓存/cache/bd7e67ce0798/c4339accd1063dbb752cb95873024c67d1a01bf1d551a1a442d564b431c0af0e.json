@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "c4339accd1063dbb752cb95873024c67d1a01bf1d551a1a442d564b431c0af0e",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2814659,
+  "round_trip_ms": 253.5517000069376,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1080,
+      "width": 1920
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            757.0,
+            968.0
+          ],
+          [
+            1165.0,
+            963.0
+          ],
+          [
+            1166.0,
+            1033.0
+          ],
+          [
+            758.0,
+            1039.0
+          ]
+        ],
+        "confidence": 0.887437641620636,
+        "text": "JOSMO POCKET3"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.608108,
+      "decode": 38.904994,
+      "det_infer": 139.588239,
+      "det_post": 1.342314,
+      "det_pre": 46.133538,
+      "pipeline": 196.592261,
+      "rec_infer": 3.374668,
+      "rec_post": 0.152431,
+      "rec_pre": 0.093344,
+      "server_compute": 235.498157,
+      "sort": 0.003177
+    },
+    "request_id": "clean-c4339accd1063dbb752cb958"
+  }
+}

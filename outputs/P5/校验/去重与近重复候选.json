@@ -1,0 +1,81 @@
+{
+  "raw_active_rules": 1363,
+  "deduplicated_rules": 1358,
+  "raw_teacher_rules": 292,
+  "deduplicated_teacher_rules": 291,
+  "merged_examples": [
+    {
+      "rule_id": "RULE-2c68a9d1046caa8e67c4",
+      "condition": null,
+      "consequence_text": "16:30下来刚好赶上巡游可看，小朋友喜欢",
+      "observation_ids": [
+        "P5OBS-d9e61a0db9fd8e58",
+        "P5OBS-72b39c503c03252c"
+      ]
+    },
+    {
+      "rule_id": "RULE-df6bccfb8dcef9ea51b3",
+      "condition": {
+        "text": "下午",
+        "logic": "single",
+        "clauses": [
+          {
+            "category": "date_time",
+            "text": "下午"
+          }
+        ]
+      },
+      "consequence_text": "人比较少，排了一会就到了",
+      "observation_ids": [
+        "P5OBS-e9f73759dec0139c",
+        "P5OBS-4a1d4136b8672d08"
+      ]
+    },
+    {
+      "rule_id": "RULE-873afaef6896290b5268",
+      "condition": null,
+      "consequence_text": "提前20分钟去横琴海占位",
+      "observation_ids": [
+        "P5OBS-5b2725ccba232c59",
+        "P5OBS-c2ebdadc0c4339d1"
+      ]
+    },
+    {
+      "rule_id": "RULE-8192e18d02198b65e7eb",
+      "condition": {
+        "text": "上午动物们精神最好",
+        "logic": "single",
+        "clauses": [
+          {
+            "category": "date_time",
+            "text": "上午"
+          }
+        ]
+      },
+      "consequence_text": "进门直接冲小火车",
+      "observation_ids": [
+        "P5OBS-f35a5835eb179eb9",
+        "P5OBS-ccc93286ee43d9d2"
+      ]
+    },
+    {
+      "rule_id": "RULE-796db924faf583a0d69d",
+      "condition": null,
+      "consequence_text": "景区观光车",
+      "observation_ids": [
+        "P5OBS-5e0065a348f54bcf",
+        "P5OBS-5e71fdbd7bbb5d88"
+      ]
+    }
+  ],
+  "near_duplicate_candidates": [
+    {
+      "rule_a": "RULE-51a919190e4274dbfabb",
+      "rule_b": "RULE-31336697ea0fbe555b1c",
+      "similarity": 0.9474,
+      "text_a": "旺季人真的超级多；必须合理安排，才能值回票价",
+      "text_b": "旺季人真的超级多；必须合理安排,值回票价",
+      "decision": "用户采纳近重复疑点，保留为待修订候选，尚未合并"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "527b0bdce965351194dc5a56bb52641f096b287a8de90ded57cddeaf072f8a61",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2704278,
+  "round_trip_ms": 214.03709999867715,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            337.0,
+            677.0
+          ],
+          [
+            755.0,
+            674.0
+          ],
+          [
+            756.0,
+            761.0
+          ],
+          [
+            338.0,
+            764.0
+          ]
+        ],
+        "confidence": 0.9838972687721252,
+        "text": "#中华白海豚"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.776248,
+      "decode": 36.844178,
+      "det_infer": 115.756094,
+      "det_post": 1.013305,
+      "det_pre": 37.681545,
+      "pipeline": 158.894168,
+      "rec_infer": 3.462204,
+      "rec_post": 0.124204,
+      "rec_pre": 0.072543,
+      "server_compute": 195.739328,
+      "sort": 0.000631
+    },
+    "request_id": "clean-527b0bdce965351194dc5a56"
+  }
+}

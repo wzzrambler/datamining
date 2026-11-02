@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-05-R-749b346213"
+  },
+  {
+    "rank": 2,
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-05-R-749b346213"
+  },
+  {
+    "rank": 3,
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-03-R-7f44fd1c84"
+  },
+  {
+    "rank": 4,
+    "official_route_id": "JZG-OFF-01-R-5489d330c8",
+    "visitor_route_id": "JZG-NOTE-03-R-7f44fd1c84"
+  },
+  {
+    "rank": 5,
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-11-R-a7eac262f6"
+  },
+  {
+    "rank": 6,
+    "official_route_id": "JZG-OFF-01-R-6716383269",
+    "visitor_route_id": "JZG-NOTE-04-R-2cf46b07bb"
+  },
+  {
+    "rank": 7,
+    "official_route_id": "GZCL-OFF-01-R-b98590e484",
+    "visitor_route_id": "GZCL-NOTE-12-R-f5fee04dec"
+  },
+  {
+    "rank": 8,
+    "official_route_id": "GZCL-OFF-01-R-b98590e484",
+    "visitor_route_id": "GZCL-NOTE-06-R-3ff34f39b9"
+  }
+]

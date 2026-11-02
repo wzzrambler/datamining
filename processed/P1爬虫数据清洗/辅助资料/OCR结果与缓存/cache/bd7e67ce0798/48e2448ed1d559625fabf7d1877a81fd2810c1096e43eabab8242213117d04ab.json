@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "48e2448ed1d559625fabf7d1877a81fd2810c1096e43eabab8242213117d04ab",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3304160,
+  "round_trip_ms": 208.37680000113323,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1441,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            622.0,
+            747.0
+          ],
+          [
+            672.0,
+            747.0
+          ],
+          [
+            672.0,
+            765.0
+          ],
+          [
+            622.0,
+            765.0
+          ]
+        ],
+        "confidence": 0.9997381567955017,
+        "text": "大赤袋鼠"
+      },
+      {
+        "box": [
+          [
+            926.0,
+            1096.0
+          ],
+          [
+            1080.0,
+            1096.0
+          ],
+          [
+            1080.0,
+            1266.0
+          ],
+          [
+            926.0,
+            1266.0
+          ]
+        ],
+        "confidence": 0.0,
+        "text": ""
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.58965,
+      "decode": 28.883327,
+      "det_infer": 98.597876,
+      "det_post": 1.041669,
+      "det_pre": 33.387317,
+      "pipeline": 141.266888,
+      "rec_infer": 3.5520359999999997,
+      "rec_post": 0.099276,
+      "rec_pre": 0.07572899999999999,
+      "server_compute": 170.150646,
+      "sort": 0.002545
+    },
+    "request_id": "clean-48e2448ed1d559625fabf7d1"
+  }
+}

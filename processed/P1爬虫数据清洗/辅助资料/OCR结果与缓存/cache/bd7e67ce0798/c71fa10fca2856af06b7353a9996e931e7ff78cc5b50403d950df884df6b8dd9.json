@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "c71fa10fca2856af06b7353a9996e931e7ff78cc5b50403d950df884df6b8dd9",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2138771,
+  "round_trip_ms": 199.62620000296738,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1443,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            281.0,
+            639.0
+          ],
+          [
+            792.0,
+            639.0
+          ],
+          [
+            792.0,
+            730.0
+          ],
+          [
+            281.0,
+            730.0
+          ]
+        ],
+        "confidence": 0.9922281503677368,
+        "text": "去熊猫村看熊猫"
+      },
+      {
+        "box": [
+          [
+            248.0,
+            734.0
+          ],
+          [
+            827.0,
+            735.0
+          ],
+          [
+            827.0,
+            791.0
+          ],
+          [
+            248.0,
+            790.0
+          ]
+        ],
+        "confidence": 0.9641638994216919,
+        "text": "看大熊猫沉浸式干饭、嬉戏打闹"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 1.6062349999999999,
+      "decode": 28.449335,
+      "det_infer": 101.030034,
+      "det_post": 0.992956,
+      "det_pre": 31.621676,
+      "pipeline": 147.765751,
+      "rec_infer": 8.205838,
+      "rec_post": 0.43755200000000005,
+      "rec_pre": 0.215395,
+      "server_compute": 176.233512,
+      "sort": 0.001322
+    },
+    "request_id": "clean-c71fa10fca2856af06b7353a"
+  }
+}

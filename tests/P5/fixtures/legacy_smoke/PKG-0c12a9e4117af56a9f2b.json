@@ -1,0 +1,101 @@
+{
+  "host": {
+    "status": "COMPLETED",
+    "records": [
+      {
+        "record_id": "P5OBS-afa864b4b972885b",
+        "tool_name": "submit_conditional_advice",
+        "arguments": {
+          "statement_kind": "conditional_advice",
+          "condition": {
+            "text": "如果孩子喜欢与小丑开场互动",
+            "logic": "single",
+            "clauses": [
+              {
+                "category": "audience",
+                "text": "孩子喜欢与小丑开场互动"
+              }
+            ]
+          },
+          "consequence_text": "提前去占位置（坐在前三排的孩子有机会与小丑开场）",
+          "force": "recommended",
+          "targets": [],
+          "normalizations": [],
+          "resolves_issue_ids": []
+        },
+        "fingerprint": "9dd124d24a7cd6e588f59d633c4471868aa3f2c8cbc9d292b741f67c8deea1f0",
+        "leg_ref": null,
+        "active": true,
+        "depends_on": [],
+        "package_key": "PKG-0c12a9e4117af56a9f2b",
+        "scenic_code": "GZCL",
+        "provenance": {
+          "doc_id": "GZCL-NOTE-01",
+          "source_url": "https://mp.weixin.qq.com/s?src=3&timestamp=1793182593&ver=1&signature=0j97IAlqS58l2NdIUnNjtqRgttGRGG0riyj6yEJcWD*KTcxrnSjiR5z3rWQpGF9sDuTskDV3OHaROYNya9PNni41EvB4Px0hPcD6BkUGYb0uuNbC4JevRDg8BVGEBm0JOAMKSoEdybonSja8cBC5dE43ar0OUtd65vX4Xil0T6Y=",
+          "input_hashes": {
+            "p1": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+            "p2": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
+            "p3": "9d68cff56697fa8c69c61171ef168f8c5268c3a3eb69d4c91c18a6e248c5d2ed",
+            "sources": "1b8aa3ddde75d27df408cb3531c54f0ba4b6cebae8d7b623970091cc82e0cba9"
+          },
+          "evidence_precision": "package",
+          "blocks": [
+            {
+              "block_id": "B001",
+              "start": 1383,
+              "end": 1579,
+              "para_id": 14,
+              "origin": {
+                "kind": "legacy",
+                "para_id": 14
+              }
+            }
+          ]
+        }
+      },
+      {
+        "record_id": "P5OBS-bb3cf3c75519ff3d",
+        "tool_name": "submit_conditional_advice",
+        "arguments": {
+          "statement_kind": "general_advice",
+          "condition": null,
+          "consequence_text": "亚洲森林表演一定要去看看",
+          "force": "recommended",
+          "targets": [],
+          "normalizations": [],
+          "resolves_issue_ids": []
+        },
+        "fingerprint": "f7e9a63e1dd362174e07defe841627c5cf3472ac37dca10f8babbd1cd2dbcd12",
+        "leg_ref": null,
+        "active": true,
+        "depends_on": [],
+        "package_key": "PKG-0c12a9e4117af56a9f2b",
+        "scenic_code": "GZCL",
+        "provenance": {
+          "doc_id": "GZCL-NOTE-01",
+          "source_url": "https://mp.weixin.qq.com/s?src=3&timestamp=1793182593&ver=1&signature=0j97IAlqS58l2NdIUnNjtqRgttGRGG0riyj6yEJcWD*KTcxrnSjiR5z3rWQpGF9sDuTskDV3OHaROYNya9PNni41EvB4Px0hPcD6BkUGYb0uuNbC4JevRDg8BVGEBm0JOAMKSoEdybonSja8cBC5dE43ar0OUtd65vX4Xil0T6Y=",
+          "input_hashes": {
+            "p1": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+            "p2": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
+            "p3": "9d68cff56697fa8c69c61171ef168f8c5268c3a3eb69d4c91c18a6e248c5d2ed",
+            "sources": "1b8aa3ddde75d27df408cb3531c54f0ba4b6cebae8d7b623970091cc82e0cba9"
+          },
+          "evidence_precision": "package",
+          "blocks": [
+            {
+              "block_id": "B001",
+              "start": 1383,
+              "end": 1579,
+              "para_id": 14,
+              "origin": {
+                "kind": "legacy",
+                "para_id": 14
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "usage": []
+}

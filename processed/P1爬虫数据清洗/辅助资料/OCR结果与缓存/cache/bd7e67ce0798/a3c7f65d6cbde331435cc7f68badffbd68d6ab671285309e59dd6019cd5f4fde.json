@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "a3c7f65d6cbde331435cc7f68badffbd68d6ab671285309e59dd6019cd5f4fde",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2444774,
+  "round_trip_ms": 250.18660000932869,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1442,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            915.0,
+            850.0
+          ],
+          [
+            1029.0,
+            850.0
+          ],
+          [
+            1029.0,
+            995.0
+          ],
+          [
+            915.0,
+            995.0
+          ]
+        ],
+        "confidence": 0.0,
+        "text": ""
+      },
+      {
+        "box": [
+          [
+            540.0,
+            929.0
+          ],
+          [
+            561.0,
+            929.0
+          ],
+          [
+            561.0,
+            940.0
+          ],
+          [
+            540.0,
+            940.0
+          ]
+        ],
+        "confidence": 0.16409339010715485,
+        "text": "的"
+      },
+      {
+        "box": [
+          [
+            559.0,
+            922.0
+          ],
+          [
+            716.0,
+            922.0
+          ],
+          [
+            716.0,
+            962.0
+          ],
+          [
+            559.0,
+            962.0
+          ]
+        ],
+        "confidence": 0.6020504236221313,
+        "text": "YO"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.48993400000000004,
+      "decode": 26.532184,
+      "det_infer": 101.400918,
+      "det_post": 0.973735,
+      "det_pre": 38.786978,
+      "pipeline": 150.836891,
+      "rec_infer": 5.401735,
+      "rec_post": 0.178742,
+      "rec_pre": 0.093544,
+      "server_compute": 177.369777,
+      "sort": 0.001603
+    },
+    "request_id": "clean-a3c7f65d6cbde331435cc7f6"
+  }
+}

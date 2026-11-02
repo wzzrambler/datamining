@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-31",
+  "input": "原项目未压缩的三个正式关键词目录",
+  "network_requests": 0,
+  "ocr_cache_hits": 324,
+  "ocr_resegmentation": false,
+  "verified_source_files": 4025,
+  "changed_source_files": [],
+  "old_characters": 100562,
+  "new_characters": 100222,
+  "old_paragraphs": 4821,
+  "new_paragraphs": 4820,
+  "changed_documents": [
+    "GZCL-NOTE-11",
+    "GZCL-NOTE-14",
+    "ZHCL-NOTE-06",
+    "ZHCL-NOTE-08",
+    "ZHCL-NOTE-09",
+    "ZHCL-NOTE-10",
+    "JZG-NOTE-04",
+    "JZG-NOTE-05",
+    "JZG-NOTE-06",
+    "JZG-NOTE-08",
+    "JZG-NOTE-13"
+  ],
+  "inclusion_changes": [
+    {
+      "doc_id": "JZG-NOTE-06",
+      "kind": "comment",
+      "source": "6ad5d428000000001303ff9c",
+      "before": true,
+      "after": false,
+      "reason": "清洗后为空或未超过长度阈值"
+    }
+  ],
+  "legacy_unchanged": true
+}

@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "4752e8c832e13b05687eba6923d84ebb4037aef6a4bdf67ab90aaea4a9fedf91",
+  "upload_mime": "image/png",
+  "request_body_bytes": 954196,
+  "round_trip_ms": 187.72630000603385,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1080,
+      "width": 1440
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            1379.0,
+            1042.0
+          ],
+          [
+            1426.0,
+            1042.0
+          ],
+          [
+            1426.0,
+            1072.0
+          ],
+          [
+            1379.0,
+            1072.0
+          ]
+        ],
+        "confidence": 0.31501439213752747,
+        "text": "小程书"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.046662,
+      "decode": 22.559586,
+      "det_infer": 96.792181,
+      "det_post": 2.27519,
+      "det_pre": 35.245774,
+      "pipeline": 136.263203,
+      "rec_infer": 1.827578,
+      "rec_post": 0.041161,
+      "rec_pre": 0.030831,
+      "server_compute": 158.82324,
+      "sort": 0.000741
+    },
+    "request_id": "clean-4752e8c832e13b05687eba69"
+  }
+}

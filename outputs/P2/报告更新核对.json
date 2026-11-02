@@ -1,0 +1,36 @@
+{
+  "source": "outputs\\P1\\第X组_组长姓名_《数据挖掘》探索性实验报告_P1修订版.docx",
+  "source_sha256": "3b50442a64d28742d66969469628764ff8dbc3b54c29bd9aaa449e172e9dead6",
+  "output": "outputs\\P2\\第X组_组长姓名_《数据挖掘》探索性实验报告_P1P2修订版.docx",
+  "output_sha256": "0bd8d7be66a8a750328719c7306bb57cf9ff49b17d48e089cd77476ab0c03869",
+  "preserved": [
+    "用户最新P1及前置内容XML",
+    "P3至文末原内容XML（另插历史版本提示）",
+    "原样式/页眉/页脚/其他包成员"
+  ],
+  "p2_nodes": 46,
+  "removed_old_p2_media": [
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png"
+  ],
+  "new_media": [
+    "word/media/image12.png",
+    "word/media/image13.png",
+    "word/media/image14.png"
+  ],
+  "visual_qa": {
+    "renderer": "Microsoft Word只读导出及技能PNG渲染器",
+    "pages": 37,
+    "p2_pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "checked": "内容/表格/图片/分页已检查",
+    "source_unchanged": true
+  }
+}

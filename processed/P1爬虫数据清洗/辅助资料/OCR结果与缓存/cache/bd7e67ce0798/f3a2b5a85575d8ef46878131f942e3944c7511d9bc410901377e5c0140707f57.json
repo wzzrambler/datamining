@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "f3a2b5a85575d8ef46878131f942e3944c7511d9bc410901377e5c0140707f57",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1404129,
+  "round_trip_ms": 223.47940001054667,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            386.0,
+            858.0
+          ],
+          [
+            472.0,
+            854.0
+          ],
+          [
+            474.0,
+            888.0
+          ],
+          [
+            387.0,
+            892.0
+          ]
+        ],
+        "confidence": 0.9918991923332214,
+        "text": "金银岛"
+      },
+      {
+        "box": [
+          [
+            388.0,
+            890.0
+          ],
+          [
+            454.0,
+            887.0
+          ],
+          [
+            455.0,
+            902.0
+          ],
+          [
+            388.0,
+            904.0
+          ]
+        ],
+        "confidence": 0.9367389678955078,
+        "text": "TREASUREISLA"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.187028,
+      "decode": 24.190047,
+      "det_infer": 133.800739,
+      "det_post": 1.257687,
+      "det_pre": 41.151859,
+      "pipeline": 187.159989,
+      "rec_infer": 5.83446,
+      "rec_post": 0.193121,
+      "rec_pre": 0.11513799999999999,
+      "server_compute": 211.350887,
+      "sort": 0.003878
+    },
+    "request_id": "clean-f3a2b5a85575d8ef46878131"
+  }
+}

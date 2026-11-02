@@ -1,0 +1,44 @@
+{
+  "existing_documents": "../../../../processed/P1爬虫数据清洗/辅助资料/legacy_documents.json",
+  "output_dir": "../../../../processed/P1爬虫数据清洗",
+  "min_extra_chars": 30,
+  "min_document_chars": 200,
+  "comment_policy": "author_only",
+  "groups": [
+    {
+      "input_dir": "../../../../.cache/小红书爬虫/广州长隆旅游攻略_eb00171e",
+      "scenic_code": "GZCL",
+      "scenic_area": "广州长隆旅游度假区",
+      "city": "广州",
+      "category": "主题乐园"
+    },
+    {
+      "input_dir": "../../../../.cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b",
+      "scenic_code": "ZHCL",
+      "scenic_area": "珠海横琴长隆国际海洋度假区",
+      "city": "珠海",
+      "category": "主题乐园"
+    },
+    {
+      "input_dir": "../../../../.cache/小红书爬虫/九寨沟旅游攻略_f383d0ff",
+      "scenic_code": "JZG",
+      "scenic_area": "九寨沟风景名胜区",
+      "city": "阿坝州",
+      "category": "自然遗产"
+    }
+  ],
+  "ocr": {
+    "base_url": "http://localhost:18080",
+    "cache_dir": "../../../../processed/P1爬虫数据清洗/辅助资料/OCR结果与缓存/cache",
+    "cache_namespace": "paddle-cpp-cpu-v1",
+    "connect_timeout_seconds": 5,
+    "read_timeout_seconds": 250,
+    "max_request_bytes": 10485760,
+    "max_pixels": 16000000
+  },
+  "raw_archive": "../../../../data/小红书爬虫.zip",
+  "archive_cache": "../../../../.cache/小红书爬虫",
+  "portable_root": "../../../..",
+  "auxiliary_dir_name": "辅助资料",
+  "quality_dir_name": "质量检查"
+}

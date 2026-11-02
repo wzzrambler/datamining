@@ -1,0 +1,321 @@
+﻿route_id,doc_id,step_id,index,day,period,time_basis,clock_texts,start,end,text,pois,p3_normalized_pois,activities,transports,durations,unresolved
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S001,1,,未说明,unknown,,196,200,南门进园,长隆野生动物世界南门,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S002,2,,未说明,unknown,,201,208,搭乘天鹅湖缆车,天鹅湖,,,缆车,,activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S003,3,,未说明,unknown,,209,216,到达天鹅湖游览,天鹅湖,,游览,,,time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S004,4,,未说明,unknown,,217,229,搭乘小火车游览非洲大草原,,,游览,小火车,,no_p2_poi_in_step|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S005,5,,未说明,unknown,,230,233,青龙山,青龙山,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S006,6,,未说明,unknown,,234,237,百虎山,百虎山,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S007,7,,未说明,unknown,,238,242,金狮王国,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S008,8,,未说明,unknown,,243,248,大熊猫中心,,长隆大熊猫中心,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S009,9,,未说明,unknown,,249,252,大象园,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S010,10,,未说明,unknown,,253,257,南门返程,长隆野生动物世界南门,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-82a5b2e5a8,GZCL-NOTE-02,GZCL-NOTE-02-R-82a5b2e5a8-S011,11,,未说明,unknown,,258,265,观看大马戏表演,,,观看|表演,,,no_p2_poi_in_step|time_unspecified
+GZCL-NOTE-02-R-18a5bedff4,GZCL-NOTE-02,GZCL-NOTE-02-R-18a5bedff4-S001,1,,未说明,unknown,,3283,3287,金猴王国,金猴王国,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-02-R-18a5bedff4,GZCL-NOTE-02,GZCL-NOTE-02-R-18a5bedff4-S002,2,,未说明,unknown,,3288,3297,在花果山遇见美猴王,花果山,,,,,activity_unspecified|time_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S001,1,,上午,clock_mapping,10:00,374,390,第一站(10:00):小火车游览,,,游览,,,no_p2_poi_in_step
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S002,2,,上午,clock_mapping,11:00,565,579,第二站(11:00):青龙山,青龙山,,,,,activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S003,3,,上午,clock_mapping,11:50,709,723,第三站(11:50):考拉园,考拉园,,,,,activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S004,4,,中午,clock_mapping,12:10,829,844,第四站(12:10):熊猫乐园,熊猫乐园,,,,,activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S005,5,,中午,clock_mapping,12:30,956,971,第五站(12:30):熊猫餐厅,熊猫餐厅,,,,,activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S006,6,,下午,clock_mapping,14:00,1114,1129,第六站(14:00):4D影院,4D影院,,,,,activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S007,7,,下午,clock_mapping,15:00,1230,1245,第七站(15:00):亚洲象园,亚洲象园,,,,,activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S008,8,,下午,clock_mapping,15:30,1374,1390,第八站(15:30):长颈鹿广场,长颈鹿广场,,,,,activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S009,9,,下午,clock_mapping,16:00,1503,1518,第九站(16:00):空中缆车,,,,,,no_p2_poi_in_step|activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S010,10,,下午,clock_mapping,17:00,1921,1936,第十站(17:00):看火烈鸟,,,,,,no_p2_poi_in_step|activity_unspecified
+GZCL-OFF-01-R-b98590e484,GZCL-OFF-01,GZCL-OFF-01-R-b98590e484-S011,11,,下午,clock_mapping,17:30,2115,2134,第十一站(17:30):南门纪念品商场,长隆野生动物世界南门,,,,,activity_unspecified
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S001,1,,上午,explicit_heading,,352,368,火箭过山车 尖叫指数:※※※※※,火箭过山车,,,,,activity_unspecified
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S002,2,,上午,explicit_heading,,543,558,龙卷风暴 尖叫指数:※※※※※,龙卷风暴,,,,,activity_unspecified
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S003,3,,中午,explicit_heading,,687,701,椰林餐厅 好吃指数:※※※※,椰林餐厅,,,,,activity_unspecified
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S004,4,,中午,explicit_heading,,933,947,梦幻转马 浪漫指数:※※※※,梦幻转马,,,,,activity_unspecified
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S005,5,,中午,explicit_heading,,1215,1229,欢乐跳跳 尖叫指数:※※※※,欢乐跳跳,,,,,activity_unspecified
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S006,6,,中午,explicit_heading,,1411,1435,欢乐剧场《魔法奇幻之旅》表演 好看指数:※※※※,欢乐剧场,,表演,,,
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S007,7,,下午,explicit_heading,,1739,1755,垂直过山车 尖叫指数:※※※※※,垂直过山车,,,,,activity_unspecified
+GZCL-OFF-02-R-e24fe1c8a6,GZCL-OFF-02,GZCL-OFF-02-R-e24fe1c8a6-S008,8,,下午,explicit_heading,,2065,2080,超级大摆锤 尖叫指数:※※※※,超级大摆锤,,,,,activity_unspecified
+GZCL-OFF-03-R-6b4fdec24e,GZCL-OFF-03,GZCL-OFF-03-R-6b4fdec24e-S001,1,,未说明,unknown,,59,69,第一站:长隆欢乐世界,长隆欢乐世界,,,,,activity_unspecified|time_unspecified
+GZCL-OFF-03-R-6b4fdec24e,GZCL-OFF-03,GZCL-OFF-03-R-6b4fdec24e-S002,2,,未说明,unknown,,334,346,第二站:长隆野生动物世界,长隆野生动物世界,,,,,activity_unspecified|time_unspecified
+GZCL-OFF-03-R-6b4fdec24e,GZCL-OFF-03,GZCL-OFF-03-R-6b4fdec24e-S003,3,,未说明,unknown,,592,602,第三站:长隆水上乐园,长隆水上乐园,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-02-R-0765aea403,JZG-NOTE-02,JZG-NOTE-02-R-0765aea403-S001,1,,清晨,explicit_local,,173,183,"清晨第一站,便是长海",长海,,,,,activity_unspecified
+JZG-NOTE-02-R-0765aea403,JZG-NOTE-02,JZG-NOTE-02-R-0765aea403-S002,2,,未说明,unknown,,296,308,"顺着栈道下行,抵达五彩池",五彩池,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-02-R-0765aea403,JZG-NOTE-02,JZG-NOTE-02-R-0765aea403-S003,3,,未说明,unknown,,410,418,继续前行遇见镜海,镜海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S001,1,,上午,explicit_heading,,1122,1126,上午长海,长海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S002,2,,上午,explicit_heading,,1127,1130,五彩池,五彩池,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S003,3,,上午,explicit_heading,,1131,1136,诺日朗换乘,,,换乘,,,no_p2_poi_in_step
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S004,4,,中午,explicit_heading,,1137,1146,中午诺日朗吃饭休整,,,吃饭|休整,,,no_p2_poi_in_step
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S005,5,,下午,explicit_heading,,1147,1152,下午箭竹海,箭竹海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S006,6,,下午,explicit_heading,,1153,1156,熊猫海,熊猫海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S007,7,,下午,explicit_heading,,1157,1160,五花海,五花海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S008,8,,下午,explicit_heading,,1161,1164,珍珠滩,珍珠滩,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S009,9,,下午,explicit_heading,,1165,1170,诺日朗换乘,,,换乘,,,no_p2_poi_in_step
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S010,10,,傍晚,explicit_heading,,1171,1176,傍晚犀牛海,犀牛海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S011,11,,傍晚,explicit_heading,,1177,1180,老虎海,老虎海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S012,12,,傍晚,explicit_heading,,1181,1185,树正瀑布,树正瀑布,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S013,13,,傍晚,explicit_heading,,1186,1190,树正群海,树正群海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S014,14,,傍晚,explicit_heading,,1191,1194,火花海,火花海,,,,,activity_unspecified
+JZG-NOTE-03-R-7f44fd1c84,JZG-NOTE-03,JZG-NOTE-03-R-7f44fd1c84-S015,15,,傍晚,explicit_heading,,1195,1197,出沟,,,出沟,,,no_p2_poi_in_step
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S001,1,,上午,explicit_heading,07:00|08:10,353,382,沟口乘车→原始森林(07:00-08:10 一个小时车程),原始森林,,,乘车,一个小时:travel,activity_unspecified
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S002,2,,上午,explicit_heading,08:10|09:00,383,420,"原始森林→芳草海(08:10-09:00 步行30分钟,游览时间20分钟)",原始森林|芳草海,,步行|游览,步行,30分钟:travel|20分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S003,3,,上午,explicit_heading,09:00|09:15,421,463,"芳草海→天鹅海(09:00-09:15 换乘观光车,约5分钟车程,游览时间10分钟)",芳草海|天鹅海,,换乘|游览,观光车,5分钟:travel|10分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S004,4,,上午,explicit_heading,09:15|09:45,464,507,"天鹅海→箭竹海(09:15-09:45 换乘观光车,约15分钟车程,游览时间15分钟)",天鹅海|箭竹海,,换乘|游览,观光车,15分钟:travel|15分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S005,5,,上午,explicit_heading,09:45|10:10,508,551,"箭竹海→熊猫海(09:45-10:10 换乘观光车,约10分钟车程,游览时间15分钟)",箭竹海|熊猫海,,换乘|游览,观光车,10分钟:travel|15分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S006,6,,上午,explicit_heading,10:10|10:40,552,595,"熊猫海→五花海(10:10-10:40 换乘观光车,约10分钟车程,游览时间20分钟)",熊猫海|五花海,,换乘|游览,观光车,10分钟:travel|20分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S007,7,,上午,explicit_heading,10:40|11:10,596,638,"五花海→镜海(10:40-11:10 换乘观光车,约10分钟车程,游览时间20分钟)",五花海|镜海,,换乘|游览,观光车,10分钟:travel|20分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S008,8,,上午,explicit_heading,11:10|11:25,639,682,"镜海→诺日朗群海(11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟)",镜海|诺日朗群海,,换乘|游览,观光车,5分钟:travel|10分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S009,9,,中午,explicit_heading,11:30|13:30,688,741,"诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)",诺日朗群海|诺日朗中心站,,用餐|用餐|休息,,2个小时:meal_rest,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S010,10,,下午,explicit_heading,13:30|14:20,747,792,"诺日朗中心站→长海(13:30-14:20乘坐观光车,约30分钟车程,游览时间20分钟 )",诺日朗中心站|长海,,乘坐|游览,观光车,30分钟:travel|20分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S011,11,,下午,explicit_heading,14:20|14:50,793,828,"长海→五彩池(14:20-14:50步行15分钟,游览时间15分钟 )",长海|五彩池,,步行|游览,步行,15分钟:travel|15分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S012,12,,下午,explicit_heading,14:50|15:40,829,872,"五彩池→犀牛海(14:50-15:40乘坐观光车,约30分钟车程,游览时间20分钟 )",五彩池|犀牛海,,乘坐|游览,观光车,30分钟:travel|20分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S013,13,,下午,explicit_heading,15:40|17:00,873,934,"犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海(15:40-17:00步行+乘车的方式,约1个多小时游览时间)",犀牛海|老虎海|树正瀑布|树正磨房|树正寨|卧龙海|双龙海,,步行|游览,步行|乘车,,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S014,14,,下午,explicit_heading,17:00|17:20,935,978,"双龙海→盆景滩(17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 )",双龙海|盆景滩,,乘坐|游览,观光车,10分钟:travel|10分钟:visit,
+JZG-OFF-01-R-5489d330c8,JZG-OFF-01,JZG-OFF-01-R-5489d330c8-S015,15,,下午,explicit_heading,17:00|17:35,979,1012,"盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )",盆景滩,,乘坐,观光车,15分钟:travel,
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S001,1,1,未说明,unknown,,1242,1246,沟口乘车,,,,乘车,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S002,2,1,未说明,unknown,,1247,1249,长海,长海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S003,3,1,未说明,unknown,,1250,1253,五彩池,五彩池,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S004,4,1,未说明,unknown,,1254,1260,诺日朗中心站,诺日朗中心站,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S005,5,1,未说明,unknown,,1261,1266,诺日朗瀑布,诺日朗瀑布,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S006,6,1,未说明,unknown,,1267,1270,犀牛海,犀牛海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S007,7,1,未说明,unknown,,1271,1275,树正瀑布,树正瀑布,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S008,8,1,未说明,unknown,,1276,1280,树正群海,树正群海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S009,9,1,未说明,unknown,,1281,1284,双龙海,双龙海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S010,10,1,未说明,unknown,,1285,1288,芦苇海,芦苇海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S011,11,1,未说明,unknown,,1289,1292,盆景滩,盆景滩,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S012,12,1,未说明,unknown,,1293,1295,出沟,,,出沟,,,no_p2_poi_in_step|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S013,13,2,未说明,unknown,,1434,1438,游客中心,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S014,14,2,未说明,unknown,,1439,1443,原始森林,原始森林,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S015,15,2,未说明,unknown,,1444,1447,芳草海,芳草海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S016,16,2,未说明,unknown,,1448,1451,天鹅湖,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S017,17,2,未说明,unknown,,1452,1455,箭竹海,箭竹海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S018,18,2,未说明,unknown,,1456,1459,熊猫海,熊猫海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S019,19,2,未说明,unknown,,1460,1463,珍珠滩,珍珠滩,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S020,20,2,未说明,unknown,,1464,1467,五花海,五花海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S021,21,2,未说明,unknown,,1468,1474,诺日朗中心站,诺日朗中心站,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S022,22,2,未说明,unknown,,1475,1480,诺日朗瀑布,诺日朗瀑布,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S023,23,2,未说明,unknown,,1481,1484,犀牛海,犀牛海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S024,24,2,未说明,unknown,,1485,1489,树正瀑布,树正瀑布,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S025,25,2,未说明,unknown,,1490,1494,树正群海,树正群海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S026,26,2,未说明,unknown,,1495,1498,双龙海,双龙海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S027,27,2,未说明,unknown,,1499,1502,芦苇海,芦苇海,,,,,activity_unspecified|time_unspecified
+JZG-OFF-01-R-6716383269,JZG-OFF-01,JZG-OFF-01-R-6716383269-S028,28,2,未说明,unknown,,1503,1506,盆景滩,盆景滩,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-6c99fdaba3,ZHCL-NOTE-03,ZHCL-NOTE-03-R-6c99fdaba3-S001,1,1,未说明,unknown,,1414,1456,"下了巴士走去园区,首先看到的是长隆海洋王国的吉祥物卡卡—喷水池,迎接着大大小小的游人",珠海长隆海洋王国,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-6c99fdaba3,ZHCL-NOTE-03,ZHCL-NOTE-03-R-6c99fdaba3-S002,2,1,未说明,unknown,,1740,1770,"进了园区,首先走进的是“海洋大街”,精彩的海洋之旅从这里开始",海洋大街,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-6c99fdaba3,ZHCL-NOTE-03,ZHCL-NOTE-03-R-6c99fdaba3-S003,3,1,未说明,unknown,,2230,2256,"从海狮剧场出来,看了看地图,我们决定去企鹅馆凉快一下",企鹅馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-6c99fdaba3,ZHCL-NOTE-03,ZHCL-NOTE-03-R-6c99fdaba3-S004,4,1,未说明,unknown,,2351,2385,"从企鹅馆出来,去北极熊馆转一圈,长着长毛的白色北极熊原来泳姿那么矫健",北极熊馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-6c99fdaba3,ZHCL-NOTE-03,ZHCL-NOTE-03-R-6c99fdaba3-S005,5,1,未说明,unknown,,2386,2405,从极地探险出来掐着时间去白鲸剧场看表演,白鲸剧场,,表演,,,time_unspecified
+ZHCL-NOTE-03-R-6c99fdaba3,ZHCL-NOTE-03,ZHCL-NOTE-03-R-6c99fdaba3-S006,6,1,未说明,unknown,,2763,2820,"终于从海底互动出来走进了鲸鲨馆,转过弧形的水底长廊,看到高8.3米、长39.6米的玻璃观赏屏时我真的被深深的震撼了",鲸鲨馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S001,1,1,未说明,unknown,,3144,3148,海洋大街,海洋大街,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S002,2,1,未说明,unknown,,3149,3153,旋转木马,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S003,3,1,未说明,unknown,,3154,3158,海狮剧场,海狮剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S004,4,1,未说明,unknown,,3159,3162,鳐鱼池,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S005,5,1,未说明,unknown,,3163,3167,海狸之家,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S006,6,1,未说明,unknown,,3168,3171,企鹅馆,企鹅馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S007,7,1,未说明,unknown,,3172,3176,北极熊馆,北极熊馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S008,8,1,未说明,unknown,,3177,3181,白鲸剧场,白鲸剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S009,9,1,未说明,unknown,,3182,3185,白鲸馆,白鲸馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S010,10,1,未说明,unknown,,3186,3191,海底互动船,海底互动船,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S011,11,1,未说明,unknown,,3192,3195,鲸鲨馆,鲸鲨馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S012,12,1,未说明,unknown,,3196,3203,烟花幻彩横琴海,横琴海,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S013,13,2,未说明,unknown,,3268,3272,海洋大街,海洋大街,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S014,14,2,未说明,unknown,,3273,3276,海豚湾,海豚湾,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S015,15,2,未说明,unknown,,3277,3281,海豚剧场,海豚剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S016,16,2,未说明,unknown,,3282,3286,丛林飞跃,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S017,17,2,未说明,unknown,,3287,3290,鲸鲨馆,鲸鲨馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S018,18,2,未说明,unknown,,3291,3297,5D城堡电影,5D城堡电影,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-03-R-c9d09a5f60,ZHCL-NOTE-03,ZHCL-NOTE-03-R-c9d09a5f60-S019,19,2,未说明,unknown,,3298,3305,烟花幻彩横琴海,横琴海,,,,,activity_unspecified|time_unspecified
+ZHCL-OFF-01-R-ed40badaa7,ZHCL-OFF-01,ZHCL-OFF-01-R-ed40badaa7-S001,1,,未说明,unknown,,59,69,第一站:长隆飞船乐园,长隆飞船乐园,,,,,activity_unspecified|time_unspecified
+ZHCL-OFF-01-R-ed40badaa7,ZHCL-OFF-01,ZHCL-OFF-01-R-ed40badaa7-S002,2,,未说明,unknown,,342,352,第二站:长隆海洋王国,珠海长隆海洋王国,,,,,activity_unspecified|time_unspecified
+ZHCL-OFF-01-R-ed40badaa7,ZHCL-OFF-01,ZHCL-OFF-01-R-ed40badaa7-S003,3,,未说明,unknown,,618,626,第三站:长隆剧院,长隆剧院,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S001,1,,未说明,unknown,,158,162,北门入园,长隆野生动物世界北门,,入园,,,time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S002,2,,未说明,unknown,,165,168,小火车,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S003,3,,未说明,unknown,,171,174,青龙山,青龙山,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S004,4,,未说明,unknown,,177,180,白虎山,白虎山,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S005,5,,未说明,unknown,,183,188,长颈鹿广场,长颈鹿广场,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S006,6,,未说明,unknown,,191,194,考拉园,考拉园,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S007,7,,未说明,unknown,,197,201,午餐休整,,,午餐|休整,,,no_p2_poi_in_step|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S008,8,,未说明,unknown,,204,207,熊猫村,熊猫村,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S009,9,,未说明,unknown,,210,214,亚洲象区,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S010,10,,未说明,unknown,,217,221,空中缆车,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S011,11,,未说明,unknown,,224,228,火烈鸟岛,火烈鸟岛,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S012,12,,未说明,unknown,,231,236,4D 影院,4D影院,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S013,13,,未说明,unknown,,239,243,花车巡游,,,巡游,,,no_p2_poi_in_step|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S014,14,,未说明,unknown,,246,249,熊森林,熊森林,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S015,15,,未说明,unknown,,252,257,黑猩猩展区,黑猩猩展区,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-06-R-3ff34f39b9,GZCL-NOTE-06,GZCL-NOTE-06-R-3ff34f39b9-S016,16,,未说明,unknown,,260,264,南门出园,长隆野生动物世界南门,,出园,,,time_unspecified
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S001,1,,上午,clock_mapping,09:30|10:00,52,77,1⃣09:30-10:00 南门入园 → 火烈鸟岛,长隆野生动物世界南门|火烈鸟岛,,入园,,,
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S002,2,,上午,clock_mapping,10:00|10:40,93,117,2⃣10:00-10:40 火烈鸟岛 → 熊猫村,火烈鸟岛|熊猫村,,,,,activity_unspecified
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S003,3,,上午,clock_mapping,10:40|11:20,161,186,3⃣10:40-11:20 熊猫村 → 天鹅湖缆车,熊猫村|天鹅湖,,,,,activity_unspecified
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S004,4,,上午,clock_mapping,11:20|12:20,235,254,4⃣11:20-12:20 青龙山探秘,青龙山,,,,,activity_unspecified
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S005,5,,中午,clock_mapping,12:20|12:40,321,341,5⃣12:20-12:40 白虎山看跳水,白虎山,,,,,activity_unspecified
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S006,6,,中午,clock_mapping,12:40|13:40,384,402,6⃣12:40-13:40 午餐时间,,,午餐,,,no_p2_poi_in_step
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S007,7,,下午,clock_mapping,13:40|15:00,444,466,7⃣13:40-15:00 小火车穿越五大洲,,,,,,no_p2_poi_in_step|activity_unspecified
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S008,8,,下午,clock_mapping,15:00|16:00,551,575,8⃣15:00-16:00 科莫多龙园区+考拉园,科莫多龙园区|考拉园,,,,,activity_unspecified|alternative_or_group_requires_review
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S009,9,,下午,clock_mapping,16:00,612,661,"9⃣16:00左右到考拉园,这里有80多只考拉,能看到睡觉、爬树的不同形态,见证8代同堂的考拉家族",考拉园,,,,,activity_unspecified
+GZCL-NOTE-08-R-fc0bc11cde,GZCL-NOTE-08,GZCL-NOTE-08-R-fc0bc11cde-S010,10,,下午,clock_mapping,16:00|17:00,662,680,16:00-17:00 花车巡游占位,,,巡游,,,no_p2_poi_in_step
+GZCL-NOTE-08-R-c089d74d45,GZCL-NOTE-08,GZCL-NOTE-08-R-c089d74d45-S001,1,,未说明,unknown,,274,279,侏罗纪森林,侏罗纪森林,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-08-R-c089d74d45,GZCL-NOTE-08,GZCL-NOTE-08-R-c089d74d45-S002,2,,未说明,unknown,,280,284,雨林仙踪,雨林仙踪,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-08-R-c089d74d45,GZCL-NOTE-08,GZCL-NOTE-08-R-c089d74d45-S003,3,,未说明,unknown,,285,289,金蛇秘境,金蛇秘境,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-09-R-29d9374e30,GZCL-NOTE-09,GZCL-NOTE-09-R-29d9374e30-S001,1,,未说明,unknown,,196,209,• 侏罗纪森林(仿真恐龙),侏罗纪森林,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-09-R-29d9374e30,GZCL-NOTE-09,GZCL-NOTE-09-R-29d9374e30-S002,2,,未说明,unknown,,210,214,雨林仙踪,雨林仙踪,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-09-R-29d9374e30,GZCL-NOTE-09,GZCL-NOTE-09-R-29d9374e30-S003,3,,未说明,unknown,,215,219,金蛇秘境,金蛇秘境,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-09-R-1092ed5025,GZCL-NOTE-09,GZCL-NOTE-09-R-1092ed5025-S001,1,,中午,clock_mapping,12:30,297,308,12:30 长颈鹿广场,长颈鹿广场,,,,,activity_unspecified
+GZCL-NOTE-09-R-1092ed5025,GZCL-NOTE-09,GZCL-NOTE-09-R-1092ed5025-S002,2,,未说明,unknown,,309,312,考拉园,考拉园,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-09-R-3f86cfbdeb,GZCL-NOTE-09,GZCL-NOTE-09-R-3f86cfbdeb-S001,1,,下午,clock_mapping,13:30,381,391,13:30 亚洲象园,亚洲象园,,,,,activity_unspecified
+GZCL-NOTE-09-R-3f86cfbdeb,GZCL-NOTE-09,GZCL-NOTE-09-R-3f86cfbdeb-S002,2,,未说明,unknown,,392,395,熊猫村,熊猫村,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-10-R-3de38b26a7,GZCL-NOTE-10,GZCL-NOTE-10-R-3de38b26a7-S001,1,1,未说明,unknown,,211,220,青龙山:侏罗纪森林,青龙山|侏罗纪森林,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-10-R-3de38b26a7,GZCL-NOTE-10,GZCL-NOTE-10-R-3de38b26a7-S002,2,1,未说明,unknown,,221,225,雨林仙踪,雨林仙踪,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-10-R-3de38b26a7,GZCL-NOTE-10,GZCL-NOTE-10-R-3de38b26a7-S003,3,1,未说明,unknown,,226,236,金蛇秘境(室内遮阳),金蛇秘境,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-a936970d41,GZCL-NOTE-11,GZCL-NOTE-11-R-a936970d41-S001,1,,未说明,unknown,,1218,1225,缆车熊猫乐园站,熊猫乐园站,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-a936970d41,GZCL-NOTE-11,GZCL-NOTE-11-R-a936970d41-S002,2,,未说明,unknown,,1226,1237,萌帅酷乐园(4D影院),萌帅酷乐园|4D影院,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-a936970d41,GZCL-NOTE-11,GZCL-NOTE-11-R-a936970d41-S003,3,,未说明,unknown,,1319,1322,花果山,花果山,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-a936970d41,GZCL-NOTE-11,GZCL-NOTE-11-R-a936970d41-S004,4,,未说明,unknown,,1378,1382,金猴王国,金猴王国,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-e5731c8b00,GZCL-NOTE-11,GZCL-NOTE-11-R-e5731c8b00-S001,1,,未说明,unknown,,1533,1537,金猴王国,金猴王国,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-e5731c8b00,GZCL-NOTE-11,GZCL-NOTE-11-R-e5731c8b00-S002,2,,未说明,unknown,,1538,1541,小火车,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-e5731c8b00,GZCL-NOTE-11,GZCL-NOTE-11-R-e5731c8b00-S003,3,,未说明,unknown,,1690,1694,青龙山2,青龙山,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-5718335622,GZCL-NOTE-11,GZCL-NOTE-11-R-5718335622-S001,1,,未说明,unknown,,2394,2399,长颈鹿广场,长颈鹿广场,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-5718335622,GZCL-NOTE-11,GZCL-NOTE-11-R-5718335622-S002,2,,未说明,unknown,,2400,2403,考拉园,考拉园,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-5718335622,GZCL-NOTE-11,GZCL-NOTE-11-R-5718335622-S003,3,,未说明,unknown,,2460,2463,亚洲象,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-a8803e5c47,GZCL-NOTE-11,GZCL-NOTE-11-R-a8803e5c47-S001,1,,未说明,unknown,,2587,2596,17长隆大熊猫中心,长隆大熊猫中心,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-a8803e5c47,GZCL-NOTE-11,GZCL-NOTE-11-R-a8803e5c47-S002,2,,未说明,unknown,,2597,2601,熊猫餐厅,熊猫餐厅,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-11-R-a8803e5c47,GZCL-NOTE-11,GZCL-NOTE-11-R-a8803e5c47-S003,3,,未说明,unknown,,2753,2757,骐骥天地,骐骥天地,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S001,1,,上午,clock_mapping,09:30,273,288,1⃣09:30 开园直冲小火车,,,,,,no_p2_poi_in_step|activity_unspecified
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S002,2,,上午,clock_mapping,10:15,366,379,2⃣10:15 青龙山环线,青龙山,,,,,activity_unspecified
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S003,3,,上午,clock_mapping,11:30,423,440,3⃣11:30 长颈鹿广场+考拉园,长颈鹿广场|考拉园,,,,,activity_unspecified|alternative_or_group_requires_review
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S004,4,,下午,clock_mapping,13:30,476,488,4⃣13:30 熊猫乐园,熊猫乐园,,,,,activity_unspecified
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S005,5,,下午,clock_mapping,14:30,506,524,5⃣14:30 空中缆车(选环园线),,,,,,no_p2_poi_in_step|activity_unspecified
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S006,6,,下午,clock_mapping,15:30,611,627,6⃣15:30 百虎山+火烈鸟岛,百虎山|火烈鸟岛,,,,,activity_unspecified|alternative_or_group_requires_review
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S007,7,,下午,clock_mapping,16:30,658,677,7⃣16:30 大象传奇/南美探秘表演,,,表演,,,no_p2_poi_in_step|alternative_or_group_requires_review
+GZCL-NOTE-12-R-f5fee04dec,GZCL-NOTE-12,GZCL-NOTE-12-R-f5fee04dec-S008,8,,未说明,unknown,,710,716,8⃣花车巡游,,,巡游,,,no_p2_poi_in_step|time_unspecified
+GZCL-NOTE-12-R-a8ced07933,GZCL-NOTE-12,GZCL-NOTE-12-R-a8ced07933-S001,1,,未说明,unknown,,380,391,侏罗纪森林(仿真恐龙),侏罗纪森林,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-12-R-a8ced07933,GZCL-NOTE-12,GZCL-NOTE-12-R-a8ced07933-S002,2,,未说明,unknown,,392,404,雨林仙踪(树懒、金丝猴),雨林仙踪,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-12-R-a8ced07933,GZCL-NOTE-12,GZCL-NOTE-12-R-a8ced07933-S003,3,,未说明,unknown,,405,409,金蛇秘境,金蛇秘境,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-15-R-b85158f620,GZCL-NOTE-15,GZCL-NOTE-15-R-b85158f620-S001,1,,未说明,unknown,,84,87,南门进,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+GZCL-NOTE-15-R-b85158f620,GZCL-NOTE-15,GZCL-NOTE-15-R-b85158f620-S002,2,,未说明,unknown,,90,95,午夜港片城,午夜港片城,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-15-R-b85158f620,GZCL-NOTE-15,GZCL-NOTE-15-R-b85158f620-S003,3,,未说明,unknown,,98,103,幽暗海盗湾,幽暗海盗湾,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-15-R-b85158f620,GZCL-NOTE-15,GZCL-NOTE-15-R-b85158f620-S004,4,,未说明,unknown,,106,112,诡异马戏村￼,诡异马戏村,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-15-R-b85158f620,GZCL-NOTE-15,GZCL-NOTE-15-R-b85158f620-S005,5,,未说明,unknown,,115,121,后宫修罗场￼,后宫修罗场,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-15-R-b85158f620,GZCL-NOTE-15,GZCL-NOTE-15-R-b85158f620-S006,6,,未说明,unknown,,124,129,粉小琦庄园,粉小琦庄园,,,,,activity_unspecified|time_unspecified
+GZCL-NOTE-15-R-b85158f620,GZCL-NOTE-15,GZCL-NOTE-15-R-b85158f620-S007,7,,未说明,unknown,,132,135,南门出,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-04-R-ad01027b51,ZHCL-NOTE-04,ZHCL-NOTE-04-R-ad01027b51-S001,1,,未说明,unknown,,1123,1128,(14点),,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-04-R-ad01027b51,ZHCL-NOTE-04,ZHCL-NOTE-04-R-ad01027b51-S002,2,,未说明,unknown,,1130,1138,北极熊馆—企鹅馆,北极熊馆|企鹅馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-04-R-ad01027b51,ZHCL-NOTE-04,ZHCL-NOTE-04-R-ad01027b51-S003,3,,未说明,unknown,,1140,1143,海鸟世,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-04-R-764948dece,ZHCL-NOTE-04,ZHCL-NOTE-04-R-764948dece-S001,1,,未说明,unknown,,1162,1167,-海狮剧场,海狮剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-04-R-764948dece,ZHCL-NOTE-04,ZHCL-NOTE-04-R-764948dece-S002,2,,未说明,unknown,,1169,1173,超级激流,超级激流,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-04-R-764948dece,ZHCL-NOTE-04,ZHCL-NOTE-04-R-764948dece-S003,3,,未说明,unknown,,1175,1179,梦幻海洋,梦幻海洋,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S001,1,,未说明,unknown,,56,59,鲸鲨馆,鲸鲨馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S002,2,,未说明,unknown,,60,63,企鹅馆,企鹅馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S003,3,,未说明,unknown,,64,67,北极熊,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S004,4,,未说明,unknown,,68,76,顺路玩一下转转杯,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S005,5,,上午,clock_mapping,11:00,77,95,"11:00白鲸表演,提前20分钟进场",,,表演,,20分钟:waiting_or_lead,no_p2_poi_in_step
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S006,6,,中午,clock_mapping,12:00,96,114,"12:00海狮表演,提前20分钟进场",,,表演,,20分钟:waiting_or_lead,no_p2_poi_in_step
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S007,7,,中午,clock_mapping,13:00,115,133,"13:00海豚表演,提前20分钟进场",,,表演,,20分钟:waiting_or_lead,no_p2_poi_in_step
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S008,8,,未说明,unknown,,134,149,"前往5D影院,太沉浸了,很推荐",,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S009,9,,未说明,unknown,,150,160,"海豚游玩设施,有点晒",,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S010,10,,未说明,unknown,,161,175,"旋转木马这时候人少,排队游玩",,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S011,11,,未说明,unknown,,176,202,"逛一会礼品店凉快凉快,稍作休息,也可以去餐厅休息一下",,,休息|休息,,,no_p2_poi_in_step|time_unspecified|alternative_or_group_requires_review
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S012,12,,下午,clock_mapping,15:00,203,241,"15:00花车巡游,中间会停顿在某个地方邀请小朋友们一起共舞,这个挺有意义的",,,巡游,,,no_p2_poi_in_step
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S013,13,,未说明,unknown,,242,245,海牛馆,海牛馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S014,14,,未说明,unknown,,246,252,水中飞人表演,,,表演,,,no_p2_poi_in_step|time_unspecified
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S015,15,,下午,clock_mapping,17:00,253,312,"17:00《长隆秀》很震撼,中间有个平台时不时会有巡游表演,建议坐进场往上一层,体验感会更好,主舞台和过道表演都能看到",,,巡游|表演|表演,,,no_p2_poi_in_step
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S016,16,,晚上,clock_mapping,19:00,313,328,19:00还有一个夜晚花车巡游,,,巡游,,一个夜:unresolved,no_p2_poi_in_step
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S017,17,,晚上,clock_mapping,20:00,329,338,20:00烟花表演,,,表演,,,no_p2_poi_in_step
+ZHCL-NOTE-06-R-be5972460c,ZHCL-NOTE-06,ZHCL-NOTE-06-R-be5972460c-S018,18,,未说明,unknown,,339,402,"这个行程带小孩走下来不算累人,还不到3岁的小孩本来也玩不了什么游乐项目,这个路线就很符合,所有表演都看到了,海洋动物们也认识了",,,表演,,,no_p2_poi_in_step|time_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S001,1,,上午,explicit_heading,,152,157,1⃣鲸鲨馆,鲸鲨馆,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S002,2,,上午,explicit_heading,,158,165,2⃣海底互动船,海底互动船,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S003,3,,上午,explicit_heading,,166,171,3⃣白鲸馆,白鲸馆,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S004,4,,上午,explicit_heading,,172,178,4⃣北极熊馆,北极熊馆,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S005,5,,上午,explicit_heading,,179,184,5⃣企鹅馆,企鹅馆,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S006,6,,下午,explicit_heading,14:30,246,259,1⃣白鲸剧场(14:30),白鲸剧场,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S007,7,,下午,explicit_heading,,260,266,2⃣水獭之家,水獭之家,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S008,8,,下午,explicit_heading,,267,273,3⃣海鸟世界,海鸟世界,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S009,9,,下午,explicit_heading,,274,279,4⃣海象岛,海象岛,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S010,10,,下午,explicit_heading,,280,286,5⃣海狮港湾,海狮港湾,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S011,11,,下午,explicit_heading,,287,294,6⃣中华白海豚,中华白海豚,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S012,12,,下午,explicit_heading,17:00,295,308,7⃣海豚剧场(17:00),海豚剧场,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S013,13,,下午,explicit_heading,,309,314,8⃣海牛馆,海牛馆,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S014,14,,下午,explicit_heading,,315,320,9⃣海豚岛,海豚岛,,,,,activity_unspecified
+ZHCL-NOTE-08-R-ac0be18076,ZHCL-NOTE-08,ZHCL-NOTE-08-R-ac0be18076-S015,15,,下午,explicit_heading,18:30,321,334,5D城堡影院(18:30),5D城堡影院,,,,,activity_unspecified
+ZHCL-NOTE-09-R-044f695d7a,ZHCL-NOTE-09,ZHCL-NOTE-09-R-044f695d7a-S001,1,1,未说明,unknown,,475,481,1.白鲸剧场,白鲸剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-09-R-044f695d7a,ZHCL-NOTE-09,ZHCL-NOTE-09-R-044f695d7a-S002,2,1,未说明,unknown,,482,488,2.海豚剧场,海豚剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-09-R-044f695d7a,ZHCL-NOTE-09,ZHCL-NOTE-09-R-044f695d7a-S003,3,1,未说明,unknown,,489,527,"3.5D 城堡影院(就在进门右手侧,建议先把这个看了. 或者第二天进出时看)",5D城堡影院,,,,,activity_unspecified|time_unspecified|alternative_or_group_requires_review
+ZHCL-NOTE-09-R-044f695d7a,ZHCL-NOTE-09,ZHCL-NOTE-09-R-044f695d7a-S004,4,1,下午,clock_mapping,16:00,528,548,4.水上飞人大汇演(每天一场16:00),,,,,,no_p2_poi_in_step|activity_unspecified
+ZHCL-NOTE-09-R-044f695d7a,ZHCL-NOTE-09,ZHCL-NOTE-09-R-044f695d7a-S005,5,1,晚上,clock_mapping,20:00,549,565,5.烟花秀(每天一场20:00),,,,,,no_p2_poi_in_step|activity_unspecified
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S001,1,,未说明,unknown,,352,359,第一站:鲸鲨馆,鲸鲨馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S002,2,,未说明,unknown,,430,438,第二站:白鲸剧场,白鲸剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S003,3,,未说明,unknown,,470,479,第三站:海底互动船,海底互动船,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S004,4,,未说明,unknown,,554,563,第四站:冰山过山车,冰山过山车,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S005,5,,未说明,unknown,,598,615,第五站:北极熊馆+企鹅馆+水濑之家,北极熊馆|企鹅馆,,,,,activity_unspecified|time_unspecified|alternative_or_group_requires_review
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S006,6,,未说明,unknown,,661,674,第六站:海狮剧场+海豚剧场,海狮剧场|海豚剧场,,,,,activity_unspecified|time_unspecified|alternative_or_group_requires_review
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S007,7,,下午,clock_mapping,16:00|17:00,675,700,"16:00看海狮表演,17:00看可爱的海豚表演。",,,表演|表演,,,no_p2_poi_in_step
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S008,8,,未说明,unknown,,701,721,第七站:雨林升降塔+鹦鹉过山车+5D影院,雨林升降塔|鹦鹉过山车,,,,,activity_unspecified|time_unspecified|alternative_or_group_requires_review
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S009,9,,未说明,unknown,,820,832,第八站:夜光巡游+烟花秀,,,巡游,,,no_p2_poi_in_step|time_unspecified|alternative_or_group_requires_review
+ZHCL-NOTE-10-R-4955be8095,ZHCL-NOTE-10,ZHCL-NOTE-10-R-4955be8095-S010,10,,晚上,clock_mapping,19:15|20:00,833,886,"19:15的夜光巡游,热情的音乐和演员带着你一起舞动起来,20:00的烟花秀如梦如幻,完美结束这奇妙的旅程",,,巡游,,,no_p2_poi_in_step
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S001,1,2,未说明,unknown,,590,597,1⃣ 白鲸剧场,白鲸剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S002,2,2,未说明,unknown,,598,605,2⃣ 海狮剧场,海狮剧场,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S003,3,2,未说明,unknown,,614,624,4⃣ 5D 城堡影院,5D城堡影院,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S004,4,2,未说明,unknown,,625,631,5⃣ 鲸鲨馆,鲸鲨馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S005,5,2,未说明,unknown,,632,639,6⃣ 北极熊馆,北极熊馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S006,6,2,未说明,unknown,,640,646,7⃣ 企鹅馆,企鹅馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S007,7,2,未说明,unknown,,647,653,8⃣ 海牛馆,海牛馆,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-11-R-0bdf6ac32b,ZHCL-NOTE-11,ZHCL-NOTE-11-R-0bdf6ac32b-S008,8,2,未说明,unknown,,654,662,9⃣ 海底互动船,海底互动船,,,,,activity_unspecified|time_unspecified
+ZHCL-NOTE-12-R-944bf2027e,ZHCL-NOTE-12,ZHCL-NOTE-12-R-944bf2027e-S001,1,,上午,explicit_heading,,1138,1150,入园·鲸鲨馆·鹦鹉过山车,鲸鲨馆|鹦鹉过山车,,入园,,,
+ZHCL-NOTE-12-R-944bf2027e,ZHCL-NOTE-12,ZHCL-NOTE-12-R-944bf2027e-S002,2,,上午,explicit_heading,,1151,1155,海狮剧场,海狮剧场,,,,,activity_unspecified
+ZHCL-NOTE-12-R-944bf2027e,ZHCL-NOTE-12,ZHCL-NOTE-12-R-944bf2027e-S003,3,,中午,explicit_heading,,1211,1219,北极熊馆·企鹅馆,北极熊馆|企鹅馆,,,,,activity_unspecified
+JZG-NOTE-04-R-707071b5c2,JZG-NOTE-04,JZG-NOTE-04-R-707071b5c2-S001,1,,下午,explicit_heading,,359,364,· 犀牛海,犀牛海,,,,,activity_unspecified
+JZG-NOTE-04-R-707071b5c2,JZG-NOTE-04,JZG-NOTE-04-R-707071b5c2-S002,2,,下午,explicit_heading,,365,369,树正群海,树正群海,,,,,activity_unspecified
+JZG-NOTE-04-R-707071b5c2,JZG-NOTE-04,JZG-NOTE-04-R-707071b5c2-S003,3,,下午,explicit_heading,,370,379,芦苇海:中线徒步段,芦苇海,,,徒步,,activity_unspecified
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S001,1,,上午,clock_mapping,08:00,400,408,08:00 入园,,,入园,,,no_p2_poi_in_step
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S002,2,,上午,clock_mapping,09:00,411,420,09:00 五花海,五花海,,,,,activity_unspecified
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S003,3,,上午,clock_mapping,10:30,423,432,10:30 珍珠滩,珍珠滩,,,,,activity_unspecified
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S004,4,,上午,clock_mapping,11:30,435,446,11:30 诺日朗午餐,,,午餐,,,no_p2_poi_in_step
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S005,5,,中午,clock_mapping,12:30,449,457,12:30 长海,长海,,,,,activity_unspecified
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S006,6,,下午,clock_mapping,13:30,460,469,13:30 五彩池,五彩池,,,,,activity_unspecified
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S007,7,,下午,clock_mapping,14:30,472,482,14:30 树正群海,树正群海,,,,,activity_unspecified
+JZG-NOTE-04-R-2cf46b07bb,JZG-NOTE-04,JZG-NOTE-04-R-2cf46b07bb-S008,8,,下午,clock_mapping,17:00,485,493,17:00 出沟,,,出沟,,,no_p2_poi_in_step
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S001,1,,未说明,unknown,,123,126,进景区,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S002,2,,未说明,unknown,,129,131,长海,长海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S003,3,,未说明,unknown,,134,137,五彩池,五彩池,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S004,4,,未说明,unknown,,140,145,诺日朗中转,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S005,5,,未说明,unknown,,204,208,原始森林,原始森林,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S006,6,,未说明,unknown,,258,261,芳草海,芳草海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S007,7,,未说明,unknown,,264,267,天鹅海,天鹅海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S008,8,,未说明,unknown,,270,273,箭竹海,箭竹海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S009,9,,未说明,unknown,,441,444,熊猫海,熊猫海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S010,10,,未说明,unknown,,447,450,五花海,五花海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S011,11,,未说明,unknown,,453,456,珍珠滩,珍珠滩,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S012,12,,未说明,unknown,,459,464,珍珠滩瀑布,珍珠滩瀑布,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S013,13,,未说明,unknown,,467,469,镜海,镜海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S014,14,,未说明,unknown,,615,620,诺日朗瀑布,诺日朗瀑布,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S015,15,,未说明,unknown,,623,626,犀牛海,犀牛海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S016,16,,未说明,unknown,,629,633,树正区域,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S017,17,,未说明,unknown,,636,639,火花海,火花海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S018,18,,未说明,unknown,,642,645,双龙海,双龙海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S019,19,,未说明,unknown,,648,651,芦苇海,芦苇海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S020,20,,未说明,unknown,,654,656,出沟,,,出沟,,,no_p2_poi_in_step|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S021,21,,未说明,unknown,,705,709,左线速通,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S022,22,,未说明,unknown,,712,718,原始森林深玩,原始森林,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S023,23,,未说明,unknown,,721,726,右线重点玩,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-NOTE-05-R-749b346213,JZG-NOTE-05,JZG-NOTE-05-R-749b346213-S024,24,,未说明,unknown,,729,734,树正沟收尾,树正沟,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-5ea9ed992d,JZG-NOTE-05,JZG-NOTE-05-R-5ea9ed992d-S001,1,,未说明,unknown,,503,506,珍珠滩,珍珠滩,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-5ea9ed992d,JZG-NOTE-05,JZG-NOTE-05-R-5ea9ed992d-S002,2,,未说明,unknown,,509,514,珍珠滩瀑布,珍珠滩瀑布,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-05-R-5ea9ed992d,JZG-NOTE-05,JZG-NOTE-05-R-5ea9ed992d-S003,3,,未说明,unknown,,517,522,镜海停车场,镜海停车场,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-4ef6e6a46e,JZG-NOTE-11,JZG-NOTE-11-R-4ef6e6a46e-S001,1,2,未说明,unknown,,290,293,箭竹海,箭竹海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-4ef6e6a46e,JZG-NOTE-11,JZG-NOTE-11-R-4ef6e6a46e-S002,2,2,未说明,unknown,,294,297,熊猫海,熊猫海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-4ef6e6a46e,JZG-NOTE-11,JZG-NOTE-11-R-4ef6e6a46e-S003,3,2,未说明,unknown,,298,303,熊猫海瀑布,熊猫海瀑布,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-4ef6e6a46e,JZG-NOTE-11,JZG-NOTE-11-R-4ef6e6a46e-S004,4,2,未说明,unknown,,304,307,五花海,五花海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-4ef6e6a46e,JZG-NOTE-11,JZG-NOTE-11-R-4ef6e6a46e-S005,5,2,未说明,unknown,,308,311,珍珠滩,珍珠滩,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-4ef6e6a46e,JZG-NOTE-11,JZG-NOTE-11-R-4ef6e6a46e-S006,6,2,未说明,unknown,,312,317,珍珠滩瀑布,珍珠滩瀑布,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-4ef6e6a46e,JZG-NOTE-11,JZG-NOTE-11-R-4ef6e6a46e-S007,7,2,未说明,unknown,,318,320,镜海,镜海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S001,1,2,未说明,unknown,,366,368,长海,长海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S002,2,2,未说明,unknown,,369,372,五彩池,五彩池,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S003,3,2,未说明,unknown,,373,378,诺日朗中心,诺日朗中心,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S004,4,2,未说明,unknown,,379,383,树正群海,树正群海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S005,5,2,未说明,unknown,,384,388,树正瀑布,树正瀑布,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S006,6,2,未说明,unknown,,389,392,芦苇海,芦苇海,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S007,7,2,未说明,unknown,,393,396,盆景滩,盆景滩,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-11-R-a7eac262f6,JZG-NOTE-11,JZG-NOTE-11-R-a7eac262f6-S008,8,2,未说明,unknown,,397,400,出景区,,,,,,no_p2_poi_in_step|activity_unspecified|time_unspecified
+JZG-NOTE-11-R-7b1d341d07,JZG-NOTE-11,JZG-NOTE-11-R-7b1d341d07-S001,1,,上午,explicit_heading,,937,942,熊猫海瀑布,熊猫海瀑布,,,,,activity_unspecified
+JZG-NOTE-11-R-7b1d341d07,JZG-NOTE-11,JZG-NOTE-11-R-7b1d341d07-S002,2,,上午,explicit_heading,,943,946,五花海,五花海,,,,,activity_unspecified
+JZG-NOTE-11-R-7b1d341d07,JZG-NOTE-11,JZG-NOTE-11-R-7b1d341d07-S003,3,,上午,explicit_heading,,947,950,珍珠滩,珍珠滩,,,,,activity_unspecified
+JZG-NOTE-11-R-7b1d341d07,JZG-NOTE-11,JZG-NOTE-11-R-7b1d341d07-S004,4,,上午,explicit_heading,,951,956,珍珠滩瀑布,珍珠滩瀑布,,,,,activity_unspecified
+JZG-NOTE-11-R-7b1d341d07,JZG-NOTE-11,JZG-NOTE-11-R-7b1d341d07-S005,5,,上午,explicit_heading,,957,959,镜海,镜海,,,,,activity_unspecified
+JZG-NOTE-12-R-d519b6d883,JZG-NOTE-12,JZG-NOTE-12-R-d519b6d883-S001,1,,未说明,unknown,,1762,1785,"1、从珍珠滩站下车后,通过下穿隧道来到珍珠滩,",珍珠滩|珍珠滩,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-12-R-d519b6d883,JZG-NOTE-12,JZG-NOTE-12-R-d519b6d883-S002,2,,未说明,unknown,,1831,1854,"2、随后来到珍珠滩瀑布的悬崖处,顺楼梯下行到珍",珍珠滩瀑布,,,,,activity_unspecified|time_unspecified
+JZG-NOTE-12-R-d519b6d883,JZG-NOTE-12,JZG-NOTE-12-R-d519b6d883-S003,3,,未说明,unknown,,1876,1901,3、顺瀑布水流步行350米去“镜海停车的乘车前往。,镜海,,步行,步行|乘车,,time_unspecified

@@ -1,0 +1,163 @@
+{
+  "kind": "targeted_checks_not_accuracy",
+  "total": 39,
+  "passed": 39,
+  "outcomes": [
+    {
+      "case_id": "R-01",
+      "passed": true
+    },
+    {
+      "case_id": "R-02",
+      "passed": true
+    },
+    {
+      "case_id": "R-03",
+      "passed": true
+    },
+    {
+      "case_id": "R-04",
+      "passed": true
+    },
+    {
+      "case_id": "R-05",
+      "passed": true
+    },
+    {
+      "case_id": "R-06",
+      "passed": true
+    },
+    {
+      "case_id": "R-07",
+      "passed": true
+    },
+    {
+      "case_id": "R-08",
+      "passed": true
+    },
+    {
+      "case_id": "R-09",
+      "passed": true
+    },
+    {
+      "case_id": "R-10",
+      "passed": true
+    },
+    {
+      "case_id": "R-11",
+      "passed": true
+    },
+    {
+      "case_id": "R-12",
+      "passed": true
+    },
+    {
+      "case_id": "R-13",
+      "passed": true
+    },
+    {
+      "case_id": "R-14",
+      "passed": true
+    },
+    {
+      "case_id": "R-15",
+      "passed": true
+    },
+    {
+      "case_id": "R-16",
+      "passed": true
+    },
+    {
+      "case_id": "R-17",
+      "passed": true
+    },
+    {
+      "case_id": "R-18",
+      "passed": true
+    },
+    {
+      "case_id": "R-19",
+      "passed": true
+    },
+    {
+      "case_id": "R-20",
+      "passed": true
+    },
+    {
+      "case_id": "R-21",
+      "passed": true
+    },
+    {
+      "case_id": "R-22",
+      "passed": true
+    },
+    {
+      "case_id": "R-23",
+      "passed": true
+    },
+    {
+      "case_id": "R-24",
+      "passed": true
+    },
+    {
+      "case_id": "R-25",
+      "passed": true
+    },
+    {
+      "case_id": "R-26",
+      "passed": true
+    },
+    {
+      "case_id": "R-27",
+      "passed": true
+    },
+    {
+      "case_id": "R-28",
+      "passed": true
+    },
+    {
+      "case_id": "R-29",
+      "passed": true
+    },
+    {
+      "case_id": "R-30",
+      "passed": true
+    },
+    {
+      "case_id": "R-31",
+      "passed": true
+    },
+    {
+      "case_id": "R-32",
+      "passed": true
+    },
+    {
+      "case_id": "R-33",
+      "passed": true
+    },
+    {
+      "case_id": "R-34",
+      "passed": true
+    },
+    {
+      "case_id": "R-35",
+      "passed": true
+    },
+    {
+      "case_id": "R-36",
+      "passed": true
+    },
+    {
+      "case_id": "R-37",
+      "passed": true
+    },
+    {
+      "case_id": "R-38",
+      "passed": true
+    },
+    {
+      "case_id": "R-39",
+      "passed": true
+    }
+  ]
+}

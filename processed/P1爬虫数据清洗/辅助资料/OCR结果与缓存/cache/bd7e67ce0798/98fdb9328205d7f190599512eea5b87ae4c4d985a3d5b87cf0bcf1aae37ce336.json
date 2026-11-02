@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "98fdb9328205d7f190599512eea5b87ae4c4d985a3d5b87cf0bcf1aae37ce336",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2421135,
+  "round_trip_ms": 206.32949999708217,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            212.0,
+            305.0
+          ],
+          [
+            395.0,
+            294.0
+          ],
+          [
+            398.0,
+            351.0
+          ],
+          [
+            215.0,
+            361.0
+          ]
+        ],
+        "confidence": 0.9991310834884644,
+        "text": "海象山"
+      },
+      {
+        "box": [
+          [
+            226.0,
+            356.0
+          ],
+          [
+            392.0,
+            349.0
+          ],
+          [
+            393.0,
+            371.0
+          ],
+          [
+            227.0,
+            378.0
+          ]
+        ],
+        "confidence": 0.9571100473403931,
+        "text": "MT. WALRUS"
+      },
+      {
+        "box": [
+          [
+            394.0,
+            679.0
+          ],
+          [
+            669.0,
+            679.0
+          ],
+          [
+            669.0,
+            760.0
+          ],
+          [
+            394.0,
+            760.0
+          ]
+        ],
+        "confidence": 0.880837619304657,
+        "text": "#海象山"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.8694500000000001,
+      "decode": 31.4193,
+      "det_infer": 109.709222,
+      "det_post": 1.273788,
+      "det_pre": 35.399064,
+      "pipeline": 157.582787,
+      "rec_infer": 9.71975,
+      "rec_post": 0.382123,
+      "rec_pre": 0.214302,
+      "server_compute": 189.003329,
+      "sort": 0.001233
+    },
+    "request_id": "clean-98fdb9328205d7f190599512"
+  }
+}

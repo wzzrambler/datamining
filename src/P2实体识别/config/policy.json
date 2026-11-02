@@ -1,0 +1,14 @@
+{
+  "version": "v2",
+  "scope": "同景区词典；原文段内识别；不补造缺失实体",
+  "context_paragraphs": 3,
+  "context_max_chars": 500,
+  "source_boundaries": "仅同一正文/图片/评论来源可读取前序上下文；不跨来源",
+  "normalization": "仅等长全角ASCII转换；可忽略拉丁数字与汉字之间空格；偏移始终回到原文",
+  "overlap": "POI与TRANSPORT最长匹配优先，站点/设施优先于内部交通子串；TIME独立按完整表达优先",
+  "ambiguous": "疑似错字不自动纠正，不确定别名不合并；活动不作POI",
+  "evaluation": "原9块反馈用于开发，不作为独立评测；另留未用于本轮改规则的标注块",
+  "time_boundary": "核心值，提前/前/以后/约/左右等关系保留于time_context",
+  "walking": "保留步行/徒步；过滤细步行走等叙事子串",
+  "feedback_authority": "项目规范优先于第三方审核建议，仅修正确认程序不足"
+}

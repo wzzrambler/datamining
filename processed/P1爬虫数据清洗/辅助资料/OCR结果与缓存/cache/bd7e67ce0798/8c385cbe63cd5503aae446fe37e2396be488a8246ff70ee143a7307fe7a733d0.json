@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "8c385cbe63cd5503aae446fe37e2396be488a8246ff70ee143a7307fe7a733d0",
+  "upload_mime": "image/png",
+  "request_body_bytes": 731005,
+  "round_trip_ms": 131.02300000900868,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 850,
+      "width": 1170
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            166.0,
+            7.0
+          ],
+          [
+            1170.0,
+            154.0
+          ],
+          [
+            1170.0,
+            850.0
+          ],
+          [
+            64.0,
+            784.0
+          ]
+        ],
+        "confidence": 0.033484481275081635,
+        "text": "峰"
+      },
+      {
+        "box": [
+          [
+            1104.0,
+            753.0
+          ],
+          [
+            1156.0,
+            749.0
+          ],
+          [
+            1164.0,
+            847.0
+          ],
+          [
+            1112.0,
+            850.0
+          ]
+        ],
+        "confidence": 0.09855657070875168,
+        "text": "以"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 19.862724999999998,
+      "decode": 13.564257,
+      "det_infer": 65.36865,
+      "det_post": 1.351591,
+      "det_pre": 18.518709,
+      "pipeline": 108.928405,
+      "rec_infer": 3.467353,
+      "rec_post": 0.086001,
+      "rec_pre": 0.268428,
+      "server_compute": 122.493694,
+      "sort": 0.000972
+    },
+    "request_id": "clean-8c385cbe63cd5503aae446fe"
+  }
+}

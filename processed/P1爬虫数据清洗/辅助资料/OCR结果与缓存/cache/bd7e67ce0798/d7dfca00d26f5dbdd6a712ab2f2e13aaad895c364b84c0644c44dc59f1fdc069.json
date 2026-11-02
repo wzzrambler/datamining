@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "d7dfca00d26f5dbdd6a712ab2f2e13aaad895c364b84c0644c44dc59f1fdc069",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1787074,
+  "round_trip_ms": 231.16480000317097,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1080,
+      "width": 1440
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            994.0,
+            993.0
+          ],
+          [
+            1404.0,
+            997.0
+          ],
+          [
+            1403.0,
+            1049.0
+          ],
+          [
+            993.0,
+            1045.0
+          ]
+        ],
+        "confidence": 0.9790608286857605,
+        "text": "问一问·LXM1018"
+      },
+      {
+        "box": [
+          [
+            1380.0,
+            1045.0
+          ],
+          [
+            1426.0,
+            1045.0
+          ],
+          [
+            1426.0,
+            1068.0
+          ],
+          [
+            1380.0,
+            1068.0
+          ]
+        ],
+        "confidence": 0.6926593780517578,
+        "text": "小I书"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.48603799999999997,
+      "decode": 28.303804,
+      "det_infer": 103.768165,
+      "det_post": 1.307545,
+      "det_pre": 42.662221,
+      "pipeline": 154.452189,
+      "rec_infer": 5.830018,
+      "rec_post": 0.265062,
+      "rec_pre": 0.126419,
+      "server_compute": 182.756555,
+      "sort": 0.000821
+    },
+    "request_id": "clean-d7dfca00d26f5dbdd6a712ab"
+  }
+}

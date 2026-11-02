@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "7cf52335f8a42930f226560b3240f33201b2df6ffb884f8eb055ba98312d00dc",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1799580,
+  "round_trip_ms": 201.13309999578632,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            318.0,
+            343.0
+          ],
+          [
+            392.0,
+            343.0
+          ],
+          [
+            392.0,
+            372.0
+          ],
+          [
+            318.0,
+            372.0
+          ]
+        ],
+        "confidence": 0.7914428114891052,
+        "text": "自鲸馆"
+      },
+      {
+        "box": [
+          [
+            334.0,
+            368.0
+          ],
+          [
+            387.0,
+            368.0
+          ],
+          [
+            387.0,
+            382.0
+          ],
+          [
+            334.0,
+            382.0
+          ]
+        ],
+        "confidence": 0.5087226629257202,
+        "text": "eeEHif"
+      },
+      {
+        "box": [
+          [
+            387.0,
+            684.0
+          ],
+          [
+            665.0,
+            684.0
+          ],
+          [
+            665.0,
+            766.0
+          ],
+          [
+            387.0,
+            766.0
+          ]
+        ],
+        "confidence": 0.9090461730957031,
+        "text": "#白鲸馆"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.5781390000000001,
+      "decode": 27.205399,
+      "det_infer": 101.045097,
+      "det_post": 0.993236,
+      "det_pre": 34.145482,
+      "pipeline": 144.697186,
+      "rec_infer": 7.48551,
+      "rec_post": 0.261545,
+      "rec_pre": 0.177334,
+      "server_compute": 171.903187,
+      "sort": 0.000942
+    },
+    "request_id": "clean-7cf52335f8a42930f226560b"
+  }
+}

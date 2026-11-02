@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "f44f6b118814f27bb3c934996e15273b75c2a35ab06f2c62bbb35da6535d3c86",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2852056,
+  "round_trip_ms": 195.35730000643525,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            386.0,
+            735.0
+          ],
+          [
+            494.0,
+            743.0
+          ],
+          [
+            492.0,
+            769.0
+          ],
+          [
+            384.0,
+            761.0
+          ]
+        ],
+        "confidence": 0.17527838051319122,
+        "text": "买电治8"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.114415,
+      "decode": 29.692649,
+      "det_infer": 96.971823,
+      "det_post": 0.917234,
+      "det_pre": 32.485364,
+      "pipeline": 137.465549,
+      "rec_infer": 3.104166,
+      "rec_post": 0.121359,
+      "rec_pre": 0.06122,
+      "server_compute": 167.15877,
+      "sort": 0.001383
+    },
+    "request_id": "clean-f44f6b118814f27bb3c93499"
+  }
+}

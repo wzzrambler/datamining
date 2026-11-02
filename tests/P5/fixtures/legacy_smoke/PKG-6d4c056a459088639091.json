@@ -1,0 +1,49 @@
+{
+  "host": {
+    "status": "COMPLETED",
+    "records": [
+      {
+        "record_id": "P5OBS-5a3374cf68365be0",
+        "tool_name": "submit_route",
+        "arguments": {
+          "route_id": "GZCL-NOTE-02-R-82a5b2e5a8",
+          "summary": "南门进园，搭乘天鹅湖缆车到天鹅湖游览，再乘小火车游览非洲大草原，之后依次游览青龙山、百虎山、金狮王国、大熊猫中心、大象园，从南门返程并观看大马戏表演。",
+          "recommended_audiences": [],
+          "audience_basis": "not_stated",
+          "normalizations": [],
+          "resolves_issue_ids": []
+        },
+        "fingerprint": "61791de3b87e7982a10e21819800e0adb2c611d51ac5fb189a8c73194559ddbe",
+        "leg_ref": null,
+        "active": true,
+        "depends_on": [],
+        "package_key": "PKG-6d4c056a459088639091",
+        "scenic_code": "GZCL",
+        "provenance": {
+          "doc_id": "GZCL-NOTE-02",
+          "source_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1793182593&ver=7054&signature=U45kQb*Mf1Ze8gBtQ7Ydsv5yOCm0W0aBVxIIELw*Qgn7s*AWq2G9qqfrH-L2rpAZ0KML71*tYC9MVk0QL92zgH0FhjbdXnwV62LMErDyJphxvf5ydO0Y0mv5ReLc7zXA&new=1",
+          "input_hashes": {
+            "p1": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+            "p2": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
+            "p3": "9d68cff56697fa8c69c61171ef168f8c5268c3a3eb69d4c91c18a6e248c5d2ed",
+            "sources": "1b8aa3ddde75d27df408cb3531c54f0ba4b6cebae8d7b623970091cc82e0cba9"
+          },
+          "evidence_precision": "package",
+          "blocks": [
+            {
+              "block_id": "B001",
+              "start": 196,
+              "end": 265,
+              "para_id": 5,
+              "origin": {
+                "kind": "legacy",
+                "para_id": 5
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "usage": []
+}

@@ -1,0 +1,15 @@
+{
+  "requests": 262,
+  "entities": 257,
+  "theme_count": 548,
+  "prompt_tokens": 378204,
+  "completion_tokens": 45893,
+  "max_actual_total_tokens": 11023,
+  "max_actual_prompt_tokens": 9243,
+  "all_outputs_json_and_refs_validated": true,
+  "semantic_correctness_independently_verified": false,
+  "checkpoints": "D:\\文档\\大三上\\数据挖掘\\实验一\\小组仓库外我自己的资源\\P6_LLM主题汇总_20261101\\themes-20261101-v2\\checkpoints",
+  "mean_actual_prompt_tokens": 1443.5,
+  "unique_entity_ids": 249,
+  "mean_actual_total_tokens": 1618.7
+}

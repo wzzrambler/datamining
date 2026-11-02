@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "8af94bf594381c6d677f46fbd0d848927d109ba80c6a87f77e8c08220a7703da",
+  "upload_mime": "image/png",
+  "request_body_bytes": 1133272,
+  "round_trip_ms": 183.41620000137482,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            221.0,
+            1274.0
+          ],
+          [
+            336.0,
+            1261.0
+          ],
+          [
+            340.0,
+            1303.0
+          ],
+          [
+            225.0,
+            1315.0
+          ]
+        ],
+        "confidence": 0.9971056580543518,
+        "text": "弹射穿梭站"
+      },
+      {
+        "box": [
+          [
+            232.0,
+            1309.0
+          ],
+          [
+            322.0,
+            1302.0
+          ],
+          [
+            323.0,
+            1319.0
+          ],
+          [
+            233.0,
+            1326.0
+          ]
+        ],
+        "confidence": 0.9184632897377014,
+        "text": "LAUNDHSHUTTLESTATION"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.256826,
+      "decode": 20.567293,
+      "det_infer": 104.895548,
+      "det_post": 0.995622,
+      "det_pre": 34.725163,
+      "pipeline": 151.682955,
+      "rec_infer": 5.852234,
+      "rec_post": 0.222859,
+      "rec_pre": 0.117651,
+      "server_compute": 172.25121,
+      "sort": 0.004088
+    },
+    "request_id": "clean-8af94bf594381c6d677f46fb"
+  }
+}

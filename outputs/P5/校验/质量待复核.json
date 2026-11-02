@@ -1,0 +1,881 @@
+{
+  "time_attribute_review_flags": [
+    {
+      "entity_id": "POI-0baa51d763ec4739",
+      "name": "长隆国际大马戏",
+      "attribute": "opening_time",
+      "value_text": "普通票座位先到先占",
+      "observation_ids": [
+        "P5OBS-5fe11a700ff38ad0"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-b2651a45b778b60b",
+      "name": "金蛇秘境",
+      "attribute": "visit_time",
+      "value_text": "室内遮阳",
+      "observation_ids": [
+        "P5OBS-3f9c212581153272"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-a2a8d994442ab582",
+      "name": "白虎自助餐厅",
+      "attribute": "visit_time",
+      "value_text": "自助餐所在的白虎堂，也可看到白虎和火烈鸟",
+      "observation_ids": [
+        "P5OBS-b824e68f875b7b51"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-e08ce45abf2ba51f",
+      "name": "梦幻转马",
+      "attribute": "visit_time",
+      "value_text": "速度比较缓慢",
+      "observation_ids": [
+        "P5OBS-7564dd658dac2fa8"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-13228cccee608f7d",
+      "name": "长海",
+      "attribute": "visit_time",
+      "value_text": "第一站先去长海",
+      "observation_ids": [
+        "P5OBS-02654601e9854f2a"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-545fccca3e7cf427",
+      "name": "镜海",
+      "attribute": "visit_time",
+      "value_text": "无风的清晨",
+      "observation_ids": [
+        "P5OBS-883ae5fc959a608c"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-f5c247b15cea1e11",
+      "name": "树正沟",
+      "attribute": "visit_time",
+      "value_text": "第一天",
+      "observation_ids": [
+        "P5OBS-5034094db7386c1f"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-9cb8ef99d892b62b",
+      "name": "日则沟",
+      "attribute": "visit_time",
+      "value_text": "第二天",
+      "observation_ids": [
+        "P5OBS-c7286ce964596ef5"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-7927973cb5fc8e4d",
+      "name": "则查洼沟",
+      "attribute": "visit_time",
+      "value_text": "第一天",
+      "observation_ids": [
+        "P5OBS-46ecca4d962d2536"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-0e708b4c23900ae0",
+      "name": "5D城堡影院",
+      "attribute": "visit_time",
+      "value_text": "建议先把这个看了",
+      "observation_ids": [
+        "P5OBS-e5eeac4aa7af3ed4"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-0e708b4c23900ae0",
+      "name": "5D城堡影院",
+      "attribute": "visit_time",
+      "value_text": "或者第二天进出时看",
+      "observation_ids": [
+        "P5OBS-e5eeac4aa7af3ed4"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-d6697eb23bea8174",
+      "name": "海豚剧场",
+      "attribute": "visit_time",
+      "value_text": "按当日场次",
+      "observation_ids": [
+        "P5OBS-21a2d954bd232758"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-f2b4e627e9f8f21e",
+      "name": "白鲸剧场",
+      "attribute": "visit_time",
+      "value_text": "按当日场次",
+      "observation_ids": [
+        "P5OBS-6cf3bc81247b0770"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-6a4e18c9617ef088",
+      "name": "海狮剧场",
+      "attribute": "visit_time",
+      "value_text": "按当日场次",
+      "observation_ids": [
+        "P5OBS-089e413758e7b13f"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-9beeec837463067a",
+      "name": "旋转水战",
+      "attribute": "visit_time",
+      "value_text": "夏天玩超爽",
+      "observation_ids": [
+        "P5OBS-d9e2b9a94e840f1f"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    },
+    {
+      "entity_id": "POI-13fccb128c3272b4",
+      "name": "横琴海",
+      "attribute": "visit_time",
+      "value_text": "天已经黑了，烟花幻彩横琴海表演也开始了",
+      "observation_ids": [
+        "P5OBS-5429c76440e37477"
+      ],
+      "reason": "时间属性缺少明显时间或开放描述，需人工检查字段归类"
+    }
+  ],
+  "short_route_review_flags": [
+    {
+      "route_id": "ROUTEOBS-d7e68a2d523cfca1",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "游览长海、五彩池，建议用时60-90分钟。",
+          "scope": "route",
+          "observation_id": "P5OBS-33eec515f7f1c3c6"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-73cdfe5e997661ad",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "九寨沟3天2晚行程第二天：九寨沟景区游玩，晚上住民宿。",
+          "scope": "route",
+          "observation_id": "P5OBS-4c4c2998573e9eba"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-544171ec6f07f2d7",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "进门直奔鲸鲨馆",
+          "scope": "route",
+          "observation_id": "P5OBS-f9282a0e286c7e42"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-6a774dd11b2ac1aa",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "包车进沟前往九寨沟",
+          "scope": "route",
+          "observation_id": "P5OBS-bcae8ebed808cc25"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-70e6c05be42305fc",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "10:00前往海底互动船，早上排队人很少",
+          "scope": "route",
+          "observation_id": "P5OBS-fc3254492e0569d4"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-bd67ccb07279440c",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "10:00-15:00游玩，缆车加观光车上山，徒步下山。",
+          "scope": "route",
+          "observation_id": "P5OBS-5f28a53f8f0ec3ef"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-6d08137137c80092",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "开园直冲鲸鲨馆，此时人最少。",
+          "scope": "route",
+          "observation_id": "P5OBS-3469c99c3e4f89de"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-8a6040ee91061ee5",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "国庆3天2晚行程第三天：长隆飞鸟乐园",
+          "scope": "route",
+          "observation_id": "P5OBS-d4ff2bb76951fc8d"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-51a8c6aafdcb1b4b",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "Day2野生动物园行程：从北门进园，先乘坐小火车游览。",
+          "scope": "route",
+          "observation_id": "P5OBS-c05a971983baeff3"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-68877bd94581a043",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "从成都东前往黄龙九寨站",
+          "scope": "route",
+          "observation_id": "P5OBS-5ad9d836939e42de"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-7816cfa99478f7a1",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "09:00前往位于园区最里面的鲸鲨馆，建议一早冲。",
+          "scope": "route",
+          "observation_id": "P5OBS-d9f41e004b3868c1"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-b216097b80db5d37",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "第三天根据动车时间返程成都。",
+          "scope": "route",
+          "observation_id": "P5OBS-c16ea1f11ea307c9"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-a87407e6206f8c80",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "珠海长隆海洋王国一日游：10点入园后第一站直奔鲸鲨馆",
+          "scope": "route",
+          "observation_id": "P5OBS-4706b28ad867706a"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-02b550acff55f8a3",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "Day3上午前往飞船乐园，之后返程。",
+          "scope": "route",
+          "observation_id": "P5OBS-2aa9e94411b98832"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-317b45899c484ec4",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "08:00 第一波入园，坐观光车直奔五花海",
+          "scope": "route",
+          "observation_id": "P5OBS-9f9ce6c54cbbd4ee"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-0537d0fad6e2e9cb",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "左线游览长海和五彩池",
+          "scope": "route",
+          "observation_id": "P5OBS-0333586fa64976b6"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-38f1d3fd32c0ed6f",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "从成都东站乘高铁前往黄龙九寨站。",
+          "scope": "route",
+          "observation_id": "P5OBS-ee792a4d790aa494"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-cdefb8a01318853d",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "第一天抵达九寨沟口。",
+          "scope": "route",
+          "observation_id": "P5OBS-5771e7469cb5c1b7"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-d2b0f3bd5445637c",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "07:30从九寨沟景区包车或拼车前往黄龙景区。",
+          "scope": "route",
+          "observation_id": "P5OBS-11d25ff862e22e3b"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-2bb4d873370d3f14",
+      "steps": 1,
+      "summaries": [],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-58656f2a77ed783a",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "进门往左走前往欢乐小镇亲子区",
+          "scope": "route",
+          "observation_id": "P5OBS-8527f2e11d49a44b"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-d0e7acc0a17f8486",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "诺日朗至长海的左线行程",
+          "scope": "route",
+          "observation_id": "P5OBS-8dc8664807adbce8"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-9301a542d3ac273b",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "深圳直飞成都",
+          "scope": "route",
+          "observation_id": "P5OBS-fc0005e6a895c863"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-9ed43d826eb513ed",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "前一天16:02从成都西乘D280高铁，18:27到达黄龙九寨站。",
+          "scope": "route",
+          "observation_id": "P5OBS-16a37fdec39ec0f8"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-786ba32be83b9d46",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "诺日朗至箭竹海右线，建议坐右边",
+          "scope": "route",
+          "observation_id": "P5OBS-4494755a457d8657"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-bf3525194ebc022f",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "乘接驳巴士前往长隆剧场",
+          "scope": "route",
+          "observation_id": "P5OBS-8a416c3f7671e5a8"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-294ef092830aae90",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "往沟口方向步行350米前往诺日朗瀑布",
+          "scope": "route",
+          "observation_id": "P5OBS-fa1ceb2a49429b8d"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-67ff54f28073bff0",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "上午先游览右线日则沟",
+          "scope": "route",
+          "observation_id": "P5OBS-a51d4a868cc0c646"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-8f99d38525043af9",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "Day 1：飞船酒店与飞船乐园，行程轻松。",
+          "scope": "route",
+          "observation_id": "P5OBS-147ae6b887738569"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-3d57eee81da8a4cf",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "16:40 从鹦鹉乐园前往精灵馆",
+          "scope": "route",
+          "observation_id": "P5OBS-98f72d40047e8c67"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-67b3dd59aceb8054",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "上午优先乘坐小火车游览。",
+          "scope": "route",
+          "observation_id": "P5OBS-66421da85dbd4427"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-481c83cab2abb66a",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "青龙山最后一站为金蛇秘境。",
+          "scope": "route",
+          "observation_id": "P5OBS-cc5d2b86253731fc"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-512892b2fc979869",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "景区门口坐免费摆渡车上行索道口",
+          "scope": "route",
+          "observation_id": "P5OBS-f6dabbf2a6968034"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-2a6745cd227d98ce",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "在熊猫乐园站上下，环线回到原地。",
+          "scope": "route",
+          "observation_id": "P5OBS-17ebd6c76af7bc32"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-367c4044fb304f54",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "乘坐森林小火车穿越五大洲的珍稀动物世界，近距离接触动物朋友。",
+          "scope": "route",
+          "observation_id": "P5OBS-bae98fb2b1b4fb43"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-31cea2cd9d3dfb8f",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "Day 2：长隆欢乐世界 + 长隆水上乐园",
+          "scope": "route",
+          "observation_id": "P5OBS-290a83614f9fe1f2"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-cc00c4ff4196a4fb",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "从黄龙九寨站包车或拼车前往九寨沟景区",
+          "scope": "route",
+          "observation_id": "P5OBS-e30e73ebcaae479c"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-85d8046f7d0ad749",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "从南门进入的野生动物园游览路线，全程不绕路。",
+          "scope": "route",
+          "observation_id": "P5OBS-e51e4d821fa5d3ec"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-09b273118f98ee01",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "10:30从南门入园",
+          "scope": "route",
+          "observation_id": "P5OBS-342bbbd454ecf6df"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-7f0444bb3220136e",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "上午游览则查洼沟和树正沟",
+          "scope": "route",
+          "observation_id": "P5OBS-bee68d2d4cb1f002"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-062c8584ece87519",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "Day1前往长隆欢乐世界，10:30入园。",
+          "scope": "route",
+          "observation_id": "P5OBS-52fdc901ab08feff"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-8a1117e048aea092",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "一路700米游览后到达树正寨",
+          "scope": "route",
+          "observation_id": "P5OBS-c7b2806016af09e0"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-017465964f15cc25",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "游览五花海，建议停留20-50分钟。",
+          "scope": "route",
+          "observation_id": "P5OBS-ac74f3e77fced7ce"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-3e3f480cb7f961af",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "游玩Y字右线（从箭竹海开始往下，放弃天鹅湖和原始森林）加中线",
+          "scope": "route",
+          "observation_id": "P5OBS-2ff581e96d1df78e"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-54c2a8b80eb358b7",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "开门后先打卡火烈鸟岛的游览安排",
+          "scope": "route",
+          "observation_id": "P5OBS-0d1c90e7f5911026"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-e1f63f3243acf782",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "6月午后先去看表演，选择左手边的路线，第一站为海狮剧场。",
+          "scope": "route",
+          "observation_id": "P5OBS-4025362be49e6226"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-a149a1768c3232d5",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "抵达长海后沿栈道步行游览的片段",
+          "scope": "route",
+          "observation_id": "P5OBS-15f48003575f2e9f"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-08394b72a984b536",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "Day3长隆飞鸟乐园半天精简路线",
+          "scope": "route",
+          "observation_id": "P5OBS-bc6b0c7286426ee9"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-d1692bddee91d1e9",
+      "steps": 1,
+      "summaries": [],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-8235a62d699bd17f",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "右线游览原始森林、芳草海、天鹅海",
+          "scope": "route",
+          "observation_id": "P5OBS-b5d53fac27d0fca9"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-5e5eb05327777602",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "晚上看完大马戏回酒店。",
+          "scope": "route",
+          "observation_id": "P5OBS-9f0badbdbcdece73"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-7e166e1c5f4e759b",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "上午从北门进入长隆野生动物世界，避开旅行团。",
+          "scope": "route",
+          "observation_id": "P5OBS-52d16f68b996c2f1"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-49c197d0e7fadaa9",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "先走右线，前往五花海",
+          "scope": "route",
+          "observation_id": "P5OBS-408b2c9d8d2fa86f"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-6fca579d0381be11",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "8点步行出发前往沟口游客中心，步行约10分钟。",
+          "scope": "route",
+          "observation_id": "P5OBS-d3dd48f4b30d1f5e"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-6c8081d7fab7616b",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "从成都东乘C5782高铁前往黄龙九寨站",
+          "scope": "route",
+          "observation_id": "P5OBS-93e8839503784470"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-e362ca50b9beaa74",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "Day 1：长隆野生动物世界 + 国际大马戏",
+          "scope": "route",
+          "observation_id": "P5OBS-9232164ec5ebe3c2"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-5b03b37b48ba8653",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "从天鹅湖广场步行直达青龙山入口",
+          "scope": "route",
+          "observation_id": "P5OBS-d6f7a76c20ee0ff0"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-cc1ea9c3c7b23c5b",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "诺日朗瀑布游览后在中心休整。",
+          "scope": "route",
+          "observation_id": "P5OBS-85832a21b3baf2c9"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-64b1eb812645fc4a",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "从北门进入长隆欢乐世界，第一站到尖叫地带，开启尖叫路线。",
+          "scope": "route",
+          "observation_id": "P5OBS-b02e0b1e9e57e9ad"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    },
+    {
+      "route_id": "ROUTEOBS-c9aef6090195234f",
+      "steps": 1,
+      "summaries": [
+        {
+          "text": "北门入园后乘坐小火车游览",
+          "scope": "route",
+          "observation_id": "P5OBS-3c24bf0cbb7a7fc4"
+        }
+      ],
+      "reason": "新线路不足两个步骤，可能是单点说明而非完整线路，待复核"
+    }
+  ],
+  "quality_status": "用户已采纳所列问题；待修订数据，不再等待是否接受问题的确认",
+  "user_review": {
+    "reviewer": "用户（会话确认）",
+    "review_date": "2026-11-01",
+    "decision": "采纳全部已列疑点，保留问题清单待修订",
+    "semantic_data_modified": false
+  }
+}

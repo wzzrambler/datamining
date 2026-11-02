@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "7aa8a68be1abe4405eeb5999dd2fab598effc609000aea458e4156c95c16d286",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2050323,
+  "round_trip_ms": 272.80429999518674,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1920,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            421.0,
+            572.0
+          ],
+          [
+            674.0,
+            572.0
+          ],
+          [
+            674.0,
+            617.0
+          ],
+          [
+            421.0,
+            617.0
+          ]
+        ],
+        "confidence": 0.8417207598686218,
+        "text": "cJI OSMO POCKET 3."
+      },
+      {
+        "box": [
+          [
+            426.0,
+            1218.0
+          ],
+          [
+            659.0,
+            1217.0
+          ],
+          [
+            659.0,
+            1250.0
+          ],
+          [
+            426.0,
+            1252.0
+          ]
+        ],
+        "confidence": 0.9243942499160767,
+        "text": "CJIOSMO POCKET3"
+      },
+      {
+        "box": [
+          [
+            420.0,
+            1855.0
+          ],
+          [
+            661.0,
+            1853.0
+          ],
+          [
+            661.0,
+            1891.0
+          ],
+          [
+            421.0,
+            1893.0
+          ]
+        ],
+        "confidence": 0.8576571941375732,
+        "text": "cJ OSMO POCKET 3"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.629239,
+      "decode": 31.538306,
+      "det_infer": 141.980181,
+      "det_post": 1.326873,
+      "det_pre": 51.556215,
+      "pipeline": 211.471322,
+      "rec_infer": 10.109601000000001,
+      "rec_post": 0.5141720000000001,
+      "rec_pre": 0.234002,
+      "server_compute": 243.01054,
+      "sort": 0.002125
+    },
+    "request_id": "clean-7aa8a68be1abe4405eeb5999"
+  }
+}

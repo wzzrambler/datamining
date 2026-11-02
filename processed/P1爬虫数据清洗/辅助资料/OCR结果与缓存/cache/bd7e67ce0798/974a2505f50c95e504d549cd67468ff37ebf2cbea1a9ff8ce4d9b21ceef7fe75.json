@@ -1,0 +1,77 @@
+{
+  "status": "recognized",
+  "source_sha256": "974a2505f50c95e504d549cd67468ff37ebf2cbea1a9ff8ce4d9b21ceef7fe75",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2000388,
+  "round_trip_ms": 204.26490000681952,
+  "response": {
+    "detected_boxes": 2,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            479.0,
+            425.0
+          ],
+          [
+            632.0,
+            423.0
+          ],
+          [
+            633.0,
+            471.0
+          ],
+          [
+            479.0,
+            473.0
+          ]
+        ],
+        "confidence": 0.9995733499526978,
+        "text": "广州长隆"
+      },
+      {
+        "box": [
+          [
+            484.0,
+            471.0
+          ],
+          [
+            635.0,
+            467.0
+          ],
+          [
+            635.0,
+            486.0
+          ],
+          [
+            484.0,
+            489.0
+          ]
+        ],
+        "confidence": 0.980786144733429,
+        "text": "GUANGZHOU CHIMELONG"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.252677,
+      "decode": 25.983044,
+      "det_infer": 101.173675,
+      "det_post": 1.432528,
+      "det_pre": 33.880127,
+      "pipeline": 147.886412,
+      "rec_infer": 6.729326,
+      "rec_post": 0.309238,
+      "rec_pre": 0.11096900000000001,
+      "server_compute": 173.869796,
+      "sort": 0.003437
+    },
+    "request_id": "clean-974a2505f50c95e504d549cd"
+  }
+}

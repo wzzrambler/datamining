@@ -1,0 +1,216 @@
+{
+  "implementation_version": "1.0.0",
+  "python": "3.13.13",
+  "implementation_sha256": {
+    "__init__.py": "3d625ace3badcb3dd195df4d030cdafe042d68daaaa75d2acc652d76fc8e3a4d",
+    "candidates.py": "72130e733539a791652208f59156d432b843db940b5774a461b5463ed348bfdf",
+    "config.py": "4c90fbaceb16e8aa19efd51e6a546e94ba4aab295812d194f227ccd07773ae50",
+    "extractor.py": "87b801e8a7fc9531e03c46aa3fe1df638e3fce0236c5ad5ac97fa6e84ffdd831",
+    "pipeline.py": "71c1928346cd9c2b7004ef193c283fe19e82c4165a89d9d3661b5081f0be7278",
+    "plots.py": "a5ba746ff5f172eea0e8be95bdc1abb9782f07b9428db29021e7fdec3ecc8ceb",
+    "time_rules.py": "5ede62252a14888d1fd4b8d98377d9e619a65f5ad666ab0f75b81d55a4282858"
+  },
+  "input_sha256": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+  "origin_sha256": "1b8aa3ddde75d27df408cb3531c54f0ba4b6cebae8d7b623970091cc82e0cba9",
+  "config_hash": "4bb0102da57bb27ef2263a00b88f59810b9f8c1bd3e9b9958fa6751783c8080b",
+  "config_version": "v2",
+  "offline": true,
+  "validation": {
+    "status": "passed",
+    "documents": 47,
+    "mentions": 3647,
+    "checks": [
+      "全部文档覆盖",
+      "全文切片",
+      "段落边界",
+      "类型和POI角色",
+      "重复与重叠",
+      "来源关联"
+    ],
+    "limitation": "通过只说明结构一致，不代表人工识别准确率"
+  },
+  "quality": {
+    "kind": "targeted_checks_not_accuracy",
+    "total": 39,
+    "passed": 39,
+    "outcomes": [
+      {
+        "case_id": "R-01",
+        "passed": true
+      },
+      {
+        "case_id": "R-02",
+        "passed": true
+      },
+      {
+        "case_id": "R-03",
+        "passed": true
+      },
+      {
+        "case_id": "R-04",
+        "passed": true
+      },
+      {
+        "case_id": "R-05",
+        "passed": true
+      },
+      {
+        "case_id": "R-06",
+        "passed": true
+      },
+      {
+        "case_id": "R-07",
+        "passed": true
+      },
+      {
+        "case_id": "R-08",
+        "passed": true
+      },
+      {
+        "case_id": "R-09",
+        "passed": true
+      },
+      {
+        "case_id": "R-10",
+        "passed": true
+      },
+      {
+        "case_id": "R-11",
+        "passed": true
+      },
+      {
+        "case_id": "R-12",
+        "passed": true
+      },
+      {
+        "case_id": "R-13",
+        "passed": true
+      },
+      {
+        "case_id": "R-14",
+        "passed": true
+      },
+      {
+        "case_id": "R-15",
+        "passed": true
+      },
+      {
+        "case_id": "R-16",
+        "passed": true
+      },
+      {
+        "case_id": "R-17",
+        "passed": true
+      },
+      {
+        "case_id": "R-18",
+        "passed": true
+      },
+      {
+        "case_id": "R-19",
+        "passed": true
+      },
+      {
+        "case_id": "R-20",
+        "passed": true
+      },
+      {
+        "case_id": "R-21",
+        "passed": true
+      },
+      {
+        "case_id": "R-22",
+        "passed": true
+      },
+      {
+        "case_id": "R-23",
+        "passed": true
+      },
+      {
+        "case_id": "R-24",
+        "passed": true
+      },
+      {
+        "case_id": "R-25",
+        "passed": true
+      },
+      {
+        "case_id": "R-26",
+        "passed": true
+      },
+      {
+        "case_id": "R-27",
+        "passed": true
+      },
+      {
+        "case_id": "R-28",
+        "passed": true
+      },
+      {
+        "case_id": "R-29",
+        "passed": true
+      },
+      {
+        "case_id": "R-30",
+        "passed": true
+      },
+      {
+        "case_id": "R-31",
+        "passed": true
+      },
+      {
+        "case_id": "R-32",
+        "passed": true
+      },
+      {
+        "case_id": "R-33",
+        "passed": true
+      },
+      {
+        "case_id": "R-34",
+        "passed": true
+      },
+      {
+        "case_id": "R-35",
+        "passed": true
+      },
+      {
+        "case_id": "R-36",
+        "passed": true
+      },
+      {
+        "case_id": "R-37",
+        "passed": true
+      },
+      {
+        "case_id": "R-38",
+        "passed": true
+      },
+      {
+        "case_id": "R-39",
+        "passed": true
+      }
+    ]
+  },
+  "plots": {
+    "font": "Microsoft YaHei",
+    "files": [
+      "entity_frequency.png",
+      "entity_frequency.svg",
+      "poi_by_scenic.png",
+      "poi_by_scenic.svg"
+    ],
+    "frequency": "提及数；文档频次另见frequencies.json"
+  },
+  "outputs": {
+    "entities.json": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
+    "frequencies.json": "3dfaf89d752df355756501d0073e2c2f6a167eca6bef35316647d399548bd51f",
+    "quality_check.json": "e137c263058c1c018ca3090c58e4f2eac346b3e998710b71d099b273aaa759eb",
+    "summary.json": "62dd7254818d7f6e3771a01fd366f85a786c0cec62ab7e520606a0e9982cdc45",
+    "validation.json": "d3e5fd9ffc0933a4413aa5cf3ce0ec82ed306b1bdc40b968ed8cf21db6f253a0",
+    "辅助资料/activity_candidates.json": "13136b9425faa1ed8a1c824c323d15e56c5805534426bc93d9f4708df376456c",
+    "辅助资料/diagnostics.json": "44569e9445abf2bc7cd7df55a74b575f57c41e6affaa205b2b152bad51d8fafb",
+    "辅助资料/ellipsis_candidates.json": "2fbd32d8720271d83092d97725dd7904d75431804d22ce1db3c80dcab2ad6e00",
+    "辅助资料/unresolved_candidates.json": "0383c2dd3a62ab00da5d363af25e9f2615cb2cd45c75be604e0cf08f0f5f8c3e"
+  }
+}

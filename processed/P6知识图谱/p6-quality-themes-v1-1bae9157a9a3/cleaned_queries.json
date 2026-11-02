@@ -1,0 +1,493 @@
+{
+  "route_catalog": {
+    "query": "MATCH (r:ROUTE {dataset:$dataset}) RETURN r.id AS route_id,r.scenic_code AS scenic_code,r.p6_curation_json AS curation ORDER BY scenic_code,route_id",
+    "parameters": {
+      "dataset": "p6-quality-themes-v1-1bae9157a9a3"
+    },
+    "rows": [
+      {
+        "route_id": "GZCL-NOTE-02-R-82a5b2e5a8",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":8,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-NOTE-02\"],\"unmapped_step_ids\":[\"GZCL-NOTE-02-R-82a5b2e5a8-S007\",\"GZCL-NOTE-02-R-82a5b2e5a8-S009\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "GZCL-NOTE-06-R-3ff34f39b9",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":11,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-NOTE-06\"],\"unmapped_step_ids\":[\"GZCL-NOTE-06-R-3ff34f39b9-S002\",\"GZCL-NOTE-06-R-3ff34f39b9-S007\",\"GZCL-NOTE-06-R-3ff34f39b9-S010\",\"GZCL-NOTE-06-R-3ff34f39b9-S013\",\"GZCL-NOTE-06-R-3ff34f39b9-S014\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "GZCL-NOTE-08-R-fc0bc11cde",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":7,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-NOTE-08\"],\"unmapped_step_ids\":[\"GZCL-NOTE-08-R-fc0bc11cde-S006\",\"GZCL-NOTE-08-R-fc0bc11cde-S007\",\"GZCL-NOTE-08-R-fc0bc11cde-S010\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "GZCL-NOTE-12-R-f5fee04dec",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":4,\"reason\":\"至少五步、三个地点阶段，原文含多处钟点；允许未注册演出步骤，标注地点覆盖缺口\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"timed_thematic_itinerary\",\"source_document_ids\":[\"GZCL-NOTE-12\"],\"unmapped_step_ids\":[\"GZCL-NOTE-12-R-f5fee04dec-S001\",\"GZCL-NOTE-12-R-f5fee04dec-S005\",\"GZCL-NOTE-12-R-f5fee04dec-S007\",\"GZCL-NOTE-12-R-f5fee04dec-S008\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "GZCL-OFF-01-R-b98590e484",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":10,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-OFF-01\"],\"unmapped_step_ids\":[\"GZCL-OFF-01-R-b98590e484-S009\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "GZCL-OFF-02-R-e24fe1c8a6",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":8,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-OFF-02\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "GZCL-OFF-03-R-6b4fdec24e",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"multi_park_overview_not_detailed_park_route\",\"ordered_mapped_stage_count\":3,\"reason\":\"原文明确列出三个园区/剧院站次；保留跨园区行程概要，不能替代园内详细路线\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"multi_park_overview\",\"source_document_ids\":[\"GZCL-OFF-03\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ROUTEOBS-0241508369618998",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"explicit_day\",\"ordered_mapped_stage_count\":11,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":1,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-NOTE-04\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ROUTEOBS-882e2f2682e1ff8f",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":9,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-NOTE-08\"],\"unmapped_step_ids\":[\"ROUTEOBS-882e2f2682e1ff8f-S007\",\"ROUTEOBS-882e2f2682e1ff8f-S008\",\"ROUTEOBS-882e2f2682e1ff8f-S011\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ROUTEOBS-bb42d891566b836c",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":10,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-OFF-01\"],\"unmapped_step_ids\":[\"ROUTEOBS-bb42d891566b836c-S010\",\"ROUTEOBS-bb42d891566b836c-S012\",\"ROUTEOBS-bb42d891566b836c-S013\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ROUTEOBS-d07d22f3bce455e6",
+        "scenic_code": "GZCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":13,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"GZCL-NOTE-05\"],\"unmapped_step_ids\":[\"ROUTEOBS-d07d22f3bce455e6-S002\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "JZG-NOTE-03-R-7f44fd1c84",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":11,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"JZG-NOTE-03\"],\"unmapped_step_ids\":[\"JZG-NOTE-03-R-7f44fd1c84-S003\",\"JZG-NOTE-03-R-7f44fd1c84-S004\",\"JZG-NOTE-03-R-7f44fd1c84-S009\",\"JZG-NOTE-03-R-7f44fd1c84-S015\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "JZG-NOTE-04-R-2cf46b07bb",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":5,\"reason\":\"至少五步、三个地点阶段，原文含多处钟点；允许未注册演出步骤，标注地点覆盖缺口\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"timed_thematic_itinerary\",\"source_document_ids\":[\"JZG-NOTE-04\"],\"unmapped_step_ids\":[\"JZG-NOTE-04-R-2cf46b07bb-S001\",\"JZG-NOTE-04-R-2cf46b07bb-S004\",\"JZG-NOTE-04-R-2cf46b07bb-S008\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "JZG-NOTE-05-R-749b346213",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":19,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"JZG-NOTE-05\"],\"unmapped_step_ids\":[\"JZG-NOTE-05-R-749b346213-S001\",\"JZG-NOTE-05-R-749b346213-S016\",\"JZG-NOTE-05-R-749b346213-S020\",\"JZG-NOTE-05-R-749b346213-S021\",\"JZG-NOTE-05-R-749b346213-S023\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "JZG-NOTE-11-R-4ef6e6a46e",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":7,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"JZG-NOTE-11\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "JZG-NOTE-11-R-a7eac262f6",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":7,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"JZG-NOTE-11\"],\"unmapped_step_ids\":[\"JZG-NOTE-11-R-a7eac262f6-S008\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":15,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"JZG-OFF-01\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "JZG-OFF-01-R-6716383269",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"explicit_multi_day\",\"ordered_mapped_stage_count\":26,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":1,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"JZG-OFF-01\"],\"unmapped_step_ids\":[\"JZG-OFF-01-R-6716383269-S001\",\"JZG-OFF-01-R-6716383269-S012\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ROUTEOBS-95a01ece1bb07d1f",
+        "scenic_code": "JZG",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":7,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"JZG-NOTE-03\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ROUTEOBS-180cbf238ccbcac3",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":11,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-07\"],\"unmapped_step_ids\":[\"ROUTEOBS-180cbf238ccbcac3-S001\",\"ROUTEOBS-180cbf238ccbcac3-S011\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ROUTEOBS-452d238ff9fb26d9",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":17,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-04\"],\"unmapped_step_ids\":[\"ROUTEOBS-452d238ff9fb26d9-S018\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-NOTE-03-R-6c99fdaba3",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":6,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-03\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-NOTE-03-R-c9d09a5f60",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"explicit_multi_day\",\"ordered_mapped_stage_count\":14,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":1,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-03\"],\"unmapped_step_ids\":[\"ZHCL-NOTE-03-R-c9d09a5f60-S002\",\"ZHCL-NOTE-03-R-c9d09a5f60-S004\",\"ZHCL-NOTE-03-R-c9d09a5f60-S005\",\"ZHCL-NOTE-03-R-c9d09a5f60-S016\",\"ZHCL-NOTE-03-R-c9d09a5f60-S018\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-NOTE-06-R-be5972460c",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":9,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-06\"],\"unmapped_step_ids\":[\"ZHCL-NOTE-06-R-be5972460c-S004\",\"ZHCL-NOTE-06-R-be5972460c-S009\",\"ZHCL-NOTE-06-R-be5972460c-S010\",\"ZHCL-NOTE-06-R-be5972460c-S011\",\"ZHCL-NOTE-06-R-be5972460c-S012\",\"ZHCL-NOTE-06-R-be5972460c-S014\",\"ZHCL-NOTE-06-R-be5972460c-S016\",\"ZHCL-NOTE-06-R-be5972460c-S017\",\"ZHCL-NOTE-06-R-be5972460c-S018\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-NOTE-08-R-ac0be18076",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":15,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-08\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-NOTE-09-R-044f695d7a",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"explicit_multi_day\",\"ordered_mapped_stage_count\":3,\"reason\":\"至少五步、三个地点阶段，原文含多处钟点；允许未注册演出步骤，标注地点覆盖缺口\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":1,\"route_class\":\"timed_thematic_itinerary\",\"source_document_ids\":[\"ZHCL-NOTE-09\"],\"unmapped_step_ids\":[\"ZHCL-NOTE-09-R-044f695d7a-S004\",\"ZHCL-NOTE-09-R-044f695d7a-S005\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-NOTE-10-R-4955be8095",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":7,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-10\"],\"unmapped_step_ids\":[\"ZHCL-NOTE-10-R-4955be8095-S009\",\"ZHCL-NOTE-10-R-4955be8095-S010\"],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-NOTE-11-R-0bdf6ac32b",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"long_section_or_unstated_duration\",\"ordered_mapped_stage_count\":8,\"reason\":\"至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"long_touring_sequence\",\"source_document_ids\":[\"ZHCL-NOTE-11\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      },
+      {
+        "route_id": "ZHCL-OFF-01-R-ed40badaa7",
+        "scenic_code": "ZHCL",
+        "curation": "{\"full_day_completeness_verified\":false,\"itinerary_scope\":\"multi_park_overview_not_detailed_park_route\",\"ordered_mapped_stage_count\":3,\"reason\":\"原文明确列出三个园区/剧院站次；保留跨园区行程概要，不能替代园内详细路线\",\"recommendation_status\":\"source_backed_candidate_not_independent_gold\",\"repeated_visits_preserved\":true,\"retrieval_priority\":2,\"route_class\":\"multi_park_overview\",\"source_document_ids\":[\"ZHCL-OFF-01\"],\"unmapped_step_ids\":[],\"version\":\"p6-route-curation-v1\"}"
+      }
+    ]
+  },
+  "official_route_steps": {
+    "query": "MATCH (r:ROUTE {dataset:$dataset,id:'JZG-OFF-01-R-5489d330c8'})-[:HAS_STEP]->(s:ROUTE_STEP) OPTIONAL MATCH (s)-[:VISITS]->(p:POI) RETURN s.index AS step_index,s.id AS step_id,collect(p.name) AS pois ORDER BY step_index",
+    "parameters": {
+      "dataset": "p6-quality-themes-v1-1bae9157a9a3"
+    },
+    "rows": [
+      {
+        "step_index": 1,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "pois": [
+          "原始森林",
+          "沟口游客中心"
+        ]
+      },
+      {
+        "step_index": 2,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "pois": [
+          "原始森林",
+          "芳草海"
+        ]
+      },
+      {
+        "step_index": 3,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "pois": [
+          "芳草海",
+          "天鹅海"
+        ]
+      },
+      {
+        "step_index": 4,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "pois": [
+          "箭竹海",
+          "天鹅海"
+        ]
+      },
+      {
+        "step_index": 5,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "pois": [
+          "箭竹海",
+          "熊猫海"
+        ]
+      },
+      {
+        "step_index": 6,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "pois": [
+          "熊猫海",
+          "五花海"
+        ]
+      },
+      {
+        "step_index": 7,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "pois": [
+          "镜海",
+          "五花海"
+        ]
+      },
+      {
+        "step_index": 8,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "pois": [
+          "诺日朗群海",
+          "镜海"
+        ]
+      },
+      {
+        "step_index": 9,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+        "pois": [
+          "诺日朗中心站",
+          "诺日朗群海"
+        ]
+      },
+      {
+        "step_index": 10,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "pois": [
+          "长海",
+          "诺日朗中心站"
+        ]
+      },
+      {
+        "step_index": 11,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "pois": [
+          "长海",
+          "五彩池"
+        ]
+      },
+      {
+        "step_index": 12,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "pois": [
+          "犀牛海",
+          "五彩池"
+        ]
+      },
+      {
+        "step_index": 13,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "pois": [
+          "树正寨",
+          "卧龙海",
+          "树正磨房",
+          "犀牛海",
+          "树正瀑布",
+          "老虎海",
+          "双龙海"
+        ]
+      },
+      {
+        "step_index": 14,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "pois": [
+          "双龙海",
+          "盆景滩"
+        ]
+      },
+      {
+        "step_index": 15,
+        "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "pois": [
+          "沟口游客中心",
+          "盆景滩"
+        ]
+      }
+    ]
+  },
+  "commute": {
+    "query": "MATCH (l:TRANSPORT_LEG {dataset:$dataset})-[:FROM]->(a:POI {name:'成都天府机场'}) MATCH (l)-[:TO]->(b:POI) OPTIONAL MATCH (l)-[:HAS_FACT]->(f:FACT) RETURN l.id AS leg_id,a.name AS origin,b.name AS destination,collect([f.attribute,f.value_text]) AS facts ORDER BY leg_id",
+    "parameters": {
+      "dataset": "p6-quality-themes-v1-1bae9157a9a3"
+    },
+    "rows": [
+      {
+        "leg_id": "LEG-41202296c862e49f989a",
+        "origin": "成都天府机场",
+        "destination": "成都东站",
+        "facts": [
+          [
+            "operating_time",
+            "12:50-13:19"
+          ],
+          [
+            "fare",
+            "¥31"
+          ]
+        ]
+      },
+      {
+        "leg_id": "LEG-a0a8d86b28ae51014a21",
+        "origin": "成都天府机场",
+        "destination": "火车南站",
+        "facts": [
+          [
+            "ride_duration",
+            "45分钟"
+          ]
+        ]
+      },
+      {
+        "leg_id": "LEG-c48ed99867cf02d160ad",
+        "origin": "成都天府机场",
+        "destination": "成都东站",
+        "facts": [
+          [
+            "fare",
+            "¥524"
+          ],
+          [
+            "ride_duration",
+            "大概40分钟到达登机口"
+          ],
+          [
+            "operating_time",
+            "22-23:55"
+          ]
+        ]
+      },
+      {
+        "leg_id": "LEG-ea9b63c682486bb96515",
+        "origin": "成都天府机场",
+        "destination": "黄龙九寨站",
+        "facts": [
+          [
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  "node_types": {
+    "query": "MATCH (n:P5Node {dataset:$dataset}) UNWIND [l IN labels(n) WHERE l <> 'P5Node'] AS label RETURN label,count(n) AS count ORDER BY label",
+    "parameters": {
+      "dataset": "p6-quality-themes-v1-1bae9157a9a3"
+    },
+    "rows": [
+      {
+        "label": "ADVICE_SUMMARY",
+        "count": 265
+      },
+      {
+        "label": "CONDITIONAL_RULE",
+        "count": 1358
+      },
+      {
+        "label": "FACT",
+        "count": 480
+      },
+      {
+        "label": "OBSERVATION",
+        "count": 3741
+      },
+      {
+        "label": "POI",
+        "count": 180
+      },
+      {
+        "label": "ROUTE",
+        "count": 29
+      },
+      {
+        "label": "ROUTE_STEP",
+        "count": 344
+      },
+      {
+        "label": "TIME_SUMMARY",
+        "count": 217
+      },
+      {
+        "label": "TRANSPORT",
+        "count": 34
+      },
+      {
+        "label": "TRANSPORT_LEG",
+        "count": 115
+      }
+    ]
+  },
+  "edge_types": {
+    "query": "MATCH ()-[r]->() WHERE r.dataset=$dataset RETURN type(r) AS type,count(r) AS count ORDER BY type",
+    "parameters": {
+      "dataset": "p6-quality-themes-v1-1bae9157a9a3"
+    },
+    "rows": [
+      {
+        "type": "APPLIES_TO",
+        "count": 1204
+      },
+      {
+        "type": "DERIVED_FROM",
+        "count": 1816
+      },
+      {
+        "type": "FROM",
+        "count": 115
+      },
+      {
+        "type": "HAS_ADVICE_SUMMARY",
+        "count": 259
+      },
+      {
+        "type": "HAS_FACT",
+        "count": 480
+      },
+      {
+        "type": "HAS_STEP",
+        "count": 344
+      },
+      {
+        "type": "HAS_TIME_SUMMARY",
+        "count": 217
+      },
+      {
+        "type": "MENTIONS_MODE",
+        "count": 38
+      },
+      {
+        "type": "PART_OF",
+        "count": 64
+      },
+      {
+        "type": "PRECEDES",
+        "count": 324
+      },
+      {
+        "type": "SUPPORTED_BY",
+        "count": 4398
+      },
+      {
+        "type": "TO",
+        "count": 115
+      },
+      {
+        "type": "USES_LEG",
+        "count": 13
+      },
+      {
+        "type": "USES_MODE",
+        "count": 112
+      },
+      {
+        "type": "VISITS",
+        "count": 325
+      }
+    ]
+  },
+  "advice_summaries": {
+    "query": "MATCH (s:ADVICE_SUMMARY {dataset:$dataset}) RETURN count(s) AS total,sum(CASE WHEN s.scope_status IS NULL AND s.target_id IS NOT NULL THEN 1 ELSE 0 END) AS default_targeted,sum(CASE WHEN s.scope_status IS NOT NULL THEN 1 ELSE 0 END) AS quarantined,sum(CASE WHEN s.scope_status IS NULL AND s.target_id IS NULL THEN 1 ELSE 0 END) AS unlocated",
+    "parameters": {
+      "dataset": "p6-quality-themes-v1-1bae9157a9a3"
+    },
+    "rows": [
+      {
+        "total": 265,
+        "default_targeted": 257,
+        "quarantined": 5,
+        "unlocated": 3
+      }
+    ]
+  },
+  "entity_themes": {
+    "query": "MATCH (n:P5Node {dataset:$dataset}) WHERE n.advice_themes_json IS NOT NULL RETURN count(n) AS entities_with_themes",
+    "parameters": {
+      "dataset": "p6-quality-themes-v1-1bae9157a9a3"
+    },
+    "rows": [
+      {
+        "entities_with_themes": 249
+      }
+    ]
+  }
+}

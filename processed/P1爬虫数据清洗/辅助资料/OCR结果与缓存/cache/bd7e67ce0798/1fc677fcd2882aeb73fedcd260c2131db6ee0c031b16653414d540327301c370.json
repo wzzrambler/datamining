@@ -1,0 +1,121 @@
+{
+  "status": "recognized",
+  "source_sha256": "1fc677fcd2882aeb73fedcd260c2131db6ee0c031b16653414d540327301c370",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2196500,
+  "round_trip_ms": 226.11930000130087,
+  "response": {
+    "detected_boxes": 4,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            0.0,
+            323.0
+          ],
+          [
+            225.0,
+            324.0
+          ],
+          [
+            225.0,
+            343.0
+          ],
+          [
+            0.0,
+            341.0
+          ]
+        ],
+        "confidence": 0.9991116523742676,
+        "text": "，留意座椅之间的缝隙，谨防被夹。"
+      },
+      {
+        "box": [
+          [
+            482.0,
+            332.0
+          ],
+          [
+            563.0,
+            332.0
+          ],
+          [
+            563.0,
+            345.0
+          ],
+          [
+            482.0,
+            345.0
+          ]
+        ],
+        "confidence": 0.9230972528457642,
+        "text": "Please do mot sit side"
+      },
+      {
+        "box": [
+          [
+            761.0,
+            337.0
+          ],
+          [
+            933.0,
+            337.0
+          ],
+          [
+            933.0,
+            347.0
+          ],
+          [
+            761.0,
+            347.0
+          ]
+        ],
+        "confidence": 0.9508451819419861,
+        "text": "e gap between the seat and paneling in the cabin."
+      },
+      {
+        "box": [
+          [
+            605.0,
+            612.0
+          ],
+          [
+            649.0,
+            620.0
+          ],
+          [
+            645.0,
+            637.0
+          ],
+          [
+            602.0,
+            629.0
+          ]
+        ],
+        "confidence": 0.812600314617157,
+        "text": "YEEHOO"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.29012099999999996,
+      "decode": 27.284012,
+      "det_infer": 107.772509,
+      "det_post": 0.984439,
+      "det_pre": 34.889215,
+      "pipeline": 167.95792,
+      "rec_infer": 18.616315999999998,
+      "rec_post": 1.0453890000000001,
+      "rec_pre": 0.369668,
+      "server_compute": 195.242754,
+      "sort": 0.001763
+    },
+    "request_id": "clean-1fc677fcd2882aeb73fedcd2"
+  }
+}

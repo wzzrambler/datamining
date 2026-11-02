@@ -1,0 +1,56 @@
+{
+  "host": {
+    "status": "COMPLETED",
+    "records": [
+      {
+        "record_id": "P5OBS-c723cee9c3d58cb0",
+        "tool_name": "submit_poi_facts",
+        "arguments": {
+          "entity_id": "POI-2e158f7f7465f6f2",
+          "route_id": null,
+          "step_id": null,
+          "facts": [],
+          "normalizations": [
+            {
+              "mention_id": "M-c91f167a723a7819",
+              "entity_id": "POI-2e158f7f7465f6f2"
+            }
+          ],
+          "resolves_issue_ids": []
+        },
+        "fingerprint": "4acaf90221443dbbef5481a04aabe721d2c96cff34152a2bf11f3eb84c0c52fa",
+        "leg_ref": null,
+        "active": true,
+        "depends_on": [],
+        "package_key": "PKG-b60651fe2317054bef95",
+        "scenic_code": "GZCL",
+        "provenance": {
+          "doc_id": "GZCL-NOTE-06",
+          "source_url": "https://www.xiaohongshu.com/search_result/6a508e2a000000000f014b46?xsec_token=ABH8LaehTTwJ9_Xbdo686SsYxX2IedtLlUl0MUas4-gSw=&xsec_source=pc_search",
+          "input_hashes": {
+            "p1": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+            "p2": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
+            "p3": "9d68cff56697fa8c69c61171ef168f8c5268c3a3eb69d4c91c18a6e248c5d2ed",
+            "sources": "1b8aa3ddde75d27df408cb3531c54f0ba4b6cebae8d7b623970091cc82e0cba9"
+          },
+          "evidence_precision": "package",
+          "blocks": [
+            {
+              "block_id": "B001",
+              "start": 825,
+              "end": 828,
+              "para_id": 46,
+              "origin": {
+                "doc_id": "GZCL-NOTE-06",
+                "para_id": 46,
+                "kind": "image",
+                "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/001_02.webp"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "usage": []
+}

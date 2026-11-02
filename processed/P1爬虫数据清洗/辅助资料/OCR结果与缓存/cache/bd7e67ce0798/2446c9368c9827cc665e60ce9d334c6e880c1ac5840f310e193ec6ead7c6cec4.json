@@ -1,0 +1,55 @@
+{
+  "status": "recognized",
+  "source_sha256": "2446c9368c9827cc665e60ce9d334c6e880c1ac5840f310e193ec6ead7c6cec4",
+  "upload_mime": "image/png",
+  "request_body_bytes": 2810976,
+  "round_trip_ms": 206.04579999053385,
+  "response": {
+    "detected_boxes": 1,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            1036.0,
+            1411.0
+          ],
+          [
+            1072.0,
+            1414.0
+          ],
+          [
+            1070.0,
+            1433.0
+          ],
+          [
+            1034.0,
+            1430.0
+          ]
+        ],
+        "confidence": 0.4069473147392273,
+        "text": "冰节"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.064607,
+      "decode": 30.828917,
+      "det_infer": 101.873703,
+      "det_post": 1.287444,
+      "det_pre": 38.881625,
+      "pipeline": 144.310214,
+      "rec_infer": 2.106807,
+      "rec_post": 0.050109,
+      "rec_pre": 0.041021,
+      "server_compute": 175.139792,
+      "sort": 0.000902
+    },
+    "request_id": "clean-2446c9368c9827cc665e60ce"
+  }
+}

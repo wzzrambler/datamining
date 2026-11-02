@@ -1,0 +1,64 @@
+{
+  "total_documents": 47,
+  "valid_documents": 47,
+  "counts": [
+    {
+      "scenic_area": "广州长隆旅游度假区",
+      "text_type": "travel_note",
+      "is_valid": 1,
+      "count": 15
+    },
+    {
+      "scenic_area": "广州长隆旅游度假区",
+      "text_type": "official_route",
+      "is_valid": 1,
+      "count": 3
+    },
+    {
+      "scenic_area": "九寨沟风景名胜区",
+      "text_type": "travel_note",
+      "is_valid": 1,
+      "count": 13
+    },
+    {
+      "scenic_area": "九寨沟风景名胜区",
+      "text_type": "official_route",
+      "is_valid": 1,
+      "count": 1
+    },
+    {
+      "scenic_area": "珠海横琴长隆国际海洋度假区",
+      "text_type": "travel_note",
+      "is_valid": 1,
+      "count": 13
+    },
+    {
+      "scenic_area": "珠海横琴长隆国际海洋度假区",
+      "text_type": "official_route",
+      "is_valid": 1,
+      "count": 2
+    }
+  ],
+  "missing": {
+    "title": 1,
+    "author": 0,
+    "publish_date": 3,
+    "crawl_time": 17,
+    "content": 0,
+    "category": 0
+  },
+  "duplicate_pairs_new_vs_existing_or_new": [],
+  "offset_errors": [],
+  "ocr_status": {
+    "cached": 324
+  },
+  "excel_truncated_cells": [],
+  "notes": [
+    "Excel 单元格上限32767字符，完整正文以JSON为准",
+    "历史原件保留；旧文档在合并时等价转换全角ASCII、重建段落及派生统计，不重复删词；近重复仅为新文档重新计算",
+    "noise_char_removed统一为max(0,raw_char_len-clean_char_len)，表示非负净缩减量，不是实际删字符次数；句数按中英文句末/分号及换行切分",
+    "附加文本严格大于阈值；短文本保留在辅助明细中",
+    "OCR confidence 为识别得分，不是校准后的正确概率",
+    "html_tag_count 新文档填0：输入为抽取后的正文，不统计整页标签"
+  ]
+}

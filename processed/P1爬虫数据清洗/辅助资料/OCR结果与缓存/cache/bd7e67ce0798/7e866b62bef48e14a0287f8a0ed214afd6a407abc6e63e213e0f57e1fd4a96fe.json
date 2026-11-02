@@ -1,0 +1,99 @@
+{
+  "status": "recognized",
+  "source_sha256": "7e866b62bef48e14a0287f8a0ed214afd6a407abc6e63e213e0f57e1fd4a96fe",
+  "upload_mime": "image/png",
+  "request_body_bytes": 3255475,
+  "round_trip_ms": 192.14539999666158,
+  "response": {
+    "detected_boxes": 3,
+    "image": {
+      "height": 1440,
+      "width": 1080
+    },
+    "lines": [
+      {
+        "box": [
+          [
+            360.0,
+            545.0
+          ],
+          [
+            372.0,
+            545.0
+          ],
+          [
+            372.0,
+            558.0
+          ],
+          [
+            360.0,
+            558.0
+          ]
+        ],
+        "confidence": 0.5761470794677734,
+        "text": "猩"
+      },
+      {
+        "box": [
+          [
+            337.0,
+            555.0
+          ],
+          [
+            374.0,
+            555.0
+          ],
+          [
+            374.0,
+            578.0
+          ],
+          [
+            337.0,
+            578.0
+          ]
+        ],
+        "confidence": 0.9182634353637695,
+        "text": "室内"
+      },
+      {
+        "box": [
+          [
+            581.0,
+            733.0
+          ],
+          [
+            643.0,
+            742.0
+          ],
+          [
+            637.0,
+            784.0
+          ],
+          [
+            575.0,
+            775.0
+          ]
+        ],
+        "confidence": 0.14249251782894135,
+        "text": "美"
+      }
+    ],
+    "memory": {
+      "worker_process_peak_rss_kib": 2635596
+    },
+    "timings_ms": {
+      "crop": 0.164173,
+      "decode": 32.212928,
+      "det_infer": 98.366862,
+      "det_post": 1.079784,
+      "det_pre": 33.384752,
+      "pipeline": 141.279843,
+      "rec_infer": 4.392258,
+      "rec_post": 0.113493,
+      "rec_pre": 0.079015,
+      "server_compute": 173.493102,
+      "sort": 0.002455
+    },
+    "request_id": "clean-7e866b62bef48e14a0287f8a"
+  }
+}

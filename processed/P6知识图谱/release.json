@@ -1,0 +1,21 @@
+{
+  "dataset": "p6-quality-themes-v1-1bae9157a9a3",
+  "input_graph": "cleaned-v1/graph.json",
+  "snapshot_directory": "p6-quality-themes-v1-1bae9157a9a3",
+  "nodes": 6763,
+  "edges": 9824,
+  "routes": 29,
+  "verified": true,
+  "cleaning_version": "p6-quality-themes-v1",
+  "p5_raw_observations_unchanged": true,
+  "quality_ownership_migrated_to_p6": true,
+  "quality_manifest": "cleaned-v1/quality_manifest.json",
+  "reports_regenerated": true,
+  "llm_theme_entity_scene_groups": 257,
+  "llm_theme_unique_entity_ids": 249,
+  "llm_theme_count": 548,
+  "llm_theme_results": "llm_advice/runs/themes-20261101-v2/entity_theme_summaries.json",
+  "llm_theme_results_sha256": "9f893bba0e244f432d34f5ffe4a1cc04ccc811ac5cf43b22104974e7e0a11780",
+  "report_path": "../../outputs/P6/第X组_组长姓名_《数据挖掘》探索性实验报告_P1至P6完整版_P6汇总更新版.docx",
+  "report_updated_date": "2026-11-02"
+}

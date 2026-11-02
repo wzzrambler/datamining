@@ -1,0 +1,8575 @@
+[
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆野生动物世界北门",
+    "mention_count": 46,
+    "document_count": 10,
+    "surface_forms": {
+      "北门": 43,
+      "长隆野生动物世界北门": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆野生动物世界南门",
+    "mention_count": 42,
+    "document_count": 9,
+    "surface_forms": {
+      "南门": 42
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "天鹅湖",
+    "mention_count": 31,
+    "document_count": 8,
+    "surface_forms": {
+      "天鹅湖": 31
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆野生动物世界",
+    "mention_count": 31,
+    "document_count": 9,
+    "surface_forms": {
+      "广州长隆野生动物世界": 6,
+      "长隆野生动物世界": 25
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "青龙山",
+    "mention_count": 29,
+    "document_count": 8,
+    "surface_forms": {
+      "青龙山": 29
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "百虎山",
+    "mention_count": 22,
+    "document_count": 7,
+    "surface_forms": {
+      "百虎山": 22
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "熊猫餐厅",
+    "mention_count": 20,
+    "document_count": 9,
+    "surface_forms": {
+      "熊猫餐厅": 20
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "熊猫乐园站",
+    "mention_count": 19,
+    "document_count": 7,
+    "surface_forms": {
+      "熊猫乐园站": 19
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "考拉园",
+    "mention_count": 18,
+    "document_count": 10,
+    "surface_forms": {
+      "考拉园": 18
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "熊猫村",
+    "mention_count": 17,
+    "document_count": 7,
+    "surface_forms": {
+      "熊猫村": 17
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长颈鹿广场",
+    "mention_count": 17,
+    "document_count": 7,
+    "surface_forms": {
+      "长颈鹿广场": 17
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "熊猫酒店",
+    "mention_count": 16,
+    "document_count": 6,
+    "surface_forms": {
+      "熊猫酒店": 16
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆欢乐世界",
+    "mention_count": 15,
+    "document_count": 5,
+    "surface_forms": {
+      "长隆欢乐世界": 15
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "熊猫乐园",
+    "mention_count": 13,
+    "document_count": 6,
+    "surface_forms": {
+      "熊猫乐园": 13
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆酒店",
+    "mention_count": 13,
+    "document_count": 5,
+    "surface_forms": {
+      "长隆酒店": 13
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "金猴王国",
+    "mention_count": 12,
+    "document_count": 4,
+    "surface_forms": {
+      "金猴王国": 12
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "火烈鸟岛",
+    "mention_count": 11,
+    "document_count": 6,
+    "surface_forms": {
+      "火烈鸟岛": 11
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "金蛇秘境",
+    "mention_count": 11,
+    "document_count": 7,
+    "surface_forms": {
+      "金蛇秘境": 11
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "侏罗纪森林",
+    "mention_count": 10,
+    "document_count": 6,
+    "surface_forms": {
+      "侏罗纪森林": 10
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "汉溪长隆站",
+    "mention_count": 10,
+    "document_count": 7,
+    "surface_forms": {
+      "汉溪长隆地铁站": 5,
+      "汉溪长隆站": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆国际大马戏",
+    "mention_count": 10,
+    "document_count": 3,
+    "surface_forms": {
+      "长隆国际大马戏": 10
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "4D影院",
+    "mention_count": 9,
+    "document_count": 4,
+    "surface_forms": {
+      "4D 影院": 1,
+      "4D影院": 8
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "天鹅湖站",
+    "mention_count": 9,
+    "document_count": 6,
+    "surface_forms": {
+      "天鹅湖站": 9
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "花果山",
+    "mention_count": 9,
+    "document_count": 4,
+    "surface_forms": {
+      "花果山": 9
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆水上乐园",
+    "mention_count": 9,
+    "document_count": 3,
+    "surface_forms": {
+      "长隆水上乐园": 9
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "雨林仙踪",
+    "mention_count": 9,
+    "document_count": 5,
+    "surface_forms": {
+      "雨林仙踪": 9
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "萌帅酷乐园",
+    "mention_count": 8,
+    "document_count": 4,
+    "surface_forms": {
+      "萌帅酷乐园": 8
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "超级大摆锤",
+    "mention_count": 8,
+    "document_count": 4,
+    "surface_forms": {
+      "超级大摆锤": 8
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "缆车",
+    "mention_count": 7,
+    "document_count": 4,
+    "surface_forms": {
+      "缆车": 7
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆欢乐世界北门",
+    "mention_count": 7,
+    "document_count": 2,
+    "surface_forms": {
+      "北门": 7
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "非洲草原",
+    "mention_count": 7,
+    "document_count": 2,
+    "surface_forms": {
+      "非洲草原": 7
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "亚洲象园",
+    "mention_count": 6,
+    "document_count": 4,
+    "surface_forms": {
+      "亚洲象园": 6
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "垂直过山车",
+    "mention_count": 6,
+    "document_count": 2,
+    "surface_forms": {
+      "垂直过山车": 6
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "梦幻转马",
+    "mention_count": 6,
+    "document_count": 3,
+    "surface_forms": {
+      "梦幻转马": 6
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "椰林餐厅",
+    "mention_count": 5,
+    "document_count": 2,
+    "surface_forms": {
+      "椰林餐厅": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "白虎山",
+    "mention_count": 5,
+    "document_count": 3,
+    "surface_forms": {
+      "白虎山": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆熊猫酒店",
+    "mention_count": 5,
+    "document_count": 3,
+    "surface_forms": {
+      "长隆熊猫酒店": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "骐骥天地",
+    "mention_count": 5,
+    "document_count": 2,
+    "surface_forms": {
+      "骐骥天地": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "东非草原",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "东非草原": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "欢乐剧场",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "欢乐剧场": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆欢乐世界南门",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "南门": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆飞鸟乐园",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "长隆飞鸟乐园": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "非洲草原站",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "非洲草原站": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "动物幼儿园",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "动物幼儿园": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "后宫修罗场",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "后宫修罗场": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "小火车",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "小火车": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "火箭过山车",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "火箭过山车": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "狂野地带",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "狂野地带": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "科莫多龙园区",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "科莫多龙园区": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆大熊猫中心",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "长隆大熊猫中心": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "午夜港片城",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "午夜港片城": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "南亚雨林",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "南亚雨林": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "南非高原园区",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "南非高原园区": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "欢乐跳跳",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "欢乐跳跳": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "汉溪长隆站D/E口",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "D/E口": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "火烈鸟",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "火烈鸟": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "熊森林",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "熊森林": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "美宜佳便利店",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "美宜佳便利店": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "考拉餐厅",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "考拉餐厅": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "非洲森林",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "非洲森林": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "香江酒店",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "香江酒店": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "黑猩猩展区",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "黑猩猩展区": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "大夫森林公园",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "大夫森林公园": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "小火车游览区",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "小火车游览区": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "巨星剧场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "巨星剧场": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "幽暗海盗湾",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "幽暗海盗湾": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "急流勇进",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "急流勇进": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "方舟剧场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "方舟剧场": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "熊猫亲子餐厅",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "熊猫亲子餐厅": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "白虎自助餐厅",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "白虎自助餐厅": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "科普剧场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "科普剧场": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "空中缆车",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "空中缆车": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "粉小琦庄园",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "粉小琦庄园": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "花果山餐厅",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "花果山餐厅": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "诡异马戏村",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "诡异马戏村": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆香江酒店",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "长隆香江酒店": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "青龙山景区",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "青龙山景区": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "飞马家庭过山车",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "飞马家庭过山车": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "骑士剧场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "骑士剧场": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "龙卷风暴",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "龙卷风暴": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午",
+    "mention_count": 14,
+    "document_count": 9,
+    "surface_forms": {
+      "下午": 14
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上",
+    "mention_count": 14,
+    "document_count": 9,
+    "surface_forms": {
+      "晚上": 14
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:30",
+    "mention_count": 13,
+    "document_count": 8,
+    "surface_forms": {
+      "16:30": 13
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "40分钟",
+    "mention_count": 11,
+    "document_count": 6,
+    "surface_forms": {
+      "40分钟": 11
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:00",
+    "mention_count": 10,
+    "document_count": 5,
+    "surface_forms": {
+      "15:00": 10
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "白天",
+    "mention_count": 10,
+    "document_count": 5,
+    "surface_forms": {
+      "白天": 10
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一天",
+    "mention_count": 9,
+    "document_count": 4,
+    "surface_forms": {
+      "一天": 9
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "上午",
+    "mention_count": 9,
+    "document_count": 7,
+    "surface_forms": {
+      "上午": 9
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "半小时",
+    "mention_count": 9,
+    "document_count": 7,
+    "surface_forms": {
+      "半小时": 9
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:30",
+    "mention_count": 8,
+    "document_count": 4,
+    "surface_forms": {
+      "09:30": 8
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1分钟",
+    "mention_count": 8,
+    "document_count": 1,
+    "surface_forms": {
+      "1分钟": 8
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:30",
+    "mention_count": 7,
+    "document_count": 5,
+    "surface_forms": {
+      "10:30": 7
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "节假日",
+    "mention_count": 7,
+    "document_count": 5,
+    "surface_forms": {
+      "节假日": 7
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30",
+    "mention_count": 6,
+    "document_count": 5,
+    "surface_forms": {
+      "11:30": 6
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "今年",
+    "mention_count": 6,
+    "document_count": 4,
+    "surface_forms": {
+      "今年": 6
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:30",
+    "mention_count": 5,
+    "document_count": 5,
+    "surface_forms": {
+      "15:30": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:00",
+    "mention_count": 5,
+    "document_count": 5,
+    "surface_forms": {
+      "16:00": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "30分钟",
+    "mention_count": 5,
+    "document_count": 2,
+    "surface_forms": {
+      "30分钟": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一日",
+    "mention_count": 5,
+    "document_count": 2,
+    "surface_forms": {
+      "一日": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "中午",
+    "mention_count": 5,
+    "document_count": 5,
+    "surface_forms": {
+      "中午": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "傍晚",
+    "mention_count": 5,
+    "document_count": 3,
+    "surface_forms": {
+      "傍晚": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "周末",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "周末": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第二天",
+    "mention_count": 5,
+    "document_count": 3,
+    "surface_forms": {
+      "第二天": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:30",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "12:30": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:30",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "13:30": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:00",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "14:00": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:30",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "14:30": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15分钟",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "15分钟": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "17:00": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:30",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "17:30": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1小时",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "1小时": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2026年9月4日",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "2026年9月4日": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两天",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "两天": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两日",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "两日": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十分钟",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "十分钟": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "夏天",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "夏天": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早上",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "早上": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "淡季",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "淡季": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10分钟",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "10分钟": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:10",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "12:10": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:00",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "13:00": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "23:58",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "23:58": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "24小时",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "24小时": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "国庆",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "国庆": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "平日",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "平日": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "当天",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "当天": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "暑假",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "暑假": 3
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:47",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "06:47": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:50",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "06:50": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:55",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "06:55": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:59",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "06:59": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "09:00": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00-18:30",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00-18:30": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:30-16:30",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "09:30-16:30": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "10:00": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-17:30",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "10:00-17:30": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10点",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "10点": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:00",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "12:00": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12点",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "12点": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:40",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "16:40": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:15",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "17:15": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:30",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "19:30": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "21:00",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "21:00": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "25分钟",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "25分钟": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "35分钟",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "35分钟": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3天2晚",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "3天2晚": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "5点",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "5点": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "6点半",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "6点半": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 1",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "Day 1": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day1",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "Day1": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day2",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "Day2": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day3",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "Day3": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一个半小时",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "一个半小时": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一晚",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "一晚": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三天两晚",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "三天两晚": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两天一晚",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "两天一晚": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早晨",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "早晨": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "旺季",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "旺季": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "明年",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "明年": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "昨天",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "昨天": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第一天",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "第一天": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:25",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "06:25": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:30 — 07:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "06:30 — 07:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:56",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "06:56": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "08:50",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "08:50": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00-09:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00-09:30": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00-17:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00-17:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00-17:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00-17:30": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:30-10:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:30-10:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:30-10:15",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:30-10:15": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:30-18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:30-18:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:45",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:45": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:45-18:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:45-18:30": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1-2分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1-2分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10.15晚",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10.15晚": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-10:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00-10:40": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00-18:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-18:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00-18:30": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-22:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00-22:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:15",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:15": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:15-11:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:15-11:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:30-15:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:30-15:30": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:30-17:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:30-17:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:40-11:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:40-11:20": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10周",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10周": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10月4日—11月8日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10月4日—11月8日": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:00-11:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:00-11:40": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:00-18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:00-18:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:10": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:20": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:20-12:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:20-12:20": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30-18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:30-18:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30–17:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:30–17:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:40 - 12:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:40 - 12:20": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:46",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:46": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:50",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:50": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11月",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11月": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:00-18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:00-18:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:20 -13:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:20 -13:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:20-12:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:20-12:40": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:30-16:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:30-16:30": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:40-13:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:40-13:40": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:00 -13:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:00 -13:40": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:40": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:40 - 14:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:40 - 14:20": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:40-15:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:40-15:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14:10": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:20 - 15:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14:20 - 15:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15-20分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15-20分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:00 -15:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15:00 -15:40": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:00-16:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15:00-16:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:40 -16:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15:40 -16:10": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:00-17:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:00-17:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:10": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:10 -16:35",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:10 -16:35": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:20": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:35-17:05",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:35-17:05": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:42",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:42": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00-18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:00-18:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00-19:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:00-19:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:05-17:35",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:05-17:35": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:10": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:35 -18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:35 -18:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:50",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18:50": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:20": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:45",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:45": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1个半小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1个半小时": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1点半": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2-3分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2-3分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20-40分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20-40分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2014年7月29日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2014年7月29日": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2019-01-01",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2019-01-01": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2023-01-01",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2023-01-01": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2026年8月10日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2026年8月10日": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "21:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "21:30": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "22:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "22:00": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2小时": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3日": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "6天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "6天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "6月30号",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "6月30号": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "7点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "7点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "8点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "8点半": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "90分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "90分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "9点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "9点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 2",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day 2": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 3",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day 3": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一夜": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一小时": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三两分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "三两分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "三分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "三天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "上午十一点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "上午十一点半": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "上午十点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "上午十点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午1点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "下午1点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午五点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "下午五点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两天一夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "两天一夜": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "中午11点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "中午11点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "中秋",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "中秋": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "九点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "九点半": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "五点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "五点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "今天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "今天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "冬天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "冬天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "前一天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "前一天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十一点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "十一点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十一点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "十一点半": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十三天两晚",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "十三天两晚": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十两天一晚",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "十两天一晚": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十周",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "十周": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "十点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "半天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "半天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "四十分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "四十分钟": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "四点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "四点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "四点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "四点半": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "寒假",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "寒假": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早上八点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "早上八点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "明天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "明天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "春节",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "春节": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上7点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "晚上7点半": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上9点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "晚上9点": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚间",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "晚间": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第三天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "第三天": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "小火车",
+    "mention_count": 37,
+    "document_count": 13,
+    "surface_forms": {
+      "小火车": 37
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "自驾",
+    "mention_count": 30,
+    "document_count": 7,
+    "surface_forms": {
+      "自驾": 22,
+      "自驾游": 8
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "步行",
+    "mention_count": 22,
+    "document_count": 13,
+    "surface_forms": {
+      "步行": 22
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "地铁",
+    "mention_count": 17,
+    "document_count": 9,
+    "surface_forms": {
+      "地铁": 12,
+      "坐地铁": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "缆车",
+    "mention_count": 15,
+    "document_count": 9,
+    "surface_forms": {
+      "缆车": 15
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "穿梭巴士",
+    "mention_count": 8,
+    "document_count": 5,
+    "surface_forms": {
+      "穿梭巴士": 8
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "空中缆车",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "空中缆车": 5
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "打车",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "打车": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "接驳巴士",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "接驳巴士": 4
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "高铁",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "高铁": 2
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "乘船",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "乘船": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "公交巴士",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "公交巴士": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "园区巴士",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "园区巴士": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "机场快线",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "机场快线": 1
+    }
+  },
+  {
+    "scenic_code": "GZCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "森林小火车",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "森林小火车": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "九寨沟",
+    "mention_count": 144,
+    "document_count": 14,
+    "surface_forms": {
+      "九寨沟": 144
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长海",
+    "mention_count": 43,
+    "document_count": 10,
+    "surface_forms": {
+      "长海": 43
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "五彩池",
+    "mention_count": 39,
+    "document_count": 11,
+    "surface_forms": {
+      "五彩池": 39
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "五花海",
+    "mention_count": 36,
+    "document_count": 9,
+    "surface_forms": {
+      "五花海": 36
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "箭竹海",
+    "mention_count": 32,
+    "document_count": 9,
+    "surface_forms": {
+      "箭竹海": 32
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "原始森林",
+    "mention_count": 22,
+    "document_count": 7,
+    "surface_forms": {
+      "原始森林": 22
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "犀牛海",
+    "mention_count": 20,
+    "document_count": 8,
+    "surface_forms": {
+      "犀牛海": 20
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "镜海",
+    "mention_count": 19,
+    "document_count": 7,
+    "surface_forms": {
+      "镜海": 19
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "黄龙九寨站",
+    "mention_count": 19,
+    "document_count": 6,
+    "surface_forms": {
+      "黄龙九寨站": 19
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "熊猫海",
+    "mention_count": 18,
+    "document_count": 8,
+    "surface_forms": {
+      "熊猫海": 18
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "珍珠滩瀑布",
+    "mention_count": 18,
+    "document_count": 7,
+    "surface_forms": {
+      "珍珠滩瀑布": 18
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "树正沟",
+    "mention_count": 17,
+    "document_count": 6,
+    "surface_forms": {
+      "树正沟": 17
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "树正群海",
+    "mention_count": 17,
+    "document_count": 8,
+    "surface_forms": {
+      "树正群海": 17
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "珍珠滩",
+    "mention_count": 17,
+    "document_count": 7,
+    "surface_forms": {
+      "珍珠滩": 17
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "诺日朗瀑布",
+    "mention_count": 17,
+    "document_count": 7,
+    "surface_forms": {
+      "诺日朗瀑布": 17
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "成都东站",
+    "mention_count": 14,
+    "document_count": 6,
+    "surface_forms": {
+      "成都东": 10,
+      "成都东站": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "树正瀑布",
+    "mention_count": 13,
+    "document_count": 5,
+    "surface_forms": {
+      "树正瀑布": 13
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "芦苇海",
+    "mention_count": 13,
+    "document_count": 8,
+    "surface_forms": {
+      "芦苇海": 13
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "诺日朗中心",
+    "mention_count": 13,
+    "document_count": 6,
+    "surface_forms": {
+      "诺日朗中心": 13
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "日则沟",
+    "mention_count": 12,
+    "document_count": 6,
+    "surface_forms": {
+      "日则沟": 12
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "老虎海",
+    "mention_count": 12,
+    "document_count": 5,
+    "surface_forms": {
+      "老虎海": 12
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "双龙海",
+    "mention_count": 11,
+    "document_count": 5,
+    "surface_forms": {
+      "双龙海": 11
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "天鹅海",
+    "mention_count": 11,
+    "document_count": 3,
+    "surface_forms": {
+      "天鹅海": 11
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "则查洼沟",
+    "mention_count": 9,
+    "document_count": 4,
+    "surface_forms": {
+      "则查洼沟": 9
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "树正寨",
+    "mention_count": 9,
+    "document_count": 5,
+    "surface_forms": {
+      "树正寨": 9
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "火花海",
+    "mention_count": 9,
+    "document_count": 4,
+    "surface_forms": {
+      "火花海": 9
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "芳草海",
+    "mention_count": 8,
+    "document_count": 3,
+    "surface_forms": {
+      "芳草海": 8
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "盆景滩",
+    "mention_count": 7,
+    "document_count": 2,
+    "surface_forms": {
+      "盆景滩": 7
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "诺日朗中心站",
+    "mention_count": 7,
+    "document_count": 3,
+    "surface_forms": {
+      "诺日朗中心站": 7
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "黄龙景区",
+    "mention_count": 5,
+    "document_count": 1,
+    "surface_forms": {
+      "黄龙景区": 5
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "卧龙海",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "卧龙海": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "成都天府机场",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "成都天府机场": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "熊猫海瀑布",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "熊猫海瀑布": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "黄龙九寨高铁站",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "黄龙九寨高铁站": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "下季节海",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "下季节海": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "九寨沟神仙池景区",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "九寨沟神仙池景区": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "九寨黄龙机场",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "九寨黄龙机场": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "公主海",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "公主海": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "箭竹海瀑布",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "箭竹海瀑布": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "诺日朗群海",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "诺日朗群海": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "上季节海",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "上季节海": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "松潘古城",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "松潘古城": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "树正磨房",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "树正磨房": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "火车南站",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "火车南站": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "镜海停车场",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "镜海停车场": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "全季酒店(九寨沟景区店)",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "全季酒店(九寨沟景区店)": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "则渣洼沟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "则渣洼沟": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "南堂馆川菜文化餐厅(天府店)",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "南堂馆川菜文化餐厅(天府店)": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "孔雀河道",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "孔雀河道": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "小金铃海",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "小金铃海": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "松潘站",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "松潘站": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "沟口游客中心",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "沟口游客中心": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "老虎嘴观景台",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "老虎嘴观景台": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "花海",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "花海": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "藏王宴舞停车场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "藏王宴舞停车场": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "诺日朗餐厅",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "诺日朗餐厅": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一天",
+    "mention_count": 14,
+    "document_count": 6,
+    "surface_forms": {
+      "一天": 14
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第二天",
+    "mention_count": 14,
+    "document_count": 7,
+    "surface_forms": {
+      "第二天": 14
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午",
+    "mention_count": 13,
+    "document_count": 6,
+    "surface_forms": {
+      "下午": 13
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "旺季",
+    "mention_count": 11,
+    "document_count": 6,
+    "surface_forms": {
+      "旺季": 11
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "上午",
+    "mention_count": 10,
+    "document_count": 6,
+    "surface_forms": {
+      "上午": 10
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day1",
+    "mention_count": 9,
+    "document_count": 7,
+    "surface_forms": {
+      "Day1": 9
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day2",
+    "mention_count": 9,
+    "document_count": 7,
+    "surface_forms": {
+      "Day2": 9
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两天",
+    "mention_count": 9,
+    "document_count": 4,
+    "surface_forms": {
+      "两天": 9
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10分钟",
+    "mention_count": 8,
+    "document_count": 2,
+    "surface_forms": {
+      "10分钟": 8
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一日",
+    "mention_count": 8,
+    "document_count": 6,
+    "surface_forms": {
+      "一日": 8
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "当天",
+    "mention_count": 8,
+    "document_count": 5,
+    "surface_forms": {
+      "当天": 8
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "清晨",
+    "mention_count": 8,
+    "document_count": 3,
+    "surface_forms": {
+      "清晨": 8
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day3",
+    "mention_count": 7,
+    "document_count": 5,
+    "surface_forms": {
+      "Day3": 7
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "中午",
+    "mention_count": 7,
+    "document_count": 5,
+    "surface_forms": {
+      "中午": 7
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上",
+    "mention_count": 7,
+    "document_count": 4,
+    "surface_forms": {
+      "晚上": 7
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15分钟",
+    "mention_count": 6,
+    "document_count": 1,
+    "surface_forms": {
+      "15分钟": 6
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20分钟",
+    "mention_count": 6,
+    "document_count": 2,
+    "surface_forms": {
+      "20分钟": 6
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两晚",
+    "mention_count": 5,
+    "document_count": 1,
+    "surface_forms": {
+      "两晚": 5
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早上",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "早上": 5
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "节假日",
+    "mention_count": 5,
+    "document_count": 1,
+    "surface_forms": {
+      "节假日": 5
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "07:30",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "07:30": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2小时",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "2小时": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三天",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "三天": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第一天",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "第一天": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:30",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "10:30": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "17:00": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:10",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "18:10": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2h",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "2h": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "30分钟",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "30分钟": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "5分钟",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "5分钟": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "9小时",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "9小时": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 1",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "Day 1": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "今天",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "今天": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "傍晚",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "傍晚": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "国庆",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "国庆": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "秋天",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "秋天": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "07:00",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "07:00": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "08:00",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "08:00": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-15:00",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00-15:00": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:30",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "13:30": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:00-16:00",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "15:00-16:00": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1h",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "1h": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2个小时",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "2个小时": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3天",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "3天": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3天2晚",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "3天2晚": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3小时",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "3小时": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "45分钟",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "45分钟": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "60-90分钟",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "60-90分钟": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "8点",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "8点": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 2",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "Day 2": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 3",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "Day 3": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三日",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "三日": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十分钟",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "十分钟": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "半小时",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "半小时": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "明天",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "明天": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "白天",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "白天": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第三天",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "第三天": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "0.5h",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "0.5h": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "06:45",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "06:45": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "07:00-08:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "07:00-08:10": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "08:00-10:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "08:00-10:00": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "08:10-09:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "08:10-09:00": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "08:24",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "08:24": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00-09:15",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00-09:15": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:15-09:45",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:15-09:45": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:45-10:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:45-10:10": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1.5h",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1.5h": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1.5小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1.5小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10 点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10 点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-11:45",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00-11:45": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-12:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00-12:00": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:10-10:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:10-10:40": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:30—12:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:30—12:30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:40-11:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:40-11:10": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10月",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10月": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10月下旬到11月初",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10月下旬到11月初": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:10-11:25",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:10-11:25": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30-13:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:30-13:30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11月",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11月": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11月15日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11月15日": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:50-13:19",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:50-13:19": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12点30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12点30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:30-14:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:30-14:20": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:55-15:52",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:55-15:52": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13点50",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13点50": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:20-14:50",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14:20-14:50": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14:30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:39‑16:37",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14:39‑16:37": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:50-15:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14:50-15:40": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15 点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15 点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15-20分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15-20分钟": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:40-17:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15:40-17:00": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:02",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:02": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:20": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:25-18:07",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:25-18:07": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00-17:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:00-17:20": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00-17:35",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:00-17:35": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17点40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17点40": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18 点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18 点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18:00": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:27",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18:27": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:58-19:24",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18:58-19:24": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18点20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18点20": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:00": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:20": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1个半小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1个半小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2.5小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2.5小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20-40分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20-40分钟": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20-50分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20-50分钟": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20:33",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20:33": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20:40": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "22:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "22:20": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "23:55",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "23:55": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3 小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3 小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3-4小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3-4小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3h",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3h": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4-5小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4-5小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4-6小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4-6小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "40分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "40分钟": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "45-60分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "45-60分钟": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4‑5 小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4‑5 小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4天3晚",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4天3晚": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4月1号",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4月1号": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "5到6个小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "5到6个小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "5月",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "5月": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "7-14天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "7-14天": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "730h",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "730h": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "7—9小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "7—9小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "7点30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "7点30": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "8点45",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "8点45": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "9点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "9点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day02",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day02": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day4",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day4": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day5",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day5": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一个小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一个小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一天一夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一天一夜": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三到五分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "三到五分钟": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午2点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "下午2点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午5点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "下午5点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两天一夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "两天一夜": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "二日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "二日": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "五点十五",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "五点十五": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "凌晨",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "凌晨": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早上五点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "早上五点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早高峰",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "早高峰": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上八点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "晚上八点": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第一日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "第一日": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第三日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "第三日": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第二日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "第二日": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "观光车",
+    "mention_count": 57,
+    "document_count": 9,
+    "surface_forms": {
+      "观光车": 57
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "徒步",
+    "mention_count": 32,
+    "document_count": 11,
+    "surface_forms": {
+      "徒步": 32
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "步行",
+    "mention_count": 30,
+    "document_count": 7,
+    "surface_forms": {
+      "步行": 30
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "大巴",
+    "mention_count": 25,
+    "document_count": 6,
+    "surface_forms": {
+      "大巴": 25
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "坐车",
+    "mention_count": 15,
+    "document_count": 6,
+    "surface_forms": {
+      "坐车": 15
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "高铁",
+    "mention_count": 14,
+    "document_count": 6,
+    "surface_forms": {
+      "高铁": 14
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "动车",
+    "mention_count": 13,
+    "document_count": 2,
+    "surface_forms": {
+      "动车": 13
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "乘车",
+    "mention_count": 12,
+    "document_count": 6,
+    "surface_forms": {
+      "乘车": 12
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "包车",
+    "mention_count": 12,
+    "document_count": 4,
+    "surface_forms": {
+      "包车": 12
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "拼车",
+    "mention_count": 9,
+    "document_count": 1,
+    "surface_forms": {
+      "拼车": 9
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "索道",
+    "mention_count": 8,
+    "document_count": 1,
+    "surface_forms": {
+      "索道": 8
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "打车",
+    "mention_count": 6,
+    "document_count": 3,
+    "surface_forms": {
+      "打车": 6
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "飞机",
+    "mention_count": 6,
+    "document_count": 2,
+    "surface_forms": {
+      "直飞": 3,
+      "飞": 2,
+      "飞机": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "接驳车",
+    "mention_count": 5,
+    "document_count": 1,
+    "surface_forms": {
+      "接驳车": 5
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "摆渡车",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "摆渡车": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "观光大巴",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "观光大巴": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "地铁",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "地铁": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "直通车",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "直通车": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "自驾",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "自驾": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "公交",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "公交": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "出租车",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "出租车": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "鲸鲨馆",
+    "mention_count": 49,
+    "document_count": 15,
+    "surface_forms": {
+      "鲸鲨馆": 49
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "白鲸剧场",
+    "mention_count": 37,
+    "document_count": 12,
+    "surface_forms": {
+      "白鲸剧场": 37
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "企鹅馆",
+    "mention_count": 36,
+    "document_count": 15,
+    "surface_forms": {
+      "企鹅馆": 36
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "冰山过山车",
+    "mention_count": 30,
+    "document_count": 8,
+    "surface_forms": {
+      "冰山过山车": 30
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "珠海长隆海洋王国",
+    "mention_count": 29,
+    "document_count": 11,
+    "surface_forms": {
+      "珠海长隆海洋王国": 10,
+      "长隆海洋王国": 19
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "横琴湾酒店",
+    "mention_count": 28,
+    "document_count": 7,
+    "surface_forms": {
+      "横琴湾酒店": 24,
+      "长隆横琴湾酒店": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海豚剧场",
+    "mention_count": 24,
+    "document_count": 11,
+    "surface_forms": {
+      "海豚剧场": 24
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "鹦鹉过山车",
+    "mention_count": 24,
+    "document_count": 10,
+    "surface_forms": {
+      "鹦鹉过山车": 24
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "北极熊馆",
+    "mention_count": 23,
+    "document_count": 11,
+    "surface_forms": {
+      "北极熊馆": 23
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海底互动船",
+    "mention_count": 22,
+    "document_count": 11,
+    "surface_forms": {
+      "海底互动船": 22
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海狮剧场",
+    "mention_count": 21,
+    "document_count": 10,
+    "surface_forms": {
+      "海狮剧场": 21
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "5D城堡影院",
+    "mention_count": 18,
+    "document_count": 11,
+    "surface_forms": {
+      "5D 城堡影院": 5,
+      "5D城堡影院": 13
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆飞船乐园",
+    "mention_count": 18,
+    "document_count": 6,
+    "surface_forms": {
+      "长隆飞船乐园": 4,
+      "飞船乐园": 14
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "横琴海",
+    "mention_count": 17,
+    "document_count": 7,
+    "surface_forms": {
+      "横琴海": 17
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海豚湾",
+    "mention_count": 15,
+    "document_count": 8,
+    "surface_forms": {
+      "海豚湾": 15
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海牛馆",
+    "mention_count": 14,
+    "document_count": 9,
+    "surface_forms": {
+      "海牛馆": 14
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "白鲸馆",
+    "mention_count": 14,
+    "document_count": 7,
+    "surface_forms": {
+      "白鲸馆": 14
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆企鹅酒店",
+    "mention_count": 14,
+    "document_count": 9,
+    "surface_forms": {
+      "企鹅酒店": 11,
+      "长隆企鹅酒店": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海鸟世界",
+    "mention_count": 11,
+    "document_count": 5,
+    "surface_forms": {
+      "海鸟世界": 11
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "超级激流",
+    "mention_count": 11,
+    "document_count": 6,
+    "surface_forms": {
+      "超级激流": 11
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海洋大街",
+    "mention_count": 10,
+    "document_count": 5,
+    "surface_forms": {
+      "海洋大街": 10
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "梦幻海洋",
+    "mention_count": 9,
+    "document_count": 5,
+    "surface_forms": {
+      "梦幻海洋": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海象山",
+    "mention_count": 9,
+    "document_count": 7,
+    "surface_forms": {
+      "海象山": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "激浪帆船",
+    "mention_count": 9,
+    "document_count": 5,
+    "surface_forms": {
+      "激浪帆船": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "雨林升降塔",
+    "mention_count": 9,
+    "document_count": 5,
+    "surface_forms": {
+      "雨林升降塔": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海象岛",
+    "mention_count": 8,
+    "document_count": 4,
+    "surface_forms": {
+      "海象岛": 8
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆飞船酒店",
+    "mention_count": 8,
+    "document_count": 4,
+    "surface_forms": {
+      "飞船酒店": 8
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "丛林过山车",
+    "mention_count": 7,
+    "document_count": 5,
+    "surface_forms": {
+      "丛林过山车": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "旋转水战",
+    "mention_count": 7,
+    "document_count": 3,
+    "surface_forms": {
+      "旋转水战": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "极地探险",
+    "mention_count": 7,
+    "document_count": 6,
+    "surface_forms": {
+      "极地探险": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "雨林飞翔",
+    "mention_count": 7,
+    "document_count": 5,
+    "surface_forms": {
+      "雨林飞翔": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "雨林餐厅",
+    "mention_count": 7,
+    "document_count": 3,
+    "surface_forms": {
+      "雨林餐厅": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海豚岛",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "海豚岛": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海豚转转车",
+    "mention_count": 5,
+    "document_count": 3,
+    "surface_forms": {
+      "海豚转转车": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "英雄岛",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "英雄岛": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "水獭之家",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "水獭之家": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海洋奇观",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "海洋奇观": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "渔港食街",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "渔港食街": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "百慕大历险",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "百慕大历险": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆马戏酒店",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "马戏酒店": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "中华白海豚",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "中华白海豚": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "企鹅过山车",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "企鹅过山车": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "横琴湾水世界",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "横琴湾水世界": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海狮港湾",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "海狮港湾": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海象馆",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "海象馆": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "长隆迎海酒店公寓",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "长隆迎海酒店公寓": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "南花园",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "南花园": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "探险家餐厅",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "探险家餐厅": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "横琴口岸",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "横琴口岸": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "海底餐厅",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "海底餐厅": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "火烈鸟岛",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "火烈鸟岛": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "长隆剧院",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "长隆剧院": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "5D城堡电影",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "5D城堡电影": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "亚马逊森林美食廊",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "亚马逊森林美食廊": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "喷泉广场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "喷泉广场": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "国际马戏城",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "国际马戏城": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "宇宙乐园",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "宇宙乐园": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "帝企鹅自助餐厅",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "帝企鹅自助餐厅": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "水母墙",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "水母墙": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "海景轩",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "海景轩": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "海洋露天剧场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "海洋露天剧场": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "珊瑚自助餐厅",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "珊瑚自助餐厅": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "珠海长隆站",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "珠海长隆站": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "超级激流过山车",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "超级激流过山车": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00",
+    "mention_count": 15,
+    "document_count": 7,
+    "surface_forms": {
+      "17:00": 15
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午",
+    "mention_count": 13,
+    "document_count": 4,
+    "surface_forms": {
+      "下午": 13
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:00",
+    "mention_count": 10,
+    "document_count": 6,
+    "surface_forms": {
+      "15:00": 10
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20:00",
+    "mention_count": 10,
+    "document_count": 7,
+    "surface_forms": {
+      "20:00": 10
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一天",
+    "mention_count": 10,
+    "document_count": 5,
+    "surface_forms": {
+      "一天": 10
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "上午",
+    "mention_count": 10,
+    "document_count": 4,
+    "surface_forms": {
+      "上午": 10
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:00",
+    "mention_count": 9,
+    "document_count": 6,
+    "surface_forms": {
+      "12:00": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:00",
+    "mention_count": 9,
+    "document_count": 6,
+    "surface_forms": {
+      "13:00": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:00",
+    "mention_count": 9,
+    "document_count": 5,
+    "surface_forms": {
+      "16:00": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20分钟",
+    "mention_count": 9,
+    "document_count": 4,
+    "surface_forms": {
+      "20分钟": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上",
+    "mention_count": 9,
+    "document_count": 6,
+    "surface_forms": {
+      "晚上": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第一天",
+    "mention_count": 9,
+    "document_count": 3,
+    "surface_forms": {
+      "第一天": 9
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:00",
+    "mention_count": 7,
+    "document_count": 6,
+    "surface_forms": {
+      "11:00": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1小时",
+    "mention_count": 7,
+    "document_count": 4,
+    "surface_forms": {
+      "1小时": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "30分钟",
+    "mention_count": 7,
+    "document_count": 7,
+    "surface_forms": {
+      "30分钟": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第二天",
+    "mention_count": 7,
+    "document_count": 2,
+    "surface_forms": {
+      "第二天": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:00",
+    "mention_count": 6,
+    "document_count": 5,
+    "surface_forms": {
+      "14:00": 6
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:30",
+    "mention_count": 6,
+    "document_count": 5,
+    "surface_forms": {
+      "15:30": 6
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:45",
+    "mention_count": 6,
+    "document_count": 5,
+    "surface_forms": {
+      "17:45": 6
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "旺季",
+    "mention_count": 6,
+    "document_count": 1,
+    "surface_forms": {
+      "旺季": 6
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:15",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "19:15": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "5分钟",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "5分钟": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一小时",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "一小时": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "中午",
+    "mention_count": 5,
+    "document_count": 5,
+    "surface_forms": {
+      "中午": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "半小时",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "半小时": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "当天",
+    "mention_count": 5,
+    "document_count": 3,
+    "surface_forms": {
+      "当天": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "淡季",
+    "mention_count": 5,
+    "document_count": 4,
+    "surface_forms": {
+      "淡季": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "10:00": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10分钟",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "10分钟": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10点",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "10点": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:15",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "11:15": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:30",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "13:30": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13点",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "13点": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14点",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "14点": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:00",
+    "mention_count": 4,
+    "document_count": 4,
+    "surface_forms": {
+      "19:00": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20min",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "20min": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2日",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "2日": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "傍晚",
+    "mention_count": 4,
+    "document_count": 2,
+    "surface_forms": {
+      "傍晚": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-19:00",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "10:00-19:00": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "11:30": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:15",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "12:15": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12点",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "12点": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:30",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "14:30": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:15",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "16:15": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:30",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "17:30": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:15",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "18:15": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三天两晚",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "三天两晚": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两晚",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "两晚": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "夏天",
+    "mention_count": 3,
+    "document_count": 3,
+    "surface_forms": {
+      "夏天": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "暑假",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "暑假": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "09:00": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-19:30",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "10:00-19:30": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00-20:00",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "10:00-20:00": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:30",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "10:30": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10–15分钟",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "10–15分钟": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11月",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "11月": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:00-19:00",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "15:00-19:00": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2个小时",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "2个小时": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "30min",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "30min": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3分钟",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "3分钟": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3天2夜",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "3天2夜": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3天2晚",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "3天2晚": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "60分钟",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "60分钟": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "6月",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "6月": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一个小时",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "一个小时": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午五点",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "下午五点": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "今天",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "今天": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十点",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "十点": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "去年",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "去年": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第一日",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "第一日": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "第二日",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "第二日": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00 -12:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00 -12:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:00-10:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:00-10:00": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:20": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "09:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "09:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1 小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1 小时": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:00–20:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:00–20:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:05-10:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:05-10:40": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:30-11:35",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:30-11:35": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:40": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "10:50-11:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "10:50-11:20": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30-12:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:30-12:00": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:30-14:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:30-14:00": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11:40",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11:40": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11月1号到15号",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11月1号到15号": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "11点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "11点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:05-12:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:05-12:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:40 -17:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:40 -17:00": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12:40-13:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12:40-13:20": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12月初",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12月初": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "12点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "12点半": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:15",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:15": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "13:30-14:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "13:30-14:20": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "14:30-15:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "14:30-15:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15:40-16:25",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15:40-16:25": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "15分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "15分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "16:35-17:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "16:35-17:00": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:00-18:25",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:00-18:25": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:05 -20:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:05 -20:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:05-17:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:05-17:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17:40-18:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17:40-18:20": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "17点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "17点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:00",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18:00": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "18:30-19:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "18:30-19:10": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:04",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:04": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:10",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:10": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:20": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:20-19:45",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:20-19:45": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "19:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "19:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "1分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "1分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2 天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2 天": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20-30分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20-30分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2019-06-03",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2019-06-03": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2023年4月1日-4月19日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2023年4月1日-4月19日": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2024-06-03",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2024-06-03": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20:00-20:30",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20:00-20:30": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20:00-21:25",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20:00-21:25": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "20点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "23:20",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "23:20": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "23:59",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "23:59": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "25分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "25分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "2min",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2min": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "39分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "39分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3min",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3min": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3天两夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3天两夜": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3小时": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "3日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "3日": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "45-60分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "45-60分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4min",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4min": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "4月底",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "4月底": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "5min",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "5min": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "7点10分",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "7点10分": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "8-10分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "8-10分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "8点45分",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "8点45分": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "8点半",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "8点半": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "90分钟",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "90分钟": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 1",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day 1": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 2",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day 2": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day 3",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day 3": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day1",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day1": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day2",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day2": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "Day3",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "Day3": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一个夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一个夜": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一日": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一晚",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一晚": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一秒",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一秒": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "三天": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "三天两夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "三天两夜": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "上午10点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "上午10点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午 4 点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "下午 4 点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "下午三点到七点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "下午三点到七点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "两天": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两天一夜",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "两天一夜": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "两日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "两日": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "中午1点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "中午1点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "五点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "五点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "十一点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "十一点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "半个小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "半个小时": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "后一天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "后一天": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "周末",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "周末": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "平日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "平日": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早上",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "早上": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "早上8点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "早上8点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上7点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "晚上7点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "晚上8点",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "晚上8点": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "白天",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "白天": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "节假日",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "节假日": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "步行",
+    "mention_count": 13,
+    "document_count": 4,
+    "surface_forms": {
+      "步行": 13
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "打车",
+    "mention_count": 10,
+    "document_count": 4,
+    "surface_forms": {
+      "打车": 10
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "自驾",
+    "mention_count": 7,
+    "document_count": 4,
+    "surface_forms": {
+      "自驾": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "高铁",
+    "mention_count": 5,
+    "document_count": 2,
+    "surface_forms": {
+      "高铁": 5
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "接驳巴士",
+    "mention_count": 4,
+    "document_count": 3,
+    "surface_forms": {
+      "接驳巴士": 4
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "公交车",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "86路公交": 2,
+      "公交车": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "小船",
+    "mention_count": 3,
+    "document_count": 2,
+    "surface_forms": {
+      "小船": 3
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "出租车",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "出租车": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "游艇",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "游艇": 2
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "穿梭巴士",
+    "mention_count": 2,
+    "document_count": 2,
+    "surface_forms": {
+      "免费穿梭巴士": 2
+    }
+  }
+]
