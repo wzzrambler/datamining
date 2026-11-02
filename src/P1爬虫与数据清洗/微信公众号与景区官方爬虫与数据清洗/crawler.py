@@ -369,7 +369,8 @@ def main():
             if not os.path.exists(path):
                 log("  缺文件：%s" % m["file"])
                 continue
-            text = open(path, encoding="utf-8").read().strip()
+            with open(path, encoding="utf-8") as f:
+                text = f.read().strip()
             if len(text) < MIN_NOTE_CHARS:
                 log("  太短，跳过：%s" % m["doc_id"])
                 continue

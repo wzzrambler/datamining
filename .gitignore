@@ -18,3 +18,4 @@ __pycache__/
 data/小红书增量采集/
 src/**/output/
 提交包/
+~$*

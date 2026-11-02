@@ -63,7 +63,8 @@ def main():
     for row in index:
         fn = row["文件名"]
         path = os.path.join(HTML_DIR, fn)
-        html = open(path, encoding="utf-8", errors="replace").read()
+        with open(path, encoding="utf-8", errors="replace") as f:
+            html = f.read()
         feat = pick_extractor(fn)(html)
         text = "\n".join(feat["text_blocks"])
         fp = hashlib.md5(text.encode("utf-8")).hexdigest()[:12] if text else ""
@@ -109,7 +110,8 @@ def main():
     for a in cfg["scenic_areas"]:
         for m in a.get("manual_notes", []):
             txt = os.path.join(RAW, "manual", m["doc_id"] + ".txt")
-            text = open(txt, encoding="utf-8").read().strip()
+            with open(txt, encoding="utf-8") as f:
+                text = f.read().strip()
             docs.append({
                 "doc_id": m["doc_id"], "scenic_code": a["code"], "scenic_area": a["name"],
                 "city": a.get("city", ""), "category": a.get("category", ""),
