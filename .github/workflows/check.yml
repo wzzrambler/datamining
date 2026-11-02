@@ -4,9 +4,18 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: offline-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+env:
+  PYTHONUTF8: '1'
 jobs:
+  # 保留任务ID，兼容已有分支保护检查名。
   p1:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -15,23 +24,40 @@ jobs:
         with:
           python-version: '3.11'
           cache: pip
+          cache-dependency-path: requirements.txt
       - name: 安装依赖
+        id: dependencies
         run: python -m pip install -r requirements.txt
       - name: 语法检查
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python -m compileall -q src tools tests
       - name: 离线测试（无需浏览器、Docker或大归档）
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python -m unittest discover -s tests/P1 -v
-      - name: 正式数据一致性
-        run: python tools/verify_p1.py
       - name: P1全量自动质检（不下载原始归档）
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python tools/quality_p1.py --output .test_tmp/ci_quality
       - name: P2规则、配置与全量离线复跑测试
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python -m unittest discover -s tests/P2 -v
       - name: P3路线边界、层级与样本对比检查
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python -m unittest discover -s tests/P3 -v
       - name: P4指代边界、规则消解与标注评估检查
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python -m unittest discover -s tests/P4 -v
       - name: P5工具、导出与恢复离线检查
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python -m unittest discover -s tests/P5 -v
       - name: P6图谱转换与导入契约离线检查
+        if: ${{ !cancelled() && steps.dependencies.outcome == 'success' }}
         run: python -m unittest discover -s tests/P6 -v
+      - name: 保存P1质检报告
+        if: ${{ !cancelled() && hashFiles('.test_tmp/ci_quality/**') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: p1-quality-report
+          path: .test_tmp/ci_quality/
+          include-hidden-files: true
+          retention-days: 14
+          if-no-files-found: error

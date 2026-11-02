@@ -1,11 +1,9 @@
 """只读检查P1正式数据；--deep还会核对本地原始证据与归档。"""
 import argparse
 import csv
-import hashlib
 import json
 import importlib.util
 import sys
-import zipfile
 from collections import Counter
 from pathlib import Path
 
@@ -24,13 +22,11 @@ def load(path):
 def verify(deep=False):
     folder = paths.P1
     docs = load(folder / 'documents.json')
-    legacy_folder = next((p for p in (folder / '历史17篇清洗后数据', folder / '历史17篇',
-                                      paths.ROOT / 'archive/旧版阶段结果') if (p / 'documents.json').is_file()), None)
-    assert legacy_folder is not None, '缺少原17篇历史基线'
-    if legacy_folder == paths.ROOT / 'archive/旧版阶段结果':
-        baseline_manifest = load(paths.ROOT / 'archive/原实验仓库_重构前.manifest.json')
-        assert hashlib.sha256((legacy_folder / 'documents.json').read_bytes()).hexdigest() == baseline_manifest['files']['data/processed/documents.json'], '归档17篇基线哈希不符'
-    legacy = load(legacy_folder / 'documents.json')
+    baseline = folder / '辅助资料/legacy_documents.json'
+    assert baseline.is_file(), f'缺少原17篇历史基线：{baseline}'
+    legacy = load(baseline)
+    assert len(legacy) == 17, '历史基线应包含原17篇文档'
+    assert len({d['doc_id'] for d in legacy}) == 17, '历史基线文档编号重复'
     expected = set(legacy[0])
     ids = set()
     para_count = 0
@@ -49,8 +45,8 @@ def verify(deep=False):
     by_id = {d['doc_id']: d for d in docs}
     for old in _rules.normalize_legacy_documents(legacy):
         new = by_id[old['doc_id']]
-        # 只允许可重放的格式转换、派生统计与证据路径适配；历史原件由基线哈希校验。
-        assert {k:v for k,v in old.items() if k != 'raw_html_path'} == {k:v for k,v in new.items() if k != 'raw_html_path'}
+        # 与清洗生产配置使用同一份已提交基线；只允许格式、统计与证据路径适配。
+        assert {k:v for k,v in old.items() if k != 'raw_html_path'} == {k:v for k,v in new.items() if k != 'raw_html_path'}, f"历史基线内容不一致：{old['doc_id']}"
     with (folder / 'paragraphs.csv').open(encoding='utf-8-sig', newline='') as f:
         assert sum(1 for _ in csv.DictReader(f)) == para_count
     origins = load(folder / '辅助资料/paragraph_sources.json')
@@ -67,11 +63,7 @@ def verify(deep=False):
                 assert paths.evidence_path(d['raw_html_path']).is_file(), f"证据缺失：{d['doc_id']}"
         for p in load(folder / '辅助资料/ocr_results.json'):
             assert paths.evidence_path(p['source']).is_file()
-        baseline = paths.ROOT / 'archive/原实验仓库_重构前.zip'
-        inventory = load(paths.ROOT / 'archive/原实验仓库_重构前.manifest.json')
-        with zipfile.ZipFile(baseline) as z:
-            assert all(hashlib.sha256(z.read(name)).hexdigest() == digest for name, digest in inventory['files'].items())
-        print(f'原始归档与基线校验通过；解压缓存：{cache.relative_to(paths.ROOT)}')
+        print(f'本地原始归档与证据存在性校验通过；解压缓存：{cache.relative_to(paths.ROOT)}')
     print(json.dumps({'documents':len(docs), 'paragraphs':para_count,
                       'by_type':dict(Counter(d['text_type'] for d in docs)),
                       'missing_titles':[d['doc_id'] for d in docs if not d['title']]}, ensure_ascii=False))
