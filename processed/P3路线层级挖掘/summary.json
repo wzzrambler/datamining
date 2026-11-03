@@ -1,18 +1,18 @@
 {
   "documents_scanned": 47,
-  "selected_documents": 27,
-  "routes": 40,
-  "steps": 312,
-  "candidates": 424,
+  "selected_documents": 26,
+  "routes": 39,
+  "steps": 309,
+  "candidates": 417,
   "comparisons": 16,
   "routes_by_nature": {
-    "visitor_recommendation": 20,
+    "visitor_recommendation": 19,
     "official_recommendation": 6,
     "visitor_unspecified": 10,
     "visitor_actual_claim": 4
   },
   "routes_by_format": {
-    "arrow_chain": 25,
+    "arrow_chain": 24,
     "numbered": 9,
     "period_groups": 2,
     "narrative_connectives": 2,
@@ -20,7 +20,7 @@
     "explicit_ordered_list": 1
   },
   "steps_by_period": {
-    "未说明": 203,
+    "未说明": 200,
     "上午": 35,
     "中午": 15,
     "下午": 48,
@@ -29,9 +29,9 @@
     "晚上": 4
   },
   "candidate_status": {
-    "boundary": 204,
-    "accepted": 156,
-    "rejected": 264,
+    "boundary": 201,
+    "accepted": 155,
+    "rejected": 258,
     "suppressed_duplicate": 2
   },
   "diagnostics": 7,

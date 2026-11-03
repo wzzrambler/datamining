@@ -1,26 +1,26 @@
 {
   "documents_scanned": 47,
-  "records": 547,
+  "records": 545,
   "status_counts": {
     "non_entity_reference": 4,
-    "unresolved": 396,
+    "unresolved": 394,
     "resolved": 76,
     "excluded": 71
   },
   "reason_counts": {
     "discourse_expression": 4,
-    "type_mismatch": 248,
+    "type_mismatch": 247,
     "event_structure_rule": 12,
     "event_candidate_missing": 47,
     "ambiguous": 27,
     "type_distance_rule": 64,
     "lexical_non_reference": 71,
     "low_score": 23,
-    "no_candidate": 51
+    "no_candidate": 50
   },
   "reference_type_counts": {
-    "location": 118,
-    "unknown": 227,
+    "location": 117,
+    "unknown": 226,
     "event": 68,
     "person": 70,
     "nonperson": 46,
@@ -28,7 +28,7 @@
     "animal": 2,
     "object": 7
   },
-  "baseline_links_on_detected_targets": 186,
+  "baseline_links_on_detected_targets": 185,
   "parameter_status": "development_rules_not_independent_validation",
   "independent_semantic_accuracy": null,
   "uses_annotations_for_prediction": false,
@@ -217,7 +217,7 @@
     {
       "doc_id": "GZCL-NOTE-06",
       "scenic_code": "GZCL",
-      "content_sha256": "4efcaa47ed0e6b7d523a2964cfbbe32835dbd506cfd51842a025b0ec3a6e7b06",
+      "content_sha256": "af24030f93f25a75ded69e6888f0859746ace72e61734f20dc5b0824111b2385",
       "records": 0,
       "status_counts": {}
     },
@@ -246,7 +246,7 @@
     {
       "doc_id": "GZCL-NOTE-09",
       "scenic_code": "GZCL",
-      "content_sha256": "58e6f083c71f6b9614248afeb676ebd2e3f75f15ec6c2f25ad84a596adbffe52",
+      "content_sha256": "ada494e4ad2682540adc35c85f09de9dcb9062c210321dbacbb381ec890a2335",
       "records": 1,
       "status_counts": {
         "unresolved": 1
@@ -264,7 +264,7 @@
     {
       "doc_id": "GZCL-NOTE-11",
       "scenic_code": "GZCL",
-      "content_sha256": "1f0efde396259d1bf1f85368515111c0a887b473dbc9093aa3e40d19f6aebd7e",
+      "content_sha256": "bebf7e21a89afe363c94d4cae17f9c8dbe2fd9089a5d95a6fe0d776a16ea7b4f",
       "records": 16,
       "status_counts": {
         "unresolved": 14,
@@ -281,7 +281,7 @@
     {
       "doc_id": "GZCL-NOTE-13",
       "scenic_code": "GZCL",
-      "content_sha256": "cb5dce845a8b4c6b20fcc777202051e73e00d40c51ffe181bb1f308a35f4267a",
+      "content_sha256": "462c18936e1f289cbc103bbafd64864013426432521a5bd7cc3c3d5fc25afd0a",
       "records": 0,
       "status_counts": {}
     },
@@ -306,7 +306,7 @@
     {
       "doc_id": "ZHCL-NOTE-04",
       "scenic_code": "ZHCL",
-      "content_sha256": "e4fa726059bb1c48c96aa02c98c7e173c0d6039c51a72cc234eedf96db143c58",
+      "content_sha256": "d0451337bd07bbaaed18af76cb347de1b3fb1b5bf8a4757a27f3b75b04eaa287",
       "records": 1,
       "status_counts": {
         "unresolved": 1
@@ -353,7 +353,7 @@
     {
       "doc_id": "ZHCL-NOTE-09",
       "scenic_code": "ZHCL",
-      "content_sha256": "31ce90783927712f63dc34e36508a35447fbbe59dd0c71cf51ef875324ed5a4a",
+      "content_sha256": "a65d6dbe4c2de58b81ebb984fc6ecf58503d8d0fd5c64dd35cb9da398b9fba31",
       "records": 14,
       "status_counts": {
         "unresolved": 8,
@@ -380,7 +380,7 @@
     {
       "doc_id": "ZHCL-NOTE-12",
       "scenic_code": "ZHCL",
-      "content_sha256": "c8017a252652a7f619cd6506afb89b1e8936902db6ab23ae5133bc80ee7ea79c",
+      "content_sha256": "6f05ebc19d102dfde2f04dae31f1e83af0669d2f64a0ba8b00e7b73525dcb3da",
       "records": 7,
       "status_counts": {
         "unresolved": 7
@@ -389,7 +389,7 @@
     {
       "doc_id": "ZHCL-NOTE-13",
       "scenic_code": "ZHCL",
-      "content_sha256": "4893ad0cc6af03d0cbf680fc2fef72835bb215bbffff3be593bc3051d7e1a7e9",
+      "content_sha256": "c0c38aa6b5bb404dfca2935216f69a2e148f24fda99570edfe5b81fe250aef3f",
       "records": 25,
       "status_counts": {
         "unresolved": 20,
@@ -437,7 +437,7 @@
     {
       "doc_id": "JZG-NOTE-08",
       "scenic_code": "JZG",
-      "content_sha256": "64c3371d2fad31d32eeb7c8996bfc48ed1bc45b8a4140e70a04323119f1e623f",
+      "content_sha256": "11610efab2393402717837638d76c4b1a373c8f375f72bef064bc148b51d5411",
       "records": 7,
       "status_counts": {
         "unresolved": 4,
@@ -459,26 +459,26 @@
     {
       "doc_id": "JZG-NOTE-10",
       "scenic_code": "JZG",
-      "content_sha256": "bfe74b6d233a3f34ae89963637a3d695592c930e888c94234b34c169c3774380",
-      "records": 7,
+      "content_sha256": "d75559b54d7c5c5185767d7e936c6caa050a5a2c1b1db98ee0ea46b0176c3f58",
+      "records": 6,
       "status_counts": {
-        "unresolved": 7
+        "unresolved": 6
       }
     },
     {
       "doc_id": "JZG-NOTE-11",
       "scenic_code": "JZG",
-      "content_sha256": "c56a476e92e351163ee9597e29ef91147b8a30e6ff7cfac258a585eeae0f702a",
-      "records": 9,
+      "content_sha256": "5a12405ec285f95e4db29e553f1bbfabba9bbe79c927e58d7be6a7ec733d7ef0",
+      "records": 8,
       "status_counts": {
-        "unresolved": 8,
+        "unresolved": 7,
         "excluded": 1
       }
     },
     {
       "doc_id": "JZG-NOTE-12",
       "scenic_code": "JZG",
-      "content_sha256": "e65ee427ad3374b6cb8bdf17a8028b646520fa9c40ff6590361cf08731fb2b07",
+      "content_sha256": "549538547691ea5cf946d9ea2ae43ef0244db64d20ecbb34e5b280677cfbadad",
       "records": 3,
       "status_counts": {
         "unresolved": 2,
@@ -488,7 +488,7 @@
     {
       "doc_id": "JZG-NOTE-13",
       "scenic_code": "JZG",
-      "content_sha256": "8838ea9444accc69ffdc121a1c33d78a2a3d15f25395b668227bc5d074810369",
+      "content_sha256": "c6fc639785467ec3499b0d102fdcda5d4e7d262b5630f2a1a66c15fa82ea38e6",
       "records": 2,
       "status_counts": {
         "unresolved": 2

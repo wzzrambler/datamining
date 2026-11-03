@@ -4,10 +4,10 @@
   "automation": "full_text_rules_no_preselected_locations",
   "checks": {
     "status": "passed",
-    "routes": 40,
-    "steps": 312,
-    "evidence_spans_checked": 534,
-    "poi_references_checked": 283,
+    "routes": 39,
+    "steps": 309,
+    "evidence_spans_checked": 531,
+    "poi_references_checked": 280,
     "meaning": "原文位置、P2引用、步骤关系及时间层级一致性；不等于语义准确率。"
   },
   "diagnostic_counts": {

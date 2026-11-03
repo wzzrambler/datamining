@@ -7,36 +7,57 @@
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
   },
   {
-    "child_route_id": "ZHCL-NOTE-04-R-0287318368",
-    "parent_route_id": "ROUTEOBS-466b24b436256125",
+    "child_route_id": "ROUTEOBS-138ff6b284be4b2d",
+    "parent_route_id": "ZHCL-NOTE-10-R-4955be8095",
     "basis": "same_document_ordered_step_group_subsequence",
     "status": "candidate_only_not_in_graph",
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
   },
   {
-    "child_route_id": "ROUTEOBS-8db30bf4a6640aaf",
+    "child_route_id": "ROUTEOBS-eb9988e78a0e0064",
+    "parent_route_id": "JZG-NOTE-03-R-7f44fd1c84",
+    "basis": "same_document_ordered_step_group_subsequence",
+    "status": "candidate_only_not_in_graph",
+    "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
+  },
+  {
+    "child_route_id": "ROUTEOBS-48eb06f6a4514ab0",
+    "parent_route_id": "ZHCL-NOTE-03-R-c9d09a5f60",
+    "basis": "same_document_ordered_step_group_subsequence",
+    "status": "candidate_only_not_in_graph",
+    "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
+  },
+  {
+    "child_route_id": "ROUTEOBS-8b9707aaed9cf861",
     "parent_route_id": "ROUTEOBS-82ddcec7528a73f7",
     "basis": "same_document_ordered_step_group_subsequence",
     "status": "candidate_only_not_in_graph",
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
   },
   {
-    "child_route_id": "ROUTEOBS-70353712b3180b82",
-    "parent_route_id": "ROUTEOBS-466b24b436256125",
+    "child_route_id": "ROUTEOBS-520873192cf25331",
+    "parent_route_id": "ROUTEOBS-327026e22dfe6fb4",
     "basis": "same_document_ordered_step_group_subsequence",
     "status": "candidate_only_not_in_graph",
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
   },
   {
-    "child_route_id": "ROUTEOBS-9d2ec99c037fd01f",
-    "parent_route_id": "GZCL-NOTE-06-R-3ff34f39b9",
+    "child_route_id": "ROUTEOBS-89b6b551e56237db",
+    "parent_route_id": "ROUTEOBS-82ddcec7528a73f7",
     "basis": "same_document_ordered_step_group_subsequence",
     "status": "candidate_only_not_in_graph",
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
   },
   {
     "child_route_id": "ROUTEOBS-bbac503b5dd7244b",
-    "parent_route_id": "ROUTEOBS-19738d72b274c361",
+    "parent_route_id": "ROUTEOBS-d07d22f3bce455e6",
+    "basis": "same_document_ordered_step_group_subsequence",
+    "status": "candidate_only_not_in_graph",
+    "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
+  },
+  {
+    "child_route_id": "ROUTEOBS-c444d1691b1d0cb8",
+    "parent_route_id": "GZCL-NOTE-06-R-3ff34f39b9",
     "basis": "same_document_ordered_step_group_subsequence",
     "status": "candidate_only_not_in_graph",
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
@@ -49,21 +70,14 @@
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
   },
   {
-    "child_route_id": "ROUTEOBS-f59e083bf20210b6",
-    "parent_route_id": "JZG-NOTE-05-R-749b346213",
-    "basis": "same_document_ordered_step_group_subsequence",
-    "status": "candidate_only_not_in_graph",
-    "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
-  },
-  {
     "child_route_id": "ROUTEOBS-dd99df9175b584c9",
-    "parent_route_id": "ROUTEOBS-19738d72b274c361",
+    "parent_route_id": "ROUTEOBS-d07d22f3bce455e6",
     "basis": "same_document_ordered_step_group_subsequence",
     "status": "candidate_only_not_in_graph",
     "needs": "原文主题/日序/替代路线范围复核，不能仅凭共同地点确定归属"
   },
   {
-    "child_route_id": "ROUTEOBS-36b981bf3c6eba62",
+    "child_route_id": "ROUTEOBS-49b0f962cf2e343c",
     "parent_route_id": "GZCL-OFF-02-R-e24fe1c8a6",
     "basis": "same_document_ordered_step_group_subsequence",
     "status": "candidate_only_not_in_graph",

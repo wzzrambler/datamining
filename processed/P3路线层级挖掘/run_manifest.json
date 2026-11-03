@@ -7,9 +7,9 @@
     "sources": "processed\\P1爬虫数据清洗\\辅助资料\\paragraph_sources.json"
   },
   "input_sha256": {
-    "p1": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979",
-    "p2": "e752ff4bf59486b0a0d79dafdd31b47645b9d592117fd0ca125e57e5e1ad62b7",
-    "sources": "fd008bf1387cd72918aebb44648209bc426bea0bdc2e6603caf1e2fe931a4e43"
+    "p1": "f8da370f9a5d672465ae23ee1da31f284e55b11cbd1c684b1c6dfe6612844981",
+    "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+    "sources": "ee56df7f01e4a579e62bf1a1ec6157923dffb0f4bbe2aac7906c52c4edb6b3f8"
   },
   "implementation_sha256": {
     "discovery.py": "0f8b68334cfb0d843148273b611fe707a97ba9fbbb9830b07712324297cae754",
@@ -21,17 +21,17 @@
   "preselected_location_config": false,
   "offline": true,
   "outputs_sha256": {
-    "candidate_inventory.json": "66ee057a025b942e737bdd150c0777c2ecd3de7dba34bb7df86b08e9b716bf68",
+    "candidate_inventory.json": "6a8f176dba3b88c3be989187f4a56be14b60500c9ee62372d47436dd4cbba27f",
     "diagnostics.json": "1a1eb12660d510c9a8ed95409df64fd8a8cb444807c9f5865aa8fd77ede523a4",
     "README.md": "2ed36bd58751ee17f85c3ffe5b092f005e91661524c84445f5a05f3875a5d64d",
     "route_compare.json": "a5cadba1898eeae01c29eac83db10fca76b4bf8e6281f9f88f0c7e7f7f3ce21d",
-    "route_steps.csv": "84357a4f462148086766706b6be86f24120493295bfa51901e279e2ed155cc32",
-    "routes.json": "d589b6b11252988b9747a45d51718bc94582fdea0d8536117c5516776c65ef61",
-    "summary.json": "0028bfa8a332c901275658cde486ec5f6937e143f8c31f6355c840e4cce593a7",
-    "validation.json": "e5e1216fd041d921187853512f9ad1d361cae0321ecb755ca5e799a475c5c32d"
+    "route_steps.csv": "ce98014b62483c126bee5e85d151633ad740c10352aa231483c6b89f7d035575",
+    "routes.json": "603be54dcb249cdbe22164b34375852ef825ab3890c6c0fc641b243b3527f3fc",
+    "summary.json": "3b37b0f57655fa3c01dfdcb41a3cbed43527b3b6fea03706ccfd2ffa34fde399",
+    "validation.json": "f42741953745a4cfbb33b6e75c04ef16ab105499cb346efb30d641be51617419"
   },
   "display_sha256": {
-    "P3实验报告正文.md": "3d0077347066ff84aa2b219498be59a03c0d7ac28bf9818407072c03596a9065",
+    "P3实验报告正文.md": "13d697fa36c074bebc31271406b18888a4ed6fc6456ca4945907f7a9e38998d7",
     "README.md": "0c53a8452c19e4f32029dbcf8556751a2c09cfbd047072ac3d85d1347b8ec577",
     "图表\\对比图索引.json": "a9f2a4fdbb5cf14565bb2ea98b5dbe29c22132c815d26a8d564f0d4d504bd5f8",
     "图表\\报告_九寨沟时间层级.png": "c683aac107c0a6da036756d8bca4784219e75784520e6af31deb4476a1198bb7",
@@ -45,7 +45,7 @@
     "报告更新核对.json": "44a18fa970144eafce88612f8cafcc4ac99907862f1eb84f92ff6b38f213659f",
     "报告案例核对.json": "5aafdeb73258bc95c6a05c6c44513e958ebee44fdb7c57c6e8a966d36aa1a5f5",
     "第X组_组长姓名_《数据挖掘》探索性实验报告_P1P2P3修订版.docx": "54983c64f9f9b025a97a1906f3a01ed05cb60b0e63cab166f0abbd4180dfca03",
-    "质量核对记录.json": "c91fb60f7cc31d227891d95344e8bda7b9112d0a9a708ec70880ab876b9ff395",
-    "路线结果与时间层级.md": "81e43a0b2d468b27bdc63bc0331e9bfd69c421eedc9a147a61bbf4e263a0a16d"
+    "质量核对记录.json": "4a618642ba63fbcda4f05165764a75e4ae6c9ad63077f07daee28cf591360767",
+    "路线结果与时间层级.md": "fa5359a271cb79d06de5ab0dd7745bf2df33b6ea81996feeece1fd8abcd16bb5"
   }
 }

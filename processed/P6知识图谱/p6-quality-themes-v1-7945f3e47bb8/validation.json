@@ -1,0 +1,37 @@
+{
+  "dataset": "p6-quality-themes-v1-7945f3e47bb8",
+  "expected_nodes": 6466,
+  "expected_edges": 9482,
+  "node_labels": {
+    "ADVICE_SUMMARY": 256,
+    "FACT": 475,
+    "ROUTE": 29,
+    "ROUTE_STEP": 345,
+    "TRANSPORT_LEG": 105,
+    "OBSERVATION": 3516,
+    "POI": 179,
+    "CONDITIONAL_RULE": 1327,
+    "TIME_SUMMARY": 200,
+    "TRANSPORT": 34
+  },
+  "edge_types": {
+    "DERIVED_FROM": 1788,
+    "SUPPORTED_BY": 4156,
+    "HAS_STEP": 345,
+    "PRECEDES": 325,
+    "VISITS": 322,
+    "MENTIONS_MODE": 34,
+    "HAS_ADVICE_SUMMARY": 250,
+    "USES_LEG": 14,
+    "FROM": 105,
+    "HAS_FACT": 475,
+    "HAS_TIME_SUMMARY": 200,
+    "TO": 105,
+    "USES_MODE": 102,
+    "PART_OF": 67,
+    "APPLIES_TO": 1194
+  },
+  "neo4j_imported": false,
+  "verified": false,
+  "import_note": "本机没有 Neo4j 实例：导入包已生成并离线自检，联网库后执行 publish_cleaned.py --apply 才算完成回读验证"
+}

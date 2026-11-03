@@ -1,6 +1,7 @@
 import html
 import copy
 import re
+from difflib import SequenceMatcher
 import unicodedata
 from collections import Counter
 
@@ -119,6 +120,56 @@ def squash(text):
 
 def grams(text, n=REPEAT_GRAM):
     return {text[i:i+n] for i in range(max(0, len(text)-n+1))}
+
+
+# 截图正文常被 OCR 断成十几字的行，还夹着作者手写的批注和识别错的字。
+# 4-gram 覆盖率对这类"局部对齐"太脆，改用对齐覆盖率：把行按序对到正文的某一行上，
+# 看有多少字能对上，中间多出来的噪声字不算错。
+FUZZY_MIN_LEN = 6
+FUZZY_MIN_MATCH = 6
+FUZZY_COVER = 0.65
+FUZZY_MAX_DIGIT = 0.5
+
+
+def body_lines(text):
+    """把正文切成可比对的整行（去标点、长度达标的才留）。"""
+    out = []
+    for line in text.split('\n'):
+        key = squash(line)
+        if len(key) >= FUZZY_MIN_LEN:
+            out.append(key)
+    return out
+
+
+def _digit_share(text):
+    return sum(ch.isdigit() for ch in text) / len(text) if text else 0.0
+
+
+def aligned_cover(line, lines):
+    """返回 (对齐覆盖率, 对齐上的字数)，取对得最齐的那一行正文。"""
+    best = (0.0, 0)
+    for body_line in lines:
+        matcher = SequenceMatcher(None, line, body_line, autojunk=False)
+        matched = sum(size for _, _, size in matcher.get_matching_blocks() if size >= 2)
+        share = matched / len(line) if line else 0.0
+        if share > best[0]:
+            best = (share, matched)
+    return best
+
+
+def repeats_body_fuzzy(line, lines):
+    """断行、错字、夹批注的复读行判定。
+
+    短行不判（时刻、编号这类数字行本来就会和正文撞）；
+    数字过半的行也不判，时刻表不是复读。
+    """
+    if len(line) < FUZZY_MIN_LEN or not lines:
+        return False
+    if _digit_share(line) > FUZZY_MAX_DIGIT:
+        return False
+    cover, matched = aligned_cover(line, lines)
+    # 覆盖率够、且确实对上了足够的字：光有三个字对上的短行不算复读
+    return cover >= FUZZY_COVER and matched >= FUZZY_MIN_MATCH
 
 
 def repeats_body(line, body, body_grams):

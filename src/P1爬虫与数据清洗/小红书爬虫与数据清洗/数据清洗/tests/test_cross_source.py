@@ -11,7 +11,7 @@ sys.path.insert(0, str(BASE))
 
 from src.ocr import write_json
 from src.pipeline import build_document, load
-from src.rules import grams, repeats_body, squash
+from src.rules import body_lines, grams, repeats_body, repeats_body_fuzzy, squash
 
 TEST_TMP = BASE / '.test_tmp'
 TEST_TMP.mkdir(exist_ok=True)
@@ -97,6 +97,40 @@ class BuildDocumentTests(unittest.TestCase):
         self.assertEqual(detail['parts'][1]['exclude_reason'], '图片文字与作者正文重复')
         self.assertGreaterEqual(row['dup_line_removed'], 2)
         self.assertEqual([o['kind'] for o in origins], ['body'] * 4)
+
+
+class FuzzyRepeatTests(unittest.TestCase):
+    """OCR 断行、错字、夹批注时，行级精确匹配认不出来，要用对齐覆盖率。"""
+
+    BODY = ('选带:少量零食+伞+风扇+雨衣\n'
+            '海豚剧场(5⭐推荐,30min,图7)\n'
+            '海狮剧场(4⭐推荐,20min,图9)\n'
+            '完烟花走很难打到车,建议提前预约,如果约不到就走北门')
+
+    def lines(self):
+        return body_lines(self.BODY)
+
+    def test_wrapped_line_with_note_is_repeat(self):
+        # 正文被拍成截图后 OCR 断行，作者还手写了"(晒)"这种批注
+        self.assertTrue(repeats_body_fuzzy(squash('选带:少量零食+伞(晒)+风扇(热)+一次'), self.lines()))
+
+    def test_misread_star_is_repeat(self):
+        # ⭐ 被认成"芬"，还多了一句评论
+        self.assertTrue(repeats_body_fuzzy(squash('海豚剧场芬(5推荐,30min,很有意思)'), self.lines()))
+
+    def test_time_row_is_not_dropped(self):
+        # 时刻行数字过半，哪怕和正文撞也不能当复读删掉
+        self.assertFalse(repeats_body_fuzzy(squash('14:10 16:10 17:10'), self.lines()))
+
+    def test_short_map_label_is_not_dropped(self):
+        # 地图上的短标签对不上足够的字，保留
+        self.assertFalse(repeats_body_fuzzy(squash('海洋幻彩烟花秀'), self.lines()))
+
+    def test_short_line_below_min_length_ignored(self):
+        self.assertFalse(repeats_body_fuzzy(squash('横琴海'), self.lines()))
+
+    def test_independent_text_kept(self):
+        self.assertFalse(repeats_body_fuzzy(squash('园区地图上标注了洗手间和母婴室位置'), self.lines()))
 
 
 if __name__ == '__main__':

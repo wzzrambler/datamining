@@ -403,7 +403,7 @@
     "step_count": 15,
     "ordered_mapped_stage_count": 15,
     "mapped_step_count": 15,
-    "different_poi_count_diagnostic_only": 20,
+    "different_poi_count_diagnostic_only": 22,
     "status": "retained",
     "route_class": "long_touring_sequence",
     "reason": "至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程",
@@ -656,7 +656,7 @@
     "step_count": 6,
     "ordered_mapped_stage_count": 6,
     "mapped_step_count": 6,
-    "different_poi_count_diagnostic_only": 6,
+    "different_poi_count_diagnostic_only": 9,
     "status": "retained",
     "route_class": "long_touring_sequence",
     "reason": "至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程",
@@ -1200,7 +1200,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "GZCL-NOTE-11-R-48abdb7058",
+    "route_id": "GZCL-NOTE-11-R-f7ddd55abe",
     "scenic_code": "GZCL",
     "upstream": "P3",
     "step_count": 4,
@@ -1213,45 +1213,45 @@
     "source_spans": [
       [
         "GZCL-NOTE-11",
-        1212,
-        1219
+        1202,
+        1209
       ],
       [
         "GZCL-NOTE-11",
-        1212,
-        1231
+        1202,
+        1221
       ],
       [
         "GZCL-NOTE-11",
-        1220,
-        1231
+        1210,
+        1221
       ],
       [
         "GZCL-NOTE-11",
-        1307,
-        1316
+        1297,
+        1306
       ],
       [
         "GZCL-NOTE-11",
-        1313,
-        1316
+        1303,
+        1306
       ],
       [
         "GZCL-NOTE-11",
-        1368,
-        1376
+        1358,
+        1366
       ],
       [
         "GZCL-NOTE-11",
-        1372,
-        1376
+        1362,
+        1366
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "GZCL-NOTE-11-R-c4f1742b4c",
+    "route_id": "GZCL-NOTE-11-R-ea3006d36d",
     "scenic_code": "GZCL",
     "upstream": "P3",
     "step_count": 3,
@@ -1264,35 +1264,35 @@
     "source_spans": [
       [
         "GZCL-NOTE-11",
-        1527,
-        1531
+        1517,
+        1521
       ],
       [
         "GZCL-NOTE-11",
-        1527,
-        1535
+        1517,
+        1525
       ],
       [
         "GZCL-NOTE-11",
-        1532,
-        1535
+        1522,
+        1525
       ],
       [
         "GZCL-NOTE-11",
-        1680,
-        1688
+        1670,
+        1678
       ],
       [
         "GZCL-NOTE-11",
-        1684,
-        1688
+        1674,
+        1678
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "GZCL-NOTE-11-R-ae9de4c539",
+    "route_id": "GZCL-NOTE-11-R-0c2455a4fe",
     "scenic_code": "GZCL",
     "upstream": "P3",
     "step_count": 3,
@@ -1305,35 +1305,35 @@
     "source_spans": [
       [
         "GZCL-NOTE-11",
-        2388,
-        2393
+        2378,
+        2383
       ],
       [
         "GZCL-NOTE-11",
-        2388,
-        2397
+        2378,
+        2387
       ],
       [
         "GZCL-NOTE-11",
-        2394,
-        2397
+        2384,
+        2387
       ],
       [
         "GZCL-NOTE-11",
-        2450,
-        2457
+        2440,
+        2447
       ],
       [
         "GZCL-NOTE-11",
-        2454,
-        2457
+        2444,
+        2447
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "GZCL-NOTE-11-R-207951e074",
+    "route_id": "GZCL-NOTE-11-R-58ad5e4756",
     "scenic_code": "GZCL",
     "upstream": "P3",
     "step_count": 3,
@@ -1346,28 +1346,28 @@
     "source_spans": [
       [
         "GZCL-NOTE-11",
-        2581,
-        2590
+        2571,
+        2580
+      ],
+      [
+        "GZCL-NOTE-11",
+        2571,
+        2585
       ],
       [
         "GZCL-NOTE-11",
         2581,
-        2595
+        2585
       ],
       [
         "GZCL-NOTE-11",
-        2591,
-        2595
+        2732,
+        2741
       ],
       [
         "GZCL-NOTE-11",
-        2742,
-        2751
-      ],
-      [
-        "GZCL-NOTE-11",
-        2747,
-        2751
+        2737,
+        2741
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -1514,42 +1514,6 @@
         "GZCL-NOTE-15",
         132,
         135
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ZHCL-NOTE-04-R-0287318368",
-    "scenic_code": "ZHCL",
-    "upstream": "P3",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 3,
-    "mapped_step_count": 3,
-    "different_poi_count_diagnostic_only": 3,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "ZHCL-NOTE-04",
-        1075,
-        1080
-      ],
-      [
-        "ZHCL-NOTE-04",
-        1075,
-        1092
-      ],
-      [
-        "ZHCL-NOTE-04",
-        1082,
-        1086
-      ],
-      [
-        "ZHCL-NOTE-04",
-        1088,
-        1092
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -1759,7 +1723,7 @@
     ]
   },
   {
-    "route_id": "ZHCL-NOTE-09-R-225b60d456",
+    "route_id": "ZHCL-NOTE-09-R-18155ae4f9",
     "scenic_code": "ZHCL",
     "upstream": "P3",
     "step_count": 5,
@@ -1772,28 +1736,28 @@
     "source_spans": [
       [
         "ZHCL-NOTE-09",
-        444,
-        450
+        435,
+        441
       ],
       [
         "ZHCL-NOTE-09",
-        451,
-        457
+        442,
+        448
       ],
       [
         "ZHCL-NOTE-09",
-        458,
-        496
+        449,
+        487
       ],
       [
         "ZHCL-NOTE-09",
-        497,
-        517
+        488,
+        508
       ],
       [
         "ZHCL-NOTE-09",
-        518,
-        534
+        509,
+        525
       ]
     ]
   },
@@ -1921,7 +1885,7 @@
     ]
   },
   {
-    "route_id": "ZHCL-NOTE-12-R-8acca2098a",
+    "route_id": "ZHCL-NOTE-12-R-c6120c7e59",
     "scenic_code": "ZHCL",
     "upstream": "P3",
     "step_count": 3,
@@ -1934,18 +1898,18 @@
     "source_spans": [
       [
         "ZHCL-NOTE-12",
-        1104,
-        1116
+        1072,
+        1084
       ],
       [
         "ZHCL-NOTE-12",
-        1117,
-        1121
+        1085,
+        1089
       ],
       [
         "ZHCL-NOTE-12",
-        1161,
-        1169
+        1129,
+        1137
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -2056,9 +2020,9 @@
     "scenic_code": "JZG",
     "upstream": "P3",
     "step_count": 24,
-    "ordered_mapped_stage_count": 18,
-    "mapped_step_count": 18,
-    "different_poi_count_diagnostic_only": 17,
+    "ordered_mapped_stage_count": 19,
+    "mapped_step_count": 19,
+    "different_poi_count_diagnostic_only": 18,
     "status": "retained",
     "route_class": "long_touring_sequence",
     "reason": "至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程",
@@ -2365,7 +2329,7 @@
     ]
   },
   {
-    "route_id": "JZG-NOTE-12-R-564b2a0936",
+    "route_id": "JZG-NOTE-12-R-6b65f2e287",
     "scenic_code": "JZG",
     "upstream": "P3",
     "step_count": 3,
@@ -2378,25 +2342,25 @@
     "source_spans": [
       [
         "JZG-NOTE-12",
-        1647,
-        1670
+        1424,
+        1447
       ],
       [
         "JZG-NOTE-12",
-        1716,
-        1739
+        1493,
+        1516
       ],
       [
         "JZG-NOTE-12",
-        1761,
-        1786
+        1538,
+        1563
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-4ea97d49facbe7be",
+    "route_id": "ROUTEOBS-4a8bf2268468d312",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 3,
@@ -2438,16 +2402,58 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-32dcbf3cb64d3436",
+    "route_id": "ROUTEOBS-0f21d1bffce717e6",
     "scenic_code": "JZG",
     "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        1780,
+        1797
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-00a23c0dcf22dc8d",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
     "step_count": 3,
-    "ordered_mapped_stage_count": 3,
-    "mapped_step_count": 3,
-    "different_poi_count_diagnostic_only": 3,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
     "route_class": "local_fragment",
     "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "GZCL-NOTE-02",
+        854,
+        981
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-9e2f743e877a2809",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 3,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
         "JZG-NOTE-05",
@@ -2459,13 +2465,13 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-6ab0604603ef6685",
+    "route_id": "ROUTEOBS-694e3a858db4e4e2",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 6,
-    "ordered_mapped_stage_count": 3,
-    "mapped_step_count": 3,
-    "different_poi_count_diagnostic_only": 4,
+    "ordered_mapped_stage_count": 4,
+    "mapped_step_count": 4,
+    "different_poi_count_diagnostic_only": 5,
     "status": "excluded",
     "route_class": "transport_fragment",
     "reason": "短交通连接，供路段层使用，不作为游览主干",
@@ -2480,8 +2486,8 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-f5b5c3119196d62b",
-    "scenic_code": "GZCL",
+    "route_id": "ROUTEOBS-138ff6b284be4b2d",
+    "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 2,
     "ordered_mapped_stage_count": 2,
@@ -2492,51 +2498,32 @@
     "reason": "局部或较短游览序列，不作为长线路推荐主干",
     "source_spans": [
       [
-        "GZCL-NOTE-11",
-        2504,
-        2519
+        "ZHCL-NOTE-10",
+        439,
+        469
       ]
     ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
+    "affiliation_status": "source_backed",
+    "parent_route_ids": [
+      "ZHCL-NOTE-10-R-4955be8095"
+    ]
   },
   {
-    "route_id": "ROUTEOBS-ba38c8a7d124eef7",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-NOTE-09",
-        232,
-        245
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-820c32c1ce88f927",
+    "route_id": "ROUTEOBS-02a89da853f49651",
     "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
+    "step_count": 1,
+    "ordered_mapped_stage_count": 0,
+    "mapped_step_count": 0,
+    "different_poi_count_diagnostic_only": 0,
     "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "route_class": "unresolved_fragment",
+    "reason": "没有已匹配的地点，保留原文供后续复核",
     "source_spans": [
       [
-        "JZG-NOTE-12",
-        1349,
-        1366
+        "JZG-NOTE-04",
+        99,
+        114
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -2585,49 +2572,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-50c9780285107fef",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 4,
-    "ordered_mapped_stage_count": 3,
-    "mapped_step_count": 3,
-    "different_poi_count_diagnostic_only": 3,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        2512,
-        2541
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-519f47efaf0b07f7",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "GZCL-NOTE-11",
-        686,
-        706
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-3ffafd32ea0549e8",
+    "route_id": "ROUTEOBS-c4be98817a1833ea",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -2640,36 +2585,15 @@
     "source_spans": [
       [
         "JZG-NOTE-12",
-        1844,
-        1868
+        1148,
+        1156
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-d5e02c2bba5456e5",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1107,
-        1119
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-70e6c05be42305fc",
+    "route_id": "ROUTEOBS-678c46d9733fd153",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 1,
@@ -2681,16 +2605,37 @@
     "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
-        "ZHCL-NOTE-13",
-        1227,
-        1248
+        "ZHCL-NOTE-09",
+        1368,
+        1388
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-526595e5c952bf49",
+    "route_id": "ROUTEOBS-36b16bcda9b2fd12",
+    "scenic_code": "ZHCL",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "transport_fragment",
+    "reason": "短交通连接，供路段层使用，不作为游览主干",
+    "source_spans": [
+      [
+        "ZHCL-NOTE-05",
+        0,
+        61
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-ab9d0005808f134d",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
@@ -2698,8 +2643,8 @@
     "mapped_step_count": 2,
     "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
-    "route_class": "ambiguous_alternatives",
-    "reason": "含替代方案、并行动作、批评方案或不完整文本，不自动串成一条推荐线路",
+    "route_class": "transport_fragment",
+    "reason": "交通站点接驳或交通服务线路，保留交通事实但不作为游览主干",
     "source_spans": [
       [
         "GZCL-NOTE-01",
@@ -2711,37 +2656,79 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-bc879d072c1b31c3",
+    "route_id": "ROUTEOBS-eb9988e78a0e0064",
     "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 3,
+    "step_count": 4,
+    "ordered_mapped_stage_count": 4,
+    "mapped_step_count": 4,
+    "different_poi_count_diagnostic_only": 4,
     "status": "excluded",
     "route_class": "local_fragment",
     "reason": "局部或较短游览序列，不作为长线路推荐主干",
     "source_spans": [
       [
-        "JZG-NOTE-06",
-        940,
-        1009
+        "JZG-NOTE-03",
+        1199,
+        1278
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-e35582a4edacf22d",
+    "route_id": "ROUTEOBS-5fc06c1e34f714bc",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 0,
+    "mapped_step_count": 0,
+    "different_poi_count_diagnostic_only": 0,
+    "status": "excluded",
+    "route_class": "unresolved_fragment",
+    "reason": "没有已匹配的地点，保留原文供后续复核",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        217,
+        247
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-9bf2860781d2e198",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
+    "ordered_mapped_stage_count": 0,
+    "mapped_step_count": 0,
+    "different_poi_count_diagnostic_only": 0,
+    "status": "excluded",
+    "route_class": "unresolved_fragment",
+    "reason": "没有已匹配的地点，保留原文供后续复核",
+    "source_spans": [
+      [
+        "GZCL-NOTE-06",
+        1576,
+        1591
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-daa52cc42386586a",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 5,
+    "ordered_mapped_stage_count": 3,
+    "mapped_step_count": 3,
     "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "route_class": "ambiguous_alternatives",
+    "reason": "含替代方案、并行动作、批评方案或不完整文本，不自动串成一条推荐线路",
     "source_spans": [
       [
         "GZCL-OFF-02",
@@ -2753,7 +2740,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-924e41c225b45463",
+    "route_id": "ROUTEOBS-9df188b7ab1db64a",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 5,
@@ -2774,7 +2761,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-c7b6dfbd3bb1ed51",
+    "route_id": "ROUTEOBS-62af53f23eadd124",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
@@ -2816,28 +2803,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-45ffe56c474bc574",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 0,
-    "mapped_step_count": 0,
-    "different_poi_count_diagnostic_only": 0,
-    "status": "excluded",
-    "route_class": "unresolved_fragment",
-    "reason": "没有已匹配的地点，保留原文供后续复核",
-    "source_spans": [
-      [
-        "GZCL-NOTE-06",
-        1599,
-        1614
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-0c21246ea5ef6354",
+    "route_id": "ROUTEOBS-3383df925b9157f8",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -2858,12 +2824,12 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-84690af464e3805f",
+    "route_id": "ROUTEOBS-0eda912ff04db711",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 5,
     "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
+    "mapped_step_count": 4,
     "different_poi_count_diagnostic_only": 1,
     "status": "excluded",
     "route_class": "single_stage",
@@ -2879,10 +2845,10 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-f8315768b80ecba5",
+    "route_id": "ROUTEOBS-b549d28bc4a93501",
     "scenic_code": "GZCL",
     "upstream": "P5",
-    "step_count": 2,
+    "step_count": 3,
     "ordered_mapped_stage_count": 1,
     "mapped_step_count": 1,
     "different_poi_count_diagnostic_only": 1,
@@ -2921,7 +2887,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-7816cfa99478f7a1",
+    "route_id": "ROUTEOBS-735328e6f7f7bbac",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 1,
@@ -2934,71 +2900,8 @@
     "source_spans": [
       [
         "ZHCL-NOTE-13",
-        1157,
-        1180
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-7305610cae84b835",
-    "scenic_code": "ZHCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "ZHCL-NOTE-13",
-        1402,
-        1423
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-3cd79971a27903e1",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-10",
-        88,
-        103
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-252b74b09997116a",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1538,
-        1552
+        1127,
+        1150
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -3026,7 +2929,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-f716d55900643ea3",
+    "route_id": "ROUTEOBS-48eb06f6a4514ab0",
+    "scenic_code": "ZHCL",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "ZHCL-NOTE-03",
+        2470,
+        2585
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-88dbc62efa06ebcd",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 1,
@@ -3047,7 +2971,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-02b550acff55f8a3",
+    "route_id": "ROUTEOBS-82b11fff61851393",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 1,
@@ -3068,7 +2992,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-462a3a7f184fc7ca",
+    "route_id": "ROUTEOBS-15e929833eabde77",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-13",
+        285,
+        311
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-2cdae1b89d6624ee",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3089,28 +3034,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-980b4387c603ce8e",
-    "scenic_code": "GZCL",
+    "route_id": "ROUTEOBS-957fad54297eb7d4",
+    "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
+    "step_count": 3,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
     "source_spans": [
       [
-        "GZCL-NOTE-11",
-        2123,
-        2134
+        "JZG-NOTE-12",
+        1976,
+        2007
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-0537d0fad6e2e9cb",
+    "route_id": "ROUTEOBS-9fd8167a8d94b06d",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3131,7 +3076,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-5d8216df21161326",
+    "route_id": "ROUTEOBS-6a4ffb8004f68f75",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 4,
+    "ordered_mapped_stage_count": 3,
+    "mapped_step_count": 4,
+    "different_poi_count_diagnostic_only": 3,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "GZCL-NOTE-07",
+        1132,
+        1265
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-a780b5e62472c0d7",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 4,
@@ -3152,7 +3118,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-78bdf767ba814418",
+    "route_id": "ROUTEOBS-4e0bdb76bfc7a00b",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3173,52 +3139,10 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-36b2400d6f70ba67",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "transport_fragment",
-    "reason": "短交通连接，供路段层使用，不作为游览主干",
-    "source_spans": [
-      [
-        "GZCL-NOTE-11",
-        965,
-        980
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-bd006b4b32dbef11",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "transport_fragment",
-    "reason": "短交通连接，供路段层使用，不作为游览主干",
-    "source_spans": [
-      [
-        "GZCL-OFF-03",
-        405,
-        454
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-84f71694e0c7ff02",
+    "route_id": "ROUTEOBS-7c96b5453f4ed311",
     "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 2,
+    "step_count": 1,
     "ordered_mapped_stage_count": 1,
     "mapped_step_count": 1,
     "different_poi_count_diagnostic_only": 1,
@@ -3228,18 +3152,18 @@
     "source_spans": [
       [
         "JZG-NOTE-12",
-        2070,
-        2099
+        1287,
+        1295
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-c3b87a8407bc290f",
+    "route_id": "ROUTEOBS-73cc379c5e7fe031",
     "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 3,
+    "step_count": 2,
     "ordered_mapped_stage_count": 2,
     "mapped_step_count": 2,
     "different_poi_count_diagnostic_only": 2,
@@ -3249,36 +3173,15 @@
     "source_spans": [
       [
         "JZG-NOTE-12",
-        2199,
-        2230
+        1173,
+        1179
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-927fb7e237989c09",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 4,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1066,
-        1080
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-0330e146f85c9bc9",
+    "route_id": "ROUTEOBS-d500207eba7a9517",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -3299,7 +3202,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-e2e472f46650e9ad",
+    "route_id": "ROUTEOBS-4d457b10b7dc72a0",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -3320,7 +3223,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-864b21d9a1d9b15c",
+    "route_id": "ROUTEOBS-e2459b2f39ed3505",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 3,
@@ -3360,7 +3263,7 @@
     ]
   },
   {
-    "route_id": "ROUTEOBS-a5ec0f96ca3cbafe",
+    "route_id": "ROUTEOBS-74bbcbc6f6277760",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3381,7 +3284,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-b6a416b39d1fcf0d",
+    "route_id": "ROUTEOBS-b3ea31c718a3a8ca",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3402,28 +3305,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-cae2a4f1be8bc94a",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 0,
-    "mapped_step_count": 0,
-    "different_poi_count_diagnostic_only": 0,
-    "status": "excluded",
-    "route_class": "unresolved_fragment",
-    "reason": "没有已匹配的地点，保留原文供后续复核",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        91,
-        99
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-e3f9ec2c27b4172d",
+    "route_id": "ROUTEOBS-d7147f94862c4908",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3436,29 +3318,8 @@
     "source_spans": [
       [
         "JZG-NOTE-12",
-        2003,
-        2020
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-c5d3b510f3ce976d",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1245,
-        1253
+        91,
+        99
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -3486,7 +3347,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-5d8f82a4c87ae8ab",
+    "route_id": "ROUTEOBS-7abd4c371e533204",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 6,
@@ -3507,13 +3368,34 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-4448e4c177b58e76",
+    "route_id": "ROUTEOBS-c9cfd92d9902ed47",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
     "ordered_mapped_stage_count": 1,
     "mapped_step_count": 1,
     "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        2231,
+        2257
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-05cbb4e1635a0d3c",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
     "status": "excluded",
     "route_class": "single_stage",
     "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
@@ -3549,12 +3431,12 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-f71cb3bf30fa0c20",
+    "route_id": "ROUTEOBS-e6ef419b7503fcf1",
     "scenic_code": "GZCL",
     "upstream": "P5",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 3,
+    "step_count": 4,
+    "ordered_mapped_stage_count": 3,
+    "mapped_step_count": 4,
     "different_poi_count_diagnostic_only": 3,
     "status": "excluded",
     "route_class": "local_fragment",
@@ -3570,7 +3452,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-9ed43d826eb513ed",
+    "route_id": "ROUTEOBS-9c4e9419c6300ada",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3591,7 +3473,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-8ad380d6616c90fa",
+    "route_id": "ROUTEOBS-2e6b8cc8ff5fd92c",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -3612,7 +3494,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-8db30bf4a6640aaf",
+    "route_id": "ROUTEOBS-8b9707aaed9cf861",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
@@ -3633,7 +3515,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-99cea3a5fbb3d8de",
+    "route_id": "ROUTEOBS-d0692ba9388125bc",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        1621,
+        1645
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-268d15efc68b5596",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 11,
@@ -3652,7 +3555,7 @@
     ]
   },
   {
-    "route_id": "ROUTEOBS-8c43fac33415b293",
+    "route_id": "ROUTEOBS-498d776e5ea115ab",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 12,
@@ -3671,10 +3574,31 @@
     ]
   },
   {
-    "route_id": "ROUTEOBS-e095b2404c32ebf1",
-    "scenic_code": "JZG",
+    "route_id": "ROUTEOBS-f09dee58ac74931e",
+    "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "GZCL-NOTE-11",
+        3172,
+        3191
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-bf3525194ebc022f",
+    "scenic_code": "ZHCL",
+    "upstream": "P5",
+    "step_count": 1,
     "ordered_mapped_stage_count": 1,
     "mapped_step_count": 1,
     "different_poi_count_diagnostic_only": 1,
@@ -3683,9 +3607,30 @@
     "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
-        "JZG-NOTE-11",
-        1841,
-        1854
+        "ZHCL-NOTE-11",
+        473,
+        486
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-89e47dfe43f8cf5a",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "GZCL-NOTE-11",
+        2248,
+        2257
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -3734,28 +3679,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-23dc9ab747f3fd44",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-NOTE-11",
-        3175,
-        3181
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-94d4f41a3437f53d",
+    "route_id": "ROUTEOBS-5456d89ce3c8beaf",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
@@ -3776,13 +3700,76 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-19738d72b274c361",
+    "route_id": "ROUTEOBS-7d2543ab36485a5f",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        1066,
+        1078
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-5a6463c355a5ddc7",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        1376,
+        1386
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-89d97fb0ace4f513",
+    "scenic_code": "ZHCL",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "ZHCL-NOTE-13",
+        1197,
+        1218
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-d07d22f3bce455e6",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 14,
-    "ordered_mapped_stage_count": 14,
-    "mapped_step_count": 14,
-    "different_poi_count_diagnostic_only": 14,
+    "ordered_mapped_stage_count": 13,
+    "mapped_step_count": 13,
+    "different_poi_count_diagnostic_only": 13,
     "status": "retained",
     "route_class": "long_touring_sequence",
     "reason": "至少六个有序地点阶段，作为长游览序列；重复访问保留，不按不同实体数筛除，也不声称必为全天完整行程",
@@ -3795,7 +3782,7 @@
     ]
   },
   {
-    "route_id": "ROUTEOBS-466b24b436256125",
+    "route_id": "ROUTEOBS-327026e22dfe6fb4",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 18,
@@ -3814,7 +3801,28 @@
     ]
   },
   {
-    "route_id": "ROUTEOBS-1ca39e31dc112a02",
+    "route_id": "ROUTEOBS-2fa32a23fe8eb539",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "GZCL-NOTE-11",
+        2864,
+        2872
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-2a33f533f3665ff7",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 9,
@@ -3854,28 +3862,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-b695a96c2972c7d8",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1270,
-        1276
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-3113ca3d1c0acf9a",
+    "route_id": "ROUTEOBS-6a8e8a428e4ac191",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 3,
@@ -3896,7 +3883,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-70353712b3180b82",
+    "route_id": "ROUTEOBS-520873192cf25331",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 2,
@@ -3917,28 +3904,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-e549b14646fcf295",
-    "scenic_code": "ZHCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "ZHCL-NOTE-07",
-        121,
-        139
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-a64ce8a278daf152",
+    "route_id": "ROUTEOBS-ec50266af7eb14c5",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 3,
@@ -3959,49 +3925,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-9d2ec99c037fd01f",
-    "scenic_code": "GZCL",
+    "route_id": "ROUTEOBS-a861017d1ee9d720",
+    "scenic_code": "ZHCL",
     "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
     "status": "excluded",
-    "route_class": "transport_fragment",
-    "reason": "交通站点接驳或交通服务线路，保留交通事实但不作为游览主干",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
-        "GZCL-NOTE-06",
-        1312,
-        1326
+        "ZHCL-NOTE-10",
+        1087,
+        1094
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-ec3f098be6224b4a",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "GZCL-NOTE-10",
-        180,
-        210
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-b077830616c77650",
+    "route_id": "ROUTEOBS-16467f6d360c08cf",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 3,
@@ -4022,7 +3967,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-8b353b2a53b8aa47",
+    "route_id": "ROUTEOBS-78c7b22cfd747be6",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
@@ -4043,16 +3988,16 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-ebe2515dcac4c6c9",
+    "route_id": "ROUTEOBS-89b6b551e56237db",
     "scenic_code": "GZCL",
     "upstream": "P5",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 1,
+    "step_count": 4,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 3,
+    "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
     "source_spans": [
       [
         "GZCL-OFF-01",
@@ -4064,21 +4009,21 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-2447ee9764aa96b1",
-    "scenic_code": "JZG",
+    "route_id": "ROUTEOBS-2a84907df504f8d4",
+    "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
     "ordered_mapped_stage_count": 2,
     "mapped_step_count": 2,
     "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "route_class": "transport_fragment",
+    "reason": "短交通连接，供路段层使用，不作为游览主干",
     "source_spans": [
       [
-        "JZG-NOTE-12",
-        2279,
-        2303
+        "GZCL-NOTE-11",
+        955,
+        970
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -4106,7 +4051,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-3522c1aa287846ef",
+    "route_id": "ROUTEOBS-36f10fec6d2a9776",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 4,
@@ -4127,16 +4072,16 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-a1b1764d98fb0d1b",
+    "route_id": "ROUTEOBS-fa4f848ee09ffe04",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 4,
-    "ordered_mapped_stage_count": 3,
+    "ordered_mapped_stage_count": 4,
     "mapped_step_count": 4,
-    "different_poi_count_diagnostic_only": 2,
+    "different_poi_count_diagnostic_only": 3,
     "status": "excluded",
     "route_class": "transport_fragment",
-    "reason": "交通站点接驳或交通服务线路，保留交通事实但不作为游览主干",
+    "reason": "短交通连接，供路段层使用，不作为游览主干",
     "source_spans": [
       [
         "GZCL-NOTE-01",
@@ -4148,16 +4093,16 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-989e33683fe47415",
+    "route_id": "ROUTEOBS-d728db4fbcaee546",
     "scenic_code": "GZCL",
     "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
     "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
         "GZCL-NOTE-09",
@@ -4169,10 +4114,31 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-6ad3342627f9d3df",
+    "route_id": "ROUTEOBS-7bc2cb144869d179",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-11",
+        1793,
+        1806
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-6896408e8487a859",
     "scenic_code": "ZHCL",
     "upstream": "P5",
-    "step_count": 13,
+    "step_count": 12,
     "ordered_mapped_stage_count": 11,
     "mapped_step_count": 11,
     "different_poi_count_diagnostic_only": 11,
@@ -4188,12 +4154,12 @@
     ]
   },
   {
-    "route_id": "ROUTEOBS-fe71fe3f4a0527cb",
+    "route_id": "ROUTEOBS-5ffd6d083e01c4f9",
     "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 2,
+    "step_count": 1,
     "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 2,
+    "mapped_step_count": 1,
     "different_poi_count_diagnostic_only": 1,
     "status": "excluded",
     "route_class": "single_stage",
@@ -4209,7 +4175,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-57a5a4ceb94651a0",
+    "route_id": "ROUTEOBS-f62df905effdaf9a",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        1180,
+        1190
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-26cc41f1c20fc2e3",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 6,
@@ -4217,8 +4204,8 @@
     "mapped_step_count": 4,
     "different_poi_count_diagnostic_only": 6,
     "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "route_class": "transport_fragment",
+    "reason": "短交通连接，供路段层使用，不作为游览主干",
     "source_spans": [
       [
         "GZCL-NOTE-12",
@@ -4230,21 +4217,21 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-7a7b0f90c3e1d351",
+    "route_id": "ROUTEOBS-ff86978de21037f8",
     "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
+    "step_count": 4,
+    "ordered_mapped_stage_count": 4,
+    "mapped_step_count": 4,
+    "different_poi_count_diagnostic_only": 5,
     "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "route_class": "ambiguous_alternatives",
+    "reason": "含替代方案、并行动作、批评方案或不完整文本，不自动串成一条推荐线路",
     "source_spans": [
       [
-        "JZG-NOTE-12",
-        1227,
-        1244
+        "JZG-NOTE-06",
+        511,
+        683
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -4272,7 +4259,28 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-cb0e66299a54aa67",
+    "route_id": "ROUTEOBS-fe78df20f37be356",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        2056,
+        2080
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-31cea2cd9d3dfb8f",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -4293,7 +4301,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-7c6e44d4f737379d",
+    "route_id": "ROUTEOBS-d994e79ac4d0c89c",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
@@ -4314,7 +4322,70 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-d0fb04b79d416eba",
+    "route_id": "ROUTEOBS-abb9b4ba348f42e3",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 4,
+    "ordered_mapped_stage_count": 3,
+    "mapped_step_count": 3,
+    "different_poi_count_diagnostic_only": 3,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        2289,
+        2318
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-cc00c4ff4196a4fb",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        116,
+        134
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-24e027925292d65b",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "GZCL-NOTE-11",
+        2494,
+        2509
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-3069113221eae08e",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -4356,6 +4427,27 @@
     "parent_route_ids": []
   },
   {
+    "route_id": "ROUTEOBS-67deafd17efab9f7",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "GZCL-NOTE-09",
+        975,
+        987
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
     "route_id": "ROUTEOBS-efae7780f681aebb",
     "scenic_code": "GZCL",
     "upstream": "P5",
@@ -4377,70 +4469,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-3fad62230a5e818c",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-NOTE-09",
-        860,
-        878
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-d9d775b3ad90c06a",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1496,
-        1504
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-ef8530151b723448",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-OFF-02",
-        559,
-        572
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-2778e1fe8fcd5d8b",
+    "route_id": "ROUTEOBS-3d9b2cb495b37190",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
@@ -4482,8 +4511,8 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-a149a09fd9d733a9",
-    "scenic_code": "GZCL",
+    "route_id": "ROUTEOBS-bb8e100e63971c4a",
+    "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
     "ordered_mapped_stage_count": 1,
@@ -4494,9 +4523,30 @@
     "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
-        "GZCL-NOTE-13",
-        113,
-        146
+        "JZG-NOTE-12",
+        1390,
+        1410
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-e66e9b2439c03c41",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "source_spans": [
+      [
+        "GZCL-NOTE-11",
+        1820,
+        1831
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -4524,6 +4574,27 @@
     "parent_route_ids": []
   },
   {
+    "route_id": "ROUTEOBS-c444d1691b1d0cb8",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 3,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "transport_fragment",
+    "reason": "交通站点接驳或交通服务线路，保留交通事实但不作为游览主干",
+    "source_spans": [
+      [
+        "GZCL-NOTE-06",
+        1289,
+        1303
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
     "route_id": "ROUTEOBS-a1e1246c3b7dea0f",
     "scenic_code": "GZCL",
     "upstream": "P5",
@@ -4545,49 +4616,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-db106fa341885cea",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-NOTE-11",
-        158,
-        174
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-047fb33ec37165ee",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "JZG-OFF-01",
-        1941,
-        2002
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-63e380de9ee8ae28",
+    "route_id": "ROUTEOBS-91ce3ab9ea9fcd09",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 3,
@@ -4629,7 +4658,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-1abe74f50a81e78d",
+    "route_id": "ROUTEOBS-23c607b54b647043",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
@@ -4644,69 +4673,6 @@
         "GZCL-NOTE-10",
         364,
         382
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-ec2ab8c173439696",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1599,
-        1609
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-fc24571334ca736f",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 4,
-    "ordered_mapped_stage_count": 4,
-    "mapped_step_count": 4,
-    "different_poi_count_diagnostic_only": 4,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        2243,
-        2271
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-f1fb9777ab9b459d",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "GZCL-NOTE-11",
-        2258,
-        2267
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -4734,7 +4700,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-3eabf820759addab",
+    "route_id": "ROUTEOBS-fa5482047b7a9d59",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 4,
@@ -4755,12 +4721,12 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-f59e083bf20210b6",
+    "route_id": "ROUTEOBS-68385aa38df143df",
     "scenic_code": "JZG",
     "upstream": "P5",
-    "step_count": 4,
-    "ordered_mapped_stage_count": 4,
-    "mapped_step_count": 4,
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
     "different_poi_count_diagnostic_only": 4,
     "status": "excluded",
     "route_class": "local_fragment",
@@ -4772,18 +4738,16 @@
         419
       ]
     ],
-    "affiliation_status": "source_backed",
-    "parent_route_ids": [
-      "JZG-NOTE-05-R-749b346213"
-    ]
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-72bb6a5979d9d216",
+    "route_id": "ROUTEOBS-076a467e186433e9",
     "scenic_code": "GZCL",
     "upstream": "P5",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 3,
-    "mapped_step_count": 3,
+    "step_count": 2,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
     "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
     "route_class": "local_fragment",
@@ -4793,27 +4757,6 @@
         "GZCL-NOTE-02",
         4183,
         4328
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-37b7491b82344693",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        2036,
-        2067
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -4841,7 +4784,49 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-3e3ed42eb56af752",
+    "route_id": "ROUTEOBS-4a1414c688c3d445",
+    "scenic_code": "ZHCL",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "ZHCL-NOTE-03",
+        3306,
+        3432
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-543e27360a228a16",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "JZG-NOTE-12",
+        1847,
+        1876
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-54c2a8b80eb358b7",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -4883,16 +4868,16 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-c3cfbc526d306f62",
+    "route_id": "ROUTEOBS-012b7b28a6e29010",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
-    "ordered_mapped_stage_count": 0,
-    "mapped_step_count": 0,
-    "different_poi_count_diagnostic_only": 0,
+    "ordered_mapped_stage_count": 2,
+    "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
-    "route_class": "unresolved_fragment",
-    "reason": "没有已匹配的地点，保留原文供后续复核",
+    "route_class": "local_fragment",
+    "reason": "局部或较短游览序列，不作为长线路推荐主干",
     "source_spans": [
       [
         "JZG-NOTE-13",
@@ -4904,28 +4889,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-04dab5493619a07a",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 3,
-    "status": "excluded",
-    "route_class": "transport_fragment",
-    "reason": "短交通连接，供路段层使用，不作为游览主干",
-    "source_spans": [
-      [
-        "JZG-NOTE-13",
-        180,
-        216
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-bccd4a57be2a776d",
+    "route_id": "ROUTEOBS-a7590f89047211a9",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 3,
@@ -4946,28 +4910,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-6b821ca4c454f557",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1613,
-        1633
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-0ecd7baf0d69ceaa",
+    "route_id": "ROUTEOBS-0ab304482eca1b9a",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 3,
@@ -5009,7 +4952,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-2fdd691e45610731",
+    "route_id": "ROUTEOBS-386b35dbb8a52596",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
@@ -5030,79 +4973,37 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-dfde46ece82a50d8",
-    "scenic_code": "ZHCL",
-    "upstream": "P5",
-    "step_count": 3,
-    "ordered_mapped_stage_count": 3,
-    "mapped_step_count": 3,
-    "different_poi_count_diagnostic_only": 3,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "ZHCL-NOTE-12",
-        151,
-        204
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-f77a31f8e8aba453",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "JZG-NOTE-11",
-        1671,
-        1682
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-e44ad66bf9f338d4",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-NOTE-06",
-        706,
-        711
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-c79e0c75ba45cf65",
+    "route_id": "ROUTEOBS-6f97fd8c6951141d",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
+    "ordered_mapped_stage_count": 0,
+    "mapped_step_count": 0,
+    "different_poi_count_diagnostic_only": 0,
+    "status": "excluded",
+    "route_class": "unresolved_fragment",
+    "reason": "没有已匹配的地点，保留原文供后续复核",
+    "source_spans": [
+      [
+        "JZG-NOTE-07",
+        297,
+        313
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-5e2f20bc5cdf30b3",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
     "different_poi_count_diagnostic_only": 2,
     "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
         "JZG-NOTE-13",
@@ -5114,7 +5015,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-41b787e8d39d9169",
+    "route_id": "ROUTEOBS-e7967ef4cc97ec02",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -5135,49 +5036,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-ed8e146f52d3768a",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "local_fragment",
-    "reason": "局部或较短游览序列，不作为长线路推荐主干",
-    "source_spans": [
-      [
-        "GZCL-NOTE-11",
-        3182,
-        3201
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-7e166e1c5f4e759b",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-NOTE-10",
-        162,
-        179
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-0cd9d57c01b7899c",
+    "route_id": "ROUTEOBS-e479c0a91f13e570",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 4,
@@ -5198,7 +5057,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-9f845052dda836a4",
+    "route_id": "ROUTEOBS-c7ab0ac8243b1e7d",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 3,
@@ -5219,28 +5078,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-d04564fc8d636d01",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 3,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-OFF-01",
-        1593,
-        1757
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-9e563e60b4de8677",
+    "route_id": "ROUTEOBS-dec41c0128729e7c",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -5252,51 +5090,72 @@
     "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
     "source_spans": [
       [
-        "GZCL-NOTE-09",
-        1895,
-        1903
+        "GZCL-NOTE-06",
+        695,
+        700
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-92fad49bf0e039c1",
-    "scenic_code": "JZG",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 2,
-    "status": "excluded",
-    "route_class": "transport_fragment",
-    "reason": "交通站点接驳或交通服务线路，保留交通事实但不作为游览主干",
-    "source_spans": [
-      [
-        "JZG-NOTE-12",
-        1367,
-        1382
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-78f62450056683b7",
+    "route_id": "ROUTEOBS-25996e36f4745c9c",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 2,
     "ordered_mapped_stage_count": 2,
     "mapped_step_count": 2,
+    "different_poi_count_diagnostic_only": 3,
+    "status": "excluded",
+    "route_class": "transport_fragment",
+    "reason": "交通站点接驳或交通服务线路，保留交通事实但不作为游览主干",
+    "source_spans": [
+      [
+        "GZCL-OFF-01",
+        1593,
+        1757
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-89c9b537d6377af0",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 2,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
     "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "GZCL-OFF-01",
+        1937,
+        2114
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-ad3ca19149f899c5",
+    "scenic_code": "JZG",
+    "upstream": "P5",
+    "step_count": 4,
+    "ordered_mapped_stage_count": 4,
+    "mapped_step_count": 4,
+    "different_poi_count_diagnostic_only": 4,
     "status": "excluded",
     "route_class": "local_fragment",
     "reason": "局部或较短游览序列，不作为长线路推荐主干",
     "source_spans": [
       [
-        "GZCL-NOTE-11",
-        1830,
-        1841
+        "JZG-NOTE-12",
+        2020,
+        2048
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -5324,7 +5183,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-1d8ea00be41b5ea3",
+    "route_id": "ROUTEOBS-341e92fd9e64763e",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 5,
@@ -5345,10 +5204,10 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-36b981bf3c6eba62",
+    "route_id": "ROUTEOBS-49b0f962cf2e343c",
     "scenic_code": "GZCL",
     "upstream": "P5",
-    "step_count": 4,
+    "step_count": 3,
     "ordered_mapped_stage_count": 2,
     "mapped_step_count": 2,
     "different_poi_count_diagnostic_only": 2,
@@ -5366,7 +5225,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-56b1514db6687a9a",
+    "route_id": "ROUTEOBS-fb2061d02795fe72",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 3,
@@ -5387,7 +5246,49 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-29d7defca666f95d",
+    "route_id": "ROUTEOBS-db2aa609a6200e43",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 1,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "GZCL-NOTE-10",
+        383,
+        394
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-0d216d032754664a",
+    "scenic_code": "GZCL",
+    "upstream": "P5",
+    "step_count": 1,
+    "ordered_mapped_stage_count": 1,
+    "mapped_step_count": 1,
+    "different_poi_count_diagnostic_only": 2,
+    "status": "excluded",
+    "route_class": "single_stage",
+    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
+    "source_spans": [
+      [
+        "GZCL-NOTE-11",
+        3165,
+        3171
+      ]
+    ],
+    "affiliation_status": "unresolved_or_ambiguous",
+    "parent_route_ids": []
+  },
+  {
+    "route_id": "ROUTEOBS-557a13ec25838c52",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
@@ -5402,27 +5303,6 @@
         "JZG-NOTE-08",
         354,
         408
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-99857927835cd9ec",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "GZCL-NOTE-11",
-        2874,
-        2882
       ]
     ],
     "affiliation_status": "unresolved_or_ambiguous",
@@ -5450,7 +5330,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-694851e5b9584c74",
+    "route_id": "ROUTEOBS-75eff1a5b0c91e0c",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 1,
@@ -5471,7 +5351,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-8791e9e27d2e9d8b",
+    "route_id": "ROUTEOBS-5352b141a5811df6",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 2,
@@ -5492,7 +5372,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-9740d019b2c4e11a",
+    "route_id": "ROUTEOBS-e362ca50b9beaa74",
     "scenic_code": "GZCL",
     "upstream": "P5",
     "step_count": 1,
@@ -5513,7 +5393,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-8d28daffc9f6aef6",
+    "route_id": "ROUTEOBS-98f19c5d27e74783",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 4,
@@ -5555,48 +5435,6 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-e25f52989b5ca50f",
-    "scenic_code": "ZHCL",
-    "upstream": "P5",
-    "step_count": 1,
-    "ordered_mapped_stage_count": 1,
-    "mapped_step_count": 1,
-    "different_poi_count_diagnostic_only": 1,
-    "status": "excluded",
-    "route_class": "single_stage",
-    "reason": "单个地点组或重复同一地点组；组内多个地点不推断成有序路线",
-    "source_spans": [
-      [
-        "ZHCL-NOTE-09",
-        1377,
-        1397
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
-    "route_id": "ROUTEOBS-e2349ab9efd14131",
-    "scenic_code": "GZCL",
-    "upstream": "P5",
-    "step_count": 2,
-    "ordered_mapped_stage_count": 2,
-    "mapped_step_count": 2,
-    "different_poi_count_diagnostic_only": 3,
-    "status": "excluded",
-    "route_class": "transport_fragment",
-    "reason": "短交通连接，供路段层使用，不作为游览主干",
-    "source_spans": [
-      [
-        "GZCL-NOTE-09",
-        613,
-        658
-      ]
-    ],
-    "affiliation_status": "unresolved_or_ambiguous",
-    "parent_route_ids": []
-  },
-  {
     "route_id": "ROUTEOBS-5b03b37b48ba8653",
     "scenic_code": "GZCL",
     "upstream": "P5",
@@ -5618,7 +5456,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-4c992e64f6d4df7c",
+    "route_id": "ROUTEOBS-4340fce7ae64e386",
     "scenic_code": "JZG",
     "upstream": "P5",
     "step_count": 3,
@@ -5660,7 +5498,7 @@
     "parent_route_ids": []
   },
   {
-    "route_id": "ROUTEOBS-df26de095fc2f2b3",
+    "route_id": "ROUTEOBS-1c42d141fb446886",
     "scenic_code": "ZHCL",
     "upstream": "P5",
     "step_count": 2,

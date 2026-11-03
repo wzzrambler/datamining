@@ -1,5 +1,5 @@
 {
-  "input_sha256": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979",
+  "input_sha256": "f8da370f9a5d672465ae23ee1da31f284e55b11cbd1c684b1c6dfe6612844981",
   "kind": "targeted_checks_not_gold",
   "cases": [
     {

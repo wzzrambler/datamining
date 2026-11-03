@@ -10,15 +10,15 @@
     "plots.py": "a5ba746ff5f172eea0e8be95bdc1abb9782f07b9428db29021e7fdec3ecc8ceb",
     "time_rules.py": "6022d2546d2b71307d69d9e797e850919a96e5376cdb2ba710fb50c0fad1281a"
   },
-  "input_sha256": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979",
-  "origin_sha256": "fd008bf1387cd72918aebb44648209bc426bea0bdc2e6603caf1e2fe931a4e43",
-  "config_hash": "0259e26309d2f8d0e121df20029cc9fb9bcece97f65283f94ed5adeea54e4f16",
+  "input_sha256": "f8da370f9a5d672465ae23ee1da31f284e55b11cbd1c684b1c6dfe6612844981",
+  "origin_sha256": "ee56df7f01e4a579e62bf1a1ec6157923dffb0f4bbe2aac7906c52c4edb6b3f8",
+  "config_hash": "316313d3d0c56805ff9cf72d50d679be4b44ffd43bb526f15364a6b7c0f431ff",
   "config_version": "v2",
   "offline": true,
   "validation": {
     "status": "passed",
     "documents": 47,
-    "mentions": 3499,
+    "mentions": 3419,
     "checks": [
       "全部文档覆盖",
       "全文切片",
@@ -203,13 +203,13 @@
     "frequency": "提及数；文档频次另见frequencies.json"
   },
   "outputs": {
-    "entities.json": "e752ff4bf59486b0a0d79dafdd31b47645b9d592117fd0ca125e57e5e1ad62b7",
-    "frequencies.json": "7736fe337bf72d74751d713fc867e9116c6ea36c5e17875b524425c92ff31143",
+    "entities.json": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+    "frequencies.json": "ebde451488f0e88a4c4c6dce643b01457972519f206104cac318e20c96e89567",
     "quality_check.json": "e137c263058c1c018ca3090c58e4f2eac346b3e998710b71d099b273aaa759eb",
-    "summary.json": "1b32ec299c18ed641452edfdf109f039ccf472ff4f30dd07b2729b706e8836fd",
-    "validation.json": "0820c59cf30db15ac283f39b9d958b5390e47967172fb19d6190131d9125cbf7",
-    "辅助资料/activity_candidates.json": "5302747fe01c12d6b260d731406c11003a3e0d5b3c9041437e1b8bf0de5afa25",
-    "辅助资料/diagnostics.json": "88269008a7239ade5b2e3247c874e709d7cde326ba09ce3766ce4aae859d4c20",
+    "summary.json": "b341079fba105b971b8945a044372ef0d7c8dba079ec7a25841495deee60bcd3",
+    "validation.json": "2a5e638f3237415904be3ea08634ea7278dd4ebce48065a8a01563a3bbd28127",
+    "辅助资料/activity_candidates.json": "f543cc6942b49744e190c292b6d49c0674d40fbbe90e6b6b3c417d3c01e3a50c",
+    "辅助资料/diagnostics.json": "ba42845bd9983373c6f2ecd6914856182b6929070de7352b26cca84a34c764dd",
     "辅助资料/ellipsis_candidates.json": "2fbd32d8720271d83092d97725dd7904d75431804d22ce1db3c80dcab2ad6e00",
     "辅助资料/unresolved_candidates.json": "0383c2dd3a62ab00da5d363af25e9f2615cb2cd45c75be604e0cf08f0f5f8c3e"
   }

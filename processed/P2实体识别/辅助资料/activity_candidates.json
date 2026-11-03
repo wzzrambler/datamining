@@ -310,33 +310,16 @@
   },
   {
     "doc_id": "GZCL-NOTE-06",
-    "para_id": 53,
-    "text": "白虎跳水",
-    "start": 897,
-    "end": 901,
-    "status": "candidate_only",
-    "reason": "节目/活动不归POI",
-    "origin": [
-      {
-        "doc_id": "GZCL-NOTE-06",
-        "para_id": 53,
-        "kind": "image",
-        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/001_02.webp"
-      }
-    ]
-  },
-  {
-    "doc_id": "GZCL-NOTE-06",
-    "para_id": 85,
+    "para_id": 83,
     "text": "花车巡游",
-    "start": 1165,
-    "end": 1169,
+    "start": 1142,
+    "end": 1146,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "GZCL-NOTE-06",
-        "para_id": 85,
+        "para_id": 83,
         "kind": "image",
         "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/001_02.webp"
       }
@@ -480,16 +463,16 @@
   },
   {
     "doc_id": "GZCL-NOTE-09",
-    "para_id": 150,
+    "para_id": 149,
     "text": "非洲发现",
-    "start": 1960,
-    "end": 1964,
+    "start": 1951,
+    "end": 1955,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "GZCL-NOTE-09",
-        "para_id": 150,
+        "para_id": 149,
         "kind": "image",
         "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/009_01.webp"
       }
@@ -531,10 +514,27 @@
   },
   {
     "doc_id": "GZCL-NOTE-11",
+    "para_id": 110,
+    "text": "白虎跳水",
+    "start": 1997,
+    "end": 2001,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "GZCL-NOTE-11",
+        "para_id": 110,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/006_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "GZCL-NOTE-11",
     "para_id": 111,
     "text": "白虎跳水",
-    "start": 2007,
-    "end": 2011,
+    "start": 2017,
+    "end": 2021,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
@@ -550,8 +550,8 @@
     "doc_id": "GZCL-NOTE-11",
     "para_id": 112,
     "text": "白虎跳水",
-    "start": 2027,
-    "end": 2031,
+    "start": 2025,
+    "end": 2029,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
@@ -565,18 +565,18 @@
   },
   {
     "doc_id": "GZCL-NOTE-11",
-    "para_id": 113,
+    "para_id": 117,
     "text": "白虎跳水",
-    "start": 2035,
-    "end": 2039,
+    "start": 2114,
+    "end": 2118,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "GZCL-NOTE-11",
-        "para_id": 113,
+        "para_id": 117,
         "kind": "image",
-        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/006_01.webp"
+        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/007_01.webp"
       }
     ]
   },
@@ -584,8 +584,8 @@
     "doc_id": "GZCL-NOTE-11",
     "para_id": 118,
     "text": "白虎跳水",
-    "start": 2124,
-    "end": 2128,
+    "start": 2127,
+    "end": 2131,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
@@ -599,33 +599,16 @@
   },
   {
     "doc_id": "GZCL-NOTE-11",
-    "para_id": 119,
-    "text": "白虎跳水",
-    "start": 2137,
-    "end": 2141,
-    "status": "candidate_only",
-    "reason": "节目/活动不归POI",
-    "origin": [
-      {
-        "doc_id": "GZCL-NOTE-11",
-        "para_id": 119,
-        "kind": "image",
-        "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/007_01.webp"
-      }
-    ]
-  },
-  {
-    "doc_id": "GZCL-NOTE-11",
-    "para_id": 167,
+    "para_id": 166,
     "text": "花车巡游",
-    "start": 2939,
-    "end": 2943,
+    "start": 2929,
+    "end": 2933,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "GZCL-NOTE-11",
-        "para_id": 167,
+        "para_id": 166,
         "kind": "image",
         "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
       }
@@ -633,16 +616,16 @@
   },
   {
     "doc_id": "GZCL-NOTE-11",
-    "para_id": 171,
+    "para_id": 170,
     "text": "花车巡游",
-    "start": 3008,
-    "end": 3012,
+    "start": 2998,
+    "end": 3002,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "GZCL-NOTE-11",
-        "para_id": 171,
+        "para_id": 170,
         "kind": "image",
         "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
       }
@@ -786,16 +769,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-04",
-    "para_id": 92,
+    "para_id": 79,
     "text": "海洋夜光大巡游",
-    "start": 1553,
-    "end": 1560,
+    "start": 1299,
+    "end": 1306,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-04",
-        "para_id": 92,
+        "para_id": 79,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
       }
@@ -803,16 +786,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-04",
-    "para_id": 94,
+    "para_id": 81,
     "text": "烟花秀",
-    "start": 1572,
-    "end": 1575,
+    "start": 1318,
+    "end": 1321,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-04",
-        "para_id": 94,
+        "para_id": 81,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
       }
@@ -820,16 +803,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-04",
-    "para_id": 97,
+    "para_id": 84,
     "text": "超级猛犸大巡游",
-    "start": 1593,
-    "end": 1600,
+    "start": 1339,
+    "end": 1346,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-04",
-        "para_id": 97,
+        "para_id": 84,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
       }
@@ -837,16 +820,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-04",
-    "para_id": 126,
+    "para_id": 113,
     "text": "烟花秀",
-    "start": 1728,
-    "end": 1731,
+    "start": 1474,
+    "end": 1477,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-04",
-        "para_id": 126,
+        "para_id": 113,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
       }
@@ -854,16 +837,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-04",
-    "para_id": 145,
+    "para_id": 132,
     "text": "烟花秀",
-    "start": 1832,
-    "end": 1835,
+    "start": 1578,
+    "end": 1581,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-04",
-        "para_id": 145,
+        "para_id": 132,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
       }
@@ -871,16 +854,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-04",
-    "para_id": 302,
+    "para_id": 288,
     "text": "海洋夜光大巡游",
-    "start": 3039,
-    "end": 3046,
+    "start": 2777,
+    "end": 2784,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-04",
-        "para_id": 302,
+        "para_id": 288,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/005_01.webp"
       }
@@ -1058,10 +1041,27 @@
   },
   {
     "doc_id": "ZHCL-NOTE-09",
-    "para_id": 34,
+    "para_id": 33,
     "text": "烟花秀",
-    "start": 520,
-    "end": 523,
+    "start": 511,
+    "end": 514,
+    "status": "candidate_only",
+    "reason": "节目/活动不归POI",
+    "origin": [
+      {
+        "doc_id": "ZHCL-NOTE-09",
+        "para_id": 33,
+        "kind": "image",
+        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
+      }
+    ]
+  },
+  {
+    "doc_id": "ZHCL-NOTE-09",
+    "para_id": 34,
+    "text": "长隆秀",
+    "start": 526,
+    "end": 529,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
@@ -1075,33 +1075,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-09",
-    "para_id": 35,
-    "text": "长隆秀",
-    "start": 535,
-    "end": 538,
-    "status": "candidate_only",
-    "reason": "节目/活动不归POI",
-    "origin": [
-      {
-        "doc_id": "ZHCL-NOTE-09",
-        "para_id": 35,
-        "kind": "image",
-        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
-      }
-    ]
-  },
-  {
-    "doc_id": "ZHCL-NOTE-09",
-    "para_id": 37,
+    "para_id": 36,
     "text": "烟花秀",
-    "start": 641,
-    "end": 644,
+    "start": 632,
+    "end": 635,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-09",
-        "para_id": 37,
+        "para_id": 36,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
       }
@@ -1109,16 +1092,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-09",
-    "para_id": 37,
+    "para_id": 36,
     "text": "长隆秀",
-    "start": 615,
-    "end": 618,
+    "start": 606,
+    "end": 609,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-09",
-        "para_id": 37,
+        "para_id": 36,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
       }
@@ -1126,16 +1109,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-09",
-    "para_id": 138,
+    "para_id": 137,
     "text": "海洋夜光大巡游",
-    "start": 1936,
-    "end": 1943,
+    "start": 1927,
+    "end": 1934,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-09",
-        "para_id": 138,
+        "para_id": 137,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/006_01.webp"
       }
@@ -1143,16 +1126,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-09",
-    "para_id": 142,
+    "para_id": 141,
     "text": "烟花秀",
-    "start": 1979,
-    "end": 1982,
+    "start": 1970,
+    "end": 1973,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-09",
-        "para_id": 142,
+        "para_id": 141,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/006_01.webp"
       }
@@ -1160,16 +1143,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-09",
-    "para_id": 194,
+    "para_id": 193,
     "text": "长隆秀",
-    "start": 2682,
-    "end": 2685,
+    "start": 2673,
+    "end": 2676,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-09",
-        "para_id": 194,
+        "para_id": 193,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/008_01.webp"
       }
@@ -1312,40 +1295,6 @@
     ]
   },
   {
-    "doc_id": "ZHCL-NOTE-12",
-    "para_id": 42,
-    "text": "海洋保卫战",
-    "start": 797,
-    "end": 802,
-    "status": "candidate_only",
-    "reason": "节目/活动不归POI",
-    "origin": [
-      {
-        "doc_id": "ZHCL-NOTE-12",
-        "para_id": 42,
-        "kind": "image",
-        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
-      }
-    ]
-  },
-  {
-    "doc_id": "ZHCL-NOTE-12",
-    "para_id": 91,
-    "text": "海洋保卫战",
-    "start": 1281,
-    "end": 1286,
-    "status": "candidate_only",
-    "reason": "节目/活动不归POI",
-    "origin": [
-      {
-        "doc_id": "ZHCL-NOTE-12",
-        "para_id": 91,
-        "kind": "image",
-        "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
-      }
-    ]
-  },
-  {
     "doc_id": "ZHCL-NOTE-13",
     "para_id": 1,
     "text": "长隆秀",
@@ -1364,16 +1313,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-13",
-    "para_id": 12,
+    "para_id": 11,
     "text": "长隆秀",
-    "start": 228,
-    "end": 231,
+    "start": 216,
+    "end": 219,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-13",
-        "para_id": 12,
+        "para_id": 11,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/002_01.webp"
       }
@@ -1381,16 +1330,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-13",
-    "para_id": 48,
+    "para_id": 47,
     "text": "长隆秀",
-    "start": 846,
-    "end": 849,
+    "start": 834,
+    "end": 837,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-13",
-        "para_id": 48,
+        "para_id": 47,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/004_01.webp"
       }
@@ -1398,16 +1347,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-13",
-    "para_id": 103,
+    "para_id": 101,
     "text": "烟花秀",
-    "start": 1711,
-    "end": 1714,
+    "start": 1681,
+    "end": 1684,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-13",
-        "para_id": 103,
+        "para_id": 101,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/008_01.webp"
       }
@@ -1415,16 +1364,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-13",
-    "para_id": 108,
+    "para_id": 106,
     "text": "烟花秀",
-    "start": 1796,
-    "end": 1799,
+    "start": 1766,
+    "end": 1769,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-13",
-        "para_id": 108,
+        "para_id": 106,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/009_01.webp"
       }
@@ -1432,16 +1381,16 @@
   },
   {
     "doc_id": "ZHCL-NOTE-13",
-    "para_id": 108,
+    "para_id": 106,
     "text": "长隆秀",
-    "start": 1808,
-    "end": 1811,
+    "start": 1778,
+    "end": 1781,
     "status": "candidate_only",
     "reason": "节目/活动不归POI",
     "origin": [
       {
         "doc_id": "ZHCL-NOTE-13",
-        "para_id": 108,
+        "para_id": 106,
         "kind": "image",
         "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6ad36516000000000a022b4a/0012/images/009_01.webp"
       }

@@ -1,19 +1,19 @@
 {
   "POI": [
     {
-      "label": "广州长隆·长隆野生动物世界",
-      "name": "广州长隆·长隆野生动物世界",
-      "count": 29
+      "label": "广州长隆·青龙山",
+      "name": "广州长隆·青龙山",
+      "count": 28
     },
     {
       "label": "珠海长隆·白鲸剧场",
       "name": "珠海长隆·白鲸剧场",
-      "count": 30
+      "count": 29
     },
     {
       "label": "九寨沟·箭竹海",
       "name": "九寨沟·箭竹海",
-      "count": 31
+      "count": 29
     },
     {
       "label": "广州长隆·天鹅湖",
@@ -23,17 +23,17 @@
     {
       "label": "珠海长隆·企鹅馆",
       "name": "珠海长隆·企鹅馆",
-      "count": 34
+      "count": 33
     },
     {
       "label": "九寨沟·五花海",
       "name": "九寨沟·五花海",
-      "count": 35
+      "count": 33
     },
     {
       "label": "九寨沟·五彩池",
       "name": "九寨沟·五彩池",
-      "count": 39
+      "count": 38
     },
     {
       "label": "广州长隆·长隆野生动物世界南门",
@@ -53,19 +53,19 @@
     {
       "label": "珠海长隆·鲸鲨馆",
       "name": "珠海长隆·鲸鲨馆",
-      "count": 48
+      "count": 47
     },
     {
       "label": "九寨沟·九寨沟",
       "name": "九寨沟·九寨沟",
-      "count": 143
+      "count": 135
     }
   ],
   "TRANSPORT": [
     {
       "label": "动车",
       "name": "动车",
-      "count": 13
+      "count": 12
     },
     {
       "label": "坐车",
@@ -80,7 +80,12 @@
     {
       "label": "打车",
       "name": "打车",
-      "count": 18
+      "count": 16
+    },
+    {
+      "label": "高铁",
+      "name": "高铁",
+      "count": 19
     },
     {
       "label": "地铁",
@@ -88,19 +93,14 @@
       "count": 20
     },
     {
-      "label": "高铁",
-      "name": "高铁",
-      "count": 21
-    },
-    {
       "label": "大巴",
       "name": "大巴",
-      "count": 25
+      "count": 24
     },
     {
       "label": "徒步",
       "name": "徒步",
-      "count": 32
+      "count": 31
     },
     {
       "label": "小火车",
@@ -115,15 +115,20 @@
     {
       "label": "观光车",
       "name": "观光车",
-      "count": 55
+      "count": 53
     },
     {
       "label": "步行",
       "name": "步行",
-      "count": 63
+      "count": 62
     }
   ],
   "TIME": [
+    {
+      "label": "第一天",
+      "name": "第一天",
+      "count": 15
+    },
     {
       "label": "10分钟",
       "name": "10分钟",
@@ -132,11 +137,6 @@
     {
       "label": "30分钟",
       "name": "30分钟",
-      "count": 15
-    },
-    {
-      "label": "半小时",
-      "name": "半小时",
       "count": 15
     },
     {
@@ -162,17 +162,17 @@
     {
       "label": "第二天",
       "name": "第二天",
-      "count": 26
+      "count": 25
     },
     {
       "label": "上午",
       "name": "上午",
-      "count": 28
+      "count": 27
     },
     {
       "label": "晚上",
       "name": "晚上",
-      "count": 30
+      "count": 28
     },
     {
       "label": "一天",
@@ -222,14 +222,14 @@
       "count": 22
     },
     {
+      "label": "长隆野生动物世界",
+      "name": "长隆野生动物世界",
+      "count": 27
+    },
+    {
       "label": "青龙山",
       "name": "青龙山",
       "count": 28
-    },
-    {
-      "label": "长隆野生动物世界",
-      "name": "长隆野生动物世界",
-      "count": 29
     },
     {
       "label": "天鹅湖",
@@ -249,6 +249,11 @@
   ],
   "ZHCL": [
     {
+      "label": "5D城堡影院",
+      "name": "5D城堡影院",
+      "count": 17
+    },
+    {
       "label": "长隆飞船乐园",
       "name": "长隆飞船乐园",
       "count": 18
@@ -264,8 +269,8 @@
       "count": 19
     },
     {
-      "label": "海狮剧场",
-      "name": "海狮剧场",
+      "label": "海豚剧场",
+      "name": "海豚剧场",
       "count": 19
     },
     {
@@ -274,19 +279,14 @@
       "count": 19
     },
     {
-      "label": "海豚剧场",
-      "name": "海豚剧场",
-      "count": 20
-    },
-    {
       "label": "冰山过山车",
       "name": "冰山过山车",
-      "count": 22
+      "count": 21
     },
     {
       "label": "珠海长隆海洋王国",
       "name": "珠海长隆海洋王国",
-      "count": 27
+      "count": 26
     },
     {
       "label": "横琴湾酒店",
@@ -296,24 +296,24 @@
     {
       "label": "白鲸剧场",
       "name": "白鲸剧场",
-      "count": 30
+      "count": 29
     },
     {
       "label": "企鹅馆",
       "name": "企鹅馆",
-      "count": 34
+      "count": 33
     },
     {
       "label": "鲸鲨馆",
       "name": "鲸鲨馆",
-      "count": 48
+      "count": 47
     }
   ],
   "JZG": [
     {
-      "label": "黄龙九寨站",
-      "name": "黄龙九寨站",
-      "count": 16
+      "label": "诺日朗瀑布",
+      "name": "诺日朗瀑布",
+      "count": 15
     },
     {
       "label": "珍珠滩",
@@ -323,16 +323,16 @@
     {
       "label": "树正沟",
       "name": "树正沟",
+      "count": 16
+    },
+    {
+      "label": "熊猫海",
+      "name": "熊猫海",
       "count": 17
     },
     {
       "label": "镜海",
       "name": "镜海",
-      "count": 18
-    },
-    {
-      "label": "熊猫海",
-      "name": "熊猫海",
       "count": 18
     },
     {
@@ -343,22 +343,22 @@
     {
       "label": "原始森林",
       "name": "原始森林",
-      "count": 22
+      "count": 21
     },
     {
       "label": "箭竹海",
       "name": "箭竹海",
-      "count": 31
+      "count": 29
     },
     {
       "label": "五花海",
       "name": "五花海",
-      "count": 35
+      "count": 33
     },
     {
       "label": "五彩池",
       "name": "五彩池",
-      "count": 39
+      "count": 38
     },
     {
       "label": "长海",
@@ -368,7 +368,7 @@
     {
       "label": "九寨沟",
       "name": "九寨沟",
-      "count": 143
+      "count": 135
     }
   ]
 }

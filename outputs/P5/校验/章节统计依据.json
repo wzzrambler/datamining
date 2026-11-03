@@ -1,79 +1,80 @@
 {
   "schema": "p5-chapter-stats-1",
   "source": {
-    "p5_run": "full-final-20261103",
-    "summary_sha256": "03974e1dbc494739ea327977c1660371d77a6a5fbf836efbe1cdf3df4e3039ab",
-    "graph_sha256": "6e331d0368ee54874c0e4aa2b8fd47ea210586185b5c91e2c4311ce99ead181b",
-    "conditions_sha256": "0e05b5f232549746a344fce2cd7f2676d1181af003a1da01b81893509a4c5672"
+    "p5_run": "full-final-20261104",
+    "summary_sha256": "a9ce40e3e855f4fc04f635f1e01c16913a31fe2998b3adde646a017adcb5a4b1",
+    "graph_sha256": "ccad8d42683c319eee5a85a8b5e877d8844b2be2510671fd1e4155acdda82fa4",
+    "conditions_sha256": "be71f281b9fd4b21330182eecd7e8490b772b090f462b6a28471aa363eb16ced"
   },
   "packages": {
-    "run_id": "full-final-20261103",
-    "packages_prepared": 2102,
-    "packages_attempted": 2102,
+    "run_id": "full-final-20261104",
+    "packages_prepared": 2045,
+    "packages_attempted": 2045,
     "status_counts": {
-      "COMPLETED": 2102
+      "COMPLETED": 2044,
+      "COMPLETED_WITH_SKIPS": 1
     },
-    "active_completed_observations": 3616,
-    "conditions": 1336,
-    "p5_complete_conditions": 266,
-    "transport_legs": 114,
-    "p3_routes_inherited": 40,
-    "new_routes_extracted": 157
+    "active_completed_observations": 3516,
+    "conditions": 1327,
+    "p5_complete_conditions": 271,
+    "transport_legs": 105,
+    "p3_routes_inherited": 39,
+    "new_routes_extracted": 151
   },
   "usage": {
-    "prompt_tokens": 36164523,
-    "completion_tokens": 878318,
-    "total_tokens": 37042841
+    "prompt_tokens": 34942364,
+    "completion_tokens": 863661,
+    "total_tokens": 35806025
   },
-  "max_actual_prompt_tokens": 14361,
+  "max_actual_prompt_tokens": 14368,
   "reference_scopes": {
-    "local_mention": 2989,
-    "scene_registry": 1073,
-    "in_package": 468
+    "local_mention": 2931,
+    "scene_registry": 1034,
+    "in_package": 464
   },
   "rules": {
-    "total": 1336,
+    "total": 1327,
     "by_scene": {
-      "GZCL": 537,
-      "ZHCL": 419,
-      "JZG": 380
+      "ZHCL": 420,
+      "GZCL": 539,
+      "JZG": 368
     },
     "by_force": {
-      "recommended": 852,
-      "descriptive": 273,
+      "descriptive": 286,
+      "recommended": 839,
+      "avoid": 48,
       "optional": 22,
-      "unspecified": 66,
-      "required": 50,
-      "prohibited": 29,
-      "avoid": 44
+      "unspecified": 57,
+      "required": 46,
+      "prohibited": 29
     },
     "statement_kinds": {
-      "general_advice": 741,
-      "conditional_fact": 221,
-      "conditional_advice": 237,
-      "incomplete_condition": 63,
-      "conditional_restriction": 29,
-      "general_restriction": 45
+      "conditional_fact": 232,
+      "general_advice": 729,
+      "conditional_advice": 238,
+      "incomplete_condition": 58,
+      "general_restriction": 37,
+      "conditional_restriction": 33
     },
-    "p5_complete": 266,
-    "complete_rate": 0.1991
+    "p5_complete": 271,
+    "complete_rate": 0.2042
   },
   "clause_categories": {
-    "date_time": 173,
-    "other": 166,
-    "audience": 89,
-    "service_availability": 23,
-    "ticket": 29,
-    "crowding": 25,
+    "date_time": 176,
+    "service_availability": 19,
+    "audience": 90,
+    "other": 176,
+    "fitness": 12,
+    "crowding": 23,
     "time_budget": 24,
-    "weather": 24,
-    "access": 28,
-    "fitness": 13
+    "access": 29,
+    "ticket": 30,
+    "weather": 25
   },
   "audience_buckets": {
-    "带小孩": 51,
+    "带小孩": 54,
     "其他人群": 29,
-    "住店客人": 8,
+    "住店客人": 6,
     "带长辈": 1
   },
   "audience_samples": {
@@ -105,36 +106,36 @@
     ]
   },
   "graph": {
-    "nodes": 6649,
-    "edges": 9790,
+    "nodes": 6466,
+    "edges": 9482,
     "node_labels": {
-      "ADVICE_SUMMARY": 264,
-      "FACT": 504,
+      "ADVICE_SUMMARY": 256,
+      "FACT": 475,
       "ROUTE": 29,
-      "ROUTE_STEP": 346,
-      "TRANSPORT_LEG": 114,
-      "OBSERVATION": 3616,
+      "ROUTE_STEP": 345,
+      "TRANSPORT_LEG": 105,
+      "OBSERVATION": 3516,
       "POI": 179,
-      "CONDITIONAL_RULE": 1336,
-      "TIME_SUMMARY": 227,
+      "CONDITIONAL_RULE": 1327,
+      "TIME_SUMMARY": 200,
       "TRANSPORT": 34
     },
     "edge_types": {
-      "DERIVED_FROM": 1811,
-      "SUPPORTED_BY": 4324,
-      "HAS_STEP": 346,
-      "PRECEDES": 326,
-      "VISITS": 317,
+      "DERIVED_FROM": 1788,
+      "SUPPORTED_BY": 4156,
+      "HAS_STEP": 345,
+      "PRECEDES": 325,
+      "VISITS": 322,
       "MENTIONS_MODE": 34,
-      "HAS_ADVICE_SUMMARY": 258,
-      "USES_LEG": 13,
-      "FROM": 114,
-      "TO": 114,
-      "USES_MODE": 111,
-      "HAS_FACT": 504,
-      "HAS_TIME_SUMMARY": 227,
-      "PART_OF": 62,
-      "APPLIES_TO": 1229
+      "HAS_ADVICE_SUMMARY": 250,
+      "USES_LEG": 14,
+      "FROM": 105,
+      "HAS_FACT": 475,
+      "HAS_TIME_SUMMARY": 200,
+      "TO": 105,
+      "USES_MODE": 102,
+      "PART_OF": 67,
+      "APPLIES_TO": 1194
     }
   },
   "documents": {

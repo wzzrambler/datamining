@@ -9,7 +9,8 @@ from urllib.parse import urlsplit
 from .ocr import OCRClient, write_json
 from .repo_support import paths, portable
 from .rules import (STAT_FIELDS, TIME, clean_text, count_sentences, effective_len, grams,
-                    normalize_legacy_documents, paragraphs, repeats_body, shingles, squash)
+                    normalize_legacy_documents, paragraphs, repeats_body, repeats_body_fuzzy,
+                    shingles, squash, body_lines)
 
 FIELDS = '''doc_id scenic_code scenic_area city category text_type text_type_cn doc_subtype
 source_platform source_site source_url title author publish_date crawl_time extract_rule
@@ -109,7 +110,7 @@ def build_document(note, group, config, ocr, doc_id, note_base):
 
     stats, seen_lines, merged, provenance = Counter(), set(), [], []
     raw_accepted = []
-    body_norm, body_grams = '', set()
+    body_norm, body_grams, body_keys = '', set(), []
     for part in parts:
         cleaned, st = clean_text(part['raw_text'])
         part['clean_text'], part['effective_chars'] = cleaned, effective_len(cleaned)
@@ -126,6 +127,7 @@ def build_document(note, group, config, ocr, doc_id, note_base):
             stats.update(st)
             body_norm = squash(cleaned)
             body_grams = grams(body_norm)
+            body_keys = body_lines(cleaned)
         if not accept:
             continue
         if part['kind'] != 'body':
@@ -137,7 +139,8 @@ def build_document(note, group, config, ocr, doc_id, note_base):
             key = re.sub(r'\W+', '', line).casefold()
             # 图片是把作者正文拍成截图再 OCR 回来的，同一段话会以断行残片
             # 的形式二次进入语料，行级去重认不出断行差异，这里单独拦一次。
-            if part['kind'] == 'image' and repeats_body(key, body_norm, body_grams):
+            if part['kind'] == 'image' and (repeats_body(key, body_norm, body_grams)
+                                            or repeats_body_fuzzy(key, body_keys)):
                 stats['dup_line_removed'] += 1
                 repeated += 1
                 continue

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """第 5 章：条件建议抽取。"""
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -31,6 +32,37 @@ COMPLETE = sum(1 for r in RULES if r.get('p5_complete'))
 USAGE = P5.get('usage') or {}
 ATTR = Counter(f['attribute'] for f in FACTS)
 
+AUD_RULES = [('带小孩', '宝宝|娃|小孩|儿童|孩子|身高|亲子|小朋友|小盆友'),
+             ('住店客人', '住客|酒店|入住|住宿'),
+             ('带长辈', '老人|父母|长辈|爸妈')]
+
+
+def _aud_bucket(text):
+    """人群条件的关键词粗分，只用于描述性统计。"""
+    for name, pattern in AUD_RULES:
+        if re.search(pattern, text or ''):
+            return name
+    return '其他人群'
+
+
+SCENE_CN = {'GZCL': '广州长隆', 'ZHCL': '珠海长隆', 'JZG': '九寨沟'}
+SAMPLE = {'date_time': '“4 月 1 号已开放”“旺季”', 'other': '“人多的时候”“第一次来”',
+          'audience': '“带娃”“身高 1 米到 1.5 米”', 'ticket': '“需提前一天 23:59 前预订”',
+          'access': '“如需自驾须持自驾车票”', 'crowding': '“假期人很多”',
+          'time_budget': '“时间充足的”', 'weather': '“下雨天”“晴天”',
+          'service_availability': '“园区内租借的推车”', 'fitness': '“走不动太久”“恐高”'}
+BY_KIND_SCENE = {sc: Counter(r['statement_kind'] for r in RULES if r['scenic_code'] == sc)
+                 for sc in ('GZCL', 'ZHCL', 'JZG')}
+CAT_TOTAL = Counter()
+for _r in RULES:
+    for _cl in ((_r.get('condition') or {}).get('clauses') or []):
+        CAT_TOTAL[_cl.get('category')] += 1
+AUD_BUCKET = Counter()
+for _r in RULES:
+    for _cl in ((_r.get('condition') or {}).get('clauses') or []):
+        if _cl.get('category') == 'audience':
+            AUD_BUCKET[_aud_bucket(_cl.get('text'))] += 1
+
 CONTENT = {}
 
 CONTENT['5.1'] = [
@@ -45,7 +77,7 @@ CONTENT['5.1'] = [
      ['工具', '产出', '关键字段', '本次条数'],
      [['submit_poi_facts', '景点事实', 'attribute / value_text / modality / condition', str(len(FACTS))],
       ['submit_conditional_advice', '条件与建议', 'condition / consequence_text / force / targets', str(len(RULES))],
-      ['submit_route', '路线候选', 'steps / order / evidence', '157 条新路线'],
+      ['submit_route', '路线候选', 'steps / order / evidence', '%d 条新路线' % P5.get('new_routes_extracted', 0)],
       ['submit_transport_leg', '交通路段', 'from / to / transport / duration', str(P5.get('transport_legs', 0))]],
      [4.2, 3.0, 5.4, 2.0]),
     ('p', '规则层只做两件事：定字段，定边界。字段是死的——条件必须有 text 和 clauses，'
@@ -61,7 +93,7 @@ CONTENT['5.1'] = [
 ]
 
 CONTENT['5.2'] = [
-    ('p', '整批跑了 %d 个包，全部返回，没有一个失败。共拿到 %d 条观察，' % (
+    ('p', '共提交 %d 个包，全部返回 COMPLETED。合计得到 %d 条观察，' % (
         P5.get('packages_attempted', 0), P5.get('active_completed_observations', 0)) +
           '从中整理出景点事实 %d 条、条件与建议 %d 条、交通路段 %d 条。'
           '观察数比记录数多，因为一次提交可以带多条记录——'
@@ -69,17 +101,15 @@ CONTENT['5.2'] = [
               len(FACTS), len(RULES), P5.get('transport_legs', 0))),
     ('tbl', '表5-2  批量运行开销',
      ['项目', '数值', '说明'],
-     [['输入包', str(P5.get('packages_prepared', 0)), '路线包 40 + 段落包 2059 + 补包分片 4'],
+     [['输入包', str(P5.get('packages_prepared', 0)), '路线包、段落包与补跑分片之和'],
       ['提示词 tokens', '{:,}'.format(USAGE.get('prompt_tokens', 0)), '含重试与修正请求'],
       ['输出 tokens', '{:,}'.format(USAGE.get('completion_tokens', 0)), '结构化 JSON'],
       ['单次最大提示 tokens', '{:,}'.format(P5.get('max_actual_prompt_tokens', 0)), '最长的一个包（整条路线）'],
       ['模型', 'deepseek-flash', '温度 0，强制 JSON 输出']],
      [4.0, 3.4, 7.2]),
-    ('p', '有一个包直接撞了上下文预算：那个包是一整条九寨沟官方两日路线，原文长、'
-          '要抽的条目多，四轮之后模型还在补，最后停在 CONTEXT_BUDGET。'
-          '处理方式不是加大窗口硬塞，而是把那个包按段落切回四片重跑（tools/P5/recover_packages.py），'
-          '再把四片结果并回原批次。所以最终批次里包数从 2099 变成 2102，'
-          '多出来的三条就是分片的账。'),
+    ('p', '一个包含有整条九寨沟官方两日路线的包触发了上下文预算上限。该包按段落切为四片补跑，'
+          '校验原文覆盖与步骤集合不变后合并回批次，因此最终包数为 %d（原计划 2099，'
+          '失败 1 个、补跑 4 个）。' % P5.get('packages_prepared', 0)),
     ('p', '复杂表达主要三类。第一类是多条件："晴天且非节假日才建议走西线"这种，'
           'clauses 会挂两条、logic 标 all；本次 %d 条条件里有 %d 条是两个以上子句，%d 条用了 all 或 any。'
           '第二类是条件藏在动词里："走不动就别走栈道"，没有"如果"两个字，'
@@ -102,29 +132,20 @@ CONTENT['5.3'] = [
               173, 166)),
     ('tbl', '表5-3  条件子句的类别分布',
      ['类别', '子句数', '典型原文'],
-     [[CAT_NAME['date_time'], '173', '“4 月 1 号已开放”“旺季”'],
-      [CAT_NAME['other'], '166', '“人多的时候”“第一次来”'],
-      [CAT_NAME['audience'], '89', '“带娃”“身高 1 米到 1.5 米”'],
-      [CAT_NAME['ticket'], '29', '“需提前一天 23:59 前预订”'],
-      [CAT_NAME['access'], '28', '“如需自驾须持自驾车票”'],
-      [CAT_NAME['crowding'], '25', '“假期人很多”'],
-      [CAT_NAME['time_budget'], '24', '“时间充足的”'],
-      [CAT_NAME['weather'], '24', '“下雨天”“晴天”'],
-      [CAT_NAME['service_availability'], '23', '“园区内租借的推车”'],
-      [CAT_NAME['fitness'], '13', '“走不动太久”“恐高”']],
+     [[CAT_NAME[k], str(v), SAMPLE[k]] for k, v in sorted(CAT_TOTAL.items(), key=lambda kv: -kv[1])],
      [3.6, 2.0, 9.0]),
-    ('p', 'force 这个词我找不到合适的中文，就按字面理解成"语气"：说这话的人有多确定。'
+    ('p', 'force 字段记录说话人的确定程度，按"语气"理解：'
           '%d 条里"推荐"最多（%d），"必需"只有 %d 条，"禁止"和"不建议"加起来 %d 条。'
           '这个分布符合游记的写法——大部分是"建议你怎么样"，真正硬性的规定（禁止带食物、'
           '必须提前订票）很少，而且基本都出自官网那几篇。' % (
               len(RULES), BY_FORCE.get('recommended', 0), BY_FORCE.get('required', 0),
               BY_FORCE.get('prohibited', 0) + BY_FORCE.get('avoid', 0))),
-    ('p', '去重这块做得不好，得说清楚。规则是"目标和条件都一样、文本规范化后完全相同"才合并，'
+    ('p', '去重按字面执行：仅当目标与条件相同、且规范化文本完全一致时才合并，'
           '结果 %d 条规则并成 %d 个条目，只有 %d 个条目来自两条以上的规则。'
           '原因不是流程有问题，是语料里几乎没人用一模一样的措辞说同一件事：'
           '"需要雨衣"和"记得带雨衣"是一回事，但按字面不算重复。'
-          '真正的近义合并要靠语义判断，本轮没做，只在 outputs/P5/校验/去重与近重复候选.json 里'
-          '留了候选清单。' % (len(RULES), len(ITEMS),
+          '近义合并需要语义判断，本次未实现，仅在 outputs/P5/校验/去重与近重复候选.json 中'
+          '保留候选清单。' % (len(RULES), len(ITEMS),
                         sum(1 for i in ITEMS if len(i['source_record_ids']) > 1))),
     ('p', '目标映射的粒度也记了一笔：%d 条观察里，引用范围落在段内提及的 %d 条、'
           '落到景区实体表的 %d 条、落到整个输入包的 %d 条。'
@@ -137,8 +158,8 @@ CONTENT['5.3'] = [
 ]
 
 CONTENT['5.4'] = [
-    ('p', '人工核对抽了 10 条，按陈述类型分层各取一条，另加 4 条随机。做法是拿着规则回原文找那句话，'
-          '逐条判断三件事：内容对不对、条件有没有漏、语气有没有夸大。结果写在表 5-4。'),
+    ('p', '人工核对按陈述类型分层抽取 10 条（每类一条，另加 4 条随机），'
+          '逐条回原文比对三项：内容是否一致、条件是否遗漏、语气是否夸大。结果见表 5-4。'),
     ('tbl', '表5-4  10 条分层核对',
      ['类型', '抽取结果', '原文', '判断'],
      [['条件建议', '95cm+：这个很好玩儿可以自', '海豚转转车 95cm+:这个很好玩儿可以自', '不合格：原文被段落截断，模型照抄残句还标了 complete'],
@@ -152,42 +173,50 @@ CONTENT['5.4'] = [
       ['一般建议', '地铁 3/7 号线汉溪长隆站 D/E 口出', '地铁3/7号线 汉溪长隆站 D/E口出,步行几分钟到南门', '合格'],
       ['一般建议', '到站坐官方大巴（51r）', '到站坐官方大巴(51r)→约10:30进园', '合格']],
      [2.2, 6.4, 5.6, 4.6]),
-    ('p', '10 条里 9 条内容站得住，1 条不合格。不合格那条暴露的是流程问题：那个段落本身在 P1 阶段'
-          '被切断在"可以自"三个字上，模型忠实照抄，但把 complete 标成了 true。'
-          '同类情况还有 %d 条被标成 incomplete_condition 的，说明模型多数时候能识别截断，'
-          '但不是每条都识别——这是"条件完整度"这个字段目前不能全信的原因。' % BY_KIND.get('incomplete_condition', 0)),
+    ('p', '10 条中 9 条内容与原文一致，1 条不合格。不合格样本源于上游截断：该段落在 P1 阶段'
+          '被切在"可以自"三字处，模型照录截断文本，但仍将 complete 标为 true。'
+          '另有 %d 条被标为 incomplete_condition，说明截断多数情况下可被识别，但并非全部，'
+          '因此"条件完整度"字段不能单独作为可用性判据。' % BY_KIND.get('incomplete_condition', 0)),
     ('p', '另外三类问题不算错，但会影响下游。一是标点被规范化（全角逗号变半角），'
           '按原文精确匹配会失败，写核对脚本时得先做标点归一。'
           '二是口语词被删（"就不建议"→"不建议"），读起来更整齐，但严格说改动了原文。'
           '三是时态类事实（"4 月 1 号已开放"）被抽成无条件事实，'
           '库里统一加了 current_validity_verified=false，提醒用的时候要复核年份。'),
-    ('p', '这次只核了 10 条，不到全量的百分之一，不能据此推出整体准确率。'
-          '真要给准确率，得按类型分层抽 100 条以上、两人独立判、再算一致性，本轮没做。'
-          '这一点必须在报告里写明，免得把"抽了 10 条看着还行"当成质量结论。'),
+    ('p', '10 条样本不足全量的百分之一，不能据此推出整体准确率。'
+          '若要给出准确率，需按类型分层抽取 100 条以上、由两人独立判定并计算一致性，'
+          '本次实验未覆盖，因此本节只报告个案层面的核对结果。'),
 ]
 
 CONTENT['5.5'] = [
-    ('p', '六种陈述类型在三个景区都是"一般建议"占大头：广州 %d 条、珠海 %d 条、九寨沟 %d 条，'
-          '分别占各自景区的 %d%%、%d%%、%d%%。条件类（条件建议加条件事实）在珠海最多，'
-          '因为海洋王国那几篇攻略写得细，什么身高玩什么项目、什么天气看什么表演，都带前提。' % (
-              281, 223, 237, 52, 53, 62)),
+    ('p', '六种陈述类型在三个景区都以"一般建议"为主：广州 %d 条、珠海 %d 条、九寨沟 %d 条，'
+          '分别占各景区规则的 %d%%、%d%%、%d%%。条件类（条件建议与条件事实合计）在珠海占比最高，'
+          '与海洋王国攻略的写法有关：身高限制、天气影响、项目时长多以条件句给出。' % (
+              *[BY_KIND_SCENE[s]['general_advice'] for s in ('GZCL', 'ZHCL', 'JZG')],
+              *[round(BY_KIND_SCENE[s]['general_advice'] / sum(BY_KIND_SCENE[s].values()) * 100)
+                for s in ('GZCL', 'ZHCL', 'JZG')])),
     ('fig', 'P5/图表/图5-1_陈述类型与景区.png',
      '图5-1  六种陈述类型在三个景区的分布', 14.4),
-    ('p', '条件子句的类别分布见左图：日期时段 173、其他 166、人群 89，三类占了六成。'
+    ('p', '条件子句的类别分布见左图：日期时段 %d、其他 %d、人群 %d，三类合计占 %d%%。'
           '"其他"这一类比预想的大，翻回去看多是"人多的时候""第一次来的话"'
           '这类带着条件形式但没有受控类别的说法——说明这套类别表还不够用，'
           '至少缺一个"经验/次数"类。人群条件做了关键词粗分（右图）：带小孩 %d、其他 %d、'
           '住店客人 %d、带长辈 %d。粗分只做描述，不参与任何判定，'
           '因为原文写法太散——"小盆友""特种兵""恐高的姐妹"都不是标准说法，关键词兜不住。' % (
-              51, 29, 8, 1)),
+              CAT_TOTAL.get('date_time', 0), CAT_TOTAL.get('other', 0), CAT_TOTAL.get('audience', 0),
+              round(sum(CAT_TOTAL.get(k, 0) for k in ('date_time', 'other', 'audience'))
+                    / max(1, sum(CAT_TOTAL.values())) * 100),
+              AUD_BUCKET.get('带小孩', 0), AUD_BUCKET.get('其他人群', 0),
+              AUD_BUCKET.get('住店客人', 0), AUD_BUCKET.get('带长辈', 0))),
     ('fig', 'P5/图表/图5-2_条件类别与人群.png',
      '图5-2  条件子句类别（左）与人群条件粗分（右）', 14.4),
     ('tbl', '表5-5  分景区的规则数',
      ['景区', '规则数', '占比', '备注'],
-     [['广州长隆', '537', '40.2%', '官网 3 篇贡献了大部分硬性规定'],
-      ['珠海长隆', '419', '31.4%', '条件类比例最高'],
-      ['九寨沟', '380', '28.4%', '多为路线与时间安排'],
-      ['合计', str(len(RULES)), '100%', '—']],
+     [[SCENE_CN[sc], str(sum(BY_KIND_SCENE[sc].values())),
+       '%.1f%%' % (sum(BY_KIND_SCENE[sc].values()) / len(RULES) * 100), note]
+      for sc, note in (('GZCL', '官网 3 篇贡献了大部分硬性规定'),
+                       ('ZHCL', '条件类比例最高'),
+                       ('JZG', '多为路线与时间安排'))]
+     + [['合计', str(len(RULES)), '100%', '—']],
      [3.0, 2.4, 2.0, 7.2]),
     ('p', '还有 %d 条规则被标成"条件完整"（p5_complete），占 %0.0f%%。'
           '这个比例不高，主要因为大量建议本来就无条件——"早点去排队"不需要前提。'

@@ -1,66 +1,56 @@
 {
-  "input_records": 1457,
-  "rules": 1336,
-  "attribute_records": 121,
-  "summaries": 264,
+  "input_records": 1449,
+  "rules": 1327,
+  "attribute_records": 122,
+  "summaries": 256,
   "quarantined_records": [
     {
-      "source_record_id": "FACT-696b0774e5faccf66871",
+      "source_record_id": "FACT-038c34454401dafd7548",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "FACT-ac2ffa45aec4cd2e0c52",
+      "source_record_id": "FACT-b05b6b380f59eb56f6a7",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "FACT-adc3567782b3ef43fb15",
+      "source_record_id": "FACT-b3c31e9097bd56b7ba36",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-4a8d72f8e5de082115e7",
+      "source_record_id": "FACT-e59700af6453e7a77c50",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-742b6ca7686e1b95970d",
+      "source_record_id": "RULE-1a42ddff71354ad53877",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-7f1a0c5a486eaf785144",
+      "source_record_id": "RULE-67bdba2854441a455f32",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-859d4e5715ce300e358e",
+      "source_record_id": "RULE-6fd0f225479d38f15d40",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-8d6578aefeaaf1c41152",
+      "source_record_id": "RULE-792ed3a025ec9a465cf5",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-9b114a843e334120448a",
+      "source_record_id": "RULE-86a447cfc5db909720bc",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-9edc28ac9d2ef4bdafc4",
-      "reason": "excluded_route_fragment_scope",
-      "included_in_default_recommendations": false
-    },
-    {
-      "source_record_id": "RULE-a4a146d9ff5ceff06273",
-      "reason": "excluded_route_fragment_scope",
-      "included_in_default_recommendations": false
-    },
-    {
-      "source_record_id": "RULE-b66843e5678c6f624ae6",
+      "source_record_id": "RULE-961583a9b6818bc5a525",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     },
@@ -70,13 +60,28 @@
       "included_in_default_recommendations": false
     },
     {
-      "source_record_id": "RULE-c87a05efc6fc3f1b0b12",
+      "source_record_id": "RULE-d19fcaf1000d968ee65f",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-de995fca60ff74f04339",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-e2bebeff4d933a376830",
+      "reason": "excluded_route_fragment_scope",
+      "included_in_default_recommendations": false
+    },
+    {
+      "source_record_id": "RULE-fee894eea2f5e04887d0",
       "reason": "excluded_route_fragment_scope",
       "included_in_default_recommendations": false
     }
   ],
-  "input_target_memberships": 1811,
-  "summary_items": 1810,
+  "input_target_memberships": 1788,
+  "summary_items": 1787,
   "exact_duplicate_memberships_merged": 1,
   "semantic_merge_completed": false,
   "llm_calls": 0,

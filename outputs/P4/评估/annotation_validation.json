@@ -1,9 +1,9 @@
 {
   "schema_version": "p4-annotation-check-1",
   "input_sha256": {
-    "outputs\\P4\\P4样本原文与段落.json": "8755332bf6239ed96e1f2adc1b3e0872451fa6c58612db91816462e56f66cc8a",
+    "outputs\\P4\\P4样本原文与段落.json": "65d6c53e5d6702e4141fc169ef2a4a4946fca42dd1a42c53e1c5eee14d9ba3c6",
     "outputs\\P4\\P4人工标注样本.csv": "65448d750e2aaedbfce321d27566e3269f0ee5be7ea30f72e8a4458b2148901c",
-    "C:\\Users\\31879\\Desktop\\数据挖掘实验_项目1\\processed\\P1爬虫数据清洗\\documents.json": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979"
+    "C:\\Users\\31879\\Desktop\\数据挖掘实验_项目1\\processed\\P1爬虫数据清洗\\documents.json": "f8da370f9a5d672465ae23ee1da31f284e55b11cbd1c684b1c6dfe6612844981"
   },
   "rows": 51,
   "valid_rows": 51,

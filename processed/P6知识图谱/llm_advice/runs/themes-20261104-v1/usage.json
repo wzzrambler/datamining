@@ -1,0 +1,14 @@
+{
+  "requests": 248,
+  "entities": 246,
+  "chunked_groups": 1,
+  "theme_count": 525,
+  "prompt_tokens": 341546,
+  "completion_tokens": 40031,
+  "max_actual_total_tokens": 10557,
+  "max_actual_prompt_tokens": 8987,
+  "all_outputs_json_and_refs_validated": true,
+  "semantic_correctness_independently_verified": false,
+  "checkpoints": "C:\\Users\\31879\\小组仓库外我自己的资源\\P6_LLM主题汇总_20261101\\themes-20261104-v1\\checkpoints",
+  "mean_actual_prompt_tokens": 1377.2
+}

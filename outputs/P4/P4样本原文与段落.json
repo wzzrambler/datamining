@@ -1,7 +1,7 @@
 {
   "schema_version": "p4-sample-documents-1",
   "source": "processed/P1爬虫数据清洗/documents.json",
-  "source_sha256": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979",
+  "source_sha256": "f8da370f9a5d672465ae23ee1da31f284e55b11cbd1c684b1c6dfe6612844981",
   "selection_note": "从47篇正式文本中按指代表达丰富度、景区覆盖及文本可读性选取的5篇游记；保留原文及P1段落偏移，不修改正文。",
   "documents": [
     {

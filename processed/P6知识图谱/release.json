@@ -1,9 +1,9 @@
 {
-  "dataset": "p6-quality-themes-v1-60a30ec63ebb",
+  "dataset": "p6-quality-themes-v1-7945f3e47bb8",
   "input_graph": "cleaned-v1/graph.json",
-  "snapshot_directory": "p6-quality-themes-v1-60a30ec63ebb",
-  "nodes": 6649,
-  "edges": 9790,
+  "snapshot_directory": "p6-quality-themes-v1-7945f3e47bb8",
+  "nodes": 6466,
+  "edges": 9482,
   "routes": 29,
   "verified": false,
   "neo4j_imported": false,
@@ -13,8 +13,8 @@
   "quality_ownership_migrated_to_p6": true,
   "quality_manifest": "cleaned-v1/quality_manifest.json",
   "reports_regenerated": false,
-  "llm_theme_entity_scene_groups": 255,
-  "llm_theme_unique_entity_ids": 246,
-  "llm_theme_count": 557,
-  "p5_run": "full-final-20261103"
+  "llm_theme_entity_scene_groups": 246,
+  "llm_theme_unique_entity_ids": 238,
+  "llm_theme_count": 525,
+  "p5_run": "full-final-20261104"
 }

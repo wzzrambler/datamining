@@ -1769,7 +1769,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 2
+        "ocr_repeat_lines": 4
       },
       {
         "kind": "image",
@@ -15785,7 +15785,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 3
+        "ocr_repeat_lines": 4
       },
       {
         "kind": "image",
@@ -19056,7 +19056,8 @@
           "tel_removed": 0,
           "wxid_removed": 0,
           "emoji_removed": 0
-        }
+        },
+        "ocr_repeat_lines": 1
       },
       {
         "kind": "image",
@@ -30438,7 +30439,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 17
+        "ocr_repeat_lines": 19
       },
       {
         "kind": "image",
@@ -37926,7 +37927,7 @@
           "wxid_removed": 0,
           "emoji_removed": 1
         },
-        "ocr_repeat_lines": 11
+        "ocr_repeat_lines": 17
       },
       {
         "kind": "image",
@@ -38707,7 +38708,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 17
+        "ocr_repeat_lines": 21
       },
       {
         "kind": "image",
@@ -39510,7 +39511,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 19
+        "ocr_repeat_lines": 23
       },
       {
         "kind": "image",
@@ -44295,7 +44296,7 @@
           "wxid_removed": 0,
           "emoji_removed": 1
         },
-        "ocr_repeat_lines": 6
+        "ocr_repeat_lines": 7
       },
       {
         "kind": "image",
@@ -62096,7 +62097,8 @@
           "tel_removed": 0,
           "wxid_removed": 0,
           "emoji_removed": 0
-        }
+        },
+        "ocr_repeat_lines": 1
       },
       {
         "kind": "image",
@@ -62327,7 +62329,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 4
+        "ocr_repeat_lines": 5
       },
       {
         "kind": "image",
@@ -77964,7 +77966,7 @@
           "wxid_removed": 0,
           "emoji_removed": 5
         },
-        "ocr_repeat_lines": 14
+        "ocr_repeat_lines": 18
       },
       {
         "kind": "image",
@@ -81161,7 +81163,8 @@
           "tel_removed": 0,
           "wxid_removed": 0,
           "emoji_removed": 0
-        }
+        },
+        "ocr_repeat_lines": 1
       },
       {
         "kind": "image",
@@ -82565,7 +82568,8 @@
           "tel_removed": 0,
           "wxid_removed": 0,
           "emoji_removed": 0
-        }
+        },
+        "ocr_repeat_lines": 1
       },
       {
         "kind": "image",
@@ -95072,7 +95076,7 @@
           "wxid_removed": 0,
           "emoji_removed": 4
         },
-        "ocr_repeat_lines": 2
+        "ocr_repeat_lines": 3
       },
       {
         "kind": "comment",
@@ -98251,7 +98255,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 10
+        "ocr_repeat_lines": 14
       },
       {
         "kind": "image",
@@ -99076,7 +99080,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 3
+        "ocr_repeat_lines": 6
       },
       {
         "kind": "image",
@@ -99857,7 +99861,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 8
+        "ocr_repeat_lines": 10
       },
       {
         "kind": "image",
@@ -101012,7 +101016,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 7
+        "ocr_repeat_lines": 11
       },
       {
         "kind": "comment",
@@ -102923,7 +102927,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 3
+        "ocr_repeat_lines": 6
       },
       {
         "kind": "image",
@@ -106509,7 +106513,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 4
+        "ocr_repeat_lines": 5
       },
       {
         "kind": "image",
@@ -111734,7 +111738,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 1
+        "ocr_repeat_lines": 3
       },
       {
         "kind": "image",
@@ -113505,7 +113509,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 1
+        "ocr_repeat_lines": 2
       },
       {
         "kind": "comment",
@@ -115097,7 +115101,7 @@
           "wxid_removed": 0,
           "emoji_removed": 0
         },
-        "ocr_repeat_lines": 13
+        "ocr_repeat_lines": 28
       },
       {
         "kind": "image",
@@ -119300,7 +119304,8 @@
           "tel_removed": 0,
           "wxid_removed": 0,
           "emoji_removed": 0
-        }
+        },
+        "ocr_repeat_lines": 1
       },
       {
         "kind": "image",

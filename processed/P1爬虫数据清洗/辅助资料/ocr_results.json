@@ -1748,7 +1748,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 2
+    "ocr_repeat_lines": 4
   },
   {
     "doc_id": "GZCL-NOTE-06",
@@ -13865,7 +13865,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 3
+    "ocr_repeat_lines": 4
   },
   {
     "doc_id": "GZCL-NOTE-09",
@@ -16281,7 +16281,8 @@
       "tel_removed": 0,
       "wxid_removed": 0,
       "emoji_removed": 0
-    }
+    },
+    "ocr_repeat_lines": 1
   },
   {
     "doc_id": "GZCL-NOTE-11",
@@ -25559,7 +25560,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 17
+    "ocr_repeat_lines": 19
   },
   {
     "doc_id": "GZCL-NOTE-13",
@@ -30892,7 +30893,7 @@
       "wxid_removed": 0,
       "emoji_removed": 1
     },
-    "ocr_repeat_lines": 11
+    "ocr_repeat_lines": 17
   },
   {
     "doc_id": "ZHCL-NOTE-04",
@@ -31675,7 +31676,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 17
+    "ocr_repeat_lines": 21
   },
   {
     "doc_id": "ZHCL-NOTE-04",
@@ -32480,7 +32481,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 19
+    "ocr_repeat_lines": 23
   },
   {
     "doc_id": "ZHCL-NOTE-04",
@@ -37267,7 +37268,7 @@
       "wxid_removed": 0,
       "emoji_removed": 1
     },
-    "ocr_repeat_lines": 6
+    "ocr_repeat_lines": 7
   },
   {
     "doc_id": "ZHCL-NOTE-04",
@@ -50775,7 +50776,8 @@
       "tel_removed": 0,
       "wxid_removed": 0,
       "emoji_removed": 0
-    }
+    },
+    "ocr_repeat_lines": 1
   },
   {
     "doc_id": "ZHCL-NOTE-09",
@@ -51008,7 +51010,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 4
+    "ocr_repeat_lines": 5
   },
   {
     "doc_id": "ZHCL-NOTE-09",
@@ -64466,7 +64468,7 @@
       "wxid_removed": 0,
       "emoji_removed": 5
     },
-    "ocr_repeat_lines": 14
+    "ocr_repeat_lines": 18
   },
   {
     "doc_id": "ZHCL-NOTE-12",
@@ -67543,7 +67545,8 @@
       "tel_removed": 0,
       "wxid_removed": 0,
       "emoji_removed": 0
-    }
+    },
+    "ocr_repeat_lines": 1
   },
   {
     "doc_id": "ZHCL-NOTE-13",
@@ -68955,7 +68958,8 @@
       "tel_removed": 0,
       "wxid_removed": 0,
       "emoji_removed": 0
-    }
+    },
+    "ocr_repeat_lines": 1
   },
   {
     "doc_id": "ZHCL-NOTE-13",
@@ -76674,7 +76678,7 @@
       "wxid_removed": 0,
       "emoji_removed": 4
     },
-    "ocr_repeat_lines": 2
+    "ocr_repeat_lines": 3
   },
   {
     "doc_id": "JZG-NOTE-09",
@@ -78456,7 +78460,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 10
+    "ocr_repeat_lines": 14
   },
   {
     "doc_id": "JZG-NOTE-10",
@@ -79283,7 +79287,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 3
+    "ocr_repeat_lines": 6
   },
   {
     "doc_id": "JZG-NOTE-10",
@@ -80066,7 +80070,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 8
+    "ocr_repeat_lines": 10
   },
   {
     "doc_id": "JZG-NOTE-10",
@@ -81223,7 +81227,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 7
+    "ocr_repeat_lines": 11
   },
   {
     "doc_id": "JZG-NOTE-11",
@@ -82446,7 +82450,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 3
+    "ocr_repeat_lines": 6
   },
   {
     "doc_id": "JZG-NOTE-11",
@@ -86036,7 +86040,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 4
+    "ocr_repeat_lines": 5
   },
   {
     "doc_id": "JZG-NOTE-11",
@@ -91267,7 +91271,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 1
+    "ocr_repeat_lines": 3
   },
   {
     "doc_id": "JZG-NOTE-11",
@@ -93040,7 +93044,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 1
+    "ocr_repeat_lines": 2
   },
   {
     "doc_id": "JZG-NOTE-12",
@@ -94329,7 +94333,7 @@
       "wxid_removed": 0,
       "emoji_removed": 0
     },
-    "ocr_repeat_lines": 13
+    "ocr_repeat_lines": 28
   },
   {
     "doc_id": "JZG-NOTE-12",
@@ -98040,7 +98044,8 @@
       "tel_removed": 0,
       "wxid_removed": 0,
       "emoji_removed": 0
-    }
+    },
+    "ocr_repeat_lines": 1
   },
   {
     "doc_id": "JZG-NOTE-13",

@@ -4,13 +4,13 @@
       "scenic_code": "GZCL",
       "documents": 18,
       "counts": {
-        "TIME": 449,
-        "POI": 593,
+        "TIME": 446,
+        "POI": 590,
         "TRANSPORT": 146
       },
       "poi_roles": {
         "support": 205,
-        "attraction": 388
+        "attraction": 385
       },
       "no_mentions": []
     },
@@ -18,13 +18,13 @@
       "scenic_code": "ZHCL",
       "documents": 15,
       "counts": {
-        "POI": 571,
-        "TIME": 418,
-        "TRANSPORT": 50
+        "POI": 556,
+        "TIME": 413,
+        "TRANSPORT": 48
       },
       "poi_roles": {
-        "attraction": 494,
-        "support": 77
+        "attraction": 480,
+        "support": 76
       },
       "no_mentions": []
     },
@@ -32,34 +32,34 @@
       "scenic_code": "JZG",
       "documents": 14,
       "counts": {
-        "TIME": 352,
-        "POI": 664,
-        "TRANSPORT": 256
+        "TIME": 343,
+        "POI": 638,
+        "TRANSPORT": 239
       },
       "poi_roles": {
-        "attraction": 595,
-        "support": 69
+        "attraction": 577,
+        "support": 61
       },
       "no_mentions": []
     }
   ],
-  "diagnostic_occurrences": 319,
+  "diagnostic_occurrences": 302,
   "diagnostic_terms": {
-    "北门": 11,
-    "南门": 28,
+    "北门": 10,
+    "南门": 26,
     "地铁": 6,
-    "缆车": 34,
-    "小火车": 30,
+    "缆车": 33,
+    "小火车": 29,
     "双溪长隆站": 1,
     "火烈鸟": 16,
     "空中缆车": 8,
-    "高铁": 10,
+    "高铁": 9,
     "步行": 1,
-    "飞": 10,
+    "飞": 9,
     "原始森林": 5,
     "诺日朗": 19,
-    "沟口": 36,
-    "企鹅": 36,
+    "沟口": 29,
+    "企鹅": 34,
     "深海世界": 3,
     "旋转水转": 1,
     "小船": 2,
@@ -77,7 +77,7 @@
     "海底互动胎": 1,
     "鹦瞒过山车": 1,
     "卡卡剧院": 2,
-    "飞机": 4,
+    "飞机": 3,
     "老虎嘴": 1,
     "九寨黄龍棍場": 1,
     "珍珠潍站": 1,
@@ -88,7 +88,7 @@
   "origin_counts": {
     "legacy": 1197,
     "body": 1136,
-    "image": 1067,
+    "image": 987,
     "comment": 99
   },
   "note": "提及次数不是独立地点数；同一提及可有多条来源。尚无人工P/R/F1。"

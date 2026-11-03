@@ -1,0 +1,4025 @@
+[
+  {
+    "record_id": "P5OBS-ddd28ca1dd38a014",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-d84c258e38dc6005",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+      "facts": [
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间15分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "8f972d58029116d9bf4bcfc240e8d3df9132d4d05e387fc7f97394a1edfadd06",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-d84c258e38dc6005": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-42f2aaaf230b475d",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-d896be8c097d9bf2",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "09:45-10:10",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "145fde0d85f985f11b08923efad18bc35d6837ef2bdef78e2514ba881a6f2079",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-d896be8c097d9bf2": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-d97b6106d3bbf24d",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-af9f086f65127147",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+      "facts": [
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间20分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "145c2ad62843e1e100931c3f8bac9745e8aa2a3a6f12e41f441745b7e56fe586",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-af9f086f65127147": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-bcb4b6ac9f4c074a",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-545fccca3e7cf427",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+      "facts": [
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间20分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "57e9e8966294bb7be2b2160de86908a987f125dd460cfaa71b57eec4993c6817",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-545fccca3e7cf427": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-bd38da8b6e52ed24",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-4286d8a6a4a416df",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+      "facts": [
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间10分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "29294e2d7213460d1137f7d8bd2a8e17b6ffec025086101f0bc7a5fd61af9ad9",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-4286d8a6a4a416df": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-be6c34334fef55ec",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-d84c258e38dc6005",
+      "to_entity_id": "POI-d896be8c097d9bf2",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S005",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S005",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约10分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "84d5a3eda208f0de7a7f94668976a9c293c03f9f4f8e598778fc9da0a3c5396e",
+    "leg_ref": "LEGOBS-8167ac4d2220cd56",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-d84c258e38dc6005": "local_mention",
+      "POI-d896be8c097d9bf2": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-cc24c0b0fb00dee6",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-d896be8c097d9bf2",
+      "to_entity_id": "POI-af9f086f65127147",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S006",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S006",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约10分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "8d9520106b29a57474e6d2d14c47fa5310fe918473689c43078ca70fbc2b18d6",
+    "leg_ref": "LEGOBS-ca2622c157cfb9c9",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-af9f086f65127147": "local_mention",
+      "POI-d896be8c097d9bf2": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-b3a558e483806453",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-af9f086f65127147",
+      "to_entity_id": "POI-545fccca3e7cf427",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S007",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S007",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约10分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "55c889300c73becbdceb46fd67514e0a31714ab9a1f3408ba7da69ea7f946d7b",
+    "leg_ref": "LEGOBS-080e2da3fca1b990",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-545fccca3e7cf427": "local_mention",
+      "POI-af9f086f65127147": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-505fb1923699c8e4",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-545fccca3e7cf427",
+      "to_entity_id": "POI-4286d8a6a4a416df",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S008",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S008",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约5分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "1e94a0038390a1d780174dbc29fde47892661b116ff82b1f5e5f9656eadc342b",
+    "leg_ref": "LEGOBS-8d26de12ec7d0cd0",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-4286d8a6a4a416df": "local_mention",
+      "POI-545fccca3e7cf427": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-b8342a8cb911286d",
+    "tool_name": "submit_route",
+    "arguments": {
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "summary": "箭竹海至诺日朗群海段：依次换乘观光车游览箭竹海、熊猫海、五花海、镜海、诺日朗群海。",
+      "recommended_audiences": [],
+      "audience_basis": "not_stated",
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "steps": [
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+          "text": "箭竹海→熊猫海(09:45-10:10 换乘观光车,约10分钟车程,游览时间15分钟)",
+          "poi_ids": [
+            "POI-d84c258e38dc6005",
+            "POI-d896be8c097d9bf2"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+          "text": "熊猫海→五花海(10:10-10:40 换乘观光车,约10分钟车程,游览时间20分钟)",
+          "poi_ids": [
+            "POI-d896be8c097d9bf2",
+            "POI-af9f086f65127147"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+          "text": "五花海→镜海(10:40-11:10 换乘观光车,约10分钟车程,游览时间20分钟)",
+          "poi_ids": [
+            "POI-af9f086f65127147",
+            "POI-545fccca3e7cf427"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+          "text": "镜海→诺日朗群海(11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟)",
+          "poi_ids": [
+            "POI-545fccca3e7cf427",
+            "POI-4286d8a6a4a416df"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        }
+      ],
+      "normalizations": []
+    },
+    "fingerprint": "6c0e46684b77e62718042857fb8aeea589d7304b43d7d53f0180414b6abfb627",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-4286d8a6a4a416df": "local_mention",
+      "POI-545fccca3e7cf427": "local_mention",
+      "POI-af9f086f65127147": "local_mention",
+      "POI-d84c258e38dc6005": "local_mention",
+      "POI-d896be8c097d9bf2": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    },
+    "route_id": "JZG-OFF-01-R-5489d330c8",
+    "route_steps": [
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "text": "箭竹海→熊猫海(09:45-10:10 换乘观光车,约10分钟车程,游览时间15分钟)",
+        "poi_ids": [
+          "POI-d84c258e38dc6005",
+          "POI-d896be8c097d9bf2"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "text": "熊猫海→五花海(10:10-10:40 换乘观光车,约10分钟车程,游览时间20分钟)",
+        "poi_ids": [
+          "POI-d896be8c097d9bf2",
+          "POI-af9f086f65127147"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "text": "五花海→镜海(10:40-11:10 换乘观光车,约10分钟车程,游览时间20分钟)",
+        "poi_ids": [
+          "POI-af9f086f65127147",
+          "POI-545fccca3e7cf427"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "text": "镜海→诺日朗群海(11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟)",
+        "poi_ids": [
+          "POI-545fccca3e7cf427",
+          "POI-4286d8a6a4a416df"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      }
+    ],
+    "created_route_id": null,
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-08ea1466abda228b",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-4da05841a736a1f2",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "11:30",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "departure_time",
+          "value_text": "13:30",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "fd2bf6e374b7b52da429dfeeba11605edac26c79bfba9fc9977f8d66fc852830",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-4da05841a736a1f2": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-423dfd46a172dbde",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-6cfbebe4c178f2ad",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+      "facts": [
+        {
+          "attribute": "visit_time",
+          "value_text": "11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "67afd634da8c6804a35872d0480d9116a4cf8da1ca9ab56e8cc8a396127d63c3",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-6cfbebe4c178f2ad": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-45cc80714d2e714e",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-a59bdf752fbbc666",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+      "facts": [
+        {
+          "attribute": "visit_time",
+          "value_text": "11:30-13:30用餐和休息期间可观赏诺日朗瀑布",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "recommended"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "b5b02763d72895a21562428fb8b28a31e3befefb838f69536d65a06ba658e2a2",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-a59bdf752fbbc666": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-9eed2e1f96fc59d1",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-13228cccee608f7d",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "13:30-14:20乘坐观光车,约30分钟车程",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间20分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "f2ee11c81a447a2b2df50a4c11bf49ad58c037219e18e545a3bf77e195309a37",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-13228cccee608f7d": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-53d2ff34e76c8b73",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-de6db9a7cdd443ab",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "14:20-14:50步行15分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间15分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "1ca92c20aba8c71c482be835b0f1c1e9c60ce4eddf808f94fbef0fbc820c3f58",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-de6db9a7cdd443ab": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-97eb2dd0aac1c10c",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-093f0023e45f6198",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "14:50-15:40乘坐观光车,约30分钟车程",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间20分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "85bf3551a3270cef0eef7949b1c526c9725e3d28b716988cd67ac35a61fe5147",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-093f0023e45f6198": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-ae70aa29af6459b8",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-4286d8a6a4a416df",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+      "facts": [],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "724b47ca7bf665bb717ef105d546bba0884607377285e08763c881ac252037b7",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-4286d8a6a4a416df": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-5c28f2ada2bbdd14",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-4da05841a736a1f2",
+      "to_entity_id": "POI-13228cccee608f7d",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S010",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S010",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约30分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "operating_time",
+          "value_text": "13:30-14:20",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "97924da252fa3735591bed16cd71d99a1176cdc4e42a50ea2d59f218b37d252f",
+    "leg_ref": "LEGOBS-a816da329b1d539c",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-13228cccee608f7d": "local_mention",
+      "POI-4da05841a736a1f2": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-3aed56a7d1c375ed",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-13228cccee608f7d",
+      "to_entity_id": "POI-de6db9a7cdd443ab",
+      "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S011",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S011",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "步行15分钟",
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "operating_time",
+          "value_text": "14:20-14:50",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "1b9f93a6357fcd397e5e444b5ae74d4fa969d6c6fa5faca8d9fbe542763cccdf",
+    "leg_ref": "LEGOBS-614fff1b030d9b0d",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-13228cccee608f7d": "local_mention",
+      "POI-de6db9a7cdd443ab": "local_mention",
+      "TRANSPORT-6d3dead8afc28ac0": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-ea14779c2c52ee04",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-de6db9a7cdd443ab",
+      "to_entity_id": "POI-093f0023e45f6198",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S012",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S012",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约30分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "operating_time",
+          "value_text": "14:50-15:40",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "e0aa3f1eb359edf921e377b822470134484242cc2d84a055e1838b5599e706e7",
+    "leg_ref": "LEGOBS-cf5ff1f150bdc893",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-093f0023e45f6198": "local_mention",
+      "POI-de6db9a7cdd443ab": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-ab31e3b1b0da1be8",
+    "tool_name": "submit_route",
+    "arguments": {
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "summary": "诺日朗群海至犀牛海的午后游览片段：诺日朗中心站用餐休息并观赏诺日朗瀑布，随后乘观光车至长海、步行至五彩池，再乘观光车至犀牛海。",
+      "recommended_audiences": [],
+      "audience_basis": "not_stated",
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "steps": [
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+          "text": "诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)",
+          "poi_ids": [
+            "POI-4286d8a6a4a416df",
+            "POI-4da05841a736a1f2",
+            "POI-6cfbebe4c178f2ad",
+            "POI-a59bdf752fbbc666"
+          ],
+          "transport_ids": []
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+          "text": "诺日朗中心站→长海(13:30-14:20乘坐观光车,约30分钟车程,游览时间20分钟 )",
+          "poi_ids": [
+            "POI-4da05841a736a1f2",
+            "POI-13228cccee608f7d"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+          "text": "长海→五彩池(14:20-14:50步行15分钟,游览时间15分钟 )",
+          "poi_ids": [
+            "POI-13228cccee608f7d",
+            "POI-de6db9a7cdd443ab"
+          ],
+          "transport_ids": [
+            "TRANSPORT-6d3dead8afc28ac0"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+          "text": "五彩池→犀牛海(14:50-15:40乘坐观光车,约30分钟车程,游览时间20分钟 )",
+          "poi_ids": [
+            "POI-de6db9a7cdd443ab",
+            "POI-093f0023e45f6198"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        }
+      ],
+      "normalizations": []
+    },
+    "fingerprint": "f7bb6f3f5b69ec80de427e45434844545bd643378de8e7ce4acae6e5b4a3173d",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-993fdb5a885095e9c70e",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-093f0023e45f6198": "local_mention",
+      "POI-13228cccee608f7d": "local_mention",
+      "POI-4286d8a6a4a416df": "local_mention",
+      "POI-4da05841a736a1f2": "local_mention",
+      "POI-6cfbebe4c178f2ad": "local_mention",
+      "POI-a59bdf752fbbc666": "local_mention",
+      "POI-de6db9a7cdd443ab": "local_mention",
+      "TRANSPORT-6d3dead8afc28ac0": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    },
+    "route_id": "JZG-OFF-01-R-5489d330c8",
+    "route_steps": [
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+        "text": "诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)",
+        "poi_ids": [
+          "POI-4286d8a6a4a416df",
+          "POI-4da05841a736a1f2",
+          "POI-6cfbebe4c178f2ad",
+          "POI-a59bdf752fbbc666"
+        ],
+        "transport_ids": []
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "text": "诺日朗中心站→长海(13:30-14:20乘坐观光车,约30分钟车程,游览时间20分钟 )",
+        "poi_ids": [
+          "POI-4da05841a736a1f2",
+          "POI-13228cccee608f7d"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "text": "长海→五彩池(14:20-14:50步行15分钟,游览时间15分钟 )",
+        "poi_ids": [
+          "POI-13228cccee608f7d",
+          "POI-de6db9a7cdd443ab"
+        ],
+        "transport_ids": [
+          "TRANSPORT-6d3dead8afc28ac0"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "text": "五彩池→犀牛海(14:50-15:40乘坐观光车,约30分钟车程,游览时间20分钟 )",
+        "poi_ids": [
+          "POI-de6db9a7cdd443ab",
+          "POI-093f0023e45f6198"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      }
+    ],
+    "created_route_id": null,
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-c29ed020c5efaa3e",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-093f0023e45f6198",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "facts": [
+        {
+          "attribute": "visit_time",
+          "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "3e75c9be980aa0b2243bb528497b03fb11470af7aa35f69666e84265edeb79eb",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-093f0023e45f6198": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-154c15ede6654834",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-90e6d6cf975ce322",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "facts": [],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "b939f2f759d3d7727cf31a0d5b70691d897b493df77ab5b7fdbb04b62a17c647",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-90e6d6cf975ce322": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-d3fd0d457481c913",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-35e41b7e200a7bc0",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "facts": [],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "3efcf003550b54f1f72492e9bdd2c2bd91a0b7001d3c32fecdca015304f0fa91",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-35e41b7e200a7bc0": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-ea2cda19c676c2db",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-5803354d56bd9e8f",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "facts": [],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "75869f0db8c29a8287d583d89d4304876d55ad26a0efa222e79f4c39e9cc68c0",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-5803354d56bd9e8f": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-8a6a984dd6922fc6",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-612a6e7d55fb0b0a",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "facts": [],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "55331adc4f26380849b0b3ee15beeb845fa378c52cdc87d089ba39e0d234f24e",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-612a6e7d55fb0b0a": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-fd525fd502382f02",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-adddfdfb0b27578b",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "facts": [],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "37c816c1b380697be0d5729b5879b6f4d45a0d3e58d1fe84b71cc576967903bd",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-adddfdfb0b27578b": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-96a4eb0d609db3fa",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-c97ee39818a3536c",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "17:00",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "8eff1c58298b6628073e968535ec4a95e6b21b20a4fd39eb915b54f41819a2a1",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-c97ee39818a3536c": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-5a57b4dee6f4083a",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-3464c42c5541834f",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S014",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "17:00",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "departure_time",
+          "value_text": "17:20",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间10分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "7e09c519a7c51ade457d69b6f13ca0cd3ecd93bcbc75d00ef033171476cbfb9e",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-3464c42c5541834f": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-79cf2c6cf01cd5d8",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-859e5641d28e8b93",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "17:35",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "b0c70b7c0c97ab0ee600258f85b7b9569256f160bdfa47790767a747c0a710b6",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-859e5641d28e8b93": "scene_registry"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-e67ec5aee34a86f9",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-c97ee39818a3536c",
+      "to_entity_id": "POI-3464c42c5541834f",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S014",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S014",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约10分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "operating_time",
+          "value_text": "17:00-17:20",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "bd68992c129589cac96c52566accb296be5b9525053a939ed2bea9508b73ce78",
+    "leg_ref": "LEGOBS-488c0ceabd090535",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-3464c42c5541834f": "local_mention",
+      "POI-c97ee39818a3536c": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-173cb44b683b86d4",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-3464c42c5541834f",
+      "to_entity_id": "POI-859e5641d28e8b93",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S015",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S015",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约15分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "operating_time",
+          "value_text": "17:00-17:35",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "989d60914bbc9cff596d4215c255a9c36d202ae4ffd48384782de235cd90848c",
+    "leg_ref": "LEGOBS-92fb9e988cabb008",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-3464c42c5541834f": "local_mention",
+      "POI-859e5641d28e8b93": "scene_registry",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-a68e3e6e4cba0cba",
+    "tool_name": "submit_route",
+    "arguments": {
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "summary": "下午从犀牛海经老虎海、树正瀑布、树正磨房、树正寨、卧龙海到双龙海，再乘观光车经盆景滩返回沟口。",
+      "recommended_audiences": [],
+      "audience_basis": "not_stated",
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "steps": [
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+          "text": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海(15:40-17:00步行+乘车的方式,约1个多小时游览时间)",
+          "poi_ids": [
+            "POI-093f0023e45f6198",
+            "POI-90e6d6cf975ce322",
+            "POI-35e41b7e200a7bc0",
+            "POI-5803354d56bd9e8f",
+            "POI-612a6e7d55fb0b0a",
+            "POI-adddfdfb0b27578b",
+            "POI-c97ee39818a3536c"
+          ],
+          "transport_ids": [
+            "TRANSPORT-6d3dead8afc28ac0",
+            "TRANSPORT-a3087430f466be14"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S014",
+          "text": "双龙海→盆景滩(17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 )",
+          "poi_ids": [
+            "POI-c97ee39818a3536c",
+            "POI-3464c42c5541834f"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+          "text": "盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )",
+          "poi_ids": [
+            "POI-3464c42c5541834f",
+            "POI-859e5641d28e8b93"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        }
+      ],
+      "normalizations": []
+    },
+    "fingerprint": "0b86802eac160dbf80b75d891080c018f51285a20d0d7b809e25ce57f98ed466",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-c7003cb87de5c4adc1b4",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-093f0023e45f6198": "local_mention",
+      "POI-3464c42c5541834f": "local_mention",
+      "POI-35e41b7e200a7bc0": "local_mention",
+      "POI-5803354d56bd9e8f": "local_mention",
+      "POI-612a6e7d55fb0b0a": "local_mention",
+      "POI-859e5641d28e8b93": "scene_registry",
+      "POI-90e6d6cf975ce322": "local_mention",
+      "POI-adddfdfb0b27578b": "local_mention",
+      "POI-c97ee39818a3536c": "local_mention",
+      "TRANSPORT-6d3dead8afc28ac0": "local_mention",
+      "TRANSPORT-a3087430f466be14": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    },
+    "route_id": "JZG-OFF-01-R-5489d330c8",
+    "route_steps": [
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "text": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海(15:40-17:00步行+乘车的方式,约1个多小时游览时间)",
+        "poi_ids": [
+          "POI-093f0023e45f6198",
+          "POI-90e6d6cf975ce322",
+          "POI-35e41b7e200a7bc0",
+          "POI-5803354d56bd9e8f",
+          "POI-612a6e7d55fb0b0a",
+          "POI-adddfdfb0b27578b",
+          "POI-c97ee39818a3536c"
+        ],
+        "transport_ids": [
+          "TRANSPORT-6d3dead8afc28ac0",
+          "TRANSPORT-a3087430f466be14"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "text": "双龙海→盆景滩(17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 )",
+        "poi_ids": [
+          "POI-c97ee39818a3536c",
+          "POI-3464c42c5541834f"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "text": "盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )",
+        "poi_ids": [
+          "POI-3464c42c5541834f",
+          "POI-859e5641d28e8b93"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      }
+    ],
+    "created_route_id": null,
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-4edec42dfb1c8f90",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-0bcb1dea43e5296a",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "08:10",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "65d6359ece49ce7d4397abfbfd9cbe76551e9b6d99d78ca7b4f81a349367532b",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-0bcb1dea43e5296a": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-4dddac71816db728",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-bbc557d2673e93f6",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "09:00",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间20分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "c637912c10d3980e0789ad8510e0b8567d1921492472e2439e84bbcaff9ef3a3",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-bbc557d2673e93f6": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-1f0c7322c8bd7bc0",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-871c3b6e819c218e",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S003",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "09:15",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间10分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "89e35f152e9aba37dcbf86001bf6e1321d2ae2b6c3e3849b61fc2e2e2f4f9c49",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-871c3b6e819c218e": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-b1ad496be032317c",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-d84c258e38dc6005",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S004",
+      "facts": [
+        {
+          "attribute": "arrival_time",
+          "value_text": "09:45",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        },
+        {
+          "attribute": "visit_time",
+          "value_text": "游览时间15分钟",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "1f4ac7bd9e012d5e9f8bc8ace93a7a3e046ee1f4998d559b46024ec00ac63aa8",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-d84c258e38dc6005": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-79da0c9769e2501a",
+    "tool_name": "submit_poi_facts",
+    "arguments": {
+      "entity_id": "POI-859e5641d28e8b93",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+      "facts": [
+        {
+          "attribute": "departure_time",
+          "value_text": "07:00",
+          "related_poi_id": null,
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "42bcfa961137c83a24991801fc78f0bc686afde4ddfb932469a5fe8758f781b0",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-859e5641d28e8b93": "scene_registry"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-27c84f54040761c9",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-859e5641d28e8b93",
+      "to_entity_id": "POI-0bcb1dea43e5296a",
+      "transport_entity_id": "TRANSPORT-a3087430f466be14",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S001",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S001",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "一个小时车程",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "57b9254b83ed6d0b6852b2a96ba52b8d2458ec5f0b9839ddd99236869a1ddb9f",
+    "leg_ref": "LEGOBS-8eda6263afa862e4",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-0bcb1dea43e5296a": "local_mention",
+      "POI-859e5641d28e8b93": "scene_registry",
+      "TRANSPORT-a3087430f466be14": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-7f8f7095f3bcd51c",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-0bcb1dea43e5296a",
+      "to_entity_id": "POI-bbc557d2673e93f6",
+      "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S002",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S002",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": null,
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "步行30分钟",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "00d7f27071277a671f4e57a81c08551f8cf5e5c7ed74b3dafbb9468a5a14c875",
+    "leg_ref": "LEGOBS-fbfb1b1bd6a2f17c",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-0bcb1dea43e5296a": "local_mention",
+      "POI-bbc557d2673e93f6": "local_mention",
+      "TRANSPORT-6d3dead8afc28ac0": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-3d89dfb0df42174d",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-bbc557d2673e93f6",
+      "to_entity_id": "POI-871c3b6e819c218e",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": "观光车",
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约5分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "ee5641fd93949ae655803703af8f4e7890187dc39db8f03148b93c063b31e4a1",
+    "leg_ref": "LEGOBS-1be62d793a538352",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-871c3b6e819c218e": "local_mention",
+      "POI-bbc557d2673e93f6": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-2e50c6ab596bbe15",
+    "tool_name": "submit_transport_leg",
+    "arguments": {
+      "from_entity_id": "POI-871c3b6e819c218e",
+      "to_entity_id": "POI-d84c258e38dc6005",
+      "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+      "to_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+      "assertion_kind": "visitor_movement",
+      "service_name_text": "观光车",
+      "facts": [
+        {
+          "attribute": "ride_duration",
+          "value_text": "约15分钟车程",
+          "condition": null,
+          "modality": "asserted"
+        }
+      ],
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "normalizations": []
+    },
+    "fingerprint": "f92cad20b12f53d537678a061c2fca003a5c5b1f6be09c8d62cea6ad1df32762",
+    "leg_ref": "LEGOBS-cf297f3dcc804bc1",
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-871c3b6e819c218e": "local_mention",
+      "POI-d84c258e38dc6005": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "package_status": "COMPLETED"
+  },
+  {
+    "record_id": "P5OBS-6a12a24595cb986e",
+    "tool_name": "submit_route",
+    "arguments": {
+      "route_id": "JZG-OFF-01-R-5489d330c8",
+      "summary": "从沟口乘车到原始森林，再步行至芳草海，换乘观光车经天鹅海到箭竹海的上午游览线路。",
+      "recommended_audiences": [],
+      "audience_basis": "not_stated",
+      "resolves_issue_ids": [],
+      "condition_record_ids": [],
+      "steps": [
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+          "text": "沟口乘车→原始森林(07:00-08:10 一个小时车程)",
+          "poi_ids": [
+            "POI-859e5641d28e8b93",
+            "POI-0bcb1dea43e5296a"
+          ],
+          "transport_ids": [
+            "TRANSPORT-a3087430f466be14"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+          "text": "原始森林→芳草海(08:10-09:00 步行30分钟,游览时间20分钟)",
+          "poi_ids": [
+            "POI-0bcb1dea43e5296a",
+            "POI-bbc557d2673e93f6"
+          ],
+          "transport_ids": [
+            "TRANSPORT-6d3dead8afc28ac0"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S003",
+          "text": "芳草海→天鹅海(09:00-09:15 换乘观光车,约5分钟车程,游览时间10分钟)",
+          "poi_ids": [
+            "POI-bbc557d2673e93f6",
+            "POI-871c3b6e819c218e"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        },
+        {
+          "step_id": "JZG-OFF-01-R-5489d330c8-S004",
+          "text": "天鹅海→箭竹海(09:15-09:45 换乘观光车,约15分钟车程,游览时间15分钟)",
+          "poi_ids": [
+            "POI-871c3b6e819c218e",
+            "POI-d84c258e38dc6005"
+          ],
+          "transport_ids": [
+            "TRANSPORT-e6843f2f5df433cb"
+          ]
+        }
+      ],
+      "normalizations": []
+    },
+    "fingerprint": "2a557656e4e87af4346de474528d31a36b8b85f17c2d2582d7b4dbcac628b4df",
+    "leg_ref": null,
+    "active": true,
+    "depends_on": [],
+    "package_key": "PKG-ff71dcd35338f9ca9933",
+    "scenic_code": "JZG",
+    "reference_scopes": {
+      "JZG-OFF-01-R-5489d330c8": "in_package",
+      "POI-0bcb1dea43e5296a": "local_mention",
+      "POI-859e5641d28e8b93": "scene_registry",
+      "POI-871c3b6e819c218e": "local_mention",
+      "POI-bbc557d2673e93f6": "local_mention",
+      "POI-d84c258e38dc6005": "local_mention",
+      "TRANSPORT-6d3dead8afc28ac0": "local_mention",
+      "TRANSPORT-a3087430f466be14": "local_mention",
+      "TRANSPORT-e6843f2f5df433cb": "local_mention"
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "876d6c1aeab8e9c748263a0ee938dd755496102f4ded6eb646e2df8b677fada3",
+        "p2": "b28988dc1ceaf97e549d56f2deba8f9b3302fb1a9bab43ba20a44e3fc8a95da1",
+        "p3": "f82ca6cef52e96998259f030ae7924592301d80cd28f184316a435e26b6084be",
+        "sources": "592bddbda7cb1b9dbf1f6dd749fa7d59201e009c548cf8d67bcba452c0c5c5ef"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    },
+    "route_id": "JZG-OFF-01-R-5489d330c8",
+    "route_steps": [
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "text": "沟口乘车→原始森林(07:00-08:10 一个小时车程)",
+        "poi_ids": [
+          "POI-859e5641d28e8b93",
+          "POI-0bcb1dea43e5296a"
+        ],
+        "transport_ids": [
+          "TRANSPORT-a3087430f466be14"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "text": "原始森林→芳草海(08:10-09:00 步行30分钟,游览时间20分钟)",
+        "poi_ids": [
+          "POI-0bcb1dea43e5296a",
+          "POI-bbc557d2673e93f6"
+        ],
+        "transport_ids": [
+          "TRANSPORT-6d3dead8afc28ac0"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "text": "芳草海→天鹅海(09:00-09:15 换乘观光车,约5分钟车程,游览时间10分钟)",
+        "poi_ids": [
+          "POI-bbc557d2673e93f6",
+          "POI-871c3b6e819c218e"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      },
+      {
+        "step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "text": "天鹅海→箭竹海(09:15-09:45 换乘观光车,约15分钟车程,游览时间15分钟)",
+        "poi_ids": [
+          "POI-871c3b6e819c218e",
+          "POI-d84c258e38dc6005"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ]
+      }
+    ],
+    "created_route_id": null,
+    "package_status": "COMPLETED"
+  }
+]

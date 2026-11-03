@@ -37,23 +37,23 @@
     "scenic_code": "GZCL",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "长隆野生动物世界",
-    "mention_count": 29,
-    "document_count": 9,
+    "name": "青龙山",
+    "mention_count": 28,
+    "document_count": 8,
     "surface_forms": {
-      "广州长隆野生动物世界": 6,
-      "长隆野生动物世界": 23
+      "青龙山": 28
     }
   },
   {
     "scenic_code": "GZCL",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "青龙山",
-    "mention_count": 28,
+    "name": "长隆野生动物世界",
+    "mention_count": 27,
     "document_count": 8,
     "surface_forms": {
-      "青龙山": 28
+      "广州长隆野生动物世界": 5,
+      "长隆野生动物世界": 22
     }
   },
   {
@@ -138,10 +138,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "长隆欢乐世界",
-    "mention_count": 14,
+    "mention_count": 13,
     "document_count": 5,
     "surface_forms": {
-      "长隆欢乐世界": 14
+      "长隆欢乐世界": 13
     }
   },
   {
@@ -876,22 +876,22 @@
     "scenic_code": "GZCL",
     "type": "TIME",
     "poi_role": "",
-    "name": "晚上",
-    "mention_count": 14,
+    "name": "下午",
+    "mention_count": 13,
     "document_count": 9,
     "surface_forms": {
-      "晚上": 14
+      "下午": 13
     }
   },
   {
     "scenic_code": "GZCL",
     "type": "TIME",
     "poi_role": "",
-    "name": "下午",
-    "mention_count": 13,
+    "name": "晚上",
+    "mention_count": 12,
     "document_count": 9,
     "surface_forms": {
-      "下午": 13
+      "晚上": 12
     }
   },
   {
@@ -975,22 +975,22 @@
     "scenic_code": "GZCL",
     "type": "TIME",
     "poi_role": "",
-    "name": "半小时",
-    "mention_count": 8,
-    "document_count": 7,
+    "name": "10:30",
+    "mention_count": 7,
+    "document_count": 5,
     "surface_forms": {
-      "半小时": 8
+      "10:30": 7
     }
   },
   {
     "scenic_code": "GZCL",
     "type": "TIME",
     "poi_role": "",
-    "name": "10:30",
+    "name": "半小时",
     "mention_count": 7,
-    "document_count": 5,
+    "document_count": 7,
     "surface_forms": {
-      "10:30": 7
+      "半小时": 7
     }
   },
   {
@@ -3343,10 +3343,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "九寨沟",
-    "mention_count": 143,
+    "mention_count": 135,
     "document_count": 14,
     "surface_forms": {
-      "九寨沟": 143
+      "九寨沟": 135
     }
   },
   {
@@ -3365,10 +3365,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "五彩池",
-    "mention_count": 39,
+    "mention_count": 38,
     "document_count": 11,
     "surface_forms": {
-      "五彩池": 39
+      "五彩池": 38
     }
   },
   {
@@ -3376,10 +3376,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "五花海",
-    "mention_count": 35,
+    "mention_count": 33,
     "document_count": 9,
     "surface_forms": {
-      "五花海": 35
+      "五花海": 33
     }
   },
   {
@@ -3387,10 +3387,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "箭竹海",
-    "mention_count": 31,
+    "mention_count": 29,
     "document_count": 9,
     "surface_forms": {
-      "箭竹海": 31
+      "箭竹海": 29
     }
   },
   {
@@ -3398,10 +3398,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "原始森林",
-    "mention_count": 22,
+    "mention_count": 21,
     "document_count": 7,
     "surface_forms": {
-      "原始森林": 22
+      "原始森林": 21
     }
   },
   {
@@ -3419,17 +3419,6 @@
     "scenic_code": "JZG",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "熊猫海",
-    "mention_count": 18,
-    "document_count": 8,
-    "surface_forms": {
-      "熊猫海": 18
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "POI",
-    "poi_role": "attraction",
     "name": "镜海",
     "mention_count": 18,
     "document_count": 7,
@@ -3441,11 +3430,22 @@
     "scenic_code": "JZG",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "树正沟",
+    "name": "熊猫海",
     "mention_count": 17,
+    "document_count": 8,
+    "surface_forms": {
+      "熊猫海": 17
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "树正沟",
+    "mention_count": 16,
     "document_count": 6,
     "surface_forms": {
-      "树正沟": 17
+      "树正沟": 16
     }
   },
   {
@@ -3457,28 +3457,6 @@
     "document_count": 7,
     "surface_forms": {
       "珍珠滩": 16
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "POI",
-    "poi_role": "support",
-    "name": "黄龙九寨站",
-    "mention_count": 16,
-    "document_count": 6,
-    "surface_forms": {
-      "黄龙九寨站": 16
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "POI",
-    "poi_role": "attraction",
-    "name": "珍珠滩瀑布",
-    "mention_count": 15,
-    "document_count": 7,
-    "surface_forms": {
-      "珍珠滩瀑布": 15
     }
   },
   {
@@ -3506,13 +3484,12 @@
   {
     "scenic_code": "JZG",
     "type": "POI",
-    "poi_role": "support",
-    "name": "成都东站",
-    "mention_count": 13,
-    "document_count": 6,
+    "poi_role": "attraction",
+    "name": "珍珠滩瀑布",
+    "mention_count": 14,
+    "document_count": 7,
     "surface_forms": {
-      "成都东": 9,
-      "成都东站": 4
+      "珍珠滩瀑布": 14
     }
   },
   {
@@ -3530,11 +3507,11 @@
     "scenic_code": "JZG",
     "type": "POI",
     "poi_role": "support",
-    "name": "诺日朗中心",
+    "name": "黄龙九寨站",
     "mention_count": 13,
     "document_count": 6,
     "surface_forms": {
-      "诺日朗中心": 13
+      "黄龙九寨站": 13
     }
   },
   {
@@ -3573,6 +3550,17 @@
   {
     "scenic_code": "JZG",
     "type": "POI",
+    "poi_role": "support",
+    "name": "诺日朗中心",
+    "mention_count": 12,
+    "document_count": 6,
+    "surface_forms": {
+      "诺日朗中心": 12
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
     "poi_role": "attraction",
     "name": "双龙海",
     "mention_count": 11,
@@ -3590,6 +3578,18 @@
     "document_count": 3,
     "surface_forms": {
       "天鹅海": 11
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "成都东站",
+    "mention_count": 11,
+    "document_count": 6,
+    "surface_forms": {
+      "成都东": 8,
+      "成都东站": 3
     }
   },
   {
@@ -3629,17 +3629,6 @@
     "scenic_code": "JZG",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "则查洼沟",
-    "mention_count": 7,
-    "document_count": 4,
-    "surface_forms": {
-      "则查洼沟": 7
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "POI",
-    "poi_role": "attraction",
     "name": "盆景滩",
     "mention_count": 7,
     "document_count": 2,
@@ -3656,6 +3645,17 @@
     "document_count": 3,
     "surface_forms": {
       "诺日朗中心站": 7
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "则查洼沟",
+    "mention_count": 6,
+    "document_count": 4,
+    "surface_forms": {
+      "则查洼沟": 6
     }
   },
   {
@@ -3711,17 +3711,6 @@
     "document_count": 1,
     "surface_forms": {
       "九寨沟神仙池景区": 3
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "POI",
-    "poi_role": "support",
-    "name": "九寨黄龙机场",
-    "mention_count": 3,
-    "document_count": 1,
-    "surface_forms": {
-      "九寨黄龙机场": 3
     }
   },
   {
@@ -3832,6 +3821,17 @@
     "document_count": 1,
     "surface_forms": {
       "镜海停车场": 2
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "POI",
+    "poi_role": "support",
+    "name": "九寨黄龙机场",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "九寨黄龙机场": 1
     }
   },
   {
@@ -3970,22 +3970,22 @@
     "scenic_code": "JZG",
     "type": "TIME",
     "poi_role": "",
-    "name": "第二天",
-    "mention_count": 14,
-    "document_count": 7,
+    "name": "下午",
+    "mention_count": 13,
+    "document_count": 6,
     "surface_forms": {
-      "第二天": 14
+      "下午": 13
     }
   },
   {
     "scenic_code": "JZG",
     "type": "TIME",
     "poi_role": "",
-    "name": "下午",
+    "name": "第二天",
     "mention_count": 13,
-    "document_count": 6,
+    "document_count": 7,
     "surface_forms": {
-      "下午": 13
+      "第二天": 13
     }
   },
   {
@@ -4003,22 +4003,22 @@
     "scenic_code": "JZG",
     "type": "TIME",
     "poi_role": "",
-    "name": "上午",
-    "mention_count": 10,
-    "document_count": 6,
+    "name": "Day2",
+    "mention_count": 9,
+    "document_count": 7,
     "surface_forms": {
-      "上午": 10
+      "Day2": 9
     }
   },
   {
     "scenic_code": "JZG",
     "type": "TIME",
     "poi_role": "",
-    "name": "Day2",
+    "name": "上午",
     "mention_count": 9,
-    "document_count": 7,
+    "document_count": 6,
     "surface_forms": {
-      "Day2": 9
+      "上午": 9
     }
   },
   {
@@ -4136,21 +4136,10 @@
     "type": "TIME",
     "poi_role": "",
     "name": "当天",
-    "mention_count": 6,
+    "mention_count": 5,
     "document_count": 5,
     "surface_forms": {
-      "当天": 6
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TIME",
-    "poi_role": "",
-    "name": "两晚",
-    "mention_count": 5,
-    "document_count": 1,
-    "surface_forms": {
-      "两晚": 5
+      "当天": 5
     }
   },
   {
@@ -4179,17 +4168,6 @@
     "scenic_code": "JZG",
     "type": "TIME",
     "poi_role": "",
-    "name": "07:30",
-    "mention_count": 4,
-    "document_count": 1,
-    "surface_forms": {
-      "07:30": 4
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TIME",
-    "poi_role": "",
     "name": "三天",
     "mention_count": 4,
     "document_count": 4,
@@ -4201,11 +4179,33 @@
     "scenic_code": "JZG",
     "type": "TIME",
     "poi_role": "",
+    "name": "两晚",
+    "mention_count": 4,
+    "document_count": 1,
+    "surface_forms": {
+      "两晚": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
     "name": "第一天",
     "mention_count": 4,
     "document_count": 2,
     "surface_forms": {
       "第一天": 4
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "07:30",
+    "mention_count": 3,
+    "document_count": 1,
+    "surface_forms": {
+      "07:30": 3
     }
   },
   {
@@ -4272,17 +4272,6 @@
     "document_count": 2,
     "surface_forms": {
       "5分钟": 3
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TIME",
-    "poi_role": "",
-    "name": "9小时",
-    "mention_count": 3,
-    "document_count": 2,
-    "surface_forms": {
-      "9小时": 3
     }
   },
   {
@@ -4393,17 +4382,6 @@
     "document_count": 2,
     "surface_forms": {
       "2个小时": 2
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TIME",
-    "poi_role": "",
-    "name": "2小时",
-    "mention_count": 2,
-    "document_count": 1,
-    "surface_forms": {
-      "2小时": 2
     }
   },
   {
@@ -4679,17 +4657,6 @@
     "document_count": 1,
     "surface_forms": {
       "1.5h": 1
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TIME",
-    "poi_role": "",
-    "name": "1.5小时",
-    "mention_count": 1,
-    "document_count": 1,
-    "surface_forms": {
-      "1.5小时": 1
     }
   },
   {
@@ -5257,6 +5224,17 @@
     "scenic_code": "JZG",
     "type": "TIME",
     "poi_role": "",
+    "name": "2小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "2小时": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
     "name": "3 小时",
     "mention_count": 1,
     "document_count": 1,
@@ -5427,6 +5405,17 @@
     "document_count": 1,
     "surface_forms": {
       "8点45": 1
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "9小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "9小时": 1
     }
   },
   {
@@ -5643,10 +5632,10 @@
     "type": "TRANSPORT",
     "poi_role": "",
     "name": "观光车",
-    "mention_count": 55,
+    "mention_count": 53,
     "document_count": 9,
     "surface_forms": {
-      "观光车": 55
+      "观光车": 53
     }
   },
   {
@@ -5654,10 +5643,10 @@
     "type": "TRANSPORT",
     "poi_role": "",
     "name": "徒步",
-    "mention_count": 32,
+    "mention_count": 31,
     "document_count": 11,
     "surface_forms": {
-      "徒步": 32
+      "徒步": 31
     }
   },
   {
@@ -5665,10 +5654,10 @@
     "type": "TRANSPORT",
     "poi_role": "",
     "name": "步行",
-    "mention_count": 29,
+    "mention_count": 28,
     "document_count": 7,
     "surface_forms": {
-      "步行": 29
+      "步行": 28
     }
   },
   {
@@ -5676,10 +5665,10 @@
     "type": "TRANSPORT",
     "poi_role": "",
     "name": "大巴",
-    "mention_count": 25,
+    "mention_count": 24,
     "document_count": 6,
     "surface_forms": {
-      "大巴": 25
+      "大巴": 24
     }
   },
   {
@@ -5697,22 +5686,22 @@
     "scenic_code": "JZG",
     "type": "TRANSPORT",
     "poi_role": "",
-    "name": "高铁",
-    "mention_count": 14,
-    "document_count": 6,
+    "name": "动车",
+    "mention_count": 12,
+    "document_count": 2,
     "surface_forms": {
-      "高铁": 14
+      "动车": 12
     }
   },
   {
     "scenic_code": "JZG",
     "type": "TRANSPORT",
     "poi_role": "",
-    "name": "动车",
-    "mention_count": 13,
-    "document_count": 2,
+    "name": "高铁",
+    "mention_count": 12,
+    "document_count": 6,
     "surface_forms": {
-      "动车": 13
+      "高铁": 12
     }
   },
   {
@@ -5720,10 +5709,10 @@
     "type": "TRANSPORT",
     "poi_role": "",
     "name": "乘车",
-    "mention_count": 12,
+    "mention_count": 11,
     "document_count": 6,
     "surface_forms": {
-      "乘车": 12
+      "乘车": 11
     }
   },
   {
@@ -5731,32 +5720,10 @@
     "type": "TRANSPORT",
     "poi_role": "",
     "name": "包车",
-    "mention_count": 12,
+    "mention_count": 10,
     "document_count": 4,
     "surface_forms": {
-      "包车": 12
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TRANSPORT",
-    "poi_role": "",
-    "name": "拼车",
-    "mention_count": 9,
-    "document_count": 1,
-    "surface_forms": {
-      "拼车": 9
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TRANSPORT",
-    "poi_role": "",
-    "name": "索道",
-    "mention_count": 7,
-    "document_count": 1,
-    "surface_forms": {
-      "索道": 7
+      "包车": 10
     }
   },
   {
@@ -5774,6 +5741,28 @@
     "scenic_code": "JZG",
     "type": "TRANSPORT",
     "poi_role": "",
+    "name": "拼车",
+    "mention_count": 6,
+    "document_count": 1,
+    "surface_forms": {
+      "拼车": 6
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "索道",
+    "mention_count": 6,
+    "document_count": 1,
+    "surface_forms": {
+      "索道": 6
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
     "name": "飞机",
     "mention_count": 5,
     "document_count": 2,
@@ -5781,17 +5770,6 @@
       "直飞": 2,
       "飞": 2,
       "飞机": 1
-    }
-  },
-  {
-    "scenic_code": "JZG",
-    "type": "TRANSPORT",
-    "poi_role": "",
-    "name": "接驳车",
-    "mention_count": 4,
-    "document_count": 1,
-    "surface_forms": {
-      "接驳车": 4
     }
   },
   {
@@ -5820,11 +5798,11 @@
     "scenic_code": "JZG",
     "type": "TRANSPORT",
     "poi_role": "",
-    "name": "摆渡车",
+    "name": "接驳车",
     "mention_count": 3,
     "document_count": 1,
     "surface_forms": {
-      "摆渡车": 3
+      "接驳车": 3
     }
   },
   {
@@ -5847,6 +5825,17 @@
     "document_count": 2,
     "surface_forms": {
       "自驾": 3
+    }
+  },
+  {
+    "scenic_code": "JZG",
+    "type": "TRANSPORT",
+    "poi_role": "",
+    "name": "摆渡车",
+    "mention_count": 2,
+    "document_count": 1,
+    "surface_forms": {
+      "摆渡车": 2
     }
   },
   {
@@ -5876,10 +5865,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "鲸鲨馆",
-    "mention_count": 48,
+    "mention_count": 47,
     "document_count": 15,
     "surface_forms": {
-      "鲸鲨馆": 48
+      "鲸鲨馆": 47
     }
   },
   {
@@ -5887,10 +5876,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "企鹅馆",
-    "mention_count": 34,
+    "mention_count": 33,
     "document_count": 15,
     "surface_forms": {
-      "企鹅馆": 34
+      "企鹅馆": 33
     }
   },
   {
@@ -5898,10 +5887,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "白鲸剧场",
-    "mention_count": 30,
+    "mention_count": 29,
     "document_count": 12,
     "surface_forms": {
-      "白鲸剧场": 30
+      "白鲸剧场": 29
     }
   },
   {
@@ -5921,10 +5910,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "珠海长隆海洋王国",
-    "mention_count": 27,
+    "mention_count": 26,
     "document_count": 11,
     "surface_forms": {
-      "珠海长隆海洋王国": 9,
+      "珠海长隆海洋王国": 8,
       "长隆海洋王国": 18
     }
   },
@@ -5933,21 +5922,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "冰山过山车",
-    "mention_count": 22,
+    "mention_count": 21,
     "document_count": 8,
     "surface_forms": {
-      "冰山过山车": 22
-    }
-  },
-  {
-    "scenic_code": "ZHCL",
-    "type": "POI",
-    "poi_role": "attraction",
-    "name": "海豚剧场",
-    "mention_count": 20,
-    "document_count": 11,
-    "surface_forms": {
-      "海豚剧场": 20
+      "冰山过山车": 21
     }
   },
   {
@@ -5965,11 +5943,11 @@
     "scenic_code": "ZHCL",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "海狮剧场",
+    "name": "海豚剧场",
     "mention_count": 19,
-    "document_count": 10,
+    "document_count": 11,
     "surface_forms": {
-      "海狮剧场": 19
+      "海豚剧场": 19
     }
   },
   {
@@ -6022,34 +6000,22 @@
     "scenic_code": "ZHCL",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "横琴海",
+    "name": "海狮剧场",
     "mention_count": 16,
-    "document_count": 7,
+    "document_count": 10,
     "surface_forms": {
-      "横琴海": 16
+      "海狮剧场": 16
     }
   },
   {
     "scenic_code": "ZHCL",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "海豚湾",
-    "mention_count": 14,
-    "document_count": 8,
+    "name": "横琴海",
+    "mention_count": 15,
+    "document_count": 7,
     "surface_forms": {
-      "海豚湾": 14
-    }
-  },
-  {
-    "scenic_code": "ZHCL",
-    "type": "POI",
-    "poi_role": "support",
-    "name": "长隆企鹅酒店",
-    "mention_count": 14,
-    "document_count": 9,
-    "surface_forms": {
-      "企鹅酒店": 11,
-      "长隆企鹅酒店": 3
+      "横琴海": 15
     }
   },
   {
@@ -6067,6 +6033,17 @@
     "scenic_code": "ZHCL",
     "type": "POI",
     "poi_role": "attraction",
+    "name": "海豚湾",
+    "mention_count": 13,
+    "document_count": 8,
+    "surface_forms": {
+      "海豚湾": 13
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
     "name": "白鲸馆",
     "mention_count": 13,
     "document_count": 7,
@@ -6077,12 +6054,13 @@
   {
     "scenic_code": "ZHCL",
     "type": "POI",
-    "poi_role": "attraction",
-    "name": "超级激流",
-    "mention_count": 11,
-    "document_count": 6,
+    "poi_role": "support",
+    "name": "长隆企鹅酒店",
+    "mention_count": 13,
+    "document_count": 9,
     "surface_forms": {
-      "超级激流": 11
+      "企鹅酒店": 11,
+      "长隆企鹅酒店": 2
     }
   },
   {
@@ -6100,22 +6078,22 @@
     "scenic_code": "ZHCL",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "海象山",
-    "mention_count": 9,
-    "document_count": 7,
+    "name": "超级激流",
+    "mention_count": 10,
+    "document_count": 6,
     "surface_forms": {
-      "海象山": 9
+      "超级激流": 10
     }
   },
   {
     "scenic_code": "ZHCL",
     "type": "POI",
     "poi_role": "attraction",
-    "name": "梦幻海洋",
-    "mention_count": 8,
-    "document_count": 5,
+    "name": "海象山",
+    "mention_count": 9,
+    "document_count": 7,
     "surface_forms": {
-      "梦幻海洋": 8
+      "海象山": 9
     }
   },
   {
@@ -6160,6 +6138,17 @@
     "document_count": 6,
     "surface_forms": {
       "极地探险": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "POI",
+    "poi_role": "attraction",
+    "name": "梦幻海洋",
+    "mention_count": 7,
+    "document_count": 5,
+    "surface_forms": {
+      "梦幻海洋": 7
     }
   },
   {
@@ -6211,10 +6200,10 @@
     "type": "POI",
     "poi_role": "attraction",
     "name": "旋转水战",
-    "mention_count": 6,
+    "mention_count": 5,
     "document_count": 3,
     "surface_forms": {
-      "旋转水战": 6
+      "旋转水战": 5
     }
   },
   {
@@ -6705,17 +6694,6 @@
     "scenic_code": "ZHCL",
     "type": "TIME",
     "poi_role": "",
-    "name": "20分钟",
-    "mention_count": 8,
-    "document_count": 4,
-    "surface_forms": {
-      "20分钟": 8
-    }
-  },
-  {
-    "scenic_code": "ZHCL",
-    "type": "TIME",
-    "poi_role": "",
     "name": "11:00",
     "mention_count": 7,
     "document_count": 6,
@@ -6732,6 +6710,17 @@
     "document_count": 4,
     "surface_forms": {
       "1小时": 7
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "20分钟",
+    "mention_count": 7,
+    "document_count": 4,
+    "surface_forms": {
+      "20分钟": 7
     }
   },
   {
@@ -6941,17 +6930,6 @@
     "document_count": 4,
     "surface_forms": {
       "19:15": 4
-    }
-  },
-  {
-    "scenic_code": "ZHCL",
-    "type": "TIME",
-    "poi_role": "",
-    "name": "20min",
-    "mention_count": 4,
-    "document_count": 1,
-    "surface_forms": {
-      "20min": 4
     }
   },
   {
@@ -7211,22 +7189,22 @@
     "scenic_code": "ZHCL",
     "type": "TIME",
     "poi_role": "",
-    "name": "2个小时",
+    "name": "20min",
     "mention_count": 2,
-    "document_count": 2,
+    "document_count": 1,
     "surface_forms": {
-      "2个小时": 2
+      "20min": 2
     }
   },
   {
     "scenic_code": "ZHCL",
     "type": "TIME",
     "poi_role": "",
-    "name": "30min",
+    "name": "2个小时",
     "mention_count": 2,
-    "document_count": 1,
+    "document_count": 2,
     "surface_forms": {
-      "30min": 2
+      "2个小时": 2
     }
   },
   {
@@ -7282,17 +7260,6 @@
     "document_count": 1,
     "surface_forms": {
       "6月": 2
-    }
-  },
-  {
-    "scenic_code": "ZHCL",
-    "type": "TIME",
-    "poi_role": "",
-    "name": "一个小时",
-    "mention_count": 2,
-    "document_count": 2,
-    "surface_forms": {
-      "一个小时": 2
     }
   },
   {
@@ -7937,6 +7904,17 @@
     "scenic_code": "ZHCL",
     "type": "TIME",
     "poi_role": "",
+    "name": "30min",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "30min": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
     "name": "39分钟",
     "mention_count": 1,
     "document_count": 1,
@@ -8162,6 +8140,17 @@
     "document_count": 1,
     "surface_forms": {
       "一个夜": 1
+    }
+  },
+  {
+    "scenic_code": "ZHCL",
+    "type": "TIME",
+    "poi_role": "",
+    "name": "一个小时",
+    "mention_count": 1,
+    "document_count": 1,
+    "surface_forms": {
+      "一个小时": 1
     }
   },
   {
@@ -8455,10 +8444,10 @@
     "type": "TRANSPORT",
     "poi_role": "",
     "name": "打车",
-    "mention_count": 10,
+    "mention_count": 8,
     "document_count": 4,
     "surface_forms": {
-      "打车": 10
+      "打车": 8
     }
   },
   {
