@@ -169,3 +169,50 @@ class CapacityTests(unittest.TestCase):
     def test_empty_and_single_day(self):
         self.assertEqual(agent.split_days([], 1), [])
         self.assertEqual(len(agent.split_days(self._steps(8), 1)), 1)
+
+
+@unittest.skipIf(agent is None, SKIP_REASON)
+class CapacitySpanTests(unittest.TestCase):
+    """有时刻的路线按跨度估容量，步数只是兜底。"""
+
+    def test_needed_days_by_time_span(self):
+        self.assertEqual(agent.needed_days(8, "09:30—16:30"), 1)
+        self.assertEqual(agent.needed_days(8, "08:00—21:30"), 2)
+        self.assertGreaterEqual(agent.needed_days(6, "08:00—20:00"), 2)
+
+    def test_needed_days_falls_back_to_steps(self):
+        self.assertEqual(agent.needed_days(15, ""), 2)
+        self.assertEqual(agent.needed_days(8, ""), 1)
+        self.assertEqual(agent.needed_days(8, "原文没有完整时刻"), 1)
+
+    def test_split_days_uses_span(self):
+        steps = [{"step": i, "period": "", "time": "", "spot": "P%d" % i,
+                  "transport": "", "tag": ""} for i in range(1, 9)]
+        groups = agent.split_days(steps, 1, "08:00—21:30")
+        self.assertEqual(len(groups), 2)
+        self.assertEqual(sum(len(g) for g in groups), 8)
+
+
+@unittest.skipIf(agent is None, SKIP_REASON)
+class GuardTests(unittest.TestCase):
+    """finish 层的防线：模型不守约时结果也要正确。"""
+
+    def test_conflict_guard_covers_early_final(self):
+        run = agent.Agent("一天想把广州长隆和珠海长隆都玩了")
+        run.slots = {"areas": ["广州长隆旅游度假区", "珠海横琴长隆国际海洋度假区"],
+                     "area": "", "visitor": "", "days": 1, "other_place": ""}
+        run.finish("final", {"reason": "llm"})
+        self.assertEqual(run.status, "conflict")
+        self.assertIn("一次只能排一个景区", run.answer)
+
+    def test_get_tips_reports_keyword_hits(self):
+        obs = agent.get_tips("广州长隆", "熊猫", 3, "亲子")
+        self.assertIn("hits", obs)
+        self.assertIsInstance(obs["hits"], int)
+        self.assertTrue(obs["tips"])
+
+    def test_should_stop_ends_loop_immediately(self):
+        run = agent.Agent("带6岁孩子去广州长隆，一天怎么安排",
+                          should_stop=lambda: True).run()
+        self.assertEqual(len(run["turns"]), 1)   # 只有 parse_slots
+        self.assertIn("没有取到路线", run["answer"])

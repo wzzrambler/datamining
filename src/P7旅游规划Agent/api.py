@@ -42,6 +42,7 @@ import p7_agent as engine  # noqa: E402
 VERSION = 'p7-web-1'
 WEB_DIR = HERE / 'web'
 LLM_READY = bool(os.environ.get('OPENAI_API_KEY'))
+ACCESS_TOKEN = os.environ.get('P7_ACCESS_TOKEN', '').strip()
 MAX_CONCURRENCY = int(os.environ.get('P7_MAX_CONCURRENCY', '4'))
 RATE_LIMIT = int(os.environ.get('P7_RATE_LIMIT', '60'))
 RATE_WINDOW = float(os.environ.get('P7_RATE_WINDOW', '60'))
@@ -65,6 +66,18 @@ class PlanRequest(BaseModel):
     query: str = Field(min_length=2, max_length=200)
     mode: Literal['rule', 'llm'] = 'rule'
     max_turns: int = Field(6, ge=1, le=10)
+
+
+def _auth(request: Request):
+    """可选口令：设了 P7_ACCESS_TOKEN 就必须带上。浏览器 EventSource 发不了
+    自定义头，所以同时接受 ?token=。公网部署时务必设置。"""
+    if not ACCESS_TOKEN:
+        return
+    supplied = (request.headers.get('authorization') or '').removeprefix('Bearer ').strip()
+    if not supplied:
+        supplied = (request.query_params.get('token') or '').strip()
+    if supplied != ACCESS_TOKEN:
+        raise HTTPException(401, '需要访问口令', headers={'WWW-Authenticate': 'Bearer'})
 
 
 def _client_ip(request: Request) -> str:
@@ -128,7 +141,8 @@ def _clean_steps(steps):
 def _public_result(result: dict, elapsed_ms: int) -> dict:
     plan = result.get('plan') or {}
     steps = _clean_steps(plan.get('steps') or [])
-    days = engine.split_days(steps, plan.get('days') or 1) if steps else []
+    days = engine.split_days(steps, plan.get('days') or 1,
+                             plan.get('span') or '') if steps else []
     return {
         'status': result.get('status', ''),
         'mode': result.get('mode', 'rule'),
@@ -143,6 +157,7 @@ def _public_result(result: dict, elapsed_ms: int) -> dict:
             'days': plan.get('days'),
             'days_actual': plan.get('days_actual'),
             'route_id': plan.get('route_id', ''),
+            'span': plan.get('span', ''),
             'steps': steps,
             'day_groups': days,
             'tips': plan.get('tips') or [],
@@ -153,15 +168,17 @@ def _public_result(result: dict, elapsed_ms: int) -> dict:
     }
 
 
-def _run(query: str, mode: str, max_turns: int, on_event=None) -> dict:
-    agent = engine.Agent(query, use_llm=(mode == 'llm'), max_turns=max_turns, on_event=on_event)
+def _run(query: str, mode: str, max_turns: int, on_event=None, should_stop=None) -> dict:
+    agent = engine.Agent(query, use_llm=(mode == 'llm'), max_turns=max_turns,
+                         on_event=on_event, should_stop=should_stop)
     started = time.perf_counter()
     result = agent.run()
     return _public_result(result, max(1, int((time.perf_counter() - started) * 1000)))
 
 
 @app.get('/api/health')
-def health():
+def health(request: Request):
+    _auth(request)
     return {'ok': True, 'version': VERSION, 'llm_configured': LLM_READY,
             'max_concurrency': MAX_CONCURRENCY,
             'counts': {'routes': len(engine.ROUTES), 'documents': len(engine.ENTS),
@@ -170,7 +187,8 @@ def health():
 
 
 @app.get('/api/scenes')
-def scenes():
+def scenes(request: Request):
+    _auth(request)
     rows = []
     for name in engine.AREAS:
         rows.append({'name': name, 'short': engine.SHORT.get(name, name),
@@ -179,12 +197,14 @@ def scenes():
 
 
 @app.get('/api/examples')
-def examples():
+def examples(request: Request):
+    _auth(request)
     return {'examples': engine.SCENES}
 
 
 @app.post('/api/plan')
 def plan(payload: PlanRequest, request: Request):
+    _auth(request)
     ip = _client_ip(request)
     _check_rate(ip)
     query = _clean_query(payload.query)
@@ -203,13 +223,14 @@ def plan(payload: PlanRequest, request: Request):
 
 
 @app.get('/api/plan/stream')
-def plan_stream(request: Request, query: str, mode: Literal['rule', 'llm'] = 'rule',
-                max_turns: int = 6):
+async def plan_stream(request: Request, query: str, mode: Literal['rule', 'llm'] = 'rule',
+                      max_turns: int = 6):
     """SSE：先推 meta，再逐轮推 turn，最后推 result。
 
-    浏览器只能用 EventSource 发 GET，所以参数走 query string。事件里的字段与
-    POST /api/plan 一致，前端两条路径共用同一套渲染。
+    浏览器只能用 EventSource 发 GET，所以参数走 query string。客户端断开时
+    置取消标记，Agent 在下一轮开当前收尾，不再为已离开的用户烧模型调用。
     """
+    _auth(request)
     ip = _client_ip(request)
     _check_rate(ip)
     text = _clean_query(query)
@@ -222,15 +243,17 @@ def plan_stream(request: Request, query: str, mode: Literal['rule', 'llm'] = 'ru
     if not _slots.acquire(blocking=False):
         raise HTTPException(429, '当前并发已满，请稍后重试')
 
-    def generate():
+    async def generate():
         events: queue.Queue = queue.Queue()
+        cancelled = threading.Event()
 
         def emit(event):
             events.put(event)
 
         def work():
             try:
-                result = _run(text, mode, max_turns, on_event=emit)
+                result = _run(text, mode, max_turns, on_event=emit,
+                              should_stop=cancelled.is_set)
                 events.put({'kind': 'result', 'data': result})
             except Exception:
                 events.put({'kind': 'failure', 'data': {'message': '规划过程出错，请稍后重试'}})
@@ -238,15 +261,21 @@ def plan_stream(request: Request, query: str, mode: Literal['rule', 'llm'] = 'ru
                 events.put(None)
 
         threading.Thread(target=work, daemon=True).start()
+        started = time.monotonic()
         try:
             yield 'event: meta\ndata: %s\n\n' % json.dumps(
                 {'mode': mode, 'query': text, 'llm_configured': LLM_READY}, ensure_ascii=False)
             while True:
+                if await request.is_disconnected():
+                    cancelled.set()
                 try:
-                    event = events.get(timeout=REQUEST_TIMEOUT)
+                    event = events.get(timeout=1.0)
                 except queue.Empty:
-                    yield 'event: failure\ndata: {"message":"规划超时"}\n\n'
-                    return
+                    if time.monotonic() - started > REQUEST_TIMEOUT:
+                        cancelled.set()
+                        yield 'event: failure\ndata: {"message":"规划超时"}\n\n'
+                        return
+                    continue
                 if event is None:
                     return
                 yield 'event: %s\ndata: %s\n\n' % (

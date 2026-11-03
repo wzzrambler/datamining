@@ -59,9 +59,12 @@ python src/P7旅游规划Agent/api.py               # http://127.0.0.1:8000
 环境变量：`P7_HOST` / `P7_PORT`、`P7_MAX_CONCURRENCY`（默认 4）、
 `P7_RATE_LIMIT` / `P7_RATE_WINDOW`（默认 60 次 / 60 秒，按 IP）、
 `P7_CORS_ORIGINS`（默认 `*`，部署时改成前端域名）、
-`P7_REQUEST_TIMEOUT`（默认 150 秒）。
+`P7_REQUEST_TIMEOUT`（默认 150 秒）、
+`P7_ACCESS_TOKEN`（默认空=不启用；公网部署必须设置，所有接口要求
+`Authorization: Bearer <token>` 或 `?token=`，前端会弹窗收集并存 localStorage）。
 
-密钥只放服务端环境变量；反向代理部署时把 `P7_CORS_ORIGINS` 收紧即可。
+限流与并发计数是**单进程内存态**：uvicorn 保持单 worker 时有效，
+多 worker 部署需换成 Redis 等外置存储。密钥只放服务端环境变量。
 
 ## 行为约定
 

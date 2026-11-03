@@ -280,8 +280,7 @@ def get_route(area, days=1):
     return {"ok": True, "route_id": picked["route_id"], "steps": picked["steps"],
             "step_count": picked["step_count"], "span": span,
             "sub_route": picked.get("sub_route", ""), "coarse": coarse,
-            "title": picked["title"][:24]}
-
+            "title": picked["title"][:24], "area": area}
 
 def search_spots(area, visitor="", top_k=8):
     visitor = canonical_visitor(visitor)
@@ -352,7 +351,9 @@ def get_tips(area, keyword="", limit=3, visitor=""):
         hit = bool(keyword) and (keyword in c["sentence"] or keyword in c["advice"])
         pool.append((0 if hit else 1, rank, c["display"]))
     pool.sort()
-    return {"count": len(pool), "tips": [text for _, _, text in pool[:limit]]}
+    hits = sum(1 for row in pool if row[0] == 0)
+    return {"count": len(pool), "hits": hits,
+            "tips": [text for _, _, text in pool[:limit]]}
 
 
 def tailor_route(route, visitor):
@@ -377,22 +378,43 @@ def tailor_route(route, visitor):
     return {"steps": steps, "count": len(steps), "tagged": tagged, "skipped": skipped}
 
 
-# 一天的步数上限。超过这个量就是"一天两万步"的体力消耗，
-# 带老人小孩时更不该硬排。
+# 一天的容量。步数是兜底判据：原文有时刻时，跨度比步数更接近真实负担——
+# 8 步横跨 12 小时同样走不动，而 12 步挤在 4 小时里未必。
 MAX_STEPS_PER_DAY = 12
+MAX_HOURS_PER_DAY = 9.0
 
 
-def split_days(steps, days):
+def span_hours(span):
+    """'09:30—16:30' -> 7.0。解析不了（原文没写全时刻）返回 None。"""
+    try:
+        first, last = [x.strip() for x in span.replace('—', '-').split('-')]
+        h1, m1 = map(int, first.split(':'))
+        h2, m2 = map(int, last.split(':'))
+        return ((h2 * 60 + m2) - (h1 * 60 + m1)) / 60
+    except (ValueError, AttributeError):
+        return None
+
+
+def needed_days(step_count, span):
+    """按时刻跨度与步数估"这条路线实际要几天"。两个判据取大的。"""
+    need = (step_count + MAX_STEPS_PER_DAY - 1) // MAX_STEPS_PER_DAY
+    hours = span_hours(span)
+    if hours is not None and hours > MAX_HOURS_PER_DAY:
+        import math
+        need = max(need, math.ceil(hours / MAX_HOURS_PER_DAY))
+    return max(1, need)
+
+
+def split_days(steps, days, span=""):
     """把一条路线按原文顺序拆成几天。
 
     用户给的天数是意愿，不是约束：路线本身 15 步，一天就排不下，
     与其悄悄砍掉三步，不如按实际需要的天数排出来并说明。
-    每天不超过 MAX_STEPS_PER_DAY，保持原顺序与时段分组。
+    保持原顺序与时段分组。
     """
     if not steps:
         return []
-    need = (len(steps) + MAX_STEPS_PER_DAY - 1) // MAX_STEPS_PER_DAY
-    total = max(1, days or 1, need)
+    total = max(1, days or 1, needed_days(len(steps), span))
     size = (len(steps) + total - 1) // total
     return [steps[i:i + size] for i in range(0, len(steps), size)]
 
@@ -439,14 +461,18 @@ REACT_PROMPT = """你在扮演一个旅游规划 Agent，按 ReAct 的方式决�
 - get_tips(area, keyword, visitor)      取注意事项（visitor 用于排除人群不符的）
 - tailor_route(route, visitor)         按人群定制行程（需要先拿到 route）
 
-只允许两种输出格式，不要多余解释：
+收尾动作有两种，参数是 JSON：
 Thought: 一句话说明你现在要做什么
-Action: 工具名
-Action Input: {{"参数": 值}}
-
-或者：
-Thought: 信息已经够了
 Action: final
+Action Input: {{"reason": "done"}}
+
+Thought: 用户没说要哪个景区，先反问，不要猜
+Action: ask
+Action Input: {{"message": "想去哪个景区？库里现成的有九寨沟、广州长隆、珠海长隆。"}}
+
+约束：
+- 一次只排一个景区。用户点了一天却给了两个景区，直接 final 并说明排不开，不要给其中一个硬排。
+- 工具返回的信息足够拼行程就不要再查；同一个工具同样的参数别调第二次。
 
 用户请求：{query}
 已经拿到的观察：{memory}
@@ -455,10 +481,12 @@ Action: final
 
 # Agent
 class Agent:
-    def __init__(self, text, use_llm=False, max_turns=6, on_event=None):
+    def __init__(self, text, use_llm=False, max_turns=6, on_event=None, should_stop=None):
         self.text = text
         # Web 端用它在每一轮结束时推 SSE；命令行不传就是 None，行为不变
         self.on_event = on_event
+        # 返回 True 时在下一轮开当前停止：SSE 客户端断开就别再烧模型调用了
+        self.should_stop = should_stop
         self.use_llm = use_llm and bool(os.environ.get("OPENAI_API_KEY"))
         self.max_turns = max_turns
         self.slots = {}
@@ -508,6 +536,9 @@ class Agent:
                      self.slots["visitor"] or "未提到", self.slots["days"]))
 
         for i in range(1, self.max_turns + 1):
+            if self.should_stop and self.should_stop():
+                self.say("已按取消请求停止，以下用已拿到的信息作答")
+                break
             thought, action, args = self.think()
             if action in ("final", "ask"):
                 self.log(i, thought, action, args, "结束")
@@ -556,7 +587,10 @@ class Agent:
         if action == "search_spots":
             return "命中 %d 个景点，取前 %d 个" % (obs["hit"], len(obs["spots"]))
         if action == "get_tips":
-            return "候选中 %d 条，取前 %d 条" % (obs["count"], len(obs["tips"]))
+            detail = "候选 %d 条" % obs["count"]
+            if obs.get("hits") is not None:
+                detail += "（关键词命中 %d）" % obs["hits"]
+            return "%s，取前 %d 条" % (detail, len(obs["tips"]))
         if action == "tailor_route":
             return "成行 %d 步，标注 %d 处" % (obs["count"], obs["tagged"])
         return str(obs)[:40]
@@ -666,6 +700,15 @@ class Agent:
             self.status = "need_info"
             self.answer = payload["message"]
             return
+        # 规则策略在 think 层拦截"一天两园"；模型可能不守约，这里再挡一次。
+        # 必须放在"没取到路线"的兜底之前——模型提前收尾时同样适用
+        if len(self.slots.get("areas") or []) >= 2 and (self.slots.get("days") or 1) <= 1:
+            self.status = "conflict"
+            self.answer = ("一次只能排一个景区。%s 不在同一片区域，一天之内走不完，"
+                           "建议先选一个，另一个放到第二天。" %
+                           "、".join(SHORT[a] for a in self.slots["areas"]))
+            return
+
         reason = payload.get("reason", "done")
         if reason in ("no_data", "conflict", "no_route"):
             self.status = "conflict" if reason == "conflict" else "no_data"
@@ -673,8 +716,16 @@ class Agent:
             return
 
         route = self.obs.get("get_route", {})
+        route_obs = route
+        area = self.slots.get("area") or route.get("area") or ""
         steps = self.obs.get("tailor_route", {}).get("steps", [])
         tips = self.obs.get("get_tips", {}).get("tips", [])
+        if not tips and "get_tips" not in self.obs and route.get("ok") and area:
+            # 收尾层保证答案结构完整：模型可以少查，注意事项不能缺
+            filled = get_tips(area, "", 3, self.slots.get("visitor") or "")
+            self.obs["get_tips"] = filled
+            tips = filled["tips"]
+            self.diag("模型收尾时未查注意事项，由程序按人群补查一次")
         if not steps and route.get("steps"):
             # 轮次用完了但路线已经拿到，用原始步骤兜底，别让用户白等
             steps = [{"step": i, "period": x["period"], "time": x["time_start"],
@@ -689,18 +740,34 @@ class Agent:
                                "重跑一次或换成规则策略再看。" % "、".join(failed))
             elif route.get("ok") is False:
                 self.answer = route.get("reason") or "这个景区没有能用的路线。"
+            elif not self.obs.get("get_route"):
+                self.answer = ("这次没有取到路线，排不出行程。请说明景区与天数，或换个问法。")
             else:
                 self.answer = "路线取到了但没排出步骤，先看项目 3 的解析结果。"
             return
 
-        area = self.slots["area"]
-        want_days = self.slots["days"]
-        day_groups = split_days(steps, want_days)
+
+        if not area:
+            self.status = "need_info"
+            self.answer = "没认出想去哪个景区。库里能排的是：" + "、".join(SHORT[a] for a in AREAS) + "。"
+            return
+        want_days = self.slots.get("days") or 1
+        route_span = (self.obs.get("get_route") or {}).get("span") or ""
+        # 数据缺口提醒放收尾层，两条策略共用：LLM 自己不会说"原文没写时刻"
+        if not route_span:
+            self.say("这条路线原文没写时刻，只能给顺序")
+        if want_days >= 2 and "二日" not in (route_obs.get("sub_route") or ""):
+            self.say("库里没有独立的两日路线，以下按原文顺序拆分到天")
+        day_groups = split_days(steps, want_days, route_span)
         actual_days = len(day_groups)
         if actual_days > want_days:
-            # 路线步数超过一天容量时按实际需要的天数排，不能装作一天能走完
-            self.say("这条路线有 %d 步，%d 天走不完，已按 %d 天排" % (
-                len(steps), want_days, actual_days))
+            hours = span_hours(route_span)
+            if hours is not None and hours > MAX_HOURS_PER_DAY:
+                self.say("路线时刻跨 %.1f 小时，超过一天的合理容量，已按 %d 天排" % (
+                    hours, actual_days))
+            else:
+                self.say("这条路线有 %d 步，%d 天走不完，已按 %d 天排" % (
+                    len(steps), want_days, actual_days))
         span = {1: "一日", 2: "两日", 3: "三日"}.get(actual_days, "%d 天" % actual_days)
         lines = ["按%s的%s给你排了 %d 步：" % (SHORT[area], span, len(steps))]
         for di, group in enumerate(day_groups, 1):
@@ -731,7 +798,7 @@ class Agent:
 
         self.plan = {"area": area, "visitor": self.slots["visitor"] or "未指定",
                      "days": self.slots["days"], "days_actual": actual_days,
-                     "route_id": route.get("route_id", ""),
+                     "route_id": route.get("route_id", ""), "span": route_span,
                      "steps": steps, "tips": tips, "notes": self.note}
         self.answer = "\n".join(lines)
         self.status = "partial" if self.note else "ok"

@@ -15,6 +15,7 @@
    "days": 1,
    "days_actual": 2,
    "route_id": "JZG-NOTE-03-R-7f44fd1c84",
+   "span": "",
    "steps": [
     {
      "step": 1,
@@ -197,7 +198,7 @@
      "keyword": "",
      "visitor": "老人"
     },
-    "observation": "候选中 303 条，取前 3 条"
+    "observation": "候选 303 条（关键词命中 0），取前 3 条"
    },
    {
     "turn": 5,
@@ -348,7 +349,8 @@
       "span": "",
       "sub_route": "一日",
       "coarse": false,
-      "title": "九寨沟一日游路线：上午长海、五彩池后诺日朗换乘，"
+      "title": "九寨沟一日游路线：上午长海、五彩池后诺日朗换乘，",
+      "area": "九寨沟风景名胜区"
      },
      "visitor": "老人"
     },
@@ -384,6 +386,7 @@
    "days": 1,
    "days_actual": 1,
    "route_id": "GZCL-NOTE-12-R-f5fee04dec",
+   "span": "09:30—16:30",
    "steps": [
     {
      "step": 1,
@@ -507,7 +510,7 @@
      "keyword": "",
      "visitor": "亲子"
     },
-    "observation": "候选中 396 条，取前 3 条"
+    "observation": "候选 396 条（关键词命中 0），取前 3 条"
    },
    {
     "turn": 5,
@@ -595,7 +598,8 @@
       "span": "09:30—16:30",
       "sub_route": "一日",
       "coarse": false,
-      "title": "长隆野生动物世界一日游：开园先坐小火车，随后依次"
+      "title": "长隆野生动物世界一日游：开园先坐小火车，随后依次",
+      "area": "广州长隆旅游度假区"
      },
      "visitor": "亲子"
     },
@@ -631,6 +635,7 @@
    "days": 2,
    "days_actual": 2,
    "route_id": "ROUTEOBS-327026e22dfe6fb4",
+   "span": "",
    "steps": [
     {
      "step": 1,
@@ -837,7 +842,7 @@
      "keyword": "",
      "visitor": "情侣"
     },
-    "observation": "候选中 288 条，取前 3 条"
+    "observation": "候选 288 条（关键词命中 0），取前 3 条"
    },
    {
     "turn": 5,
@@ -1015,7 +1020,8 @@
       "span": "",
       "sub_route": "一日",
       "coarse": false,
-      "title": "珠海长隆海洋王国一日游览路线，依次游览海豚湾、白"
+      "title": "珠海长隆海洋王国一日游览路线，依次游览海豚湾、白",
+      "area": "珠海横琴长隆国际海洋度假区"
      },
      "visitor": "情侣"
     },
@@ -1161,6 +1167,7 @@
    "days": 2,
    "days_actual": 2,
    "route_id": "JZG-NOTE-11-R-a7eac262f6",
+   "span": "",
    "steps": [
     {
      "step": 1,
@@ -1286,7 +1293,7 @@
      "keyword": "",
      "visitor": ""
     },
-    "observation": "候选中 304 条，取前 3 条"
+    "observation": "候选 304 条（关键词命中 0），取前 3 条"
    },
    {
     "turn": 5,
@@ -1376,7 +1383,8 @@
       "span": "",
       "sub_route": "二日",
       "coarse": false,
-      "title": "九寨沟第二日游览：长海→五彩池→诺日朗中心→树正"
+      "title": "九寨沟第二日游览：长海→五彩池→诺日朗中心→树正",
+      "area": "九寨沟风景名胜区"
      },
      "visitor": ""
     },

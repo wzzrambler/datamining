@@ -34,6 +34,33 @@ const state = {
 
 /* ---------- 基础工具 ---------- */
 
+function authHeaders() {
+  const token = localStorage.getItem('p7.token');
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
+function withToken(url) {
+  const token = localStorage.getItem('p7.token');
+  if (!token) return url;
+  return `${url}${url.includes('?') ? '&' : '?'}token=${encodeURIComponent(token)}`;
+}
+
+async function ensureAuth() {
+  const response = await fetch('/api/health', { headers: authHeaders() });
+  if (response.status !== 401) { refreshLockBtn(); return true; }
+  const token = window.prompt('This service requires an access token (P7_ACCESS_TOKEN):');
+  if (!token) { refreshLockBtn(); return false; }
+  localStorage.setItem('p7.token', token.trim());
+  const ok = (await fetch('/api/health', { headers: authHeaders() })).ok;
+  refreshLockBtn();
+  if (!ok) showError('Access token verification failed, please try again.');
+  return ok;
+}
+
+function refreshLockBtn() {
+  $('#lockBtn').hidden = !localStorage.getItem('p7.token');
+}
+
 function escapeHtml(text) {
   return String(text ?? '').replace(/[&<>"']/g, (ch) => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
@@ -59,12 +86,20 @@ function clearError() {
 
 async function boot() {
   bindEvents();
+  refreshLockBtn();
   applyMode(state.mode);
+  if (!(await ensureAuth())) {
+    const service = $('#service');
+    service.classList.add('is-dead');
+    $('#serviceText').textContent = '需要口令';
+    renderExamples(FALLBACK_EXAMPLES);
+    return;
+  }
   try {
     const [health, scenes, examples] = await Promise.all([
-      fetch('/api/health').then((r) => r.json()),
-      fetch('/api/scenes').then((r) => r.json()),
-      fetch('/api/examples').then((r) => r.json()),
+      fetch('/api/health', { headers: authHeaders() }).then((r) => r.json()),
+      fetch('/api/scenes', { headers: authHeaders() }).then((r) => r.json()),
+      fetch('/api/examples', { headers: authHeaders() }).then((r) => r.json()),
     ]);
     state.llmReady = Boolean(health.llm_configured);
     renderStats(health.counts || {});
@@ -130,6 +165,10 @@ function bindEvents() {
     });
   });
 
+  $('#lockBtn').addEventListener('click', async () => {
+    localStorage.removeItem('p7.token');
+    await ensureAuth();
+  });
   $('#submit').addEventListener('click', submit);
   $('#cancel').addEventListener('click', cancel);
   $('#toggleTrace').addEventListener('click', toggleTrace);
@@ -161,7 +200,7 @@ function applyMode(mode) {
 
 /* ---------- 提交 ---------- */
 
-function submit() {
+async function submit() {
   if (state.running) return;
   const query = $('#query').value.trim();
   if (query.length < 2) {
@@ -173,6 +212,7 @@ function submit() {
     showError('服务端没有配置模型密钥，先用规则模式。');
     return;
   }
+  if (!(await ensureAuth())) return;
   clearError();
   startRun(query);
   if (window.EventSource) streamRun(query); else fetchRun(query);
@@ -232,7 +272,7 @@ function cancel() {
 /* ---------- 两种传输 ---------- */
 
 function streamRun(query) {
-  const url = `/api/plan/stream?query=${encodeURIComponent(query)}&mode=${state.mode}`;
+  const url = withToken(`/api/plan/stream?query=${encodeURIComponent(query)}&mode=${state.mode}`);
   const source = new EventSource(url);
   state.source = source;
 
@@ -270,11 +310,15 @@ async function fetchRun(query) {
   try {
     const response = await fetch('/api/plan', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
       body: JSON.stringify({ query, mode: state.mode, max_turns: 6 }),
     });
     if (!response.ok) {
       const detail = await response.json().catch(() => ({}));
+      if (response.status === 401) {
+        localStorage.removeItem('p7.token');
+        if (await ensureAuth()) { fetchRun(query); return; }
+      }
       throw new Error(detail.detail || `请求失败（${response.status}）`);
     }
     finishRun(await response.json());

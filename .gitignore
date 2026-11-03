@@ -33,3 +33,7 @@ outputs/报告/*（新）.docx
 # P6 快照目录由发布脚本生成，只保留 cleaned-v1 与 release.json
 processed/P6知识图谱/p6-quality-themes-v1-*/
 processed/P5条件建议抽取/runs/*/checkpoint_index.json
+
+# P5 批次只跟当前 ACTIVE_RUN 指向的那份；历史批次留在本地磁盘，不进仓库
+processed/P5条件建议抽取/runs/*
+!processed/P5条件建议抽取/runs/full-final-20261104

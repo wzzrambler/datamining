@@ -84,3 +84,23 @@ class ApiTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+@unittest.skipIf(CLIENT is None, SKIP or '')
+class AuthTests(unittest.TestCase):
+    def setUp(self):
+        self._old = api.ACCESS_TOKEN
+
+    def tearDown(self):
+        api.ACCESS_TOKEN = self._old
+
+    def test_access_token_required_when_configured(self):
+        api.ACCESS_TOKEN = 'secret'
+        self.assertEqual(CLIENT.get('/api/health').status_code, 401)
+        self.assertEqual(CLIENT.get('/api/health',
+                                    headers={'Authorization': 'Bearer secret'}).status_code, 200)
+        self.assertEqual(CLIENT.get('/api/health?token=secret').status_code, 200)
+
+    def test_open_when_token_unset(self):
+        api.ACCESS_TOKEN = ''
+        self.assertEqual(CLIENT.get('/api/health').status_code, 200)
