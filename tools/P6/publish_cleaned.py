@@ -89,18 +89,26 @@ def main():
         else:
             backup_hash = None
         result = p6.import_bundle(bundle, driver, database)
+        first = query("MATCH (n:P5Node {dataset:$dataset}) RETURN count(n) AS nodes", dataset=dataset)[0]
+        first_edges = query("MATCH ()-[r]->() WHERE r.dataset=$dataset RETURN count(r) AS edges", dataset=dataset)[0]
+        # 同一份 bundle 再导一次。MERGE 键如果不幂等，节点或关系会在这里变多。
         p6.import_bundle(bundle, driver, database)
+        second = query("MATCH (n:P5Node {dataset:$dataset}) RETURN count(n) AS nodes", dataset=dataset)[0]
+        second_edges = query("MATCH ()-[r]->() WHERE r.dataset=$dataset RETURN count(r) AS edges", dataset=dataset)[0]
+        reimport_no_duplicates = (first["nodes"], first_edges["edges"]) == (second["nodes"], second_edges["edges"])
+        require(reimport_no_duplicates, "同一 bundle 重复导入后节点或关系数发生变化，导入不幂等")
         readback = query("MATCH (n:P5Node {dataset:$dataset}) RETURN n.id AS id,n.payload_json AS payload", dataset=dataset)
         expected = {n["id"]: n["properties"] for n in graph["nodes"]}
-        require(len(readback) == len(expected), "Imported node count mismatch")
-        require(all(json.loads(n["payload"]) == expected[n["id"]] for n in readback),
-                "Imported node payloads do not match source")
+        node_count_matches = len(readback) == len(expected)
+        require(node_count_matches, "Imported node count mismatch")
+        node_roundtrip = all(json.loads(n["payload"]) == expected[n["id"]] for n in readback)
+        require(node_roundtrip, "Imported node payloads do not match source")
         edge_back = query("MATCH (a:P5Node {dataset:$dataset})-[r]->(b:P5Node {dataset:$dataset}) WHERE r.dataset=$dataset RETURN a.id AS source,type(r) AS type,b.id AS target,r.payload_json AS payload", dataset=dataset)
         edge_signature = lambda e: (e['source'], e['type'], e['target'], p6.compact(e['properties']))
-        require(Counter(edge_signature(e) for e in graph['edges']) ==
-                Counter((e['source'], e['type'], e['target'], p6.compact(json.loads(e['payload'])))
-                        for e in edge_back),
-                'Imported edges do not match source')
+        edge_roundtrip = Counter(edge_signature(e) for e in graph['edges']) == \
+            Counter((e['source'], e['type'], e['target'], p6.compact(json.loads(e['payload'])))
+                    for e in edge_back)
+        require(edge_roundtrip, 'Imported edges do not match source')
         queries = {
             "route_catalog": "MATCH (r:ROUTE {dataset:$dataset}) RETURN r.id AS route_id,r.scenic_code AS scenic_code,r.p6_curation_json AS curation ORDER BY scenic_code,route_id",
             "official_route_steps": "MATCH (r:ROUTE {dataset:$dataset,id:'JZG-OFF-01-R-5489d330c8'})-[:HAS_STEP]->(s:ROUTE_STEP) OPTIONAL MATCH (s)-[:VISITS]->(p:POI) RETURN s.index AS step_index,s.id AS step_id,collect(p.name) AS pois ORDER BY step_index",
@@ -122,9 +130,9 @@ def main():
                 "Entity themes are missing")
         excluded = json.loads((graph_path.parent / "route_decisions.json").read_text("utf-8"))
         excluded_ids = [r["route_id"] for r in excluded if r["status"] == "excluded"]
-        require(query("MATCH (r:ROUTE {dataset:$dataset}) WHERE r.id IN $ids RETURN count(r) AS count",
-                      dataset=dataset, ids=excluded_ids)[0]["count"] == 0,
-                "Excluded routes unexpectedly exist in production graph")
+        excluded_in_database = query("MATCH (r:ROUTE {dataset:$dataset}) WHERE r.id IN $ids RETURN count(r) AS count",
+                                     dataset=dataset, ids=excluded_ids)[0]["count"]
+        require(excluded_in_database == 0, "Excluded routes unexpectedly exist in production graph")
         # Recheck cross-dataset relationships immediately before deleting.
         cross = query(cross_query, old=old_datasets)[0]["count"]
         require(cross == 0, "Historical data is linked to unrelated datasets; refusing to delete")
@@ -133,8 +141,10 @@ def main():
         inventory = query("MATCH (n:P5Node) RETURN n.dataset AS dataset,count(n) AS nodes ORDER BY dataset")
         require(all(row["dataset"] not in old_datasets for row in inventory),
                 "Old datasets still appear after cleanup")
-        result.update(dataset=dataset, reimport_no_duplicates=True, all_node_payloads_roundtrip=True,
-                      all_edge_payloads_roundtrip=True, excluded_routes_in_database=0,
+        result.update(dataset=dataset, reimport_no_duplicates=reimport_no_duplicates,
+                      all_node_payloads_roundtrip=node_count_matches and node_roundtrip,
+                      all_edge_payloads_roundtrip=edge_roundtrip,
+                      excluded_routes_in_database=excluded_in_database,
                       removed_old_project_nodes=removed, old_database_backup_sha256=backup_hash,
                       old_database_backup=str(args.backup / "neo4j_previous_datasets.json") if backup_hash else None,
                       remaining_datasets=inventory, source_graph_sha256=hashlib.sha256(graph_path.read_bytes()).hexdigest())

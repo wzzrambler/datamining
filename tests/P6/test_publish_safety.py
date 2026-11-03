@@ -49,6 +49,17 @@ class P6PublishSafetyTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("--apply requires --backup", result.stderr)
 
+    def test_verification_fields_are_measured_not_hardcoded(self):
+        source = PUBLISHER.read_text(encoding="utf-8")
+        for field in ("reimport_no_duplicates", "all_node_payloads_roundtrip",
+                      "all_edge_payloads_roundtrip", "excluded_routes_in_database"):
+            self.assertNotIn(f"{field}=True", source)
+            self.assertNotIn(f"{field}=0", source)
+        # 幂等性要真比一次两次导入的计数，不能直接写结论。
+        self.assertIn("first_edges", source)
+        self.assertIn("second_edges", source)
+        self.assertIn("导入不幂等", source)
+
 
 if __name__ == "__main__":
     unittest.main()
