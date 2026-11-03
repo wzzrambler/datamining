@@ -103,3 +103,35 @@ def paragraphs(text):
 def shingles(text):
     text = re.sub(r'\s+', '', text)
     return {text[i:i+3] for i in range(max(0, len(text)-2))}
+
+
+# 图片 OCR 与作者正文的重合判定：去掉标点后比较，能容忍 OCR 断行、
+# 全角半角混用和个别错字。
+REPEAT_GRAM = 4
+REPEAT_COVER = 0.8
+REPEAT_MIN_EXACT = 4
+REPEAT_MIN_COVER = 8
+
+
+def squash(text):
+    return re.sub(r'\W+', '', text).casefold()
+
+
+def grams(text, n=REPEAT_GRAM):
+    return {text[i:i+n] for i in range(max(0, len(text)-n+1))}
+
+
+def repeats_body(line, body, body_grams):
+    """判断图片 OCR 的一行是否只是正文已经写过的内容。
+
+    短行容易被 OCR 截断成正文的子串（如「海鸟世」之于「海鸟世界」），
+    整行包含即可判定；长行改用 4-gram 覆盖率，允许两三个字不一致。
+    """
+    if len(line) < REPEAT_MIN_EXACT:
+        return False
+    if line in body:
+        return True
+    if len(line) < REPEAT_MIN_COVER:
+        return False
+    own = grams(line)
+    return len(own & body_grams) / len(own) >= REPEAT_COVER

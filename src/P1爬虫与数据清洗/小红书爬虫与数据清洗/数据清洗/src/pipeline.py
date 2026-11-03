@@ -8,7 +8,8 @@ from urllib.parse import urlsplit
 
 from .ocr import OCRClient, write_json
 from .repo_support import paths, portable
-from .rules import STAT_FIELDS, TIME, clean_text, count_sentences, effective_len, normalize_legacy_documents, paragraphs, shingles
+from .rules import (STAT_FIELDS, TIME, clean_text, count_sentences, effective_len, grams,
+                    normalize_legacy_documents, paragraphs, repeats_body, shingles, squash)
 
 FIELDS = '''doc_id scenic_code scenic_area city category text_type text_type_cn doc_subtype
 source_platform source_site source_url title author publish_date crawl_time extract_rule
@@ -108,6 +109,7 @@ def build_document(note, group, config, ocr, doc_id, note_base):
 
     stats, seen_lines, merged, provenance = Counter(), set(), [], []
     raw_accepted = []
+    body_norm, body_grams = '', set()
     for part in parts:
         cleaned, st = clean_text(part['raw_text'])
         part['clean_text'], part['effective_chars'] = cleaned, effective_len(cleaned)
@@ -122,14 +124,23 @@ def build_document(note, group, config, ocr, doc_id, note_base):
         if part['kind'] == 'body':
             raw_accepted.append(part['raw_text'])
             stats.update(st)
+            body_norm = squash(cleaned)
+            body_grams = grams(body_norm)
         if not accept:
             continue
         if part['kind'] != 'body':
             raw_accepted.append(part['raw_text'])
             stats.update(st)
         added = 0
+        repeated = 0
         for line in cleaned.split('\n'):
             key = re.sub(r'\W+', '', line).casefold()
+            # 图片是把作者正文拍成截图再 OCR 回来的，同一段话会以断行残片
+            # 的形式二次进入语料，行级去重认不出断行差异，这里单独拦一次。
+            if part['kind'] == 'image' and repeats_body(key, body_norm, body_grams):
+                stats['dup_line_removed'] += 1
+                repeated += 1
+                continue
             if key in seen_lines:
                 stats['dup_line_removed'] += 1
                 continue
@@ -137,9 +148,11 @@ def build_document(note, group, config, ocr, doc_id, note_base):
             merged.append(line)
             provenance.append({'doc_id': doc_id, 'para_id': len(merged), 'kind': part['kind'], 'source': part['source']})
             added += 1
+        if repeated:
+            part['ocr_repeat_lines'] = repeated
         part['included'] = bool(added)
         if not added:
-            part['exclude_reason'] = '与前文重复'
+            part['exclude_reason'] = '图片文字与作者正文重复' if repeated else '与前文重复'
     content = '\n'.join(merged)
     raw = '\n'.join(raw_accepted)
     if body and not parts[0]['clean_text']:
@@ -167,7 +180,7 @@ def build_document(note, group, config, ocr, doc_id, note_base):
                source_platform='小红书', source_site=urlsplit(note.get('url', '')).hostname or '',
                source_url=str(note.get('url') or ''), publish_date=date,
                crawl_time=str(note.get('collected_at') or ''),
-               extract_rule=f"作者正文+逐图OCR+评论；附加文本有效字符>{threshold}；评论策略={config['comment_policy']}；行去重",
+               extract_rule=f"作者正文+逐图OCR+评论；附加文本有效字符>{threshold}；评论策略={config['comment_policy']}；行去重（图片复读按正文比对剔除）",
                raw_html_path=str(local_path(html_path, note_base)) if html_path else '',
                raw_char_len=len(raw), clean_char_len=len(content), html_tag_count=0,
                noise_char_removed=max(0, len(raw) - len(content)),
