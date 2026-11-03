@@ -12,6 +12,7 @@ from p5_agent.contracts import Contracts
 from p5_agent.packages import Corpus, package_statistics
 from p5_agent.runner import DeepSeekClient, run_package
 from p5_agent.export import export_run
+from p5_agent.release_manifest import build_manifest
 
 
 def main():
@@ -85,7 +86,11 @@ def main():
     else:
         pointer.parent.mkdir(parents=True, exist_ok=True)
         pointer.write_text(args.run_id + "\n", encoding="utf-8")
-        print(compact({"event": "ACTIVE_RUN_SET", "run_id": args.run_id, "pointer": str(pointer)}), flush=True)
+        # 清单跟着指针一起写：发布包没有检查点时，离线重建只能靠它
+        manifest = build_manifest(run_dir, corpus, packages)
+        write_json(run_dir / "input_manifest.json", manifest)
+        print(compact({"event": "ACTIVE_RUN_SET", "run_id": args.run_id, "pointer": str(pointer),
+                       "input_manifest": len(manifest["effective_packages"])}), flush=True)
 
 
 if __name__ == "__main__":

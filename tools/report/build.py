@@ -149,6 +149,10 @@ def add_table_after(doc, anchor, caption, header, rows, widths=None, font_size=8
         pass
 
     if widths:
+        # 版心宽 14.6cm：列宽之和超了就按比例压回去，避免逐张手调还漏。
+        total = sum(widths)
+        if total > 14.6:
+            widths = [w * 14.6 / total for w in widths]
         tblPr = table._tbl.tblPr
         layout = OxmlElement("w:tblLayout")
         layout.set(qn("w:type"), "fixed")

@@ -135,3 +135,37 @@ class NormalizeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+@unittest.skipIf(agent is None, SKIP_REASON)
+class CapacityTests(unittest.TestCase):
+    """路线步数与天数必须对得上，不能把 15 步塞进一天。"""
+
+    def _steps(self, n):
+        return [{"step": i + 1, "period": "上午", "time": "", "spot": "P%d" % i,
+                 "transport": "", "tag": ""} for i in range(n)]
+
+    def test_over_capacity_is_split_into_more_days(self):
+        run = agent.Agent("带爸妈去九寨沟玩一天，他们走不动太久").run()
+        plan = run["plan"]
+        self.assertGreaterEqual(plan["days_actual"], 2)
+        self.assertLessEqual(plan["days_actual"], 3)
+        self.assertIn("【第1 天】", run["answer"])
+        self.assertIn("【第2 天】", run["answer"])
+        self.assertIn("走不完", "；".join(plan["notes"]))
+
+    def test_split_preserves_order_and_covers_all_steps(self):
+        steps = self._steps(15)
+        groups = agent.split_days(steps, 1)
+        self.assertEqual([s["step"] for g in groups for s in g], list(range(1, 16)))
+        for g in groups:
+            self.assertLessEqual(len(g), agent.MAX_STEPS_PER_DAY)
+
+    def test_requested_days_are_honored_when_enough_capacity(self):
+        groups = agent.split_days(self._steps(8), 2)
+        self.assertEqual(len(groups), 2)
+        self.assertEqual(sum(len(g) for g in groups), 8)
+
+    def test_empty_and_single_day(self):
+        self.assertEqual(agent.split_days([], 1), [])
+        self.assertEqual(len(agent.split_days(self._steps(8), 1)), 1)

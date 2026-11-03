@@ -333,6 +333,26 @@ def tailor_route(route, visitor):
     return {"steps": steps, "count": len(steps), "tagged": tagged, "skipped": skipped}
 
 
+# 一天的步数上限。超过这个量就是"一天两万步"的体力消耗，
+# 带老人小孩时更不该硬排。
+MAX_STEPS_PER_DAY = 12
+
+
+def split_days(steps, days):
+    """把一条路线按原文顺序拆成几天。
+
+    用户给的天数是意愿，不是约束：路线本身 15 步，一天就排不下，
+    与其悄悄砍掉三步，不如按实际需要的天数排出来并说明。
+    每天不超过 MAX_STEPS_PER_DAY，保持原顺序与时段分组。
+    """
+    if not steps:
+        return []
+    need = (len(steps) + MAX_STEPS_PER_DAY - 1) // MAX_STEPS_PER_DAY
+    total = max(1, days or 1, need)
+    size = (len(steps) + total - 1) // total
+    return [steps[i:i + size] for i in range(0, len(steps), size)]
+
+
 TOOLS = {
     "check_area": check_area,
     "get_route": get_route,
@@ -533,7 +553,7 @@ class Agent:
         if not route["span"]:
             self.say("这条路线原文没写时刻，只能给顺序")
         if s["days"] >= 2 and "二日" not in route.get("sub_route", ""):
-            self.say("库里这条景区没有两日路线，先用一日路线排，第二天建议自由活动")
+            self.say("库里没有独立的两日路线，以下按原文顺序拆分到天")
 
         if "search_spots" not in self.obs:
             return ("再看这个景区有哪些景点能排进去", "search_spots",
@@ -616,34 +636,46 @@ class Agent:
             return
 
         area = self.slots["area"]
-        # 天数用用户说的，别去摘要文本里猜——摘要里"一日"经常是形容某一段而不是整条路线
-        span = {1: "一日", 2: "两日", 3: "三日"}.get(self.slots["days"], "")
-        lines = ["按%s的%s给你排了 %d 步：" % (SHORT[area], span or "现有路线", len(steps))]
-        cur = ""
-        for s in steps:
-            # "未说明"占了两百多步，一律当成没写，别在答案里摆一排【未说明】
-            per = s["period"] if s["period"] and s["period"] not in ("未说明", "unspecified") else ""
-            if per and per != cur:
-                cur = per
-                lines.append("【%s】" % cur)
-            spot = s["spot"]
-            if per and spot.startswith(per):   # 前面已经有【上午】，"上午长海"就只写长海
-                spot = spot[len(per):]
-            seg = "  %s" % spot
-            if s["time"]:
-                seg += "（%s）" % s["time"]
-            if s["transport"]:
-                seg += "，%s" % s["transport"]
-            if s["tag"]:
-                seg += "（%s）" % s["tag"]
-            lines.append(seg)
+        want_days = self.slots["days"]
+        day_groups = split_days(steps, want_days)
+        actual_days = len(day_groups)
+        if actual_days > want_days:
+            # 路线步数超过一天容量时按实际需要的天数排，不能装作一天能走完
+            self.say("这条路线有 %d 步，%d 天走不完，已按 %d 天排" % (
+                len(steps), want_days, actual_days))
+        elif want_days >= 2 and actual_days >= 2:
+            self.say("把一条路线按原文顺序拆成了 %d 天，时段沿用原文" % actual_days)
+        span = {1: "一日", 2: "两日", 3: "三日"}.get(actual_days, "%d 天" % actual_days)
+        lines = ["按%s的%s给你排了 %d 步：" % (SHORT[area], span, len(steps))]
+        for di, group in enumerate(day_groups, 1):
+            if actual_days > 1:
+                lines.append("【第%d 天】" % di)
+            cur = ""
+            for s in group:
+                # "未说明"一律当成没写，别在答案里摆一排【未说明】
+                per = s["period"] if s["period"] and s["period"] not in ("未说明", "unspecified") else ""
+                if per and per != cur:
+                    cur = per
+                    lines.append("【%s】" % cur)
+                spot = s["spot"]
+                if per and spot.startswith(per):   # 前面已经有【上午】，"上午长海"就只写长海
+                    spot = spot[len(per):]
+                seg = "  %s" % spot
+                if s["time"]:
+                    seg += "（%s）" % s["time"]
+                if s["transport"]:
+                    seg += "，%s" % s["transport"]
+                if s["tag"]:
+                    seg += "（%s）" % s["tag"]
+                lines.append(seg)
         if tips:
             lines.append("注意：" + "；".join(tips[:2]))
         if self.note:
             lines.append("提醒：" + "；".join(self.note))
 
         self.plan = {"area": area, "visitor": self.slots["visitor"] or "未指定",
-                     "days": self.slots["days"], "route_id": route.get("route_id", ""),
+                     "days": self.slots["days"], "days_actual": actual_days,
+                     "route_id": route.get("route_id", ""),
                      "steps": steps, "tips": tips, "notes": self.note}
         self.answer = "\n".join(lines)
         self.status = "partial" if self.note else "ok"

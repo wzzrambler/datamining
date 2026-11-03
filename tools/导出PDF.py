@@ -26,6 +26,8 @@ def newest_report():
     pattern = os.path.join(ROOT, "outputs", "**", "*《数据挖掘》探索性实验报告_项目1*.docx")
     cands = [f for f in glob.glob(pattern, recursive=True)
              if not os.path.basename(f).startswith("~$")]
+    # 目标文件被占用时构建会另存为"（新）"，取修改时间最新的那一份，避免导出旧版
+    cands.sort(key=lambda f: os.path.getmtime(f), reverse=True)
     if not cands:
         raise SystemExit("outputs 下没有报告 docx")
     return max(cands, key=os.path.getmtime)

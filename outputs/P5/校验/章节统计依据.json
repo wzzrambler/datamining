@@ -2,13 +2,13 @@
   "schema": "p5-chapter-stats-1",
   "source": {
     "p5_run": "full-final-20261104",
-    "summary_sha256": "a9ce40e3e855f4fc04f635f1e01c16913a31fe2998b3adde646a017adcb5a4b1",
-    "graph_sha256": "ccad8d42683c319eee5a85a8b5e877d8844b2be2510671fd1e4155acdda82fa4",
+    "summary_sha256": "e59e8ab5be7d2cd94a7083d0c4c33214c6b6372fa7a5f49d2c933331efe5659c",
+    "graph_sha256": "9ea48053215878ca14a0361d883003004f5b8a112d8ebe8615abf2903ab730a9",
     "conditions_sha256": "be71f281b9fd4b21330182eecd7e8490b772b090f462b6a28471aa363eb16ced"
   },
   "packages": {
     "run_id": "full-final-20261104",
-    "packages_prepared": 2045,
+    "packages_prepared": 2042,
     "packages_attempted": 2045,
     "status_counts": {
       "COMPLETED": 2044,
@@ -22,9 +22,9 @@
     "new_routes_extracted": 151
   },
   "usage": {
-    "prompt_tokens": 34942364,
-    "completion_tokens": 863661,
-    "total_tokens": 35806025
+    "prompt_tokens": 34848420,
+    "completion_tokens": 846557,
+    "total_tokens": 35694977
   },
   "max_actual_prompt_tokens": 14368,
   "reference_scopes": {

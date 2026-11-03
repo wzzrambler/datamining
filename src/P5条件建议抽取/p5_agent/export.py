@@ -6,6 +6,7 @@ from copy import deepcopy
 from collections import Counter, defaultdict
 
 from .common import compact, digest, read_json, write_json
+from .evidence import annotate
 
 
 def export_run(run_dir, corpus, packages):
@@ -25,8 +26,18 @@ def export_run(run_dir, corpus, packages):
             grouped[record["package_key"]].append(record)
         snapshots = [{"host": {"status": p["status"], "records": grouped[p["package_key"]]}, "usage": []}
                      for p in sorted(manifest["effective_packages"], key=lambda p: p["package_key"])]
+    # 分片补跑的包不在原 packages 列表里，只看传入的 packages 会把分片记录的 scope 判成 route。
+    # 发布清单记录的是实际跑过的全部包，以它为准补充分片键。
+    fragment_keys = {p["context"]["package_key"] for p in packages
+                     if p["context"]["package_kind"] == "route_fragment"}
+    manifest_path = run_dir / "input_manifest.json"
+    if manifest_path.exists():
+        fragment_keys |= {p["package_key"] for p in read_json(manifest_path)["effective_packages"]
+                          if p["package_kind"] == "route_fragment"}
     all_records = [dict(r, package_status=s["host"]["status"]) for s in snapshots for r in s["host"]["records"]]
     accepted = [r for r in all_records if r["active"] and r["package_status"] in {"COMPLETED", "COMPLETED_WITH_SKIPS"}]
+    # 导出时把引文定位回原文，证据从"包级"细化到"句级"；定位不到的仍标 package
+    evidence_stats = annotate(accepted, corpus.documents)
     write_json(run_dir / "raw_observations.json", all_records)
     write_json(run_dir / "partial_observations.json", [r for r in all_records if r["active"] and r not in accepted])
     records = {r["record_id"]: r for r in accepted}
@@ -87,8 +98,7 @@ def export_run(run_dir, corpus, packages):
             if r.get("route_steps"):
                 route["extracted_step_sequences"].append({"steps": r["route_steps"], "observation_id": rid})
             if a["summary"]:
-                summary = {"text": a["summary"], "scope": "fragment" if r["package_key"] in {
-                    p["context"]["package_key"] for p in packages if p["context"]["package_kind"] == "route_fragment"} else "route",
+                summary = {"text": a["summary"], "scope": "fragment" if r["package_key"] in fragment_keys else "route",
                            "observation_id": rid}
                 if summary not in route["summaries"]:
                     route["summaries"].append(summary)
@@ -242,8 +252,9 @@ def export_run(run_dir, corpus, packages):
               "usage": {k: sum(u.get(k, 0) for s in snapshots for u in s["usage"])
                         for k in ("prompt_tokens", "completion_tokens", "total_tokens")},
               "max_actual_prompt_tokens": max((u.get("prompt_tokens", 0) for s in snapshots for u in s["usage"]), default=0),
+              "evidence": evidence_stats,
               "limitations": ["未完成包的已接纳记录只进入partial_observations，不进入汇总图",
-                              "来源精度为输入包，不声称已定位到每条事实的精确引句",
+                              "部分记录的引文未能唯一定位，证据精度仍为包级",
                               "时间仅保留逐条属性；跨来源时间汇总和条件推荐汇总由P6负责",
                               "图为P6输入材料；未连接Neo4j，未完成课程人工质量评估"]}
     if preserved_summary is not None:
