@@ -23,6 +23,10 @@ class SemanticReviewTests(unittest.TestCase):
         entries = tool.build_report(ROOT)['items']
         self.assertTrue(all(x['human_decision'] == 'pending' and not x['approved_for_export'] for x in entries))
         self.assertIn('subjective_evaluation', {x['suggested_evidence_category'] for x in entries})
+        c = next(x for x in entries if x['rule_id'] == 'RULE-2b7dd1bc24a1e219d6be')
+        self.assertEqual((c['suggested_statement_kind'], c['suggested_force'],
+                          c['suggested_recommendation_strength']),
+                         ('conditional_advice', 'recommended', 'subjective_weak'))
 
     def test_missing_formal_id_fails_closed(self):
         with tempfile.TemporaryDirectory() as d:

@@ -21,19 +21,22 @@ PROPOSALS = {
         'suggested_statement_kind': 'conditional_fact',
         'suggested_force': 'descriptive',
         'suggested_evidence_category': 'time_dependent_observation',
+        'suggested_recommendation_strength': 'not_applicable',
         'reason': '“上午去人少”是在陈述一个时间相关的经验观察；原文另有“必刷”等建议，应分开标注。',
     },
     'RULE-3cf6c2a2c60a76ffbeef': {
         'suggested_statement_kind': 'conditional_fact',
         'suggested_force': 'descriptive',
         'suggested_evidence_category': 'personal_itinerary_choice',
+        'suggested_recommendation_strength': 'not_applicable',
         'reason': '“因为午后想去……所以选择……”是一次行程选择，不应直接推广为对所有游客的餐厅建议。',
     },
     'RULE-2b7dd1bc24a1e219d6be': {
-        'suggested_statement_kind': 'conditional_fact',
-        'suggested_force': 'descriptive',
+        'suggested_statement_kind': 'conditional_advice',
+        'suggested_force': 'recommended',
         'suggested_evidence_category': 'subjective_evaluation',
-        'reason': '“室外更好玩”是作者主观评价；若保留为信息，应标记其主观性，不能当作已核实的客观事实。',
+        'suggested_recommendation_strength': 'subjective_weak',
+        'reason': '“如果不怕晒，室外更好玩”可作为隐含条件建议保留，但必须标记作者主观偏好，不得当作客观事实。',
     },
 }
 
