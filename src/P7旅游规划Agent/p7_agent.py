@@ -55,6 +55,20 @@ VISITOR_KW = {
     "情侣": ["女朋友", "男朋友", "情侣", "对象", "爱人", "二人世界"],
 }
 
+def canonical_visitor(visitor):
+    """把"6岁儿童""爸妈"这类说法收敛到 老人/亲子/情侣。
+
+    工具内部全用这三个标准值判断；模型和用户爱怎么说怎么说。
+    """
+    text = (visitor or "").strip()
+    if not text:
+        return ""
+    for name, words in VISITOR_KW.items():
+        if name in text or any(w in text for w in words):
+            return name
+    return text
+
+
 SHORT = {"九寨沟风景名胜区": "九寨沟",
          "广州长隆旅游度假区": "广州长隆",
          "珠海横琴长隆国际海洋度假区": "珠海长隆"}
@@ -131,7 +145,8 @@ def _tips(rows):
     out = []
     for r in rows:
         advice = (r.get("consequence_text") or "").strip()
-        if not advice:
+        if not advice or "原文未说明" in advice:
+            # 抽取时补的占位符（"推荐选择（原文未说明…）"）给不出信息，别摆到答案里
             continue
         cond = r.get("condition") or {}
         clauses = cond.get("clauses") or []
@@ -269,6 +284,7 @@ def get_route(area, days=1):
 
 
 def search_spots(area, visitor="", top_k=8):
+    visitor = canonical_visitor(visitor)
     # 只认景区内的景点：项目2 里标了 poi_role 和 scope，
     # 不加这两条会把成都的餐厅、路过的服务区也算成九寨沟的景点
     bag = {}
@@ -295,25 +311,53 @@ TIP_RANK = {"conditional_advice": 0, "conditional_restriction": 1,
             "general_advice": 2, "general_restriction": 3}
 
 
-def get_tips(area, keyword="", limit=3):
-    """取注意事项。带条件的排前面——"夏天去要带防晒"比"早些准备总是好的"更能用。"""
-    rows = []
+AUDIENCE_WORDS = {
+    "亲子": ("娃", "孩子", "小孩", "宝宝", "亲子", "身高", "儿童", "小盆友"),
+    "老人": ("老人", "长辈", "父母", "爸妈", "爷爷", "奶奶"),
+    "情侣": ("情侣", "二人世界", "女朋友", "男朋友"),
+}
+
+
+def _audience_match(item, visitor):
+    """人群不合的提醒先排除。给情侣推荐"带小孩别错过水战"只会显得没读题。"""
+    visitor = canonical_visitor(visitor)
+    if not visitor or visitor not in AUDIENCE_WORDS:
+        return True
+    text = (item.get("sentence") or "") + (item.get("advice") or "")
+    for who, words in AUDIENCE_WORDS.items():
+        if who == visitor:
+            continue
+        if any(w in text for w in words):
+            return False
+    return True
+
+
+def get_tips(area, keyword="", limit=3, visitor=""):
+    """取注意事项。带条件的排前面——"夏天去要带防晒"比"早些准备总是好的"更能用。
+
+    keyword 是偏好不是硬条件：模型爱拿"亲子"当关键词，但库里未必有字面带这两个字的
+    提醒，硬过滤会空手而归，模型还会再查一轮。先取关键词命中的，没有就退回全部。
+    """
     area = resolve_area(area)
+    visitor = canonical_visitor(visitor)
+    pool = []
     for c in CONDS:
         if c["scenic_area"] != area:
             continue
         rank = TIP_RANK.get(c["kind"])
         if rank is None:          # conditional_fact 陈述的是事实，不是建议
             continue
-        if keyword and keyword not in c["sentence"] and keyword not in c["advice"]:
+        if not _audience_match(c, visitor):
             continue
-        rows.append((rank, c["display"]))
-    rows.sort(key=lambda x: x[0])
-    return {"count": len(rows), "tips": [a for _, a in rows[:limit]]}
+        hit = bool(keyword) and (keyword in c["sentence"] or keyword in c["advice"])
+        pool.append((0 if hit else 1, rank, c["display"]))
+    pool.sort()
+    return {"count": len(pool), "tips": [text for _, _, text in pool[:limit]]}
 
 
 def tailor_route(route, visitor):
     """按人群处理步骤：不删步骤，只打标，删了路线就断了。"""
+    visitor = canonical_visitor(visitor)
     steps = []
     for s in route["steps"]:
         if not s["to"]:
@@ -392,7 +436,7 @@ REACT_PROMPT = """你在扮演一个旅游规划 Agent，按 ReAct 的方式决�
 - check_area(area)                     查景区库里有没有
 - get_route(area, days)                取结构化路线
 - search_spots(area, visitor, top_k)   取景点
-- get_tips(area, keyword)              取注意事项
+- get_tips(area, keyword, visitor)      取注意事项（visitor 用于排除人群不符的）
 - tailor_route(route, visitor)         按人群定制行程（需要先拿到 route）
 
 只允许两种输出格式，不要多余解释：
@@ -411,8 +455,10 @@ Action: final
 
 # Agent
 class Agent:
-    def __init__(self, text, use_llm=False, max_turns=6):
+    def __init__(self, text, use_llm=False, max_turns=6, on_event=None):
         self.text = text
+        # Web 端用它在每一轮结束时推 SSE；命令行不传就是 None，行为不变
+        self.on_event = on_event
         self.use_llm = use_llm and bool(os.environ.get("OPENAI_API_KEY"))
         self.max_turns = max_turns
         self.slots = {}
@@ -436,12 +482,24 @@ class Agent:
         if message not in self.note:
             self.note.append(message)
 
+    def emit(self, kind, payload):
+        if not self.on_event:
+            return
+        try:
+            self.on_event({"kind": kind, "data": payload})
+        except Exception:
+            # 推送失败不能影响规划本身
+            pass
+
     def log(self, i, thought, action, args, obs):
         self.turns.append({"turn": i, "thought": thought, "action": action,
                            "args": args, "observation": obs})
+        self.emit("turn", {"turn": i, "thought": thought, "action": action,
+                           "observation": obs})
 
     def run(self):
         self.slots = parse_slots(self.text)
+        self.emit("slots", self.slots)
         self.log(0, "先把这句话里的景区、人群、天数拆出来",
                  "parse_slots", {"text": self.text[:20]},
                  "景区 %s／人群 %s／%d 天" % (
@@ -561,7 +619,7 @@ class Agent:
 
         if "get_tips" not in self.obs:
             return ("顺手取这个景区的注意事项，最后一起给", "get_tips",
-                    {"area": s["area"], "keyword": ""})
+                    {"area": s["area"], "keyword": "", "visitor": s["visitor"] or ""})
 
         if "tailor_route" not in self.obs:
             return ("材料齐了，按人群把路线裁一版", "tailor_route",
@@ -643,8 +701,6 @@ class Agent:
             # 路线步数超过一天容量时按实际需要的天数排，不能装作一天能走完
             self.say("这条路线有 %d 步，%d 天走不完，已按 %d 天排" % (
                 len(steps), want_days, actual_days))
-        elif want_days >= 2 and actual_days >= 2:
-            self.say("把一条路线按原文顺序拆成了 %d 天，时段沿用原文" % actual_days)
         span = {1: "一日", 2: "两日", 3: "三日"}.get(actual_days, "%d 天" % actual_days)
         lines = ["按%s的%s给你排了 %d 步：" % (SHORT[area], span, len(steps))]
         for di, group in enumerate(day_groups, 1):
