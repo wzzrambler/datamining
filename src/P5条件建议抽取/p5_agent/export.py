@@ -249,8 +249,12 @@ def export_run(run_dir, corpus, packages):
               "transport_legs": len(legs), "p3_routes_inherited": len(corpus.routes),
               "new_routes_extracted": len(routes) - len(corpus.routes),
               "rule_categories": dict(Counter(x["category"] for r in rules.values() for x in (r["condition"] or {}).get("clauses", []))),
+              # 输入 token 里九成以上命中前缀缓存，按原价计费的只有 miss 部分。
+              # 只报 prompt_tokens 会让人以为一次全量烧了 3500 万，实际不是这么算的。
               "usage": {k: sum(u.get(k, 0) for s in snapshots for u in s["usage"])
-                        for k in ("prompt_tokens", "completion_tokens", "total_tokens")},
+                        for k in ("prompt_tokens", "completion_tokens", "total_tokens",
+                                  "prompt_cache_hit_tokens", "prompt_cache_miss_tokens")},
+              "requests": sum(len(s["usage"]) for s in snapshots),
               "max_actual_prompt_tokens": max((u.get("prompt_tokens", 0) for s in snapshots for u in s["usage"]), default=0),
               "evidence": evidence_stats,
               "limitations": ["未完成包的已接纳记录只进入partial_observations，不进入汇总图",

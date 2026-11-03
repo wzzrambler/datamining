@@ -27,8 +27,11 @@
   "usage": {
     "prompt_tokens": 34848420,
     "completion_tokens": 846557,
-    "total_tokens": 35694977
+    "total_tokens": 35694977,
+    "prompt_cache_hit_tokens": 33842099,
+    "prompt_cache_miss_tokens": 1006321
   },
+  "requests": 4314,
   "max_actual_prompt_tokens": 14368,
   "evidence": {
     "records": 3516,

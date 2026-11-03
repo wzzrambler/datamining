@@ -35,6 +35,12 @@ CLAUSES = Counter(len((r.get('condition') or {}).get('clauses') or []) for r in 
 LOGIC = Counter((r.get('condition') or {}).get('logic') for r in RULES)
 COMPLETE = sum(1 for r in RULES if r.get('p5_complete'))
 USAGE = P5.get('usage') or {}
+REQ = P5.get('requests', 0) or 0
+PROMPT_T = USAGE.get('prompt_tokens', 0) or 0
+CACHE_T = USAGE.get('prompt_cache_hit_tokens', 0) or 0
+MISS_T = USAGE.get('prompt_cache_miss_tokens', 0) or 0
+OUT_T = USAGE.get('completion_tokens', 0) or 0
+CACHE_PCT = CACHE_T / PROMPT_T * 100 if PROMPT_T else 0.0
 ATTR = Counter(f['attribute'] for f in FACTS)
 
 AUD_RULES = [('带小孩', '宝宝|娃|小孩|儿童|孩子|身高|亲子|小朋友|小盆友'),
@@ -118,11 +124,19 @@ CONTENT['5.2'] = [
     ('tbl', '表5-2  批量运行开销',
      ['项目', '数值', '说明'],
      [['输入包', str(P5.get('packages_prepared', 0)), '路线包、段落包与补跑分片之和'],
-      ['提示词 tokens', '{:,}'.format(USAGE.get('prompt_tokens', 0)), '含重试与修正请求'],
-      ['输出 tokens', '{:,}'.format(USAGE.get('completion_tokens', 0)), '结构化 JSON'],
+      ['请求数', '{:,}'.format(REQ), '平均每包 %.1f 次（含重试）' % (REQ / max(1, P5.get('packages_attempted', 1)))],
+      ['输入 tokens', '{:,}'.format(PROMPT_T), '其中缓存命中 {:,}（{:.1f}%）'.format(CACHE_T, CACHE_PCT)],
+      ['未命中计费 tokens', '{:,}'.format(MISS_T), '按原价计价的输入部分'],
+      ['输出 tokens', '{:,}'.format(OUT_T), '结构化 JSON'],
       ['单次最大提示 tokens', '{:,}'.format(P5.get('max_actual_prompt_tokens', 0)), '最长的一个包（整条路线）'],
       ['模型', 'deepseek-flash', '温度 0，强制 JSON 输出']],
-     [4.0, 3.4, 7.2]),
+     [3.6, 3.4, 7.6]),
+    ('p', '开销集中在输入侧，但计价不能只看输入总数：%d 次请求共 %s 输入 token，'
+          '其中 %s 命中前缀缓存（%.1f%%），按未命中计价的只有 %s；输出 %s token，平均每次 %.0f。'
+          '缓存命中来自固定的系统提示与工具 schema——每个包只在末尾追加自己的正文，'
+          '同一批次里除首次请求外，前缀部分几乎全部复用。' % (
+              REQ, '{:,}'.format(PROMPT_T), '{:,}'.format(CACHE_T), CACHE_PCT,
+              '{:,}'.format(MISS_T), '{:,}'.format(OUT_T), OUT_T / max(1, REQ))),
     ('p', '一个包含有整条九寨沟官方两日路线的包触发了上下文预算上限。该包按段落切为四片补跑，'
           '校验原文覆盖与步骤集合不变后合并回批次，因此实际执行 %d 个包（原计划 %d，'
           '失败 1 个、补跑 %d 片）。' % (PK_RUN, PK_ORIG, PK.get('route_fragment', 0))),
