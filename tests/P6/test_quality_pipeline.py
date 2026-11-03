@@ -66,7 +66,8 @@ class QualityPipelineTests(unittest.TestCase):
     def test_production_rebuild_deterministic_and_every_derived_id_registered(self):
         p=ROOT/'processed/P6知识图谱/cleaned-v1'
         graph=json.loads((p/'graph.json').read_text('utf-8'))
-        obs={r['record_id']:r for r in json.loads((ROOT/'processed/P5条件建议抽取/runs/full-final-20261101/raw_observations.json').read_text('utf-8'))}
+        run=(ROOT/'processed/P5条件建议抽取/ACTIVE_RUN').read_text('utf-8').strip()
+        obs={r['record_id']:r for r in json.loads((ROOT/'processed/P5条件建议抽取/runs'/run/'raw_observations.json').read_text('utf-8'))}
         docs={d['doc_id']:d for d in json.loads((ROOT/'processed/P1爬虫数据清洗/documents.json').read_text('utf-8'))}
         rebuilt=build(graph,obs,docs)[0]
         self.assertEqual(graph,rebuilt)
@@ -75,7 +76,7 @@ class QualityPipelineTests(unittest.TestCase):
             if n['label']=='ADVICE_SUMMARY':
                 self.assertTrue(all(nodes[r]['label'] in {'FACT','CONDITIONAL_RULE'} for r in n['properties']['source_record_ids']))
         self.assertEqual(sum(n['label']=='ROUTE' for n in nodes.values()),29)
-        p5=json.loads((ROOT/'processed/P5条件建议抽取/runs/full-final-20261101/integrated/graph.json').read_text('utf-8'))
+        p5=json.loads((ROOT/'processed/P5条件建议抽取/runs'/run/'integrated/graph.json').read_text('utf-8'))
         self.assertFalse(any(n['label'] in {'TIME_SUMMARY','ADVICE_SUMMARY'} for n in p5['nodes']))
 
 

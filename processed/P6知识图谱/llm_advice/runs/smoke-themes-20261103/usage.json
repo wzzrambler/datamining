@@ -1,0 +1,14 @@
+{
+  "requests": 2,
+  "entities": 1,
+  "chunked_groups": 1,
+  "theme_count": 20,
+  "prompt_tokens": 13099,
+  "completion_tokens": 2284,
+  "max_actual_total_tokens": 7793,
+  "max_actual_prompt_tokens": 6647,
+  "all_outputs_json_and_refs_validated": true,
+  "semantic_correctness_independently_verified": false,
+  "checkpoints": "C:\\Users\\31879\\小组仓库外我自己的资源\\P6_LLM主题汇总_20261101\\smoke-themes-20261103\\checkpoints",
+  "mean_actual_prompt_tokens": 6549.5
+}

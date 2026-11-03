@@ -1,0 +1,5071 @@
+{
+  "schema_version": "p4-evaluation-1",
+  "mode": "confirmed_sample_check_not_independent",
+  "review_requirement": "只接受review_status=confirmed或user_confirmed；依据文件声明，不自动修改状态",
+  "annotation_sha256": "65448d750e2aaedbfce321d27566e3269f0ee5be7ea30f72e8a4458b2148901c",
+  "prediction_sha256": "d8ba3f03d48484e4355b01f811e007799cae2effd8d64553c3b3cfa5cffd0a07",
+  "split_sha256": null,
+  "validation": {
+    "schema_version": "p4-annotation-check-1",
+    "input_sha256": {
+      "outputs\\P4\\P4样本原文与段落.json": "8755332bf6239ed96e1f2adc1b3e0872451fa6c58612db91816462e56f66cc8a",
+      "outputs\\P4\\P4人工标注样本.csv": "65448d750e2aaedbfce321d27566e3269f0ee5be7ea30f72e8a4458b2148901c",
+      "C:\\Users\\31879\\Desktop\\数据挖掘实验_项目1\\processed\\P1爬虫数据清洗\\documents.json": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979"
+    },
+    "rows": 51,
+    "valid_rows": 51,
+    "errors": [],
+    "warnings": [
+      "P4A-001: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-001: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-002: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-002: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-003: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-003: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-004: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-004: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-005: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-005: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-006: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-006: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-007: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-007: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-008: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-008: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-009: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-009: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-010: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-010: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-011: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-011: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-012: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-012: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-013: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-013: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-014: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-014: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-015: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-015: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-016: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-016: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-017: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-017: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-018: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-018: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-019: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-019: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-020: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-020: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-021: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-021: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-022: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-022: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-023: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-023: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-024: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-024: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-025: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-025: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-026: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-026: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-027: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-027: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-028: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-028: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-029: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-029: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-030: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-030: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-031: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-031: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-032: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-032: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-033: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-033: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-034: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-034: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-035: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-035: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-036: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-036: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-037: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-037: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-038: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-038: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-039: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-039: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-040: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-040: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-041: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-041: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-042: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-042: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-043: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-043: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-044: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-044: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-045: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-045: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-046: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-046: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-047: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-047: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-048: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-048: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-049: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-049: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-050: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-050: 无sentence_id，评估以文档和全文区间定位",
+      "P4A-051: 无source_unit列/值，可从P1来源映射派生，未伪造",
+      "P4A-051: 无sentence_id，评估以文档和全文区间定位"
+    ],
+    "review_counts": {
+      "user_confirmed": 51
+    },
+    "confirmed_rows": 51,
+    "source_files_unchanged": true
+  },
+  "rules": {
+    "method": "rules",
+    "boundary_only_diagnostics_not_strict_credit": [
+      {
+        "annotation_id": "P4A-051",
+        "gold": {
+          "start": 898,
+          "end": 899,
+          "text": "那"
+        },
+        "overlapping_predictions": [
+          {
+            "start": 898,
+            "end": 900,
+            "text": "那段",
+            "type": "event"
+          }
+        ]
+      }
+    ],
+    "counts": {
+      "rows": 51,
+      "targets": 41,
+      "detected_targets": 39,
+      "detected_exclusions": 0,
+      "emitted_links": 14,
+      "target_emitted_links": 14,
+      "correct_links": 11,
+      "single_antecedent_targets": 33,
+      "multi_antecedent_targets": 1,
+      "correct_single_links": 11,
+      "correct_multi_links": 0,
+      "multi_candidate_hits": 0,
+      "candidate_hits": 14,
+      "correct_status": 30
+    },
+    "metrics": {
+      "annotation_aligned_link_precision": 0.7857142857142857,
+      "annotation_aligned_link_coverage": 0.34146341463414637,
+      "single_antecedent_success_rate": 0.3333333333333333,
+      "multi_antecedent_success_rate": 0.0,
+      "candidate_recall_multi_antecedent": 0.0,
+      "candidate_recall_single_antecedent": 0.42424242424242425,
+      "detection_recall_on_annotated_targets": 0.9512195121951219,
+      "status_accuracy": 0.5882352941176471
+    },
+    "single_antecedent_by_gold_type": {
+      "event": {
+        "targets": 14,
+        "correct_links": 4,
+        "candidate_hits": 4,
+        "success_rate": 0.2857142857142857,
+        "candidate_recall": 0.2857142857142857
+      },
+      "animal": {
+        "targets": 3,
+        "correct_links": 1,
+        "candidate_hits": 2,
+        "success_rate": 0.3333333333333333,
+        "candidate_recall": 0.6666666666666666
+      },
+      "facility": {
+        "targets": 3,
+        "correct_links": 0,
+        "candidate_hits": 0,
+        "success_rate": 0.0,
+        "candidate_recall": 0.0
+      },
+      "other": {
+        "targets": 2,
+        "correct_links": 0,
+        "candidate_hits": 0,
+        "success_rate": 0.0,
+        "candidate_recall": 0.0
+      },
+      "location": {
+        "targets": 11,
+        "correct_links": 6,
+        "candidate_hits": 8,
+        "success_rate": 0.5454545454545454,
+        "candidate_recall": 0.7272727272727273
+      }
+    },
+    "unmatched_detected_spans_in_evaluated_documents": 2,
+    "metric_scope": "仅已确认可判定标注行；未对齐的自动命中不擅自判错，现有标注未覆盖或边界不同，无法判定；非全文准确率",
+    "details": [
+      {
+        "annotation_id": "P4A-001",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 137,
+          "end": 139,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "non_entity_reference",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-002",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 141,
+          "end": 143,
+          "text": "那些"
+        },
+        "gold_status": "no_clear_antecedent",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "type_mismatch"
+      },
+      {
+        "annotation_id": "P4A-003",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 327,
+          "end": 329,
+          "text": "这种"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 302,
+            "end": 323,
+            "text": "步行到动物园至少得四十分钟,此时已经十一点",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-55024edff0baf015",
+          "start": 302,
+          "end": 323,
+          "text": "步行到动物园至少得四十分钟,此时已经十一点",
+          "semantic_type": "event",
+          "para_id": 3,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-cf5ded41a7226a10"
+          },
+          "p2_mention_id": null,
+          "entity_id": null,
+          "canonical_name": null,
+          "p2_type": null,
+          "poi_role": null,
+          "subtype": null,
+          "evidence": [
+            {
+              "method": "event",
+              "rule_id": "STRUCTURAL_CLAUSE"
+            }
+          ],
+          "shape": "clause",
+          "distance": 4,
+          "sentence_index": 10,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "EVENT_STRUCTURE_MATCH",
+          "score_parts": {
+            "structure": 1,
+            "distance": 0.75,
+            "continuity": 1
+          },
+          "score": 0.925,
+          "object_key": "N-55024edff0baf015"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-55024edff0baf015",
+            "start": 302,
+            "end": 323,
+            "text": "步行到动物园至少得四十分钟,此时已经十一点",
+            "semantic_type": "event",
+            "para_id": 3,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-cf5ded41a7226a10"
+            },
+            "p2_mention_id": null,
+            "entity_id": null,
+            "canonical_name": null,
+            "p2_type": null,
+            "poi_role": null,
+            "subtype": null,
+            "evidence": [
+              {
+                "method": "event",
+                "rule_id": "STRUCTURAL_CLAUSE"
+              }
+            ],
+            "shape": "clause",
+            "distance": 4,
+            "sentence_index": 10,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "EVENT_STRUCTURE_MATCH",
+            "score_parts": {
+              "structure": 1,
+              "distance": 0.75,
+              "continuity": 1
+            },
+            "score": 0.925,
+            "object_key": "N-55024edff0baf015"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-004",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 400,
+          "end": 402,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "non_entity_reference",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-005",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 603,
+          "end": 605,
+          "text": "这个"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 591,
+            "end": 598,
+            "text": "从南门进北门出",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-006",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 618,
+          "end": 619,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 591,
+            "end": 598,
+            "text": "从南门进北门出",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-007",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 626,
+          "end": 628,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "non_entity_reference",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-008",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 754,
+          "end": 756,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 298,
+            "end": 300,
+            "text": "停车",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-009",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 840,
+          "end": 842,
+          "text": "这次"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 558,
+            "end": 572,
+            "text": "初四早上八点我们就到了动物园",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-010",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1003,
+          "end": 1004,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-011",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1068,
+          "end": 1070,
+          "text": "这样"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1019,
+            "end": 1047,
+            "text": "穿大口袋有帽子的衣服,也可以手上提食物拿外套挡住就进去了",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-44345825522e493c",
+          "start": 1011,
+          "end": 1063,
+          "text": "你可以背包进去,穿大口袋有帽子的衣服,也可以手上提食物拿外套挡住就进去了,进园后再把食物拿出来放包里背着",
+          "semantic_type": "event",
+          "para_id": 10,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-cf5ded41a7226a10"
+          },
+          "p2_mention_id": null,
+          "entity_id": null,
+          "canonical_name": null,
+          "p2_type": null,
+          "poi_role": null,
+          "subtype": null,
+          "evidence": [
+            {
+              "method": "event",
+              "rule_id": "STRUCTURAL_CLAUSE"
+            }
+          ],
+          "shape": "clause",
+          "distance": 5,
+          "sentence_index": 34,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "EVENT_STRUCTURE_MATCH",
+          "score_parts": {
+            "structure": 1,
+            "distance": 0.7058823529411764,
+            "continuity": 1
+          },
+          "score": 0.9117647058823528,
+          "object_key": "N-44345825522e493c"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-44345825522e493c",
+            "start": 1011,
+            "end": 1063,
+            "text": "你可以背包进去,穿大口袋有帽子的衣服,也可以手上提食物拿外套挡住就进去了,进园后再把食物拿出来放包里背着",
+            "semantic_type": "event",
+            "para_id": 10,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-cf5ded41a7226a10"
+            },
+            "p2_mention_id": null,
+            "entity_id": null,
+            "canonical_name": null,
+            "p2_type": null,
+            "poi_role": null,
+            "subtype": null,
+            "evidence": [
+              {
+                "method": "event",
+                "rule_id": "STRUCTURAL_CLAUSE"
+              }
+            ],
+            "shape": "clause",
+            "distance": 5,
+            "sentence_index": 34,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "EVENT_STRUCTURE_MATCH",
+            "score_parts": {
+              "structure": 1,
+              "distance": 0.7058823529411764,
+              "continuity": 1
+            },
+            "score": 0.9117647058823528,
+            "object_key": "N-44345825522e493c"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-012",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1124,
+          "end": 1125,
+          "text": "这"
+        },
+        "gold_status": "no_clear_antecedent",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "type_mismatch"
+      },
+      {
+        "annotation_id": "P4A-013",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1421,
+          "end": 1423,
+          "text": "他们"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1405,
+            "end": 1411,
+            "text": "一头成年大象",
+            "type": "animal"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-8a09cd8a305ea3ea",
+          "start": 1405,
+          "end": 1411,
+          "text": "一头成年大象",
+          "semantic_type": "animal",
+          "para_id": 14,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-cf5ded41a7226a10"
+          },
+          "p2_mention_id": null,
+          "entity_id": null,
+          "canonical_name": null,
+          "p2_type": null,
+          "poi_role": null,
+          "subtype": null,
+          "evidence": [
+            {
+              "method": "compound",
+              "rule_id": "QUANTIFIED_NOUN"
+            },
+            {
+              "method": "compound",
+              "rule_id": "QUANTIFIED_NOUN"
+            }
+          ],
+          "head": "成年大象",
+          "distance": 10,
+          "sentence_index": 51,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "ANIMAL_PERSONIFICATION",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.5454545454545454,
+            "sentence": 1
+          },
+          "score": 0.8409090909090909,
+          "object_key": "N-8a09cd8a305ea3ea"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-8a09cd8a305ea3ea",
+            "start": 1405,
+            "end": 1411,
+            "text": "一头成年大象",
+            "semantic_type": "animal",
+            "para_id": 14,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-cf5ded41a7226a10"
+            },
+            "p2_mention_id": null,
+            "entity_id": null,
+            "canonical_name": null,
+            "p2_type": null,
+            "poi_role": null,
+            "subtype": null,
+            "evidence": [
+              {
+                "method": "compound",
+                "rule_id": "QUANTIFIED_NOUN"
+              },
+              {
+                "method": "compound",
+                "rule_id": "QUANTIFIED_NOUN"
+              }
+            ],
+            "head": "成年大象",
+            "distance": 10,
+            "sentence_index": 51,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "ANIMAL_PERSONIFICATION",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.5454545454545454,
+              "sentence": 1
+            },
+            "score": 0.8409090909090909,
+            "object_key": "N-8a09cd8a305ea3ea"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-014",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1670,
+          "end": 1672,
+          "text": "这样"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1585,
+            "end": 1592,
+            "text": "很多的主题卖场",
+            "type": "facility"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-015",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1796,
+          "end": 1797,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-016",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1797,
+          "end": 1798,
+          "text": "它"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "lexical_non_reference"
+      },
+      {
+        "annotation_id": "P4A-017",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1843,
+          "end": 1844,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-018",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1844,
+          "end": 1845,
+          "text": "它"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "lexical_non_reference"
+      },
+      {
+        "annotation_id": "P4A-019",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1901,
+          "end": 1903,
+          "text": "其中"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1873,
+            "end": 1877,
+            "text": "四头大象",
+            "type": "animal"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "ambiguous"
+      },
+      {
+        "annotation_id": "P4A-020",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 2015,
+          "end": 2017,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 558,
+            "end": 572,
+            "text": "初四早上八点我们就到了动物园",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-021",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 2181,
+          "end": 2182,
+          "text": "这"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "type_mismatch"
+      },
+      {
+        "annotation_id": "P4A-022",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 222,
+          "end": 224,
+          "text": "这个"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 95,
+            "end": 106,
+            "text": "10:00-10:40",
+            "type": "other"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-023",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 427,
+          "end": 428,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-024",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 428,
+          "end": 429,
+          "text": "他"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "lexical_non_reference"
+      },
+      {
+        "annotation_id": "P4A-025",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 586,
+          "end": 587,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 565,
+            "end": 569,
+            "text": "科莫多龙",
+            "type": "animal"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-026",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 626,
+          "end": 628,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 622,
+            "end": 625,
+            "text": "考拉园",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-70c7a86f12111f8a",
+          "start": 622,
+          "end": 625,
+          "text": "考拉园",
+          "semantic_type": "location",
+          "para_id": 23,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-f1b0aebda6718aee"
+          },
+          "p2_mention_id": "M-44d3fb36d7836956",
+          "entity_id": "POI-73de67c9bb37b2da",
+          "canonical_name": "考拉园",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 23,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 1
+          },
+          "score": 0.9730769230769232,
+          "object_key": "entity:POI-73de67c9bb37b2da"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-70c7a86f12111f8a",
+            "start": 622,
+            "end": 625,
+            "text": "考拉园",
+            "semantic_type": "location",
+            "para_id": 23,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-f1b0aebda6718aee"
+            },
+            "p2_mention_id": "M-44d3fb36d7836956",
+            "entity_id": "POI-73de67c9bb37b2da",
+            "canonical_name": "考拉园",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 23,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 1
+            },
+            "score": 0.9730769230769232,
+            "object_key": "entity:POI-73de67c9bb37b2da"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-027",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 702,
+          "end": 704,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 692,
+            "end": 700,
+            "text": "「南美探秘」附近",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-028",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 19,
+          "end": 21,
+          "text": "这次"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 6,
+            "end": 16,
+            "text": "一次珠海长隆海洋王国",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-029",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 56,
+          "end": 57,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 38,
+            "end": 43,
+            "text": "早上8点多",
+            "type": "other"
+          }
+        ],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "not_detected"
+      },
+      {
+        "annotation_id": "P4A-030",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 383,
+          "end": 385,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 321,
+            "end": 334,
+            "text": "5D城堡影院(18:30)",
+            "type": "facility"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-031",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 446,
+          "end": 448,
+          "text": "这个"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 402,
+            "end": 412,
+            "text": "容易忽略的海底互动船",
+            "type": "facility"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-be803628ddd53816",
+          "start": 439,
+          "end": 442,
+          "text": "鲸鲨馆",
+          "semantic_type": "facility",
+          "para_id": 8,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-7ecbca0097831b32",
+          "entity_id": "POI-3236debf17c97904",
+          "canonical_name": "鲸鲨馆",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "venue",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 4,
+          "sentence_index": 13,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "OBJECT_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.75,
+            "sentence": 0.5
+          },
+          "score": 0.8125,
+          "object_key": "entity:POI-3236debf17c97904"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-be803628ddd53816",
+            "start": 439,
+            "end": 442,
+            "text": "鲸鲨馆",
+            "semantic_type": "facility",
+            "para_id": 8,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-7ecbca0097831b32",
+            "entity_id": "POI-3236debf17c97904",
+            "canonical_name": "鲸鲨馆",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "venue",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 4,
+            "sentence_index": 13,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "OBJECT_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.75,
+              "sentence": 0.5
+            },
+            "score": 0.8125,
+            "object_key": "entity:POI-3236debf17c97904"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-032",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 505,
+          "end": 507,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-4587f8ee7b63c648",
+          "start": 489,
+          "end": 493,
+          "text": "海鸟世界",
+          "semantic_type": "location",
+          "para_id": 9,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-ee529e25de8adf37",
+          "entity_id": "POI-081574ee84e23fb5",
+          "canonical_name": "海鸟世界",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 12,
+          "sentence_index": 15,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.5,
+            "sentence": 1
+          },
+          "score": 0.825,
+          "object_key": "entity:POI-081574ee84e23fb5"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-4587f8ee7b63c648",
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "semantic_type": "location",
+            "para_id": 9,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-ee529e25de8adf37",
+            "entity_id": "POI-081574ee84e23fb5",
+            "canonical_name": "海鸟世界",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 12,
+            "sentence_index": 15,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.5,
+              "sentence": 1
+            },
+            "score": 0.825,
+            "object_key": "entity:POI-081574ee84e23fb5"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-033",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 518,
+          "end": 520,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-4587f8ee7b63c648",
+          "start": 489,
+          "end": 493,
+          "text": "海鸟世界",
+          "semantic_type": "location",
+          "para_id": 9,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-ee529e25de8adf37",
+          "entity_id": "POI-081574ee84e23fb5",
+          "canonical_name": "海鸟世界",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 25,
+          "sentence_index": 15,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.3243243243243243,
+            "sentence": 0.5
+          },
+          "score": 0.6635135135135135,
+          "object_key": "entity:POI-081574ee84e23fb5"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-4587f8ee7b63c648",
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "semantic_type": "location",
+            "para_id": 9,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-ee529e25de8adf37",
+            "entity_id": "POI-081574ee84e23fb5",
+            "canonical_name": "海鸟世界",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 25,
+            "sentence_index": 15,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.3243243243243243,
+              "sentence": 0.5
+            },
+            "score": 0.6635135135135135,
+            "object_key": "entity:POI-081574ee84e23fb5"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-034",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 552,
+          "end": 554,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "low_score"
+      },
+      {
+        "annotation_id": "P4A-035",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 620,
+          "end": 622,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 616,
+            "end": 619,
+            "text": "海象岛",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-1413e7bf7126fdc1",
+          "start": 616,
+          "end": 619,
+          "text": "海象岛",
+          "semantic_type": "location",
+          "para_id": 11,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-446b5c11a2a7a52b",
+          "entity_id": "POI-aef8bb15db756e34",
+          "canonical_name": "海象岛",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 20,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 1
+          },
+          "score": 0.9730769230769232,
+          "object_key": "entity:POI-aef8bb15db756e34"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-1413e7bf7126fdc1",
+            "start": 616,
+            "end": 619,
+            "text": "海象岛",
+            "semantic_type": "location",
+            "para_id": 11,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-446b5c11a2a7a52b",
+            "entity_id": "POI-aef8bb15db756e34",
+            "canonical_name": "海象岛",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 20,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 1
+            },
+            "score": 0.9730769230769232,
+            "object_key": "entity:POI-aef8bb15db756e34"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-036",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 733,
+          "end": 734,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 152,
+            "end": 184,
+            "text": "1⃣鲸鲨馆→2⃣海底互动船→3⃣白鲸馆→4⃣北极熊馆→5⃣企鹅馆",
+            "type": "event"
+          },
+          {
+            "start": 246,
+            "end": 334,
+            "text": "1⃣白鲸剧场(14:30)→2⃣水獭之家→3⃣海鸟世界→4⃣海象岛→5⃣海狮港湾→6⃣中华白海豚→7⃣海豚剧场(17:00)→8⃣海牛馆→9⃣海豚岛→5D城堡影院(18:30)",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "ambiguous"
+      },
+      {
+        "annotation_id": "P4A-037",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 91,
+          "end": 92,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-038",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 487,
+          "end": 488,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 405,
+            "end": 408,
+            "text": "五彩池",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-2e380b7dff1fadb7",
+          "start": 483,
+          "end": 486,
+          "text": "五彩池",
+          "semantic_type": "location",
+          "para_id": 5,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-3bf3fefeaad6b8e1",
+          "entity_id": "POI-de6db9a7cdd443ab",
+          "canonical_name": "五彩池",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 16,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 1
+          },
+          "score": 0.9730769230769232,
+          "object_key": "entity:POI-de6db9a7cdd443ab"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-2e380b7dff1fadb7",
+            "start": 483,
+            "end": 486,
+            "text": "五彩池",
+            "semantic_type": "location",
+            "para_id": 5,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-3bf3fefeaad6b8e1",
+            "entity_id": "POI-de6db9a7cdd443ab",
+            "canonical_name": "五彩池",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 16,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 1
+            },
+            "score": 0.9730769230769232,
+            "object_key": "entity:POI-de6db9a7cdd443ab"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-039",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 543,
+          "end": 545,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 537,
+            "end": 542,
+            "text": "诺日朗中心",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-f3dc4e2f9abcf293",
+          "start": 537,
+          "end": 542,
+          "text": "诺日朗中心",
+          "semantic_type": "facility",
+          "para_id": 5,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-224baa7ce018e08d",
+          "entity_id": "POI-10e8a874d4a64eeb",
+          "canonical_name": "诺日朗中心",
+          "p2_type": "POI",
+          "poi_role": "support",
+          "subtype": "service_center",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 18,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 0.5
+          },
+          "score": 0.8730769230769231,
+          "object_key": "entity:POI-10e8a874d4a64eeb"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-f3dc4e2f9abcf293",
+            "start": 537,
+            "end": 542,
+            "text": "诺日朗中心",
+            "semantic_type": "facility",
+            "para_id": 5,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-224baa7ce018e08d",
+            "entity_id": "POI-10e8a874d4a64eeb",
+            "canonical_name": "诺日朗中心",
+            "p2_type": "POI",
+            "poi_role": "support",
+            "subtype": "service_center",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 18,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 0.5
+            },
+            "score": 0.8730769230769231,
+            "object_key": "entity:POI-10e8a874d4a64eeb"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-040",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 564,
+          "end": 566,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 537,
+            "end": 542,
+            "text": "诺日朗中心",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "ambiguous"
+      },
+      {
+        "annotation_id": "P4A-041",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 664,
+          "end": 666,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 657,
+            "end": 660,
+            "text": "箭竹海",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-ed06d1a689c734e9",
+          "start": 657,
+          "end": 660,
+          "text": "箭竹海",
+          "semantic_type": "location",
+          "para_id": 6,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-caec8a3c8707fc76",
+          "entity_id": "POI-d84c258e38dc6005",
+          "canonical_name": "箭竹海",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 4,
+          "sentence_index": 23,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.75,
+            "sentence": 1
+          },
+          "score": 0.9125,
+          "object_key": "entity:POI-d84c258e38dc6005"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-ed06d1a689c734e9",
+            "start": 657,
+            "end": 660,
+            "text": "箭竹海",
+            "semantic_type": "location",
+            "para_id": 6,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-caec8a3c8707fc76",
+            "entity_id": "POI-d84c258e38dc6005",
+            "canonical_name": "箭竹海",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 4,
+            "sentence_index": 23,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.75,
+              "sentence": 1
+            },
+            "score": 0.9125,
+            "object_key": "entity:POI-d84c258e38dc6005"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-042",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 856,
+          "end": 858,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 865,
+            "end": 895,
+            "text": "步行800米,沿途老虎海、树正瀑布、公主海、树正群海一路连绵",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-043",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 988,
+          "end": 990,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 398,
+            "end": 597,
+            "text": "第一站:长海、五彩池。第一站先去长海。长海是九寨沟海拔最高、湖水最深、面积最大的海子。带长辈出行的朋友,就在长海观景台简单看一看,别走远,保存好体力。往下步行800米就到五彩池,这是九寨沟最小巧艳丽的海子。阳光洒下来,就像上帝打翻的调色盘,拍照根本不用滤镜。看完五彩池,坐车前往诺日朗中心。这里是景区唯一的餐厅和吸烟区,逛累了正好在这里休整、吃饭、接热水。但注意:诺日朗别急着逛,先换乘去右线方向。",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-044",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 274,
+          "end": 276,
+          "text": "这段"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 251,
+            "end": 273,
+            "text": "原始森林 → 芳草海 → 天鹅海 → 箭竹海",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-ab3f635856531900",
+          "start": 251,
+          "end": 273,
+          "text": "原始森林 → 芳草海 → 天鹅海 → 箭竹海",
+          "semantic_type": "event",
+          "para_id": 14,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": null,
+          "entity_id": null,
+          "canonical_name": null,
+          "p2_type": null,
+          "poi_role": null,
+          "subtype": null,
+          "evidence": [
+            {
+              "method": "event",
+              "rule_id": "ROUTE_BLOCK"
+            }
+          ],
+          "shape": "route",
+          "distance": 1,
+          "sentence_index": 14,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph",
+          "eligible": true,
+          "type_rule": "EVENT_STRUCTURE_MATCH",
+          "score_parts": {
+            "structure": 1,
+            "distance": 0.9230769230769231,
+            "continuity": 0.6
+          },
+          "score": 0.8969230769230769,
+          "object_key": "N-ab3f635856531900"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-ab3f635856531900",
+            "start": 251,
+            "end": 273,
+            "text": "原始森林 → 芳草海 → 天鹅海 → 箭竹海",
+            "semantic_type": "event",
+            "para_id": 14,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": null,
+            "entity_id": null,
+            "canonical_name": null,
+            "p2_type": null,
+            "poi_role": null,
+            "subtype": null,
+            "evidence": [
+              {
+                "method": "event",
+                "rule_id": "ROUTE_BLOCK"
+              }
+            ],
+            "shape": "route",
+            "distance": 1,
+            "sentence_index": 14,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph",
+            "eligible": true,
+            "type_rule": "EVENT_STRUCTURE_MATCH",
+            "score_parts": {
+              "structure": 1,
+              "distance": 0.9230769230769231,
+              "continuity": 0.6
+            },
+            "score": 0.8969230769230769,
+            "object_key": "N-ab3f635856531900"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-045",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 307,
+          "end": 309,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "non_entity_reference",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-046",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 330,
+          "end": 332,
+          "text": "这段"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 314,
+            "end": 321,
+            "text": "天鹅海→箭竹海",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-047",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 470,
+          "end": 472,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 435,
+            "end": 469,
+            "text": "箭竹海 → 熊猫海 → 五花海 → 珍珠滩 → 珍珠滩瀑布 → 镜海",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-70a541f45f228053",
+          "start": 435,
+          "end": 469,
+          "text": "箭竹海 → 熊猫海 → 五花海 → 珍珠滩 → 珍珠滩瀑布 → 镜海",
+          "semantic_type": "event",
+          "para_id": 20,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": null,
+          "entity_id": null,
+          "canonical_name": null,
+          "p2_type": null,
+          "poi_role": null,
+          "subtype": null,
+          "evidence": [
+            {
+              "method": "event",
+              "rule_id": "ROUTE_BLOCK"
+            }
+          ],
+          "shape": "route",
+          "distance": 1,
+          "sentence_index": 21,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph",
+          "eligible": true,
+          "type_rule": "EVENT_STRUCTURE_MATCH",
+          "score_parts": {
+            "structure": 1,
+            "distance": 0.9230769230769231,
+            "continuity": 0.6
+          },
+          "score": 0.8969230769230769,
+          "object_key": "N-70a541f45f228053"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-70a541f45f228053",
+            "start": 435,
+            "end": 469,
+            "text": "箭竹海 → 熊猫海 → 五花海 → 珍珠滩 → 珍珠滩瀑布 → 镜海",
+            "semantic_type": "event",
+            "para_id": 20,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": null,
+            "entity_id": null,
+            "canonical_name": null,
+            "p2_type": null,
+            "poi_role": null,
+            "subtype": null,
+            "evidence": [
+              {
+                "method": "event",
+                "rule_id": "ROUTE_BLOCK"
+              }
+            ],
+            "shape": "route",
+            "distance": 1,
+            "sentence_index": 21,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph",
+            "eligible": true,
+            "type_rule": "EVENT_STRUCTURE_MATCH",
+            "score_parts": {
+              "structure": 1,
+              "distance": 0.9230769230769231,
+              "continuity": 0.6
+            },
+            "score": 0.8969230769230769,
+            "object_key": "N-70a541f45f228053"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-048",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 498,
+          "end": 499,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-049",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 523,
+          "end": 525,
+          "text": "这段"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 503,
+            "end": 522,
+            "text": "珍珠滩 → 珍珠滩瀑布 → 镜海停车场",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-9d9530e03375a960",
+          "start": 503,
+          "end": 522,
+          "text": "珍珠滩 → 珍珠滩瀑布 → 镜海停车场",
+          "semantic_type": "event",
+          "para_id": 24,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": null,
+          "entity_id": null,
+          "canonical_name": null,
+          "p2_type": null,
+          "poi_role": null,
+          "subtype": null,
+          "evidence": [
+            {
+              "method": "event",
+              "rule_id": "ROUTE_BLOCK"
+            }
+          ],
+          "shape": "route",
+          "distance": 1,
+          "sentence_index": 25,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph",
+          "eligible": true,
+          "type_rule": "EVENT_STRUCTURE_MATCH",
+          "score_parts": {
+            "structure": 1,
+            "distance": 0.9230769230769231,
+            "continuity": 0.6
+          },
+          "score": 0.8969230769230769,
+          "object_key": "N-9d9530e03375a960"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-9d9530e03375a960",
+            "start": 503,
+            "end": 522,
+            "text": "珍珠滩 → 珍珠滩瀑布 → 镜海停车场",
+            "semantic_type": "event",
+            "para_id": 24,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": null,
+            "entity_id": null,
+            "canonical_name": null,
+            "p2_type": null,
+            "poi_role": null,
+            "subtype": null,
+            "evidence": [
+              {
+                "method": "event",
+                "rule_id": "ROUTE_BLOCK"
+              }
+            ],
+            "shape": "route",
+            "distance": 1,
+            "sentence_index": 25,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph",
+            "eligible": true,
+            "type_rule": "EVENT_STRUCTURE_MATCH",
+            "score_parts": {
+              "structure": 1,
+              "distance": 0.9230769230769231,
+              "continuity": 0.6
+            },
+            "score": 0.8969230769230769,
+            "object_key": "N-9d9530e03375a960"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-050",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 802,
+          "end": 803,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-051",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 898,
+          "end": 899,
+          "text": "那"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 648,
+            "end": 651,
+            "text": "芦苇海",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "not_detected"
+      }
+    ]
+  },
+  "baseline": {
+    "method": "baseline",
+    "boundary_only_diagnostics_not_strict_credit": [
+      {
+        "annotation_id": "P4A-051",
+        "gold": {
+          "start": 898,
+          "end": 899,
+          "text": "那"
+        },
+        "overlapping_predictions": [
+          {
+            "start": 898,
+            "end": 900,
+            "text": "那段",
+            "type": "event"
+          }
+        ]
+      }
+    ],
+    "counts": {
+      "rows": 51,
+      "targets": 41,
+      "detected_targets": 39,
+      "detected_exclusions": 0,
+      "emitted_links": 23,
+      "target_emitted_links": 23,
+      "correct_links": 8,
+      "single_antecedent_targets": 33,
+      "multi_antecedent_targets": 1,
+      "correct_single_links": 8,
+      "correct_multi_links": 0,
+      "multi_candidate_hits": 0,
+      "candidate_hits": 8,
+      "correct_status": 34
+    },
+    "metrics": {
+      "annotation_aligned_link_precision": 0.34782608695652173,
+      "annotation_aligned_link_coverage": 0.5609756097560976,
+      "single_antecedent_success_rate": 0.24242424242424243,
+      "multi_antecedent_success_rate": 0.0,
+      "candidate_recall_multi_antecedent": 0.0,
+      "candidate_recall_single_antecedent": 0.24242424242424243,
+      "detection_recall_on_annotated_targets": 0.9512195121951219,
+      "status_accuracy": 0.6666666666666666
+    },
+    "single_antecedent_by_gold_type": {
+      "event": {
+        "targets": 14,
+        "correct_links": 0,
+        "candidate_hits": 0,
+        "success_rate": 0.0,
+        "candidate_recall": 0.0
+      },
+      "animal": {
+        "targets": 3,
+        "correct_links": 0,
+        "candidate_hits": 0,
+        "success_rate": 0.0,
+        "candidate_recall": 0.0
+      },
+      "facility": {
+        "targets": 3,
+        "correct_links": 0,
+        "candidate_hits": 0,
+        "success_rate": 0.0,
+        "candidate_recall": 0.0
+      },
+      "other": {
+        "targets": 2,
+        "correct_links": 0,
+        "candidate_hits": 0,
+        "success_rate": 0.0,
+        "candidate_recall": 0.0
+      },
+      "location": {
+        "targets": 11,
+        "correct_links": 8,
+        "candidate_hits": 8,
+        "success_rate": 0.7272727272727273,
+        "candidate_recall": 0.7272727272727273
+      }
+    },
+    "unmatched_detected_spans_in_evaluated_documents": 2,
+    "metric_scope": "仅已确认可判定标注行；未对齐的自动命中不擅自判错，现有标注未覆盖或边界不同，无法判定；非全文准确率",
+    "details": [
+      {
+        "annotation_id": "P4A-001",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 137,
+          "end": 139,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-002",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 141,
+          "end": 143,
+          "text": "那些"
+        },
+        "gold_status": "no_clear_antecedent",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "type_mismatch"
+      },
+      {
+        "annotation_id": "P4A-003",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 327,
+          "end": 329,
+          "text": "这种"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 302,
+            "end": 323,
+            "text": "步行到动物园至少得四十分钟,此时已经十一点",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-1646e0450a36153f",
+          "start": 302,
+          "end": 304,
+          "text": "步行",
+          "semantic_type": "transport",
+          "para_id": 3,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-cf5ded41a7226a10"
+          },
+          "p2_mention_id": "M-97753d3501bd6898",
+          "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+          "canonical_name": "步行",
+          "p2_type": "TRANSPORT",
+          "poi_role": "",
+          "subtype": "mode",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 23,
+          "sentence_index": 10,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-1646e0450a36153f",
+            "start": 302,
+            "end": 304,
+            "text": "步行",
+            "semantic_type": "transport",
+            "para_id": 3,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-cf5ded41a7226a10"
+            },
+            "p2_mention_id": "M-97753d3501bd6898",
+            "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+            "canonical_name": "步行",
+            "p2_type": "TRANSPORT",
+            "poi_role": "",
+            "subtype": "mode",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 23,
+            "sentence_index": 10,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-004",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 400,
+          "end": 402,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-005",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 603,
+          "end": 605,
+          "text": "这个"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 591,
+            "end": 598,
+            "text": "从南门进北门出",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-006",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 618,
+          "end": 619,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 591,
+            "end": 598,
+            "text": "从南门进北门出",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-007",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 626,
+          "end": 628,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-008",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 754,
+          "end": 756,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 298,
+            "end": 300,
+            "text": "停车",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-edf430a1d7d0a61d",
+          "start": 696,
+          "end": 698,
+          "text": "北门",
+          "semantic_type": "facility",
+          "para_id": 8,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-cf5ded41a7226a10"
+          },
+          "p2_mention_id": "M-4bb3fbac9a9faceb",
+          "entity_id": "POI-1fc2c78de022d941",
+          "canonical_name": "长隆野生动物世界北门",
+          "p2_type": "POI",
+          "poi_role": "support",
+          "subtype": "gate",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 56,
+          "sentence_index": 23,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-edf430a1d7d0a61d",
+            "start": 696,
+            "end": 698,
+            "text": "北门",
+            "semantic_type": "facility",
+            "para_id": 8,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-cf5ded41a7226a10"
+            },
+            "p2_mention_id": "M-4bb3fbac9a9faceb",
+            "entity_id": "POI-1fc2c78de022d941",
+            "canonical_name": "长隆野生动物世界北门",
+            "p2_type": "POI",
+            "poi_role": "support",
+            "subtype": "gate",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 56,
+            "sentence_index": 23,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-009",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 840,
+          "end": 842,
+          "text": "这次"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 558,
+            "end": 572,
+            "text": "初四早上八点我们就到了动物园",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-4e94c282da2ec0f3",
+          "start": 822,
+          "end": 824,
+          "text": "北门",
+          "semantic_type": "facility",
+          "para_id": 8,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-cf5ded41a7226a10"
+          },
+          "p2_mention_id": "M-d4144012c125fdfb",
+          "entity_id": "POI-1fc2c78de022d941",
+          "canonical_name": "长隆野生动物世界北门",
+          "p2_type": "POI",
+          "poi_role": "support",
+          "subtype": "gate",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 16,
+          "sentence_index": 26,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-4e94c282da2ec0f3",
+            "start": 822,
+            "end": 824,
+            "text": "北门",
+            "semantic_type": "facility",
+            "para_id": 8,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-cf5ded41a7226a10"
+            },
+            "p2_mention_id": "M-d4144012c125fdfb",
+            "entity_id": "POI-1fc2c78de022d941",
+            "canonical_name": "长隆野生动物世界北门",
+            "p2_type": "POI",
+            "poi_role": "support",
+            "subtype": "gate",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 16,
+            "sentence_index": 26,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-010",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1003,
+          "end": 1004,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-011",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1068,
+          "end": 1070,
+          "text": "这样"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1019,
+            "end": 1047,
+            "text": "穿大口袋有帽子的衣服,也可以手上提食物拿外套挡住就进去了",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-012",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1124,
+          "end": 1125,
+          "text": "这"
+        },
+        "gold_status": "no_clear_antecedent",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "type_mismatch"
+      },
+      {
+        "annotation_id": "P4A-013",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1421,
+          "end": 1423,
+          "text": "他们"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1405,
+            "end": 1411,
+            "text": "一头成年大象",
+            "type": "animal"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-014",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1670,
+          "end": 1672,
+          "text": "这样"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1585,
+            "end": 1592,
+            "text": "很多的主题卖场",
+            "type": "facility"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-015",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1796,
+          "end": 1797,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-016",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1797,
+          "end": 1798,
+          "text": "它"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "lexical_non_reference"
+      },
+      {
+        "annotation_id": "P4A-017",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1843,
+          "end": 1844,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-018",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1844,
+          "end": 1845,
+          "text": "它"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "lexical_non_reference"
+      },
+      {
+        "annotation_id": "P4A-019",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 1901,
+          "end": 1903,
+          "text": "其中"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 1873,
+            "end": 1877,
+            "text": "四头大象",
+            "type": "animal"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-020",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 2015,
+          "end": 2017,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 558,
+            "end": 572,
+            "text": "初四早上八点我们就到了动物园",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-021",
+        "doc_id": "GZCL-NOTE-01",
+        "reference": {
+          "start": 2181,
+          "end": 2182,
+          "text": "这"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "type_mismatch"
+      },
+      {
+        "annotation_id": "P4A-022",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 222,
+          "end": 224,
+          "text": "这个"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 95,
+            "end": 106,
+            "text": "10:00-10:40",
+            "type": "other"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-3ef1f28cc2181c72",
+          "start": 214,
+          "end": 217,
+          "text": "天鹅湖",
+          "semantic_type": "location",
+          "para_id": 9,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-f1b0aebda6718aee"
+          },
+          "p2_mention_id": "M-b1167a7e439719de",
+          "entity_id": "POI-41d5eefef861e525",
+          "canonical_name": "天鹅湖",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 5,
+          "sentence_index": 8,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "type_unknown"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-3ef1f28cc2181c72",
+            "start": 214,
+            "end": 217,
+            "text": "天鹅湖",
+            "semantic_type": "location",
+            "para_id": 9,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-f1b0aebda6718aee"
+            },
+            "p2_mention_id": "M-b1167a7e439719de",
+            "entity_id": "POI-41d5eefef861e525",
+            "canonical_name": "天鹅湖",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 5,
+            "sentence_index": 8,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "type_unknown"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-023",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 427,
+          "end": 428,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-024",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 428,
+          "end": 429,
+          "text": "他"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "lexical_non_reference"
+      },
+      {
+        "annotation_id": "P4A-025",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 586,
+          "end": 587,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 565,
+            "end": 569,
+            "text": "科莫多龙",
+            "type": "animal"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-539d2087b6b51d3a",
+          "start": 579,
+          "end": 585,
+          "text": "科莫多龙园区",
+          "semantic_type": "location",
+          "para_id": 22,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-f1b0aebda6718aee"
+          },
+          "p2_mention_id": "M-fbdae04c74d07272",
+          "entity_id": "POI-345f2bdb655eca07",
+          "canonical_name": "科莫多龙园区",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 22,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "type_mismatch"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-539d2087b6b51d3a",
+            "start": 579,
+            "end": 585,
+            "text": "科莫多龙园区",
+            "semantic_type": "location",
+            "para_id": 22,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-f1b0aebda6718aee"
+            },
+            "p2_mention_id": "M-fbdae04c74d07272",
+            "entity_id": "POI-345f2bdb655eca07",
+            "canonical_name": "科莫多龙园区",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 22,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "type_mismatch"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-026",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 626,
+          "end": 628,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 622,
+            "end": 625,
+            "text": "考拉园",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-70c7a86f12111f8a",
+          "start": 622,
+          "end": 625,
+          "text": "考拉园",
+          "semantic_type": "location",
+          "para_id": 23,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-f1b0aebda6718aee"
+          },
+          "p2_mention_id": "M-44d3fb36d7836956",
+          "entity_id": "POI-73de67c9bb37b2da",
+          "canonical_name": "考拉园",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 23,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 1
+          },
+          "score": 0.9730769230769232,
+          "object_key": "entity:POI-73de67c9bb37b2da"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-70c7a86f12111f8a",
+            "start": 622,
+            "end": 625,
+            "text": "考拉园",
+            "semantic_type": "location",
+            "para_id": 23,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-f1b0aebda6718aee"
+            },
+            "p2_mention_id": "M-44d3fb36d7836956",
+            "entity_id": "POI-73de67c9bb37b2da",
+            "canonical_name": "考拉园",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 23,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 1
+            },
+            "score": 0.9730769230769232,
+            "object_key": "entity:POI-73de67c9bb37b2da"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-027",
+        "doc_id": "GZCL-NOTE-08",
+        "reference": {
+          "start": 702,
+          "end": 704,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 692,
+            "end": 700,
+            "text": "「南美探秘」附近",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-028",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 19,
+          "end": 21,
+          "text": "这次"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 6,
+            "end": 16,
+            "text": "一次珠海长隆海洋王国",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-e143908815d89e73",
+          "start": 8,
+          "end": 16,
+          "text": "珠海长隆海洋王国",
+          "semantic_type": "location",
+          "para_id": 1,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-8a1ed3b22e78b59e",
+          "entity_id": "POI-a9df4e391f8f4dc5",
+          "canonical_name": "珠海长隆海洋王国",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "scenic",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 3,
+          "sentence_index": 0,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-e143908815d89e73",
+            "start": 8,
+            "end": 16,
+            "text": "珠海长隆海洋王国",
+            "semantic_type": "location",
+            "para_id": 1,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-8a1ed3b22e78b59e",
+            "entity_id": "POI-a9df4e391f8f4dc5",
+            "canonical_name": "珠海长隆海洋王国",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "scenic",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 3,
+            "sentence_index": 0,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-029",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 56,
+          "end": 57,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 38,
+            "end": 43,
+            "text": "早上8点多",
+            "type": "other"
+          }
+        ],
+        "predicted_status": "excluded",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "not_detected"
+      },
+      {
+        "annotation_id": "P4A-030",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 383,
+          "end": 385,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 321,
+            "end": 334,
+            "text": "5D城堡影院(18:30)",
+            "type": "facility"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-031",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 446,
+          "end": 448,
+          "text": "这个"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 402,
+            "end": 412,
+            "text": "容易忽略的海底互动船",
+            "type": "facility"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-be803628ddd53816",
+          "start": 439,
+          "end": 442,
+          "text": "鲸鲨馆",
+          "semantic_type": "facility",
+          "para_id": 8,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-7ecbca0097831b32",
+          "entity_id": "POI-3236debf17c97904",
+          "canonical_name": "鲸鲨馆",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "venue",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 4,
+          "sentence_index": 13,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "OBJECT_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.75,
+            "sentence": 0.5
+          },
+          "score": 0.8125,
+          "object_key": "entity:POI-3236debf17c97904"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-be803628ddd53816",
+            "start": 439,
+            "end": 442,
+            "text": "鲸鲨馆",
+            "semantic_type": "facility",
+            "para_id": 8,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-7ecbca0097831b32",
+            "entity_id": "POI-3236debf17c97904",
+            "canonical_name": "鲸鲨馆",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "venue",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 4,
+            "sentence_index": 13,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "OBJECT_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.75,
+              "sentence": 0.5
+            },
+            "score": 0.8125,
+            "object_key": "entity:POI-3236debf17c97904"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-032",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 505,
+          "end": 507,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-4587f8ee7b63c648",
+          "start": 489,
+          "end": 493,
+          "text": "海鸟世界",
+          "semantic_type": "location",
+          "para_id": 9,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-ee529e25de8adf37",
+          "entity_id": "POI-081574ee84e23fb5",
+          "canonical_name": "海鸟世界",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 12,
+          "sentence_index": 15,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.5,
+            "sentence": 1
+          },
+          "score": 0.825,
+          "object_key": "entity:POI-081574ee84e23fb5"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-4587f8ee7b63c648",
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "semantic_type": "location",
+            "para_id": 9,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-ee529e25de8adf37",
+            "entity_id": "POI-081574ee84e23fb5",
+            "canonical_name": "海鸟世界",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 12,
+            "sentence_index": 15,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.5,
+              "sentence": 1
+            },
+            "score": 0.825,
+            "object_key": "entity:POI-081574ee84e23fb5"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-033",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 518,
+          "end": 520,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-4587f8ee7b63c648",
+          "start": 489,
+          "end": 493,
+          "text": "海鸟世界",
+          "semantic_type": "location",
+          "para_id": 9,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-ee529e25de8adf37",
+          "entity_id": "POI-081574ee84e23fb5",
+          "canonical_name": "海鸟世界",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 25,
+          "sentence_index": 15,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.3243243243243243,
+            "sentence": 0.5
+          },
+          "score": 0.6635135135135135,
+          "object_key": "entity:POI-081574ee84e23fb5"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-4587f8ee7b63c648",
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "semantic_type": "location",
+            "para_id": 9,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-ee529e25de8adf37",
+            "entity_id": "POI-081574ee84e23fb5",
+            "canonical_name": "海鸟世界",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 25,
+            "sentence_index": 15,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.3243243243243243,
+              "sentence": 0.5
+            },
+            "score": 0.6635135135135135,
+            "object_key": "entity:POI-081574ee84e23fb5"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-034",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 552,
+          "end": 554,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-4587f8ee7b63c648",
+          "start": 489,
+          "end": 493,
+          "text": "海鸟世界",
+          "semantic_type": "location",
+          "para_id": 9,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-ee529e25de8adf37",
+          "entity_id": "POI-081574ee84e23fb5",
+          "canonical_name": "海鸟世界",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 59,
+          "sentence_index": 15,
+          "sentence_gap": 2,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.16901408450704225,
+            "sentence": 0
+          },
+          "score": 0.5091549295774648,
+          "object_key": "entity:POI-081574ee84e23fb5"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-4587f8ee7b63c648",
+            "start": 489,
+            "end": 493,
+            "text": "海鸟世界",
+            "semantic_type": "location",
+            "para_id": 9,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-ee529e25de8adf37",
+            "entity_id": "POI-081574ee84e23fb5",
+            "canonical_name": "海鸟世界",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 59,
+            "sentence_index": 15,
+            "sentence_gap": 2,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.16901408450704225,
+              "sentence": 0
+            },
+            "score": 0.5091549295774648,
+            "object_key": "entity:POI-081574ee84e23fb5"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-035",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 620,
+          "end": 622,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 616,
+            "end": 619,
+            "text": "海象岛",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-1413e7bf7126fdc1",
+          "start": 616,
+          "end": 619,
+          "text": "海象岛",
+          "semantic_type": "location",
+          "para_id": 11,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-760a9d6d6b68a053"
+          },
+          "p2_mention_id": "M-446b5c11a2a7a52b",
+          "entity_id": "POI-aef8bb15db756e34",
+          "canonical_name": "海象岛",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 20,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 1
+          },
+          "score": 0.9730769230769232,
+          "object_key": "entity:POI-aef8bb15db756e34"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-1413e7bf7126fdc1",
+            "start": 616,
+            "end": 619,
+            "text": "海象岛",
+            "semantic_type": "location",
+            "para_id": 11,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-760a9d6d6b68a053"
+            },
+            "p2_mention_id": "M-446b5c11a2a7a52b",
+            "entity_id": "POI-aef8bb15db756e34",
+            "canonical_name": "海象岛",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 20,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 1
+            },
+            "score": 0.9730769230769232,
+            "object_key": "entity:POI-aef8bb15db756e34"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-036",
+        "doc_id": "ZHCL-NOTE-08",
+        "reference": {
+          "start": 733,
+          "end": 734,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 152,
+            "end": 184,
+            "text": "1⃣鲸鲨馆→2⃣海底互动船→3⃣白鲸馆→4⃣北极熊馆→5⃣企鹅馆",
+            "type": "event"
+          },
+          {
+            "start": 246,
+            "end": 334,
+            "text": "1⃣白鲸剧场(14:30)→2⃣水獭之家→3⃣海鸟世界→4⃣海象岛→5⃣海狮港湾→6⃣中华白海豚→7⃣海豚剧场(17:00)→8⃣海牛馆→9⃣海豚岛→5D城堡影院(18:30)",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "unresolved",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "ambiguous"
+      },
+      {
+        "annotation_id": "P4A-037",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 91,
+          "end": 92,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-038",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 487,
+          "end": 488,
+          "text": "这"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 405,
+            "end": 408,
+            "text": "五彩池",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-2e380b7dff1fadb7",
+          "start": 483,
+          "end": 486,
+          "text": "五彩池",
+          "semantic_type": "location",
+          "para_id": 5,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-3bf3fefeaad6b8e1",
+          "entity_id": "POI-de6db9a7cdd443ab",
+          "canonical_name": "五彩池",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 16,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 1
+          },
+          "score": 0.9730769230769232,
+          "object_key": "entity:POI-de6db9a7cdd443ab"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-2e380b7dff1fadb7",
+            "start": 483,
+            "end": 486,
+            "text": "五彩池",
+            "semantic_type": "location",
+            "para_id": 5,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-3bf3fefeaad6b8e1",
+            "entity_id": "POI-de6db9a7cdd443ab",
+            "canonical_name": "五彩池",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 16,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 1
+            },
+            "score": 0.9730769230769232,
+            "object_key": "entity:POI-de6db9a7cdd443ab"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-039",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 543,
+          "end": 545,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 537,
+            "end": 542,
+            "text": "诺日朗中心",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-f3dc4e2f9abcf293",
+          "start": 537,
+          "end": 542,
+          "text": "诺日朗中心",
+          "semantic_type": "facility",
+          "para_id": 5,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-224baa7ce018e08d",
+          "entity_id": "POI-10e8a874d4a64eeb",
+          "canonical_name": "诺日朗中心",
+          "p2_type": "POI",
+          "poi_role": "support",
+          "subtype": "service_center",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 18,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.9230769230769231,
+            "sentence": 0.5
+          },
+          "score": 0.8730769230769231,
+          "object_key": "entity:POI-10e8a874d4a64eeb"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-f3dc4e2f9abcf293",
+            "start": 537,
+            "end": 542,
+            "text": "诺日朗中心",
+            "semantic_type": "facility",
+            "para_id": 5,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-224baa7ce018e08d",
+            "entity_id": "POI-10e8a874d4a64eeb",
+            "canonical_name": "诺日朗中心",
+            "p2_type": "POI",
+            "poi_role": "support",
+            "subtype": "service_center",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 18,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.9230769230769231,
+              "sentence": 0.5
+            },
+            "score": 0.8730769230769231,
+            "object_key": "entity:POI-10e8a874d4a64eeb"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-040",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 564,
+          "end": 566,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 537,
+            "end": 542,
+            "text": "诺日朗中心",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-f3dc4e2f9abcf293",
+          "start": 537,
+          "end": 542,
+          "text": "诺日朗中心",
+          "semantic_type": "facility",
+          "para_id": 5,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-224baa7ce018e08d",
+          "entity_id": "POI-10e8a874d4a64eeb",
+          "canonical_name": "诺日朗中心",
+          "p2_type": "POI",
+          "poi_role": "support",
+          "subtype": "service_center",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 22,
+          "sentence_index": 18,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.35294117647058826,
+            "sentence": 0.5
+          },
+          "score": 0.6735294117647059,
+          "object_key": "entity:POI-10e8a874d4a64eeb"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-f3dc4e2f9abcf293",
+            "start": 537,
+            "end": 542,
+            "text": "诺日朗中心",
+            "semantic_type": "facility",
+            "para_id": 5,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-224baa7ce018e08d",
+            "entity_id": "POI-10e8a874d4a64eeb",
+            "canonical_name": "诺日朗中心",
+            "p2_type": "POI",
+            "poi_role": "support",
+            "subtype": "service_center",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 22,
+            "sentence_index": 18,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.35294117647058826,
+              "sentence": 0.5
+            },
+            "score": 0.6735294117647059,
+            "object_key": "entity:POI-10e8a874d4a64eeb"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-041",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 664,
+          "end": 666,
+          "text": "这里"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 657,
+            "end": 660,
+            "text": "箭竹海",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-ed06d1a689c734e9",
+          "start": 657,
+          "end": 660,
+          "text": "箭竹海",
+          "semantic_type": "location",
+          "para_id": 6,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-caec8a3c8707fc76",
+          "entity_id": "POI-d84c258e38dc6005",
+          "canonical_name": "箭竹海",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 4,
+          "sentence_index": 23,
+          "sentence_gap": 0,
+          "retrieval_tier": "local",
+          "eligible": true,
+          "type_rule": "LOCATION_MATCH",
+          "score_parts": {
+            "type": 1,
+            "distance": 0.75,
+            "sentence": 1
+          },
+          "score": 0.9125,
+          "object_key": "entity:POI-d84c258e38dc6005"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-ed06d1a689c734e9",
+            "start": 657,
+            "end": 660,
+            "text": "箭竹海",
+            "semantic_type": "location",
+            "para_id": 6,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-caec8a3c8707fc76",
+            "entity_id": "POI-d84c258e38dc6005",
+            "canonical_name": "箭竹海",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 4,
+            "sentence_index": 23,
+            "sentence_gap": 0,
+            "retrieval_tier": "local",
+            "eligible": true,
+            "type_rule": "LOCATION_MATCH",
+            "score_parts": {
+              "type": 1,
+              "distance": 0.75,
+              "sentence": 1
+            },
+            "score": 0.9125,
+            "object_key": "entity:POI-d84c258e38dc6005"
+          }
+        ],
+        "correct_link": true,
+        "diagnosis": "correct"
+      },
+      {
+        "annotation_id": "P4A-042",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 856,
+          "end": 858,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 865,
+            "end": 895,
+            "text": "步行800米,沿途老虎海、树正瀑布、公主海、树正群海一路连绵",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-5de1bcb1f177afe6",
+          "start": 845,
+          "end": 847,
+          "text": "步行",
+          "semantic_type": "transport",
+          "para_id": 7,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-8566083605a8d4d9",
+          "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+          "canonical_name": "步行",
+          "p2_type": "TRANSPORT",
+          "poi_role": "",
+          "subtype": "mode",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 9,
+          "sentence_index": 28,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-5de1bcb1f177afe6",
+            "start": 845,
+            "end": 847,
+            "text": "步行",
+            "semantic_type": "transport",
+            "para_id": 7,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-8566083605a8d4d9",
+            "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+            "canonical_name": "步行",
+            "p2_type": "TRANSPORT",
+            "poi_role": "",
+            "subtype": "mode",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 9,
+            "sentence_index": 28,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-043",
+        "doc_id": "JZG-NOTE-03",
+        "reference": {
+          "start": 988,
+          "end": 990,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 398,
+            "end": 597,
+            "text": "第一站:长海、五彩池。第一站先去长海。长海是九寨沟海拔最高、湖水最深、面积最大的海子。带长辈出行的朋友,就在长海观景台简单看一看,别走远,保存好体力。往下步行800米就到五彩池,这是九寨沟最小巧艳丽的海子。阳光洒下来,就像上帝打翻的调色盘,拍照根本不用滤镜。看完五彩池,坐车前往诺日朗中心。这里是景区唯一的餐厅和吸烟区,逛累了正好在这里休整、吃饭、接热水。但注意:诺日朗别急着逛,先换乘去右线方向。",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-cf2579ce38540b49",
+          "start": 963,
+          "end": 966,
+          "text": "芦苇海",
+          "semantic_type": "location",
+          "para_id": 7,
+          "source_unit": {
+            "kind": "legacy_or_unmapped",
+            "source": null,
+            "unit_id": "U-63d0c3129645da09"
+          },
+          "p2_mention_id": "M-4b6101ae4222af8a",
+          "entity_id": "POI-5fa63dd98f5dd264",
+          "canonical_name": "芦苇海",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 22,
+          "sentence_index": 33,
+          "sentence_gap": 1,
+          "retrieval_tier": "local",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-cf2579ce38540b49",
+            "start": 963,
+            "end": 966,
+            "text": "芦苇海",
+            "semantic_type": "location",
+            "para_id": 7,
+            "source_unit": {
+              "kind": "legacy_or_unmapped",
+              "source": null,
+              "unit_id": "U-63d0c3129645da09"
+            },
+            "p2_mention_id": "M-4b6101ae4222af8a",
+            "entity_id": "POI-5fa63dd98f5dd264",
+            "canonical_name": "芦苇海",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 22,
+            "sentence_index": 33,
+            "sentence_gap": 1,
+            "retrieval_tier": "local",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-044",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 274,
+          "end": 276,
+          "text": "这段"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 251,
+            "end": 273,
+            "text": "原始森林 → 芳草海 → 天鹅海 → 箭竹海",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-13734a1b345a668f",
+          "start": 270,
+          "end": 273,
+          "text": "箭竹海",
+          "semantic_type": "location",
+          "para_id": 14,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": "M-da94cf76e9dee524",
+          "entity_id": "POI-d84c258e38dc6005",
+          "canonical_name": "箭竹海",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 14,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-13734a1b345a668f",
+            "start": 270,
+            "end": 273,
+            "text": "箭竹海",
+            "semantic_type": "location",
+            "para_id": 14,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": "M-da94cf76e9dee524",
+            "entity_id": "POI-d84c258e38dc6005",
+            "canonical_name": "箭竹海",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 14,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-045",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 307,
+          "end": 309,
+          "text": "这里"
+        },
+        "gold_status": "non_entity_reference",
+        "gold_antecedents": [],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-0c3a6cf961bedd4a",
+          "start": 279,
+          "end": 282,
+          "text": "九寨沟",
+          "semantic_type": "location",
+          "para_id": 15,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": "M-d8eb0ef1d1acd90f",
+          "entity_id": "POI-cb24680dd82e15c1",
+          "canonical_name": "九寨沟",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 25,
+          "sentence_index": 15,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-0c3a6cf961bedd4a",
+            "start": 279,
+            "end": 282,
+            "text": "九寨沟",
+            "semantic_type": "location",
+            "para_id": 15,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": "M-d8eb0ef1d1acd90f",
+            "entity_id": "POI-cb24680dd82e15c1",
+            "canonical_name": "九寨沟",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 25,
+            "sentence_index": 15,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "discourse_expression"
+      },
+      {
+        "annotation_id": "P4A-046",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 330,
+          "end": 332,
+          "text": "这段"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 314,
+            "end": 321,
+            "text": "天鹅海→箭竹海",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-a5281e8cd574c916",
+          "start": 324,
+          "end": 326,
+          "text": "徒步",
+          "semantic_type": "transport",
+          "para_id": 16,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": "M-959e6ddc25d42c3e",
+          "entity_id": "TRANSPORT-302154bebe2201cc",
+          "canonical_name": "徒步",
+          "p2_type": "TRANSPORT",
+          "poi_role": "",
+          "subtype": "mode",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 4,
+          "sentence_index": 16,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-a5281e8cd574c916",
+            "start": 324,
+            "end": 326,
+            "text": "徒步",
+            "semantic_type": "transport",
+            "para_id": 16,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": "M-959e6ddc25d42c3e",
+            "entity_id": "TRANSPORT-302154bebe2201cc",
+            "canonical_name": "徒步",
+            "p2_type": "TRANSPORT",
+            "poi_role": "",
+            "subtype": "mode",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 4,
+            "sentence_index": 16,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-047",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 470,
+          "end": 472,
+          "text": "这一"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 435,
+            "end": 469,
+            "text": "箭竹海 → 熊猫海 → 五花海 → 珍珠滩 → 珍珠滩瀑布 → 镜海",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-9c9220be2745d028",
+          "start": 467,
+          "end": 469,
+          "text": "镜海",
+          "semantic_type": "location",
+          "para_id": 20,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": "M-9f4d5e4dd36ee9ab",
+          "entity_id": "POI-545fccca3e7cf427",
+          "canonical_name": "镜海",
+          "p2_type": "POI",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 21,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-9c9220be2745d028",
+            "start": 467,
+            "end": 469,
+            "text": "镜海",
+            "semantic_type": "location",
+            "para_id": 20,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": "M-9f4d5e4dd36ee9ab",
+            "entity_id": "POI-545fccca3e7cf427",
+            "canonical_name": "镜海",
+            "p2_type": "POI",
+            "poi_role": "attraction",
+            "subtype": "spot",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 21,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-048",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 498,
+          "end": 499,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-049",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 523,
+          "end": 525,
+          "text": "这段"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 503,
+            "end": 522,
+            "text": "珍珠滩 → 珍珠滩瀑布 → 镜海停车场",
+            "type": "event"
+          }
+        ],
+        "predicted_status": "resolved",
+        "predicted_antecedent": {
+          "candidate_id": "N-7a5787009b95cc08",
+          "start": 517,
+          "end": 522,
+          "text": "镜海停车场",
+          "semantic_type": "facility",
+          "para_id": 24,
+          "source_unit": {
+            "kind": "body",
+            "source": "notes.content",
+            "unit_id": "U-ef2d5f1ee32a8d7e"
+          },
+          "p2_mention_id": "M-a9537c2d9544f51d",
+          "entity_id": "POI-d46ef2f6d4e07910",
+          "canonical_name": "镜海停车场",
+          "p2_type": "POI",
+          "poi_role": "support",
+          "subtype": "parking",
+          "evidence": [
+            {
+              "method": "p2",
+              "rule_id": "P2_ENTITY"
+            }
+          ],
+          "distance": 1,
+          "sentence_index": 25,
+          "sentence_gap": 1,
+          "retrieval_tier": "previous_continuous_body_paragraph",
+          "eligible": false,
+          "type_rule": "EVENT_STRUCTURE_MATCH"
+        },
+        "predicted_antecedents": [
+          {
+            "candidate_id": "N-7a5787009b95cc08",
+            "start": 517,
+            "end": 522,
+            "text": "镜海停车场",
+            "semantic_type": "facility",
+            "para_id": 24,
+            "source_unit": {
+              "kind": "body",
+              "source": "notes.content",
+              "unit_id": "U-ef2d5f1ee32a8d7e"
+            },
+            "p2_mention_id": "M-a9537c2d9544f51d",
+            "entity_id": "POI-d46ef2f6d4e07910",
+            "canonical_name": "镜海停车场",
+            "p2_type": "POI",
+            "poi_role": "support",
+            "subtype": "parking",
+            "evidence": [
+              {
+                "method": "p2",
+                "rule_id": "P2_ENTITY"
+              }
+            ],
+            "distance": 1,
+            "sentence_index": 25,
+            "sentence_gap": 1,
+            "retrieval_tier": "previous_continuous_body_paragraph",
+            "eligible": false,
+            "type_rule": "EVENT_STRUCTURE_MATCH"
+          }
+        ],
+        "correct_link": false,
+        "diagnosis": "candidate_missing"
+      },
+      {
+        "annotation_id": "P4A-050",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 802,
+          "end": 803,
+          "text": "其"
+        },
+        "gold_status": "",
+        "gold_antecedents": [],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "no_prediction"
+      },
+      {
+        "annotation_id": "P4A-051",
+        "doc_id": "JZG-NOTE-05",
+        "reference": {
+          "start": 898,
+          "end": 899,
+          "text": "那"
+        },
+        "gold_status": "antecedent_found",
+        "gold_antecedents": [
+          {
+            "start": 648,
+            "end": 651,
+            "text": "芦苇海",
+            "type": "location"
+          }
+        ],
+        "predicted_status": "not_detected",
+        "predicted_antecedent": null,
+        "predicted_antecedents": [],
+        "correct_link": false,
+        "diagnosis": "not_detected"
+      }
+    ]
+  },
+  "status": "evaluated_confirmed_rows"
+}

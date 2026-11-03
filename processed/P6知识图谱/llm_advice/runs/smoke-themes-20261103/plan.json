@@ -1,0 +1,35 @@
+{
+  "run_id": "smoke-themes-20261103",
+  "model": "deepseek-flash",
+  "context_limit": 30000,
+  "max_output_tokens": 8192,
+  "eligible_entities": 255,
+  "selected_entities": 1,
+  "selected_packages": 2,
+  "chunked_entities": [
+    "ADVICE-b56d14bfc0f3bdab8a6b"
+  ],
+  "estimated_mean_prompt_tokens": 13987.5,
+  "estimated_max_prompt_tokens": 14231,
+  "estimated_max_prompt_plus_output_and_safety": 23447,
+  "estimation_method": "offline_CJK_ASCII_estimate_not_official_tokenizer",
+  "prompt_sha256": "b2eea37b82c691ccd800ff8a1e7a8fc9ec2921f0ddf0b3fbddd43bc5af7a25f4",
+  "packages": [
+    {
+      "summary_id": "ADVICE-b56d14bfc0f3bdab8a6b#c1",
+      "entity_id": "POI-a9df4e391f8f4dc5",
+      "scenic_code": "ZHCL",
+      "items": 53,
+      "estimated_prompt_tokens": 14231,
+      "fingerprint": "ac8c98e3fd94d4641e73164856380e08c51bc2933d99d598414c55a7639f885b"
+    },
+    {
+      "summary_id": "ADVICE-b56d14bfc0f3bdab8a6b#c2",
+      "entity_id": "POI-a9df4e391f8f4dc5",
+      "scenic_code": "ZHCL",
+      "items": 53,
+      "estimated_prompt_tokens": 13744,
+      "fingerprint": "865cac343aca6f4d13dc2fc355206f9a4732af53869ac08516ba7ab90e965f3d"
+    }
+  ]
+}

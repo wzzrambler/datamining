@@ -4,7 +4,7 @@ from copy import deepcopy
 import json
 import re
 
-from .common import digest
+from .common import digest, require
 
 FACT_ATTRIBUTES = {'entry_restriction', 'reservation_requirement', 'limitation', 'recommended_stay'}
 SCOPE_FIELDS = ('route_id', 'step_id', 'from_step_id', 'to_step_id', 'scope_status',
@@ -186,7 +186,7 @@ def summarize_advice(graph, documents):
         group['source_document_count'] = len({s['doc_id'] for i in group['items'] for s in i['sources']})
         group['summary_item_count'] = len(group['items'])
         summaries.append(group)
-    assert references == expected_records, 'Advice aggregation silently lost records'
+    require(references == expected_records, '建议聚合悄悄丢了记录')
     item_count = sum(len(g['items']) for g in summaries)
     memberships = sum(len(i['source_record_ids']) for g in summaries for i in g['items'])
     return sorted(summaries, key=lambda x: x['advice_summary_id']), {

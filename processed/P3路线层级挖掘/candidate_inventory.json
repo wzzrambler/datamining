@@ -3245,16 +3245,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-06",
-          "start": 1322,
-          "end": 1335,
+          "start": 1312,
+          "end": 1325,
           "text": "北门进→南门出·一日全打卡",
           "para_ids": [
-            104
+            102
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-06",
-              "para_id": 104,
+              "para_id": 102,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/001_02.webp"
             }
@@ -3267,16 +3267,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-06",
-          "start": 2301,
-          "end": 2320,
+          "start": 2243,
+          "end": 2262,
           "text": "Triplets Park St-t:",
           "para_ids": [
-            201
+            192
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-06",
-              "para_id": 201,
+              "para_id": 192,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a508e2a000000000f014b46/0003/images/004_01.webp"
             }
@@ -3881,7 +3881,7 @@
     "doc_id": "GZCL-NOTE-09",
     "scenic_code": "GZCL",
     "title": "长隆3天2晚不费妈攻略！不走冤枉路！",
-    "candidate_count": 20,
+    "candidate_count": 18,
     "route_ids": [
       "GZCL-NOTE-09-R-29d9374e30",
       "GZCL-NOTE-09-R-1092ed5025",
@@ -4164,61 +4164,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1367,
-          "end": 1386,
-          "text": "•侏罗纪森林(仿真恐龙)→雨林仙踪→金",
-          "para_ids": [
-            100
-          ],
-          "origins": [
-            {
-              "doc_id": "GZCL-NOTE-09",
-              "para_id": 100,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/005_01.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "truncated_ocr_chain"
-      },
-      {
-        "evidence": {
-          "doc_id": "GZCL-NOTE-09",
-          "start": 1491,
-          "end": 1500,
-          "text": "0亚洲象园→熊猫村",
-          "para_ids": [
-            108
-          ],
-          "origins": [
-            {
-              "doc_id": "GZCL-NOTE-09",
-              "para_id": 108,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/006_01.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-09-R-4782cc1b76"
-      },
-      {
-        "evidence": {
-          "doc_id": "GZCL-NOTE-09",
-          "start": 1710,
-          "end": 1730,
+          "start": 1220,
+          "end": 1240,
           "text": "Day3长隆飞鸟乐园(半天精简路线,必看",
           "para_ids": [
-            121
+            91
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 121,
+              "para_id": 91,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/006_01.webp"
             }
@@ -4231,16 +4186,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1738,
-          "end": 1747,
+          "start": 1248,
+          "end": 1257,
           "text": "1.13:00入园",
           "para_ids": [
-            123
+            93
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 123,
+              "para_id": 93,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/006_01.webp"
             }
@@ -4249,21 +4204,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-09-R-2a3512d886"
+        "route_id": "GZCL-NOTE-09-R-31ee84e9fb"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1768,
-          "end": 1776,
+          "start": 1278,
+          "end": 1286,
           "text": "→仙鹤湾,随手拍",
           "para_ids": [
-            125
+            95
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 125,
+              "para_id": 95,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/006_01.webp"
             }
@@ -4276,16 +4231,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1801,
-          "end": 1819,
+          "start": 1311,
+          "end": 1329,
           "text": "火烈鸟岛→红鹗广场→仙鹤湾,随手拍照",
           "para_ids": [
-            128
+            98
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 128,
+              "para_id": 98,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/007_01.webp"
             }
@@ -4294,21 +4249,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-09-R-293dd947e4"
+        "route_id": "GZCL-NOTE-09-R-4ecdc44d37"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1824,
-          "end": 1838,
+          "start": 1334,
+          "end": 1348,
           "text": "2.13:40 湿地精灵表演",
           "para_ids": [
-            130
+            100
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 130,
+              "para_id": 100,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/007_01.webp"
             }
@@ -4317,21 +4272,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-09-R-92c0f12ec3"
+        "route_id": "GZCL-NOTE-09-R-bc15cbd6b3"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1865,
-          "end": 1881,
+          "start": 1375,
+          "end": 1391,
           "text": "3.14:30 提前占座百鸟飞歌",
           "para_ids": [
-            133
+            103
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 133,
+              "para_id": 103,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/007_01.webp"
             }
@@ -4340,21 +4295,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-09-R-92c0f12ec3"
+        "route_id": "GZCL-NOTE-09-R-bc15cbd6b3"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1941,
-          "end": 1956,
+          "start": 1451,
+          "end": 1466,
           "text": "4.15:30鹅鹏湾→河马空间",
           "para_ids": [
-            137
+            107
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 137,
+              "para_id": 107,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/007_01.webp"
             }
@@ -4367,16 +4322,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 1987,
-          "end": 2003,
+          "start": 1497,
+          "end": 1513,
           "text": "5.16:40 鹦鹉乐园→精灵馆",
           "para_ids": [
-            140
+            110
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 140,
+              "para_id": 110,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/007_01.webp"
             }
@@ -4389,16 +4344,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 2081,
-          "end": 2098,
+          "start": 1591,
+          "end": 1608,
           "text": "5.16:40 婴鹦鹅乐园→精灵馆",
           "para_ids": [
-            148
+            118
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 148,
+              "para_id": 118,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/008_01.webp"
             }
@@ -4411,16 +4366,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 2379,
-          "end": 2384,
+          "start": 1889,
+          "end": 1894,
           "text": "北门路线:",
           "para_ids": [
-            167
+            137
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 167,
+              "para_id": 137,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/009_01.webp"
             }
@@ -4433,16 +4388,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 2402,
-          "end": 2405,
+          "start": 1912,
+          "end": 1915,
           "text": "→科莫",
           "para_ids": [
-            171
+            141
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 171,
+              "para_id": 141,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/009_01.webp"
             }
@@ -4455,16 +4410,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-09",
-          "start": 2488,
-          "end": 2493,
+          "start": 1993,
+          "end": 1998,
           "text": "南门路线:",
           "para_ids": [
-            189
+            158
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-09",
-              "para_id": 189,
+              "para_id": 158,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6ab6a12f0000000014030bdc/0006/images/009_01.webp"
             }
@@ -4696,10 +4651,10 @@
     "title": "",
     "candidate_count": 37,
     "route_ids": [
-      "GZCL-NOTE-11-R-a936970d41",
-      "GZCL-NOTE-11-R-e5731c8b00",
-      "GZCL-NOTE-11-R-5718335622",
-      "GZCL-NOTE-11-R-a8803e5c47"
+      "GZCL-NOTE-11-R-48abdb7058",
+      "GZCL-NOTE-11-R-c4f1742b4c",
+      "GZCL-NOTE-11-R-ae9de4c539",
+      "GZCL-NOTE-11-R-207951e074"
     ],
     "disposition": "automatic_routes",
     "note": "所有边界和状态由本次全文扫描产生；未识别不代表不存在路线。",
@@ -4817,16 +4772,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 684,
-          "end": 691,
+          "start": 678,
+          "end": 685,
           "text": "南门-熊森林:",
           "para_ids": [
-            31
+            30
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 31,
+              "para_id": 30,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/002_01.webp"
             }
@@ -4839,9 +4794,31 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 746,
-          "end": 754,
+          "start": 740,
+          "end": 748,
           "text": "熊森林-丛林发现",
+          "para_ids": [
+            34
+          ],
+          "origins": [
+            {
+              "doc_id": "GZCL-NOTE-11",
+              "para_id": 34,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "arrow",
+        "status": "rejected",
+        "reason": "no_p2_location_support"
+      },
+      {
+        "evidence": {
+          "doc_id": "GZCL-NOTE-11",
+          "start": 749,
+          "end": 768,
+          "text": "看完熊,继续前行直走,会到【丛林发现】",
           "para_ids": [
             35
           ],
@@ -4854,28 +4831,6 @@
             }
           ]
         },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "no_p2_location_support"
-      },
-      {
-        "evidence": {
-          "doc_id": "GZCL-NOTE-11",
-          "start": 755,
-          "end": 774,
-          "text": "看完熊,继续前行直走,会到【丛林发现】",
-          "para_ids": [
-            36
-          ],
-          "origins": [
-            {
-              "doc_id": "GZCL-NOTE-11",
-              "para_id": 36,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/002_01.webp"
-            }
-          ]
-        },
         "signal": "narrative",
         "status": "rejected",
         "reason": "no_destination_after_connective"
@@ -4883,16 +4838,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 838,
-          "end": 846,
+          "start": 832,
+          "end": 840,
           "text": "丛林发现→黑猩猩",
           "para_ids": [
-            42
+            41
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 42,
+              "para_id": 41,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/003_01.webp"
             }
@@ -4905,9 +4860,32 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 971,
-          "end": 986,
+          "start": 965,
+          "end": 980,
           "text": "黑猩猩→缆车熊猫乐园站环园线品",
+          "para_ids": [
+            48
+          ],
+          "origins": [
+            {
+              "doc_id": "GZCL-NOTE-11",
+              "para_id": 48,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/003_01.webp"
+            }
+          ]
+        },
+        "signal": "arrow",
+        "status": "rejected",
+        "reason": "insufficient_steps_or_distinct_poi",
+        "route_id": "GZCL-NOTE-11-R-eb2482d2a3"
+      },
+      {
+        "evidence": {
+          "doc_id": "GZCL-NOTE-11",
+          "start": 981,
+          "end": 1001,
+          "text": "黑猩猩看完,继续前行,会经过一个商店,出",
           "para_ids": [
             49
           ],
@@ -4920,29 +4898,6 @@
             }
           ]
         },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-11-R-7136447478"
-      },
-      {
-        "evidence": {
-          "doc_id": "GZCL-NOTE-11",
-          "start": 987,
-          "end": 1007,
-          "text": "黑猩猩看完,继续前行,会经过一个商店,出",
-          "para_ids": [
-            50
-          ],
-          "origins": [
-            {
-              "doc_id": "GZCL-NOTE-11",
-              "para_id": 50,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/003_01.webp"
-            }
-          ]
-        },
         "signal": "narrative",
         "status": "rejected",
         "reason": "no_destination_after_connective"
@@ -4950,16 +4905,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1057,
-          "end": 1080,
+          "start": 1051,
+          "end": 1074,
           "text": "1.九月缆车运行时间是10:30!如果你【10",
           "para_ids": [
-            55
+            54
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 55,
+              "para_id": 54,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/003_01.webp"
             }
@@ -4968,21 +4923,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-11-R-a1d6c42a18"
+        "route_id": "GZCL-NOTE-11-R-93b2fe856a"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1134,
-          "end": 1153,
+          "start": 1128,
+          "end": 1147,
           "text": "2. 缆车熊猫乐园站分环园线和天鹅湖线",
           "para_ids": [
-            59
+            58
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 59,
+              "para_id": 58,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/003_01.webp"
             }
@@ -4995,16 +4950,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1218,
-          "end": 1237,
+          "start": 1212,
+          "end": 1231,
           "text": "缆车熊猫乐园站-萌帅酷乐园(4D影院)",
           "para_ids": [
-            64
+            63
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 64,
+              "para_id": 63,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/004_01.webp"
             }
@@ -5013,21 +4968,21 @@
         "signal": "arrow",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "GZCL-NOTE-11-R-a936970d41"
+        "route_id": "GZCL-NOTE-11-R-48abdb7058"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1313,
-          "end": 1322,
+          "start": 1307,
+          "end": 1316,
           "text": "萌帅酷乐园-花果山",
           "para_ids": [
-            69
+            68
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 69,
+              "para_id": 68,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/004_01.webp"
             }
@@ -5038,36 +4993,36 @@
         "reason": "format_and_p2_support",
         "boundary_restatement": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1313,
-          "end": 1318,
+          "start": 1307,
+          "end": 1312,
           "text": "萌帅酷乐园",
           "para_ids": [
-            69
+            68
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 69,
+              "para_id": 68,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/004_01.webp"
             }
           ]
         },
-        "route_id": "GZCL-NOTE-11-R-a936970d41"
+        "route_id": "GZCL-NOTE-11-R-48abdb7058"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1374,
-          "end": 1382,
+          "start": 1368,
+          "end": 1376,
           "text": "花果山-金猴王国",
           "para_ids": [
-            73
+            72
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 73,
+              "para_id": 72,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/004_01.webp"
             }
@@ -5078,36 +5033,36 @@
         "reason": "format_and_p2_support",
         "boundary_restatement": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1374,
-          "end": 1377,
+          "start": 1368,
+          "end": 1371,
           "text": "花果山",
           "para_ids": [
-            73
+            72
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 73,
+              "para_id": 72,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/004_01.webp"
             }
           ]
         },
-        "route_id": "GZCL-NOTE-11-R-a936970d41"
+        "route_id": "GZCL-NOTE-11-R-48abdb7058"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1533,
-          "end": 1541,
+          "start": 1527,
+          "end": 1535,
           "text": "金猴王国→小火车",
           "para_ids": [
-            85
+            84
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 85,
+              "para_id": 84,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/005_01.webp"
             }
@@ -5116,21 +5071,21 @@
         "signal": "arrow",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "GZCL-NOTE-11-R-e5731c8b00"
+        "route_id": "GZCL-NOTE-11-R-c4f1742b4c"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1686,
-          "end": 1694,
+          "start": 1680,
+          "end": 1688,
           "text": "小火车→青龙山2",
           "para_ids": [
-            93
+            92
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 93,
+              "para_id": 92,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/005_01.webp"
             }
@@ -5141,36 +5096,36 @@
         "reason": "format_and_p2_support",
         "boundary_restatement": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1686,
-          "end": 1689,
+          "start": 1680,
+          "end": 1683,
           "text": "小火车",
           "para_ids": [
-            93
+            92
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 93,
+              "para_id": 92,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/005_01.webp"
             }
           ]
         },
-        "route_id": "GZCL-NOTE-11-R-e5731c8b00"
+        "route_id": "GZCL-NOTE-11-R-c4f1742b4c"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 1836,
-          "end": 1847,
+          "start": 1830,
+          "end": 1841,
           "text": "10青龙山2→科莫多龙",
           "para_ids": [
-            103
+            102
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 103,
+              "para_id": 102,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/006_01.webp"
             }
@@ -5179,21 +5134,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-11-R-d2c31d4d3a"
+        "route_id": "GZCL-NOTE-11-R-9cb186c0fa"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2006,
-          "end": 2017,
+          "start": 2000,
+          "end": 2011,
           "text": "11科莫多龙→白虎跳水",
           "para_ids": [
-            112
+            111
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 112,
+              "para_id": 111,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/006_01.webp"
             }
@@ -5206,16 +5161,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2129,
-          "end": 2140,
+          "start": 2123,
+          "end": 2134,
           "text": "2白虎跳水→百虎山og",
           "para_ids": [
-            119
+            118
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 119,
+              "para_id": 118,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/007_01.webp"
             }
@@ -5224,21 +5179,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-11-R-a8e5fdb30f"
+        "route_id": "GZCL-NOTE-11-R-a6a1094bb1"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2264,
-          "end": 2273,
+          "start": 2258,
+          "end": 2267,
           "text": "百虎山→长颈鹿广场",
           "para_ids": [
-            126
+            125
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 126,
+              "para_id": 125,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/007_01.webp"
             }
@@ -5247,21 +5202,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-11-R-f42c6f0094"
+        "route_id": "GZCL-NOTE-11-R-b1a5cc8d30"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2394,
-          "end": 2403,
+          "start": 2388,
+          "end": 2397,
           "text": "长颈鹿广场→考拉园",
           "para_ids": [
-            134
+            133
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 134,
+              "para_id": 133,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/008_01.webp"
             }
@@ -5270,21 +5225,21 @@
         "signal": "arrow",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "GZCL-NOTE-11-R-5718335622"
+        "route_id": "GZCL-NOTE-11-R-ae9de4c539"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2456,
-          "end": 2463,
+          "start": 2450,
+          "end": 2457,
           "text": "考拉园→亚洲象",
           "para_ids": [
-            138
+            137
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 138,
+              "para_id": 137,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/008_01.webp"
             }
@@ -5295,36 +5250,36 @@
         "reason": "format_and_p2_support",
         "boundary_restatement": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2456,
-          "end": 2459,
+          "start": 2450,
+          "end": 2453,
           "text": "考拉园",
           "para_ids": [
-            138
+            137
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 138,
+              "para_id": 137,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/008_01.webp"
             }
           ]
         },
-        "route_id": "GZCL-NOTE-11-R-5718335622"
+        "route_id": "GZCL-NOTE-11-R-ae9de4c539"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2510,
-          "end": 2525,
+          "start": 2504,
+          "end": 2519,
           "text": "亚洲象→长隆大熊猫中心(妹猪和",
           "para_ids": [
-            142
+            141
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 142,
+              "para_id": 141,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/008_01.webp"
             }
@@ -5337,16 +5292,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2587,
-          "end": 2601,
+          "start": 2581,
+          "end": 2595,
           "text": "17长隆大熊猫中心→熊猫餐厅",
           "para_ids": [
-            147
+            146
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 147,
+              "para_id": 146,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/009_01.webp"
             }
@@ -5355,21 +5310,21 @@
         "signal": "arrow",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "GZCL-NOTE-11-R-a8803e5c47"
+        "route_id": "GZCL-NOTE-11-R-207951e074"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2689,
-          "end": 2703,
+          "start": 2683,
+          "end": 2697,
           "text": "猪,没有继续前行,反而返回去",
           "para_ids": [
-            153
+            152
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 153,
+              "para_id": 152,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/009_01.webp"
             }
@@ -5382,9 +5337,31 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2729,
-          "end": 2746,
+          "start": 2723,
+          "end": 2740,
           "text": "一旦进去,只管继续前行,都会有路走",
+          "para_ids": [
+            154
+          ],
+          "origins": [
+            {
+              "doc_id": "GZCL-NOTE-11",
+              "para_id": 154,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/009_01.webp"
+            }
+          ]
+        },
+        "signal": "narrative",
+        "status": "rejected",
+        "reason": "no_destination_after_connective"
+      },
+      {
+        "evidence": {
+          "doc_id": "GZCL-NOTE-11",
+          "start": 2742,
+          "end": 2751,
+          "text": "熊猫餐厅→骐骥天地",
           "para_ids": [
             155
           ],
@@ -5397,63 +5374,41 @@
             }
           ]
         },
-        "signal": "narrative",
-        "status": "rejected",
-        "reason": "no_destination_after_connective"
-      },
-      {
-        "evidence": {
-          "doc_id": "GZCL-NOTE-11",
-          "start": 2748,
-          "end": 2757,
-          "text": "熊猫餐厅→骐骥天地",
-          "para_ids": [
-            156
-          ],
-          "origins": [
-            {
-              "doc_id": "GZCL-NOTE-11",
-              "para_id": 156,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/009_01.webp"
-            }
-          ]
-        },
         "signal": "arrow",
         "status": "accepted",
         "reason": "format_and_p2_support",
         "boundary_restatement": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2748,
-          "end": 2752,
+          "start": 2742,
+          "end": 2746,
           "text": "熊猫餐厅",
           "para_ids": [
-            156
+            155
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 156,
+              "para_id": 155,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/009_01.webp"
             }
           ]
         },
-        "route_id": "GZCL-NOTE-11-R-a8803e5c47"
+        "route_id": "GZCL-NOTE-11-R-207951e074"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2880,
-          "end": 2888,
+          "start": 2874,
+          "end": 2882,
           "text": "骐骥天地→细尾蒙",
           "para_ids": [
-            164
+            163
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 164,
+              "para_id": 163,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
             }
@@ -5462,21 +5417,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-11-R-d319a7c0e4"
+        "route_id": "GZCL-NOTE-11-R-b89386adc9"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 2938,
-          "end": 2954,
+          "start": 2932,
+          "end": 2948,
           "text": "细尾蒙→山魅→花车巡游16:30",
           "para_ids": [
-            168
+            167
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 168,
+              "para_id": 167,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
             }
@@ -5489,9 +5444,31 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 3051,
-          "end": 3060,
+          "start": 3045,
+          "end": 3054,
           "text": "21山題→湿地精灵",
+          "para_ids": [
+            173
+          ],
+          "origins": [
+            {
+              "doc_id": "GZCL-NOTE-11",
+              "para_id": 173,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
+            }
+          ]
+        },
+        "signal": "arrow",
+        "status": "rejected",
+        "reason": "no_p2_location_support"
+      },
+      {
+        "evidence": {
+          "doc_id": "GZCL-NOTE-11",
+          "start": 3055,
+          "end": 3075,
+          "text": "山題之后,继续前行,就是湿地精灵,不知道",
           "para_ids": [
             174
           ],
@@ -5504,28 +5481,6 @@
             }
           ]
         },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "no_p2_location_support"
-      },
-      {
-        "evidence": {
-          "doc_id": "GZCL-NOTE-11",
-          "start": 3061,
-          "end": 3081,
-          "text": "山題之后,继续前行,就是湿地精灵,不知道",
-          "para_ids": [
-            175
-          ],
-          "origins": [
-            {
-              "doc_id": "GZCL-NOTE-11",
-              "para_id": 175,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
-            }
-          ]
-        },
         "signal": "narrative",
         "status": "rejected",
         "reason": "no_destination_after_connective"
@@ -5533,16 +5488,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 3110,
-          "end": 3121,
+          "start": 3104,
+          "end": 3115,
           "text": "22湿地精灵→火烈鸟²",
           "para_ids": [
-            178
+            177
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 178,
+              "para_id": 177,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/010_01.webp"
             }
@@ -5555,16 +5510,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 3181,
-          "end": 3187,
+          "start": 3175,
+          "end": 3181,
           "text": "火烈鸟→南门",
           "para_ids": [
-            182
+            181
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 182,
+              "para_id": 181,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/011_01.webp"
             }
@@ -5573,21 +5528,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "GZCL-NOTE-11-R-d614271577"
+        "route_id": "GZCL-NOTE-11-R-1f5801e987"
       },
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 3220,
-          "end": 3226,
+          "start": 3214,
+          "end": 3220,
           "text": "南门→大马戏",
           "para_ids": [
-            185
+            184
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 185,
+              "para_id": 184,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/011_01.webp"
             }
@@ -5600,16 +5555,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 3278,
-          "end": 3299,
+          "start": 3272,
+          "end": 3293,
           "text": "1. 如果你购买的是普通坐,即使提前1个小",
           "para_ids": [
-            190
+            189
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 190,
+              "para_id": 189,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/011_01.webp"
             }
@@ -5622,16 +5577,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-11",
-          "start": 3329,
-          "end": 3351,
+          "start": 3323,
+          "end": 3345,
           "text": "2. 如果你购买的是VIP,一等座,互动席固",
           "para_ids": [
-            193
+            192
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-11",
-              "para_id": 193,
+              "para_id": 192,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6a9a01e7000000000b0007cf/0008/images/011_01.webp"
             }
@@ -6208,16 +6163,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-13",
-          "start": 1231,
-          "end": 1235,
+          "start": 1180,
+          "end": 1184,
           "text": "口行程:",
           "para_ids": [
-            100
+            91
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-13",
-              "para_id": 100,
+              "para_id": 91,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6aae533b000000002601dab5/0010/images/002_01.webp"
             }
@@ -6230,16 +6185,16 @@
       {
         "evidence": {
           "doc_id": "GZCL-NOTE-13",
-          "start": 1236,
-          "end": 1246,
+          "start": 1185,
+          "end": 1195,
           "text": "Day 1:白天-—",
           "para_ids": [
-            101
+            92
           ],
           "origins": [
             {
               "doc_id": "GZCL-NOTE-13",
-              "para_id": 101,
+              "para_id": 92,
               "kind": "image",
               "source": ".cache/小红书爬虫/广州长隆旅游攻略_eb00171e/archive/20261031_011410_532540/posts/6aae533b000000002601dab5/0010/images/002_01.webp"
             }
@@ -6502,10 +6457,9 @@
     "doc_id": "ZHCL-NOTE-04",
     "scenic_code": "ZHCL",
     "title": "珠海长隆海洋王国攻略",
-    "candidate_count": 28,
+    "candidate_count": 24,
     "route_ids": [
-      "ZHCL-NOTE-04-R-ad01027b51",
-      "ZHCL-NOTE-04-R-764948dece"
+      "ZHCL-NOTE-04-R-0287318368"
     ],
     "disposition": "automatic_routes",
     "note": "所有边界和状态由本次全文扫描产生；未识别不代表不存在路线。",
@@ -6557,108 +6511,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 1084,
-          "end": 1101,
-          "text": "海豚湾—白鲸馆—鲸鲨馆——雨林餐厅",
-          "para_ids": [
-            41
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 41,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-04-R-a820ef1b4d"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 1102,
-          "end": 1122,
-          "text": "(午饭)—海豚剧场(13点)——白鲸剧场",
-          "para_ids": [
-            42
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 42,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-04-R-fdeaeef900"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 1123,
-          "end": 1143,
-          "text": "(14点)——北极熊馆—企鹅馆——海鸟世",
-          "para_ids": [
-            43
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 43,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "accepted",
-        "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-04-R-ad01027b51"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 1144,
-          "end": 1161,
-          "text": "界—丛林过山车—海象馆——激浪帆船",
-          "para_ids": [
-            44
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 44,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-04-R-35c2b1f774"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 1162,
-          "end": 1179,
+          "start": 1075,
+          "end": 1092,
           "text": "-海狮剧场——超级激流——梦幻海洋",
           "para_ids": [
-            45
+            40
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 45,
+              "para_id": 40,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/001_02.webp"
             }
@@ -6667,21 +6529,21 @@
         "signal": "arrow",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-04-R-764948dece"
+        "route_id": "ZHCL-NOTE-04-R-0287318368"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 1287,
-          "end": 1289,
+          "start": 1184,
+          "end": 1186,
           "text": "2.",
           "para_ids": [
-            53
+            47
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 53,
+              "para_id": 47,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/001_02.webp"
             }
@@ -6694,16 +6556,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 1634,
-          "end": 1657,
+          "start": 1306,
+          "end": 1329,
           "text": "11:40到的餐厅人不多,12点以后就很多啦,",
           "para_ids": [
-            81
+            63
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 81,
+              "para_id": 63,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/003_01.webp"
             }
@@ -6712,21 +6574,21 @@
         "signal": "clock_step",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-04-R-d821d68871"
+        "route_id": "ZHCL-NOTE-04-R-be8d22958f"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2076,
-          "end": 2082,
+          "start": 1475,
+          "end": 1481,
           "text": "②海底互动船",
           "para_ids": [
-            113
+            80
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 113,
+              "para_id": 80,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6739,16 +6601,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2091,
-          "end": 2097,
+          "start": 1490,
+          "end": 1496,
           "text": "③水母研究室",
           "para_ids": [
-            115
+            82
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 115,
+              "para_id": 82,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6761,16 +6623,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2207,
-          "end": 2213,
+          "start": 1606,
+          "end": 1612,
           "text": "8.白鲸剧场",
           "para_ids": [
-            132
+            99
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 132,
+              "para_id": 99,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6783,16 +6645,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2214,
-          "end": 2221,
+          "start": 1613,
+          "end": 1620,
           "text": "9.冰山过山车",
           "para_ids": [
-            133
+            100
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 133,
+              "para_id": 100,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6805,16 +6667,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2260,
-          "end": 2262,
+          "start": 1652,
+          "end": 1654,
           "text": "6.",
           "para_ids": [
-            140
+            106
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 140,
+              "para_id": 106,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6827,9 +6689,163 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2280,
-          "end": 2285,
+          "start": 1672,
+          "end": 1677,
           "text": "7.鲸鲨馆",
+          "para_ids": [
+            111
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-04",
+              "para_id": 111,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-04",
+          "start": 1712,
+          "end": 1719,
+          "text": "10.北极熊馆",
+          "para_ids": [
+            123
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-04",
+              "para_id": 123,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-04",
+          "start": 1735,
+          "end": 1740,
+          "text": "5.海牛馆",
+          "para_ids": [
+            128
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-04",
+              "para_id": 128,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-04",
+          "start": 1748,
+          "end": 1754,
+          "text": "11.企鹅馆",
+          "para_ids": [
+            131
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-04",
+              "para_id": 131,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-04",
+          "start": 1766,
+          "end": 1773,
+          "text": "4.雨林升降塔",
+          "para_ids": [
+            135
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-04",
+              "para_id": 135,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-04",
+          "start": 1777,
+          "end": 1784,
+          "text": "16.梦幻木马",
+          "para_ids": [
+            137
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-04",
+              "para_id": 137,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-04",
+          "start": 1805,
+          "end": 1811,
+          "text": "3.海豚剧场",
+          "para_ids": [
+            142
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-04",
+              "para_id": 142,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-04",
+          "start": 1829,
+          "end": 1835,
+          "text": "17.烟花秀",
           "para_ids": [
             145
           ],
@@ -6849,16 +6865,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2320,
-          "end": 2327,
-          "text": "10.北极熊馆",
+          "start": 1862,
+          "end": 1869,
+          "text": "15.超级激流",
           "para_ids": [
-            157
+            151
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 157,
+              "para_id": 151,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6871,16 +6887,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2343,
-          "end": 2348,
-          "text": "5.海牛馆",
+          "start": 1876,
+          "end": 1883,
+          "text": "12.海鸟世界",
           "para_ids": [
-            162
+            154
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 162,
+              "para_id": 154,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6893,16 +6909,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2356,
-          "end": 2362,
-          "text": "11.企鹅馆",
+          "start": 1887,
+          "end": 1893,
+          "text": "2.寸海豚湾",
           "para_ids": [
-            165
+            156
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 165,
+              "para_id": 156,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6915,16 +6931,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2374,
-          "end": 2381,
-          "text": "4.雨林升降塔",
+          "start": 1908,
+          "end": 1914,
+          "text": "14.海盗船",
           "para_ids": [
-            169
+            160
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 169,
+              "para_id": 160,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6937,16 +6953,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2385,
-          "end": 2392,
-          "text": "16.梦幻木马",
+          "start": 1976,
+          "end": 1983,
+          "text": "13.海狮剧场",
           "para_ids": [
-            171
+            177
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 171,
+              "para_id": 177,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
             }
@@ -6959,31 +6975,9 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2413,
-          "end": 2419,
-          "text": "3.海豚剧场",
-          "para_ids": [
-            176
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 176,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 2437,
-          "end": 2443,
-          "text": "17.烟花秀",
+          "start": 1987,
+          "end": 1995,
+          "text": "1.5D城堡影院",
           "para_ids": [
             179
           ],
@@ -7003,9 +6997,9 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 2470,
-          "end": 2477,
-          "text": "15.超级激流",
+          "start": 2061,
+          "end": 2066,
+          "text": "剧场时间表",
           "para_ids": [
             185
           ],
@@ -7018,138 +7012,6 @@
             }
           ]
         },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 2484,
-          "end": 2491,
-          "text": "12.海鸟世界",
-          "para_ids": [
-            188
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 188,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 2495,
-          "end": 2501,
-          "text": "2.寸海豚湾",
-          "para_ids": [
-            190
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 190,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 2521,
-          "end": 2527,
-          "text": "14.海盗船",
-          "para_ids": [
-            195
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 195,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 2589,
-          "end": 2596,
-          "text": "13.海狮剧场",
-          "para_ids": [
-            212
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 212,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 2600,
-          "end": 2608,
-          "text": "1.5D城堡影院",
-          "para_ids": [
-            214
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 214,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-04",
-          "start": 2674,
-          "end": 2679,
-          "text": "剧场时间表",
-          "para_ids": [
-            220
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-04",
-              "para_id": 220,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/004_01.webp"
-            }
-          ]
-        },
         "signal": "topic_boundary",
         "status": "boundary",
         "reason": "non_route_topic"
@@ -7157,16 +7019,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-04",
-          "start": 3273,
-          "end": 3330,
+          "start": 2640,
+          "end": 2697,
           "text": "The Operating Hours Are Subject To On-site Announcements.",
           "para_ids": [
-            309
+            270
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-04",
-              "para_id": 309,
+              "para_id": 270,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a36c44d0000000022016e24/0003/images/005_01.webp"
             }
@@ -7322,16 +7184,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-05",
-          "start": 1215,
-          "end": 1272,
+          "start": 1209,
+          "end": 1266,
           "text": "The Operating Hours Are Subject To On-site Announcements.",
           "para_ids": [
-            113
+            112
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-05",
-              "para_id": 113,
+              "para_id": 112,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6aaa7d7700000000280030b5/0004/images/002_01.webp"
             }
@@ -8022,7 +7884,7 @@
     "title": "珠海长隆海洋王国攻略，2日亲子游 省腿路线",
     "candidate_count": 30,
     "route_ids": [
-      "ZHCL-NOTE-09-R-044f695d7a"
+      "ZHCL-NOTE-09-R-225b60d456"
     ],
     "disposition": "automatic_routes",
     "note": "所有边界和状态由本次全文扫描产生；未识别不代表不存在路线。",
@@ -8250,16 +8112,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 464,
-          "end": 474,
+          "start": 433,
+          "end": 443,
           "text": "第一天值得看的表演:",
           "para_ids": [
-            30
+            29
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 30,
+              "para_id": 29,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
             }
@@ -8272,9 +8134,32 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 475,
-          "end": 481,
+          "start": 444,
+          "end": 450,
           "text": "1.白鲸剧场",
+          "para_ids": [
+            30
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-09",
+              "para_id": 30,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "accepted",
+        "reason": "format_and_p2_support",
+        "route_id": "ZHCL-NOTE-09-R-225b60d456"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-09",
+          "start": 451,
+          "end": 457,
+          "text": "2.海豚剧场",
           "para_ids": [
             31
           ],
@@ -8290,14 +8175,14 @@
         "signal": "numbered",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-09-R-044f695d7a"
+        "route_id": "ZHCL-NOTE-09-R-225b60d456"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 482,
-          "end": 488,
-          "text": "2.海豚剧场",
+          "start": 458,
+          "end": 496,
+          "text": "3.5D 城堡影院(就在进门右手侧,建议先把这个看了. 或者第二天进出时看)",
           "para_ids": [
             32
           ],
@@ -8313,14 +8198,14 @@
         "signal": "numbered",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-09-R-044f695d7a"
+        "route_id": "ZHCL-NOTE-09-R-225b60d456"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 489,
-          "end": 527,
-          "text": "3.5D 城堡影院(就在进门右手侧,建议先把这个看了. 或者第二天进出时看)",
+          "start": 497,
+          "end": 517,
+          "text": "4.水上飞人大汇演(每天一场16:00)",
           "para_ids": [
             33
           ],
@@ -8336,14 +8221,14 @@
         "signal": "numbered",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-09-R-044f695d7a"
+        "route_id": "ZHCL-NOTE-09-R-225b60d456"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 528,
-          "end": 548,
-          "text": "4.水上飞人大汇演(每天一场16:00)",
+          "start": 518,
+          "end": 534,
+          "text": "5.烟花秀(每天一场20:00)",
           "para_ids": [
             34
           ],
@@ -8359,44 +8244,21 @@
         "signal": "numbered",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-09-R-044f695d7a"
+        "route_id": "ZHCL-NOTE-09-R-225b60d456"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 549,
-          "end": 565,
-          "text": "5.烟花秀(每天一场20:00)",
-          "para_ids": [
-            35
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-09",
-              "para_id": 35,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "accepted",
-        "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-09-R-044f695d7a"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-09",
-          "start": 677,
-          "end": 686,
+          "start": 646,
+          "end": 655,
           "text": "第一天值得看的动物",
           "para_ids": [
-            39
+            38
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 39,
+              "para_id": 38,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
             }
@@ -8409,9 +8271,32 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 687,
-          "end": 727,
+          "start": 656,
+          "end": 696,
           "text": "1.鲸鲨馆(世界最大,超震撼的大亚克力玻璃长39.6m,高8.3m,拍照打卡点)",
+          "para_ids": [
+            39
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-09",
+              "para_id": 39,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "insufficient_steps_or_distinct_poi",
+        "route_id": "ZHCL-NOTE-09-R-b03b06aa41"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-09",
+          "start": 697,
+          "end": 717,
+          "text": "2.白鲸馆(就静静地看白鲸遨游 超治愈)",
           "para_ids": [
             40
           ],
@@ -8426,15 +8311,14 @@
         },
         "signal": "numbered",
         "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-ba30e56b86"
+        "reason": "numbered_list_without_route_context"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 728,
-          "end": 748,
-          "text": "2.白鲸馆(就静静地看白鲸遨游 超治愈)",
+          "start": 718,
+          "end": 743,
+          "text": "3.北极熊馆(北极熊 北极狼 北极狐都好可爱腻~)",
           "para_ids": [
             41
           ],
@@ -8454,9 +8338,9 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 749,
-          "end": 774,
-          "text": "3.北极熊馆(北极熊 北极狼 北极狐都好可爱腻~)",
+          "start": 744,
+          "end": 777,
+          "text": "4.企鹅馆(不动的时候像雕塑,原来动起来也辣么可爱还是个游泳健将)",
           "para_ids": [
             42
           ],
@@ -8476,9 +8360,9 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 775,
-          "end": 808,
-          "text": "4.企鹅馆(不动的时候像雕塑,原来动起来也辣么可爱还是个游泳健将)",
+          "start": 778,
+          "end": 804,
+          "text": "5.海鸟世界(时间充足感兴趣的可以进去看, 当科普)",
           "para_ids": [
             43
           ],
@@ -8498,9 +8382,9 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 809,
-          "end": 835,
-          "text": "5.海鸟世界(时间充足感兴趣的可以进去看, 当科普)",
+          "start": 805,
+          "end": 826,
+          "text": "6.海象岛海狮港湾离的比较近, 可以一起看",
           "para_ids": [
             44
           ],
@@ -8520,9 +8404,9 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 836,
-          "end": 857,
-          "text": "6.海象岛海狮港湾离的比较近, 可以一起看",
+          "start": 827,
+          "end": 847,
+          "text": "7.中华白海豚(海豚是最最最聪明的动物)",
           "para_ids": [
             45
           ],
@@ -8542,9 +8426,9 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 858,
-          "end": 878,
-          "text": "7.中华白海豚(海豚是最最最聪明的动物)",
+          "start": 848,
+          "end": 879,
+          "text": "8.海牛馆(因为要走回头路,我们放弃没有看,时间充足的可以看)",
           "para_ids": [
             46
           ],
@@ -8564,38 +8448,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 879,
-          "end": 910,
-          "text": "8.海牛馆(因为要走回头路,我们放弃没有看,时间充足的可以看)",
-          "para_ids": [
-            47
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-09",
-              "para_id": 47,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/003_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-09",
-          "start": 923,
-          "end": 936,
+          "start": 892,
+          "end": 905,
           "text": "第二天值得玩儿的游乐项目:",
           "para_ids": [
-            49
+            48
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 49,
+              "para_id": 48,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/004_01.webp"
             }
@@ -8608,9 +8470,32 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 937,
-          "end": 968,
+          "start": 906,
+          "end": 937,
           "text": "1.超级激流(会湿身,提前备好雨衣鞋套,建议外面买园内相对贵)",
+          "para_ids": [
+            49
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-09",
+              "para_id": 49,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/004_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "insufficient_steps_or_distinct_poi",
+        "route_id": "ZHCL-NOTE-09-R-beb17c62c5"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-09",
+          "start": 938,
+          "end": 973,
+          "text": "2.激浪帆船(其实就是海盗船, 时间不足的可以放弃, 外面很多地方有)",
           "para_ids": [
             50
           ],
@@ -8626,14 +8511,14 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-45a02999af"
+        "route_id": "ZHCL-NOTE-09-R-beb17c62c5"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 969,
-          "end": 1004,
-          "text": "2.激浪帆船(其实就是海盗船, 时间不足的可以放弃, 外面很多地方有)",
+          "start": 974,
+          "end": 1005,
+          "text": "3.极地转转杯(自己可以控制转的速度,外面很多地方也有的玩儿)",
           "para_ids": [
             51
           ],
@@ -8648,15 +8533,14 @@
         },
         "signal": "numbered",
         "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-45a02999af"
+        "reason": "numbered_tip_without_route_anchor"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 1005,
-          "end": 1036,
-          "text": "3.极地转转杯(自己可以控制转的速度,外面很多地方也有的玩儿)",
+          "start": 1006,
+          "end": 1027,
+          "text": "4.梦幻海洋(适合小点的宝宝不是很刺激的)",
           "para_ids": [
             52
           ],
@@ -8671,14 +8555,15 @@
         },
         "signal": "numbered",
         "status": "rejected",
-        "reason": "numbered_tip_without_route_anchor"
+        "reason": "insufficient_steps_or_distinct_poi",
+        "route_id": "ZHCL-NOTE-09-R-beb17c62c5"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 1037,
-          "end": 1058,
-          "text": "4.梦幻海洋(适合小点的宝宝不是很刺激的)",
+          "start": 1028,
+          "end": 1054,
+          "text": "5.冰山过山车(会湿身,备好雨衣鞋套,相对没那么高)",
           "para_ids": [
             53
           ],
@@ -8694,14 +8579,14 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-45a02999af"
+        "route_id": "ZHCL-NOTE-09-R-beb17c62c5"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 1059,
-          "end": 1085,
-          "text": "5.冰山过山车(会湿身,备好雨衣鞋套,相对没那么高)",
+          "start": 1055,
+          "end": 1090,
+          "text": "6.海底互动船(容易被忽略的项目, 入口不显眼,就在鲸鲨管旁边注意看)",
           "para_ids": [
             54
           ],
@@ -8717,44 +8602,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-45a02999af"
+        "route_id": "ZHCL-NOTE-09-R-beb17c62c5"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 1086,
-          "end": 1121,
-          "text": "6.海底互动船(容易被忽略的项目, 入口不显眼,就在鲸鲨管旁边注意看)",
-          "para_ids": [
-            55
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-09",
-              "para_id": 55,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/004_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-45a02999af"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-09",
-          "start": 1152,
-          "end": 1183,
+          "start": 1121,
+          "end": 1152,
           "text": "3.雨林升降塔40米(排了40 米的就没必要坐 25 米的了)",
           "para_ids": [
-            57
+            56
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 57,
+              "para_id": 56,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/004_01.webp"
             }
@@ -8763,21 +8625,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-45a02999af"
+        "route_id": "ZHCL-NOTE-09-R-beb17c62c5"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 1223,
-          "end": 1237,
+          "start": 1192,
+          "end": 1206,
           "text": "张大三第一日看动物及表演路线",
           "para_ids": [
-            59
+            58
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 59,
+              "para_id": 58,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/005_01.webp"
             }
@@ -8790,16 +8652,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 1385,
-          "end": 1407,
+          "start": 1354,
+          "end": 1376,
           "text": "第一天看动物及表演路线,少走至少5000 米",
           "para_ids": [
-            86
+            85
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 86,
+              "para_id": 85,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/005_01.webp"
             }
@@ -8812,16 +8674,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2173,
-          "end": 2185,
+          "start": 2142,
+          "end": 2154,
           "text": "张大三第二日游乐项目路线",
           "para_ids": [
-            159
+            158
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 159,
+              "para_id": 158,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/007_01.webp"
             }
@@ -8834,16 +8696,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2260,
-          "end": 2277,
+          "start": 2229,
+          "end": 2246,
           "text": "TTEH-TEEELI+日票YA店",
           "para_ids": [
-            173
+            172
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 173,
+              "para_id": 172,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/007_01.webp"
             }
@@ -8856,16 +8718,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2294,
-          "end": 2308,
+          "start": 2263,
+          "end": 2277,
           "text": "第二天游乐项目路线不走回头路",
           "para_ids": [
-            177
+            176
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 177,
+              "para_id": 176,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/007_01.webp"
             }
@@ -8878,16 +8740,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2402,
-          "end": 2407,
+          "start": 2371,
+          "end": 2376,
           "text": "②造浪帆船",
           "para_ids": [
-            181
+            180
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 181,
+              "para_id": 180,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/007_01.webp"
             }
@@ -8900,16 +8762,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2435,
-          "end": 2441,
+          "start": 2404,
+          "end": 2410,
           "text": "⑦雨林升降塔",
           "para_ids": [
-            183
+            182
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 183,
+              "para_id": 182,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/007_01.webp"
             }
@@ -8918,21 +8780,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-09-R-a8359e3abc"
+        "route_id": "ZHCL-NOTE-09-R-db1be1ab1f"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2462,
-          "end": 2472,
+          "start": 2431,
+          "end": 2441,
           "text": "酒店选择:长隆内酒店",
           "para_ids": [
-            186
+            185
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 186,
+              "para_id": 185,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/008_01.webp"
             }
@@ -8945,16 +8807,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2764,
-          "end": 2775,
+          "start": 2733,
+          "end": 2744,
           "text": "酒店选择:长隆外围酒店",
           "para_ids": [
-            197
+            196
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 197,
+              "para_id": 196,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/008_01.webp"
             }
@@ -8967,16 +8829,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-09",
-          "start": 2839,
-          "end": 2846,
+          "start": 2808,
+          "end": 2815,
           "text": "酒店选择:总结",
           "para_ids": [
-            201
+            200
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-09",
-              "para_id": 201,
+              "para_id": 200,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/69f32e42000000003502f681/0008/images/008_01.webp"
             }
@@ -9320,16 +9182,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-10",
-          "start": 1126,
-          "end": 1133,
+          "start": 1087,
+          "end": 1094,
           "text": "公园-海鸟世界",
           "para_ids": [
-            51
+            44
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-10",
-              "para_id": 51,
+              "para_id": 44,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6a7a047d000000003302cf22/0009/images/003_01.webp"
             }
@@ -9338,7 +9200,7 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-10-R-80f09ad422"
+        "route_id": "ZHCL-NOTE-10-R-af6b76ae16"
       }
     ]
   },
@@ -9699,7 +9561,7 @@
     "title": "珠海长隆一日游抄作业！全程不绕路",
     "candidate_count": 10,
     "route_ids": [
-      "ZHCL-NOTE-12-R-944bf2027e"
+      "ZHCL-NOTE-12-R-8acca2098a"
     ],
     "disposition": "automatic_routes",
     "note": "所有边界和状态由本次全文扫描产生；未识别不代表不存在路线。",
@@ -9840,16 +9702,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 750,
-          "end": 763,
+          "start": 744,
+          "end": 757,
           "text": "鲸鲨馆——开园直冲,人最少",
           "para_ids": [
-            39
+            38
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 39,
+              "para_id": 38,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -9858,21 +9720,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "ZHCL-NOTE-12-R-55a3b1eb9f"
+        "route_id": "ZHCL-NOTE-12-R-377f41673b"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 807,
-          "end": 824,
+          "start": 795,
+          "end": 812,
           "text": "● 海洋保卫战——提前20分钟占位",
           "para_ids": [
-            44
+            42
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 44,
+              "para_id": 42,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -9885,16 +9747,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1091,
-          "end": 1095,
+          "start": 1057,
+          "end": 1061,
           "text": "路线速览",
           "para_ids": [
-            71
+            65
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 71,
+              "para_id": 65,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -9907,16 +9769,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1116,
-          "end": 1127,
+          "start": 1082,
+          "end": 1093,
           "text": "按顺序走·16 站闭合",
           "para_ids": [
-            74
+            68
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 74,
+              "para_id": 68,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -9929,16 +9791,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1135,
-          "end": 1137,
+          "start": 1101,
+          "end": 1103,
           "text": "上午",
           "para_ids": [
-            76
+            70
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 76,
+              "para_id": 70,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -9951,9 +9813,77 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1138,
-          "end": 1150,
+          "start": 1104,
+          "end": 1116,
           "text": "入园·鲸鲨馆·鹦鹉过山车",
+          "para_ids": [
+            71
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-12",
+              "para_id": 71,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
+            }
+          ]
+        },
+        "signal": "period_child",
+        "status": "accepted",
+        "reason": "format_and_p2_support",
+        "route_id": "ZHCL-NOTE-12-R-8acca2098a"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-12",
+          "start": 1117,
+          "end": 1121,
+          "text": "海狮剧场",
+          "para_ids": [
+            72
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-12",
+              "para_id": 72,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
+            }
+          ]
+        },
+        "signal": "period_child",
+        "status": "accepted",
+        "reason": "format_and_p2_support",
+        "route_id": "ZHCL-NOTE-12-R-8acca2098a"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-12",
+          "start": 1149,
+          "end": 1151,
+          "text": "中午",
+          "para_ids": [
+            75
+          ],
+          "origins": [
+            {
+              "doc_id": "ZHCL-NOTE-12",
+              "para_id": 75,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
+            }
+          ]
+        },
+        "signal": "period_heading",
+        "status": "boundary",
+        "reason": "time_scope_updated"
+      },
+      {
+        "evidence": {
+          "doc_id": "ZHCL-NOTE-12",
+          "start": 1161,
+          "end": 1169,
+          "text": "北极熊馆·企鹅馆",
           "para_ids": [
             77
           ],
@@ -9969,89 +9899,21 @@
         "signal": "period_child",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-12-R-944bf2027e"
+        "route_id": "ZHCL-NOTE-12-R-8acca2098a"
       },
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1151,
-          "end": 1155,
-          "text": "海狮剧场",
-          "para_ids": [
-            78
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-12",
-              "para_id": 78,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "period_child",
-        "status": "accepted",
-        "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-12-R-944bf2027e"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-12",
-          "start": 1189,
-          "end": 1191,
-          "text": "中午",
-          "para_ids": [
-            82
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-12",
-              "para_id": 82,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "period_heading",
-        "status": "boundary",
-        "reason": "time_scope_updated"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-12",
-          "start": 1211,
-          "end": 1219,
-          "text": "北极熊馆·企鹅馆",
-          "para_ids": [
-            85
-          ],
-          "origins": [
-            {
-              "doc_id": "ZHCL-NOTE-12",
-              "para_id": 85,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "period_child",
-        "status": "accepted",
-        "reason": "format_and_p2_support",
-        "route_id": "ZHCL-NOTE-12-R-944bf2027e"
-      },
-      {
-        "evidence": {
-          "doc_id": "ZHCL-NOTE-12",
-          "start": 1236,
-          "end": 1238,
+          "start": 1186,
+          "end": 1188,
           "text": "下午",
           "para_ids": [
-            87
+            79
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 87,
+              "para_id": 79,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -10064,16 +9926,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1278,
-          "end": 1280,
+          "start": 1223,
+          "end": 1225,
           "text": "傍晚",
           "para_ids": [
-            92
+            83
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 92,
+              "para_id": 83,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -10086,16 +9948,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1325,
-          "end": 1327,
+          "start": 1265,
+          "end": 1267,
           "text": "夜间",
           "para_ids": [
-            98
+            88
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 98,
+              "para_id": 88,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/001_02.webp"
             }
@@ -10108,16 +9970,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1512,
-          "end": 1516,
+          "start": 1411,
+          "end": 1415,
           "text": "上午行程",
           "para_ids": [
-            119
+            105
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 119,
+              "para_id": 105,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/002_01.webp"
             }
@@ -10130,16 +9992,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 1868,
-          "end": 1872,
+          "start": 1767,
+          "end": 1771,
           "text": "下午行程",
           "para_ids": [
-            144
+            130
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 144,
+              "para_id": 130,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/003_01.webp"
             }
@@ -10152,16 +10014,16 @@
       {
         "evidence": {
           "doc_id": "ZHCL-NOTE-12",
-          "start": 2189,
-          "end": 2193,
+          "start": 2088,
+          "end": 2092,
           "text": "傍晚行程",
           "para_ids": [
-            163
+            149
           ],
           "origins": [
             {
               "doc_id": "ZHCL-NOTE-12",
-              "para_id": 163,
+              "para_id": 149,
               "kind": "image",
               "source": ".cache/小红书爬虫/珠海长隆旅游攻略_c43b6e6b/archive/20261031_012820_895223/posts/6adb609b0000000024034d3a/0011/images/004_01.webp"
             }
@@ -11655,16 +11517,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-08",
-          "start": 1300,
-          "end": 1310,
+          "start": 1289,
+          "end": 1299,
           "text": "1.建议从上往下徒步",
           "para_ids": [
-            105
+            103
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-08",
-              "para_id": 105,
+              "para_id": 103,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab941240000000015013a55/0007/images/018_01.webp"
             }
@@ -11677,16 +11539,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-08",
-          "start": 1322,
-          "end": 1338,
+          "start": 1311,
+          "end": 1327,
           "text": "2.A.B,C,D四个可能停车点",
           "para_ids": [
-            107
+            105
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-08",
-              "para_id": 107,
+              "para_id": 105,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab941240000000015013a55/0007/images/018_01.webp"
             }
@@ -12087,7 +11949,7 @@
     "doc_id": "JZG-NOTE-10",
     "scenic_code": "JZG",
     "title": "九寨沟3天2晚｜秋季彩林懒人攻略，交通住宿",
-    "candidate_count": 2,
+    "candidate_count": 1,
     "route_ids": [],
     "disposition": "no_rule_supported_route",
     "note": "所有边界和状态由本次全文扫描产生；未识别不代表不存在路线。",
@@ -12293,60 +12155,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-10",
-          "start": 602,
-          "end": 606,
-          "text": "Day1",
-          "para_ids": [
-            38
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-10",
-              "para_id": 38,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "day_heading",
-        "status": "boundary",
-        "reason": "day_state_updated"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-10",
-          "start": 620,
-          "end": 629,
-          "text": "成都东→黄龙九寨站",
-          "para_ids": [
-            41
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-10",
-              "para_id": 41,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "rejected",
-        "reason": "outside_transport_or_no_visit_node"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-10",
-          "start": 747,
-          "end": 751,
+          "start": 713,
+          "end": 717,
           "text": "交通提醒",
           "para_ids": [
-            55
+            50
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-10",
-              "para_id": 55,
+              "para_id": 50,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/001_02.webp"
             }
@@ -12359,16 +12177,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-10",
-          "start": 834,
-          "end": 848,
+          "start": 791,
+          "end": 805,
           "text": "抵达沟口→入住→吃饭→休息。",
           "para_ids": [
-            63
+            57
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-10",
-              "para_id": 63,
+              "para_id": 57,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/001_02.webp"
             }
@@ -12381,16 +12199,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-10",
-          "start": 881,
-          "end": 887,
+          "start": 830,
+          "end": 836,
           "text": "交通路线示意",
           "para_ids": [
-            67
+            60
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-10",
-              "para_id": 67,
+              "para_id": 60,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/001_02.webp"
             }
@@ -12403,16 +12221,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-10",
-          "start": 1055,
-          "end": 1063,
+          "start": 986,
+          "end": 994,
           "text": "不用为了照搬顺序",
           "para_ids": [
-            87
+            77
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-10",
-              "para_id": 87,
+              "para_id": 77,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/002_01.webp"
             }
@@ -12425,16 +12243,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-10",
-          "start": 1543,
-          "end": 1547,
+          "start": 1405,
+          "end": 1409,
           "text": "返程路线",
           "para_ids": [
-            138
+            120
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-10",
-              "para_id": 138,
+              "para_id": 120,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/004_01.webp"
             }
@@ -12447,16 +12265,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-10",
-          "start": 1614,
-          "end": 1618,
+          "start": 1476,
+          "end": 1480,
           "text": "预约接驳",
           "para_ids": [
-            145
+            127
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-10",
-              "para_id": 145,
+              "para_id": 127,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/004_01.webp"
             }
@@ -12469,16 +12287,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-10",
-          "start": 1874,
-          "end": 1880,
+          "start": 1689,
+          "end": 1695,
           "text": "门票+观光车",
           "para_ids": [
-            172
+            150
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-10",
-              "para_id": 172,
+              "para_id": 150,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6abbca43000000001803a862/0009/images/004_01.webp"
             }
@@ -12494,11 +12312,10 @@
     "doc_id": "JZG-NOTE-11",
     "scenic_code": "JZG",
     "title": "九寨沟2日游手帐版攻略‼️保姆级超详细",
-    "candidate_count": 5,
+    "candidate_count": 4,
     "route_ids": [
       "JZG-NOTE-11-R-4ef6e6a46e",
-      "JZG-NOTE-11-R-a7eac262f6",
-      "JZG-NOTE-11-R-7b1d341d07"
+      "JZG-NOTE-11-R-a7eac262f6"
     ],
     "disposition": "automatic_routes",
     "note": "所有边界和状态由本次全文扫描产生；未识别不代表不存在路线。",
@@ -12750,39 +12567,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 937,
-          "end": 959,
-          "text": "熊猫海瀑布→五花海→珍珠滩→珍珠滩瀑布→镜海",
-          "para_ids": [
-            52
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-11",
-              "para_id": 52,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "arrow",
-        "status": "accepted",
-        "reason": "format_and_p2_support",
-        "route_id": "JZG-NOTE-11-R-7b1d341d07"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-11",
-          "start": 1133,
-          "end": 1135,
+          "start": 1091,
+          "end": 1093,
           "text": "下午",
           "para_ids": [
-            76
+            73
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 76,
+              "para_id": 73,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/002_01.webp"
             }
@@ -12795,16 +12589,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 1172,
-          "end": 1188,
+          "start": 1130,
+          "end": 1146,
           "text": "①散步闲逛(②慢悠悠开启假期午后",
           "para_ids": [
-            82
+            79
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 82,
+              "para_id": 79,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/002_01.webp"
             }
@@ -12817,16 +12611,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 1726,
-          "end": 1737,
+          "start": 1671,
+          "end": 1682,
           "text": "上午:则查洼沟+树正沟",
           "para_ids": [
-            152
+            147
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 152,
+              "para_id": 147,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/003_01.webp"
             }
@@ -12839,16 +12633,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 1799,
-          "end": 1802,
+          "start": 1744,
+          "end": 1747,
           "text": "门票+",
           "para_ids": [
-            157
+            152
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 157,
+              "para_id": 152,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/003_01.webp"
             }
@@ -12861,16 +12655,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 2200,
-          "end": 2209,
+          "start": 2123,
+          "end": 2132,
           "text": "则查洼沟游玩路线:",
           "para_ids": [
-            207
+            198
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 207,
+              "para_id": 198,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/003_01.webp"
             }
@@ -12883,16 +12677,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 3281,
-          "end": 3289,
+          "start": 3182,
+          "end": 3190,
           "text": "美食也很治愈!0",
           "para_ids": [
-            309
+            297
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 309,
+              "para_id": 297,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/005_01.webp"
             }
@@ -12905,16 +12699,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 3570,
-          "end": 3572,
+          "start": 3455,
+          "end": 3457,
           "text": "美食",
           "para_ids": [
-            347
+            332
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 347,
+              "para_id": 332,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/005_01.webp"
             }
@@ -12927,16 +12721,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 4027,
-          "end": 4036,
+          "start": 3902,
+          "end": 3911,
           "text": "跟着路线上下车就行",
           "para_ids": [
-            406
+            389
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 406,
+              "para_id": 389,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/006_01.webp"
             }
@@ -12949,16 +12743,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 4192,
-          "end": 4208,
+          "start": 4067,
+          "end": 4083,
           "text": "住宿选沟口附近→第二天进沟更从容",
           "para_ids": [
-            429
+            412
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 429,
+              "para_id": 412,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/006_01.webp"
             }
@@ -12971,16 +12765,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 4421,
-          "end": 4423,
+          "start": 4296,
+          "end": 4298,
           "text": "预约",
           "para_ids": [
-            456
+            439
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 456,
+              "para_id": 439,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/007_01.webp"
             }
@@ -12993,16 +12787,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-11",
-          "start": 4500,
-          "end": 4508,
+          "start": 4375,
+          "end": 4383,
           "text": "不用把行程排满满",
           "para_ids": [
-            467
+            450
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-11",
-              "para_id": 467,
+              "para_id": 450,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6ab20e31000000003100f509/0010/images/007_01.webp"
             }
@@ -13020,7 +12814,7 @@
     "title": "# 理工男自制｜九寨沟 + 黄龙｜硬核直白",
     "candidate_count": 36,
     "route_ids": [
-      "JZG-NOTE-12-R-d519b6d883"
+      "JZG-NOTE-12-R-564b2a0936"
     ],
     "disposition": "automatic_routes",
     "note": "所有边界和状态由本次全文扫描产生；未识别不代表不存在路线。",
@@ -13586,9 +13380,31 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1170,
-          "end": 1181,
+          "start": 1163,
+          "end": 1174,
           "text": "Day2|九寨沟一日游",
+          "para_ids": [
+            56
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 56,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
+            }
+          ]
+        },
+        "signal": "day_heading",
+        "status": "boundary",
+        "reason": "day_state_updated"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 1175,
+          "end": 1200,
+          "text": "07:00起床|07:30到景区|18:00前出园",
           "para_ids": [
             57
           ],
@@ -13601,46 +13417,24 @@
             }
           ]
         },
-        "signal": "day_heading",
-        "status": "boundary",
-        "reason": "day_state_updated"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 1182,
-          "end": 1207,
-          "text": "07:00起床|07:30到景区|18:00前出园",
-          "para_ids": [
-            58
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 58,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
-            }
-          ]
-        },
         "signal": "clock_step",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "JZG-NOTE-12-R-86fccd766d"
+        "route_id": "JZG-NOTE-12-R-482fbe9afd"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1270,
-          "end": 1278,
+          "start": 1245,
+          "end": 1253,
           "text": "先右线:五花海→",
           "para_ids": [
-            63
+            61
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 63,
+              "para_id": 61,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13653,16 +13447,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1301,
-          "end": 1307,
+          "start": 1270,
+          "end": 1276,
           "text": "长海→五彩池",
           "para_ids": [
-            67
+            64
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 67,
+              "para_id": 64,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13671,21 +13465,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "JZG-NOTE-12-R-d2ae2a40b1"
+        "route_id": "JZG-NOTE-12-R-856c6147d7"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1348,
-          "end": 1360,
+          "start": 1307,
+          "end": 1319,
           "text": "Day3|黄龙景区+返程",
           "para_ids": [
-            72
+            68
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 72,
+              "para_id": 68,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13698,16 +13492,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1361,
-          "end": 1383,
+          "start": 1320,
+          "end": 1342,
           "text": "07:30 九寨沟口拼车去黄龙|约1.5小时",
           "para_ids": [
-            73
+            69
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 73,
+              "para_id": 69,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13716,21 +13510,21 @@
         "signal": "clock_step",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "JZG-NOTE-12-R-86fccd766d"
+        "route_id": "JZG-NOTE-12-R-482fbe9afd"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1506,
-          "end": 1513,
+          "start": 1399,
+          "end": 1406,
           "text": "住宿+高反提醒",
           "para_ids": [
-            84
+            74
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 84,
+              "para_id": 74,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13743,38 +13537,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1514,
-          "end": 1521,
-          "text": "门票有免票政策",
-          "para_ids": [
-            85
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 85,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
-            }
-          ]
-        },
-        "signal": "topic_boundary",
-        "status": "boundary",
-        "reason": "non_route_topic"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 1537,
-          "end": 1542,
+          "start": 1422,
+          "end": 1427,
           "text": "路线核心:",
           "para_ids": [
-            87
+            76
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 87,
+              "para_id": 76,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13787,16 +13559,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1579,
-          "end": 1588,
+          "start": 1464,
+          "end": 1473,
           "text": "深圳飞成都→高铁→",
           "para_ids": [
-            90
+            79
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 90,
+              "para_id": 79,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13809,16 +13581,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1611,
-          "end": 1619,
+          "start": 1496,
+          "end": 1504,
           "text": "包车进沟→九寨沟",
           "para_ids": [
-            92
+            81
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 92,
+              "para_id": 81,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13827,21 +13599,21 @@
         "signal": "arrow",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "JZG-NOTE-12-R-25593d6914"
+        "route_id": "JZG-NOTE-12-R-723781d2e3"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1643,
-          "end": 1652,
+          "start": 1528,
+          "end": 1537,
           "text": "一日游艺黄龙返程成",
           "para_ids": [
-            95
+            84
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 95,
+              "para_id": 84,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/001_02.webp"
             }
@@ -13854,9 +13626,75 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1668,
-          "end": 1675,
+          "start": 1553,
+          "end": 1560,
           "text": "方案1:少走路",
+          "para_ids": [
+            86
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 86,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "route_heading",
+        "status": "boundary",
+        "reason": "new_route_title"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 1576,
+          "end": 1586,
+          "text": "方案2:漫步环湖栈道",
+          "para_ids": [
+            89
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 89,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "route_heading",
+        "status": "boundary",
+        "reason": "new_route_title"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 1587,
+          "end": 1591,
+          "text": "精华线路",
+          "para_ids": [
+            90
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 90,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "route_heading",
+        "status": "boundary",
+        "reason": "route_context_enabled"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 1647,
+          "end": 1670,
+          "text": "1、从珍珠滩站下车后,通过下穿隧道来到珍珠滩,",
           "para_ids": [
             97
           ],
@@ -13869,60 +13707,40 @@
             }
           ]
         },
-        "signal": "route_heading",
-        "status": "boundary",
-        "reason": "new_route_title"
+        "signal": "numbered",
+        "status": "accepted",
+        "reason": "format_and_p2_support",
+        "route_id": "JZG-NOTE-12-R-564b2a0936"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1691,
-          "end": 1701,
-          "text": "方案2:漫步环湖栈道",
+          "start": 1716,
+          "end": 1739,
+          "text": "2、随后来到珍珠滩瀑布的悬崖处,顺楼梯下行到珍",
           "para_ids": [
-            100
+            104
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 100,
+              "para_id": 104,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
             }
           ]
         },
-        "signal": "route_heading",
-        "status": "boundary",
-        "reason": "new_route_title"
+        "signal": "numbered",
+        "status": "accepted",
+        "reason": "format_and_p2_support",
+        "route_id": "JZG-NOTE-12-R-564b2a0936"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1702,
-          "end": 1706,
-          "text": "精华线路",
-          "para_ids": [
-            101
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 101,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "route_heading",
-        "status": "boundary",
-        "reason": "route_context_enabled"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 1762,
-          "end": 1785,
-          "text": "1、从珍珠滩站下车后,通过下穿隧道来到珍珠滩,",
+          "start": 1761,
+          "end": 1786,
+          "text": "3、顺瀑布水流步行350米去“镜海停车的乘车前往。",
           "para_ids": [
             108
           ],
@@ -13938,67 +13756,21 @@
         "signal": "numbered",
         "status": "accepted",
         "reason": "format_and_p2_support",
-        "route_id": "JZG-NOTE-12-R-d519b6d883"
+        "route_id": "JZG-NOTE-12-R-564b2a0936"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1831,
-          "end": 1854,
-          "text": "2、随后来到珍珠滩瀑布的悬崖处,顺楼梯下行到珍",
-          "para_ids": [
-            115
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 115,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "accepted",
-        "reason": "format_and_p2_support",
-        "route_id": "JZG-NOTE-12-R-d519b6d883"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 1876,
-          "end": 1901,
-          "text": "3、顺瀑布水流步行350米去“镜海停车的乘车前往。",
-          "para_ids": [
-            119
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 119,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "accepted",
-        "reason": "format_and_p2_support",
-        "route_id": "JZG-NOTE-12-R-d519b6d883"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 1959,
-          "end": 1983,
+          "start": 1844,
+          "end": 1868,
           "text": "1、往“沟口方向”步行350米前往“诺日朗瀑布”",
           "para_ids": [
-            128
+            117
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 128,
+              "para_id": 117,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
             }
@@ -14007,21 +13779,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "JZG-NOTE-12-R-d8df2d3e9d"
+        "route_id": "JZG-NOTE-12-R-7172e4cd98"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1984,
-          "end": 1989,
+          "start": 1869,
+          "end": 1874,
           "text": "1.4公里",
           "para_ids": [
-            129
+            118
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 129,
+              "para_id": 118,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
             }
@@ -14034,16 +13806,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 1997,
-          "end": 2015,
+          "start": 1882,
+          "end": 1900,
           "text": "2、在瀑布脚下观赏“中国最宽钙华瀑布",
           "para_ids": [
-            132
+            121
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 132,
+              "para_id": 121,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
             }
@@ -14056,9 +13828,53 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2026,
-          "end": 2055,
+          "start": 1911,
+          "end": 1940,
           "text": "3、瀑布面前的公路对面栈道往上走,可从对面南处洒室“诺日朗",
+          "para_ids": [
+            125
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 125,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 1973,
+          "end": 1993,
+          "text": "4、游览完后返回“诺日诺中心站”,吃午餐",
+          "para_ids": [
+            131
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 131,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 2036,
+          "end": 2067,
+          "text": "1、抵达长海,下车后面对长海往右边栈道步行120米后,往左下方",
           "para_ids": [
             136
           ],
@@ -14078,9 +13894,9 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2088,
-          "end": 2108,
-          "text": "4、游览完后返回“诺日诺中心站”,吃午餐",
+          "start": 2136,
+          "end": 2165,
+          "text": "2、随后沿这条最靠近湖面的栈道走到面对长海的最左侧,一直往",
           "para_ids": [
             142
           ],
@@ -14100,53 +13916,75 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2151,
-          "end": 2182,
-          "text": "1、抵达长海,下车后面对长海往右边栈道步行120米后,往左下方",
-          "para_ids": [
-            147
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 147,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 2251,
-          "end": 2280,
-          "text": "2、随后沿这条最靠近湖面的栈道走到面对长海的最左侧,一直往",
-          "para_ids": [
-            153
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 153,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 2314,
-          "end": 2345,
+          "start": 2199,
+          "end": 2230,
           "text": "3、观赏五彩池后,步行300米去“五彩池站”乘车去“老虎海站”",
+          "para_ids": [
+            149
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 149,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 2279,
+          "end": 2303,
+          "text": "1、打卡老虎海后,往下步行100米即进入树正瀑布",
+          "para_ids": [
+            156
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 156,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 2313,
+          "end": 2341,
+          "text": "2、走右栈道即走瀑布脚下靠水流游览/走在栈走即可从面处海",
+          "para_ids": [
+            159
+          ],
+          "origins": [
+            {
+              "doc_id": "JZG-NOTE-12",
+              "para_id": 159,
+              "kind": "image",
+              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
+            }
+          ]
+        },
+        "signal": "numbered",
+        "status": "rejected",
+        "reason": "numbered_list_without_route_context"
+      },
+      {
+        "evidence": {
+          "doc_id": "JZG-NOTE-12",
+          "start": 2342,
+          "end": 2347,
+          "text": "1.7公里",
           "para_ids": [
             160
           ],
@@ -14166,16 +14004,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2394,
-          "end": 2418,
-          "text": "1、打卡老虎海后,往下步行100米即进入树正瀑布",
+          "start": 2381,
+          "end": 2398,
+          "text": "3、一路700米游览后,来到树正寨",
           "para_ids": [
-            167
+            165
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 167,
+              "para_id": 165,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
             }
@@ -14188,9 +14026,9 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2428,
-          "end": 2456,
-          "text": "2、走右栈道即走瀑布脚下靠水流游览/走在栈走即可从面处海",
+          "start": 2415,
+          "end": 2420,
+          "text": "分流第一站",
           "para_ids": [
             170
           ],
@@ -14203,16 +14041,16 @@
             }
           ]
         },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
+        "signal": "route_heading",
+        "status": "boundary",
+        "reason": "route_context_enabled"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2457,
-          "end": 2462,
-          "text": "1.7公里",
+          "start": 2421,
+          "end": 2447,
+          "text": "1、村寨自行解决午餐(快餐店、瑞信、蜜雪、方便面等)",
           "para_ids": [
             171
           ],
@@ -14227,88 +14065,22 @@
         },
         "signal": "numbered",
         "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 2496,
-          "end": 2513,
-          "text": "3、一路700米游览后,来到树正寨",
-          "para_ids": [
-            176
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 176,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
-        "reason": "numbered_list_without_route_context"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 2530,
-          "end": 2535,
-          "text": "分流第一站",
-          "para_ids": [
-            181
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 181,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "route_heading",
-        "status": "boundary",
-        "reason": "route_context_enabled"
-      },
-      {
-        "evidence": {
-          "doc_id": "JZG-NOTE-12",
-          "start": 2536,
-          "end": 2562,
-          "text": "1、村寨自行解决午餐(快餐店、瑞信、蜜雪、方便面等)",
-          "para_ids": [
-            182
-          ],
-          "origins": [
-            {
-              "doc_id": "JZG-NOTE-12",
-              "para_id": 182,
-              "kind": "image",
-              "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
-            }
-          ]
-        },
-        "signal": "numbered",
-        "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "JZG-NOTE-12-R-d8df2d3e9d"
+        "route_id": "JZG-NOTE-12-R-7172e4cd98"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2569,
-          "end": 2595,
+          "start": 2454,
+          "end": 2480,
           "text": "2、步行5分钟上村寨右上角高空观景台,俯瞰“树正群海",
           "para_ids": [
-            184
+            173
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 184,
+              "para_id": 173,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/002_01.webp"
             }
@@ -14317,21 +14089,21 @@
         "signal": "numbered",
         "status": "rejected",
         "reason": "insufficient_steps_or_distinct_poi",
-        "route_id": "JZG-NOTE-12-R-d8df2d3e9d"
+        "route_id": "JZG-NOTE-12-R-7172e4cd98"
       },
       {
         "evidence": {
           "doc_id": "JZG-NOTE-12",
-          "start": 2762,
-          "end": 2766,
+          "start": 2642,
+          "end": 2646,
           "text": "一面-面",
           "para_ids": [
-            207
+            195
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-12",
-              "para_id": 207,
+              "para_id": 195,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6adc6ef3000000002a03050e/0011/images/003_01.webp"
             }
@@ -14641,16 +14413,16 @@
       {
         "evidence": {
           "doc_id": "JZG-NOTE-13",
-          "start": 742,
-          "end": 748,
+          "start": 737,
+          "end": 743,
           "text": "60.00元",
           "para_ids": [
-            37
+            36
           ],
           "origins": [
             {
               "doc_id": "JZG-NOTE-13",
-              "para_id": 37,
+              "para_id": 36,
               "kind": "image",
               "source": ".cache/小红书爬虫/九寨沟旅游攻略_f383d0ff/archive/20261031_014749_059872/posts/6a0bb9780000000035027966/0012/images/004_01.webp"
             }

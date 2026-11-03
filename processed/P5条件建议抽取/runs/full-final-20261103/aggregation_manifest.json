@@ -1,0 +1,19 @@
+{
+  "source_run": "full-20261103",
+  "recovery_run": "recovery-20261103",
+  "original_packages_covered": 2099,
+  "replacement_manifest": {
+    "PKG-5d828f01be4d1bf82620": {
+      "replacement_keys": [
+        "PKG-ff71dcd35338f9ca9933",
+        "PKG-7c7ec1a830ef0e5c5a39",
+        "PKG-993fdb5a885095e9c70e",
+        "PKG-c7003cb87de5c4adc1b4"
+      ],
+      "text_coverage_verified": true,
+      "step_coverage_verified": true
+    }
+  },
+  "all_selected_text_and_steps_covered": true,
+  "original_failure_logs_preserved": true
+}

@@ -10,6 +10,20 @@ FULL = re.compile(r'(?:这|那)(?:两|几|一)?(?:个|种|条|些)?(?:'+EVENT_HE
 RESET = re.compile(r'^\s*(?:第[一二三四五六七八九十\d]+[天日站]|路线[一二三四五\d]|[一二三四五六七八九十\d]+[、.．]|[^。！？]{1,18}[：:]\s*$)')
 
 
+def sent_index(sentences, pos):
+    """定位 pos 落在第几句。
+
+    句子是按句末标点切出来的，像"……"这种引号串或没有句末标点的尾巴
+    会掉在缝隙里。原来直接用 next() 找，找不到就抛 StopIteration，
+    整篇文档连带整轮 P4 一起挂掉。这里退回前一句，找不到前一句再退第一句。
+    """
+    for i, s in enumerate(sentences):
+        if s['start'] <= pos < s['end']:
+            return i
+    before = [i for i, s in enumerate(sentences) if s['end'] <= pos]
+    return before[-1] if before else 0
+
+
 def run(doc, p2, sources, config, core, artifacts=None):
     options = config['v2']
     tagger = Tagger(p2.get('mentions', []), config) if options['jieba'] else None
@@ -123,7 +137,7 @@ def run(doc, p2, sources, config, core, artifacts=None):
                 r['reference_id']=core.stable_id('R-',doc['doc_id'],hashlib.sha256(text.encode()).hexdigest(),ref['start'],ref['end'])
             for m in re.finditer('其中',p['text']):
                 a,b=p['start']+m.start(),p['start']+m.end()
-                sentence=next(s for s in ss if s['start']<=a<s['end'])
+                sentence=ss[sent_index(ss,a)]
                 refs.append({'reference_id':core.stable_id('R-',doc['doc_id'],hashlib.sha256(text.encode()).hexdigest(),a,b),
                     'doc_id':doc['doc_id'],'scenic_code':doc['scenic_code'],'title':doc.get('title',''),
                     'para_id':p['i'],'source_unit':units[p['i']],'sentence_id':sentence['sentence_id'],'sentence_index':sentence['index'],
@@ -149,7 +163,7 @@ def run(doc, p2, sources, config, core, artifacts=None):
             if ref['text'] in {'这里','这儿','此处'} and re.match(r'(?:特别|再次|再)?提醒',after):
                 r['non_entity_rule']='discourse_expression'
             candidates=[];blocked=Counter();blocked_details=[]
-            current=next(i for i,s in enumerate(allsent) if s['start']<=ref['start']<s['end'])
+            current=sent_index(allsent,ref['start'])
             for c in pool:
                 if c['end']>ref['start']:
                     continue

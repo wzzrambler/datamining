@@ -1,9 +1,9 @@
 {
   "documents_scanned": 47,
-  "records": 548,
+  "records": 547,
   "status_counts": {
     "non_entity_reference": 4,
-    "unresolved": 397,
+    "unresolved": 396,
     "resolved": 76,
     "excluded": 71
   },
@@ -11,7 +11,7 @@
     "discourse_expression": 4,
     "type_mismatch": 248,
     "event_structure_rule": 12,
-    "event_candidate_missing": 48,
+    "event_candidate_missing": 47,
     "ambiguous": 27,
     "type_distance_rule": 64,
     "lexical_non_reference": 71,
@@ -21,7 +21,7 @@
   "reference_type_counts": {
     "location": 118,
     "unknown": 227,
-    "event": 69,
+    "event": 68,
     "person": 70,
     "nonperson": 46,
     "group": 9,
@@ -217,7 +217,7 @@
     {
       "doc_id": "GZCL-NOTE-06",
       "scenic_code": "GZCL",
-      "content_sha256": "ea00ba5add9e206cc3c26c3cc658718952a5a32f75a868e1fcd99adc0419afec",
+      "content_sha256": "4efcaa47ed0e6b7d523a2964cfbbe32835dbd506cfd51842a025b0ec3a6e7b06",
       "records": 0,
       "status_counts": {}
     },
@@ -246,7 +246,7 @@
     {
       "doc_id": "GZCL-NOTE-09",
       "scenic_code": "GZCL",
-      "content_sha256": "fc6eb5067bc89d497e359c81161c4dc19f94dde0ba41b47ca39080a8c426a1e3",
+      "content_sha256": "58e6f083c71f6b9614248afeb676ebd2e3f75f15ec6c2f25ad84a596adbffe52",
       "records": 1,
       "status_counts": {
         "unresolved": 1
@@ -255,7 +255,7 @@
     {
       "doc_id": "GZCL-NOTE-10",
       "scenic_code": "GZCL",
-      "content_sha256": "e7c4ceeba3bed253dd1b3e2f78787f0da88a5310a453f4a507171498876f2ce9",
+      "content_sha256": "274e99ef34d4e651aac545392befb6fee26e2920ce1974f3059714d2a9c340a3",
       "records": 1,
       "status_counts": {
         "unresolved": 1
@@ -264,7 +264,7 @@
     {
       "doc_id": "GZCL-NOTE-11",
       "scenic_code": "GZCL",
-      "content_sha256": "315f682d35171b1ff3fc6cd45fd0123da4d89148255b23160d64524a2d81722b",
+      "content_sha256": "1f0efde396259d1bf1f85368515111c0a887b473dbc9093aa3e40d19f6aebd7e",
       "records": 16,
       "status_counts": {
         "unresolved": 14,
@@ -281,7 +281,7 @@
     {
       "doc_id": "GZCL-NOTE-13",
       "scenic_code": "GZCL",
-      "content_sha256": "e27f1760b11b68b6dc64cfd4f4693e64a4d12ed0ae87520d6e1a5d3fb0f5a5b6",
+      "content_sha256": "cb5dce845a8b4c6b20fcc777202051e73e00d40c51ffe181bb1f308a35f4267a",
       "records": 0,
       "status_counts": {}
     },
@@ -306,16 +306,16 @@
     {
       "doc_id": "ZHCL-NOTE-04",
       "scenic_code": "ZHCL",
-      "content_sha256": "1fdf8c7c9101efa4ae9eb0b551e828418a4d0b8617b843a22150a2f5e20ee595",
-      "records": 2,
+      "content_sha256": "e4fa726059bb1c48c96aa02c98c7e173c0d6039c51a72cc234eedf96db143c58",
+      "records": 1,
       "status_counts": {
-        "unresolved": 2
+        "unresolved": 1
       }
     },
     {
       "doc_id": "ZHCL-NOTE-05",
       "scenic_code": "ZHCL",
-      "content_sha256": "423fa8b40936138e89f84d989a06c74c71d8ac019ba3c7fff716a49cf1a864cd",
+      "content_sha256": "f90a95a64d857bed926e14884602b1552b618b4317139e6e4aaad2da38a4578e",
       "records": 0,
       "status_counts": {}
     },
@@ -342,7 +342,7 @@
     {
       "doc_id": "ZHCL-NOTE-08",
       "scenic_code": "ZHCL",
-      "content_sha256": "d95e04c674069c8e9f290236ff081d52c89b3433efe5fc1bb845f0fa25401371",
+      "content_sha256": "0f042a7507588f86b6fa73fe64927022274f263ae8ef135103a9876a6d57d61a",
       "records": 9,
       "status_counts": {
         "unresolved": 4,
@@ -353,7 +353,7 @@
     {
       "doc_id": "ZHCL-NOTE-09",
       "scenic_code": "ZHCL",
-      "content_sha256": "bf5f154204224c45fb8e4fb0e078b9af351994bc5c0f21b13f8e8bc824b1e302",
+      "content_sha256": "31ce90783927712f63dc34e36508a35447fbbe59dd0c71cf51ef875324ed5a4a",
       "records": 14,
       "status_counts": {
         "unresolved": 8,
@@ -364,7 +364,7 @@
     {
       "doc_id": "ZHCL-NOTE-10",
       "scenic_code": "ZHCL",
-      "content_sha256": "b0a1e1cb43a4b941b86ea9d72c2948a59266cc0078ca33b04dfa94daa31849ad",
+      "content_sha256": "981b2eebf78b9aad8907f112551077d9404d06af1e6303fb61766781cd59f323",
       "records": 6,
       "status_counts": {
         "unresolved": 6
@@ -380,7 +380,7 @@
     {
       "doc_id": "ZHCL-NOTE-12",
       "scenic_code": "ZHCL",
-      "content_sha256": "eaa264b16e93b003571c46b193d31a85276e772b03dfaaf2ae00d9fd61e45a00",
+      "content_sha256": "c8017a252652a7f619cd6506afb89b1e8936902db6ab23ae5133bc80ee7ea79c",
       "records": 7,
       "status_counts": {
         "unresolved": 7
@@ -437,7 +437,7 @@
     {
       "doc_id": "JZG-NOTE-08",
       "scenic_code": "JZG",
-      "content_sha256": "82fdd91affec0d63c7b6fb6a1b26f4fa13453f0e79d7571b95e4a945c4446653",
+      "content_sha256": "64c3371d2fad31d32eeb7c8996bfc48ed1bc45b8a4140e70a04323119f1e623f",
       "records": 7,
       "status_counts": {
         "unresolved": 4,
@@ -459,7 +459,7 @@
     {
       "doc_id": "JZG-NOTE-10",
       "scenic_code": "JZG",
-      "content_sha256": "55976912890d90c5699ffa73748d3ab4b7d3c47919db19a48c01aeaa214fdac4",
+      "content_sha256": "bfe74b6d233a3f34ae89963637a3d695592c930e888c94234b34c169c3774380",
       "records": 7,
       "status_counts": {
         "unresolved": 7
@@ -468,7 +468,7 @@
     {
       "doc_id": "JZG-NOTE-11",
       "scenic_code": "JZG",
-      "content_sha256": "d131b2487e75c558944c948ea95d8016d4135aec2a4690fa14cbea6fcde28cca",
+      "content_sha256": "c56a476e92e351163ee9597e29ef91147b8a30e6ff7cfac258a585eeae0f702a",
       "records": 9,
       "status_counts": {
         "unresolved": 8,
@@ -478,7 +478,7 @@
     {
       "doc_id": "JZG-NOTE-12",
       "scenic_code": "JZG",
-      "content_sha256": "bc9a0b5c1bec9841b4bffc908056b7aa3c400e83e35f5f95f10e570ac483218f",
+      "content_sha256": "e65ee427ad3374b6cb8bdf17a8028b646520fa9c40ff6590361cf08731fb2b07",
       "records": 3,
       "status_counts": {
         "unresolved": 2,
@@ -488,7 +488,7 @@
     {
       "doc_id": "JZG-NOTE-13",
       "scenic_code": "JZG",
-      "content_sha256": "71ccae613996a90d6b8ca8f1033016175acd210757c2d46d1c30c908d16db50f",
+      "content_sha256": "8838ea9444accc69ffdc121a1c33d78a2a3d15f25395b668227bc5d074810369",
       "records": 2,
       "status_counts": {
         "unresolved": 2

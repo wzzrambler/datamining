@@ -23,8 +23,8 @@ def newest_report():
     正式文件常被预览面板锁着，这时脚本会另存出"（新）"副本；填过封面后文件名
     也变成了「第3组_张三_…」，所以按后缀通配，不认死某一个前缀。
     """
-    cands = [f for f in glob.glob(os.path.join(ROOT, "outputs",
-                                               "*《数据挖掘》探索性实验报告_项目1*.docx"))
+    pattern = os.path.join(ROOT, "outputs", "**", "*《数据挖掘》探索性实验报告_项目1*.docx")
+    cands = [f for f in glob.glob(pattern, recursive=True)
              if not os.path.basename(f).startswith("~$")]
     if not cands:
         raise SystemExit("outputs 下没有报告 docx")

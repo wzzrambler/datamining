@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "documents": 47,
-  "mentions": 3647,
+  "mentions": 3499,
   "checks": [
     "全部文档覆盖",
     "全文切片",

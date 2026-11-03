@@ -4,13 +4,13 @@
       "scenic_code": "GZCL",
       "documents": 18,
       "counts": {
-        "TIME": 464,
-        "POI": 616,
-        "TRANSPORT": 149
+        "TIME": 449,
+        "POI": 593,
+        "TRANSPORT": 146
       },
       "poi_roles": {
-        "support": 212,
-        "attraction": 404
+        "support": 205,
+        "attraction": 388
       },
       "no_mentions": []
     },
@@ -18,13 +18,13 @@
       "scenic_code": "ZHCL",
       "documents": 15,
       "counts": {
-        "POI": 629,
-        "TIME": 429,
-        "TRANSPORT": 51
+        "POI": 571,
+        "TIME": 418,
+        "TRANSPORT": 50
       },
       "poi_roles": {
-        "attraction": 550,
-        "support": 79
+        "attraction": 494,
+        "support": 77
       },
       "no_mentions": []
     },
@@ -32,33 +32,33 @@
       "scenic_code": "JZG",
       "documents": 14,
       "counts": {
-        "TIME": 360,
-        "POI": 686,
-        "TRANSPORT": 263
+        "TIME": 352,
+        "POI": 664,
+        "TRANSPORT": 256
       },
       "poi_roles": {
-        "attraction": 612,
-        "support": 74
+        "attraction": 595,
+        "support": 69
       },
       "no_mentions": []
     }
   ],
-  "diagnostic_occurrences": 327,
+  "diagnostic_occurrences": 319,
   "diagnostic_terms": {
-    "北门": 10,
-    "南门": 29,
+    "北门": 11,
+    "南门": 28,
     "地铁": 6,
-    "缆车": 35,
-    "小火车": 31,
+    "缆车": 34,
+    "小火车": 30,
     "双溪长隆站": 1,
-    "火烈鸟": 17,
-    "空中缆车": 9,
+    "火烈鸟": 16,
+    "空中缆车": 8,
     "高铁": 10,
     "步行": 1,
     "飞": 10,
     "原始森林": 5,
     "诺日朗": 19,
-    "沟口": 39,
+    "沟口": 36,
     "企鹅": 36,
     "深海世界": 3,
     "旋转水转": 1,
@@ -66,7 +66,7 @@
     "航海家号": 2,
     "水濑之家": 2,
     "水世界": 20,
-    "正门": 5,
+    "正门": 4,
     "熊森林": 4,
     "细尾蒙": 4,
     "山題": 5,
@@ -88,7 +88,7 @@
   "origin_counts": {
     "legacy": 1197,
     "body": 1136,
-    "image": 1215,
+    "image": 1067,
     "comment": 99
   },
   "note": "提及次数不是独立地点数；同一提及可有多条来源。尚无人工P/R/F1。"

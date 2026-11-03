@@ -1,0 +1,3775 @@
+[
+  {
+    "context": {
+      "package_key": "PKG-ff71dcd35338f9ca9933",
+      "active_scenic_code": "JZG",
+      "package_kind": "route_fragment",
+      "heading": "九寨沟景区官方网站 - 游玩方式",
+      "scene_poi_registry": [
+        {
+          "id": "POI-093f0023e45f6198",
+          "name": "犀牛海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-0bcb1dea43e5296a",
+          "name": "原始森林",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-10e8a874d4a64eeb",
+          "name": "诺日朗中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-13228cccee608f7d",
+          "name": "长海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-275d47d6c2001f3f",
+          "name": "树正群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-2bc3cb4622efb0de",
+          "name": "公主海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-3464c42c5541834f",
+          "name": "盆景滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-35e41b7e200a7bc0",
+          "name": "树正瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-360c92072be143c1",
+          "name": "珍珠滩瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-39f671334b05bd19",
+          "name": "黄龙九寨站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-4286d8a6a4a416df",
+          "name": "诺日朗群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4635c21b138627dc",
+          "name": "下季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4da05841a736a1f2",
+          "name": "诺日朗中心站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-54159dd45e739e0c",
+          "name": "黄龙景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-545fccca3e7cf427",
+          "name": "镜海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5803354d56bd9e8f",
+          "name": "树正磨房",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5bfe3687eda400d9",
+          "name": "成都天府机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-5fa63dd98f5dd264",
+          "name": "芦苇海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-612a6e7d55fb0b0a",
+          "name": "树正寨",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-67bcda65511d77c7",
+          "name": "火车南站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-6cfbebe4c178f2ad",
+          "name": "诺日朗餐厅",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "restaurant"
+        },
+        {
+          "id": "POI-7927973cb5fc8e4d",
+          "name": "则查洼沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-805a28099052ccae",
+          "name": "珍珠滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-859e5641d28e8b93",
+          "name": "沟口游客中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-85a9974dcb5d66c0",
+          "name": "火花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-871c3b6e819c218e",
+          "name": "天鹅海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-87bc59b6b6d79cf5",
+          "name": "小金铃海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-90e6d6cf975ce322",
+          "name": "老虎海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-92c22032755cbbfb",
+          "name": "孔雀河道",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-9cb8ef99d892b62b",
+          "name": "日则沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-a202cf0c7ad82ab2",
+          "name": "熊猫海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-a2f2a450e902b7ef",
+          "name": "九寨黄龙机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-a59bdf752fbbc666",
+          "name": "诺日朗瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-adddfdfb0b27578b",
+          "name": "卧龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-af9f086f65127147",
+          "name": "五花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-bbc557d2673e93f6",
+          "name": "芳草海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-c97ee39818a3536c",
+          "name": "双龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cb24680dd82e15c1",
+          "name": "九寨沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cfdaa794db8764b9",
+          "name": "上季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d46ef2f6d4e07910",
+          "name": "镜海停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-d84c258e38dc6005",
+          "name": "箭竹海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d896be8c097d9bf2",
+          "name": "熊猫海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-dda73c5206efbef9",
+          "name": "藏王宴舞停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-de48037e474f5793",
+          "name": "九寨沟神仙池景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-de6db9a7cdd443ab",
+          "name": "五彩池",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f5c247b15cea1e11",
+          "name": "树正沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f7ce93ebd3dcce05",
+          "name": "箭竹海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f84f479f75d655c0",
+          "name": "松潘古城",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-ff1c7f688a819aea",
+          "name": "成都东站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        }
+      ],
+      "scene_transport_registry": [
+        {
+          "id": "TRANSPORT-0bda7df0b7655a1b",
+          "name": "坐车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-302154bebe2201cc",
+          "name": "徒步",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-4dfe4ae37d7ac7ce",
+          "name": "大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6117ff03af895cae",
+          "name": "包车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-660c137bb180f34a",
+          "name": "高铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6d3dead8afc28ac0",
+          "name": "步行",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-78f05fe80a344b95",
+          "name": "自驾",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-7e07d15b43087423",
+          "name": "摆渡车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-8f91c620f059eb51",
+          "name": "飞机",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9039e85044983122",
+          "name": "出租车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-944131ff56396c57",
+          "name": "观光大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9d18c03e51c3bc72",
+          "name": "索道",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-a3087430f466be14",
+          "name": "乘车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-beb59f353edcb983",
+          "name": "接驳车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-c7876b90c7441768",
+          "name": "直通车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ccdcf1d605306320",
+          "name": "公交",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-cff4603db8535366",
+          "name": "地铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-e6843f2f5df433cb",
+          "name": "观光车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-eb0da5555fe3ef39",
+          "name": "打车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ecf22b3f7c37cdb9",
+          "name": "动车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ef11cb40e93ccc3b",
+          "name": "拼车",
+          "kind": "TRANSPORT"
+        }
+      ],
+      "blocks": [
+        {
+          "block_id": "B001",
+          "text": "沟口乘车→原始森林(07:00-08:10 一个小时车程)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B002",
+          "text": "原始森林→芳草海(08:10-09:00 步行30分钟,游览时间20分钟)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B003",
+          "text": "芳草海→天鹅海(09:00-09:15 换乘观光车,约5分钟车程,游览时间10分钟)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B004",
+          "text": "天鹅海→箭竹海(09:15-09:45 换乘观光车,约15分钟车程,游览时间15分钟)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        }
+      ],
+      "local_mentions": [
+        {
+          "mention_id": "M-3863b280c0dfdbc4",
+          "text": "乘车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-a3087430f466be14",
+          "canonical_name": "乘车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-fc1a0bdce492a08e",
+          "text": "原始森林",
+          "type": "POI",
+          "entity_id": "POI-0bcb1dea43e5296a",
+          "canonical_name": "原始森林",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-8f30dd1c686f42bb",
+          "text": "07:00-08:10",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-d346ed175f2c0354",
+          "text": "一个小时",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": " 一个小时"
+        },
+        {
+          "mention_id": "M-0df2051978a3eb34",
+          "text": "原始森林",
+          "type": "POI",
+          "entity_id": "POI-0bcb1dea43e5296a",
+          "canonical_name": "原始森林",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-37d0706b6bf9a76c",
+          "text": "芳草海",
+          "type": "POI",
+          "entity_id": "POI-bbc557d2673e93f6",
+          "canonical_name": "芳草海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-bd0596ab80e9cd9b",
+          "text": "08:10-09:00",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-821d09d74cd93092",
+          "text": "步行",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+          "canonical_name": "步行",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-94a8501fcf09f7d0",
+          "text": "30分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-22bfb11e01b6f3bd",
+          "text": "20分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-ba953f2d632ff6ad",
+          "text": "芳草海",
+          "type": "POI",
+          "entity_id": "POI-bbc557d2673e93f6",
+          "canonical_name": "芳草海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-77380e5ce54a9a8d",
+          "text": "天鹅海",
+          "type": "POI",
+          "entity_id": "POI-871c3b6e819c218e",
+          "canonical_name": "天鹅海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-b61e435b79db8104",
+          "text": "09:00-09:15",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-946bef6494459989",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-50a381f995cf1fa6",
+          "text": "5分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约5分钟"
+        },
+        {
+          "mention_id": "M-f4e632cb2bb45ebe",
+          "text": "10分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-317417f0fb88565a",
+          "text": "天鹅海",
+          "type": "POI",
+          "entity_id": "POI-871c3b6e819c218e",
+          "canonical_name": "天鹅海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-766edef7aedbf992",
+          "text": "箭竹海",
+          "type": "POI",
+          "entity_id": "POI-d84c258e38dc6005",
+          "canonical_name": "箭竹海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-d0ae0f04c0b70000",
+          "text": "09:15-09:45",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-400b4753ed69ab43",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-77fe955e095a1306",
+          "text": "15分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约15分钟"
+        },
+        {
+          "mention_id": "M-4cf9c30320fb4c4a",
+          "text": "15分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        }
+      ],
+      "p3_routes": [
+        {
+          "route_id": "JZG-OFF-01-R-5489d330c8",
+          "nature": "official_recommendation",
+          "scope": "JZG",
+          "granularity": "in_park",
+          "steps": [
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+              "index": 1,
+              "poi_ids": [
+                "POI-0bcb1dea43e5296a"
+              ],
+              "transport_ids": [
+                "TRANSPORT-a3087430f466be14"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "沟口乘车→原始森林(07:00-08:10 一个小时车程)",
+              "clock_texts": [
+                "07:00",
+                "08:10"
+              ],
+              "duration_texts": [
+                "一个小时"
+              ],
+              "activity_texts": [],
+              "mention_ids": [
+                "M-3863b280c0dfdbc4",
+                "M-fc1a0bdce492a08e",
+                "M-8f30dd1c686f42bb",
+                "M-d346ed175f2c0354"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+              "index": 2,
+              "poi_ids": [
+                "POI-0bcb1dea43e5296a",
+                "POI-bbc557d2673e93f6"
+              ],
+              "transport_ids": [
+                "TRANSPORT-6d3dead8afc28ac0"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "原始森林→芳草海(08:10-09:00 步行30分钟,游览时间20分钟)",
+              "clock_texts": [
+                "08:10",
+                "09:00"
+              ],
+              "duration_texts": [
+                "30分钟",
+                "20分钟"
+              ],
+              "activity_texts": [
+                "步行",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-0df2051978a3eb34",
+                "M-37d0706b6bf9a76c",
+                "M-bd0596ab80e9cd9b",
+                "M-821d09d74cd93092",
+                "M-94a8501fcf09f7d0",
+                "M-22bfb11e01b6f3bd"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S003",
+              "index": 3,
+              "poi_ids": [
+                "POI-871c3b6e819c218e",
+                "POI-bbc557d2673e93f6"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "芳草海→天鹅海(09:00-09:15 换乘观光车,约5分钟车程,游览时间10分钟)",
+              "clock_texts": [
+                "09:00",
+                "09:15"
+              ],
+              "duration_texts": [
+                "5分钟",
+                "10分钟"
+              ],
+              "activity_texts": [
+                "换乘",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-ba953f2d632ff6ad",
+                "M-77380e5ce54a9a8d",
+                "M-b61e435b79db8104",
+                "M-946bef6494459989",
+                "M-50a381f995cf1fa6",
+                "M-f4e632cb2bb45ebe"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S004",
+              "index": 4,
+              "poi_ids": [
+                "POI-871c3b6e819c218e",
+                "POI-d84c258e38dc6005"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "天鹅海→箭竹海(09:15-09:45 换乘观光车,约15分钟车程,游览时间15分钟)",
+              "clock_texts": [
+                "09:15",
+                "09:45"
+              ],
+              "duration_texts": [
+                "15分钟",
+                "15分钟"
+              ],
+              "activity_texts": [
+                "换乘",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-317417f0fb88565a",
+                "M-766edef7aedbf992",
+                "M-d0ae0f04c0b70000",
+                "M-400b4753ed69ab43",
+                "M-77fe955e095a1306",
+                "M-4cf9c30320fb4c4a"
+              ]
+            }
+          ],
+          "order_relations": [
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S001",
+              "after": "JZG-OFF-01-R-5489d330c8-S002"
+            },
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S002",
+              "after": "JZG-OFF-01-R-5489d330c8-S003"
+            },
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S003",
+              "after": "JZG-OFF-01-R-5489d330c8-S004"
+            }
+          ]
+        }
+      ],
+      "eligible_references": {
+        "poi_ids": [
+          "POI-0bcb1dea43e5296a",
+          "POI-871c3b6e819c218e",
+          "POI-bbc557d2673e93f6",
+          "POI-d84c258e38dc6005"
+        ],
+        "transport_ids": [
+          "TRANSPORT-6d3dead8afc28ac0",
+          "TRANSPORT-a3087430f466be14",
+          "TRANSPORT-e6843f2f5df433cb"
+        ],
+        "route_ids": [
+          "JZG-OFF-01-R-5489d330c8"
+        ]
+      }
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "4d15c55d327b0ff82f83fc7c52da8a50350fa7a1a923c4f3da2078f80c59520c",
+        "p2": "e752ff4bf59486b0a0d79dafdd31b47645b9d592117fd0ca125e57e5e1ad62b7",
+        "p3": "2e30ae5c011ef370a4660add979054c4f0448354132f8041b5b80b88b136e89d",
+        "sources": "388b47053ad1ba1afd92f599e17ecb64e6aa1ab589d5f9c791825137af8c4307"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 353,
+          "end": 382,
+          "para_id": 9,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 9
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 383,
+          "end": 420,
+          "para_id": 10,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 10
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 421,
+          "end": 463,
+          "para_id": 11,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 11
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 464,
+          "end": 507,
+          "para_id": 12,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 12
+          }
+        }
+      ]
+    }
+  },
+  {
+    "context": {
+      "package_key": "PKG-7c7ec1a830ef0e5c5a39",
+      "active_scenic_code": "JZG",
+      "package_kind": "route_fragment",
+      "heading": "九寨沟景区官方网站 - 游玩方式",
+      "scene_poi_registry": [
+        {
+          "id": "POI-093f0023e45f6198",
+          "name": "犀牛海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-0bcb1dea43e5296a",
+          "name": "原始森林",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-10e8a874d4a64eeb",
+          "name": "诺日朗中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-13228cccee608f7d",
+          "name": "长海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-275d47d6c2001f3f",
+          "name": "树正群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-2bc3cb4622efb0de",
+          "name": "公主海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-3464c42c5541834f",
+          "name": "盆景滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-35e41b7e200a7bc0",
+          "name": "树正瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-360c92072be143c1",
+          "name": "珍珠滩瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-39f671334b05bd19",
+          "name": "黄龙九寨站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-4286d8a6a4a416df",
+          "name": "诺日朗群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4635c21b138627dc",
+          "name": "下季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4da05841a736a1f2",
+          "name": "诺日朗中心站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-54159dd45e739e0c",
+          "name": "黄龙景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-545fccca3e7cf427",
+          "name": "镜海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5803354d56bd9e8f",
+          "name": "树正磨房",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5bfe3687eda400d9",
+          "name": "成都天府机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-5fa63dd98f5dd264",
+          "name": "芦苇海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-612a6e7d55fb0b0a",
+          "name": "树正寨",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-67bcda65511d77c7",
+          "name": "火车南站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-6cfbebe4c178f2ad",
+          "name": "诺日朗餐厅",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "restaurant"
+        },
+        {
+          "id": "POI-7927973cb5fc8e4d",
+          "name": "则查洼沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-805a28099052ccae",
+          "name": "珍珠滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-859e5641d28e8b93",
+          "name": "沟口游客中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-85a9974dcb5d66c0",
+          "name": "火花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-871c3b6e819c218e",
+          "name": "天鹅海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-87bc59b6b6d79cf5",
+          "name": "小金铃海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-90e6d6cf975ce322",
+          "name": "老虎海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-92c22032755cbbfb",
+          "name": "孔雀河道",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-9cb8ef99d892b62b",
+          "name": "日则沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-a202cf0c7ad82ab2",
+          "name": "熊猫海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-a2f2a450e902b7ef",
+          "name": "九寨黄龙机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-a59bdf752fbbc666",
+          "name": "诺日朗瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-adddfdfb0b27578b",
+          "name": "卧龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-af9f086f65127147",
+          "name": "五花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-bbc557d2673e93f6",
+          "name": "芳草海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-c97ee39818a3536c",
+          "name": "双龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cb24680dd82e15c1",
+          "name": "九寨沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cfdaa794db8764b9",
+          "name": "上季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d46ef2f6d4e07910",
+          "name": "镜海停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-d84c258e38dc6005",
+          "name": "箭竹海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d896be8c097d9bf2",
+          "name": "熊猫海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-dda73c5206efbef9",
+          "name": "藏王宴舞停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-de48037e474f5793",
+          "name": "九寨沟神仙池景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-de6db9a7cdd443ab",
+          "name": "五彩池",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f5c247b15cea1e11",
+          "name": "树正沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f7ce93ebd3dcce05",
+          "name": "箭竹海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f84f479f75d655c0",
+          "name": "松潘古城",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-ff1c7f688a819aea",
+          "name": "成都东站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        }
+      ],
+      "scene_transport_registry": [
+        {
+          "id": "TRANSPORT-0bda7df0b7655a1b",
+          "name": "坐车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-302154bebe2201cc",
+          "name": "徒步",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-4dfe4ae37d7ac7ce",
+          "name": "大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6117ff03af895cae",
+          "name": "包车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-660c137bb180f34a",
+          "name": "高铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6d3dead8afc28ac0",
+          "name": "步行",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-78f05fe80a344b95",
+          "name": "自驾",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-7e07d15b43087423",
+          "name": "摆渡车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-8f91c620f059eb51",
+          "name": "飞机",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9039e85044983122",
+          "name": "出租车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-944131ff56396c57",
+          "name": "观光大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9d18c03e51c3bc72",
+          "name": "索道",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-a3087430f466be14",
+          "name": "乘车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-beb59f353edcb983",
+          "name": "接驳车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-c7876b90c7441768",
+          "name": "直通车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ccdcf1d605306320",
+          "name": "公交",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-cff4603db8535366",
+          "name": "地铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-e6843f2f5df433cb",
+          "name": "观光车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-eb0da5555fe3ef39",
+          "name": "打车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ecf22b3f7c37cdb9",
+          "name": "动车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ef11cb40e93ccc3b",
+          "name": "拼车",
+          "kind": "TRANSPORT"
+        }
+      ],
+      "blocks": [
+        {
+          "block_id": "B001",
+          "text": "箭竹海→熊猫海(09:45-10:10 换乘观光车,约10分钟车程,游览时间15分钟)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B002",
+          "text": "熊猫海→五花海(10:10-10:40 换乘观光车,约10分钟车程,游览时间20分钟)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B003",
+          "text": "五花海→镜海(10:40-11:10 换乘观光车,约10分钟车程,游览时间20分钟)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B004",
+          "text": "镜海→诺日朗群海(11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        }
+      ],
+      "local_mentions": [
+        {
+          "mention_id": "M-566e315082b307d0",
+          "text": "箭竹海",
+          "type": "POI",
+          "entity_id": "POI-d84c258e38dc6005",
+          "canonical_name": "箭竹海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-cf60ef30ea5e4bea",
+          "text": "熊猫海",
+          "type": "POI",
+          "entity_id": "POI-d896be8c097d9bf2",
+          "canonical_name": "熊猫海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-9f8accbe16a24574",
+          "text": "09:45-10:10",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-91a448f6ca2a3b76",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-ee0c31fd9c704d0f",
+          "text": "10分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约10分钟"
+        },
+        {
+          "mention_id": "M-0709566709a6ecbd",
+          "text": "15分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-8a5807f2cd8d8733",
+          "text": "熊猫海",
+          "type": "POI",
+          "entity_id": "POI-d896be8c097d9bf2",
+          "canonical_name": "熊猫海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-b0d4178d154cdece",
+          "text": "五花海",
+          "type": "POI",
+          "entity_id": "POI-af9f086f65127147",
+          "canonical_name": "五花海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-c073c8d265ecbcfe",
+          "text": "10:10-10:40",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-b718aa2c7bea46c9",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-45ce239dc3d87a6b",
+          "text": "10分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约10分钟"
+        },
+        {
+          "mention_id": "M-2b5b85c9a6d654dc",
+          "text": "20分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-914b868373a6234c",
+          "text": "五花海",
+          "type": "POI",
+          "entity_id": "POI-af9f086f65127147",
+          "canonical_name": "五花海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-5ee91bbd0655e0e6",
+          "text": "镜海",
+          "type": "POI",
+          "entity_id": "POI-545fccca3e7cf427",
+          "canonical_name": "镜海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-3aa329786d046821",
+          "text": "10:40-11:10",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-2a6cfceab81b2b9c",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-52f1c9799cd1e40e",
+          "text": "10分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约10分钟"
+        },
+        {
+          "mention_id": "M-7b96c607c1890cea",
+          "text": "20分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-db8ba0e7832ebd54",
+          "text": "镜海",
+          "type": "POI",
+          "entity_id": "POI-545fccca3e7cf427",
+          "canonical_name": "镜海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-5097f084e0969eac",
+          "text": "诺日朗群海",
+          "type": "POI",
+          "entity_id": "POI-4286d8a6a4a416df",
+          "canonical_name": "诺日朗群海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-8ea028b67d67cfb5",
+          "text": "11:10-11:25",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-4a5a95feeedc4a0b",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-3f8e3ab1519dbbab",
+          "text": "5分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约5分钟"
+        },
+        {
+          "mention_id": "M-c8df83eec5068805",
+          "text": "10分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        }
+      ],
+      "p3_routes": [
+        {
+          "route_id": "JZG-OFF-01-R-5489d330c8",
+          "nature": "official_recommendation",
+          "scope": "JZG",
+          "granularity": "in_park",
+          "steps": [
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+              "index": 5,
+              "poi_ids": [
+                "POI-d84c258e38dc6005",
+                "POI-d896be8c097d9bf2"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "箭竹海→熊猫海(09:45-10:10 换乘观光车,约10分钟车程,游览时间15分钟)",
+              "clock_texts": [
+                "09:45",
+                "10:10"
+              ],
+              "duration_texts": [
+                "10分钟",
+                "15分钟"
+              ],
+              "activity_texts": [
+                "换乘",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-566e315082b307d0",
+                "M-cf60ef30ea5e4bea",
+                "M-9f8accbe16a24574",
+                "M-91a448f6ca2a3b76",
+                "M-ee0c31fd9c704d0f",
+                "M-0709566709a6ecbd"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+              "index": 6,
+              "poi_ids": [
+                "POI-af9f086f65127147",
+                "POI-d896be8c097d9bf2"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "熊猫海→五花海(10:10-10:40 换乘观光车,约10分钟车程,游览时间20分钟)",
+              "clock_texts": [
+                "10:10",
+                "10:40"
+              ],
+              "duration_texts": [
+                "10分钟",
+                "20分钟"
+              ],
+              "activity_texts": [
+                "换乘",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-8a5807f2cd8d8733",
+                "M-b0d4178d154cdece",
+                "M-c073c8d265ecbcfe",
+                "M-b718aa2c7bea46c9",
+                "M-45ce239dc3d87a6b",
+                "M-2b5b85c9a6d654dc"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+              "index": 7,
+              "poi_ids": [
+                "POI-545fccca3e7cf427",
+                "POI-af9f086f65127147"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "五花海→镜海(10:40-11:10 换乘观光车,约10分钟车程,游览时间20分钟)",
+              "clock_texts": [
+                "10:40",
+                "11:10"
+              ],
+              "duration_texts": [
+                "10分钟",
+                "20分钟"
+              ],
+              "activity_texts": [
+                "换乘",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-914b868373a6234c",
+                "M-5ee91bbd0655e0e6",
+                "M-3aa329786d046821",
+                "M-2a6cfceab81b2b9c",
+                "M-52f1c9799cd1e40e",
+                "M-7b96c607c1890cea"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+              "index": 8,
+              "poi_ids": [
+                "POI-4286d8a6a4a416df",
+                "POI-545fccca3e7cf427"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "上午",
+              "order_group": null,
+              "evidence_text": "镜海→诺日朗群海(11:10-11:25 换乘观光车,约5分钟车程,游览时间10分钟)",
+              "clock_texts": [
+                "11:10",
+                "11:25"
+              ],
+              "duration_texts": [
+                "5分钟",
+                "10分钟"
+              ],
+              "activity_texts": [
+                "换乘",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-db8ba0e7832ebd54",
+                "M-5097f084e0969eac",
+                "M-8ea028b67d67cfb5",
+                "M-4a5a95feeedc4a0b",
+                "M-3f8e3ab1519dbbab",
+                "M-c8df83eec5068805"
+              ]
+            }
+          ],
+          "order_relations": [
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S005",
+              "after": "JZG-OFF-01-R-5489d330c8-S006"
+            },
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S006",
+              "after": "JZG-OFF-01-R-5489d330c8-S007"
+            },
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S007",
+              "after": "JZG-OFF-01-R-5489d330c8-S008"
+            }
+          ]
+        }
+      ],
+      "eligible_references": {
+        "poi_ids": [
+          "POI-4286d8a6a4a416df",
+          "POI-545fccca3e7cf427",
+          "POI-af9f086f65127147",
+          "POI-d84c258e38dc6005",
+          "POI-d896be8c097d9bf2"
+        ],
+        "transport_ids": [
+          "TRANSPORT-e6843f2f5df433cb"
+        ],
+        "route_ids": [
+          "JZG-OFF-01-R-5489d330c8"
+        ]
+      }
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "4d15c55d327b0ff82f83fc7c52da8a50350fa7a1a923c4f3da2078f80c59520c",
+        "p2": "e752ff4bf59486b0a0d79dafdd31b47645b9d592117fd0ca125e57e5e1ad62b7",
+        "p3": "2e30ae5c011ef370a4660add979054c4f0448354132f8041b5b80b88b136e89d",
+        "sources": "388b47053ad1ba1afd92f599e17ecb64e6aa1ab589d5f9c791825137af8c4307"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 508,
+          "end": 551,
+          "para_id": 13,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 13
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 552,
+          "end": 595,
+          "para_id": 14,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 14
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 596,
+          "end": 638,
+          "para_id": 15,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 15
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 639,
+          "end": 682,
+          "para_id": 16,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 16
+          }
+        }
+      ]
+    }
+  },
+  {
+    "context": {
+      "package_key": "PKG-993fdb5a885095e9c70e",
+      "active_scenic_code": "JZG",
+      "package_kind": "route_fragment",
+      "heading": "九寨沟景区官方网站 - 游玩方式",
+      "scene_poi_registry": [
+        {
+          "id": "POI-093f0023e45f6198",
+          "name": "犀牛海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-0bcb1dea43e5296a",
+          "name": "原始森林",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-10e8a874d4a64eeb",
+          "name": "诺日朗中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-13228cccee608f7d",
+          "name": "长海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-275d47d6c2001f3f",
+          "name": "树正群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-2bc3cb4622efb0de",
+          "name": "公主海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-3464c42c5541834f",
+          "name": "盆景滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-35e41b7e200a7bc0",
+          "name": "树正瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-360c92072be143c1",
+          "name": "珍珠滩瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-39f671334b05bd19",
+          "name": "黄龙九寨站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-4286d8a6a4a416df",
+          "name": "诺日朗群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4635c21b138627dc",
+          "name": "下季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4da05841a736a1f2",
+          "name": "诺日朗中心站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-54159dd45e739e0c",
+          "name": "黄龙景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-545fccca3e7cf427",
+          "name": "镜海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5803354d56bd9e8f",
+          "name": "树正磨房",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5bfe3687eda400d9",
+          "name": "成都天府机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-5fa63dd98f5dd264",
+          "name": "芦苇海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-612a6e7d55fb0b0a",
+          "name": "树正寨",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-67bcda65511d77c7",
+          "name": "火车南站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-6cfbebe4c178f2ad",
+          "name": "诺日朗餐厅",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "restaurant"
+        },
+        {
+          "id": "POI-7927973cb5fc8e4d",
+          "name": "则查洼沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-805a28099052ccae",
+          "name": "珍珠滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-859e5641d28e8b93",
+          "name": "沟口游客中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-85a9974dcb5d66c0",
+          "name": "火花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-871c3b6e819c218e",
+          "name": "天鹅海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-87bc59b6b6d79cf5",
+          "name": "小金铃海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-90e6d6cf975ce322",
+          "name": "老虎海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-92c22032755cbbfb",
+          "name": "孔雀河道",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-9cb8ef99d892b62b",
+          "name": "日则沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-a202cf0c7ad82ab2",
+          "name": "熊猫海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-a2f2a450e902b7ef",
+          "name": "九寨黄龙机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-a59bdf752fbbc666",
+          "name": "诺日朗瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-adddfdfb0b27578b",
+          "name": "卧龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-af9f086f65127147",
+          "name": "五花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-bbc557d2673e93f6",
+          "name": "芳草海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-c97ee39818a3536c",
+          "name": "双龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cb24680dd82e15c1",
+          "name": "九寨沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cfdaa794db8764b9",
+          "name": "上季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d46ef2f6d4e07910",
+          "name": "镜海停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-d84c258e38dc6005",
+          "name": "箭竹海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d896be8c097d9bf2",
+          "name": "熊猫海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-dda73c5206efbef9",
+          "name": "藏王宴舞停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-de48037e474f5793",
+          "name": "九寨沟神仙池景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-de6db9a7cdd443ab",
+          "name": "五彩池",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f5c247b15cea1e11",
+          "name": "树正沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f7ce93ebd3dcce05",
+          "name": "箭竹海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f84f479f75d655c0",
+          "name": "松潘古城",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-ff1c7f688a819aea",
+          "name": "成都东站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        }
+      ],
+      "scene_transport_registry": [
+        {
+          "id": "TRANSPORT-0bda7df0b7655a1b",
+          "name": "坐车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-302154bebe2201cc",
+          "name": "徒步",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-4dfe4ae37d7ac7ce",
+          "name": "大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6117ff03af895cae",
+          "name": "包车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-660c137bb180f34a",
+          "name": "高铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6d3dead8afc28ac0",
+          "name": "步行",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-78f05fe80a344b95",
+          "name": "自驾",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-7e07d15b43087423",
+          "name": "摆渡车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-8f91c620f059eb51",
+          "name": "飞机",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9039e85044983122",
+          "name": "出租车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-944131ff56396c57",
+          "name": "观光大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9d18c03e51c3bc72",
+          "name": "索道",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-a3087430f466be14",
+          "name": "乘车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-beb59f353edcb983",
+          "name": "接驳车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-c7876b90c7441768",
+          "name": "直通车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ccdcf1d605306320",
+          "name": "公交",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-cff4603db8535366",
+          "name": "地铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-e6843f2f5df433cb",
+          "name": "观光车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-eb0da5555fe3ef39",
+          "name": "打车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ecf22b3f7c37cdb9",
+          "name": "动车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ef11cb40e93ccc3b",
+          "name": "拼车",
+          "kind": "TRANSPORT"
+        }
+      ],
+      "blocks": [
+        {
+          "block_id": "B001",
+          "text": "诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B002",
+          "text": "诺日朗中心站→长海(13:30-14:20乘坐观光车,约30分钟车程,游览时间20分钟 )",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B003",
+          "text": "长海→五彩池(14:20-14:50步行15分钟,游览时间15分钟 )",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B004",
+          "text": "五彩池→犀牛海(14:50-15:40乘坐观光车,约30分钟车程,游览时间20分钟 )",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        }
+      ],
+      "local_mentions": [
+        {
+          "mention_id": "M-bfb70f2f8ebcd45b",
+          "text": "诺日朗群海",
+          "type": "POI",
+          "entity_id": "POI-4286d8a6a4a416df",
+          "canonical_name": "诺日朗群海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-162fb279750678d5",
+          "text": "诺日朗中心站",
+          "type": "POI",
+          "entity_id": "POI-4da05841a736a1f2",
+          "canonical_name": "诺日朗中心站",
+          "poi_role": "support",
+          "subtype": "station",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-49d6ab57a4be30e4",
+          "text": "11:30-13:30",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-db03f7e6b5c896f7",
+          "text": "诺日朗餐厅",
+          "type": "POI",
+          "entity_id": "POI-6cfbebe4c178f2ad",
+          "canonical_name": "诺日朗餐厅",
+          "poi_role": "support",
+          "subtype": "restaurant",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-61722553c77e3e7b",
+          "text": "2个小时",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-1385531eea08f715",
+          "text": "诺日朗瀑布",
+          "type": "POI",
+          "entity_id": "POI-a59bdf752fbbc666",
+          "canonical_name": "诺日朗瀑布",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-de5bf60152f7f9b7",
+          "text": "诺日朗中心站",
+          "type": "POI",
+          "entity_id": "POI-4da05841a736a1f2",
+          "canonical_name": "诺日朗中心站",
+          "poi_role": "support",
+          "subtype": "station",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-ef8fdae4910008fa",
+          "text": "长海",
+          "type": "POI",
+          "entity_id": "POI-13228cccee608f7d",
+          "canonical_name": "长海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-8b1dc65eb497d1d0",
+          "text": "13:30-14:20",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-ec16ece7dc298597",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-cf6a13336136f611",
+          "text": "30分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约30分钟"
+        },
+        {
+          "mention_id": "M-3bc803b021bdaa00",
+          "text": "20分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-6f31109c1ae0d46a",
+          "text": "长海",
+          "type": "POI",
+          "entity_id": "POI-13228cccee608f7d",
+          "canonical_name": "长海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-d69a4ba022808c5c",
+          "text": "五彩池",
+          "type": "POI",
+          "entity_id": "POI-de6db9a7cdd443ab",
+          "canonical_name": "五彩池",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-34ed5dde5b0a9292",
+          "text": "14:20-14:50",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-05a19c954ed766c0",
+          "text": "步行",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+          "canonical_name": "步行",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-1d93854a89959591",
+          "text": "15分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-04f1ee15f731d3f9",
+          "text": "15分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-076994cd7463c6e2",
+          "text": "五彩池",
+          "type": "POI",
+          "entity_id": "POI-de6db9a7cdd443ab",
+          "canonical_name": "五彩池",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-b129f3a33d53d591",
+          "text": "犀牛海",
+          "type": "POI",
+          "entity_id": "POI-093f0023e45f6198",
+          "canonical_name": "犀牛海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-b2d73580a6af9bf7",
+          "text": "14:50-15:40",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-65a82897905f1f3a",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-d9a6d20f7df9ff65",
+          "text": "30分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约30分钟"
+        },
+        {
+          "mention_id": "M-d10f6fcc198f1a2a",
+          "text": "20分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        }
+      ],
+      "p3_routes": [
+        {
+          "route_id": "JZG-OFF-01-R-5489d330c8",
+          "nature": "official_recommendation",
+          "scope": "JZG",
+          "granularity": "in_park",
+          "steps": [
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+              "index": 9,
+              "poi_ids": [
+                "POI-4286d8a6a4a416df",
+                "POI-4da05841a736a1f2"
+              ],
+              "transport_ids": [],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "中午",
+              "order_group": null,
+              "evidence_text": "诺日朗群海→诺日朗中心站(11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布)",
+              "clock_texts": [
+                "11:30",
+                "13:30"
+              ],
+              "duration_texts": [
+                "2个小时"
+              ],
+              "activity_texts": [
+                "用餐",
+                "用餐",
+                "休息"
+              ],
+              "mention_ids": [
+                "M-bfb70f2f8ebcd45b",
+                "M-162fb279750678d5",
+                "M-49d6ab57a4be30e4",
+                "M-db03f7e6b5c896f7",
+                "M-61722553c77e3e7b",
+                "M-1385531eea08f715"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+              "index": 10,
+              "poi_ids": [
+                "POI-13228cccee608f7d",
+                "POI-4da05841a736a1f2"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "下午",
+              "order_group": null,
+              "evidence_text": "诺日朗中心站→长海(13:30-14:20乘坐观光车,约30分钟车程,游览时间20分钟 )",
+              "clock_texts": [
+                "13:30",
+                "14:20"
+              ],
+              "duration_texts": [
+                "30分钟",
+                "20分钟"
+              ],
+              "activity_texts": [
+                "乘坐",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-de5bf60152f7f9b7",
+                "M-ef8fdae4910008fa",
+                "M-8b1dc65eb497d1d0",
+                "M-ec16ece7dc298597",
+                "M-cf6a13336136f611",
+                "M-3bc803b021bdaa00"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+              "index": 11,
+              "poi_ids": [
+                "POI-13228cccee608f7d",
+                "POI-de6db9a7cdd443ab"
+              ],
+              "transport_ids": [
+                "TRANSPORT-6d3dead8afc28ac0"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "下午",
+              "order_group": null,
+              "evidence_text": "长海→五彩池(14:20-14:50步行15分钟,游览时间15分钟 )",
+              "clock_texts": [
+                "14:20",
+                "14:50"
+              ],
+              "duration_texts": [
+                "15分钟",
+                "15分钟"
+              ],
+              "activity_texts": [
+                "步行",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-6f31109c1ae0d46a",
+                "M-d69a4ba022808c5c",
+                "M-34ed5dde5b0a9292",
+                "M-05a19c954ed766c0",
+                "M-1d93854a89959591",
+                "M-04f1ee15f731d3f9"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+              "index": 12,
+              "poi_ids": [
+                "POI-093f0023e45f6198",
+                "POI-de6db9a7cdd443ab"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "下午",
+              "order_group": null,
+              "evidence_text": "五彩池→犀牛海(14:50-15:40乘坐观光车,约30分钟车程,游览时间20分钟 )",
+              "clock_texts": [
+                "14:50",
+                "15:40"
+              ],
+              "duration_texts": [
+                "30分钟",
+                "20分钟"
+              ],
+              "activity_texts": [
+                "乘坐",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-076994cd7463c6e2",
+                "M-b129f3a33d53d591",
+                "M-b2d73580a6af9bf7",
+                "M-65a82897905f1f3a",
+                "M-d9a6d20f7df9ff65",
+                "M-d10f6fcc198f1a2a"
+              ]
+            }
+          ],
+          "order_relations": [
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S009",
+              "after": "JZG-OFF-01-R-5489d330c8-S010"
+            },
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S010",
+              "after": "JZG-OFF-01-R-5489d330c8-S011"
+            },
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S011",
+              "after": "JZG-OFF-01-R-5489d330c8-S012"
+            }
+          ]
+        }
+      ],
+      "eligible_references": {
+        "poi_ids": [
+          "POI-093f0023e45f6198",
+          "POI-10e8a874d4a64eeb",
+          "POI-13228cccee608f7d",
+          "POI-4286d8a6a4a416df",
+          "POI-4da05841a736a1f2",
+          "POI-6cfbebe4c178f2ad",
+          "POI-a59bdf752fbbc666",
+          "POI-de6db9a7cdd443ab"
+        ],
+        "transport_ids": [
+          "TRANSPORT-6d3dead8afc28ac0",
+          "TRANSPORT-e6843f2f5df433cb"
+        ],
+        "route_ids": [
+          "JZG-OFF-01-R-5489d330c8"
+        ]
+      }
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "4d15c55d327b0ff82f83fc7c52da8a50350fa7a1a923c4f3da2078f80c59520c",
+        "p2": "e752ff4bf59486b0a0d79dafdd31b47645b9d592117fd0ca125e57e5e1ad62b7",
+        "p3": "2e30ae5c011ef370a4660add979054c4f0448354132f8041b5b80b88b136e89d",
+        "sources": "388b47053ad1ba1afd92f599e17ecb64e6aa1ab589d5f9c791825137af8c4307"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 688,
+          "end": 741,
+          "para_id": 18,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 18
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 747,
+          "end": 792,
+          "para_id": 20,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 20
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 793,
+          "end": 828,
+          "para_id": 21,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 21
+          }
+        },
+        {
+          "block_id": "B004",
+          "start": 829,
+          "end": 872,
+          "para_id": 22,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 22
+          }
+        }
+      ]
+    }
+  },
+  {
+    "context": {
+      "package_key": "PKG-c7003cb87de5c4adc1b4",
+      "active_scenic_code": "JZG",
+      "package_kind": "route_fragment",
+      "heading": "九寨沟景区官方网站 - 游玩方式",
+      "scene_poi_registry": [
+        {
+          "id": "POI-093f0023e45f6198",
+          "name": "犀牛海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-0bcb1dea43e5296a",
+          "name": "原始森林",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-10e8a874d4a64eeb",
+          "name": "诺日朗中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-13228cccee608f7d",
+          "name": "长海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-275d47d6c2001f3f",
+          "name": "树正群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-2bc3cb4622efb0de",
+          "name": "公主海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-3464c42c5541834f",
+          "name": "盆景滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-35e41b7e200a7bc0",
+          "name": "树正瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-360c92072be143c1",
+          "name": "珍珠滩瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-39f671334b05bd19",
+          "name": "黄龙九寨站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-4286d8a6a4a416df",
+          "name": "诺日朗群海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4635c21b138627dc",
+          "name": "下季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-4da05841a736a1f2",
+          "name": "诺日朗中心站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-54159dd45e739e0c",
+          "name": "黄龙景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-545fccca3e7cf427",
+          "name": "镜海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5803354d56bd9e8f",
+          "name": "树正磨房",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-5bfe3687eda400d9",
+          "name": "成都天府机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-5fa63dd98f5dd264",
+          "name": "芦苇海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-612a6e7d55fb0b0a",
+          "name": "树正寨",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-67bcda65511d77c7",
+          "name": "火车南站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-6cfbebe4c178f2ad",
+          "name": "诺日朗餐厅",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "restaurant"
+        },
+        {
+          "id": "POI-7927973cb5fc8e4d",
+          "name": "则查洼沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-805a28099052ccae",
+          "name": "珍珠滩",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-859e5641d28e8b93",
+          "name": "沟口游客中心",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "service_center"
+        },
+        {
+          "id": "POI-85a9974dcb5d66c0",
+          "name": "火花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-871c3b6e819c218e",
+          "name": "天鹅海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-87bc59b6b6d79cf5",
+          "name": "小金铃海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-90e6d6cf975ce322",
+          "name": "老虎海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-92c22032755cbbfb",
+          "name": "孔雀河道",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-9cb8ef99d892b62b",
+          "name": "日则沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-a202cf0c7ad82ab2",
+          "name": "熊猫海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-a2f2a450e902b7ef",
+          "name": "九寨黄龙机场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        },
+        {
+          "id": "POI-a59bdf752fbbc666",
+          "name": "诺日朗瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-adddfdfb0b27578b",
+          "name": "卧龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-af9f086f65127147",
+          "name": "五花海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-bbc557d2673e93f6",
+          "name": "芳草海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-c97ee39818a3536c",
+          "name": "双龙海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cb24680dd82e15c1",
+          "name": "九寨沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-cfdaa794db8764b9",
+          "name": "上季节海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d46ef2f6d4e07910",
+          "name": "镜海停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-d84c258e38dc6005",
+          "name": "箭竹海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-d896be8c097d9bf2",
+          "name": "熊猫海",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-dda73c5206efbef9",
+          "name": "藏王宴舞停车场",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "parking"
+        },
+        {
+          "id": "POI-de48037e474f5793",
+          "name": "九寨沟神仙池景区",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "scenic"
+        },
+        {
+          "id": "POI-de6db9a7cdd443ab",
+          "name": "五彩池",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f5c247b15cea1e11",
+          "name": "树正沟",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f7ce93ebd3dcce05",
+          "name": "箭竹海瀑布",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-f84f479f75d655c0",
+          "name": "松潘古城",
+          "kind": "POI",
+          "role": "attraction",
+          "subtype": "spot"
+        },
+        {
+          "id": "POI-ff1c7f688a819aea",
+          "name": "成都东站",
+          "kind": "POI",
+          "role": "support",
+          "subtype": "station"
+        }
+      ],
+      "scene_transport_registry": [
+        {
+          "id": "TRANSPORT-0bda7df0b7655a1b",
+          "name": "坐车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-302154bebe2201cc",
+          "name": "徒步",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-4dfe4ae37d7ac7ce",
+          "name": "大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6117ff03af895cae",
+          "name": "包车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-660c137bb180f34a",
+          "name": "高铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-6d3dead8afc28ac0",
+          "name": "步行",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-78f05fe80a344b95",
+          "name": "自驾",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-7e07d15b43087423",
+          "name": "摆渡车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-8f91c620f059eb51",
+          "name": "飞机",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9039e85044983122",
+          "name": "出租车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-944131ff56396c57",
+          "name": "观光大巴",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-9d18c03e51c3bc72",
+          "name": "索道",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-a3087430f466be14",
+          "name": "乘车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-beb59f353edcb983",
+          "name": "接驳车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-c7876b90c7441768",
+          "name": "直通车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ccdcf1d605306320",
+          "name": "公交",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-cff4603db8535366",
+          "name": "地铁",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-e6843f2f5df433cb",
+          "name": "观光车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-eb0da5555fe3ef39",
+          "name": "打车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ecf22b3f7c37cdb9",
+          "name": "动车",
+          "kind": "TRANSPORT"
+        },
+        {
+          "id": "TRANSPORT-ef11cb40e93ccc3b",
+          "name": "拼车",
+          "kind": "TRANSPORT"
+        }
+      ],
+      "blocks": [
+        {
+          "block_id": "B001",
+          "text": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海(15:40-17:00步行+乘车的方式,约1个多小时游览时间)",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B002",
+          "text": "双龙海→盆景滩(17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 )",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        },
+        {
+          "block_id": "B003",
+          "text": "盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )",
+          "source_kind": "legacy",
+          "source_group": "ORIGIN-3da0b1ce1287"
+        }
+      ],
+      "local_mentions": [
+        {
+          "mention_id": "M-4e6c03ef45e64b85",
+          "text": "犀牛海",
+          "type": "POI",
+          "entity_id": "POI-093f0023e45f6198",
+          "canonical_name": "犀牛海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-991e912e080fb900",
+          "text": "老虎海",
+          "type": "POI",
+          "entity_id": "POI-90e6d6cf975ce322",
+          "canonical_name": "老虎海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-e68f60630c56f196",
+          "text": "树正瀑布",
+          "type": "POI",
+          "entity_id": "POI-35e41b7e200a7bc0",
+          "canonical_name": "树正瀑布",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-17b7df4b4d7b51ee",
+          "text": "树正磨房",
+          "type": "POI",
+          "entity_id": "POI-5803354d56bd9e8f",
+          "canonical_name": "树正磨房",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-2d327b613308df19",
+          "text": "树正寨",
+          "type": "POI",
+          "entity_id": "POI-612a6e7d55fb0b0a",
+          "canonical_name": "树正寨",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-d156798ca47d5b4a",
+          "text": "卧龙海",
+          "type": "POI",
+          "entity_id": "POI-adddfdfb0b27578b",
+          "canonical_name": "卧龙海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-3915936dd9da7d21",
+          "text": "双龙海",
+          "type": "POI",
+          "entity_id": "POI-c97ee39818a3536c",
+          "canonical_name": "双龙海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-3606b972d507af55",
+          "text": "15:40-17:00",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-a5743aec5e1b6477",
+          "text": "步行",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-6d3dead8afc28ac0",
+          "canonical_name": "步行",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-c2c6668358de1f18",
+          "text": "乘车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-a3087430f466be14",
+          "canonical_name": "乘车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-446d9c1102cdf0f2",
+          "text": "双龙海",
+          "type": "POI",
+          "entity_id": "POI-c97ee39818a3536c",
+          "canonical_name": "双龙海",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-03973f77347bccb1",
+          "text": "盆景滩",
+          "type": "POI",
+          "entity_id": "POI-3464c42c5541834f",
+          "canonical_name": "盆景滩",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-62b721bdeef3d3df",
+          "text": "17:00-17:20",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-b65eaeedf770f4a7",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-feda3a3803e8520b",
+          "text": "10分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约10分钟"
+        },
+        {
+          "mention_id": "M-904be735516c25f4",
+          "text": "10分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-5c96d38c14d557cc",
+          "text": "盆景滩",
+          "type": "POI",
+          "entity_id": "POI-3464c42c5541834f",
+          "canonical_name": "盆景滩",
+          "poi_role": "attraction",
+          "subtype": "spot",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-abc1c75c456558a7",
+          "text": "17:00-17:35",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "clock_range",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-785f4aab71a9f43e",
+          "text": "观光车",
+          "type": "TRANSPORT",
+          "entity_id": "TRANSPORT-e6843f2f5df433cb",
+          "canonical_name": "观光车",
+          "poi_role": null,
+          "subtype": "mode",
+          "time_context_text": null
+        },
+        {
+          "mention_id": "M-372bfb1f3fc54de1",
+          "text": "15分钟",
+          "type": "TIME",
+          "entity_id": null,
+          "canonical_name": null,
+          "poi_role": null,
+          "subtype": "duration",
+          "time_context_text": "约15分钟"
+        }
+      ],
+      "p3_routes": [
+        {
+          "route_id": "JZG-OFF-01-R-5489d330c8",
+          "nature": "official_recommendation",
+          "scope": "JZG",
+          "granularity": "in_park",
+          "steps": [
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+              "index": 13,
+              "poi_ids": [
+                "POI-093f0023e45f6198",
+                "POI-35e41b7e200a7bc0",
+                "POI-5803354d56bd9e8f",
+                "POI-612a6e7d55fb0b0a",
+                "POI-90e6d6cf975ce322",
+                "POI-adddfdfb0b27578b",
+                "POI-c97ee39818a3536c"
+              ],
+              "transport_ids": [
+                "TRANSPORT-6d3dead8afc28ac0",
+                "TRANSPORT-a3087430f466be14"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "下午",
+              "order_group": null,
+              "evidence_text": "犀牛海→老虎海→树正瀑布→树正磨房→树正寨→卧龙海→双龙海(15:40-17:00步行+乘车的方式,约1个多小时游览时间)",
+              "clock_texts": [
+                "15:40",
+                "17:00"
+              ],
+              "duration_texts": [],
+              "activity_texts": [
+                "步行",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-4e6c03ef45e64b85",
+                "M-991e912e080fb900",
+                "M-e68f60630c56f196",
+                "M-17b7df4b4d7b51ee",
+                "M-2d327b613308df19",
+                "M-d156798ca47d5b4a",
+                "M-3915936dd9da7d21",
+                "M-3606b972d507af55",
+                "M-a5743aec5e1b6477",
+                "M-c2c6668358de1f18"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S014",
+              "index": 14,
+              "poi_ids": [
+                "POI-3464c42c5541834f",
+                "POI-c97ee39818a3536c"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "下午",
+              "order_group": null,
+              "evidence_text": "双龙海→盆景滩(17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟 )",
+              "clock_texts": [
+                "17:00",
+                "17:20"
+              ],
+              "duration_texts": [
+                "10分钟",
+                "10分钟"
+              ],
+              "activity_texts": [
+                "乘坐",
+                "游览"
+              ],
+              "mention_ids": [
+                "M-446d9c1102cdf0f2",
+                "M-03973f77347bccb1",
+                "M-62b721bdeef3d3df",
+                "M-b65eaeedf770f4a7",
+                "M-feda3a3803e8520b",
+                "M-904be735516c25f4"
+              ]
+            },
+            {
+              "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+              "index": 15,
+              "poi_ids": [
+                "POI-3464c42c5541834f"
+              ],
+              "transport_ids": [
+                "TRANSPORT-e6843f2f5df433cb"
+              ],
+              "context_transport_ids": [],
+              "unmapped_mentions": [],
+              "normalized_links": [],
+              "day": null,
+              "period": "下午",
+              "order_group": null,
+              "evidence_text": "盆景滩→沟口(17:00-17:35乘坐观光车,约15分钟车程 )",
+              "clock_texts": [
+                "17:00",
+                "17:35"
+              ],
+              "duration_texts": [
+                "15分钟"
+              ],
+              "activity_texts": [
+                "乘坐"
+              ],
+              "mention_ids": [
+                "M-5c96d38c14d557cc",
+                "M-abc1c75c456558a7",
+                "M-785f4aab71a9f43e",
+                "M-372bfb1f3fc54de1"
+              ]
+            }
+          ],
+          "order_relations": [
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S013",
+              "after": "JZG-OFF-01-R-5489d330c8-S014"
+            },
+            {
+              "before": "JZG-OFF-01-R-5489d330c8-S014",
+              "after": "JZG-OFF-01-R-5489d330c8-S015"
+            }
+          ]
+        }
+      ],
+      "eligible_references": {
+        "poi_ids": [
+          "POI-093f0023e45f6198",
+          "POI-3464c42c5541834f",
+          "POI-35e41b7e200a7bc0",
+          "POI-5803354d56bd9e8f",
+          "POI-612a6e7d55fb0b0a",
+          "POI-90e6d6cf975ce322",
+          "POI-adddfdfb0b27578b",
+          "POI-c97ee39818a3536c"
+        ],
+        "transport_ids": [
+          "TRANSPORT-6d3dead8afc28ac0",
+          "TRANSPORT-a3087430f466be14",
+          "TRANSPORT-e6843f2f5df433cb"
+        ],
+        "route_ids": [
+          "JZG-OFF-01-R-5489d330c8"
+        ]
+      }
+    },
+    "provenance": {
+      "doc_id": "JZG-OFF-01",
+      "source_url": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+      "input_hashes": {
+        "p1": "4d15c55d327b0ff82f83fc7c52da8a50350fa7a1a923c4f3da2078f80c59520c",
+        "p2": "e752ff4bf59486b0a0d79dafdd31b47645b9d592117fd0ca125e57e5e1ad62b7",
+        "p3": "2e30ae5c011ef370a4660add979054c4f0448354132f8041b5b80b88b136e89d",
+        "sources": "388b47053ad1ba1afd92f599e17ecb64e6aa1ab589d5f9c791825137af8c4307"
+      },
+      "evidence_precision": "package",
+      "blocks": [
+        {
+          "block_id": "B001",
+          "start": 873,
+          "end": 934,
+          "para_id": 23,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 23
+          }
+        },
+        {
+          "block_id": "B002",
+          "start": 935,
+          "end": 978,
+          "para_id": 24,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 24
+          }
+        },
+        {
+          "block_id": "B003",
+          "start": 979,
+          "end": 1012,
+          "para_id": 25,
+          "origin": {
+            "kind": "legacy",
+            "para_id": 25
+          }
+        }
+      ]
+    }
+  }
+]

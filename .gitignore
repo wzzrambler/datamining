@@ -23,3 +23,8 @@ src/**/output/
 tools/封面信息.json
 # 打包产物
 *.zip
+# 运行痕迹：检查点、打包中间件、临时渲染
+.work/
+processed/P5条件建议抽取/inputs/
+processed/P5条件建议抽取/runs/*/checkpoints/
+processed/P5条件建议抽取/runs/smoke-*/

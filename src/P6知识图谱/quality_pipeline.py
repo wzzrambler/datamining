@@ -6,13 +6,14 @@ import subprocess
 import sys
 
 from p6_quality.advice import summarize_advice
-from p6_quality.common import compact
+from p6_quality.common import compact, require
 from p6_quality.times import summarize_times
 from p6_quality.llm_themes import attach_results, sha as theme_sha
+import p5run
 
 ROOT = Path(__file__).resolve().parents[2]
 P6 = ROOT / 'processed/P6知识图谱'
-P5 = ROOT / 'processed/P5条件建议抽取/runs/full-final-20261101'
+P5 = p5run.resolve()
 OUT = P6 / 'cleaned-v1'
 VERSION = 'p6-quality-v1'
 
@@ -26,7 +27,7 @@ def save(p, value):
     p.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + '\n', 'utf-8')
 
 
-def build(graph, observations, documents, theme_results=None):
+def build(graph, observations, documents, theme_results=None, theme_gap=''):
     graph = json.loads(json.dumps(graph, ensure_ascii=False))
     if theme_results is None:
         cached=[n['properties']['llm_theme_result'] for n in graph['nodes']
@@ -81,8 +82,14 @@ def build(graph, observations, documents, theme_results=None):
     if theme_audit:
         stages.append('entity_scoped_llm_theme_summary')
     graph['p6_quality'] = {'version': VERSION, 'stages': stages,
-                           'all_stages_completed': True, 'time_summary_owner': 'P6', 'advice_summary_method': 'lossless_rule_aggregation_v1',
+                           'all_stages_completed': bool(theme_audit), 'time_summary_owner': 'P6',
+                           'advice_summary_method': 'lossless_rule_aggregation_v1',
                            'semantic_merge_completed': False, 'llm_calls': 0}
+    if not theme_audit:
+        # 缺主题总结时以前照样写 all_stages_completed=True，产物看着完整，
+        # 到导库那一步才报错。这里把缺口写在产物里，别让它悄悄溜过去。
+        graph['p6_quality']['missing_stage'] = 'entity_scoped_llm_theme_summary'
+        graph['p6_quality']['missing_reason'] = theme_gap or '未提供主题总结结果'
     if theme_audit:
         graph['p6_quality'].update(version='p6-quality-themes-v1',advice_summary_method=theme_audit['method'],
             semantic_merge_completed=True,llm_entity_themes=theme_audit,
@@ -90,26 +97,49 @@ def build(graph, observations, documents, theme_results=None):
     graph['nodes'].sort(key=lambda n: n['id'])
     graph['edges'].sort(key=lambda e: (e['source'], e['type'], e['target'], compact(e['properties'])))
     ids = {n['id'] for n in graph['nodes']}
-    assert len(ids) == len(graph['nodes'])
-    assert len({compact(e) for e in graph['edges']}) == len(graph['edges'])
-    assert all(e['source'] in ids and e['target'] in ids for e in graph['edges'])
+    require(len(ids) == len(graph['nodes']), '节点ID重复')
+    require(len({compact(e) for e in graph['edges']}) == len(graph['edges']), '边重复')
+    require(all(e['source'] in ids and e['target'] in ids for e in graph['edges']), '边指向不存在的节点')
     return graph, times, advice, advice_audit
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--require-themes', action='store_true',
+                    help='缺主题总结时以非零码退出（CI 用；正常重建允许缺）')
+    ap.add_argument('--p5-run', help='P5 批次名；默认按 p5run.py 的规则解析')
+    ap.add_argument('--no-themes', action='store_true',
+                    help='跳过 LLM 主题挂载，先产出可用的中间图（新批次第一遍用）')
+    args = ap.parse_args()
+    require_themes = args.require_themes
+    global P5
+    if args.p5_run:
+        P5 = p5run.resolve(run_id=args.p5_run)
     stage = P6 / 'quality-stages/route-filtered'
-    subprocess.run([sys.executable, str(Path(__file__).with_name('clean_routes.py')), '--output', str(stage)],
+    subprocess.run([sys.executable, str(Path(__file__).with_name('clean_routes.py')),
+                    '--output', str(stage), '--p5-run', P5.name],
                    check=True, capture_output=True, text=True, encoding='utf-8')
     observations = {r['record_id']: r for r in load(P5 / 'raw_observations.json')}
     docs = {d['doc_id']: d for d in load(ROOT / 'processed/P1爬虫数据清洗/documents.json')}
-    theme_results=None
+    theme_results, theme_gap = None, ''
     theme_release=P6/'llm_advice/release.json'
-    if theme_release.exists():
+    if args.no_themes:
+        theme_gap = '本次以 --no-themes 构建，未挂载主题总结'
+    elif not theme_release.exists():
+        theme_gap = '缺少 llm_advice/release.json'
+    else:
         spec=load(theme_release)
-        theme_results=load(P6/'llm_advice'/spec['results'])
-        if theme_sha(theme_results)!=spec['results_sha256']:
-            raise ValueError('LLM总结结果哈希不一致')
-    graph, times, advice, audit = build(load(stage / 'graph.json'), observations, docs, theme_results)
+        path=P6/'llm_advice'/spec['results']
+        if not path.exists():
+            theme_gap = '发布清单指向的主题结果文件不存在：%s' % spec['results']
+        else:
+            theme_results=load(path)
+            if theme_sha(theme_results)!=spec['results_sha256']:
+                raise ValueError('LLM总结结果哈希不一致')
+            if not theme_results:
+                theme_gap = '主题结果为空'
+    graph, times, advice, audit = build(load(stage / 'graph.json'), observations, docs, theme_results, theme_gap)
     # Keep all route-filter decisions alongside the final quality products.
     for p in stage.iterdir():
         if p.is_file() and p.name not in {'graph.json', 'entities.json', 'transport_legs.json', 'entity_time_summaries.json'}:
@@ -127,7 +157,8 @@ def main():
         for o in t['observations']:
             unions[compact([t['target_id'], t['attribute'], o['scope']])].append(o)
     save(OUT / 'time_observation_unions.json', unions)
-    manifest = {'version': graph['p6_cleaning']['version'], 'stages': graph['p6_quality']['stages'], 'all_stages_completed': True,
+    manifest = {'version': graph['p6_cleaning']['version'], 'stages': graph['p6_quality']['stages'],
+                'all_stages_completed': graph['p6_quality']['all_stages_completed'],
                 'source_p5_graph_sha256': hashlib.sha256((P5 / 'integrated/graph.json').read_bytes()).hexdigest(),
                 'raw_observations_sha256': hashlib.sha256((P5 / 'raw_observations.json').read_bytes()).hexdigest(),
                 'documents_sha256': hashlib.sha256((ROOT / 'processed/P1爬虫数据清洗/documents.json').read_bytes()).hexdigest(),
@@ -141,7 +172,13 @@ def main():
         manifest['llm_theme_count']=sum(len(r['topics']) for r in theme_results)
     save(OUT / 'quality_manifest.json', manifest)
     print(json.dumps({k:v for k,v in manifest.items() if k != 'advice_audit'}, ensure_ascii=False, indent=2))
+    if not graph['p6_quality']['all_stages_completed']:
+        print('\n[缺阶段] %s：%s' % (graph['p6_quality']['missing_stage'],
+                                    graph['p6_quality']['missing_reason']), file=sys.stderr)
+        if require_themes:
+            return 1
+    return 0
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

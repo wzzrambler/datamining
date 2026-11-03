@@ -1,0 +1,45 @@
+{
+  "run_id": "full-20261103",
+  "packages_prepared": 2099,
+  "packages_attempted": 2099,
+  "status_counts": {
+    "COMPLETED": 2098,
+    "EXHAUSTED": 1
+  },
+  "active_completed_observations": 3572,
+  "conditions": 1335,
+  "p5_complete_conditions": 266,
+  "transport_legs": 102,
+  "p3_routes_inherited": 40,
+  "new_routes_extracted": 157,
+  "rule_categories": {
+    "service_availability": 23,
+    "other": 166,
+    "audience": 89,
+    "weather": 24,
+    "ticket": 29,
+    "date_time": 173,
+    "time_budget": 24,
+    "fitness": 13,
+    "access": 28,
+    "crowding": 25
+  },
+  "usage": {
+    "prompt_tokens": 35981755,
+    "completion_tokens": 864573,
+    "total_tokens": 36846328
+  },
+  "max_actual_prompt_tokens": 14361,
+  "limitations": [
+    "来源精度为输入包，不声称每条事实均已定位精确引句",
+    "P5仅保存逐条抽取与关联；时间汇总、条件推荐汇总、线路筛选和入库统一由P6负责",
+    "未完成独立人工金标准评估；历史模型用量从真实日志保留，本次导出不请求模型"
+  ],
+  "artifact_stage": "P5_extraction_only",
+  "quality_processing_owner": "P6",
+  "reference_scopes": {
+    "local_mention": 2896,
+    "scene_registry": 1067,
+    "in_package": 425
+  }
+}

@@ -25,6 +25,8 @@ def main():
     parser.add_argument("--backup", type=Path, help="Backup directory required with --apply")
     parser.add_argument("--apply", action="store_true", help="Actually import and clean up old datasets (writes Neo4j)")
     parser.add_argument('--replace-dataset', help='只允许替换release.json当前指向的项目版本')
+    parser.add_argument('--local-only', action='store_true',
+                        help='没有 Neo4j 时只生成导入包与发布清单，明确标注未连库')
     args = parser.parse_args()
     if args.apply and args.backup is None:
         parser.error("--apply requires --backup DIR; refusing any database changes")
@@ -46,7 +48,7 @@ def main():
         parser.error("Refusing to delete the same dataset that would be imported; choose a new verified graph version first")
     folder = ROOT / "processed/P6知识图谱" / dataset
     bundle = p6.prepare(graph, dataset)
-    if not args.apply:
+    if not args.apply and not args.local_only:
         # A local-only preview. No database connection or file writes.
         print(json.dumps({"mode": "preview_only", "dataset_to_import": dataset,
                           "planned_old_datasets": old_datasets,
@@ -55,6 +57,35 @@ def main():
                          ensure_ascii=False, indent=2))
         return
     p6.write(folder / "import_bundle.json", bundle)
+    if args.local_only:
+        # 没连库就不写 verified=true。清单里把话说清楚：包是自检过的，库没连过。
+        query_text = ("// Set $dataset to: " + dataset + "\n"
+                      "MATCH (n:P5Node {dataset:$dataset}) RETURN labels(n),count(*);\n"
+                      "MATCH ()-[r]->() WHERE r.dataset=$dataset RETURN type(r),count(*);\n")
+        p6.write(folder / "queries_offline.json", {"dataset": dataset, "note": "仅离线生成，未在数据库执行"})
+        (folder / "queries.cypher").write_text(query_text, encoding="utf-8")
+        report = {**{k: v for k, v in bundle.items() if k != "queries"},
+                  "neo4j_imported": False, "verified": False,
+                  "import_note": "本机没有 Neo4j 实例：导入包已生成并离线自检，"
+                                 "联网库后执行 publish_cleaned.py --apply 才算完成回读验证"}
+        p6.write(folder / "validation.json", report)
+        p6.write(ROOT / "processed/P6知识图谱/release.json",
+                 {"dataset": dataset, "input_graph": "cleaned-v1/graph.json",
+                  "snapshot_directory": dataset, "nodes": len(graph['nodes']), "edges": len(graph['edges']),
+                  "routes": sum(n['label'] == 'ROUTE' for n in graph['nodes']),
+                  "verified": False, "neo4j_imported": False,
+                  "import_note": report["import_note"],
+                  "cleaning_version": graph['p6_cleaning']['version'],
+                  "p5_raw_observations_unchanged": True,
+                  "quality_ownership_migrated_to_p6": True,
+                  "quality_manifest": "cleaned-v1/quality_manifest.json",
+                  "reports_regenerated": False,
+                  "llm_theme_entity_scene_groups": graph['p6_quality']['llm_entity_themes']['entity_scene_groups'],
+                  "llm_theme_unique_entity_ids": graph['p6_quality']['llm_entity_themes']['unique_entity_ids'],
+                  "llm_theme_count": graph['p6_quality']['llm_entity_themes']['topics'],
+                  "p5_run": graph['p6_cleaning']['source_run']})
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return
     from neo4j import GraphDatabase
     database = os.environ.get("NEO4J_DATABASE", "neo4j")
     with GraphDatabase.driver(os.environ["NEO4J_URI"], auth=(os.environ["NEO4J_USER"], os.environ["NEO4J_PASSWORD"]), max_transaction_retry_time=0) as driver:

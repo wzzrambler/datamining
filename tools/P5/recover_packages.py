@@ -29,10 +29,12 @@ def prepare_replacements(corpus, packages, failed_keys):
         parts = [corpus.make_package(doc, spans[i:i+4], route, fragment=bool(route)) for i in range(0, len(spans), 4)]
         expected = sorted((s["i"], s["start"], s["end"]) for s in spans)
         actual = sorted((b["para_id"], b["start"], b["end"]) for p in parts for b in p["provenance"]["blocks"])
-        assert actual == expected, "Recovery must preserve all selected text exactly"
+        if actual != expected:
+            raise RuntimeError("Recovery must preserve all selected text exactly: " + key)
         expected_steps = {s["step_id"] for r in parent["context"]["p3_routes"] for s in r["steps"]}
         actual_steps = {s["step_id"] for p in parts for r in p["context"]["p3_routes"] for s in r["steps"]}
-        assert actual_steps == expected_steps, "Recovery must preserve route steps"
+        if actual_steps != expected_steps:
+            raise RuntimeError("Recovery must preserve route steps: " + key)
         manifest[key] = {"replacement_keys": [p["context"]["package_key"] for p in parts],
                          "text_coverage_verified": True, "step_coverage_verified": True}
         children.extend(parts)

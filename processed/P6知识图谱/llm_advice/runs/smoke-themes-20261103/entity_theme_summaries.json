@@ -1,0 +1,710 @@
+[
+  {
+    "advice_summary_id": "ADVICE-b56d14bfc0f3bdab8a6b",
+    "entity_id": "POI-a9df4e391f8f4dc5",
+    "scenic_code": "ZHCL",
+    "input_fingerprint": null,
+    "chunk_fingerprints": [
+      "ac8c98e3fd94d4641e73164856380e08c51bc2933d99d598414c55a7639f885b",
+      "865cac343aca6f4d13dc2fc355206f9a4732af53869ac08516ba7ab90e965f3d"
+    ],
+    "chunk_count": 2,
+    "method": "llm_advice_themes_v2",
+    "model": "deepseek-flash",
+    "topics": [
+      {
+        "topic_id": "THEME-e55377a4b1bae12b96b3",
+        "label": "预约与购票",
+        "summary": "历史资料记载，该1大1小亲子票需至少在出游前一天23:59前预订；购票成功后需要预约出行。该特惠产品每日不超过1000张全渠道限量销售，先订先得。平日成人票价为395。",
+        "source_item_ids": [
+          "ADVICEITEM-07bf00d3fce3fa7b7ebd",
+          "ADVICEITEM-2dcc244a81338964bcf4",
+          "ADVICEITEM-4fcab274e8438b5d1cf5",
+          "ADVICEITEM-520d7308af3ee54710bd",
+          "ADVICEITEM-6816068c09688eb51578"
+        ],
+        "source_record_ids": [
+          "FACT-325203c05ec730e44358",
+          "FACT-726fb00836045baa77ce",
+          "RULE-21bebe0809f96137f034",
+          "RULE-a7c03a42d43fcb1dfca8",
+          "RULE-d9fe033ec83273170007"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-e1db70d0f90e7ec03b9d",
+        "label": "入园与防疫要求",
+        "summary": "历史资料记载，所有游客进入园区时必须佩戴好口罩，主动出示“健康码”及“行程码”，并配合工作人员做好体温检测及实名登记；进入园区前须在入口处接受体温测量筛检、有效身份证明文件核对及“健康码”（包括粤康码、穗康码等）核验。中高风险地区人员以及健康码、行程码为黄码或红码者，园区暂时无法接待；若进入园区前途经或所在地区风险状态突然发生变化，可能会被拒绝进入。资料建议提前准备好有效身份证明文件（身份证、港澳居民来往内地通行证、台湾居民来往大陆通行证、居留许可证、护照等）、“健康码”及预约入园凭证。",
+        "source_item_ids": [
+          "ADVICEITEM-08af3de425ead9e0f5ca",
+          "ADVICEITEM-1662dea168c02d81680f",
+          "ADVICEITEM-17b4b866bf059143327a",
+          "ADVICEITEM-3a430627e053bb254be7",
+          "ADVICEITEM-3cdd329a428039181e45",
+          "ADVICEITEM-48a1097458ff32d0a85f",
+          "ADVICEITEM-5e78fa9349f3acbd1525"
+        ],
+        "source_record_ids": [
+          "FACT-547337519b0ec0af1651",
+          "FACT-d2aa6805e1d47c1ea90d",
+          "RULE-1b9391d2fdef85939383",
+          "RULE-3e9d79f7913a0a48254d",
+          "RULE-6e54d213335948db1a09",
+          "RULE-8d12af29db070dfd89fc",
+          "RULE-a7bd6860568b81c99a1a"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-705e4c0209abb88a9305",
+        "label": "开园时间与提前入园",
+        "summary": "历史资料记载，有建议10:00开园第一批进场；另有资料称15:30开园检，与10:00开园的说法不一致，原文未说明适用条件。关于提前入园：有资料称长隆酒店入住者可提前1小时入园（语气为不确定或可选），也有资料称住园区内的住客可提前入园、可提前一小时进，还有资料称住客可提前入园（语气不确定）。某游记建议旅游旺季提前1小时入园，能省出至少3小时的排队时间。",
+        "source_item_ids": [
+          "ADVICEITEM-0c3fa7a5a44662d2ce3c",
+          "ADVICEITEM-0eb7795e1a9c3591c032",
+          "ADVICEITEM-10d22f2f594bfa69774d",
+          "ADVICEITEM-2259970ca85592b6fe4d",
+          "ADVICEITEM-4bd941607e773e0361d8",
+          "ADVICEITEM-57ece8c35917a7df6615",
+          "ADVICEITEM-5c1fd3e41d9c1e01a0cd",
+          "ADVICEITEM-5eb0e67912a15cd71404",
+          "ADVICEITEM-68e3f877a4671ac1e9ef"
+        ],
+        "source_record_ids": [
+          "FACT-02ad01b2378a80ed0898",
+          "FACT-8aabf4cc806f493df61e",
+          "FACT-b67dfc20fd50b5f8c74b",
+          "RULE-519ca0465dd4865d9fa8",
+          "RULE-57efd2aea65f307dd955",
+          "RULE-85212af5e6169e7c6e38",
+          "RULE-87820c8c2fc6f83f0d12",
+          "RULE-bff1dddfd4c8c48a39c1",
+          "RULE-f168666fc036684f3831"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            },
+            {
+              "id": "ROUTEOBS-1ca39e31dc112a02",
+              "kind": "ROUTE"
+            }
+          ],
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-8264d90c02a65c073a26",
+        "label": "适合人群与身高限制",
+        "summary": "历史资料记载，珠海长隆海洋王国园区规模不大，一天可以走完，两日游较轻松，是广东地区及周边短途亲子游以及周末亲子游可以重点选择的地方；有游客表示长隆海洋王国太适合亲子游玩。园区内可供小宝宝玩的游乐设备几乎没有，都有身高限制。对身高检查特别严格，会拿着尺子量。1名购票成人（大学生票、优待票等优惠票种除外）仅限携带1名身高未达1.0米的免票儿童入园。",
+        "source_item_ids": [
+          "ADVICEITEM-03d64a45af38de11d28b",
+          "ADVICEITEM-102392a0d2b958eb1b99",
+          "ADVICEITEM-1b346c9bda383582d63f",
+          "ADVICEITEM-2cb79ea50e149082a9d3",
+          "ADVICEITEM-68510dcaa0372376ab80",
+          "ADVICEITEM-7d9ad063d9b5ae0ed44a"
+        ],
+        "source_record_ids": [
+          "FACT-393fd93c8533ccda6741",
+          "FACT-43818dd657b0df4df946",
+          "FACT-ef40c2efa83d5d63b03f",
+          "RULE-077e34653efaf08271da",
+          "RULE-2c70fafcb6a29d1e0600",
+          "RULE-686c55d8917305e85213"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-a7b8f12314df05851a11",
+        "label": "游玩与排队",
+        "summary": "历史资料记载，假期人很多时不可能所有项目都体验到。有游客建议下载app或小程序查看游玩项目排队时间、园区地图，也可以使用二维码扫描出的电子地图。进园后可在深海世界门口（左边）拿一份景点游玩地图，地图有中文版、英文版，不要拿错。海洋王国有一项海洋特快优先入场服务，可使用专用通道优先通行重点游乐设施、进入剧场观赏精彩表演，节省排队等候时间；但有游客表示跟秋游大军错开玩了，海洋王国其实都没等过，觉得有优速通也用不上。有游客称住园区内的玩机动游戏就不用排队了。进园无绿色通道，需要排队；旺季进园排队至少半小时起。某游记建议进园录入指纹，这样就可以2日无限次入园。有游客建议能看到所有的表演、玩上三四个项目、再拍一堆美美的照片，这一天就很完美了；另有资料推荐必玩项目（超好玩）。",
+        "source_item_ids": [
+          "ADVICEITEM-09cc5d509c3382918e31",
+          "ADVICEITEM-151575ac2f426eec31a4",
+          "ADVICEITEM-1aaa7fa8aa09d11ff170",
+          "ADVICEITEM-262576e02f0a12d1458c",
+          "ADVICEITEM-3387d3af4e62da81de05",
+          "ADVICEITEM-3c252caf44067cee3e3c",
+          "ADVICEITEM-3dbe3da64af04e4acc2b",
+          "ADVICEITEM-3ebe828b78b00287bbc8",
+          "ADVICEITEM-477745206df98aac1ede",
+          "ADVICEITEM-484091516017712b671f",
+          "ADVICEITEM-4dc3e2e9a33dffc62517",
+          "ADVICEITEM-562dfdfae0db68f7c039",
+          "ADVICEITEM-68f859296f5b52651dd3",
+          "ADVICEITEM-72da311c34be6ed65d86"
+        ],
+        "source_record_ids": [
+          "FACT-1ad103c2837d0191fc02",
+          "FACT-e17a2291c3149dd61826",
+          "RULE-68f7de69f17bfcd5df77",
+          "RULE-6ec5011ff4f39a9ef201",
+          "RULE-87db90a0f11471fd0fd4",
+          "RULE-8bc98c935ea2cee864dc",
+          "RULE-94bdc61046b89afaf9a6",
+          "RULE-b5a56c646af213803676",
+          "RULE-d01477c8c708025efea0",
+          "RULE-dfab1ea160f1e9804a53",
+          "RULE-e8020cede7ae4d0ce9a5",
+          "RULE-eec3fd84629b01dae7a2",
+          "RULE-f41b407a64185610642e",
+          "RULE-f473fbe15d49b1400d66"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-1ce248732cf68627acd7",
+        "label": "餐饮携带规定",
+        "summary": "历史资料记载，除婴儿食品和本人适量饮用水外，谢绝游客带入其它食品和饮品；不可带饭盒熟食进园。另有资料称可以带水跟面包饼干类进园区，与前述谢绝自带食品饮品的说法不一致，原文未说明适用条件。",
+        "source_item_ids": [
+          "ADVICEITEM-11ab889991c05a1dfe1d",
+          "ADVICEITEM-11ff884305a63a2363cf",
+          "ADVICEITEM-643c3235da0f6af7f978"
+        ],
+        "source_record_ids": [
+          "FACT-6c17932f8ebb23f63947",
+          "FACT-9ce1f1dae4e4b95e4732",
+          "RULE-8f607e7bcc2af02008cf"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-c85082bb72bf8d9f4ad8",
+        "label": "交通与离园",
+        "summary": "历史资料记载，到达度假区后，建议选择步行或免费穿梭巴士到达度假区内各目的地；到海洋王国步行约10分钟，可以坐巴士前往，也可以走路。去时打车建议一定定位珠海长隆海洋王国正门，下车走几步就是入口。看完烟花后走很难打到车，建议提前约车。如果住飞船酒店玩儿海洋王国，就有点远。",
+        "source_item_ids": [
+          "ADVICEITEM-123cf4167cbc50aa786d",
+          "ADVICEITEM-19867c23c2b389e0ff05",
+          "ADVICEITEM-1f654fb4e94205fc5f7f",
+          "ADVICEITEM-30a3f48854edafca0b58",
+          "ADVICEITEM-72356f147e6384613221",
+          "ADVICEITEM-7f18016b88f32c2e94bd"
+        ],
+        "source_record_ids": [
+          "RULE-03ace5fb6ef00ce4d799",
+          "RULE-5f819a8bd1505b98573c",
+          "RULE-72f57db8156aafa78245",
+          "RULE-7473103452e1fdd30535",
+          "RULE-ad2b1daf7542f014e12d",
+          "RULE-d673222b8f1f38c84135"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-4cd36701be59f2ee",
+              "kind": "POI"
+            },
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ],
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            },
+            {
+              "id": "TRANSPORT-eb0da5555fe3ef39",
+              "kind": "TRANSPORT"
+            }
+          ],
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-b3f058127fcd1fadd1e0",
+        "label": "行程安排与遮阴装备",
+        "summary": "历史资料记载，有官方资料建议珠海长隆三天两夜最划算，一天海洋王国、一天水上乐园（涉及横琴湾水世界）。海洋王国里并没有什么大树或者室内可以遮阴的地方。",
+        "source_item_ids": [
+          "ADVICEITEM-08e0fa6b4a505d0a8279",
+          "ADVICEITEM-2531471b35a5be020840"
+        ],
+        "source_record_ids": [
+          "FACT-d0ebd2ca34243c9b6a12",
+          "RULE-88c274468f239a93bc7a"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-49cc28405c4af399",
+              "kind": "POI"
+            },
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ],
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-9b4def9ffb8f19fab8cc",
+        "label": "园区租借服务",
+        "summary": "历史资料记载，园区内租借的推车配有锁链，不用担心丢失。",
+        "source_item_ids": [
+          "ADVICEITEM-2a86f455beba6ce1c4e6"
+        ],
+        "source_record_ids": [
+          "RULE-f9772d15a79f3bb9fce0"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-bce6ff87d369d835a732",
+        "label": "预约购票与入园准备",
+        "summary": "历史资料记载，购票成功后需要预约出行；购买时请选定适用日期内其中一天为游玩日期。建议线上提前购票，有游客称比现场划算。票价方面，有资料提到1大1小亲子票575元起，另有资料称节假日成人票价450元。入园方面，有游客建议8点45分就可以去排队，也有建议提前一点排队准备安检；旺季进园需要排队至少半小时起。",
+        "source_item_ids": [
+          "ADVICEITEM-934ba36c88422ba0dedd",
+          "ADVICEITEM-9dd78d136b77e452acbc",
+          "ADVICEITEM-a6e224a2ae7340b4304f",
+          "ADVICEITEM-d9962d11de0db565a554",
+          "ADVICEITEM-f22d93bf6e769415d56d",
+          "ADVICEITEM-f7c8148289510d47f2b7",
+          "ADVICEITEM-fdb2a2eaa17250c05ac0",
+          "ADVICEITEM-ff6244fb31d4d13cbcd6"
+        ],
+        "source_record_ids": [
+          "RULE-665a0a7313d1e0b6fd6d",
+          "RULE-7a0a3ec14919adc5d9da",
+          "RULE-8772ef46a8f24f968dc7",
+          "RULE-933ec95dc40df77c3a13",
+          "RULE-a19a805d265af77fbb72",
+          "RULE-a32abdcc76bf3dc216e6",
+          "RULE-b58f5bf220202dcb8b4a",
+          "RULE-c9e4b10b14c7908cd23e"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-8be340e84c53302ab934",
+        "label": "提前入园与住宿联动",
+        "summary": "历史资料记载，住园区酒店可提前一小时入园；凭房卡可以提前1小时入园。有游客建议09:00提前一小时入园，并推荐早起。另有资料提到海洋王国提前一小时入园。",
+        "source_item_ids": [
+          "ADVICEITEM-8f01e6102a263ba2e470",
+          "ADVICEITEM-90f193acf4b4dce01da6",
+          "ADVICEITEM-9f7a6abdb0f833403b6b",
+          "ADVICEITEM-aa46797eb429ce124983",
+          "ADVICEITEM-c181caa575cba0839b70",
+          "ADVICEITEM-d4a6cc615f488e315b4c",
+          "ADVICEITEM-e7390a4cdfa933c4227d",
+          "ADVICEITEM-ec5eed4ebc3656aebd60"
+        ],
+        "source_record_ids": [
+          "FACT-80706a8b5379d3379b8f",
+          "FACT-899ab90fa17570a16555",
+          "FACT-f29eb58b23de47dbdc6a",
+          "RULE-5f9a0eb39f5ed8dd000d",
+          "RULE-6b52f528fa1aa47abbc5",
+          "RULE-6c012517ac23b4d58826",
+          "RULE-90acef1dfb02d5e2838c",
+          "RULE-e62c073d96de6776235f"
+        ],
+        "scope_bindings": [
+          "{\"upstream_fragment_targets\":[{\"id\":\"ROUTEOBS-3113ca3d1c0acf9a\",\"kind\":\"ROUTE\"}]}",
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-d7e6f7fd41a820bbd535",
+        "label": "适合人群与亲子体验",
+        "summary": "历史资料记载，长隆海洋王国适合亲子旅游，适合带孩子旅游探索海洋世界；园区面积并不大，相比广州长隆更加适合带孩子亲子游。有游客表示，如果带着小盆友，很容易被小的游乐及动物吸引。另有游客评价长隆确实值得一去，是值得二刷三刷的地方；也有游客给出很一般般、不推荐的相反评价。",
+        "source_item_ids": [
+          "ADVICEITEM-7f35a2d8f8c18076d959",
+          "ADVICEITEM-8503322a6372e749fc82",
+          "ADVICEITEM-a6805b3d55998272a5ac",
+          "ADVICEITEM-b4ae61aa70b295bf1526",
+          "ADVICEITEM-d1278925e299cf8bafaf",
+          "ADVICEITEM-f92de54051b2bc42b548"
+        ],
+        "source_record_ids": [
+          "RULE-3e3a14080c27b6bcf0b2",
+          "RULE-4029b0a826d1bbd407bb",
+          "RULE-5192819fd446a46beba4",
+          "RULE-72619faf6737d55a1cfc",
+          "RULE-82c9d07081b353bc80be",
+          "RULE-9c931a07baa0cc105605"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-607e2e50bd815d3cca4b",
+        "label": "游玩路线与排队策略",
+        "summary": "历史资料记载，官方资料主推几个景点，建议一定要光速打卡，否则要排队排好久，并列出玩转海洋王国必去打卡点。有游客建议合理规划路线、安排好时间、做好功课，就不会错过园区的任何一处精彩；机动游戏可以穿插在场馆游览之间，不一定按某条路线。若预算充足，建议买快速通，一天就能刷完热门项目，可减少排队时间，但快速通有些游玩项目不可使用。有游客指出一天的时间有限，不可能所有项目都体验到。另有游客表示，他们过去刚好是小雨，每一个点都不用排队。",
+        "source_item_ids": [
+          "ADVICEITEM-81eb679bb9c5135da8c4",
+          "ADVICEITEM-863425337a0e2ecb949c",
+          "ADVICEITEM-9d9fe44d54b7c1a61849",
+          "ADVICEITEM-9ef4fc1866b758129640",
+          "ADVICEITEM-b6dbd0b89a270254e468",
+          "ADVICEITEM-bf7bbe3d67477050fa5c",
+          "ADVICEITEM-d4bc0c21e6c1f72aa589"
+        ],
+        "source_record_ids": [
+          "RULE-0ab52cddedd710223e88",
+          "RULE-469a5cf141267317776a",
+          "RULE-78209737bc230ee7fa22",
+          "RULE-835d378e973a59046bf8",
+          "RULE-92278d2e153c5323f114",
+          "RULE-9fe13cf1e5d54c92ab96",
+          "RULE-a31d517e1ae3809402f5"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-468b930392e359215ab9",
+        "label": "行程天数与游玩节奏",
+        "summary": "历史资料记载，有游客建议珠海长隆海洋王国两天玩下来会比较轻松；也有游客买了海洋王国三天两晚的门票，并提到三天两晚门票含酒店、自驾便捷。另有游客建议假期来海洋王国主打看海洋动物们，从从容容游玩。",
+        "source_item_ids": [
+          "ADVICEITEM-9ef1ec64c490db13ab5a",
+          "ADVICEITEM-c218daa0d9599a32107e",
+          "ADVICEITEM-c6b2d9b49bf79504efbb",
+          "ADVICEITEM-cc71c31577d62cb3b7f3"
+        ],
+        "source_record_ids": [
+          "RULE-4f025dd66f9432838eb6",
+          "RULE-76b3299aac9bd42544bf",
+          "RULE-cc2e59ee3d9f8f8d91fa",
+          "RULE-cd2d690242bc158cc2df"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-6a3a3a4c85eaaca551df",
+        "label": "表演、闪卡与入园规则",
+        "summary": "历史资料记载，海洋王国的各个表演时间可以在海洋王国的官网获取；观看表演可提前半小时入场。游客可以集闪卡，向海洋王国工作人员要，集齐换拼图。进园录入指纹，这样就可以2日无限次入园。",
+        "source_item_ids": [
+          "ADVICEITEM-a1d5b43ee32198f3c774",
+          "ADVICEITEM-a4b8ff0acde5f2909c21",
+          "ADVICEITEM-cc7523c66b7e44d00cb2",
+          "ADVICEITEM-f3ed359ac31b1192be82"
+        ],
+        "source_record_ids": [
+          "FACT-c38b07dd82ab79119929",
+          "RULE-08bd617593460ffe0554",
+          "RULE-3de36c0a6a6bcc953f30",
+          "RULE-e13f42aabc8670ed2aca"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-e9e7ea5dba1d79bd2bbb",
+        "label": "门票与儿童身高规则",
+        "summary": "历史资料记载，1名购票成人（大学生票、优待票等优惠票种除外）仅限携带1名身高未达1.0米的免票儿童入园；1米以下小朋友免门票；儿童身高1m~1.5m可购优惠票。有游客提到1大1小特惠亲子票。另有游客表示，海洋王国对身高检查特别严格，会拿着尺子量。",
+        "source_item_ids": [
+          "ADVICEITEM-8461b59d698e949c9018",
+          "ADVICEITEM-bd387ef660ac140e4a5d",
+          "ADVICEITEM-c5e77c99922cdb63e687",
+          "ADVICEITEM-c78c1ed568d3e455a5d2",
+          "ADVICEITEM-d5e953ecf73b6803b83a"
+        ],
+        "source_record_ids": [
+          "RULE-03cb6b97b792f87acbee",
+          "RULE-5b0ebd25395bf9be526c",
+          "RULE-9d1f2734f18ff4fbe446",
+          "RULE-9e885d4e7c392b4dc96a",
+          "RULE-c59ecb4799438726f1d4"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-9e18a22cf3969fa3908f",
+        "label": "餐饮与携带物品限制",
+        "summary": "历史资料记载，不可带饭盒熟食进园；为保证园区动物安全，除婴儿食品和本人适量饮用水外，长隆海洋王国谢绝游客带入其它食品和饮品。另有游客表示可以带水跟面包饼干类进园区，与上述谢绝带入其它食品饮品的说法不一致，原文未说明适用条件差异。",
+        "source_item_ids": [
+          "ADVICEITEM-c30c68f9273a7be5920b",
+          "ADVICEITEM-db57431d3a02d9660da7",
+          "ADVICEITEM-fb69127683dbed1150fd"
+        ],
+        "source_record_ids": [
+          "FACT-c44268b799de60c65d8a",
+          "RULE-6095869e552bdc63c207",
+          "RULE-b6ce71f18b750414737f"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-2ac2a5166c3c01acf0fc",
+        "label": "天气与装备建议",
+        "summary": "历史资料记载，有游客表示6月的午后实在是太晒了，大人小孩都有些受不了了。如果带着宝宝，一定要带一辆推车，如果没有可以在入园处租借一辆，但是要注意归还的时间。",
+        "source_item_ids": [
+          "ADVICEITEM-b5e336c69cdbf9ec119b",
+          "ADVICEITEM-dea992a4c788b0962f77"
+        ],
+        "source_record_ids": [
+          "RULE-6259b58298c2717eeb9e",
+          "RULE-989f08e9a872e837976e"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-d232db45085a03bcda5c",
+        "label": "防疫与健康准入",
+        "summary": "历史资料记载，如果您在进入园区前途径或所在地区的风险状态突然发生变化，您可能会被拒绝进入。园区暂时无法接待中高风险地区和健康码及行程码为黄码、红码者。行程码带“*”者根据防疫实时要求接待，建议提前致电客服进行确认。",
+        "source_item_ids": [
+          "ADVICEITEM-94698bc3a4114121c2a4",
+          "ADVICEITEM-9c36a6f14772e75be508",
+          "ADVICEITEM-a4c7ba283758ed4e0121",
+          "ADVICEITEM-f8fd1e80367960bf136b"
+        ],
+        "source_record_ids": [
+          "FACT-2aba6bb6da6d8180dde7",
+          "FACT-5255e5a39903f81122e0",
+          "FACT-598bb6c0ec96859c3cbc",
+          "RULE-b2d013a6e3c20731924e"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-b057d81e7c4722f4ee78",
+        "label": "交通接驳与周边联动",
+        "summary": "历史资料记载，从横琴湾酒店前往海洋王国有三种方式，3楼有免费巴士直接前往。另有游客提到专属水世界加坐小船直达海洋王国，度假感拉满，该说法涉及横琴湾水世界与海洋王国之间的联动体验。",
+        "source_item_ids": [
+          "ADVICEITEM-def563cd163cfabaf5cb",
+          "ADVICEITEM-ef8736b64763f72b0f5a"
+        ],
+        "source_record_ids": [
+          "RULE-2203965321dc7f7de2c0",
+          "RULE-fef3502250e57134864e"
+        ],
+        "scope_bindings": [
+          "{}"
+        ],
+        "joint_target_sets": [
+          [
+            {
+              "id": "LEG-b51f52e8eedb53ee7cc3",
+              "kind": "LEG"
+            },
+            {
+              "id": "POI-3ee90e175366fdcd",
+              "kind": "POI"
+            },
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ],
+          [
+            {
+              "id": "POI-49cc28405c4af399",
+              "kind": "POI"
+            },
+            {
+              "id": "POI-a9df4e391f8f4dc5",
+              "kind": "POI"
+            }
+          ]
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "item_reference_coverage": 1.0,
+    "semantic_correctness_independently_verified": false
+  }
+]

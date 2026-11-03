@@ -16,7 +16,10 @@ import sys
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'src'))
 from artifact_integrity import file_sha256, matches_sha256, repository_path
-P5 = ROOT / "processed/P5条件建议抽取/runs/full-final-20261101"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from p6_quality.common import require
+import p5run
+P5 = p5run.resolve()
 OUT = ROOT / "processed/P6知识图谱/quality-stages/route-filtered"
 VERSION = "p6-route-curation-v1"
 
@@ -183,7 +186,7 @@ def curate(graph, routes, observations, documents):
         evidence = []
         for doc, start, end in spans[rid]:
             content = documents[doc]["content"]
-            assert 0 <= start < end <= len(content), (rid, doc, start, end)
+            require(0 <= start < end <= len(content), '证据区间越界：%s %s %s %s' % (rid, doc, start, end))
             evidence.append({"doc_id": doc, "start": start, "end": end, "text": content[start:end]})
         source_evidence[rid] = evidence
         decisions[rid] = classify(r, "\n".join(e["text"] for e in evidence), nodes)
@@ -285,16 +288,17 @@ def curate(graph, routes, observations, documents):
                 edge_keys.add(key)
     graph["nodes"].sort(key=lambda n: n["id"])
     graph["edges"].sort(key=lambda e: (e["source"], e["type"], e["target"], json.dumps(e["properties"], sort_keys=True)))
-    graph["p6_cleaning"] = {"version": VERSION, "source_run": "full-final-20261101", "route_fragments_in_production_graph": False,
+    graph["p6_cleaning"] = {"version": VERSION, "source_run": P5.name, "route_fragments_in_production_graph": False,
                             "scope": "route_layer_only; existing POI/fact/rule/time semantic issues are not all repaired", "llm_calls": 0}
     graph["note"] = "P6二次清理正式图；仅主干候选为ROUTE；片段在审计文件；交通路段独立保留；观测节点保留上游原始提交，不作活跃线路。"
     cleaned_routes = [deepcopy(n["properties"]) for n in graph["nodes"] if n["label"] == "ROUTE"]
     ids = {n["id"] for n in graph["nodes"]}
-    assert all(e["source"] in ids and e["target"] in ids for e in graph["edges"])
-    assert {n["id"] for n in graph["nodes"] if n["label"] == "ROUTE"} == kept_ids
-    assert all(n["id"] not in removed_steps for n in graph["nodes"])
+    require(all(e["source"] in ids and e["target"] in ids for e in graph["edges"]), '边指向不存在的节点')
+    require({n["id"] for n in graph["nodes"] if n["label"] == "ROUTE"} == kept_ids, 'ROUTE节点与保留集合不符')
+    require(all(n["id"] not in removed_steps for n in graph["nodes"]), '被剔除的步骤仍在图里')
     for label in {"POI", "TRANSPORT", "TRANSPORT_LEG", "CONDITIONAL_RULE", "FACT", "TIME_SUMMARY", "OBSERVATION"}:
-        assert {n["id"] for n in graph["nodes"] if n["label"] == label} == {nid for nid, n in nodes.items() if n["label"] == label}
+        require({n["id"] for n in graph["nodes"] if n["label"] == label} == {nid for nid, n in nodes.items() if n["label"] == label},
+                '%s 节点在清理中被动过' % label)
     summary = {"version": VERSION, "before": {"nodes": len(nodes), "edges": original_edge_count, "routes": len(routes)},
                "after": {"nodes": len(graph["nodes"]), "edges": len(graph["edges"]), "routes": len(kept_ids),
                          "node_types": dict(Counter(n["label"] for n in graph["nodes"])), "edge_types": dict(Counter(e["type"] for e in graph["edges"]))},
@@ -310,7 +314,11 @@ def curate(graph, routes, observations, documents):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUT)
+    parser.add_argument("--p5-run", help="P5 批次名；默认按 p5run.py 的规则解析")
     args = parser.parse_args()
+    global P5
+    if args.p5_run:
+        P5 = p5run.resolve(run_id=args.p5_run)
     protected = {p.relative_to(ROOT).as_posix(): sha(p) for p in sorted((ROOT / "processed/P5条件建议抽取").rglob("*")) if p.is_file()}
     graph = load(P5 / "integrated/graph.json")
     observations = {r["record_id"]: r for r in load(P5 / "raw_observations.json")}

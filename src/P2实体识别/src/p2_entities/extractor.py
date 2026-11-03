@@ -72,8 +72,34 @@ def resolve_park(local, title=''):
     return ''
 
 
-def classify(row, text, start, end, previous, title):
-    """返回覆盖字段与拒绝原因。每种guard均有明确可检查的条件。"""
+# "飞X"里的 X 基本是出发地或中转城市，这些名字大多不在任何景区的词表里，
+# 单靠词表会漏。原先写死了六个城市，遇到"飞丽江"就认不出来；
+# 现在三条路一起判：词表地名、常见城市、行政后缀。
+AVIATION_CITIES = ('成都', '深圳', '广州', '珠海', '南京', '重庆', '九寨',
+                   '丽江', '西安', '昆明', '上海', '北京', '杭州', '武汉',
+                   '长沙', '厦门', '三亚', '拉萨', '林芝', '阿坝')
+PLACE_SHAPE = re.compile(r'[\u4e00-\u9fa5]{2,4}(?:市|县|州|区|镇|古城|机场|景区|新区)')
+NOT_DESTINATION = re.compile(r'^(?:快|奔|速|驰|扬|扑|跑|走|过去|回来|了|过|向|往天上)')
+
+
+def aviation_destination(rest, places=()):
+    """判断"飞"后面跟的是目的地，还是"飞快""飞过去"这类普通动词。"""
+    head = rest.lstrip(' 　')
+    if NOT_DESTINATION.match(head):
+        return False
+    dest = re.sub(r'^(?:往|到|去|回)', '', head)
+    if any(dest.startswith(n) for n in places if len(n) >= 2):
+        return True
+    if any(dest.startswith(c) for c in AVIATION_CITIES):
+        return True
+    return bool(PLACE_SHAPE.match(dest))
+
+
+def classify(row, text, start, end, previous, title, places=()):
+    """返回覆盖字段与拒绝原因。每种guard均有明确可检查的条件。
+
+    places 是当前景区词表里的地名，用来判断"飞"后面跟的是不是目的地。
+    """
     guard = row['guard']
     local = text[max(0, start - 35):min(len(text), end + 40)]
     context = previous + '\n' + text
@@ -134,7 +160,7 @@ def classify(row, text, start, end, previous, title):
         return None, '小船未明确作为酒店/园区接驳交通'
     if guard == 'aviation':
         if row['term'] == '飞':
-            if re.match(r'(?:往|到)?(?:成都|深圳|广州|珠海|南京|重庆|九寨)', text[end:]):
+            if aviation_destination(text[end:], places):
                 return {'canonical_name': '飞机'}, ''
         elif row['term'] == '直飞' or re.search(r'航班|机场|起飞|坐|乘|返程|抵达', context):
             return {'canonical_name': '飞机'}, ''
@@ -147,11 +173,16 @@ class Extractor:
         self.manifest, self.config = manifest, config
         self.origins = origin_index(origins)
         self.patterns = {}
+        self.place_terms = set()
         for code, data in config['lexicon'].items():
             self.patterns[code] = [(r, term_pattern(r['term'])) for r in data['entries']]
+            for r in data['entries']:
+                for name in (r.get('term'), r.get('canonical_name')):
+                    if name and len(name) >= 2:
+                        self.place_terms.add(name)
 
     def classify(self, row, text, start, end, previous, title):
-        return classify(row, text, start, end, previous, title)
+        return classify(row, text, start, end, previous, title, self.place_terms)
 
     def times(self, text):
         return extract_times(text, self.config['time_rules'])

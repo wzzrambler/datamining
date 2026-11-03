@@ -1,24 +1,24 @@
 {
   "implementation_version": "1.0.0",
-  "python": "3.13.13",
+  "python": "3.13.14",
   "implementation_sha256": {
     "__init__.py": "3d625ace3badcb3dd195df4d030cdafe042d68daaaa75d2acc652d76fc8e3a4d",
-    "candidates.py": "72130e733539a791652208f59156d432b843db940b5774a461b5463ed348bfdf",
-    "config.py": "4c90fbaceb16e8aa19efd51e6a546e94ba4aab295812d194f227ccd07773ae50",
-    "extractor.py": "87b801e8a7fc9531e03c46aa3fe1df638e3fce0236c5ad5ac97fa6e84ffdd831",
-    "pipeline.py": "71c1928346cd9c2b7004ef193c283fe19e82c4165a89d9d3661b5081f0be7278",
+    "candidates.py": "ccfea3374e06f77304c9765aebd2df0d6ebdc093868b33f6d474c73443d5dca7",
+    "config.py": "d632f9cb9362513b652a7528f97d083212ff4b605db1dbca18de3649ee3575cc",
+    "extractor.py": "b559f06d84b8d7f23b0414dd6b80123feaa0630f4500718079937aa29e9a9f21",
+    "pipeline.py": "63646b08c40726cf6002852adcf74d10708691e1614cff5e292dc03d4dfe6b9e",
     "plots.py": "a5ba746ff5f172eea0e8be95bdc1abb9782f07b9428db29021e7fdec3ecc8ceb",
-    "time_rules.py": "5ede62252a14888d1fd4b8d98377d9e619a65f5ad666ab0f75b81d55a4282858"
+    "time_rules.py": "6022d2546d2b71307d69d9e797e850919a96e5376cdb2ba710fb50c0fad1281a"
   },
-  "input_sha256": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
-  "origin_sha256": "1b8aa3ddde75d27df408cb3531c54f0ba4b6cebae8d7b623970091cc82e0cba9",
-  "config_hash": "4bb0102da57bb27ef2263a00b88f59810b9f8c1bd3e9b9958fa6751783c8080b",
+  "input_sha256": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979",
+  "origin_sha256": "fd008bf1387cd72918aebb44648209bc426bea0bdc2e6603caf1e2fe931a4e43",
+  "config_hash": "0259e26309d2f8d0e121df20029cc9fb9bcece97f65283f94ed5adeea54e4f16",
   "config_version": "v2",
   "offline": true,
   "validation": {
     "status": "passed",
     "documents": 47,
-    "mentions": 3647,
+    "mentions": 3499,
     "checks": [
       "全部文档覆盖",
       "全文切片",
@@ -203,13 +203,13 @@
     "frequency": "提及数；文档频次另见frequencies.json"
   },
   "outputs": {
-    "entities.json": "ebc66788c5365faa68c7ef2c71ecae41a5174188b76b1c40d3b1c3c7d3b198cd",
-    "frequencies.json": "3dfaf89d752df355756501d0073e2c2f6a167eca6bef35316647d399548bd51f",
+    "entities.json": "e752ff4bf59486b0a0d79dafdd31b47645b9d592117fd0ca125e57e5e1ad62b7",
+    "frequencies.json": "7736fe337bf72d74751d713fc867e9116c6ea36c5e17875b524425c92ff31143",
     "quality_check.json": "e137c263058c1c018ca3090c58e4f2eac346b3e998710b71d099b273aaa759eb",
-    "summary.json": "62dd7254818d7f6e3771a01fd366f85a786c0cec62ab7e520606a0e9982cdc45",
-    "validation.json": "d3e5fd9ffc0933a4413aa5cf3ce0ec82ed306b1bdc40b968ed8cf21db6f253a0",
-    "辅助资料/activity_candidates.json": "13136b9425faa1ed8a1c824c323d15e56c5805534426bc93d9f4708df376456c",
-    "辅助资料/diagnostics.json": "44569e9445abf2bc7cd7df55a74b575f57c41e6affaa205b2b152bad51d8fafb",
+    "summary.json": "1b32ec299c18ed641452edfdf109f039ccf472ff4f30dd07b2729b706e8836fd",
+    "validation.json": "0820c59cf30db15ac283f39b9d958b5390e47967172fb19d6190131d9125cbf7",
+    "辅助资料/activity_candidates.json": "5302747fe01c12d6b260d731406c11003a3e0d5b3c9041437e1b8bf0de5afa25",
+    "辅助资料/diagnostics.json": "88269008a7239ade5b2e3247c874e709d7cde326ba09ce3766ce4aae859d4c20",
     "辅助资料/ellipsis_candidates.json": "2fbd32d8720271d83092d97725dd7904d75431804d22ce1db3c80dcab2ad6e00",
     "辅助资料/unresolved_candidates.json": "0383c2dd3a62ab00da5d363af25e9f2615cb2cd45c75be604e0cf08f0f5f8c3e"
   }

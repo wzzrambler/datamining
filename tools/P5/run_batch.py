@@ -69,6 +69,24 @@ def main():
         if failed:
             break
 
+    # 批次跑完才把指针转向它。半成品批次一旦被 P6 当成正式输入，产物会静默缺包。
+    summary = read_json(run_dir / "summary.json")
+    counts = summary.get("status_counts") or {}
+    unfinished = {k: v for k, v in counts.items() if k != "COMPLETED" and v}
+    prepared, attempted = summary.get("packages_prepared"), summary.get("packages_attempted")
+    short = isinstance(prepared, int) and isinstance(attempted, int) and attempted < prepared
+    pointer = ROOT / "processed/P5条件建议抽取/ACTIVE_RUN"
+    if failed or unfinished or short:
+        print(compact({"event": "ACTIVE_RUN_NOT_SET", "run_id": args.run_id,
+                       "why": "批次没跑完或还有失败包", "status_counts": counts,
+                       "packages": [attempted, prepared],
+                       "next": "先补包（tools/P5/recover_packages.py），再 "
+                               "python -X utf8 src/P6知识图谱/p5run.py --set %s" % args.run_id}), flush=True)
+    else:
+        pointer.parent.mkdir(parents=True, exist_ok=True)
+        pointer.write_text(args.run_id + "\n", encoding="utf-8")
+        print(compact({"event": "ACTIVE_RUN_SET", "run_id": args.run_id, "pointer": str(pointer)}), flush=True)
+
 
 if __name__ == "__main__":
     main()

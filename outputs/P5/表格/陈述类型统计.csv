@@ -1,0 +1,7 @@
+﻿陈述类型,code,GZCL,JZG,ZHCL,合计
+一般建议,general_advice,281,237,223,741
+条件建议,conditional_advice,86,65,86,237
+条件事实,conditional_fact,101,46,74,221
+条件不完整,incomplete_condition,30,18,15,63
+一般限制,general_restriction,24,11,10,45
+条件限制,conditional_restriction,15,3,11,29

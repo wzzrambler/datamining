@@ -2,7 +2,7 @@
   "config_version": "v2",
   "schema_version": "p2-config-1",
   "parent_config_hash": "692c600a1d15b3952290e0f31dbef81265f18bdd4740acbeb65a3468434b4756",
-  "input_sha256": "ce4d15ec9f5491ac0458d18b30cf525660173ff1a30425221ffa68f29fca7846",
+  "input_sha256": "ea6df5b9e53866c15e1241dd55f0ba07841453ab3903d6f504e29e2324655979",
   "draft_sha256": {
     "GZCL": "720589159fa9bedae9aceb2bf1b586fa6511323abbde0d4dc5c3bc178859f966",
     "ZHCL": "f97b911b8177dd72bd8b89ecbb89a800f0118699123631198be6716056f35eea",
@@ -16,5 +16,5 @@
     "candidate_specs.json": "611bc1a4309c76bede5a1ae3ef8ffe361339ba1028ad82260c559f7982d8a1a2",
     "changes.json": "121dfb262815549423c7d07f57f024cd67ae3cf9271f646c5eade320d196254d"
   },
-  "config_hash": "4bb0102da57bb27ef2263a00b88f59810b9f8c1bd3e9b9958fa6751783c8080b"
+  "config_hash": "0259e26309d2f8d0e121df20029cc9fb9bcece97f65283f94ed5adeea54e4f16"
 }

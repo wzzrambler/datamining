@@ -398,7 +398,8 @@ class CorpusExportTests(unittest.TestCase):
     def test_full_release_rebuild_preserves_production_graph(self):
         import shutil
         from p5_agent.export import export_run
-        source = ROOT / 'processed/P5条件建议抽取/runs/full-final-20261101'
+        pointer = ROOT / 'processed/P5条件建议抽取/ACTIVE_RUN'
+        source = ROOT / 'processed/P5条件建议抽取/runs' / pointer.read_text('utf-8').strip()
         parent = ROOT / '.test_tmp'
         parent.mkdir(exist_ok=True)
         with tempfile.TemporaryDirectory(dir=parent, prefix='p5_release_') as temp:

@@ -1,0 +1,32 @@
+[
+  {
+    "statement_kind": "general_advice",
+    "condition": null,
+    "consequence_text": "在诺日朗餐厅用餐，用餐和休息时间2个小时，可观赏诺日朗瀑布",
+    "force": "recommended",
+    "targets": [
+      {
+        "kind": "POI",
+        "id": "POI-4da05841a736a1f2"
+      },
+      {
+        "kind": "POI",
+        "id": "POI-6cfbebe4c178f2ad"
+      },
+      {
+        "kind": "POI",
+        "id": "POI-a59bdf752fbbc666"
+      },
+      {
+        "kind": "ROUTE",
+        "id": "JZG-OFF-01-R-5489d330c8"
+      }
+    ],
+    "scenic_code": "JZG",
+    "rule_id": "RULE-dde78ef4112b1cec32ab",
+    "p5_complete": false,
+    "observation_ids": [
+      "P5OBS-82857afcf93a33c9"
+    ]
+  }
+]

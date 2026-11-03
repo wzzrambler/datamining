@@ -1,0 +1,3344 @@
+[
+  {
+    "id": "POI-1fc2c78de022d941",
+    "name": "长隆野生动物世界北门",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "gate",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-aac7d90bfc5ff426",
+    "name": "长隆野生动物世界南门",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "gate",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-6d3dead8afc28ac0",
+    "name": "步行",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-be17c3cb4cad7df8",
+    "name": "大夫森林公园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-cff4603db8535366",
+    "name": "地铁",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-9b5ed8e652f8e344",
+    "name": "小火车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-78f05fe80a344b95",
+    "name": "自驾",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a62c2af16093cd29",
+    "name": "长隆野生动物世界",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-41d5eefef861e525",
+    "name": "天鹅湖",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-1f9dec76824b98e0",
+    "name": "缆车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-c9eafeca46dfede7",
+    "name": "青龙山",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-2e158f7f7465f6f2",
+    "name": "百虎山",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-85e6ae3c03e7893e",
+    "name": "非洲草原",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-0baa51d763ec4739",
+    "name": "长隆国际大马戏",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a9f1a43dfb4dde70",
+    "name": "汉溪长隆站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-76947892b9ca8a44",
+    "name": "穿梭巴士",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-25e3bd181c2c2ab3",
+    "name": "空中缆车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-bdd6408fd477a09a",
+    "name": "南亚雨林",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-14598711085637dc",
+    "name": "狂野地带",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-03a7935eebaca9a4",
+    "name": "南非高原园区",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-865c34ecb346cb07",
+    "name": "东非草原",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-16faaf4bb4e64e09",
+    "name": "青龙山景区",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-ce892d48eef9a02f",
+    "name": "侏罗纪森林",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-b2651a45b778b60b",
+    "name": "金蛇秘境",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-11db8601a1e93894",
+    "name": "金猴王国",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-20bcff6ec260b6ce",
+    "name": "花果山",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-96228e426b4b14f4",
+    "name": "动物幼儿园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-dfe674a2b7c954bf",
+    "name": "熊猫餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a5e2ae7adbddb3ba",
+    "name": "天鹅湖站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-b1f6b7b2ab56bf1d",
+    "name": "熊猫乐园站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-ee07143d3d6c6f04",
+    "name": "非洲草原站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-ebc9c6b6cc39c0aa",
+    "name": "亚洲象园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-73de67c9bb37b2da",
+    "name": "考拉园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-aa28ef8584e34841",
+    "name": "熊猫村",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-db5b34348b0b1b08",
+    "name": "长隆酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-fa9eae685634eb10",
+    "name": "雨林仙踪",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-25d53e13a3ca790d",
+    "name": "长颈鹿广场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-007a647d74f009b6",
+    "name": "熊猫乐园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-92e840a088d48bc6",
+    "name": "非洲森林",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-9ea54f9e5e92a0ee",
+    "name": "火烈鸟岛",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-6dc59eea71366bd1",
+    "name": "萌帅酷乐园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-516ccdca9b2c9bcc",
+    "name": "方舟剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-21976f5decc08f5c",
+    "name": "熊猫亲子餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-5f6108e8b89839dd",
+    "name": "熊猫酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-8db4eab278163653",
+    "name": "接驳巴士",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a2a8d994442ab582",
+    "name": "白虎自助餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a861b1470d96ab5f",
+    "name": "小火车游览区",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-ccbcc24cc2878c83",
+    "name": "4D影院",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-945872fa06706211",
+    "name": "长隆欢乐世界",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-d49792b6a476a673",
+    "name": "长隆熊猫酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-86a654325b202f68",
+    "name": "长隆欢乐世界北门",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "gate",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-593cc605673fc5d0",
+    "name": "火箭过山车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-7aa482d697cf9c24",
+    "name": "龙卷风暴",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-9f04ae367d10711d",
+    "name": "椰林餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-e08ce45abf2ba51f",
+    "name": "梦幻转马",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-547fc046adb8d376",
+    "name": "垂直过山车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-0341febabde17574",
+    "name": "欢乐跳跳",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-7cb68e6dca15dc07",
+    "name": "欢乐剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-57664aee61e24331",
+    "name": "超级大摆锤",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-2b7514761c560358",
+    "name": "急流勇进",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-32a00d8fe0899f41",
+    "name": "长隆欢乐世界南门",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "gate",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-66a720f3c8c91124",
+    "name": "飞马家庭过山车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-43ad5aba181a61a3",
+    "name": "森林小火车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-3e926955a726b66f",
+    "name": "长隆水上乐园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-329fe166d508c4ba",
+    "name": "机场快线",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-660c137bb180f34a",
+    "name": "高铁",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-4b27a2166b41d88e",
+    "name": "公交巴士",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-b52544c6bf257d41",
+    "name": "汉溪长隆站D/E口",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "gate",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-bd5b63d0628931ad",
+    "name": "黑猩猩展区",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-6bccf3822cd28989",
+    "name": "科普剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a344469984e64acb",
+    "name": "骑士剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-4570a4b488799c89",
+    "name": "骐骥天地",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-b0a1ca9ec7604bec",
+    "name": "花果山餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-345f2bdb655eca07",
+    "name": "科莫多龙园区",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-eb0da5555fe3ef39",
+    "name": "打车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-94a402b198679532",
+    "name": "长隆飞鸟乐园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-cc8a69d123c2bda5",
+    "name": "考拉餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-af9b3fc71949150f",
+    "name": "长隆大熊猫中心",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-b48b971faef36a56",
+    "name": "园区巴士",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-6450fc428335d81b",
+    "name": "巨星剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-3e6ffc2ed535ade0",
+    "name": "乘船",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-44b2356447ef131d",
+    "name": "长隆香江酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-80605da8eed5dfe5",
+    "name": "午夜港片城",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-2a0d3bd388bbd6cb",
+    "name": "幽暗海盗湾",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-2176c259f9c3f89f",
+    "name": "诡异马戏村",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-1be9085647ce28d5",
+    "name": "后宫修罗场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a6bb270fe465bcfd",
+    "name": "粉小琦庄园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-cb24680dd82e15c1",
+    "name": "九寨沟",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-f84f479f75d655c0",
+    "name": "松潘古城",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-13228cccee608f7d",
+    "name": "长海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "13:30-14:20乘坐观光车,约30分钟车程",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-13228cccee608f7d",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "observation_ids": [
+          "P5OBS-da4e2796029ad05d"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间20分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-13228cccee608f7d",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "observation_ids": [
+          "P5OBS-da4e2796029ad05d"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "14:20",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-13228cccee608f7d",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S010",
+        "observation_ids": [
+          "P5OBS-da4e2796029ad05d"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-da4e2796029ad05d"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-de6db9a7cdd443ab",
+    "name": "五彩池",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "14:20-14:50步行15分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-de6db9a7cdd443ab",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "observation_ids": [
+          "P5OBS-3c039f723f4888b1"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间15分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-de6db9a7cdd443ab",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "observation_ids": [
+          "P5OBS-3c039f723f4888b1"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "14:50",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-de6db9a7cdd443ab",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S011",
+        "observation_ids": [
+          "P5OBS-3c039f723f4888b1"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-3c039f723f4888b1"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-545fccca3e7cf427",
+    "name": "镜海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "10:40",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-545fccca3e7cf427",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "observation_ids": [
+          "P5OBS-232e873d7595f38b"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "11:10",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-545fccca3e7cf427",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "observation_ids": [
+          "P5OBS-232e873d7595f38b"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间20分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-545fccca3e7cf427",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "observation_ids": [
+          "P5OBS-232e873d7595f38b"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-232e873d7595f38b"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-af9f086f65127147",
+    "name": "五花海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "10:10",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-af9f086f65127147",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "observation_ids": [
+          "P5OBS-4720a60d46213f72"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "10:40",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-af9f086f65127147",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "observation_ids": [
+          "P5OBS-4720a60d46213f72"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间20分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-af9f086f65127147",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "observation_ids": [
+          "P5OBS-4720a60d46213f72"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-4720a60d46213f72"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-360c92072be143c1",
+    "name": "珍珠滩瀑布",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-f5c247b15cea1e11",
+    "name": "树正沟",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-275d47d6c2001f3f",
+    "name": "树正群海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-302154bebe2201cc",
+    "name": "徒步",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-e6843f2f5df433cb",
+    "name": "观光车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-093f0023e45f6198",
+    "name": "犀牛海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "14:50-15:40乘坐观光车,约30分钟车程",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-093f0023e45f6198",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "observation_ids": [
+          "P5OBS-84426758764e588c"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间20分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-093f0023e45f6198",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "observation_ids": [
+          "P5OBS-84426758764e588c"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "15:40",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-093f0023e45f6198",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S012",
+        "observation_ids": [
+          "P5OBS-84426758764e588c"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-093f0023e45f6198",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "observation_ids": [
+          "P5OBS-c29ed020c5efaa3e"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-84426758764e588c",
+      "P5OBS-c29ed020c5efaa3e"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-90e6d6cf975ce322",
+    "name": "老虎海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-90e6d6cf975ce322",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "observation_ids": [
+          "P5OBS-12b2819cd8609495"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-12b2819cd8609495"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-0bcb1dea43e5296a",
+    "name": "原始森林",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "08:10",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-0bcb1dea43e5296a",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "observation_ids": [
+          "P5OBS-4edec42dfb1c8f90"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-4edec42dfb1c8f90"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-d84c258e38dc6005",
+    "name": "箭竹海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间15分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-d84c258e38dc6005",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "observation_ids": [
+          "P5OBS-ddd28ca1dd38a014"
+        ]
+      },
+      {
+        "attribute": "arrival_time",
+        "value_text": "09:45",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-d84c258e38dc6005",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "observation_ids": [
+          "P5OBS-b1ad496be032317c"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间15分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-d84c258e38dc6005",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "observation_ids": [
+          "P5OBS-b1ad496be032317c"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-ddd28ca1dd38a014",
+      "P5OBS-b1ad496be032317c"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-0bda7df0b7655a1b",
+    "name": "坐车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-10e8a874d4a64eeb",
+    "name": "诺日朗中心",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "service_center",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-9cb8ef99d892b62b",
+    "name": "日则沟",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-a3087430f466be14",
+    "name": "乘车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-d896be8c097d9bf2",
+    "name": "熊猫海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "09:45",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-d896be8c097d9bf2",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "observation_ids": [
+          "P5OBS-644a7cf8978d49de"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "10:10",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-d896be8c097d9bf2",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "observation_ids": [
+          "P5OBS-644a7cf8978d49de"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间15分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-d896be8c097d9bf2",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S005",
+        "observation_ids": [
+          "P5OBS-644a7cf8978d49de"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-644a7cf8978d49de"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a59bdf752fbbc666",
+    "name": "诺日朗瀑布",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时,可观赏诺日朗瀑布",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "recommended",
+        "entity_id": "POI-a59bdf752fbbc666",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+        "observation_ids": [
+          "P5OBS-cd3429cc6490cc9b"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-cd3429cc6490cc9b"
+    ],
+    "rule_ids": [
+      "RULE-dde78ef4112b1cec32ab"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-dde78ef4112b1cec32ab"
+    ]
+  },
+  {
+    "id": "POI-35e41b7e200a7bc0",
+    "name": "树正瀑布",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-35e41b7e200a7bc0",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "observation_ids": [
+          "P5OBS-8a6cbf8938f051a8"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-8a6cbf8938f051a8"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-2bc3cb4622efb0de",
+    "name": "公主海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-85a9974dcb5d66c0",
+    "name": "火花海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-c97ee39818a3536c",
+    "name": "双龙海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-c97ee39818a3536c",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "observation_ids": [
+          "P5OBS-87f1d3d05a77768b"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-87f1d3d05a77768b"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-5fa63dd98f5dd264",
+    "name": "芦苇海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-805a28099052ccae",
+    "name": "珍珠滩",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-7927973cb5fc8e4d",
+    "name": "则查洼沟",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-bbc557d2673e93f6",
+    "name": "芳草海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "09:00",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-bbc557d2673e93f6",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "observation_ids": [
+          "P5OBS-4dddac71816db728"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间20分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-bbc557d2673e93f6",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S002",
+        "observation_ids": [
+          "P5OBS-4dddac71816db728"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-4dddac71816db728"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-871c3b6e819c218e",
+    "name": "天鹅海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "09:15",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-871c3b6e819c218e",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "observation_ids": [
+          "P5OBS-1f0c7322c8bd7bc0"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间10分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-871c3b6e819c218e",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "observation_ids": [
+          "P5OBS-1f0c7322c8bd7bc0"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-1f0c7322c8bd7bc0"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-f7ce93ebd3dcce05",
+    "name": "箭竹海瀑布",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a202cf0c7ad82ab2",
+    "name": "熊猫海瀑布",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-92c22032755cbbfb",
+    "name": "孔雀河道",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-87bc59b6b6d79cf5",
+    "name": "小金铃海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-cfdaa794db8764b9",
+    "name": "上季节海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-4635c21b138627dc",
+    "name": "下季节海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-5803354d56bd9e8f",
+    "name": "树正磨房",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-5803354d56bd9e8f",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "observation_ids": [
+          "P5OBS-d6da414aa915e4fc"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-d6da414aa915e4fc"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-612a6e7d55fb0b0a",
+    "name": "树正寨",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-612a6e7d55fb0b0a",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "observation_ids": [
+          "P5OBS-6bc169bce0e6be64"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-6bc169bce0e6be64"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-adddfdfb0b27578b",
+    "name": "卧龙海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "15:40-17:00步行+乘车的方式,约1个多小时游览时间",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-adddfdfb0b27578b",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S013",
+        "observation_ids": [
+          "P5OBS-f8193e68d462a48c"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-f8193e68d462a48c"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-3464c42c5541834f",
+    "name": "盆景滩",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "17:00-17:20乘坐观光车,约10分钟车程,游览时间10分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-3464c42c5541834f",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S014",
+        "observation_ids": [
+          "P5OBS-af401590f88fa705"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-af401590f88fa705"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-4286d8a6a4a416df",
+    "name": "诺日朗群海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "11:10",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-4286d8a6a4a416df",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "observation_ids": [
+          "P5OBS-6a27e00e7acb0d20"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "11:25",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-4286d8a6a4a416df",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "observation_ids": [
+          "P5OBS-6a27e00e7acb0d20"
+        ]
+      },
+      {
+        "attribute": "visit_time",
+        "value_text": "游览时间10分钟",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-4286d8a6a4a416df",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "observation_ids": [
+          "P5OBS-6a27e00e7acb0d20"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-6a27e00e7acb0d20",
+      "P5OBS-55c110ced899c6f6"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-4da05841a736a1f2",
+    "name": "诺日朗中心站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "11:30",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-4da05841a736a1f2",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+        "observation_ids": [
+          "P5OBS-49e4c869beca7d03"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "13:30",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-4da05841a736a1f2",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+        "observation_ids": [
+          "P5OBS-49e4c869beca7d03"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-49e4c869beca7d03"
+    ],
+    "rule_ids": [
+      "RULE-dde78ef4112b1cec32ab"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-dde78ef4112b1cec32ab"
+    ]
+  },
+  {
+    "id": "POI-6cfbebe4c178f2ad",
+    "name": "诺日朗餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "visit_time",
+        "value_text": "11:30-13:30诺日朗餐厅用餐,用餐和休息时间2个小时",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "recommended",
+        "entity_id": "POI-6cfbebe4c178f2ad",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S009",
+        "observation_ids": [
+          "P5OBS-d99d7afaefa438a5"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-d99d7afaefa438a5"
+    ],
+    "rule_ids": [
+      "RULE-dde78ef4112b1cec32ab"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-dde78ef4112b1cec32ab"
+    ]
+  },
+  {
+    "id": "POI-de48037e474f5793",
+    "name": "九寨沟神仙池景区",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-944131ff56396c57",
+    "name": "观光大巴",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-ff1c7f688a819aea",
+    "name": "成都东站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-39f671334b05bd19",
+    "name": "黄龙九寨站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-c7876b90c7441768",
+    "name": "直通车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-ccdcf1d605306320",
+    "name": "公交",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-d46ef2f6d4e07910",
+    "name": "镜海停车场",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "parking",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-ecf22b3f7c37cdb9",
+    "name": "动车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-6117ff03af895cae",
+    "name": "包车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-5bfe3687eda400d9",
+    "name": "成都天府机场",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-67bcda65511d77c7",
+    "name": "火车南站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-dda73c5206efbef9",
+    "name": "藏王宴舞停车场",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "parking",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-859e5641d28e8b93",
+    "name": "沟口游客中心",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "service_center",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "arrival_time",
+        "value_text": "17:35",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-859e5641d28e8b93",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S015",
+        "observation_ids": [
+          "P5OBS-79cf2c6cf01cd5d8"
+        ]
+      },
+      {
+        "attribute": "departure_time",
+        "value_text": "07:00",
+        "related_poi_id": null,
+        "condition": null,
+        "modality": "asserted",
+        "entity_id": "POI-859e5641d28e8b93",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "step_id": "JZG-OFF-01-R-5489d330c8-S001",
+        "observation_ids": [
+          "P5OBS-79da0c9769e2501a"
+        ]
+      }
+    ],
+    "observation_ids": [
+      "P5OBS-79cf2c6cf01cd5d8",
+      "P5OBS-79da0c9769e2501a"
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-4dfe4ae37d7ac7ce",
+    "name": "大巴",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-8f91c620f059eb51",
+    "name": "飞机",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-9039e85044983122",
+    "name": "出租车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-beb59f353edcb983",
+    "name": "接驳车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a2f2a450e902b7ef",
+    "name": "九寨黄龙机场",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-ef11cb40e93ccc3b",
+    "name": "拼车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-54159dd45e739e0c",
+    "name": "黄龙景区",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "JZG",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-7e07d15b43087423",
+    "name": "摆渡车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-9d18c03e51c3bc72",
+    "name": "索道",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a9df4e391f8f4dc5",
+    "name": "珠海长隆海洋王国",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-9eab3d0f42d1581a",
+    "name": "鹦鹉过山车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-3236debf17c97904",
+    "name": "鲸鲨馆",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-0e708b4c23900ae0",
+    "name": "5D城堡影院",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-1d40a08230988180",
+    "name": "海豚转转车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-c5d3794a5bd479c4",
+    "name": "海底互动船",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-d6697eb23bea8174",
+    "name": "海豚剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-f2b4e627e9f8f21e",
+    "name": "白鲸剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-6a4e18c9617ef088",
+    "name": "海狮剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-e22d48e99c31fe08",
+    "name": "企鹅馆",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-7ca82081a5796ec8",
+    "name": "白鲸馆",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-28a22fc7ce651360",
+    "name": "北极熊馆",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-24536d158b9d592d",
+    "name": "冰山过山车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-6f192b5902b5c9e3",
+    "name": "激浪帆船",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-9beeec837463067a",
+    "name": "旋转水战",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-10623fdfb68c00fa",
+    "name": "梦幻海洋",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-f7a56253a0e929d3",
+    "name": "海牛馆",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-aef8bb15db756e34",
+    "name": "海象岛",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-ab66799cc28e960e",
+    "name": "海豚岛",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-7377c9ae46661652",
+    "name": "海洋大街",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-b8df7fda51359cb0",
+    "name": "海豚湾",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-f0f39c100df65c62",
+    "name": "雨林飞翔",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-d1cd4052f5ac1680",
+    "name": "海洋奇观",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-25d5c8122d40c935",
+    "name": "极地探险",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-c25a13ed2fbb6a64",
+    "name": "英雄岛",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-a97d1ff7730c6793",
+    "name": "海象山",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-13fccb128c3272b4",
+    "name": "横琴海",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-b8e64b9bb6c121a4",
+    "name": "中华白海豚",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-92bc2c0b78685230",
+    "name": "雨林升降塔",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-64d156a680f41327",
+    "name": "企鹅过山车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-ca02e6daed277450",
+    "name": "海洋露天剧场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-301f03111a2d5c2f",
+    "name": "超级激流",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-10ba21d884f53f2b",
+    "name": "丛林过山车",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "ride",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-8f273301ad492c25",
+    "name": "海狮港湾",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-081574ee84e23fb5",
+    "name": "海鸟世界",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-3ee90e175366fdcd",
+    "name": "横琴湾酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-49cc28405c4af399",
+    "name": "横琴湾水世界",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-6fd93b0ab9766f13",
+    "name": "海景轩",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-0823899e1cb7827e",
+    "name": "渔港食街",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-b9dffee86bef7b13",
+    "name": "长隆企鹅酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-cec436cb21d421e3",
+    "name": "珊瑚自助餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-01558223b1ad3062",
+    "name": "亚马逊森林美食廊",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-87daa5f702674d91",
+    "name": "长隆飞船乐园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "scenic",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-8e30af6143e8c689",
+    "name": "长隆剧院",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-e8c126011afa05ef",
+    "name": "探险家餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-e21a9617f29290f0",
+    "name": "雨林餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-d627ae6e7e97f00c",
+    "name": "珠海长隆站",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-d2bf62a59b44ce35",
+    "name": "公交车",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-396e9403f2183845",
+    "name": "长隆马戏酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-e31ab2d08ba0a109",
+    "name": "长隆迎海酒店公寓",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-b30efd4e6d99e09f",
+    "name": "游艇",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-46b7eb6b4b6b049e",
+    "name": "火烈鸟岛",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-c61a71c431ecfe62",
+    "name": "南花园",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-73bfe0e5a6149760",
+    "name": "国际马戏城",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "venue",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-8c9f9c26ca3fdd35",
+    "name": "海底餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-4cd36701be59f2ee",
+    "name": "长隆飞船酒店",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "hotel",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "TRANSPORT-32f5806de7c230c5",
+    "name": "小船",
+    "kind": "TRANSPORT",
+    "scenic_code": null,
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-dab21fa06e57ae03",
+    "name": "帝企鹅自助餐厅",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "restaurant",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-3ef0236163488097",
+    "name": "水獭之家",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-5976f654ecaa88ba",
+    "name": "横琴口岸",
+    "kind": "POI",
+    "role": "support",
+    "subtype": "station",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  },
+  {
+    "id": "POI-89d5db866e7c1eff",
+    "name": "喷泉广场",
+    "kind": "POI",
+    "role": "attraction",
+    "subtype": "spot",
+    "scenic_code": "ZHCL",
+    "facts": [],
+    "observation_ids": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": []
+  }
+]

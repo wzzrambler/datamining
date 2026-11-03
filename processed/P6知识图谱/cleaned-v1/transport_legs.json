@@ -13,7 +13,7 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-9c5ea9ae72684e88"
+      "P5OBS-e6ecf048a3083c7b"
     ]
   },
   {
@@ -35,30 +35,30 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-3037db6d88459b8e"
+          "P5OBS-269829b6ddff6f04"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-c812890ece4989d885f5"
+      "RULE-bae1f882847c4d63245f"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-c812890ece4989d885f5"
+      "RULE-bae1f882847c4d63245f"
     ],
     "observation_ids": [
-      "P5OBS-3037db6d88459b8e"
+      "P5OBS-269829b6ddff6f04"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-4fae7b40ec08ca661c8b",
-        "label": "地铁换乘与免费接驳巴士",
-        "summary": "历史资料记载，可乘坐3号线或7号线至“汉溪长隆站”，从D/E口出站后换乘免费接驳巴士，直达长隆野生动物世界北门或南门，资料称这样最省心。",
+        "topic_id": "THEME-b3b1c750bd7f6fe334c4",
+        "label": "地铁换乘与免费接驳",
+        "summary": "历史资料记载，乘坐3号线或7号线至“汉溪长隆站”，从D/E口出站后可换乘免费接驳巴士，直达长隆野生动物世界北门或南门；该说法建议此方式最省心。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-3fb5047c5f5a75f6bc6e",
         "source_record_ids": [
-          "RULE-c812890ece4989d885f5"
+          "RULE-bae1f882847c4d63245f"
         ],
         "current_validity_verified": false
       }
@@ -86,7 +86,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-120e279405e04d44"
+          "P5OBS-04b5843e000eccab"
         ]
       }
     ],
@@ -95,7 +95,7 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-120e279405e04d44"
+      "P5OBS-04b5843e000eccab"
     ],
     "time_summary_ids": [
       "TIME-cdb092e748c2bb7967eb"
@@ -133,7 +133,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S011",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S011",
         "observation_ids": [
-          "P5OBS-3aed56a7d1c375ed"
+          "P5OBS-9ac929a440cb82ef"
         ]
       },
       {
@@ -146,7 +146,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S011",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S011",
         "observation_ids": [
-          "P5OBS-3aed56a7d1c375ed"
+          "P5OBS-9ac929a440cb82ef"
         ]
       }
     ],
@@ -162,7 +162,7 @@
     "recommendation_rule_ids": [],
     "observation_ids": [
       "P5OBS-88a22f6bcd1dce89",
-      "P5OBS-3aed56a7d1c375ed"
+      "P5OBS-9ac929a440cb82ef"
     ],
     "time_summary_ids": [
       "TIME-64332f12449d347bf78d",
@@ -180,7 +180,7 @@
     "facts": [
       {
         "attribute": "limitation",
-        "value_text": "原始森林到箭竹海7公里，别徒步，坐车",
+        "value_text": "7公里，别徒步，坐车",
         "condition": null,
         "modality": "recommended",
         "leg_id": "LEG-0777fa5d500669e62f66",
@@ -188,7 +188,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-441ce762b1afdc33"
+          "P5OBS-03ab007935448a75"
         ]
       }
     ],
@@ -201,17 +201,17 @@
     ],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-441ce762b1afdc33"
+      "P5OBS-03ab007935448a75"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-801a23bb8ad7b547a843",
+        "topic_id": "THEME-521f3849f6855907d7c9",
         "label": "交通方式与距离",
-        "summary": "历史资料记载，原始森林到箭竹海相距7公里，建议不要徒步，改坐观光车。",
+        "summary": "历史资料记载，原始森林到箭竹海约7公里，建议不要徒步，坐观光车。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-e32d4ac8c961531d81a5",
         "source_record_ids": [
-          "FACT-79d2a3d18bb27b01e365",
+          "FACT-5633932da09d58f30a08",
           "RULE-9b8f4f047554f14e900d"
         ],
         "current_validity_verified": false
@@ -232,7 +232,7 @@
     "facts": [
       {
         "attribute": "ride_duration",
-        "value_text": "步行100米",
+        "value_text": "往下步行100米",
         "condition": null,
         "modality": "asserted",
         "leg_id": "LEG-09a69634d9ad80410553",
@@ -240,7 +240,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-8cec7e22e8d8e001"
+          "P5OBS-32071e9b01959972"
         ]
       }
     ],
@@ -249,76 +249,10 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-8cec7e22e8d8e001"
+      "P5OBS-32071e9b01959972"
     ],
     "time_summary_ids": [
       "TIME-fc170f0674a8460b5747"
-    ]
-  },
-  {
-    "from_entity_id": "POI-0bcb1dea43e5296a",
-    "to_entity_id": "POI-d84c258e38dc6005",
-    "transport_entity_id": "TRANSPORT-302154bebe2201cc",
-    "assertion_kind": "visitor_movement",
-    "service_name_text": null,
-    "leg_id": "LEG-0cedd0325fb46993b50d",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "ride_duration",
-        "value_text": "来回折腾两个多小时",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-0cedd0325fb46993b50d",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-f155e01a87189818"
-        ]
-      },
-      {
-        "attribute": "limitation",
-        "value_text": "两站之间足足相隔7公里",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-0cedd0325fb46993b50d",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-f155e01a87189818"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-7e71e3f2cc0f3714507c"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-f155e01a87189818"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-93385264d02f3c2629d6",
-        "label": "徒步距离与耗时",
-        "summary": "历史资料记载，原始森林与箭竹海两站之间足足相隔7公里。有游客表示，若直接在原始森林站点下车、硬靠双腿徒步走到箭竹海，来回折腾两个多小时，腿脚酸痛，大半游玩时间全耗在路上。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-84bd63bd18fe15046a25",
-        "source_record_ids": [
-          "FACT-61624f14708daa3e47ed",
-          "RULE-7e71e3f2cc0f3714507c"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "time_summary_ids": [
-      "TIME-aa144c97e56353025b47"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-84bd63bd18fe15046a25"
     ]
   },
   {
@@ -340,7 +274,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-2ed140f37fc84741"
+          "P5OBS-c65a7d210d3fd21d"
         ]
       },
       {
@@ -353,33 +287,33 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-4277036978e52425"
+          "P5OBS-59d0a98ed8f10b1f"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-1022bce9194741dfd08d",
+      "RULE-818c59acf7d58e605faf",
       "RULE-9422ca3e6a1e1b7e5f2c"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-1022bce9194741dfd08d",
+      "RULE-818c59acf7d58e605faf",
       "RULE-9422ca3e6a1e1b7e5f2c"
     ],
     "observation_ids": [
-      "P5OBS-2ed140f37fc84741",
-      "P5OBS-4277036978e52425"
+      "P5OBS-c65a7d210d3fd21d",
+      "P5OBS-59d0a98ed8f10b1f"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-7f5fce83f6e5b586f646",
+        "topic_id": "THEME-21d2f912f28d799613b0",
         "label": "步行路线与用时",
-        "summary": "历史资料记载，从地铁3/7号线汉溪长隆站D/E口出站后，可步行前往长隆野生动物世界南门；有资料称步行几分钟即到，另有资料称从广州地铁三号线汉溪地铁站D出口跟随地标步行约10分钟左右抵达南门。",
+        "summary": "历史资料记载，从广州地铁三号线汉溪地铁站D出口，可跟随站内地标步行约10分钟左右抵达长隆野生动物世界南门；另有说法称从地铁3/7号线汉溪长隆站D/E口出站，步行几分钟即可到南门。两种说法均针对汉溪长隆站D/E口至南门的步行路线，用时描述略有差异。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-6d2684a3c19a15808856",
         "source_record_ids": [
-          "RULE-1022bce9194741dfd08d",
+          "RULE-818c59acf7d58e605faf",
           "RULE-9422ca3e6a1e1b7e5f2c"
         ],
         "current_validity_verified": false
@@ -390,6 +324,189 @@
     ],
     "advice_summary_ids": [
       "ADVICE-6d2684a3c19a15808856"
+    ]
+  },
+  {
+    "from_entity_id": "POI-ee07143d3d6c6f04",
+    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "service_connection",
+    "service_name_text": "缆车",
+    "leg_id": "LEG-0dfdbcce1473f1485bf9",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "除了人工刻意做出来的空中熊猫外，能看到的动物大部分被树荫遮挡看不到太多",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-0dfdbcce1473f1485bf9",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-68161280633af03d"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-68161280633af03d"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-cc1667e986b854691e04",
+        "label": "沿途观赏体验",
+        "summary": "历史资料记载，有游客表示，在这段空中缆车沿途，除了人工刻意做出来的空中熊猫外，能看到的动物大部分被树荫遮挡，看不到太多。",
+        "scenic_code": "GZCL",
+        "advice_summary_id": "ADVICE-29879d488ebf11ab5604",
+        "source_record_ids": [
+          "FACT-80ae7ec3e8b493b5a915"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-29879d488ebf11ab5604"
+    ]
+  },
+  {
+    "from_entity_id": "POI-f84f479f75d655c0",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "service_connection",
+    "service_name_text": "C5758",
+    "leg_id": "LEG-0e255662c91ff21a11e0",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "20:40松潘→22:20成都东",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-0e255662c91ff21a11e0",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-5f18c875573bc87f"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-df8e02c44b382f322253"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-5f18c875573bc87f"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-8f8d093e0c23f18e82e5",
+        "label": "高铁班次与出发站选择",
+        "summary": "历史资料记载，从松潘古城前往成都东站的高铁行程中，涉及20:33从黄龙九寨站出发或20:40从松潘站出发的班次说法；原文仅列出这两个时间点及对应车站，未给出具体后果或进一步安排。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-28daaa5d3212fbcb3d85",
+        "source_record_ids": [
+          "RULE-df8e02c44b382f322253"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "time_summary_ids": [
+      "TIME-4f4889777c7c2b4afacf"
+    ],
+    "advice_summary_ids": [
+      "ADVICE-28daaa5d3212fbcb3d85"
+    ]
+  },
+  {
+    "from_entity_id": "POI-a9f1a43dfb4dde70",
+    "to_entity_id": "POI-b52544c6bf257d41",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-0eac262b335fb045f9e7",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-b07c46e94373e89a7b2f"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-b07c46e94373e89a7b2f"
+    ],
+    "observation_ids": [
+      "P5OBS-0ac4211e6c60a976"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-be2bacc68e0a6e6c3633",
+        "label": "地铁到达与接驳",
+        "summary": "历史资料记载，坐地铁到汉溪长隆地铁站，7号线和3号线都可以到达；下地铁后从D出口或E出口出站，再搭园区的免费穿梭巴士去大戏剧院。该建议针对从汉溪长隆站前往长隆国际大马戏的接驳场景。",
+        "scenic_code": "GZCL",
+        "advice_summary_id": "ADVICE-4f23c15c463e97c6325d",
+        "source_record_ids": [
+          "RULE-b07c46e94373e89a7b2f"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-4f23c15c463e97c6325d"
+    ]
+  },
+  {
+    "from_entity_id": "POI-41d5eefef861e525",
+    "to_entity_id": "POI-ee07143d3d6c6f04",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "service_connection",
+    "service_name_text": "缆车",
+    "leg_id": "LEG-0f07b5cc37bccabc9274",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "经过野生放养区上方，可以俯瞰大象犀牛长颈鹿等动物",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-0f07b5cc37bccabc9274",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ce923fba1e8c8ccb"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-ce923fba1e8c8ccb"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-2a13a8ea6f851a378509",
+        "label": "空中缆车观景",
+        "summary": "历史资料记载，天鹅湖至非洲草原站的空中缆车经过野生放养区上方，可以俯瞰大象、犀牛、长颈鹿等动物。",
+        "scenic_code": "GZCL",
+        "advice_summary_id": "ADVICE-e9d7911dcba93539d9f3",
+        "source_record_ids": [
+          "FACT-8f0250dadc83f3aa4a9f"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-e9d7911dcba93539d9f3"
     ]
   },
   {
@@ -406,7 +523,54 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-9c5bdf3c9debf921"
+      "P5OBS-98094ab2b641f0a7"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5bfe3687eda400d9",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-8f91c620f059eb51",
+    "assertion_kind": "unspecified",
+    "service_name_text": null,
+    "leg_id": "LEG-110a37aafa3623a9fb4a",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "22-23:55",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-110a37aafa3623a9fb4a",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-fc8139cae435b263"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥524",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-110a37aafa3623a9fb4a",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-fc8139cae435b263"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-fc8139cae435b263"
+    ],
+    "time_summary_ids": [
+      "TIME-376c155803572b00be59"
     ]
   },
   {
@@ -426,9 +590,9 @@
         "leg_id": "LEG-121a67f91df7bea63444",
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S006",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S007",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S006",
         "observation_ids": [
-          "P5OBS-3c7e592120d48152"
+          "P5OBS-d0766a5585f8c08a"
         ]
       }
     ],
@@ -436,14 +600,14 @@
       {
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S006",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S007"
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S006"
       }
     ],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-3c7e592120d48152"
+      "P5OBS-d0766a5585f8c08a"
     ],
     "time_summary_ids": [
       "TIME-d079045f7f14a2de8f8e"
@@ -463,7 +627,7 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-c2d459ef9b1a4593"
+      "P5OBS-f385a2c1d75fdd30"
     ]
   },
   {
@@ -482,84 +646,33 @@
         "modality": "asserted",
         "leg_id": "LEG-12dacd20d50a4f39b76e",
         "route_id": null,
-        "upstream_route_id": "JZG-NOTE-12-R-d519b6d883",
+        "upstream_route_id": "JZG-NOTE-12-R-564b2a0936",
         "scope_status": "excluded_route_fragment_scope",
         "from_step_id": null,
-        "upstream_from_step_id": "JZG-NOTE-12-R-d519b6d883-S002",
+        "upstream_from_step_id": "JZG-NOTE-12-R-564b2a0936-S002",
         "to_step_id": null,
-        "upstream_to_step_id": "JZG-NOTE-12-R-d519b6d883-S003",
+        "upstream_to_step_id": "JZG-NOTE-12-R-564b2a0936-S003",
         "observation_ids": [
-          "P5OBS-5a1fca95283893de"
+          "P5OBS-eae27073a7de56a7"
         ]
       }
     ],
     "route_bindings": [],
     "upstream_fragment_bindings": [
       {
-        "route_id": "JZG-NOTE-12-R-d519b6d883",
-        "from_step_id": "JZG-NOTE-12-R-d519b6d883-S002",
-        "to_step_id": "JZG-NOTE-12-R-d519b6d883-S003"
+        "route_id": "JZG-NOTE-12-R-564b2a0936",
+        "from_step_id": "JZG-NOTE-12-R-564b2a0936-S002",
+        "to_step_id": "JZG-NOTE-12-R-564b2a0936-S003"
       }
     ],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-5a1fca95283893de"
+      "P5OBS-eae27073a7de56a7"
     ],
     "time_summary_ids": [
       "TIME-038139fd766496bed7c4"
-    ]
-  },
-  {
-    "from_entity_id": "POI-b52544c6bf257d41",
-    "to_entity_id": "POI-0baa51d763ec4739",
-    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": "园区的免费穿梭巴士",
-    "leg_id": "LEG-12fa8b2d672ddfb9955d",
-    "scenic_code": "GZCL",
-    "facts": [
-      {
-        "attribute": "fare",
-        "value_text": "免费",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-12fa8b2d672ddfb9955d",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-addf40c5f7b09eeb"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-376bf9fdd6cbafa19a57"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-376bf9fdd6cbafa19a57"
-    ],
-    "observation_ids": [
-      "P5OBS-addf40c5f7b09eeb"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-a67bc25c644cf22c39a5",
-        "label": "地铁到达与穿梭巴士",
-        "summary": "历史资料记载，可乘地铁7号线或3号线到汉溪长隆地铁站，从D出口或E出口出站后，搭园区的免费穿梭巴士前往长隆国际大马戏剧院。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-dfd9c8a0bc4506594c2a",
-        "source_record_ids": [
-          "RULE-376bf9fdd6cbafa19a57"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-dfd9c8a0bc4506594c2a"
     ]
   },
   {
@@ -579,9 +692,9 @@
         "leg_id": "LEG-14478b7b341b2e7b58d0",
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S005",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S006",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S005",
         "observation_ids": [
-          "P5OBS-4f0381475a044382"
+          "P5OBS-1a776838cf031952"
         ]
       }
     ],
@@ -589,14 +702,14 @@
       {
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S005",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S006"
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S005"
       }
     ],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-4f0381475a044382"
+      "P5OBS-1a776838cf031952"
     ],
     "time_summary_ids": [
       "TIME-5dc98ef48ecc17d79125"
@@ -613,7 +726,7 @@
     "facts": [
       {
         "attribute": "operating_time",
-        "value_text": "运营时间约10:00-17:30",
+        "value_text": "约10:00-17:30",
         "condition": null,
         "modality": "asserted",
         "leg_id": "LEG-14b745b526b8f0a1a8d7",
@@ -621,7 +734,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-028493e088daa78a"
+          "P5OBS-740a66746889c174"
         ]
       },
       {
@@ -634,7 +747,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-028493e088daa78a"
+          "P5OBS-740a66746889c174"
         ]
       },
       {
@@ -647,72 +760,38 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-028493e088daa78a"
-        ]
-      },
-      {
-        "attribute": "frequency",
-        "value_text": "16:00后排队减半",
-        "condition": {
-          "text": "16:00后",
-          "logic": "single",
-          "clauses": [
-            {
-              "category": "date_time",
-              "text": "16:00后"
-            }
-          ]
-        },
-        "modality": "asserted",
-        "leg_id": "LEG-14b745b526b8f0a1a8d7",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-028493e088daa78a"
+          "P5OBS-740a66746889c174"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-47b1d0e408d71474e06b",
-      "RULE-ef4b3cfb71dcec77c66e"
+      "RULE-970d4ea3e029a97fb6bc",
+      "RULE-7fe6f378c86ea20a5cc1"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-47b1d0e408d71474e06b",
-      "RULE-ef4b3cfb71dcec77c66e"
+      "RULE-970d4ea3e029a97fb6bc",
+      "RULE-7fe6f378c86ea20a5cc1"
     ],
     "observation_ids": [
-      "P5OBS-028493e088daa78a"
+      "P5OBS-740a66746889c174"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-c01eacdd04bc515a541f",
-        "label": "线路选择与视野",
-        "summary": "历史资料记载，有游客推荐选环园线（熊猫乐园站↔天鹅湖站），称其视野最佳。",
+        "topic_id": "THEME-eefcc58d749257a908a8",
+        "label": "线路选择与乘坐时段",
+        "summary": "历史资料记载，熊猫乐园站至天鹅湖站的空中缆车推荐选环园线（熊猫乐园站↔天鹅湖站），视野最佳。另有游客建议16:00后排队减半，体力好可此时乘坐。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-9deb3ac76155b1dbd286",
         "source_record_ids": [
-          "RULE-ef4b3cfb71dcec77c66e"
-        ],
-        "current_validity_verified": false
-      },
-      {
-        "topic_id": "THEME-d8e12732b7940ca53df0",
-        "label": "排队时段与体力建议",
-        "summary": "历史资料记载，有游客表示16:00后排队减半；并建议体力好的人可此时乘坐，该建议同时涉及熊猫乐园站与天鹅湖站之间的空中缆车。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-9deb3ac76155b1dbd286",
-        "source_record_ids": [
-          "FACT-1fff783a7331181fd074",
-          "RULE-47b1d0e408d71474e06b"
+          "RULE-7fe6f378c86ea20a5cc1",
+          "RULE-970d4ea3e029a97fb6bc"
         ],
         "current_validity_verified": false
       }
     ],
     "time_summary_ids": [
-      "TIME-19291b7569cdbbad68d1",
       "TIME-7fa657b6c5d38ba7cd45",
       "TIME-98c935bca0d1c60ea35a"
     ],
@@ -731,11 +810,11 @@
     "facts": [],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-4bfab1a54b09576a26bd"
+      "RULE-0b1fe3b6bd58c9185c03"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-4bfab1a54b09576a26bd"
+      "RULE-0b1fe3b6bd58c9185c03"
     ],
     "observation_ids": [
       "P5OBS-d15d7863e84219af"
@@ -748,7 +827,7 @@
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-6d09432c7a43220380c9",
         "source_record_ids": [
-          "RULE-4bfab1a54b09576a26bd"
+          "RULE-0b1fe3b6bd58c9185c03"
         ],
         "current_validity_verified": false
       }
@@ -758,191 +837,124 @@
     ]
   },
   {
-    "from_entity_id": "POI-39f671334b05bd19",
-    "to_entity_id": "POI-cb24680dd82e15c1",
-    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "to_entity_id": "POI-41d5eefef861e525",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
     "assertion_kind": "service_connection",
-    "service_name_text": "黄龙九寨-九寨沟保姆车",
-    "leg_id": "LEG-186e9d5c3f1b522e8b21",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "operating_time",
-        "value_text": "16:20",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-186e9d5c3f1b522e8b21",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ba0bb1e7863305dd"
-        ]
-      },
-      {
-        "attribute": "fare",
-        "value_text": "¥61",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-186e9d5c3f1b522e8b21",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ba0bb1e7863305dd"
-        ]
-      },
-      {
-        "attribute": "limitation",
-        "value_text": "某程预定,司机提前半小时电话联系,在高铁站停车场上车",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-186e9d5c3f1b522e8b21",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ba0bb1e7863305dd"
-        ]
-      },
-      {
-        "attribute": "limitation",
-        "value_text": "优点是比大巴快且舒适,且可送达入住酒店,行程中会下车休息一次上卫生间;缺点是其他网友反馈无保障,且比较看司机人品,因此仅作参考",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-186e9d5c3f1b522e8b21",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ba0bb1e7863305dd"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-bb0c056bfa95e0988d66",
-      "RULE-31e3115fefa05f01cf8e"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-bb0c056bfa95e0988d66",
-      "RULE-31e3115fefa05f01cf8e"
-    ],
-    "observation_ids": [
-      "P5OBS-ba0bb1e7863305dd"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-18c4e6345a68f327eeb4",
-        "label": "拼车体验与可靠性",
-        "summary": "历史资料记载，黄龙九寨站到九寨沟的拼车，有游客表示优点是比大巴快且舒适，且可送达入住酒店，行程中会下车休息一次上卫生间；缺点是其他网友反馈无保障，且比较看司机人品，因此仅作参考。另有资料把黄龙九寨到九寨沟的保姆车也列为仅作参考。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-6a805bcfc20bc01c62fe",
-        "source_record_ids": [
-          "FACT-74167d0616a66770144a",
-          "RULE-31e3115fefa05f01cf8e"
-        ],
-        "current_validity_verified": false
-      },
-      {
-        "topic_id": "THEME-5948a654b11df4709640",
-        "label": "预订与上车",
-        "summary": "历史资料记载，有游客通过某程预订黄龙九寨站到九寨沟的拼车，司机提前半小时电话联系，在高铁站停车场上车。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-6a805bcfc20bc01c62fe",
-        "source_record_ids": [
-          "FACT-c35dcf6002b0610d12c2"
-        ],
-        "current_validity_verified": false
-      },
-      {
-        "topic_id": "THEME-467465854f8f77895ea9",
-        "label": "晕车准备",
-        "summary": "历史资料记载，针对晕车的友友，建议记得提前吃晕车药、准备垃圾袋；该建议适用于黄龙九寨站到九寨沟的拼车行程。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-6a805bcfc20bc01c62fe",
-        "source_record_ids": [
-          "RULE-bb0c056bfa95e0988d66"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "time_summary_ids": [
-      "TIME-d8fd2bbf095fb6111656"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-6a805bcfc20bc01c62fe"
-    ]
-  },
-  {
-    "from_entity_id": "POI-1fc2c78de022d941",
-    "to_entity_id": "POI-a861b1470d96ab5f",
-    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": "免费小火车",
-    "leg_id": "LEG-1dd3fae0129dc525d6b3",
+    "service_name_text": "缆车",
+    "leg_id": "LEG-18d86908fdbe49199cd2",
     "scenic_code": "GZCL",
     "facts": [
       {
-        "attribute": "ride_duration",
-        "value_text": "40分钟",
+        "attribute": "limitation",
+        "value_text": "可以看到树上的蜘蛛猴和鹦鹉白鹭，还可以看到湖里的鹈鹕黑天鹅火烈鸟等等",
         "condition": null,
         "modality": "asserted",
-        "leg_id": "LEG-1dd3fae0129dc525d6b3",
+        "leg_id": "LEG-18d86908fdbe49199cd2",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-38c5f76e72779c75"
-        ]
-      },
-      {
-        "attribute": "fare",
-        "value_text": "免费",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-1dd3fae0129dc525d6b3",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-38c5f76e72779c75"
+          "P5OBS-ba2ab1ce67c1ad0f"
         ]
       }
     ],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-38674997091076955cd7",
-      "RULE-4cc6364a1974fdee04a1"
-    ],
+    "rule_ids": [],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-38674997091076955cd7",
-      "RULE-4cc6364a1974fdee04a1"
-    ],
+    "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-38c5f76e72779c75"
+      "P5OBS-ba2ab1ce67c1ad0f"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-981e6a9da673c82c67ba",
-        "label": "小火车乘坐与座位建议",
-        "summary": "历史资料记载，从长隆野生动物世界北门前往小火车游览区乘坐小火车时，有游客建议坐右侧，因为右侧看到的动物更多；也有游客建议从北门直接前往免费小火车。",
+        "topic_id": "THEME-e933e48e69dfcc7a257e",
+        "label": "沿途观赏动物",
+        "summary": "历史资料记载，乘坐熊猫乐园站 → 天鹅湖（空中缆车）时，可以看到树上的蜘蛛猴和鹦鹉白鹭，还可以看到湖里的鹈鹕、黑天鹅、火烈鸟等。",
         "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-8ff115191216c96f3ee4",
+        "advice_summary_id": "ADVICE-859310cbf210efd6c38d",
         "source_record_ids": [
-          "RULE-38674997091076955cd7",
-          "RULE-4cc6364a1974fdee04a1"
+          "FACT-28ce89acc5c8bdcf9e49"
         ],
         "current_validity_verified": false
       }
     ],
-    "time_summary_ids": [
-      "TIME-bd87a96a53850750c490"
+    "advice_summary_ids": [
+      "ADVICE-859310cbf210efd6c38d"
+    ]
+  },
+  {
+    "from_entity_id": "POI-10e8a874d4a64eeb",
+    "to_entity_id": "POI-13228cccee608f7d",
+    "transport_entity_id": null,
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-2548b6c1c23ef853e55e",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-bfdc2f57cce852f430cc"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-bfdc2f57cce852f430cc"
+    ],
+    "observation_ids": [
+      "P5OBS-080fc41d7c7766b4"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-e97f79c1f38909f8e8ad",
+        "label": "乘车座位与观景方向",
+        "summary": "历史资料记载，从诺日朗中心前往长海（左线）时，建议坐在左边。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-2c05523eb9c5aef5a5df",
+        "source_record_ids": [
+          "RULE-bfdc2f57cce852f430cc"
+        ],
+        "current_validity_verified": false
+      }
     ],
     "advice_summary_ids": [
-      "ADVICE-8ff115191216c96f3ee4"
+      "ADVICE-2c05523eb9c5aef5a5df"
+    ]
+  },
+  {
+    "from_entity_id": "POI-54159dd45e739e0c",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "现场拼车",
+    "leg_id": "LEG-27961f72b87461b21b54",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-ab0f4e98e191dcd7b221"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-ab0f4e98e191dcd7b221"
+    ],
+    "observation_ids": [
+      "P5OBS-532003410ede1391"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-8fe6ea591eb2cc576e43",
+        "label": "拼车返程与适用场景",
+        "summary": "历史资料记载，有游客建议在黄龙景区游玩结束后，直接在景区现场拼车返回黄龙九寨高铁站；该建议针对的是从黄龙景区到黄龙九寨站的返程衔接场景。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-fc6e8917f91ae61cc5dd",
+        "source_record_ids": [
+          "RULE-ab0f4e98e191dcd7b221"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-fc6e8917f91ae61cc5dd"
     ]
   },
   {
@@ -964,20 +976,20 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-b7999d82cb300c8e"
+          "P5OBS-bcb808fc1e46b8ae"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-cb7dbf94824b0f6c9834"
+      "RULE-3922f3f29e569b79cf5e"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-cb7dbf94824b0f6c9834"
+      "RULE-3922f3f29e569b79cf5e"
     ],
     "observation_ids": [
-      "P5OBS-b7999d82cb300c8e"
+      "P5OBS-bcb808fc1e46b8ae"
     ],
     "advice_themes": [
       {
@@ -987,7 +999,7 @@
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-bb86732422fc47f27fc7",
         "source_record_ids": [
-          "RULE-cb7dbf94824b0f6c9834"
+          "RULE-3922f3f29e569b79cf5e"
         ],
         "current_validity_verified": false
       }
@@ -1032,30 +1044,30 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-c6a4b24ccf92225e"
+          "P5OBS-2959fc7253587fb6"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-3c21511c40e0db856e70"
+      "RULE-b0422c1029dce55ac5bd"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-3c21511c40e0db856e70"
+      "RULE-b0422c1029dce55ac5bd"
     ],
     "observation_ids": [
-      "P5OBS-c6a4b24ccf92225e"
+      "P5OBS-2959fc7253587fb6"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-5000553ef400ae26613d",
+        "topic_id": "THEME-558b0ca2ec4dcf5cb5d8",
         "label": "环园线乘坐建议",
-        "summary": "历史资料记载，建议乘坐环园线，即按熊猫乐园站—东非草原站—天鹅湖站—熊猫乐园站的顺序游览；该建议涉及天鹅湖站至熊猫乐园站空中缆车，以及熊猫乐园站至非洲草原站、非洲草原站至天鹅湖站等关联线路和熊猫乐园、考拉园、天鹅湖站、熊猫乐园站、非洲草原站等地点。",
+        "summary": "历史资料记载，建议乘坐环园线，即从熊猫乐园站出发，经东非草原站、天鹅湖站，再回到熊猫乐园站；该建议涉及天鹅湖站至熊猫乐园站、熊猫乐园站至非洲草原站、非洲草原站至天鹅湖站这几段空中缆车，以及熊猫乐园、考拉园、天鹅湖站、熊猫乐园站、非洲草原站等相关地点。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-aa35d07ad28084957997",
         "source_record_ids": [
-          "RULE-3c21511c40e0db856e70"
+          "RULE-b0422c1029dce55ac5bd"
         ],
         "current_validity_verified": false
       }
@@ -1065,60 +1077,6 @@
     ],
     "advice_summary_ids": [
       "ADVICE-aa35d07ad28084957997"
-    ]
-  },
-  {
-    "from_entity_id": "POI-1fc2c78de022d941",
-    "to_entity_id": "POI-aac7d90bfc5ff426",
-    "transport_entity_id": "TRANSPORT-78f05fe80a344b95",
-    "assertion_kind": "visitor_movement",
-    "service_name_text": null,
-    "leg_id": "LEG-320a7a9ddc3f9a675d7c",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-f807297c61bf52af4c7b"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-f807297c61bf52af4c7b"
-    ],
-    "observation_ids": [
-      "P5OBS-089b940078924621"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-a3ec9e02e53c1c614c5c",
-        "label": "自驾停车与入园路线",
-        "summary": "历史资料记载，有游客到达长隆动物园已经十点，从北门进时看到里面还有车位，但工作人员指示他们往前开，驶过北门、穿南门再经欢乐世界，一直开到一个特别远的停车场；步行到动物园至少得四十分钟，此时已经十一点。该游客提议这种情况干脆在广州住一夜、改票到初四。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-f2fa073d50510a8122f8",
-        "source_record_ids": [
-          "RULE-f807297c61bf52af4c7b"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-f2fa073d50510a8122f8"
-    ]
-  },
-  {
-    "from_entity_id": "POI-a5e2ae7adbddb3ba",
-    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
-    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
-    "assertion_kind": "service_connection",
-    "service_name_text": "天鹅湖线缆车",
-    "leg_id": "LEG-3687d84fc3b200966a94",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-2117e06cdbc459a2"
     ]
   },
   {
@@ -1140,30 +1098,34 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-85bd9e8dd0272a62"
+          "P5OBS-cd39a9fe4cbc34e4"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-7674d9a9bd3976ecbdf4"
+      "RULE-4dc17c14d86d9d9d65b8",
+      "RULE-07148a2a4cb784ba8db3"
     ],
     "restriction_rule_ids": [
-      "RULE-7674d9a9bd3976ecbdf4"
+      "RULE-4dc17c14d86d9d9d65b8"
     ],
-    "recommendation_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-07148a2a4cb784ba8db3"
+    ],
     "observation_ids": [
-      "P5OBS-85bd9e8dd0272a62"
+      "P5OBS-cd39a9fe4cbc34e4"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-bf5bf7576695fedf1429",
+        "topic_id": "THEME-50d6fe48f3a567d2241b",
         "label": "交通方式选择",
-        "summary": "历史资料记载，关于九寨沟到黄龙景区（拼车）这一交通段，有游客不建议乘坐大巴。原文未给出具体原因或后果。",
+        "summary": "历史资料记载，从九寨沟前往黄龙景区，不建议乘坐大巴；建议在九寨沟漳扎镇拼车前往黄龙。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-9ddc8f859faf0c644643",
         "source_record_ids": [
-          "RULE-7674d9a9bd3976ecbdf4"
+          "RULE-07148a2a4cb784ba8db3",
+          "RULE-4dc17c14d86d9d9d65b8"
         ],
         "current_validity_verified": false
       }
@@ -1194,7 +1156,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S012",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S012",
         "observation_ids": [
-          "P5OBS-ea14779c2c52ee04"
+          "P5OBS-28b9571fd91a2628"
         ]
       },
       {
@@ -1207,7 +1169,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S012",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S012",
         "observation_ids": [
-          "P5OBS-ea14779c2c52ee04"
+          "P5OBS-28b9571fd91a2628"
         ]
       }
     ],
@@ -1222,63 +1184,11 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-ea14779c2c52ee04"
+      "P5OBS-28b9571fd91a2628"
     ],
     "time_summary_ids": [
       "TIME-3622d4464be999b687e3",
       "TIME-b1854364273e02a02636"
-    ]
-  },
-  {
-    "from_entity_id": "POI-54159dd45e739e0c",
-    "to_entity_id": "POI-39f671334b05bd19",
-    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-39dad3cfe11d98d959c3",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "limitation",
-        "value_text": "现场拼车",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-39dad3cfe11d98d959c3",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-32422af65427b750"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-b430dd293cdaaa72c7d2"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-b430dd293cdaaa72c7d2"
-    ],
-    "observation_ids": [
-      "P5OBS-32422af65427b750"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-65bf17014b1cf011d269",
-        "label": "拼车方式与建议",
-        "summary": "历史资料记载，黄龙景区到黄龙九寨站可现场拼车；有游客建议在黄龙游玩结束后直接现场拼车返回黄龙九寨高铁站。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-58da43bb8343e8da496f",
-        "source_record_ids": [
-          "FACT-4b6c6ef4d04fc6b46c4b",
-          "RULE-b430dd293cdaaa72c7d2"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-58da43bb8343e8da496f"
     ]
   },
   {
@@ -1294,13 +1204,13 @@
         "attribute": "limitation",
         "value_text": "不然你要走1.9km，属实没必要",
         "condition": null,
-        "modality": "recommended",
+        "modality": "asserted",
         "leg_id": "LEG-3ba8fb337c4d13485fb7",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-99382d099cb8be35"
+          "P5OBS-1e841089e04a8feb"
         ]
       }
     ],
@@ -1313,17 +1223,17 @@
       "RULE-e2077f8d46e080605491"
     ],
     "observation_ids": [
-      "P5OBS-99382d099cb8be35"
+      "P5OBS-1e841089e04a8feb"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-4b664fb2a6cda81eec71",
-        "label": "乘车与步行选择",
-        "summary": "历史资料记载，从熊猫海逛完去五花海时，建议坐车前往；否则需要步行1.9km，原文认为属实没必要。该建议针对熊猫海至五花海这一段，未说明其他路线或时段是否适用。",
+        "topic_id": "THEME-5341ae2086056775e509",
+        "label": "乘车与步行",
+        "summary": "历史资料记载，从熊猫海逛完去五花海时，建议坐车前往；否则需要步行1.9km，原文认为属实没必要。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-ab0da07f883e7fe47e65",
         "source_record_ids": [
-          "FACT-268257fcd1e90d860818",
+          "FACT-ef568ede5f39867db60b",
           "RULE-e2077f8d46e080605491"
         ],
         "current_validity_verified": false
@@ -1352,20 +1262,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S002",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S002",
         "observation_ids": [
-          "P5OBS-5e845eb4cb4b6903"
-        ]
-      },
-      {
-        "attribute": "operating_time",
-        "value_text": "08:10-09:00",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-3c1266e1540b052e1e7a",
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S002",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S002",
-        "observation_ids": [
-          "P5OBS-5e845eb4cb4b6903"
+          "P5OBS-7f8f7095f3bcd51c"
         ]
       }
     ],
@@ -1380,10 +1277,9 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-5e845eb4cb4b6903"
+      "P5OBS-7f8f7095f3bcd51c"
     ],
     "time_summary_ids": [
-      "TIME-d58cf08f667c421538a8",
       "TIME-ffd62b6a174f47c804b0"
     ]
   },
@@ -1406,30 +1302,30 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-31ea222709157bb7"
+          "P5OBS-4d3ef2a53715c4c6"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-3c21511c40e0db856e70"
+      "RULE-b0422c1029dce55ac5bd"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-3c21511c40e0db856e70"
+      "RULE-b0422c1029dce55ac5bd"
     ],
     "observation_ids": [
-      "P5OBS-31ea222709157bb7"
+      "P5OBS-4d3ef2a53715c4c6"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-296200351c05c26628e0",
-        "label": "环园线乘坐建议",
+        "topic_id": "THEME-875b671d5746de7a2b8d",
+        "label": "缆车环园线建议",
         "summary": "历史资料记载，建议乘坐环园线，即从熊猫乐园站出发，经东非草原站、天鹅湖站，再回到熊猫乐园站；该建议涉及熊猫乐园站、非洲草原站、天鹅湖站及熊猫乐园、考拉园等关联地点。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-b39fc80018234ccf8d21",
         "source_record_ids": [
-          "RULE-3c21511c40e0db856e70"
+          "RULE-b0422c1029dce55ac5bd"
         ],
         "current_validity_verified": false
       }
@@ -1516,24 +1412,24 @@
     "facts": [],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-52f79d16f1fa40dd1251"
+      "RULE-ffdc5d6d8a78180f46db"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-52f79d16f1fa40dd1251"
+      "RULE-ffdc5d6d8a78180f46db"
     ],
     "observation_ids": [
-      "P5OBS-a28e3c3344364745"
+      "P5OBS-568cff6159b343c3"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-a20a81b786ac080a802c",
+        "topic_id": "THEME-f7995cac2f0d02718b67",
         "label": "徒步建议",
-        "summary": "历史资料记载，珍珠滩到珍珠滩瀑布强烈推荐徒步。",
+        "summary": "历史资料记载，从珍珠滩到珍珠滩瀑布强烈推荐徒步。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-c67ec3da07f248c247c2",
         "source_record_ids": [
-          "RULE-52f79d16f1fa40dd1251"
+          "RULE-ffdc5d6d8a78180f46db"
         ],
         "current_validity_verified": false
       }
@@ -1589,9 +1485,9 @@
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-7bc46ad2e2363bebe3cf",
-        "label": "行程与费用",
-        "summary": "历史资料记载，成都东站至成都天府机场有一趟18:58至19:24的行程，费用为¥31；资料未说明交通方式。",
+        "topic_id": "THEME-fb9271a8ae2d214432c2",
+        "label": "交通与费用",
+        "summary": "历史资料记载，成都东站至成都天府机场可于18:58出发、19:24到达，费用为¥31；原文未说明具体交通方式。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-1cdb623964fb3f53112c",
         "source_record_ids": [
@@ -1618,30 +1514,131 @@
     "facts": [],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-18becf1886041ef3ab26"
+      "RULE-2bc9745c71b9e7347277"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-18becf1886041ef3ab26"
+      "RULE-2bc9745c71b9e7347277"
     ],
     "observation_ids": [
-      "P5OBS-160fb1d9307d4af8"
+      "P5OBS-7a9219ae7ee17349"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-82711d144310ad42a39f",
-        "label": "住宿与步行路线",
-        "summary": "历史资料记载，有游客认为长隆香江酒店性价比高；该评价关联长隆香江酒店至长隆野生动物世界的步行路线，但原文未给出具体价格、步行时间或适用条件。",
+        "topic_id": "THEME-7429111afda8692ba0ce",
+        "label": "住宿与步行入园",
+        "summary": "历史资料记载，长隆香江酒店性价比高，可步行直达长隆野生动物世界；这是游客笔记中的推荐说法，并非已确认服务保证。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-1185d39efb6a4b55be64",
         "source_record_ids": [
-          "RULE-18becf1886041ef3ab26"
+          "RULE-2bc9745c71b9e7347277"
         ],
         "current_validity_verified": false
       }
     ],
     "advice_summary_ids": [
       "ADVICE-1185d39efb6a4b55be64"
+    ]
+  },
+  {
+    "from_entity_id": "POI-3ee90e175366fdcd",
+    "to_entity_id": "POI-a9df4e391f8f4dc5",
+    "transport_entity_id": "TRANSPORT-32f5806de7c230c5",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-47b5120d51fb958d5293",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "船程10分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-47b5120d51fb958d5293",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-72fc6c9c381f52d3"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "免费送一次",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-47b5120d51fb958d5293",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-72fc6c9c381f52d3"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-72fc6c9c381f52d3"
+    ],
+    "time_summary_ids": [
+      "TIME-3f9da1bc69d3e8fb7cd3"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5976f654ecaa88ba",
+    "to_entity_id": "POI-a9df4e391f8f4dc5",
+    "transport_entity_id": "TRANSPORT-78f05fe80a344b95",
+    "assertion_kind": "unspecified",
+    "service_name_text": null,
+    "leg_id": "LEG-485e1112fee054fc62a2",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "2个小时左右的车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-485e1112fee054fc62a2",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-209e446342327ccc"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-0c172315ad7ba5ad64e4"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-0c172315ad7ba5ad64e4"
+    ],
+    "observation_ids": [
+      "P5OBS-209e446342327ccc"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-d5d5e3ad8e54407ca01a",
+        "label": "出行方式与携带条件",
+        "summary": "历史资料记载，若两个宝宝都不到3岁且出行要带的东西比较多，自驾会方便些；该建议针对横琴口岸到珠海长隆海洋王国的自驾出行。",
+        "scenic_code": "ZHCL",
+        "advice_summary_id": "ADVICE-76f60bd1e111bce90162",
+        "source_record_ids": [
+          "RULE-0c172315ad7ba5ad64e4"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "time_summary_ids": [
+      "TIME-2b1923ca1f7420629eb1"
+    ],
+    "advice_summary_ids": [
+      "ADVICE-76f60bd1e111bce90162"
     ]
   },
   {
@@ -1733,6 +1730,43 @@
     ]
   },
   {
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-39f671334b05bd19",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-4c6e3cbd81c85d917fe4",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-549ceb668a3e632ec8b1"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-549ceb668a3e632ec8b1"
+    ],
+    "observation_ids": [
+      "P5OBS-37d328f3f9b39d5b"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-110da91508287761b8be",
+        "label": "换乘衔接",
+        "summary": "历史资料记载，有游客建议从深圳飞成都，落地后无缝换乘高铁至黄龙九寨站；该建议涉及成都天府机场、成都东站与黄龙九寨站之间的衔接，原文未给出具体换乘时间、班次或费用。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-d71e618bea6745f42e3e",
+        "source_record_ids": [
+          "RULE-549ceb668a3e632ec8b1"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-d71e618bea6745f42e3e"
+    ]
+  },
+  {
     "from_entity_id": "POI-b52544c6bf257d41",
     "to_entity_id": "POI-aac7d90bfc5ff426",
     "transport_entity_id": "TRANSPORT-8db4eab278163653",
@@ -1751,30 +1785,30 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-209f57a581dc5308"
+          "P5OBS-a51da0fb6ccedf67"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-c812890ece4989d885f5"
+      "RULE-bae1f882847c4d63245f"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-c812890ece4989d885f5"
+      "RULE-bae1f882847c4d63245f"
     ],
     "observation_ids": [
-      "P5OBS-209f57a581dc5308"
+      "P5OBS-a51da0fb6ccedf67"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-20696076a346f8549770",
-        "label": "地铁换乘与免费接驳巴士",
-        "summary": "历史资料记载，可乘坐3号线或7号线至“汉溪长隆站”，从D/E口出站后换乘免费接驳巴士，能直达长隆野生动物世界北门或南门，资料称这种方式最省心。",
+        "topic_id": "THEME-7a9fd981ff6e3d93ac3c",
+        "label": "地铁换乘与免费接驳",
+        "summary": "历史资料记载，乘坐3号线或7号线至“汉溪长隆站”，从D/E口出站后可换乘免费接驳巴士，直达长隆野生动物世界北门或南门，资料称这种方式最省心。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-526ea374a9ae6f79acb4",
         "source_record_ids": [
-          "RULE-c812890ece4989d885f5"
+          "RULE-bae1f882847c4d63245f"
         ],
         "current_validity_verified": false
       }
@@ -1818,107 +1852,74 @@
     ]
   },
   {
-    "from_entity_id": "POI-a861b1470d96ab5f",
-    "to_entity_id": "POI-a861b1470d96ab5f",
-    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
-    "assertion_kind": "unspecified",
-    "service_name_text": "小火车",
-    "leg_id": "LEG-4e98eba290f8fe1c283c",
-    "scenic_code": "GZCL",
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
+    "assertion_kind": "service_connection",
+    "service_name_text": null,
+    "leg_id": "LEG-4fef8b7c22d55d9926fa",
+    "scenic_code": "JZG",
     "facts": [
       {
-        "attribute": "limitation",
-        "value_text": "小火车是不停车的",
+        "attribute": "operating_time",
+        "value_text": "16:25-18:07",
         "condition": null,
         "modality": "asserted",
-        "leg_id": "LEG-4e98eba290f8fe1c283c",
+        "leg_id": "LEG-4fef8b7c22d55d9926fa",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-b6ead018dd460ecc"
+          "P5OBS-a21b3ade26424931"
         ]
       },
       {
-        "attribute": "limitation",
-        "value_text": "车上比较颠簸,还经常会被自驾车挡在动物前面,所以小火车很难拍出好照片",
+        "attribute": "fare",
+        "value_text": "¥151",
         "condition": null,
         "modality": "asserted",
-        "leg_id": "LEG-4e98eba290f8fe1c283c",
+        "leg_id": "LEG-4fef8b7c22d55d9926fa",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-b6ead018dd460ecc"
-        ]
-      },
-      {
-        "attribute": "frequency",
-        "value_text": "班次比较频繁几乎是无缝衔接,所以基本很快就可以坐上车",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-4e98eba290f8fe1c283c",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-b6ead018dd460ecc"
+          "P5OBS-a21b3ade26424931"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-c4d956fdd2cac9ea26a4",
-      "RULE-996def7a003486d44859"
+      "RULE-d621843ed4bbff492710",
+      "RULE-980a5465f12199e92b05"
     ],
-    "restriction_rule_ids": [],
+    "restriction_rule_ids": [
+      "RULE-d621843ed4bbff492710"
+    ],
     "recommendation_rule_ids": [
-      "RULE-c4d956fdd2cac9ea26a4"
+      "RULE-980a5465f12199e92b05"
     ],
     "observation_ids": [
-      "P5OBS-b6ead018dd460ecc"
+      "P5OBS-a21b3ade26424931"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-35b5594179d5f7b7e605",
-        "label": "座位与观赏位置",
-        "summary": "历史资料记载，由于大部分动物都在小火车的右侧，且小火车是4个人一排，所以每个排队的队伍最后一个人会坐在最好的位置。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-39bdc4fbaa08a7b726ed",
+        "topic_id": "THEME-9be4daa95d9722ed0c5c",
+        "label": "购票与抢票",
+        "summary": "历史资料记载，黄龙九寨站到成都东站的高铁建议尽早买票；若在旺季，则要求提前抢票。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-726fdce29ddb55e7db93",
         "source_record_ids": [
-          "RULE-996def7a003486d44859"
-        ],
-        "current_validity_verified": false
-      },
-      {
-        "topic_id": "THEME-1913bd4f24da732a63da",
-        "label": "乘坐体验与拍照",
-        "summary": "历史资料记载，小火车是不停车的；有游客表示车上比较颠簸，还经常会被自驾车挡在动物前面，所以小火车很难拍出好照片。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-39bdc4fbaa08a7b726ed",
-        "source_record_ids": [
-          "FACT-1033a71743bf4255e992",
-          "FACT-f91e88c46d4cd38668db"
-        ],
-        "current_validity_verified": false
-      },
-      {
-        "topic_id": "THEME-3748fb879c5bf1ee299f",
-        "label": "乘坐建议",
-        "summary": "历史资料记载，有游客建议小火车仍然值得乘坐去看看那些动物。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-39bdc4fbaa08a7b726ed",
-        "source_record_ids": [
-          "RULE-c4d956fdd2cac9ea26a4"
+          "RULE-980a5465f12199e92b05",
+          "RULE-d621843ed4bbff492710"
         ],
         "current_validity_verified": false
       }
     ],
     "time_summary_ids": [
-      "TIME-00de31a19930a5607c36"
+      "TIME-8d16d416c2160312cd2f"
     ],
     "advice_summary_ids": [
-      "ADVICE-39bdc4fbaa08a7b726ed"
+      "ADVICE-726fdce29ddb55e7db93"
     ]
   },
   {
@@ -1936,60 +1937,6 @@
     "recommendation_rule_ids": [],
     "observation_ids": [
       "P5OBS-ea82cfb5627f265c"
-    ]
-  },
-  {
-    "from_entity_id": "POI-aac7d90bfc5ff426",
-    "to_entity_id": "POI-1fc2c78de022d941",
-    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-536696f0d231a029127e",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-29fb288be485630a8b70"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-29fb288be485630a8b70"
-    ],
-    "observation_ids": [
-      "P5OBS-1cacef5b35d6e16a"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-25540687e1292e1d4655",
-        "label": "返程路线与顺序",
-        "summary": "历史资料记载，有游客建议在南门逛完、看完所有表演后，从南门坐小火车回北门，再开车返程；该建议针对长隆野生动物世界南门至北门的小火车线路，涉及南门与北门两个地点。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-db176abd3b0c40de87df",
-        "source_record_ids": [
-          "RULE-29fb288be485630a8b70"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-db176abd3b0c40de87df"
-    ]
-  },
-  {
-    "from_entity_id": "POI-ff1c7f688a819aea",
-    "to_entity_id": "POI-39f671334b05bd19",
-    "transport_entity_id": null,
-    "assertion_kind": "unspecified",
-    "service_name_text": null,
-    "leg_id": "LEG-545506181c13c890bb79",
-    "scenic_code": "JZG",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-eb60e751e6dc7028"
     ]
   },
   {
@@ -2011,41 +1958,75 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-c2d7704a54d83d1a",
-          "P5OBS-3506305c2f4a3230"
+          "P5OBS-39c3a6745441728a",
+          "P5OBS-0938a436f22f45d3"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-cb7dbf94824b0f6c9834",
-      "RULE-3e1dd326d9697b0c98bc"
+      "RULE-3922f3f29e569b79cf5e",
+      "RULE-c15717656102cbe32c9a"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-cb7dbf94824b0f6c9834",
-      "RULE-3e1dd326d9697b0c98bc"
+      "RULE-3922f3f29e569b79cf5e",
+      "RULE-c15717656102cbe32c9a"
     ],
     "observation_ids": [
-      "P5OBS-c2d7704a54d83d1a",
-      "P5OBS-3506305c2f4a3230"
+      "P5OBS-39c3a6745441728a",
+      "P5OBS-0938a436f22f45d3"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-dbd6d44260950abef339",
+        "topic_id": "THEME-0e08729b72637e49995b",
         "label": "地铁换乘与免费接驳巴士",
-        "summary": "历史资料记载，可乘坐3号线或7号线至“汉溪长隆站”，从D/E口出站后换乘免费接驳巴士；有说法称接驳巴士直达长隆野生动物世界北门，另有说法称可直达北门或南门。",
+        "summary": "历史资料记载，可乘坐地铁3号线或7号线至“汉溪长隆站”，从D/E口出站后换乘免费接驳巴士；有说法称该接驳巴士可直达长隆野生动物世界北门，另有说法称可直达北门或南门。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-e96aeecadc7d8224dba8",
         "source_record_ids": [
-          "RULE-3e1dd326d9697b0c98bc",
-          "RULE-cb7dbf94824b0f6c9834"
+          "RULE-3922f3f29e569b79cf5e",
+          "RULE-c15717656102cbe32c9a"
         ],
         "current_validity_verified": false
       }
     ],
     "advice_summary_ids": [
       "ADVICE-e96aeecadc7d8224dba8"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5976f654ecaa88ba",
+    "to_entity_id": "POI-3ee90e175366fdcd",
+    "transport_entity_id": "TRANSPORT-eb0da5555fe3ef39",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": null,
+    "leg_id": "LEG-589d5e413510fc425006",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "25分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-589d5e413510fc425006",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-742a6e8cde81a114"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-742a6e8cde81a114"
+    ],
+    "time_summary_ids": [
+      "TIME-5b8db7b891ea8f593a62"
     ]
   },
   {
@@ -2103,77 +2084,6 @@
     ]
   },
   {
-    "from_entity_id": "POI-39f671334b05bd19",
-    "to_entity_id": "POI-ff1c7f688a819aea",
-    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
-    "assertion_kind": "service_connection",
-    "service_name_text": "黄龙九寨-成都东",
-    "leg_id": "LEG-59be62f73aa81ef8f3dc",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "operating_time",
-        "value_text": "16:25-18:07",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-59be62f73aa81ef8f3dc",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ead8d80496e2e014"
-        ]
-      },
-      {
-        "attribute": "fare",
-        "value_text": "¥151",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-59be62f73aa81ef8f3dc",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ead8d80496e2e014"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-5461e8a6743124b547dd",
-      "RULE-270869f698b92e9b23a0"
-    ],
-    "restriction_rule_ids": [
-      "RULE-5461e8a6743124b547dd"
-    ],
-    "recommendation_rule_ids": [
-      "RULE-270869f698b92e9b23a0"
-    ],
-    "observation_ids": [
-      "P5OBS-ead8d80496e2e014"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-74be3b5fa7a73506ce99",
-        "label": "购票与抢票",
-        "summary": "历史资料记载，黄龙九寨站到成都东站的高铁建议尽早买票；若在旺季，则需要提前抢票。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-75be8d00b18997039c18",
-        "source_record_ids": [
-          "RULE-270869f698b92e9b23a0",
-          "RULE-5461e8a6743124b547dd"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "time_summary_ids": [
-      "TIME-57f22ad3e79e7d380977"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-75be8d00b18997039c18"
-    ]
-  },
-  {
     "from_entity_id": "POI-cb24680dd82e15c1",
     "to_entity_id": "POI-39f671334b05bd19",
     "transport_entity_id": "TRANSPORT-4dfe4ae37d7ac7ce",
@@ -2192,11 +2102,11 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-1a675c7a0b9e3934"
+          "P5OBS-458c6d7226d8422a"
         ]
       },
       {
-        "attribute": "fare",
+        "attribute": "frequency",
         "value_text": "51",
         "condition": null,
         "modality": "asserted",
@@ -2205,20 +2115,20 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-1a675c7a0b9e3934"
+          "P5OBS-458c6d7226d8422a"
         ]
       },
       {
         "attribute": "limitation",
         "value_text": "小程序购票",
         "condition": null,
-        "modality": "asserted",
+        "modality": "recommended",
         "leg_id": "LEG-5a58362f5f83f8260819",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-1a675c7a0b9e3934"
+          "P5OBS-458c6d7226d8422a"
         ]
       },
       {
@@ -2231,53 +2141,125 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-1a675c7a0b9e3934"
+          "P5OBS-458c6d7226d8422a"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-89244efa7e443371a4c4",
-      "RULE-04ef9e12614ea3374d3f"
+      "RULE-c8fd493eed8a96f1deb2",
+      "RULE-a6cbbecf3b8f22fdf7c5",
+      "RULE-954813ef90bd5b4f68ea"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-89244efa7e443371a4c4"
+      "RULE-c8fd493eed8a96f1deb2",
+      "RULE-954813ef90bd5b4f68ea"
     ],
     "observation_ids": [
-      "P5OBS-1a675c7a0b9e3934"
+      "P5OBS-458c6d7226d8422a"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-847342a5e1ef2cd4215a",
+        "topic_id": "THEME-bfca50138636111522b3",
         "label": "购票与时间预留",
-        "summary": "历史资料记载，九寨沟到黄龙九寨站的大巴可通过小程序购票；建议至少预留3小时，如时间充足多多益善。",
+        "summary": "历史资料记载，九寨沟到黄龙九寨站的大巴建议通过小程序购票；建议至少预留3小时，如时间充足多多益善。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-38bb96ce8cb31df05fc7",
         "source_record_ids": [
+          "FACT-38bc412bd8949166df54",
           "FACT-67bf153ba7f9c7410b48",
-          "FACT-ab9ab3e9fc625a02f9ca",
-          "RULE-89244efa7e443371a4c4"
+          "RULE-954813ef90bd5b4f68ea",
+          "RULE-c8fd493eed8a96f1deb2"
         ],
         "current_validity_verified": false
       },
       {
-        "topic_id": "THEME-2b319f32596c58b51145",
-        "label": "堵车与误车风险",
-        "summary": "历史资料记载，如路遇堵车，赶不上高铁就很麻烦；原文未给出其他具体后果。",
+        "topic_id": "THEME-8ca9ce7639ea644fcd43",
+        "label": "堵车与高铁衔接",
+        "summary": "历史资料记载，如路遇堵车，赶不上高铁就很麻烦；该说法关联九寨沟到黄龙九寨站的大巴及黄龙九寨站。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-38bb96ce8cb31df05fc7",
         "source_record_ids": [
-          "RULE-04ef9e12614ea3374d3f"
+          "RULE-a6cbbecf3b8f22fdf7c5"
         ],
         "current_validity_verified": false
       }
     ],
     "time_summary_ids": [
-      "TIME-9fa670b24a03000c6fd8"
+      "TIME-9fa670b24a03000c6fd8",
+      "TIME-a002575711365ccf79ec"
     ],
     "advice_summary_ids": [
       "ADVICE-38bb96ce8cb31df05fc7"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-dda73c5206efbef9",
+    "transport_entity_id": "TRANSPORT-c7876b90c7441768",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "九悦旅行直通车",
+    "leg_id": "LEG-60b9f60cfed19daa77e6",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "车程约2h",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-60b9f60cfed19daa77e6",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-47b10795e3fc27d2"
+        ]
+      },
+      {
+        "attribute": "operating_time",
+        "value_text": "五点十五这班车",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-60b9f60cfed19daa77e6",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-47b10795e3fc27d2"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-8f835d0e5f047ff942dd"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-8f835d0e5f047ff942dd"
+    ],
+    "observation_ids": [
+      "P5OBS-47b10795e3fc27d2"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-024f37f9ebd48ef0ad5b",
+        "label": "直通车预订与下车点",
+        "summary": "历史资料记载，九悦旅行上可以订黄龙九寨高铁站到九寨沟以及黄龙的直通车，可以选择离住的酒店近的下车点。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-b2034eab6bb28f9c2e53",
+        "source_record_ids": [
+          "RULE-8f835d0e5f047ff942dd"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "time_summary_ids": [
+      "TIME-31aa7cf01ce450205003",
+      "TIME-c43938f1398866d0f371"
+    ],
+    "advice_summary_ids": [
+      "ADVICE-b2034eab6bb28f9c2e53"
     ]
   },
   {
@@ -2301,7 +2283,116 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-7da9cae7bed1d45a"
+      "P5OBS-8ad595b632e7f1c1"
+    ]
+  },
+  {
+    "from_entity_id": "POI-007a647d74f009b6",
+    "to_entity_id": "POI-1fc2c78de022d941",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "空中缆车",
+    "leg_id": "LEG-668bfaf0b8d9608c9c67",
+    "scenic_code": "GZCL",
+    "facts": [],
+    "route_bindings": [],
+    "upstream_fragment_bindings": [
+      {
+        "route_id": "ROUTEOBS-6ab0604603ef6685",
+        "from_step_id": "ROUTEOBS-6ab0604603ef6685-S005",
+        "to_step_id": "ROUTEOBS-6ab0604603ef6685-S005"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-9b0b068fd9063aef"
+    ]
+  },
+  {
+    "from_entity_id": "POI-aac7d90bfc5ff426",
+    "to_entity_id": "POI-92e840a088d48bc6",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-673ff8d15d3297cbe6b6",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "1分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-673ff8d15d3297cbe6b6",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-b421117e5b10cf2c"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-c64c1ee4995d8c7eb353"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-c64c1ee4995d8c7eb353"
+    ],
+    "observation_ids": [
+      "P5OBS-b421117e5b10cf2c"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-983f5c304adf72a506d6",
+        "label": "南门入园与步行路线",
+        "summary": "历史资料记载，从长隆野生动物世界南门一入园，右转直走1分钟，就到达熊森林；该说法关联南门至非洲森林的步行线路。",
+        "scenic_code": "GZCL",
+        "advice_summary_id": "ADVICE-14767a87d67fcb2dbd3f",
+        "source_record_ids": [
+          "RULE-c64c1ee4995d8c7eb353"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "time_summary_ids": [
+      "TIME-08fece4d566ff6e4dfa4"
+    ],
+    "advice_summary_ids": [
+      "ADVICE-14767a87d67fcb2dbd3f"
+    ]
+  },
+  {
+    "from_entity_id": "POI-44b2356447ef131d",
+    "to_entity_id": "POI-aac7d90bfc5ff426",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费穿梭巴士",
+    "leg_id": "LEG-69e4a577160ac5185d55",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-69e4a577160ac5185d55",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-4920645b6599fa16"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-4920645b6599fa16"
     ]
   },
   {
@@ -2315,7 +2406,7 @@
     "facts": [
       {
         "attribute": "operating_time",
-        "value_text": "20:33黄龙九寨发车，22:20到成都东",
+        "value_text": "20:33黄龙九寨→22:20成都东",
         "condition": null,
         "modality": "asserted",
         "leg_id": "LEG-6b900fea195dc9332fa5",
@@ -2323,28 +2414,28 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-cce2bec6928b8941"
+          "P5OBS-04182bd6088c8b9b"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-aa7a28cd9ea2e80e5757"
+      "RULE-df8e02c44b382f322253"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-cce2bec6928b8941"
+      "P5OBS-04182bd6088c8b9b"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-a5c28797732e68b45986",
-        "label": "高铁班次与出发时间",
-        "summary": "历史资料记载，有一条关于黄龙九寨站至成都东站高铁的未完整条件信息：条件为20:33从黄龙九寨站出发，或者20:40从松潘站出发；原文未给出该条件对应的具体后果或建议。",
+        "topic_id": "THEME-f3260ea2dc5671cb3a38",
+        "label": "发车时刻与条件",
+        "summary": "历史资料记载，有一条未完整的条件信息：20:33黄龙九寨（或者20:40松潘），涉及黄龙九寨站、松潘古城与成都东站之间的高铁线路；原文未给出该条件对应的具体后果或建议。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-73bd40a9b1cb03a6d98b",
         "source_record_ids": [
-          "RULE-aa7a28cd9ea2e80e5757"
+          "RULE-df8e02c44b382f322253"
         ],
         "current_validity_verified": false
       }
@@ -2357,50 +2448,65 @@
     ]
   },
   {
-    "from_entity_id": "POI-ee07143d3d6c6f04",
-    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
-    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
-    "assertion_kind": "service_connection",
+    "from_entity_id": "POI-a9df4e391f8f4dc5",
+    "to_entity_id": "POI-3ee90e175366fdcd",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "visitor_movement",
     "service_name_text": null,
-    "leg_id": "LEG-6cecc398513dd1cdb7eb",
-    "scenic_code": "GZCL",
+    "leg_id": "LEG-6d3c2d9ff781a674d8c8",
+    "scenic_code": "ZHCL",
     "facts": [
       {
-        "attribute": "limitation",
-        "value_text": "除了人工刻意做出来的空中熊猫外，能看到的动物大部分被树荫遮挡看不到太多",
-        "condition": null,
+        "attribute": "ride_duration",
+        "value_text": "20分钟",
+        "condition": {
+          "text": "当天晚上",
+          "logic": "single",
+          "clauses": [
+            {
+              "category": "date_time",
+              "text": "当天晚上"
+            }
+          ]
+        },
         "modality": "asserted",
-        "leg_id": "LEG-6cecc398513dd1cdb7eb",
+        "leg_id": "LEG-6d3c2d9ff781a674d8c8",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-159ac31c5dbd7d3a"
+          "P5OBS-657eeb069199a056"
         ]
       }
     ],
     "route_bindings": [],
-    "rule_ids": [],
+    "rule_ids": [
+      "RULE-97a0688e307fcb162660"
+    ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-159ac31c5dbd7d3a"
+      "P5OBS-657eeb069199a056"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-0bae00ce23506f9266c3",
-        "label": "沿途观赏体验",
-        "summary": "历史资料记载，有游客表示，在这段缆车沿途，除了人工刻意做出来的空中熊猫外，能看到的动物大部分被树荫遮挡，看不到太多。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-b7968d83157b08c6ece7",
+        "topic_id": "THEME-9a6ba2813cc97563d941",
+        "label": "步行时间与路线",
+        "summary": "历史资料记载，有游客表示，当天晚上朋友一家从海洋王国走回横琴湾酒店也不过20分钟；该说法给出的步行用时为20分钟，适用条件为当天晚上。",
+        "scenic_code": "ZHCL",
+        "advice_summary_id": "ADVICE-d7a79c5c6d656d1fd033",
         "source_record_ids": [
-          "FACT-2d669f0e97caa1de575c"
+          "FACT-1bb8457cff9e4480c3b9",
+          "RULE-97a0688e307fcb162660"
         ],
         "current_validity_verified": false
       }
     ],
+    "time_summary_ids": [
+      "TIME-bd57e146712948ec787d"
+    ],
     "advice_summary_ids": [
-      "ADVICE-b7968d83157b08c6ece7"
+      "ADVICE-d7a79c5c6d656d1fd033"
     ]
   },
   {
@@ -2454,9 +2560,9 @@
         "leg_id": "LEG-75a2479eac8b08de5157",
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S007",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S008",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S007",
         "observation_ids": [
-          "P5OBS-5a77ddd3b9f29134"
+          "P5OBS-d14345125a756171"
         ]
       }
     ],
@@ -2464,48 +2570,17 @@
       {
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S007",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S008"
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S007"
       }
     ],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-5a77ddd3b9f29134"
+      "P5OBS-d14345125a756171"
     ],
     "time_summary_ids": [
       "TIME-54fa180cfba13e75fdda"
-    ]
-  },
-  {
-    "from_entity_id": "POI-a9f1a43dfb4dde70",
-    "to_entity_id": "POI-a62c2af16093cd29",
-    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
-    "assertion_kind": "service_connection",
-    "service_name_text": "免费穿梭巴士",
-    "leg_id": "LEG-783be17beb6acc1bd722",
-    "scenic_code": "GZCL",
-    "facts": [
-      {
-        "attribute": "fare",
-        "value_text": "免费",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-783be17beb6acc1bd722",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-1edd4a29f1913172"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-1edd4a29f1913172"
     ]
   },
   {
@@ -2523,60 +2598,6 @@
     "recommendation_rule_ids": [],
     "observation_ids": [
       "P5OBS-51d98e72b8324051"
-    ]
-  },
-  {
-    "from_entity_id": "POI-bbc557d2673e93f6",
-    "to_entity_id": "POI-871c3b6e819c218e",
-    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
-    "assertion_kind": "visitor_movement",
-    "service_name_text": null,
-    "leg_id": "LEG-7c2c785d6143cdd9db32",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "ride_duration",
-        "value_text": "约5分钟车程",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-7c2c785d6143cdd9db32",
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003",
-        "observation_ids": [
-          "P5OBS-eb1b3fc8f5e100a3"
-        ]
-      },
-      {
-        "attribute": "operating_time",
-        "value_text": "09:00-09:15",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-7c2c785d6143cdd9db32",
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003",
-        "observation_ids": [
-          "P5OBS-eb1b3fc8f5e100a3"
-        ]
-      }
-    ],
-    "route_bindings": [
-      {
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003"
-      }
-    ],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-eb1b3fc8f5e100a3"
-    ],
-    "time_summary_ids": [
-      "TIME-872dba78967a2645faf7",
-      "TIME-9c2a68b6624b7265d835"
     ]
   },
   {
@@ -2598,30 +2619,30 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-3ee7e005bce35fc7"
+          "P5OBS-89195dc727528a16"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-e527e76be1ac64c5b3aa"
+      "RULE-8d909a595210f49a166d"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-e527e76be1ac64c5b3aa"
+      "RULE-8d909a595210f49a166d"
     ],
     "observation_ids": [
-      "P5OBS-3ee7e005bce35fc7"
+      "P5OBS-89195dc727528a16"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-c9c32697043123327e7d",
+        "topic_id": "THEME-a7a17fdd8837fe5c7305",
         "label": "乘车与休息建议",
-        "summary": "历史资料记载，有游客建议在成都东站到黄龙九寨站的高铁行程中选择静音车厢，全程补觉。",
+        "summary": "历史资料记载，有游客建议选静音车厢全程补觉。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-0ba9f893fec3bda00148",
         "source_record_ids": [
-          "RULE-e527e76be1ac64c5b3aa"
+          "RULE-8d909a595210f49a166d"
         ],
         "current_validity_verified": false
       }
@@ -2631,6 +2652,46 @@
     ],
     "advice_summary_ids": [
       "ADVICE-0ba9f893fec3bda00148"
+    ]
+  },
+  {
+    "from_entity_id": "POI-bbc557d2673e93f6",
+    "to_entity_id": "POI-871c3b6e819c218e",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "观光车",
+    "leg_id": "LEG-7d351dcaedc933aaeebe",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约5分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-7d351dcaedc933aaeebe",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "observation_ids": [
+          "P5OBS-3d89dfb0df42174d"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S003",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S003"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-3d89dfb0df42174d"
+    ],
+    "time_summary_ids": [
+      "TIME-45ccd8b282be1ceed117"
     ]
   },
   {
@@ -2652,7 +2713,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S010",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S010",
         "observation_ids": [
-          "P5OBS-5c28f2ada2bbdd14"
+          "P5OBS-ea52bd7bfb02749e"
         ]
       },
       {
@@ -2665,7 +2726,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S010",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S010",
         "observation_ids": [
-          "P5OBS-5c28f2ada2bbdd14"
+          "P5OBS-ea52bd7bfb02749e"
         ]
       }
     ],
@@ -2680,7 +2741,7 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-5c28f2ada2bbdd14"
+      "P5OBS-ea52bd7bfb02749e"
     ],
     "time_summary_ids": [
       "TIME-46c7ecc66acb765953bb",
@@ -2740,171 +2801,12 @@
     ]
   },
   {
-    "from_entity_id": "POI-39f671334b05bd19",
-    "to_entity_id": "POI-dda73c5206efbef9",
-    "transport_entity_id": "TRANSPORT-c7876b90c7441768",
-    "assertion_kind": "service_connection",
-    "service_name_text": "九悦旅行直通车",
-    "leg_id": "LEG-82cc1d067729d3d1a66f",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "operating_time",
-        "value_text": "五点十五这班车",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-82cc1d067729d3d1a66f",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-3984eaf7a6a5d028"
-        ]
-      },
-      {
-        "attribute": "ride_duration",
-        "value_text": "车程约2h",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-82cc1d067729d3d1a66f",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-3984eaf7a6a5d028"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-a8892378dfa226548883"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-a8892378dfa226548883"
-    ],
-    "observation_ids": [
-      "P5OBS-3984eaf7a6a5d028"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-af7345af6121cacf1d34",
-        "label": "直通车预订与下车点",
-        "summary": "历史资料记载，九悦旅行上可以订黄龙九寨高铁站到九寨沟以及黄龙的直通车，可以选择离住的酒店近的下车点。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-a1316a393a2ff5483b91",
-        "source_record_ids": [
-          "RULE-a8892378dfa226548883"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "time_summary_ids": [
-      "TIME-aa0b9487ba9c4bd76edf",
-      "TIME-f003edd35a1f3abaa82a"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-a1316a393a2ff5483b91"
-    ]
-  },
-  {
-    "from_entity_id": "POI-86a654325b202f68",
-    "to_entity_id": "POI-0baa51d763ec4739",
-    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
-    "assertion_kind": "visitor_movement",
-    "service_name_text": null,
-    "leg_id": "LEG-86623645f63851300fb2",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-11858dac0a5c2c4b177b"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-11858dac0a5c2c4b177b"
-    ],
-    "observation_ids": [
-      "P5OBS-a0c6af6bcd42f587"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-6cbd7220b1d15ea86552",
-        "label": "出园与前往大马戏",
-        "summary": "历史资料记载，在这个时间点出园，可以慢悠悠地步行去广州长隆国际大马戏吃晚饭，并占个好位置；该建议针对从长隆欢乐世界北门步行前往长隆国际大马戏的线路。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-d5fa8a32ff3f90a340e8",
-        "source_record_ids": [
-          "RULE-11858dac0a5c2c4b177b"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-d5fa8a32ff3f90a340e8"
-    ]
-  },
-  {
-    "from_entity_id": "POI-871c3b6e819c218e",
-    "to_entity_id": "POI-d84c258e38dc6005",
-    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
-    "assertion_kind": "visitor_movement",
-    "service_name_text": null,
-    "leg_id": "LEG-8af2eb00d887bd71d52e",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "ride_duration",
-        "value_text": "约15分钟车程",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-8af2eb00d887bd71d52e",
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004",
-        "observation_ids": [
-          "P5OBS-75af7f7d61d24526"
-        ]
-      },
-      {
-        "attribute": "operating_time",
-        "value_text": "09:15-09:45",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-8af2eb00d887bd71d52e",
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004",
-        "observation_ids": [
-          "P5OBS-75af7f7d61d24526"
-        ]
-      }
-    ],
-    "route_bindings": [
-      {
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004"
-      }
-    ],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-75af7f7d61d24526"
-    ],
-    "time_summary_ids": [
-      "TIME-ab295b9680fc513e164d",
-      "TIME-d07c125c26642bcf4681"
-    ]
-  },
-  {
-    "from_entity_id": "POI-aac7d90bfc5ff426",
-    "to_entity_id": "POI-1fc2c78de022d941",
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-a62c2af16093cd29",
     "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": "穿梭巴士",
-    "leg_id": "LEG-8c324891a5febcd8100c",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费穿梭巴士",
+    "leg_id": "LEG-8f31385c52f3bcd531b9",
     "scenic_code": "GZCL",
     "facts": [
       {
@@ -2912,125 +2814,41 @@
         "value_text": "免费",
         "condition": null,
         "modality": "asserted",
-        "leg_id": "LEG-8c324891a5febcd8100c",
+        "leg_id": "LEG-8f31385c52f3bcd531b9",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-f8b1c29d1d885d4e"
+          "P5OBS-11e73b0f446c3848"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-a3dc1633e4424670bb9b"
-    ],
-    "restriction_rule_ids": [
-      "RULE-a3dc1633e4424670bb9b"
-    ],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-f8b1c29d1d885d4e"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-8a4ddc93b803901e7866",
-        "label": "南门至北门换乘",
-        "summary": "历史资料记载，如需前往北门，需要在南门下车后再换乘巴士。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-a456455be828a58d7aab",
-        "source_record_ids": [
-          "RULE-a3dc1633e4424670bb9b"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-a456455be828a58d7aab"
-    ]
-  },
-  {
-    "from_entity_id": "POI-1fc2c78de022d941",
-    "to_entity_id": "POI-a861b1470d96ab5f",
-    "transport_entity_id": "TRANSPORT-9b5ed8e652f8e344",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-8f3405076da2a1f37c53",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-5b17033af6597da8d093"
+      "RULE-d5e78c6e6eb8e7cfbd47"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-5b17033af6597da8d093"
+      "RULE-d5e78c6e6eb8e7cfbd47"
     ],
     "observation_ids": [
-      "P5OBS-f70b5c024267b986"
+      "P5OBS-11e73b0f446c3848"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-38da8cfc26e2ac858d56",
-        "label": "北门入园与游览顺序",
-        "summary": "历史资料记载，有游客建议停好车后进北门坐小火车穿越五大洲，然后步行到南门，慢慢逛；该建议涉及长隆野生动物世界北门、小火车游览区及南门之间的顺序安排。",
+        "topic_id": "THEME-c7b870312083b358b3bd",
+        "label": "地铁接驳与免费穿梭巴士",
+        "summary": "历史资料记载，从广州市区可乘坐地铁三号线到双溪长隆站，E出口有野生动物世界的免费穿梭巴士接驳。",
         "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-85395cae014699cdc223",
+        "advice_summary_id": "ADVICE-927e248831274fa17eb5",
         "source_record_ids": [
-          "RULE-5b17033af6597da8d093"
+          "RULE-d5e78c6e6eb8e7cfbd47"
         ],
         "current_validity_verified": false
       }
     ],
     "advice_summary_ids": [
-      "ADVICE-85395cae014699cdc223"
-    ]
-  },
-  {
-    "from_entity_id": "POI-41d5eefef861e525",
-    "to_entity_id": "POI-ee07143d3d6c6f04",
-    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
-    "assertion_kind": "service_connection",
-    "service_name_text": null,
-    "leg_id": "LEG-8f834520c41821805071",
-    "scenic_code": "GZCL",
-    "facts": [
-      {
-        "attribute": "limitation",
-        "value_text": "经过野生放养区上方，可以俯瞰大象犀牛长颈鹿等动物",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-8f834520c41821805071",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-3839225208a281aa"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-3839225208a281aa"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-b9e88025cab5467ba89c",
-        "label": "缆车观景",
-        "summary": "历史资料记载，天鹅湖 → 非洲草原站（缆车）经过野生放养区上方，可以俯瞰大象、犀牛、长颈鹿等动物。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-fcb6c9d4d87b80629b90",
-        "source_record_ids": [
-          "FACT-dd10a2840294f0caf429"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-fcb6c9d4d87b80629b90"
+      "ADVICE-927e248831274fa17eb5"
     ]
   },
   {
@@ -3044,24 +2862,24 @@
     "facts": [],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-831bdbe27a466c670f1e"
+      "RULE-a07976f48b525a2c453f"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-831bdbe27a466c670f1e"
+      "RULE-a07976f48b525a2c453f"
     ],
     "observation_ids": [
-      "P5OBS-3be962ce875971fc"
+      "P5OBS-be3b1a9d4d10fb04"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-72c33aba3937372753fb",
-        "label": "乘车顺序与游玩取舍",
-        "summary": "历史资料记载，从箭竹海乘车到熊猫海时，建议不用停留太久，直接前往五花海；该建议涉及箭竹海→熊猫海（观光车）、熊猫海和五花海。",
+        "topic_id": "THEME-7e1abccf860bd0e5e2c3",
+        "label": "乘车与游览顺序",
+        "summary": "历史资料记载，从箭竹海乘车到熊猫海时，建议不用在熊猫海停留太久，直接前往五花海；该建议针对箭竹海→熊猫海观光车及熊猫海、五花海这一线路场景。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-d087714298d3aa325c93",
         "source_record_ids": [
-          "RULE-831bdbe27a466c670f1e"
+          "RULE-a07976f48b525a2c453f"
         ],
         "current_validity_verified": false
       }
@@ -3088,23 +2906,6 @@
     ]
   },
   {
-    "from_entity_id": "POI-65869ec7fc0bc172",
-    "to_entity_id": "POI-a62c2af16093cd29",
-    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
-    "assertion_kind": "service_connection",
-    "service_name_text": null,
-    "leg_id": "LEG-985fea548a2cd89d5639",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-8e0fe75c9b5ed544"
-    ]
-  },
-  {
     "from_entity_id": "POI-545fccca3e7cf427",
     "to_entity_id": "POI-4286d8a6a4a416df",
     "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
@@ -3121,9 +2922,9 @@
         "leg_id": "LEG-9ea83037bf55155e26dc",
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S008",
-        "to_step_id": null,
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S008",
         "observation_ids": [
-          "P5OBS-620a35fbec8f8f97"
+          "P5OBS-c42546687a97b8cc"
         ]
       }
     ],
@@ -3131,14 +2932,14 @@
       {
         "route_id": "JZG-OFF-01-R-5489d330c8",
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S008",
-        "to_step_id": null
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S008"
       }
     ],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-620a35fbec8f8f97"
+      "P5OBS-c42546687a97b8cc"
     ],
     "time_summary_ids": [
       "TIME-4d02b9dc603994d5cdcb"
@@ -3176,7 +2977,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-39f4f1e5cb6f394b"
+          "P5OBS-043dc509060696e3"
         ]
       },
       {
@@ -3189,7 +2990,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-39f4f1e5cb6f394b"
+          "P5OBS-043dc509060696e3"
         ]
       },
       {
@@ -3202,7 +3003,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-39f4f1e5cb6f394b"
+          "P5OBS-043dc509060696e3"
         ]
       },
       {
@@ -3221,41 +3022,41 @@
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-3082b1d1d4a44bb51291",
-      "RULE-e427837f85b9f9005711"
+      "RULE-94a1f910fb333e715f8b",
+      "RULE-9689c84262c04dc44cab"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-3082b1d1d4a44bb51291",
-      "RULE-e427837f85b9f9005711"
+      "RULE-94a1f910fb333e715f8b"
     ],
     "observation_ids": [
+      "P5OBS-83bf3a063389fe71",
       "P5OBS-3098159cc3700c81",
-      "P5OBS-39f4f1e5cb6f394b",
+      "P5OBS-043dc509060696e3",
       "P5OBS-7f43f81b0dfe2d7e"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-e86e3730387a375994cc",
-        "label": "线路与乘车体验",
-        "summary": "历史资料记载，成都东站 → 黄龙九寨站（高铁）为直达线路。有游客表示，车厢两头都有插座可以充电，很方便。",
+        "topic_id": "THEME-372901c3ec35b8c53ed5",
+        "label": "购票与乘车",
+        "summary": "历史资料记载，成都东站到黄龙九寨站有直达高铁。当天不一定有票，旺季可能需要抢票，建议尽早买。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-e6c94bb6cf88ec68fcbd",
         "source_record_ids": [
-          "FACT-572c69de3686a010ea20",
-          "FACT-ddcca16c2703ba9ab477"
+          "FACT-ddcca16c2703ba9ab477",
+          "RULE-94a1f910fb333e715f8b"
         ],
         "current_validity_verified": false
       },
       {
-        "topic_id": "THEME-7b88eff581fa7239e7a6",
-        "label": "购票与充电建议",
-        "summary": "历史资料记载，有游客建议可利用车厢两头插座充电。关于购票，资料提到当天不一定有票、旺季可能需要抢票，并建议尽早买。",
+        "topic_id": "THEME-5502695f4d1c12fb2f1e",
+        "label": "车厢设施",
+        "summary": "历史资料记载，车厢两头都有插座可以充电，有游客认为很方便。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-e6c94bb6cf88ec68fcbd",
         "source_record_ids": [
-          "RULE-3082b1d1d4a44bb51291",
-          "RULE-e427837f85b9f9005711"
+          "FACT-572c69de3686a010ea20",
+          "RULE-9689c84262c04dc44cab"
         ],
         "current_validity_verified": false
       }
@@ -3287,28 +3088,30 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-88313615f84c59e4"
+          "P5OBS-d8100b046da3403a"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-b90256c5adf7015651ec"
+      "RULE-4e720822c0e363c95402",
+      "RULE-6c7fa07a13b999c56d0c"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-88313615f84c59e4"
+      "P5OBS-d8100b046da3403a"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-6be3c4476fcd66e74c7c",
-        "label": "地铁18号线快慢车",
-        "summary": "历史资料记载，地铁18号线分快车和慢车；慢车中间好几站停靠，快车直达火车南站。",
+        "topic_id": "THEME-e461502e0d0fde11485e",
+        "label": "地铁快慢车与停靠",
+        "summary": "历史资料记载，从成都天府机场乘地铁前往火车南站时，慢车会在中间好几站停靠；快车则直达火车南站。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-919d34c366d6adcfb24a",
         "source_record_ids": [
-          "RULE-b90256c5adf7015651ec"
+          "RULE-4e720822c0e363c95402",
+          "RULE-6c7fa07a13b999c56d0c"
         ],
         "current_validity_verified": false
       }
@@ -3321,50 +3124,6 @@
     ]
   },
   {
-    "from_entity_id": "POI-d84c258e38dc6005",
-    "to_entity_id": "POI-d896be8c097d9bf2",
-    "transport_entity_id": "TRANSPORT-302154bebe2201cc",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": "里侧的环形栈道",
-    "leg_id": "LEG-a23e355dcc2f91344ad5",
-    "scenic_code": "JZG",
-    "facts": [],
-    "route_bindings": [],
-    "upstream_fragment_bindings": [
-      {
-        "route_id": "ROUTEOBS-b2e2480f77d2a989",
-        "from_step_id": "ROUTEOBS-b2e2480f77d2a989-S001",
-        "to_step_id": "ROUTEOBS-b2e2480f77d2a989-S002"
-      }
-    ],
-    "rule_ids": [
-      "RULE-d3e7b3b5ad985f64a1dc"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-d3e7b3b5ad985f64a1dc"
-    ],
-    "observation_ids": [
-      "P5OBS-88bb1c52c09a9861"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-77d43c54640fc852fe31",
-        "label": "徒步路线与栈道选择",
-        "summary": "历史资料记载，从箭竹海徒步到熊猫海时，建议走里侧的环形栈道，可以一直走到熊猫海。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-2cf2ebc5b5510f0eaace",
-        "source_record_ids": [
-          "RULE-d3e7b3b5ad985f64a1dc"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-2cf2ebc5b5510f0eaace"
-    ]
-  },
-  {
     "from_entity_id": "POI-54159dd45e739e0c",
     "to_entity_id": "POI-39f671334b05bd19",
     "transport_entity_id": "TRANSPORT-0bda7df0b7655a1b",
@@ -3374,11 +3133,18 @@
     "scenic_code": "JZG",
     "facts": [],
     "route_bindings": [],
+    "upstream_fragment_bindings": [
+      {
+        "route_id": "ROUTEOBS-8d28daffc9f6aef6",
+        "from_step_id": "ROUTEOBS-8d28daffc9f6aef6-S001",
+        "to_step_id": "ROUTEOBS-8d28daffc9f6aef6-S002"
+      }
+    ],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-fcde25eb5a0bae41"
+      "P5OBS-e05321bda94fc93c"
     ]
   },
   {
@@ -3399,7 +3165,7 @@
       "RULE-5dcea926376892a2ecbc"
     ],
     "observation_ids": [
-      "P5OBS-d9769c1d4f0938ce"
+      "P5OBS-85289e755d1c5b9e"
     ],
     "advice_themes": [
       {
@@ -3419,50 +3185,20 @@
     ]
   },
   {
-    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
-    "to_entity_id": "POI-41d5eefef861e525",
-    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
+    "from_entity_id": "POI-a5e2ae7adbddb3ba",
+    "to_entity_id": "POI-b1f6b7b2ab56bf1d",
+    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
     "assertion_kind": "service_connection",
-    "service_name_text": null,
-    "leg_id": "LEG-a7cd0150e7e8f53dc2a1",
+    "service_name_text": "天鹅湖线缆车",
+    "leg_id": "LEG-aa491517f9491c7b12db",
     "scenic_code": "GZCL",
-    "facts": [
-      {
-        "attribute": "limitation",
-        "value_text": "可以看到树上的蜘蛛猴和鹦鹉白鹭，还可以看到湖里的鹈鹕黑天鹅火烈鸟等等",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-a7cd0150e7e8f53dc2a1",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-d8e593f7e5abb95e"
-        ]
-      }
-    ],
+    "facts": [],
     "route_bindings": [],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-d8e593f7e5abb95e"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-6129f0beede2ad9388ea",
-        "label": "沿途观赏",
-        "summary": "历史资料记载，从熊猫乐园站到天鹅湖的缆车途中，可以看到树上的蜘蛛猴和鹦鹉白鹭，还可以看到湖里的鹈鹕、黑天鹅、火烈鸟等。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-eb41931998d2d59c43d7",
-        "source_record_ids": [
-          "FACT-81bbb0f8bc3dee138195"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-eb41931998d2d59c43d7"
+      "P5OBS-070c2fa062e05600"
     ]
   },
   {
@@ -3490,24 +3226,24 @@
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-1aa77bf3c510731efa85"
+      "RULE-d44ddf7736e08992e6fd"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-1aa77bf3c510731efa85"
+      "RULE-d44ddf7736e08992e6fd"
     ],
     "observation_ids": [
       "P5OBS-a8ac0fc05db11288"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-4388a8e446df595bf207",
-        "label": "步行路线与放松建议",
-        "summary": "历史资料记载，从广州长隆熊猫酒店出发步行至广州长隆欢乐世界北门，建议把这段步行当作散步放松。",
+        "topic_id": "THEME-3124b9c9cfa913731ed3",
+        "label": "步行路线与建议",
+        "summary": "历史资料记载，从广州长隆熊猫酒店出发步行至广州长隆欢乐世界北门，散散步当放松也不错。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-e56950e5b4e5d538cf0b",
         "source_record_ids": [
-          "RULE-1aa77bf3c510731efa85"
+          "RULE-d44ddf7736e08992e6fd"
         ],
         "current_validity_verified": false
       }
@@ -3574,13 +3310,13 @@
       "RULE-5dcea926376892a2ecbc"
     ],
     "observation_ids": [
-      "P5OBS-904b0ee10ebce83b"
+      "P5OBS-121e59b1a39a5384"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-d973e69d45f8f2d00525",
+        "topic_id": "THEME-73ea2fd6c9b165978475",
         "label": "出站交通方式",
-        "summary": "历史资料记载，从黄龙九寨站出站后，可拼车或包车前往九寨沟口游客中心；该建议同时涉及拼车与包车两种方式，适用于黄龙九寨站至沟口游客中心这一路段。",
+        "summary": "历史资料记载，从黄龙九寨站出站后，可拼车或包车前往九寨沟口游客中心；该建议同时涉及黄龙九寨站至沟口游客中心的拼车与包车两种方式。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-1ea53cbdba11cfb49e5d",
         "source_record_ids": [
@@ -3591,6 +3327,40 @@
     ],
     "advice_summary_ids": [
       "ADVICE-1ea53cbdba11cfb49e5d"
+    ]
+  },
+  {
+    "from_entity_id": "POI-396e9403f2183845",
+    "to_entity_id": "POI-73bfe0e5a6149760",
+    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
+    "assertion_kind": "unspecified",
+    "service_name_text": null,
+    "leg_id": "LEG-ae9142b51f198fb98e92",
+    "scenic_code": "ZHCL",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "1分钟",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-ae9142b51f198fb98e92",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-baac521a3f84b34f"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-baac521a3f84b34f"
+    ],
+    "time_summary_ids": [
+      "TIME-f8296d186e79755bc047"
     ]
   },
   {
@@ -3612,30 +3382,30 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-36bb7b50e554d2e5"
+          "P5OBS-5350caae57f7a3ea"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-3c21511c40e0db856e70"
+      "RULE-b0422c1029dce55ac5bd"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-3c21511c40e0db856e70"
+      "RULE-b0422c1029dce55ac5bd"
     ],
     "observation_ids": [
-      "P5OBS-36bb7b50e554d2e5"
+      "P5OBS-5350caae57f7a3ea"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-bcafdc1f6722a24a7179",
+        "topic_id": "THEME-b0bff32c46af778461bf",
         "label": "环园线乘坐建议",
-        "summary": "历史资料记载，建议乘坐环园线，即按熊猫乐园站—东非草原站—天鹅湖站—熊猫乐园站的顺序乘坐空中缆车；该建议涉及非洲草原站至天鹅湖站这一区段，并关联熊猫乐园、考拉园、天鹅湖站、熊猫乐园站、非洲草原站等地点。",
+        "summary": "历史资料记载，建议乘坐环园线，即从熊猫乐园站出发，依次经过东非草原站、天鹅湖站，再回到熊猫乐园站；该建议涉及非洲草原站至天鹅湖站这段空中缆车，也关联熊猫乐园、考拉园等站点。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-63a367b19246f1936b7b",
         "source_record_ids": [
-          "RULE-3c21511c40e0db856e70"
+          "RULE-b0422c1029dce55ac5bd"
         ],
         "current_validity_verified": false
       }
@@ -3657,68 +3427,18 @@
     "scenic_code": "JZG",
     "facts": [],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-e6a9b733b8a44386bb09"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-e6a9b733b8a44386bb09"
-    ],
-    "observation_ids": [
-      "P5OBS-2540405e09311849"
-    ],
-    "advice_themes": [
+    "upstream_fragment_bindings": [
       {
-        "topic_id": "THEME-d8809d9d0df37d7aa8d3",
-        "label": "行程顺序与接驳安排",
-        "summary": "历史资料记载，某游记行程中，第一天从成都东站乘高铁到黄龙九寨站，再乘接驳车到沟口游客中心，之后入住休息；该顺序为游记建议，并非人人必须遵循的日序。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-9f2e44811157300bd86a",
-        "source_record_ids": [
-          "RULE-e6a9b733b8a44386bb09"
-        ],
-        "current_validity_verified": false
+        "route_id": "ROUTEOBS-6b2814616ddb4013",
+        "from_step_id": "ROUTEOBS-6b2814616ddb4013-S002",
+        "to_step_id": "ROUTEOBS-6b2814616ddb4013-S002"
       }
     ],
-    "advice_summary_ids": [
-      "ADVICE-9f2e44811157300bd86a"
-    ]
-  },
-  {
-    "from_entity_id": "POI-39f671334b05bd19",
-    "to_entity_id": "POI-cb24680dd82e15c1",
-    "transport_entity_id": "TRANSPORT-ef11cb40e93ccc3b",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-b05b126b3c93c8b60fe5",
-    "scenic_code": "JZG",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-dbf3e048878b11b96758"
-    ],
+    "rule_ids": [],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-dbf3e048878b11b96758"
-    ],
+    "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-148d7ad5c3292d93"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-de45722f46f008ba5df2",
-        "label": "交通方式与路线",
-        "summary": "历史资料记载，从黄龙九寨站可包车或拼车前往九寨沟景区；该建议同时涉及黄龙九寨站至九寨沟的拼车与包车两种方式，适用于黄龙九寨站到九寨沟这一线路场景。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-b3e1101eb391d02bd38e",
-        "source_record_ids": [
-          "RULE-dbf3e048878b11b96758"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-b3e1101eb391d02bd38e"
+      "P5OBS-a483fe0bfe4c5690"
     ]
   },
   {
@@ -3729,33 +3449,165 @@
     "service_name_text": null,
     "leg_id": "LEG-b320e4be620d24b33cde",
     "scenic_code": "JZG",
-    "facts": [],
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "午饭后",
+        "condition": null,
+        "modality": "recommended",
+        "leg_id": "LEG-b320e4be620d24b33cde",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-88cadc6bf8e97e71"
+        ]
+      }
+    ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-04e884b3ae11f7a0bf32"
+      "RULE-84936d9cac0881571a8e"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-04e884b3ae11f7a0bf32"
+      "RULE-84936d9cac0881571a8e"
     ],
     "observation_ids": [
-      "P5OBS-93dc27fa2ad79140"
+      "P5OBS-88cadc6bf8e97e71"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-c6143fda6aefd742cd73",
+        "topic_id": "THEME-875ed629d92c621de9db",
         "label": "返程与换乘",
-        "summary": "历史资料记载，某游记建议午饭后乘大巴返回黄龙九寨站，再坐最近班次高铁回成都；该建议涉及黄龙景区至黄龙九寨站的大巴、黄龙九寨站至成都东站的高铁，以及黄龙九寨站和成都东站。",
+        "summary": "历史资料记载，某游记建议午饭后乘大巴返回黄龙九寨站，再坐最近班次高铁回成都；该建议涉及黄龙景区至黄龙九寨站的大巴、黄龙九寨站至成都东站的高铁，以及黄龙九寨站、黄龙景区和成都东站等地点。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-2d4d64c772c3f6afe47e",
         "source_record_ids": [
-          "RULE-04e884b3ae11f7a0bf32"
+          "RULE-84936d9cac0881571a8e"
         ],
         "current_validity_verified": false
       }
     ],
+    "time_summary_ids": [
+      "TIME-eef8cd730013b27c94b8"
+    ],
     "advice_summary_ids": [
       "ADVICE-2d4d64c772c3f6afe47e"
+    ]
+  },
+  {
+    "from_entity_id": "POI-39f671334b05bd19",
+    "to_entity_id": "POI-cb24680dd82e15c1",
+    "transport_entity_id": "TRANSPORT-6117ff03af895cae",
+    "assertion_kind": "service_connection",
+    "service_name_text": "黄龙九寨-九寨沟保姆车",
+    "leg_id": "LEG-b35e9efad579e5fc973e",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "operating_time",
+        "value_text": "16:20",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-b35e9efad579e5fc973e",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ab7de611887865c6"
+        ]
+      },
+      {
+        "attribute": "fare",
+        "value_text": "¥61",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-b35e9efad579e5fc973e",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ab7de611887865c6"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "某程预定,司机提前半小时电话联系,在高铁站停车场上车",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-b35e9efad579e5fc973e",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ab7de611887865c6"
+        ]
+      },
+      {
+        "attribute": "limitation",
+        "value_text": "优点是比大巴快且舒适,且可送达入住酒店,行程中会下车休息一次上卫生间;缺点是其他网友反馈无保障,且比较看司机人品,因此仅作参考",
+        "condition": null,
+        "modality": "unclear",
+        "leg_id": "LEG-b35e9efad579e5fc973e",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-ab7de611887865c6"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-c56767b1d730c9fc0377"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-c56767b1d730c9fc0377"
+    ],
+    "observation_ids": [
+      "P5OBS-ab7de611887865c6"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-de27b2129a918209e60e",
+        "label": "包车预订与上车",
+        "summary": "历史资料记载，有游客通过某程预订黄龙九寨站到九寨沟的包车，司机提前半小时电话联系，并在高铁站停车场上车。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-dfe7f6944f79e1fa5d19",
+        "source_record_ids": [
+          "FACT-428d054fd63b4293b058"
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-32d9dd8faab935565f2f",
+        "label": "包车体验与可靠性",
+        "summary": "历史资料记载，有游客表示包车比大巴快且舒适，可送达入住酒店，行程中会下车休息一次上卫生间；该游客也提到其他网友反馈包车无保障，且比较看司机人品，因此仅作参考。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-dfe7f6944f79e1fa5d19",
+        "source_record_ids": [
+          "FACT-5758c4b31e07de125e5f"
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-f0a2a9ddd2ead271ad9d",
+        "label": "晕车准备",
+        "summary": "历史资料记载，针对晕车的友友，建议记得提前吃晕车药并准备垃圾袋。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-dfe7f6944f79e1fa5d19",
+        "source_record_ids": [
+          "RULE-c56767b1d730c9fc0377"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "time_summary_ids": [
+      "TIME-4bd54118d0292d111acf"
+    ],
+    "advice_summary_ids": [
+      "ADVICE-dfe7f6944f79e1fa5d19"
     ]
   },
   {
@@ -3807,9 +3659,9 @@
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-e17b3c6a4e68ea630b40",
+        "topic_id": "THEME-cdf73d731d7450477f39",
         "label": "穿梭巴士与前往方式",
-        "summary": "历史资料记载，从横琴湾酒店前往珠海长隆海洋王国有三种方式，其中3楼有免费巴士可直接前往；该说法来自官方资料，属于建议性信息。",
+        "summary": "历史资料记载，从横琴湾酒店前往珠海长隆海洋王国有三种方式，其中3楼有免费巴士可直接前往；该免费巴士信息同时被描述为酒店3楼设有免费巴士直接前往。",
         "scenic_code": "ZHCL",
         "advice_summary_id": "ADVICE-926a549479e58188b10a",
         "source_record_ids": [
@@ -3824,6 +3676,57 @@
     ]
   },
   {
+    "from_entity_id": "POI-859e5641d28e8b93",
+    "to_entity_id": "POI-54159dd45e739e0c",
+    "transport_entity_id": "TRANSPORT-7e07d15b43087423",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "免费摆渡车",
+    "leg_id": "LEG-b6f7d8d12bbdf4b003c3",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-b6f7d8d12bbdf4b003c3",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-0657fa32ac5d42aa"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-fa3abc918a69107837b3"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-fa3abc918a69107837b3"
+    ],
+    "observation_ids": [
+      "P5OBS-0657fa32ac5d42aa"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-351e691e497e2cf2f9e2",
+        "label": "摆渡车与索道衔接",
+        "summary": "历史资料记载，从沟口游客中心到黄龙景区可乘免费摆渡车，到景区门口后坐免费摆渡车去上行索道口坐车；该建议关联沟口游客中心、黄龙景区及本段摆渡车。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-ae133c674efd72049e1a",
+        "source_record_ids": [
+          "RULE-fa3abc918a69107837b3"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-ae133c674efd72049e1a"
+    ]
+  },
+  {
     "from_entity_id": "POI-39f671334b05bd19",
     "to_entity_id": "POI-cb24680dd82e15c1",
     "transport_entity_id": "TRANSPORT-6117ff03af895cae",
@@ -3833,31 +3736,11 @@
     "scenic_code": "JZG",
     "facts": [],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-dbf3e048878b11b96758"
-    ],
+    "rule_ids": [],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-dbf3e048878b11b96758"
-    ],
+    "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-a502bea7421956c2"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-15ab291973a746e28d0a",
-        "label": "包车与拼车方式",
-        "summary": "历史资料记载，从黄龙九寨站前往九寨沟景区，可以选择包车或拼车；该建议同时适用于包车和拼车两种方式，涉及黄龙九寨站与九寨沟景区之间的接驳。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-02258854739223124ace",
-        "source_record_ids": [
-          "RULE-dbf3e048878b11b96758"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-02258854739223124ace"
+      "P5OBS-ec8d24f1a9f5c90b"
     ]
   },
   {
@@ -3885,25 +3768,24 @@
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-04e884b3ae11f7a0bf32"
+      "RULE-84936d9cac0881571a8e"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-04e884b3ae11f7a0bf32"
+      "RULE-84936d9cac0881571a8e"
     ],
     "observation_ids": [
-      "P5OBS-64648d7ca445c471",
-      "P5OBS-18366bce2c2d72d8"
+      "P5OBS-64648d7ca445c471"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-0a7e113b8df7e93c8149",
-        "label": "返程交通顺序",
+        "topic_id": "THEME-e502cfd1e3a87230a6c0",
+        "label": "返程交通与顺序",
         "summary": "历史资料记载，午饭后可乘大巴返回黄龙九寨站，再坐最近班次高铁回成都；该建议涉及黄龙景区至黄龙九寨站的大巴、黄龙九寨站至成都东站的高铁，以及黄龙九寨站、黄龙景区和成都东站等地点。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-9ed6324bc1cda1d74c2c",
         "source_record_ids": [
-          "RULE-04e884b3ae11f7a0bf32"
+          "RULE-84936d9cac0881571a8e"
         ],
         "current_validity_verified": false
       }
@@ -3925,32 +3807,18 @@
     "scenic_code": "JZG",
     "facts": [],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-e6a9b733b8a44386bb09"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-e6a9b733b8a44386bb09"
-    ],
-    "observation_ids": [
-      "P5OBS-0ae67f84235f1815",
-      "P5OBS-31eb96281baac511"
-    ],
-    "advice_themes": [
+    "upstream_fragment_bindings": [
       {
-        "topic_id": "THEME-a69f7eddc159071c4690",
-        "label": "行程顺序与接驳",
-        "summary": "历史资料记载，某游记行程中，第一天从成都东站乘高铁到黄龙九寨站，再经接驳车到沟口游客中心，入住休息；该建议涉及成都东站、黄龙九寨站、沟口游客中心及高铁、接驳车两段交通。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-dae65af83c584e943c44",
-        "source_record_ids": [
-          "RULE-e6a9b733b8a44386bb09"
-        ],
-        "current_validity_verified": false
+        "route_id": "ROUTEOBS-6b2814616ddb4013",
+        "from_step_id": "ROUTEOBS-6b2814616ddb4013-S001",
+        "to_step_id": "ROUTEOBS-6b2814616ddb4013-S001"
       }
     ],
-    "advice_summary_ids": [
-      "ADVICE-dae65af83c584e943c44"
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-c339964c367176c9"
     ]
   },
   {
@@ -3971,64 +3839,20 @@
     ]
   },
   {
-    "from_entity_id": "POI-5bfe3687eda400d9",
-    "to_entity_id": "POI-ff1c7f688a819aea",
-    "transport_entity_id": "TRANSPORT-8f91c620f059eb51",
-    "assertion_kind": "service_connection",
+    "from_entity_id": "POI-86a654325b202f68",
+    "to_entity_id": "POI-0baa51d763ec4739",
+    "transport_entity_id": null,
+    "assertion_kind": "visitor_movement",
     "service_name_text": null,
-    "leg_id": "LEG-c48ed99867cf02d160ad",
-    "scenic_code": "JZG",
-    "facts": [
-      {
-        "attribute": "operating_time",
-        "value_text": "22-23:55",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-c48ed99867cf02d160ad",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ad48aea7c15785fe"
-        ]
-      },
-      {
-        "attribute": "fare",
-        "value_text": "¥524",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-c48ed99867cf02d160ad",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ad48aea7c15785fe"
-        ]
-      },
-      {
-        "attribute": "ride_duration",
-        "value_text": "大概40分钟到达登机口",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-c48ed99867cf02d160ad",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-ad48aea7c15785fe"
-        ]
-      }
-    ],
+    "leg_id": "LEG-c4ec0fe7cbf49ca02277",
+    "scenic_code": "GZCL",
+    "facts": [],
     "route_bindings": [],
     "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-ad48aea7c15785fe"
-    ],
-    "time_summary_ids": [
-      "TIME-2ed6ca2a7e4f74b7d114",
-      "TIME-5856d47411e914659a84"
+      "P5OBS-fcd78b6bf5ed0c70"
     ]
   },
   {
@@ -4050,20 +3874,7 @@
         "from_step_id": "JZG-OFF-01-R-5489d330c8-S001",
         "to_step_id": "JZG-OFF-01-R-5489d330c8-S001",
         "observation_ids": [
-          "P5OBS-4c4cf9842bd8f73b"
-        ]
-      },
-      {
-        "attribute": "operating_time",
-        "value_text": "07:00-08:10",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-c79b530ab3d9ff500505",
-        "route_id": "JZG-OFF-01-R-5489d330c8",
-        "from_step_id": "JZG-OFF-01-R-5489d330c8-S001",
-        "to_step_id": "JZG-OFF-01-R-5489d330c8-S001",
-        "observation_ids": [
-          "P5OBS-4c4cf9842bd8f73b"
+          "P5OBS-27c84f54040761c9"
         ]
       }
     ],
@@ -4078,11 +3889,41 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-4c4cf9842bd8f73b"
+      "P5OBS-27c84f54040761c9"
     ],
     "time_summary_ids": [
-      "TIME-38969b9bab50aa13e951",
       "TIME-c2dabf6ce2ca1c5a6aa8"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-d49792b6a476a673",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "service_connection",
+    "service_name_text": "免费巴士",
+    "leg_id": "LEG-c7e2afda1ee06612e18c",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-c7e2afda1ee06612e18c",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-515d8c1a267dcf57"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-515d8c1a267dcf57"
     ]
   },
   {
@@ -4104,39 +3945,19 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-e1ad6e55e0b9d7a0"
+          "P5OBS-d1050821cf9c3f27"
         ]
       }
     ],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-4ca838da007cdea3b496"
-    ],
+    "rule_ids": [],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-4ca838da007cdea3b496"
-    ],
+    "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-e1ad6e55e0b9d7a0"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-9cf4b0a258f3b18d4998",
-        "label": "游玩与夜间安排",
-        "summary": "历史资料记载，白天在广州长隆野生动物世界的游玩是丰富多彩、充满奇趣的；晚上则可以去长隆国际大马戏剧院欣赏一出精彩绝伦的马戏表演。该说法属于建议性安排，涉及长隆野生动物世界与长隆国际大马戏之间的行程衔接。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-f5f69a58062749b81f05",
-        "source_record_ids": [
-          "RULE-4ca838da007cdea3b496"
-        ],
-        "current_validity_verified": false
-      }
+      "P5OBS-d1050821cf9c3f27"
     ],
     "time_summary_ids": [
       "TIME-56d2e67ebe9ec7d7bd44"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-f5f69a58062749b81f05"
     ]
   },
   {
@@ -4154,6 +3975,43 @@
     "recommendation_rule_ids": [],
     "observation_ids": [
       "P5OBS-07c83c169bf055f7"
+    ]
+  },
+  {
+    "from_entity_id": "POI-5bfe3687eda400d9",
+    "to_entity_id": "POI-ff1c7f688a819aea",
+    "transport_entity_id": "TRANSPORT-8f91c620f059eb51",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": null,
+    "leg_id": "LEG-ca48b14bc65345ec5423",
+    "scenic_code": "JZG",
+    "facts": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-549ceb668a3e632ec8b1"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-549ceb668a3e632ec8b1"
+    ],
+    "observation_ids": [
+      "P5OBS-aa793cdc41fdd7e6"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-b7051bb2e63b58f89a55",
+        "label": "换乘衔接",
+        "summary": "历史资料记载，有游客建议从深圳飞成都，落地后无缝换乘高铁至黄龙九寨站；该建议涉及成都天府机场、成都东站与成都东站至黄龙九寨站的高铁衔接，属于某游记的换乘经验，并非对当前交通段服务的保证。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-c29f93cf26d3dff01065",
+        "source_record_ids": [
+          "RULE-549ceb668a3e632ec8b1"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-c29f93cf26d3dff01065"
     ]
   },
   {
@@ -4175,7 +4033,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-6a7120cee155b9ea"
+          "P5OBS-0220ce2cb8199ce6"
         ]
       }
     ],
@@ -4188,13 +4046,13 @@
       "RULE-9d21ef886e2d52d55ac8"
     ],
     "observation_ids": [
-      "P5OBS-6a7120cee155b9ea"
+      "P5OBS-0220ce2cb8199ce6"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-62ff9b9f2047c55f58c7",
+        "topic_id": "THEME-03b38e133fa5f03f9a3b",
         "label": "拼车与包车接驳",
-        "summary": "历史资料记载，从黄龙高铁站出站后可直接拼车或包车，不到2个小时直达九寨沟景区门口，省时省力；该说法同时涉及拼车、包车两种方式，以及黄龙九寨站和九寨沟景区。",
+        "summary": "历史资料记载，从黄龙高铁站出站后可直接拼车或包车，不到2个小时直达九寨沟景区门口，省时省力；该说法同时涉及黄龙九寨站到九寨沟的拼车和包车两种方式。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-35cbad4cde9b255aa222",
         "source_record_ids": [
@@ -4229,7 +4087,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-c16c2a7c630489cd"
+          "P5OBS-86746d474c4d87b9"
         ]
       },
       {
@@ -4242,7 +4100,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-c16c2a7c630489cd"
+          "P5OBS-86746d474c4d87b9"
         ]
       },
       {
@@ -4255,38 +4113,20 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-c16c2a7c630489cd"
+          "P5OBS-86746d474c4d87b9"
         ]
       }
     ],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-5a6272b17fe332885c62"
-    ],
+    "rule_ids": [],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-c16c2a7c630489cd"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-a362ad411ff2dcaaee97",
-        "label": "穿梭巴士与位置",
-        "summary": "历史资料记载，横琴湾酒店不在海洋王国门口，有点距离；酒店在园区间有免费穿梭巴士，15分钟一班，车程5分钟。",
-        "scenic_code": "ZHCL",
-        "advice_summary_id": "ADVICE-7a08dea9171d0f6fd565",
-        "source_record_ids": [
-          "RULE-5a6272b17fe332885c62"
-        ],
-        "current_validity_verified": false
-      }
+      "P5OBS-86746d474c4d87b9"
     ],
     "time_summary_ids": [
       "TIME-a590caa6d6835925eb19",
       "TIME-c8d081941f1c8e92730d"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-7a08dea9171d0f6fd565"
     ]
   },
   {
@@ -4308,39 +4148,19 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-f106e0109b69bb56"
+          "P5OBS-c9e51f5a83c310b5"
         ]
       }
     ],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-81f561e1eb89bdf4ca02"
-    ],
+    "rule_ids": [],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-81f561e1eb89bdf4ca02"
-    ],
+    "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-f106e0109b69bb56"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-f8bfa565edf1438a3f76",
-        "label": "澳门至横琴口岸及酒店打车流程",
-        "summary": "历史资料记载，有游客建议飞到澳门后乘坐出租车前往横琴口岸（约10–15分钟），在横琴口岸办理出入境手续；进入中国珠海后，再打车（使用中国打车软件滴滴）前往长隆酒店（约10–15分钟）。该建议涉及横琴口岸至横琴湾酒店的打车衔接。",
-        "scenic_code": "ZHCL",
-        "advice_summary_id": "ADVICE-dd1da48cbb2dd18e76d5",
-        "source_record_ids": [
-          "RULE-81f561e1eb89bdf4ca02"
-        ],
-        "current_validity_verified": false
-      }
+      "P5OBS-c9e51f5a83c310b5"
     ],
     "time_summary_ids": [
       "TIME-85fe6f12d115ae25b97e"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-dd1da48cbb2dd18e76d5"
     ]
   },
   {
@@ -4362,7 +4182,7 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-f1bb6863cf34ea03"
+          "P5OBS-0684538f1d78ede1"
         ]
       }
     ],
@@ -4375,13 +4195,13 @@
       "RULE-9d21ef886e2d52d55ac8"
     ],
     "observation_ids": [
-      "P5OBS-f1bb6863cf34ea03"
+      "P5OBS-0684538f1d78ede1"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-0b0a5daf8df26f43d9cc",
-        "label": "包车与拼车进沟",
-        "summary": "历史资料记载，从黄龙高铁站出站后可直接拼车或包车，不到2个小时可直达九寨沟景区门口，省时省力；该说法同时涉及黄龙九寨站至九寨沟的拼车与包车线路。",
+        "topic_id": "THEME-7f59d83169aada16662c",
+        "label": "包车与拼车接驳",
+        "summary": "历史资料记载，从黄龙高铁站出站后可直接拼车或包车，不到2个小时可直达九寨沟景区门口，省时省力；该说法同时涉及拼车和包车两种方式，适用于黄龙九寨站至九寨沟的接驳场景。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-1103a8f71787982ba1da",
         "source_record_ids": [
@@ -4408,30 +4228,70 @@
     "facts": [],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-f9dc1ccff80250332a6a"
+      "RULE-095c1cac44a32de0a2a8"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-f9dc1ccff80250332a6a"
+      "RULE-095c1cac44a32de0a2a8"
     ],
     "observation_ids": [
-      "P5OBS-b134e65f4b477980"
+      "P5OBS-70c6a157a2f51464"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-9f0d48ec8a246f160e19",
-        "label": "自驾行程与住宿安排",
+        "topic_id": "THEME-1ff1da4e80a37a6c5083",
+        "label": "行程衔接与住宿建议",
         "summary": "历史资料记载，游览完神仙池景区后，建议驱车前往九寨沟景区的漳扎镇，寻找合适的酒店办理入住，并早早休息，为第二天的行程养精蓄锐。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-c0dd62e4baed38fe15ea",
         "source_record_ids": [
-          "RULE-f9dc1ccff80250332a6a"
+          "RULE-095c1cac44a32de0a2a8"
         ],
         "current_validity_verified": false
       }
     ],
     "advice_summary_ids": [
       "ADVICE-c0dd62e4baed38fe15ea"
+    ]
+  },
+  {
+    "from_entity_id": "POI-871c3b6e819c218e",
+    "to_entity_id": "POI-d84c258e38dc6005",
+    "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
+    "assertion_kind": "visitor_movement",
+    "service_name_text": "观光车",
+    "leg_id": "LEG-d028bccb0e28599286a1",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "ride_duration",
+        "value_text": "约15分钟车程",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-d028bccb0e28599286a1",
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "observation_ids": [
+          "P5OBS-2e50c6ab596bbe15"
+        ]
+      }
+    ],
+    "route_bindings": [
+      {
+        "route_id": "JZG-OFF-01-R-5489d330c8",
+        "from_step_id": "JZG-OFF-01-R-5489d330c8-S004",
+        "to_step_id": "JZG-OFF-01-R-5489d330c8-S004"
+      }
+    ],
+    "rule_ids": [],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [],
+    "observation_ids": [
+      "P5OBS-2e50c6ab596bbe15"
+    ],
+    "time_summary_ids": [
+      "TIME-221cb71ba0feb94ecbbf"
     ]
   },
   {
@@ -4445,24 +4305,24 @@
     "facts": [],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-0bf110a3bbcb4ad28aa5"
+      "RULE-0a814e7660143495d524"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-0bf110a3bbcb4ad28aa5"
+      "RULE-0a814e7660143495d524"
     ],
     "observation_ids": [
-      "P5OBS-17768844d886110c"
+      "P5OBS-37ce15c31899339a"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-16406706a95a3ec68cc0",
+        "topic_id": "THEME-06cdf2ec78c4756cd86b",
         "label": "步行游览与后续乘车",
-        "summary": "历史资料记载，可以从诺日朗中心步行前往诺日朗瀑布，看完瀑布后走到站点坐车继续逛中线。",
+        "summary": "历史资料记载，可以从诺日朗中心步行前往诺日朗瀑布，看完瀑布后走到站点坐车继续游览中线。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-16b06ce142433ec4b272",
         "source_record_ids": [
-          "RULE-0bf110a3bbcb4ad28aa5"
+          "RULE-0a814e7660143495d524"
         ],
         "current_validity_verified": false
       }
@@ -4484,25 +4344,45 @@
         "attribute": "ride_duration",
         "value_text": "走1分钟",
         "condition": null,
-        "modality": "asserted",
+        "modality": "recommended",
         "leg_id": "LEG-d23181b38a5988a29f0f",
         "route_id": null,
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-9174dbd36e6ad99e"
+          "P5OBS-009af929442813be"
         ]
       }
     ],
     "route_bindings": [],
-    "rule_ids": [],
+    "rule_ids": [
+      "RULE-cc8baf29adee6d22c856"
+    ],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-cc8baf29adee6d22c856"
+    ],
     "observation_ids": [
-      "P5OBS-9174dbd36e6ad99e"
+      "P5OBS-009af929442813be"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-97a4b61c7221c6e1ed36",
+        "label": "步行路线与出口",
+        "summary": "历史资料记载，从火烈鸟岛前往长隆野生动物世界南门可步行：看完火烈鸟后，走1分钟再右转走就是南门出。",
+        "scenic_code": "GZCL",
+        "advice_summary_id": "ADVICE-2f5035c4740318e20f6d",
+        "source_record_ids": [
+          "RULE-cc8baf29adee6d22c856"
+        ],
+        "current_validity_verified": false
+      }
     ],
     "time_summary_ids": [
       "TIME-5eed703f73b138429b21"
+    ],
+    "advice_summary_ids": [
+      "ADVICE-2f5035c4740318e20f6d"
     ]
   },
   {
@@ -4519,7 +4399,7 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-9db96438a3c1eaa0"
+      "P5OBS-ef6ff2a595c4ec70"
     ]
   },
   {
@@ -4533,11 +4413,11 @@
     "facts": [],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-c32ed408c27f6f31d675"
+      "RULE-d4115c2d14e2cb94c26f"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-c32ed408c27f6f31d675"
+      "RULE-d4115c2d14e2cb94c26f"
     ],
     "observation_ids": [
       "P5OBS-8e505df6dfb02494"
@@ -4550,7 +4430,7 @@
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-297d677f3b6000895bee",
         "source_record_ids": [
-          "RULE-c32ed408c27f6f31d675"
+          "RULE-d4115c2d14e2cb94c26f"
         ],
         "current_validity_verified": false
       }
@@ -4560,27 +4440,57 @@
     ]
   },
   {
-    "from_entity_id": "POI-007a647d74f009b6",
-    "to_entity_id": "POI-1fc2c78de022d941",
-    "transport_entity_id": "TRANSPORT-25e3bd181c2c2ab3",
+    "from_entity_id": "POI-ff1c7f688a819aea",
+    "to_entity_id": "POI-5bfe3687eda400d9",
+    "transport_entity_id": "TRANSPORT-8f91c620f059eb51",
     "assertion_kind": "visitor_movement",
-    "service_name_text": "空中缆车",
-    "leg_id": "LEG-d93bfa188f9f4e508a33",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "upstream_fragment_bindings": [
+    "service_name_text": null,
+    "leg_id": "LEG-d71fe6921b33ef1206b7",
+    "scenic_code": "JZG",
+    "facts": [
       {
-        "route_id": "ROUTEOBS-6ab0604603ef6685",
-        "from_step_id": "ROUTEOBS-6ab0604603ef6685-S005",
-        "to_step_id": "ROUTEOBS-6ab0604603ef6685-S005"
+        "attribute": "operating_time",
+        "value_text": "晚班飞机",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-d71fe6921b33ef1206b7",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-4a894a59019491ab"
+        ]
       }
     ],
-    "rule_ids": [],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-0e90549dddc68a853887"
+    ],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-0e90549dddc68a853887"
+    ],
     "observation_ids": [
-      "P5OBS-c68d9e73c71a7a5f"
+      "P5OBS-4a894a59019491ab"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-6dd6bb92011d0e07a34c",
+        "label": "行程衔接与返程",
+        "summary": "历史资料记载，某游记行程中安排之后乘高铁回成都，再搭晚班飞机回深圳；该说法关联成都东站与成都天府机场，属于个人行程建议，并非对班次或衔接时间的保证。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-11db66f4daa357cfc437",
+        "source_record_ids": [
+          "RULE-0e90549dddc68a853887"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "time_summary_ids": [
+      "TIME-9c43344884168d7956e8"
+    ],
+    "advice_summary_ids": [
+      "ADVICE-11db66f4daa357cfc437"
     ]
   },
   {
@@ -4597,7 +4507,7 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-ec267eee334fad64"
+      "P5OBS-143a0714f7a3888c"
     ]
   },
   {
@@ -4652,37 +4562,6 @@
     ]
   },
   {
-    "from_entity_id": "POI-b52544c6bf257d41",
-    "to_entity_id": "POI-d49792b6a476a673",
-    "transport_entity_id": "TRANSPORT-4b27a2166b41d88e",
-    "assertion_kind": "service_connection",
-    "service_name_text": "免费巴士",
-    "leg_id": "LEG-e779d9308fcc679ceb75",
-    "scenic_code": "GZCL",
-    "facts": [
-      {
-        "attribute": "fare",
-        "value_text": "免费",
-        "condition": null,
-        "modality": "asserted",
-        "leg_id": "LEG-e779d9308fcc679ceb75",
-        "route_id": null,
-        "from_step_id": null,
-        "to_step_id": null,
-        "observation_ids": [
-          "P5OBS-7a7ecfa3e01f09f8"
-        ]
-      }
-    ],
-    "route_bindings": [],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-7a7ecfa3e01f09f8"
-    ]
-  },
-  {
     "from_entity_id": "POI-545fccca3e7cf427",
     "to_entity_id": "POI-10e8a874d4a64eeb",
     "transport_entity_id": "TRANSPORT-e6843f2f5df433cb",
@@ -4697,80 +4576,6 @@
     "recommendation_rule_ids": [],
     "observation_ids": [
       "P5OBS-9f61fa5100d645bc"
-    ]
-  },
-  {
-    "from_entity_id": "POI-5bfe3687eda400d9",
-    "to_entity_id": "POI-39f671334b05bd19",
-    "transport_entity_id": "TRANSPORT-660c137bb180f34a",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-ea9b63c682486bb96515",
-    "scenic_code": "JZG",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-0f79b91e2f9c37742c84"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-0f79b91e2f9c37742c84"
-    ],
-    "observation_ids": [
-      "P5OBS-c116bde92ffe86fd"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-f8797e03925fd32530d1",
-        "label": "换乘衔接",
-        "summary": "历史资料记载，有游客建议深圳飞成都，落地后无缝换乘高铁至黄龙九寨站；该建议涉及成都天府机场与黄龙九寨站之间的衔接。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-b7abaa709cfdd02fefbc",
-        "source_record_ids": [
-          "RULE-0f79b91e2f9c37742c84"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-b7abaa709cfdd02fefbc"
-    ]
-  },
-  {
-    "from_entity_id": "POI-10e8a874d4a64eeb",
-    "to_entity_id": "POI-d84c258e38dc6005",
-    "transport_entity_id": null,
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-ec38a517145944f2b5f5",
-    "scenic_code": "JZG",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-8b5a646acc0ddc51435e"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-8b5a646acc0ddc51435e"
-    ],
-    "observation_ids": [
-      "P5OBS-355fcc462e8316a8"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-10e675b21e134de687b9",
-        "label": "乘车座位建议",
-        "summary": "历史资料记载，从诺日朗中心前往箭竹海（右线）时，建议坐在右边。",
-        "scenic_code": "JZG",
-        "advice_summary_id": "ADVICE-28e8c8ce6653ba536b36",
-        "source_record_ids": [
-          "RULE-8b5a646acc0ddc51435e"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-28e8c8ce6653ba536b36"
     ]
   },
   {
@@ -4798,24 +4603,24 @@
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-45ec334a755efd6a0a1f"
+      "RULE-766beaa40113d8e0af8c"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-45ec334a755efd6a0a1f"
+      "RULE-766beaa40113d8e0af8c"
     ],
     "observation_ids": [
       "P5OBS-2e9d7f4844672415"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-9b25120b6c16aa4ce89c",
-        "label": "购票与乘车",
+        "topic_id": "THEME-2c71b4f1911a5bcca8e8",
+        "label": "购票与乘车准备",
         "summary": "历史资料记载，黄龙九寨站到沟口游客中心的直通车建议提前在小程序买票。",
         "scenic_code": "JZG",
         "advice_summary_id": "ADVICE-2b4d83e227b9c05a6077",
         "source_record_ids": [
-          "RULE-45ec334a755efd6a0a1f"
+          "RULE-766beaa40113d8e0af8c"
         ],
         "current_validity_verified": false
       }
@@ -4841,7 +4646,7 @@
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-9d17aab9341a169a"
+      "P5OBS-23545fe6529b94f0"
     ]
   },
   {
@@ -4863,12 +4668,12 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-951670dbe343ead6"
+          "P5OBS-7fbdcb1c252d37fc"
         ]
       },
       {
         "attribute": "limitation",
-        "value_text": "小火车是不停车的，而且车上比较颠簸，还经常会被自驾车挡在动物前面",
+        "value_text": "小火车是不停车的，而且车上比较颠簸，还经常会被自驾车挡在动物前面，所以小火车很难拍出好照片",
         "condition": null,
         "modality": "asserted",
         "leg_id": "LEG-f38e63af3e24de4a5343",
@@ -4876,31 +4681,41 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-951670dbe343ead6"
+          "P5OBS-7fbdcb1c252d37fc"
         ]
       }
     ],
     "route_bindings": [],
     "rule_ids": [
-      "RULE-2ea0d616a130a7bfd74a"
+      "RULE-2b48de57e065e5842424"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-2ea0d616a130a7bfd74a"
+      "RULE-2b48de57e065e5842424"
     ],
     "observation_ids": [
-      "P5OBS-951670dbe343ead6"
+      "P5OBS-7fbdcb1c252d37fc"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-9a8a3ba4ddc775e83262",
-        "label": "小火车乘坐体验与建议",
-        "summary": "历史资料记载，小火车是不停车的，而且车上比较颠簸，还经常会被自驾车挡在动物前面。如果通过公共交通前往长隆野生动物世界，也可以在北门附近乘坐小火车游览。",
+        "topic_id": "THEME-4b640d3767a3cef36b7c",
+        "label": "乘车体验与拍照",
+        "summary": "历史资料记载，小火车全程不停车，车上比较颠簸，还经常会被自驾车挡在动物前面，因此有游客认为小火车很难拍出好照片。",
         "scenic_code": "GZCL",
         "advice_summary_id": "ADVICE-94c7f68673b41f719b9f",
         "source_record_ids": [
-          "FACT-bc769e97b1918f286ad6",
-          "RULE-2ea0d616a130a7bfd74a"
+          "FACT-80dc88d986ebd4fe730e"
+        ],
+        "current_validity_verified": false
+      },
+      {
+        "topic_id": "THEME-adb5e45071b007dbebf1",
+        "label": "公共交通与乘车建议",
+        "summary": "历史资料记载，如果通过公共交通前往长隆野生动物世界，建议在北门附近乘坐小火车游览。",
+        "scenic_code": "GZCL",
+        "advice_summary_id": "ADVICE-94c7f68673b41f719b9f",
+        "source_record_ids": [
+          "RULE-2b48de57e065e5842424"
         ],
         "current_validity_verified": false
       }
@@ -4910,6 +4725,57 @@
     ],
     "advice_summary_ids": [
       "ADVICE-94c7f68673b41f719b9f"
+    ]
+  },
+  {
+    "from_entity_id": "POI-b52544c6bf257d41",
+    "to_entity_id": "POI-0baa51d763ec4739",
+    "transport_entity_id": "TRANSPORT-76947892b9ca8a44",
+    "assertion_kind": "route_recommendation",
+    "service_name_text": "园区免费穿梭巴士",
+    "leg_id": "LEG-f479d733cba67b158528",
+    "scenic_code": "GZCL",
+    "facts": [
+      {
+        "attribute": "fare",
+        "value_text": "免费",
+        "condition": null,
+        "modality": "asserted",
+        "leg_id": "LEG-f479d733cba67b158528",
+        "route_id": null,
+        "from_step_id": null,
+        "to_step_id": null,
+        "observation_ids": [
+          "P5OBS-0d6039c7f91aebba"
+        ]
+      }
+    ],
+    "route_bindings": [],
+    "rule_ids": [
+      "RULE-b07c46e94373e89a7b2f"
+    ],
+    "restriction_rule_ids": [],
+    "recommendation_rule_ids": [
+      "RULE-b07c46e94373e89a7b2f"
+    ],
+    "observation_ids": [
+      "P5OBS-0d6039c7f91aebba"
+    ],
+    "advice_themes": [
+      {
+        "topic_id": "THEME-b14e9fd428cd87b20492",
+        "label": "地铁到达与穿梭巴士接驳",
+        "summary": "历史资料记载，可坐地铁到汉溪长隆地铁站，7号线和3号线都可以到；下地铁后从D出口或E出口出站，搭园区的免费穿梭巴士去长隆国际大马戏（大戏剧院）。该说法来自游客笔记，属建议性路线。",
+        "scenic_code": "GZCL",
+        "advice_summary_id": "ADVICE-4df3025b3555db8a49e6",
+        "source_record_ids": [
+          "RULE-b07c46e94373e89a7b2f"
+        ],
+        "current_validity_verified": false
+      }
+    ],
+    "advice_summary_ids": [
+      "ADVICE-4df3025b3555db8a49e6"
     ]
   },
   {
@@ -4948,76 +4814,19 @@
         "from_step_id": null,
         "to_step_id": null,
         "observation_ids": [
-          "P5OBS-f8f2f18449a4987e"
+          "P5OBS-13900540a4bebda1"
         ]
       }
     ],
     "route_bindings": [],
-    "rule_ids": [
-      "RULE-afc7cbaa066a31b775c0"
-    ],
+    "rule_ids": [],
     "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-afc7cbaa066a31b775c0"
-    ],
+    "recommendation_rule_ids": [],
     "observation_ids": [
-      "P5OBS-f8f2f18449a4987e"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-25b4ff893da5006f360d",
-        "label": "步行路线与耗时",
-        "summary": "历史资料记载，从企鹅酒店出来走连廊到海洋王国门口只需要5分钟，非常方便。",
-        "scenic_code": "ZHCL",
-        "advice_summary_id": "ADVICE-665d58a8e740827c2927",
-        "source_record_ids": [
-          "RULE-afc7cbaa066a31b775c0"
-        ],
-        "current_validity_verified": false
-      }
+      "P5OBS-13900540a4bebda1"
     ],
     "time_summary_ids": [
       "TIME-757267d52cbd2dd50ef2"
-    ],
-    "advice_summary_ids": [
-      "ADVICE-665d58a8e740827c2927"
-    ]
-  },
-  {
-    "from_entity_id": "POI-5f6108e8b89839dd",
-    "to_entity_id": "POI-0baa51d763ec4739",
-    "transport_entity_id": "TRANSPORT-6d3dead8afc28ac0",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-f57ba2dc5a591a9ae2ee",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "rule_ids": [
-      "RULE-fa32d51398eff858bad0"
-    ],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [
-      "RULE-fa32d51398eff858bad0"
-    ],
-    "observation_ids": [
-      "P5OBS-3e891d3f93b8ca86"
-    ],
-    "advice_themes": [
-      {
-        "topic_id": "THEME-3ec40d056058051db0d4",
-        "label": "步行路线与适用房型",
-        "summary": "历史资料记载，入住满屋熊猫童趣房型的游客可步行直达长隆国际大马戏；该说法将熊猫酒店至长隆国际大马戏的步行方式与这一房型关联，属于建议性内容。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-9d5a45ee192825a30ee1",
-        "source_record_ids": [
-          "RULE-fa32d51398eff858bad0"
-        ],
-        "current_validity_verified": false
-      }
-    ],
-    "advice_summary_ids": [
-      "ADVICE-9d5a45ee192825a30ee1"
     ]
   },
   {
@@ -5038,75 +4847,66 @@
     ]
   },
   {
-    "from_entity_id": "POI-aac7d90bfc5ff426",
-    "to_entity_id": "POI-945872fa06706211",
-    "transport_entity_id": "TRANSPORT-78f05fe80a344b95",
-    "assertion_kind": "visitor_movement",
+    "from_entity_id": "POI-d84c258e38dc6005",
+    "to_entity_id": "POI-d896be8c097d9bf2",
+    "transport_entity_id": "TRANSPORT-302154bebe2201cc",
+    "assertion_kind": "route_recommendation",
     "service_name_text": null,
-    "leg_id": "LEG-fb143f9042a451602046",
-    "scenic_code": "GZCL",
-    "facts": [],
+    "leg_id": "LEG-f9691f35896617dba586",
+    "scenic_code": "JZG",
+    "facts": [
+      {
+        "attribute": "limitation",
+        "value_text": "走里侧的环形栈道",
+        "condition": null,
+        "modality": "recommended",
+        "leg_id": "LEG-f9691f35896617dba586",
+        "route_id": null,
+        "upstream_route_id": "ROUTEOBS-c7b6dfbd3bb1ed51",
+        "scope_status": "excluded_route_fragment_scope",
+        "from_step_id": null,
+        "upstream_from_step_id": "ROUTEOBS-c7b6dfbd3bb1ed51-S001",
+        "to_step_id": null,
+        "upstream_to_step_id": "ROUTEOBS-c7b6dfbd3bb1ed51-S002",
+        "observation_ids": [
+          "P5OBS-489b64e04744a32a"
+        ]
+      }
+    ],
     "route_bindings": [],
+    "upstream_fragment_bindings": [
+      {
+        "route_id": "ROUTEOBS-c7b6dfbd3bb1ed51",
+        "from_step_id": "ROUTEOBS-c7b6dfbd3bb1ed51-S001",
+        "to_step_id": "ROUTEOBS-c7b6dfbd3bb1ed51-S002"
+      }
+    ],
     "rule_ids": [
-      "RULE-f807297c61bf52af4c7b"
+      "RULE-c430b6c84d95e0c374db"
     ],
     "restriction_rule_ids": [],
     "recommendation_rule_ids": [
-      "RULE-f807297c61bf52af4c7b"
+      "RULE-c430b6c84d95e0c374db"
     ],
     "observation_ids": [
-      "P5OBS-918c69f09541d312"
+      "P5OBS-489b64e04744a32a"
     ],
     "advice_themes": [
       {
-        "topic_id": "THEME-e09aed4b703792f6d1a1",
-        "label": "停车与入园路线",
-        "summary": "历史资料记载，有游客十点到达长隆动物园，从北门进入时看到里面还有车位，但工作人员指示他们往前开，驶过北门、穿南门再经欢乐世界，一直开到一个特别远的停车场；之后步行到动物园至少得四十分钟，此时已经十一点。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-f78469afaf1bdf3dc01d",
+        "topic_id": "THEME-fae8c34e8b393660e2a0",
+        "label": "徒步路线与栈道选择",
+        "summary": "历史资料记载，从箭竹海徒步到熊猫海时，建议走里侧的环形栈道，可以一直走到熊猫海。",
+        "scenic_code": "JZG",
+        "advice_summary_id": "ADVICE-863bc1e065fd99487d11",
         "source_record_ids": [
-          "RULE-f807297c61bf52af4c7b"
-        ],
-        "current_validity_verified": false
-      },
-      {
-        "topic_id": "THEME-1b4eb756cadf39586906",
-        "label": "行程调整建议",
-        "summary": "历史资料记载，在上述停车绕行、步行较远且时间已晚的情况下，该游客提议干脆在广州住一夜，改票到初四；这是针对当时行程的个人建议，原文未给出其他后果。",
-        "scenic_code": "GZCL",
-        "advice_summary_id": "ADVICE-f78469afaf1bdf3dc01d",
-        "source_record_ids": [
-          "RULE-f807297c61bf52af4c7b"
+          "RULE-c430b6c84d95e0c374db"
         ],
         "current_validity_verified": false
       }
     ],
     "advice_summary_ids": [
-      "ADVICE-f78469afaf1bdf3dc01d"
-    ]
-  },
-  {
-    "from_entity_id": "POI-b1f6b7b2ab56bf1d",
-    "to_entity_id": "POI-6dc59eea71366bd1",
-    "transport_entity_id": "TRANSPORT-1f9dec76824b98e0",
-    "assertion_kind": "route_recommendation",
-    "service_name_text": null,
-    "leg_id": "LEG-fb4bdab3e86c2170c6eb",
-    "scenic_code": "GZCL",
-    "facts": [],
-    "route_bindings": [],
-    "upstream_fragment_bindings": [
-      {
-        "route_id": "GZCL-NOTE-11-R-a936970d41",
-        "from_step_id": "GZCL-NOTE-11-R-a936970d41-S001",
-        "to_step_id": "GZCL-NOTE-11-R-a936970d41-S002"
-      }
-    ],
-    "rule_ids": [],
-    "restriction_rule_ids": [],
-    "recommendation_rule_ids": [],
-    "observation_ids": [
-      "P5OBS-34c901e6b19d2259"
+      "ADVICE-863bc1e065fd99487d11",
+      "ADVICE-b23c95eca60421cba710"
     ]
   }
 ]

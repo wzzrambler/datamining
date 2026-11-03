@@ -134,6 +134,73 @@ def assemble(package, raw):
             'semantic_correctness_independently_verified':False}
 
 
+def split_group(group, nodes):
+    """把一个实体组切成能在预算内跑完的分片，返回 [(package, 序号, 总数)]。
+
+    为什么不是直接放宽 30K：单条提示词一旦逼近窗口上限，输出被截断的风险和重试成本
+    都会上去，而且截断的记录会被当成"模型没总结完"。分片做两件事——
+    条目按 item_id 排序后二分，保证同样输入永远切在同一处；每片单独校验覆盖率，
+    两片的并集再和原组比对，缺一条都不算完成。
+    """
+    items = sorted(group['items'], key=lambda i: i['item_id'])
+
+    def probe(sub):
+        trial = dict(group, items=sub, advice_summary_id=group['advice_summary_id'] + '#probe')
+        try:
+            make_package(trial, nodes)
+            return True
+        except ValueError:
+            return False
+
+    if probe(items):
+        return [(make_package(group, nodes), 0, 1)]
+    parts = []
+    stack = [items]
+    while stack:
+        sub = stack.pop(0)
+        if probe(sub) or len(sub) == 1:
+            if not probe(sub):
+                raise ValueError('单条建议就超出预算，无法分片：' + group['target_id'])
+            parts.append(sub)
+            continue
+        mid = len(sub) // 2
+        stack = [sub[:mid], sub[mid:]] + stack
+    packages = []
+    for k, sub in enumerate(parts):
+        shard = dict(group, items=sub,
+                     advice_summary_id='%s#c%d' % (group['advice_summary_id'], k + 1))
+        packages.append((make_package(shard, nodes), k + 1, len(parts)))
+    return packages
+
+
+def merge_assembled(summary_id, pairs):
+    """把同一实体组的分片主题并成一条结果，同标签的合并引用而不是留两个同名主题。"""
+    topics, index = [], {}
+    for package, assembled in pairs:
+        for topic in assembled['topics']:
+            key = topic['label']
+            if key not in index:
+                item = dict(topic)
+                item['source_item_ids'] = list(topic['source_item_ids'])
+                item['source_record_ids'] = list(topic['source_record_ids'])
+                index[key] = item
+                topics.append(item)
+                continue
+            cur = index[key]
+            cur['source_item_ids'] = sorted(set(cur['source_item_ids']) | set(topic['source_item_ids']))
+            cur['source_record_ids'] = sorted(set(cur['source_record_ids']) | set(topic['source_record_ids']))
+            cur['scope_bindings'] = sorted(set(cur.get('scope_bindings', [])) | set(topic.get('scope_bindings', [])))
+            cur['joint_target_sets'] = [json.loads(x) for x in sorted(
+                {compact(x) for x in cur.get('joint_target_sets', []) + topic.get('joint_target_sets', [])})]
+            cur['summary'] = cur['summary'].rstrip('。；;') + '；' + topic['summary'].removeprefix('历史资料记载，')
+    first = pairs[0][1]
+    return {'advice_summary_id': summary_id, 'entity_id': first['entity_id'],
+            'scenic_code': first['scenic_code'], 'input_fingerprint': None,
+            'chunk_fingerprints': [p['fingerprint'] for p, _ in pairs],
+            'chunk_count': len(pairs), 'method': VERSION, 'model': MODEL, 'topics': topics,
+            'item_reference_coverage': 1.0, 'semantic_correctness_independently_verified': False}
+
+
 def attach_results(graph, groups, results):
     """Bind every generated theme back to the registered, scene-scoped owner."""
     nodes={n['id']:n for n in graph['nodes']}
@@ -141,11 +208,20 @@ def attach_results(graph, groups, results):
     indexed={r['advice_summary_id']:r for r in results}
     if len(indexed)!=len(results) or set(indexed)!=set(eligible):
         raise ValueError('LLM结果必须完整覆盖当前可总结实体，不能用小样本替代全量')
+    chunked=[]
     for sid,group in eligible.items():
         result=indexed[sid]
-        package=make_package(group,nodes)
-        if result['entity_id']!=group['target_id'] or result['scenic_code']!=group['scenic_code'] or result['input_fingerprint']!=package['fingerprint']:
-            raise ValueError('LLM实体、景区或输入指纹不一致：'+sid)
+        if result['entity_id']!=group['target_id'] or result['scenic_code']!=group['scenic_code']:
+            raise ValueError('LLM实体或景区不一致：'+sid)
+        shards=split_group(group,nodes)
+        if len(shards)==1:
+            if result.get('input_fingerprint')!=shards[0][0]['fingerprint']:
+                raise ValueError('LLM输入指纹不一致：'+sid)
+        else:
+            if result.get('chunk_fingerprints')!=[p['fingerprint'] for p,_,_ in shards]:
+                raise ValueError('LLM分片输入指纹不一致：'+sid)
+            chunked.append({'advice_summary_id':sid,'chunks':len(shards),
+                            'items':len(group['items'])})
         items={i['item_id']:i for i in group['items']}
         covered=set()
         for t in result['topics']:
@@ -168,6 +244,7 @@ def attach_results(graph, groups, results):
     return {'entity_scene_groups':len(eligible),'unique_entity_ids':len({g['target_id'] for g in eligible.values()}),
             'topics':sum(len(r['topics']) for r in results),
             'all_entity_ids_and_sources_validated':True,'method':VERSION,
+            'chunked_groups':chunked,
             'semantic_correctness_independently_verified':False}
 
 

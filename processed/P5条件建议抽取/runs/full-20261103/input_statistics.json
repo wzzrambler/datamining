@@ -1,0 +1,26 @@
+{
+  "packages": 2099,
+  "by_kind": {
+    "route": 40,
+    "paragraph": 2059
+  },
+  "by_scene": {
+    "GZCL": 733,
+    "JZG": 646,
+    "ZHCL": 720
+  },
+  "token_method": "offline_cjk_ascii_estimate_v1; calibrated upward by API usage",
+  "initial_input_estimate": {
+    "mean": 13662,
+    "min": 13417,
+    "p95": 14064,
+    "max": 17254
+  },
+  "per_request_policy": {
+    "context_limit": 30000,
+    "output_reserve": 4096,
+    "safety_reserve": 1024,
+    "initial_history_reserve": 6000
+  },
+  "note": "离线估算不是DeepSeek精确分词；真实usage单独记录并向上校准。累计计费token随轮次重复输入增长。"
+}
