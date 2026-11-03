@@ -1,0 +1,51 @@
+{
+  "document_type": "p5_semantic_revision_decisions_v2",
+  "notice": "尚未批准修订；仅在人工作出明确确认后将每条 human_decision 改为 approved 并填写 reviewer。",
+  "input_sha256": {
+    "integrated/conditions.json": "f8352ddbb25a8e22cce531dbab25a2a7946226dc1dac5fa3957d8f48f61b8925",
+    "integrated/conditions.csv": "fda3ce45164636ccca37af3ac3c939abab4fef814161d76c8b53971283b6b70d",
+    "integrated/graph.json": "53195233a85f49a5c0c55cf6e0cef5d573ffdd4ff27d50dcba417ac4c7a0cf35",
+    "integrated/entities.json": "32904eeb3dbe4f40dda83d0c52fbd7ff303ce0c7145d3ec8b44584bd963ad701",
+    "integrated/routes.json": "90da6932da66f7bf8f5c601028812b433b45b07ca039652dc1d9fd0cc02a83b1",
+    "integrated/transport_legs.json": "9d16810a983d21e55c478f98265564c53ed3df455fba266b4cb960ee797492cd",
+    "formal_mapping.csv": "a7a29648a8f874f2b54fe5a5e4758dc40f40dc9173aecacb8f3cb4bf591945ca"
+  },
+  "items": [
+    {
+      "rule_id": "RULE-3cf6c2a2c60a76ffbeef",
+      "expected_statement_kind": "conditional_advice",
+      "expected_force": "recommended",
+      "suggested_statement_kind": "conditional_fact",
+      "suggested_force": "descriptive",
+      "suggested_evidence_category": "personal_itinerary_choice",
+      "suggested_recommendation_strength": "not_applicable",
+      "reason": "“因为午后想去……所以选择……”是一次行程选择，不应直接推广为对所有游客的餐厅建议。",
+      "human_decision": "approved",
+      "reviewer": "小组人工审核(方案B)"
+    },
+    {
+      "rule_id": "RULE-2b7dd1bc24a1e219d6be",
+      "expected_statement_kind": "conditional_advice",
+      "expected_force": "recommended",
+      "suggested_statement_kind": "conditional_advice",
+      "suggested_force": "recommended",
+      "suggested_evidence_category": "subjective_evaluation",
+      "suggested_recommendation_strength": "subjective_weak",
+      "reason": "“如果不怕晒，室外更好玩”可作为隐含条件建议保留，但必须标记作者主观偏好，不得当作客观事实。",
+      "human_decision": "approved",
+      "reviewer": "小组人工审核(方案B)"
+    },
+    {
+      "rule_id": "RULE-28dfc38a510ec3072b77",
+      "expected_statement_kind": "conditional_advice",
+      "expected_force": "descriptive",
+      "suggested_statement_kind": "conditional_fact",
+      "suggested_force": "descriptive",
+      "suggested_evidence_category": "time_dependent_observation",
+      "suggested_recommendation_strength": "not_applicable",
+      "reason": "“上午去人少”是在陈述一个时间相关的经验观察；原文另有“必刷”等建议，应分开标注。",
+      "human_decision": "approved",
+      "reviewer": "小组人工审核(方案B)"
+    }
+  ]
+}

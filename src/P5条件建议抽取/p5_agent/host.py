@@ -73,7 +73,13 @@ class ToolHost:
                 owners.setdefault((n["mention_id"], n["entity_id"]), set()).add(record_id)
         return mappings, owners
 
-    def reference(self, identifier, kind, eligible, dependencies, owners):
+    def reference(self, identifier, kind, dependencies):
+        """Validate an ID against the current scenic registry (not the local candidate hints).
+
+        `eligible_references` helps prompt selection; it is intentionally not an
+        allowlist because the source text may refer to a registered POI that P2
+        missed. Claim-level evidence must be evaluated separately.
+        """
         if identifier is None:
             return
         if kind == "ROUTE":
@@ -95,8 +101,7 @@ class ToolHost:
             raise Reject("UNKNOWN_REFERENCE", "ID不在当前景区注册表；请复制表中对应ID。匹配不到地点时保留条件，跳过该地点关系。")
         if self.registry[identifier]["kind"] != kind:
             raise Reject("REFERENCE_TYPE_MISMATCH", f"这里需要{kind}类型的entity_id。")
-        # The model matches the original text against the whole scenic registry.
-        # Earlier local mention detection is no longer a prerequisite for use.
+        # Whole-scene IDs are allowed; local-mention detection is not an ID gate.
 
     def refresh_routes(self):
         self.routes = {r["route_id"]: deepcopy(r) for r in self.context["p3_routes"]}
@@ -109,7 +114,7 @@ class ToolHost:
 
     def validate_business(self, name, args):
         self.refresh_routes()
-        mappings, owners = self.normalization_state()
+        mappings, _ = self.normalization_state()
         dependencies, own_ids = set(), set()
         normalizations = args["normalizations"]
         seen = {}
@@ -118,7 +123,7 @@ class ToolHost:
             mention = self.mentions.get(mid)
             if not mention or mention["type"] != "POI":
                 raise Reject("NORMALIZATION_MENTION_NOT_IN_PACKAGE", "该名称出现记录不在当前包中；可直接从注册表选择地点ID。")
-            self.reference(target, "POI", set(self.registry), set(), {})
+            self.reference(target, "POI", set())
             if mention.get("entity_id") and mention["entity_id"] != target:
                 raise Reject("P2_ID_CONFLICT", "该名称已有地点ID；请使用原有ID，或直接从注册表选择正文对应的地点。")
             if (mid in mappings and mappings[mid] != target) or (mid in seen and seen[mid] != target):
@@ -126,13 +131,12 @@ class ToolHost:
             seen[mid] = target
             own_ids.add(target)
         mappings.update(seen)
-        eligible = set(self.context["eligible_references"]["poi_ids"] + self.context["eligible_references"]["transport_ids"]) | set(mappings.values())
         refs = set()
 
         def check(identifier, kind):
             if identifier is not None:
                 refs.add(identifier)
-                self.reference(identifier, kind, eligible, dependencies, owners)
+                self.reference(identifier, kind, dependencies)
 
         route_id = args.get("route_id")
         if route_id:

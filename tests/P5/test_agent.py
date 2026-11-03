@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT / "src/P5条件建议抽取"))
 from p5_agent.budget import TokenBudget, initial_messages
 from p5_agent.common import ASSETS, Settings, compact, read_json
 from p5_agent.contracts import Contracts
-from p5_agent.host import ToolHost
+from p5_agent.host import Reject, ToolHost
 from p5_agent.packages import Corpus
 from p5_agent.runner import DeepSeekClient, run_package
 
@@ -88,6 +88,12 @@ class AgentTests(unittest.TestCase):
         absent = next(x["id"] for x in self.package["context"]["scene_poi_registry"]
                       if x["id"] not in self.package["context"]["eligible_references"]["poi_ids"])
         self.assertTrue(self.host.execute("submit_poi_facts", self.poi_args(absent))["ok"])
+
+    def test_reference_type_is_checked_even_for_a_registered_scenic_id(self):
+        transport_id = self.package["context"]["scene_transport_registry"][0]["id"]
+        with self.assertRaises(Reject) as error:
+            self.host.reference(transport_id, "POI", set())
+        self.assertEqual(error.exception.code, "REFERENCE_TYPE_MISMATCH")
 
     def test_p2_id_cannot_be_overwritten(self):
         m = next(m for m in self.package["context"]["local_mentions"] if m["type"] == "POI" and m["entity_id"] != self.poi and m["entity_id"])
