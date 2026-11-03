@@ -1,0 +1,58 @@
+{
+  "report_type": "p5_semantic_review_proposal",
+  "read_only": true,
+  "official_data_modified": false,
+  "formal_mapping_records": 291,
+  "pending_review_count": 3,
+  "warning": "此文件只有审核建议，不是已实施修订；不改变P5正式数据和P6图谱。",
+  "items": [
+    {
+      "rule_id": "RULE-3cf6c2a2c60a76ffbeef",
+      "scenic_code": "GZCL",
+      "doc_ids": "[\"GZCL-OFF-02\"]",
+      "source_excerpt": "[GZCL-OFF-02]\n因为午后想去星梦奇园和欢乐嘉年华溜溜,所以选择的是椰林餐厅,地道的粤式美食滋味咸香鸡和东南亚风味的泰式风情沙拉菜式,让您吃的生态,品的自然。还有现烤的正宗德克萨斯牛柳焦香味浓,肉质鲜嫩,一定会让您垂涎欲滴! ~还有其他风格的餐厅以后还要再去试试~",
+      "original_statement_kind": "conditional_advice",
+      "original_force": "recommended",
+      "condition_text": "因为午后想去星梦奇园和欢乐嘉年华溜溜",
+      "consequence_text": "选择椰林餐厅",
+      "suggested_statement_kind": "conditional_fact",
+      "suggested_force": "descriptive",
+      "suggested_evidence_category": "personal_itinerary_choice",
+      "reason": "“因为午后想去……所以选择……”是一次行程选择，不应直接推广为对所有游客的餐厅建议。",
+      "human_decision": "pending",
+      "approved_for_export": false
+    },
+    {
+      "rule_id": "RULE-2b7dd1bc24a1e219d6be",
+      "scenic_code": "ZHCL",
+      "doc_ids": "[\"ZHCL-NOTE-03\"]",
+      "source_excerpt": "[ZHCL-NOTE-03]\n室外部分有冲浪池、儿童池、室外游泳池、海豚池以及连通室内外的漂流河。如果不怕晒,室外比室内要好玩很多,沙滩的沙子是白色的,跟远处的海绵延一片海天一色。",
+      "original_statement_kind": "conditional_advice",
+      "original_force": "recommended",
+      "condition_text": "如果不怕晒",
+      "consequence_text": "室外比室内要好玩很多",
+      "suggested_statement_kind": "conditional_fact",
+      "suggested_force": "descriptive",
+      "suggested_evidence_category": "subjective_evaluation",
+      "reason": "“室外更好玩”是作者主观评价；若保留为信息，应标记其主观性，不能当作已核实的客观事实。",
+      "human_decision": "pending",
+      "approved_for_export": false
+    },
+    {
+      "rule_id": "RULE-28dfc38a510ec3072b77",
+      "scenic_code": "ZHCL",
+      "doc_ids": "[\"ZHCL-NOTE-07\"]",
+      "source_excerpt": "[ZHCL-NOTE-07]\n飞船乐园上午去人少,百慕大历险+深海潜艇+虎鲸表演三个必刷,提前查好虎鲸场次蹲前排!",
+      "original_statement_kind": "conditional_advice",
+      "original_force": "descriptive",
+      "condition_text": "上午去",
+      "consequence_text": "飞船乐园人少",
+      "suggested_statement_kind": "conditional_fact",
+      "suggested_force": "descriptive",
+      "suggested_evidence_category": "time_dependent_observation",
+      "reason": "“上午去人少”是在陈述一个时间相关的经验观察；原文另有“必刷”等建议，应分开标注。",
+      "human_decision": "pending",
+      "approved_for_export": false
+    }
+  ]
+}
