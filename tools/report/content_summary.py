@@ -46,7 +46,9 @@ ROUTE_TIME = sum(1 for r in _P7A.ROUTES if r['time_start'])
 ROUTE_2D = sum(1 for r in _P7A.ROUTES if '二日' in r.get('sub_route', ''))
 POI_TOTAL = sum(1 for n in GRAPH['nodes'] if n['label'] == 'POI')
 TIMES = json.loads((CLEAN / 'entity_time_summaries.json').read_text(encoding='utf-8'))
-POI_NO_TIME = POI_TOTAL - len({t['target_id'] for t in TIMES})
+# 时间汇总也有挂在非景点实体上的，得按 POI 本身数
+POI_NO_TIME = sum(1 for n in GRAPH['nodes']
+                  if n['label'] == 'POI' and n['id'] not in {t['target_id'] for t in TIMES})
 ADV = json.loads((CLEAN / 'condition_recommendation_summaries.json').read_text(encoding='utf-8'))
 ITEMS = [i for a in ADV for i in a['items']]
 MERGED = sum(1 for i in ITEMS if len(i.get('source_record_ids') or []) > 1)
