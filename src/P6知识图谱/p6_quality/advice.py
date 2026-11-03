@@ -1,5 +1,6 @@
 """Lossless entity/scene advice aggregation, not an LLM semantic rewrite."""
 from collections import Counter, defaultdict
+from copy import deepcopy
 import json
 import re
 
@@ -80,6 +81,26 @@ def summarize_advice(graph, documents):
             continue
         expected_records.add(nid)
         scope = {k: p[k] for k in SCOPE_FIELDS if p.get(k) is not None}
+        # Candidate P5 human review is evidence metadata, not proof of current validity.
+        # Do not silently discard it at the P5 -> P6 summary boundary.
+        review = p.get('semantic_review')
+        if review is not None:
+            if not isinstance(review, dict):
+                raise ValueError('semantic_review must be an object: ' + nid)
+            evidence = review.get('evidence_category')
+            strength = review.get('recommendation_strength')
+            source_status = review.get('source_claim_status')
+            if evidence == 'subjective_evaluation':
+                if (kind != 'conditional_advice' or force != 'recommended' or
+                    strength != 'subjective_weak' or source_status != 'author_opinion'):
+                    raise ValueError('Invalid subjective recommendation annotation: ' + nid)
+            elif evidence in {'time_dependent_observation', 'personal_itinerary_choice'}:
+                if (kind != 'conditional_fact' or force != 'descriptive' or
+                    strength != 'not_applicable' or
+                    source_status != 'source_observation_not_independently_verified'):
+                    raise ValueError('Invalid descriptive observation annotation: ' + nid)
+            else:
+                raise ValueError('Unknown semantic_review evidence category: ' + nid)
         quarantined = bool(p.get('scope_status'))
         for t in targets:
             if t['id'] not in nodes or nodes[t['id']]['label'] not in {'POI', 'TRANSPORT', 'TRANSPORT_LEG', 'ROUTE'}:
@@ -110,6 +131,11 @@ def summarize_advice(graph, documents):
             flags.append('excluded_fragment_not_default_recommendation')
         if kind == 'incomplete_condition':
             flags.append('missing_consequence_not_completed')
+        if review:
+            if review['evidence_category'] == 'subjective_evaluation':
+                flags.append('author_opinion_not_objective_fact')
+            else:
+                flags.append('source_observation_not_independently_verified')
         scopes = targets or [{'kind': 'UNLOCATED', 'id': None}]
         for t in scopes:
             key = (scene, t['id'], quarantined)
@@ -124,6 +150,12 @@ def summarize_advice(graph, documents):
             group = buckets[key]
             identity = {'condition': p.get('condition'), 'text_key': text_key(text), 'kind': kind,
                         'force': force, 'attribute': attribute, 'targets': targets, 'scope': scope}
+            if review:
+                # Reviewed and unreviewed records must never merge just because
+                # their normalized surface text happens to be identical.
+                identity['semantic_review_identity'] = {
+                    k: review[k] for k in ('evidence_category', 'recommendation_strength', 'source_claim_status')
+                }
             item_key = canonical(identity)
             if item_key not in group['items']:
                 group['items'][item_key] = {'item_id': 'ADVICEITEM-' + digest([list(key), identity])[:20],
@@ -133,6 +165,8 @@ def summarize_advice(graph, documents):
                     'joint_targets': targets, 'scope': scope, 'source_record_ids': [],
                     'sources': [], 'review_flags': flags,
                     'semantic_conflict_checked': False}
+                if review:
+                    group['items'][item_key]['semantic_review'] = deepcopy(review)
             item = group['items'][item_key]
             if text not in item['original_text_variants']:
                 item['original_text_variants'].append(text)
