@@ -14,24 +14,46 @@ spec.loader.exec_module(p6)
 OLD_DATASETS = ["regression-v6-20261101-19b062f44ee2", "full-final-20261101-2d888f54232f", "full-final-20261101-34845d3ec7b0"]
 
 
+def require(condition, message):
+    """Runtime safety checks must remain active when Python uses -O."""
+    if not condition:
+        raise RuntimeError(message)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--backup", type=Path, required=True)
+    parser.add_argument("--backup", type=Path, help="Backup directory required with --apply")
+    parser.add_argument("--apply", action="store_true", help="Actually import and clean up old datasets (writes Neo4j)")
     parser.add_argument('--replace-dataset', help='只允许替换release.json当前指向的项目版本')
     args = parser.parse_args()
+    if args.apply and args.backup is None:
+        parser.error("--apply requires --backup DIR; refusing any database changes")
+    old_datasets = list(OLD_DATASETS)
     if args.replace_dataset:
         current = json.loads((ROOT / 'processed/P6知识图谱/release.json').read_text('utf-8'))
         if current['dataset'] != args.replace_dataset:
             parser.error('替换版本必须等于当前release；拒绝影响其他数据库数据')
-        OLD_DATASETS.append(args.replace_dataset)
+        old_datasets.append(args.replace_dataset)
     graph_path = ROOT / "processed/P6知识图谱/cleaned-v1/graph.json"
     graph = json.loads(graph_path.read_text("utf-8"))
-    assert graph.get("p6_cleaning", {}).get("route_fragments_in_production_graph") is False
-    assert graph.get('p6_quality', {}).get('all_stages_completed'), 'Run quality_pipeline.py before publishing'
+    require(graph.get("p6_cleaning", {}).get("route_fragments_in_production_graph") is False,
+            "The production graph must exclude route fragments")
+    require(graph.get('p6_quality', {}).get('all_stages_completed'),
+            'Run quality_pipeline.py before publishing')
     p6.validate_quality(graph_path, graph)
     dataset = graph["p6_cleaning"]["version"] + "-" + hashlib.sha256(p6.compact(graph).encode()).hexdigest()[:12]
+    if dataset in old_datasets:
+        parser.error("Refusing to delete the same dataset that would be imported; choose a new verified graph version first")
     folder = ROOT / "processed/P6知识图谱" / dataset
     bundle = p6.prepare(graph, dataset)
+    if not args.apply:
+        # A local-only preview. No database connection or file writes.
+        print(json.dumps({"mode": "preview_only", "dataset_to_import": dataset,
+                          "planned_old_datasets": old_datasets,
+                          "new_nodes": bundle["expected_nodes"], "new_edges": bundle["expected_edges"],
+                          "note": "No Neo4j connection, import, or deletion was performed."},
+                         ensure_ascii=False, indent=2))
+        return
     p6.write(folder / "import_bundle.json", bundle)
     from neo4j import GraphDatabase
     database = os.environ.get("NEO4J_DATABASE", "neo4j")
@@ -39,15 +61,30 @@ def main():
         driver.verify_connectivity()
         def query(q, **params):
             return [dict(r) for r in driver.execute_query(q, parameters_=params, database_=database)[0]]
-        # Back up exact known datasets before any database deletion.
-        old_nodes = query("MATCH (n:P5Node) WHERE n.dataset IN $old RETURN n.id AS id,labels(n) AS labels,properties(n) AS properties", old=OLD_DATASETS)
-        old_edges = query("MATCH (a)-[r]->(b) WHERE r.dataset IN $old RETURN a.id AS source,b.id AS target,type(r) AS type,properties(r) AS properties", old=OLD_DATASETS)
+        # Refuse a dangerous cleanup before any import or deletion.
+        cross_query = ("MATCH (n:P5Node)-[r]-(m) WHERE n.dataset IN $old "
+                       "AND NOT coalesce(m.dataset,'') IN $old RETURN count(r) AS count")
+        cross = query(cross_query, old=old_datasets)[0]["count"]
+        require(cross == 0, "Old project nodes have relationships to unrelated datasets; no cleanup allowed")
+        # Back up all edges incident to old nodes, not only edges tagged with old dataset IDs.
+        old_nodes = query("MATCH (n:P5Node) WHERE n.dataset IN $old RETURN n.id AS id,labels(n) AS labels,properties(n) AS properties", old=old_datasets)
+        old_edges = query(
+            "MATCH (a)-[r]->(b) WHERE (a:P5Node AND a.dataset IN $old) "
+            "OR (b:P5Node AND b.dataset IN $old) "
+            "RETURN a.id AS source,a.dataset AS source_dataset,"
+            "b.id AS target,b.dataset AS target_dataset,"
+            "type(r) AS type,properties(r) AS properties", old=old_datasets)
+        require(bool(old_nodes) or not old_edges,
+                "Unexpected old relationships without matching old nodes; refuse cleanup")
         if old_nodes:
             args.backup.mkdir(parents=True, exist_ok=True)
             backup = args.backup / "neo4j_previous_datasets.json"
             if backup.exists():
                 raise ValueError("Do not overwrite existing database backup; choose a fresh directory")
-            p6.write(backup, {"datasets": OLD_DATASETS, "nodes": old_nodes, "edges": old_edges})
+            p6.write(backup, {"datasets": old_datasets, "nodes": old_nodes, "edges": old_edges})
+            saved = json.loads(backup.read_text(encoding="utf-8"))
+            require(saved == {"datasets": old_datasets, "nodes": old_nodes, "edges": old_edges},
+                    "Backup round-trip verification failed; refusing database modifications")
             backup_hash = hashlib.sha256(backup.read_bytes()).hexdigest()
         else:
             backup_hash = None
@@ -55,11 +92,15 @@ def main():
         p6.import_bundle(bundle, driver, database)
         readback = query("MATCH (n:P5Node {dataset:$dataset}) RETURN n.id AS id,n.payload_json AS payload", dataset=dataset)
         expected = {n["id"]: n["properties"] for n in graph["nodes"]}
-        assert len(readback) == len(expected)
-        assert all(json.loads(n["payload"]) == expected[n["id"]] for n in readback)
+        require(len(readback) == len(expected), "Imported node count mismatch")
+        require(all(json.loads(n["payload"]) == expected[n["id"]] for n in readback),
+                "Imported node payloads do not match source")
         edge_back = query("MATCH (a:P5Node {dataset:$dataset})-[r]->(b:P5Node {dataset:$dataset}) WHERE r.dataset=$dataset RETURN a.id AS source,type(r) AS type,b.id AS target,r.payload_json AS payload", dataset=dataset)
         edge_signature = lambda e: (e['source'], e['type'], e['target'], p6.compact(e['properties']))
-        assert Counter(edge_signature(e) for e in graph['edges']) == Counter((e['source'],e['type'],e['target'],p6.compact(json.loads(e['payload']))) for e in edge_back)
+        require(Counter(edge_signature(e) for e in graph['edges']) ==
+                Counter((e['source'], e['type'], e['target'], p6.compact(json.loads(e['payload'])))
+                        for e in edge_back),
+                'Imported edges do not match source')
         queries = {
             "route_catalog": "MATCH (r:ROUTE {dataset:$dataset}) RETURN r.id AS route_id,r.scenic_code AS scenic_code,r.p6_curation_json AS curation ORDER BY scenic_code,route_id",
             "official_route_steps": "MATCH (r:ROUTE {dataset:$dataset,id:'JZG-OFF-01-R-5489d330c8'})-[:HAS_STEP]->(s:ROUTE_STEP) OPTIONAL MATCH (s)-[:VISITS]->(p:POI) RETURN s.index AS step_index,s.id AS step_id,collect(p.name) AS pois ORDER BY step_index",
@@ -70,21 +111,28 @@ def main():
             "entity_themes": "MATCH (n:P5Node {dataset:$dataset}) WHERE n.advice_themes_json IS NOT NULL RETURN count(n) AS entities_with_themes",
         }
         proof = {name: {"query": q, "parameters": {"dataset": dataset}, "rows": query(q, dataset=dataset)} for name, q in queries.items()}
-        assert len(proof["official_route_steps"]["rows"]) == 15
+        require(len(proof["official_route_steps"]["rows"]) == 15,
+                "Official route steps check failed")
         route_count = sum(n['label'] == 'ROUTE' for n in graph['nodes'])
-        assert len(proof["route_catalog"]["rows"]) == route_count
-        assert len(proof["commute"]["rows"]) > 0
-        assert proof["entity_themes"]["rows"][0]["entities_with_themes"] > 0
+        require(len(proof["route_catalog"]["rows"]) == route_count,
+                "Route catalog count mismatch")
+        require(len(proof["commute"]["rows"]) > 0, "Commuting facts are missing")
+        require(proof["entity_themes"]["rows"] and
+                proof["entity_themes"]["rows"][0]["entities_with_themes"] > 0,
+                "Entity themes are missing")
         excluded = json.loads((graph_path.parent / "route_decisions.json").read_text("utf-8"))
         excluded_ids = [r["route_id"] for r in excluded if r["status"] == "excluded"]
-        assert query("MATCH (r:ROUTE {dataset:$dataset}) WHERE r.id IN $ids RETURN count(r) AS count", dataset=dataset, ids=excluded_ids)[0]["count"] == 0
-        # Refuse to detach anything linked to unrelated data.
-        cross = query("MATCH (n:P5Node)-[r]-(m) WHERE n.dataset IN $old AND NOT coalesce(m.dataset,'') IN $old RETURN count(r) AS count", old=OLD_DATASETS)[0]["count"]
-        assert cross == 0, "Historical data has links to an unrelated dataset; leave it untouched"
+        require(query("MATCH (r:ROUTE {dataset:$dataset}) WHERE r.id IN $ids RETURN count(r) AS count",
+                      dataset=dataset, ids=excluded_ids)[0]["count"] == 0,
+                "Excluded routes unexpectedly exist in production graph")
+        # Recheck cross-dataset relationships immediately before deleting.
+        cross = query(cross_query, old=old_datasets)[0]["count"]
+        require(cross == 0, "Historical data is linked to unrelated datasets; refusing to delete")
         # User requested that only the cleaned graph remain in this project DB.
-        removed = query("MATCH (n:P5Node) WHERE n.dataset IN $old DETACH DELETE n RETURN count(n) AS removed", old=OLD_DATASETS)[0]["removed"]
+        removed = query("MATCH (n:P5Node) WHERE n.dataset IN $old DETACH DELETE n RETURN count(n) AS removed", old=old_datasets)[0]["removed"]
         inventory = query("MATCH (n:P5Node) RETURN n.dataset AS dataset,count(n) AS nodes ORDER BY dataset")
-        assert all(row["dataset"] not in OLD_DATASETS for row in inventory)
+        require(all(row["dataset"] not in old_datasets for row in inventory),
+                "Old datasets still appear after cleanup")
         result.update(dataset=dataset, reimport_no_duplicates=True, all_node_payloads_roundtrip=True,
                       all_edge_payloads_roundtrip=True, excluded_routes_in_database=0,
                       removed_old_project_nodes=removed, old_database_backup_sha256=backup_hash,
