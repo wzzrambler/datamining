@@ -65,14 +65,38 @@ def compact_messages(package, host):
     return initial_messages(package["context"]) + [{"role": "user", "content": compact(ledger)}]
 
 
+_CODE_FILES = None
+_ASSETS = None
+
+
+def implementation_hashes():
+    """实现指纹只算一次。它要读三十来个文件，每个包算一遍纯属浪费。"""
+    global _CODE_FILES
+    if _CODE_FILES is None:
+        files = {p.name: file_hash(p) for p in sorted(Path(__file__).parent.glob("*.py"))}
+        files['artifact_integrity.py'] = file_hash(Path(__file__).resolve().parents[2] / 'artifact_integrity.py')
+        _CODE_FILES = files
+    return _CODE_FILES
+
+
+def asset_hashes():
+    global _ASSETS
+    if _ASSETS is None:
+        _ASSETS = {p.name: file_hash(p) for p in sorted(ASSETS.iterdir()) if p.is_file()}
+    return _ASSETS
+
+
+def package_fingerprint(package, settings):
+    """一个包的结果只对这套（输入、配置、实现、提示词资产）成立。"""
+    return digest({"package": package, "settings": settings.public_dict(),
+                   "code": implementation_hashes(), "assets": asset_hashes()})
+
+
 def run_package(package, client, contracts, budget, checkpoint: Path, entity_scenes=None, resume=True):
     s = budget.settings
     tools = contracts.api_tools()
     host = ToolHost(package, contracts, s.max_same_error, entity_scenes)
-    implementation = {p.name: file_hash(p) for p in sorted(Path(__file__).parent.glob("*.py"))}
-    implementation['artifact_integrity.py'] = file_hash(Path(__file__).resolve().parents[2] / 'artifact_integrity.py')
-    assets = {p.name: file_hash(p) for p in sorted(ASSETS.iterdir()) if p.is_file()}
-    fingerprint = digest({"package": package, "settings": s.public_dict(), "code": implementation, "assets": assets})
+    fingerprint = package_fingerprint(package, s)
     state = {"fingerprint": fingerprint, "rounds": 0, "tool_calls": 0,
              "messages": initial_messages(package["context"]), "responses": [],
              "pending": [], "pending_index": 0, "compactions": 0, "usage": [],

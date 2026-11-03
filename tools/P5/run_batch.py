@@ -10,7 +10,8 @@ from p5_agent.budget import TokenBudget
 from p5_agent.common import Settings, compact, write_json, read_json
 from p5_agent.contracts import Contracts
 from p5_agent.packages import Corpus, package_statistics
-from p5_agent.runner import DeepSeekClient, run_package
+from p5_agent import reuse
+from p5_agent.runner import DeepSeekClient, package_fingerprint, run_package
 from p5_agent.export import export_run
 from p5_agent.release_manifest import build_manifest
 
@@ -20,6 +21,12 @@ def main():
     parser.add_argument("--run-id", required=True)
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--retry-incomplete", action="store_true")
+    parser.add_argument("--reuse-from", action="append", metavar="RUN_ID",
+                        help="只从这些批次复用；默认扫描 runs/ 下全部批次")
+    parser.add_argument("--no-reuse", action="store_true",
+                        help="不复用旧检查点，全部重新请求")
+    parser.add_argument("--plan-only", action="store_true",
+                        help="只打印复用计划，不发请求")
     args = parser.parse_args()
     if Path(args.run_id).name != args.run_id or args.run_id in {".", ".."}:
         parser.error("run-id must be one directory name")
@@ -27,9 +34,20 @@ def main():
         parser.error("workers must be 1..12")
     settings, contracts, corpus = Settings.load(), Contracts(), Corpus()
     packages = corpus.build(TokenBudget(settings), contracts.api_tools())
-    run_dir = ROOT / "processed/P5条件建议抽取/runs" / args.run_id
+    runs_root = ROOT / "processed/P5条件建议抽取/runs"
+    run_dir = runs_root / args.run_id
     write_json(run_dir / "input_statistics.json", package_statistics(packages, TokenBudget(settings), contracts.api_tools()))
     write_json(run_dir / "coverage.json", corpus.coverage)
+
+    reuse_map = {} if args.no_reuse else reuse.build_map(runs_root, run_dir, args.reuse_from)
+    reusable = sum(1 for p in packages
+                   if package_fingerprint(p, settings) in reuse_map)
+    print(compact({"event": "REUSE_PLAN", "available": len(reuse_map),
+                   "matched_packages": reusable,
+                   "note": "指纹不同（输入/配置/实现/提示词有变）的包仍会重新请求"}), flush=True)
+
+    if args.plan_only:
+        return
 
     def execute(package):
         key = package["context"]["package_key"]
@@ -38,6 +56,10 @@ def main():
             old = read_json(path)
             if old["host"]["status"] not in {"COMPLETED", "COMPLETED_WITH_SKIPS"} and not args.retry_incomplete:
                 return key, old
+        if not path.exists() and reuse_map:
+            source_dir, source_key = reuse_map.get(package_fingerprint(package, settings), (None, None))
+            if source_dir is not None:
+                return key, reuse.reuse_checkpoint(source_dir, source_key, path, source_dir.name)
         return key, run_package(package, DeepSeekClient(settings), contracts, TokenBudget(settings), path, corpus.entity_scenes)
 
     failed = False

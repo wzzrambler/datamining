@@ -32,6 +32,14 @@
     "prompt_cache_miss_tokens": 1006321
   },
   "requests": 4314,
+  "packages_reused": 0,
+  "usage_this_run": {
+    "prompt_tokens": 34848420,
+    "completion_tokens": 846557,
+    "prompt_cache_hit_tokens": 33842099,
+    "prompt_cache_miss_tokens": 1006321
+  },
+  "requests_this_run": 4314,
   "max_actual_prompt_tokens": 14368,
   "evidence": {
     "records": 3516,

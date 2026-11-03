@@ -255,6 +255,13 @@ def export_run(run_dir, corpus, packages):
                         for k in ("prompt_tokens", "completion_tokens", "total_tokens",
                                   "prompt_cache_hit_tokens", "prompt_cache_miss_tokens")},
               "requests": sum(len(s["usage"]) for s in snapshots),
+              "packages_reused": sum(1 for s in snapshots if s.get("reused_from")),
+              # 复用包用的是旧批次的用量，不能算进本批次开销
+              "usage_this_run": {k: sum(u.get(k, 0) for s in snapshots if not s.get("usage_inherited")
+                                        for u in s["usage"])
+                                 for k in ("prompt_tokens", "completion_tokens",
+                                           "prompt_cache_hit_tokens", "prompt_cache_miss_tokens")},
+              "requests_this_run": sum(len(s["usage"]) for s in snapshots if not s.get("usage_inherited")),
               "max_actual_prompt_tokens": max((u.get("prompt_tokens", 0) for s in snapshots for u in s["usage"]), default=0),
               "evidence": evidence_stats,
               "limitations": ["未完成包的已接纳记录只进入partial_observations，不进入汇总图",
@@ -262,7 +269,8 @@ def export_run(run_dir, corpus, packages):
                               "时间仅保留逐条属性；跨来源时间汇总和条件推荐汇总由P6负责",
                               "图为P6输入材料；未连接Neo4j，未完成课程人工质量评估"]}
     if preserved_summary is not None:
-        for key in ("usage", "usage_selected_completed", "original_packages_covered", "original_failed_packages_replaced",
+        for key in ("usage", "usage_this_run", "requests_this_run", "packages_reused",
+                    "usage_selected_completed", "original_packages_covered", "original_failed_packages_replaced",
                     "recovery_fragments", "max_actual_prompt_tokens", "neo4j_validation"):
             if key in preserved_summary:
                 report[key] = preserved_summary[key]
