@@ -24,6 +24,8 @@ class ToolHost:
         self.entity_scenes = entity_scenes or {}
         self.registry = {x["id"]: x for x in self.context["scene_poi_registry"] + self.context["scene_transport_registry"]}
         self.mentions = {m["mention_id"]: m for m in self.context["local_mentions"]}
+        # 本包正文里真的出现过的地点ID，用来区分「有原文提及」和「只有景区注册表」。
+        self.local_entity_ids = {m["entity_id"] for m in self.mentions.values() if m.get("entity_id")}
         self.routes, self.steps = {}, {}
         self.records, self.issues, self.events = {}, {}, []
         self.finished, self.status = False, "RUNNING"
@@ -132,11 +134,18 @@ class ToolHost:
             own_ids.add(target)
         mappings.update(seen)
         refs = set()
+        scopes = {}
 
         def check(identifier, kind):
             if identifier is not None:
                 refs.add(identifier)
                 self.reference(identifier, kind, dependencies)
+                if kind in ("ROUTE", "LEG"):
+                    scopes[identifier] = "in_package"
+                elif identifier in self.local_entity_ids:
+                    scopes[identifier] = "local_mention"
+                else:
+                    scopes[identifier] = "scene_registry"
 
         route_id = args.get("route_id")
         if route_id:
@@ -197,10 +206,10 @@ class ToolHost:
                 raise Reject("UNKNOWN_ISSUE", "resolves_issue_ids必须引用当前open_issue_ids中的失败请求。")
             if issue["tool_name"] != name:
                 raise Reject("ISSUE_NOT_RESOLVED", "修复必须使用与失败请求相同的业务工具；放弃时请在finish_chunk忽略。")
-        return dependencies
+        return dependencies, scopes
 
     def submit(self, name, args):
-        dependencies = self.validate_business(name, args)
+        dependencies, scopes = self.validate_business(name, args)
         stable = {k: v for k, v in args.items() if k != "resolves_issue_ids"}
         fingerprint = digest({"package": self.context["package_key"], "tool": name, "args": stable})
         duplicate = next((rid for rid, r in self.active.items() if r["fingerprint"] == fingerprint), None)
@@ -218,6 +227,8 @@ class ToolHost:
                              "fingerprint": fingerprint, "leg_ref": leg, "active": True,
                              "depends_on": sorted(dependencies), "package_key": self.context["package_key"],
                              "scenic_code": self.context["active_scenic_code"],
+                             # 每个被引用ID的来源：本包正文提过的、仅景区注册表里的、还是本包内生成的。
+                             "reference_scopes": {k: scopes[k] for k in sorted(scopes)},
                              "provenance": deepcopy(self.package["provenance"])}
         if name == "submit_route":
             route_id = args["route_id"] or "ROUTEOBS-" + digest([rid, "route"])[:16]

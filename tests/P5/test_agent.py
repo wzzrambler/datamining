@@ -87,7 +87,20 @@ class AgentTests(unittest.TestCase):
     def test_whole_scenic_registry_can_be_used_without_local_mentions(self):
         absent = next(x["id"] for x in self.package["context"]["scene_poi_registry"]
                       if x["id"] not in self.package["context"]["eligible_references"]["poi_ids"])
-        self.assertTrue(self.host.execute("submit_poi_facts", self.poi_args(absent))["ok"])
+        result = self.host.execute("submit_poi_facts", self.poi_args(absent))
+        self.assertTrue(result["ok"])
+        record = self.host.records[result["data"]["record_ids"][0]]
+        self.assertEqual(record["reference_scopes"][absent], "scene_registry")
+
+    def test_reference_scope_separates_mentioned_ids_from_registry_only(self):
+        mentioned = next(x["id"] for x in self.package["context"]["scene_poi_registry"]
+                         if x["id"] in self.host.local_entity_ids)
+        only_registry = next(x["id"] for x in self.package["context"]["scene_poi_registry"]
+                             if x["id"] not in self.host.local_entity_ids)
+        for poi, expected in ((mentioned, "local_mention"), (only_registry, "scene_registry")):
+            result = self.host.execute("submit_poi_facts", self.poi_args(poi))
+            record = self.host.records[result["data"]["record_ids"][0]]
+            self.assertEqual(record["reference_scopes"][poi], expected)
 
     def test_reference_type_is_checked_even_for_a_registered_scenic_id(self):
         transport_id = self.package["context"]["scene_transport_registry"][0]["id"]

@@ -260,5 +260,9 @@ def export_run(run_dir, corpus, packages):
     report['limitations'] = ['来源精度为输入包，不声称每条事实均已定位精确引句',
                             'P5仅保存逐条抽取与关联；时间汇总、条件推荐汇总、线路筛选和入库统一由P6负责',
                             '未完成独立人工金标准评估；历史模型用量从真实日志保留，本次导出不请求模型']
+    # 引用来源分三类：本包正文提到过、只在景区注册表里、本包内新建。这里不做过滤，
+    # 只把数量摊开，事后能查出有多少关系没有本地提及支撑。
+    report['reference_scopes'] = dict(Counter(
+        scope for r in accepted for scope in (r.get('reference_scopes') or {}).values()))
     write_json(run_dir / "summary.json", report)
     return report
