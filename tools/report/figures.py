@@ -159,7 +159,7 @@ def fig6(graph):
     ax.axis('off')
     fig.tight_layout()
     OUT6.mkdir(parents=True, exist_ok=True)
-    fig.savefig(OUT6 / '图6-1_官方线路结构.png', bbox_inches='tight')
+    fig.savefig(OUT6 / '图6-3_官方线路结构.png', bbox_inches='tight')
     plt.close(fig)
 
     types = Counter(e['type'] for e in graph['edges'])
@@ -174,9 +174,92 @@ def fig6(graph):
         ax.spines[side].set_visible(False)
     ax.set_title('图谱中的 %d 种关系（共 %d 条边）' % (len(types), len(graph['edges'])), fontsize=9)
     fig.tight_layout()
-    fig.savefig(OUT6 / '图6-2_关系类型分布.png', bbox_inches='tight')
+    fig.savefig(OUT6 / '图6-4_关系类型分布.png', bbox_inches='tight')
     plt.close(fig)
     return len(steps), len({n for sid in steps for n in visits[sid]}), types
+
+
+
+EGO_ID = 'POI-cec436cb21d421e3'   # 珠海"珊瑚自助餐厅"
+EGO_COLORS = {'POI': '#4C78A8', 'FACT': '#E8A33D', 'TIME_SUMMARY': '#59A14F',
+              'CONDITIONAL_RULE': '#E15759', 'OBSERVATION': '#76B7B2',
+              'ADVICE_SUMMARY': '#B07AA1'}
+
+
+def _node_text(nodes, nid):
+    """按节点类型挑一个能读懂的字段，截到 14 字。"""
+    prop = nodes[nid]['properties']
+    label = nodes[nid]['label']
+    if label == 'CONDITIONAL_RULE':
+        cond = prop.get('condition') or {}
+        if isinstance(cond, str):
+            try:
+                cond = json.loads(cond)
+            except ValueError:
+                cond = {}
+        text = '%s→%s' % (cond.get('text', '') if isinstance(cond, dict) else '',
+                          prop.get('consequence_text') or '')
+    elif label == 'FACT':
+        text = '%s=%s' % (prop.get('attribute'), prop.get('value_text'))
+    elif label == 'TIME_SUMMARY':
+        text = str(prop.get('attribute') or '') + '（时刻汇总）'
+    elif label == 'OBSERVATION':
+        text = '观察记录 ' + prop.get('package_key', '')[4:10]
+    elif label == 'ADVICE_SUMMARY':
+        text = '建议汇总（%d 条）' % (prop.get('summary_item_count') or 0)
+    else:
+        text = str(prop.get('name') or nid[-6:])
+    text = text.replace('\n', ' ')
+    return text if len(text) <= 15 else text[:14] + '…'
+
+
+def fig_ego(graph):
+    """单个实体的一跳邻域：条件、属性、时间与证据怎么挂在它身上。"""
+    import math
+    from matplotlib.lines import Line2D
+    nodes = {n['id']: n for n in graph['nodes']}
+    neighbors = []
+    for e in graph['edges']:
+        if e['source'] == EGO_ID:
+            neighbors.append((e['type'], e['target']))
+        elif e['target'] == EGO_ID:
+            neighbors.append((e['type'], e['source']))
+    fig, ax = plt.subplots(figsize=(7.2, 4.6))
+    pos = {EGO_ID: (0.0, 0.0)}
+    count = len(neighbors)
+    for i, (etype, tid) in enumerate(neighbors):
+        angle = math.pi / 2 - i * 2 * math.pi / count
+        pos[tid] = (2.3 * math.cos(angle), 2.3 * math.sin(angle))
+    for etype, tid in neighbors:
+        x0, y0 = pos[EGO_ID]
+        x1, y1 = pos[tid]
+        ax.plot([x0, x1], [y0, y1], color='#B9C0CC', lw=1, zorder=1)
+        mx, my = x1 * 0.55, y1 * 0.55
+        ax.text(mx, my, etype, fontsize=6, color='#667085', ha='center', va='center',
+                bbox=dict(boxstyle='round,pad=0.15', fc='white', ec='none'), zorder=2)
+    for nid, (x, y) in pos.items():
+        if nid == EGO_ID:
+            continue
+        label = nodes[nid]['label']
+        ax.scatter([x], [y], s=240, color=EGO_COLORS.get(label, '#999999'),
+                   zorder=3, edgecolors='white')
+        ax.text(x, y - 0.36, _node_text(nodes, nid), ha='center', va='top',
+                fontsize=6.5, zorder=4)
+    ax.scatter([0], [0], s=430, color=EGO_COLORS['POI'], zorder=3, edgecolors='white')
+    ax.text(0, 0.5, nodes[EGO_ID]['properties'].get('name', ''), ha='center',
+            fontsize=8, zorder=4)
+    present = sorted({nodes[tid]['label'] for _, tid in neighbors} | {'POI'})
+    handles = [Line2D([], [], marker='o', linestyle='', markersize=7,
+                      color=EGO_COLORS[label], label=label) for label in present]
+    ax.legend(handles=handles, loc='center left', bbox_to_anchor=(1.0, 0.5),
+              fontsize=6.5, frameon=False)
+    ax.set_title('珠海"珊瑚自助餐厅"的一跳邻域：条件、属性、时间与证据', fontsize=9)
+    ax.axis('off')
+    fig.tight_layout()
+    OUT6.mkdir(parents=True, exist_ok=True)
+    fig.savefig(OUT6 / '图6-2_餐厅条件属性与证据.png', bbox_inches='tight')
+    plt.close(fig)
+    return nodes[EGO_ID]['properties'].get('name', ''), count
 
 
 def main():
@@ -184,10 +267,12 @@ def main():
     graph = load('graph.json')
     n, cats, auds = fig5(rules)
     steps, pois, types = fig6(graph)
+    ego_name, ego_count = fig_ego(graph)
     print(json.dumps({'rules': n, 'clause_categories': dict(cats),
                       'audience_buckets': dict(auds),
                       'official_steps': steps, 'official_route_pois': pois,
-                      'edge_types': dict(types), 'figures': 4},
+                      'edge_types': dict(types), 'ego_center': ego_name,
+                      'ego_neighbors': ego_count, 'figures': 5},
                      ensure_ascii=False, indent=1))
 
 
