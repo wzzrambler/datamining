@@ -120,11 +120,11 @@ def apply_env(config: dict) -> None:
 
 
 def _data_files() -> list[tuple[str, Path]]:
+    # 只列 P7 真正读的文件；P5 的 364MB 批次目录与规划无关，别让部署者白拉
     return [
         ('P2 实体', ROOT / 'processed/P2实体识别/entities.json'),
         ('P6 路线', ROOT / 'processed/P6知识图谱/cleaned-v1/routes.json'),
         ('P6 条件建议', ROOT / 'processed/P6知识图谱/cleaned-v1/conditions.json'),
-        ('P5 批次目录', ROOT / 'processed/P5条件建议抽取/runs'),
         ('前端页面', HERE / 'web/index.html'),
         ('前端脚本', HERE / 'web/app.js'),
         ('前端样式', HERE / 'web/styles.css'),
@@ -165,6 +165,10 @@ def check(port: int = 8000, public: bool = False) -> list[tuple[str, str, str]]:
     offline = ROOT / 'outputs/P7/行迹-离线预览.html'
     rows.append(('OK', '离线单页', str(offline.relative_to(ROOT))) if offline.exists()
                 else ('WARN', '离线单页', '未生成，执行 python tools/P7/build_offline.py'))
+
+    web_data = HERE / 'web/offline.json'
+    rows.append(('OK', '静态托管数据', str(web_data.relative_to(ROOT))) if web_data.exists()
+                else ('WARN', '静态托管数据', '未生成，执行 python tools/P7/build_offline.py'))
 
     if public:
         token = os.environ.get('P7_ACCESS_TOKEN', '').strip()

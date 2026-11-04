@@ -71,6 +71,7 @@ P7_ACCESS_TOKEN=<上一步输出> python src/P7旅游规划Agent/serve.py --publ
 
 `--public` 监听 `0.0.0.0`，强制口令（少于 12 位拒绝启动），CORS 默认同源，
 启动后打印 Nginx 反代片段（SSE 必须关 `proxy_buffering`）与三步检查项。
+从零到上线的完整步骤（取码、venv、systemd、Nginx、HTTPS、验收、排错）见仓库根 [DEPLOY.md](../../DEPLOY.md)。
 上线前先跑自检：
 
 ```bash

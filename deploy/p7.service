@@ -1,0 +1,47 @@
+# P7 旅游规划 Agent 的 systemd 服务
+#
+# 安装：
+#   sudo cp deploy/p7.service /etc/systemd/system/p7.service
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now p7
+#
+# 前置：代码在 /opt/datamining，虚拟环境在 /opt/datamining/.venv，
+#      /etc/p7/p7.env 里至少有 P7_ACCESS_TOKEN=...
+# 说明见仓库根 DEPLOY.md。
+
+[Unit]
+Description=P7 travel planning agent (FastAPI)
+Documentation=file:///opt/datamining/DEPLOY.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=p7
+Group=p7
+WorkingDirectory=/opt/datamining
+EnvironmentFile=/etc/p7/p7.env
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+
+# --public 强制口令；--host 127.0.0.1 让 uvicorn 只对本机开放，
+# 外部只能经 Nginx 进来，避免绕过反代直连 8000 端口。
+# 限流与并发是进程内计数，不要加 --workers。
+ExecStart=/opt/datamining/.venv/bin/python src/P7旅游规划Agent/serve.py --public --host 127.0.0.1 --port 8000 --no-browser
+
+Restart=always
+RestartSec=3
+TimeoutStopSec=15
+
+# 服务只需要读代码和 JSON，不写业务文件
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=multi-user.target
