@@ -4,7 +4,10 @@ import csv, json, sys
 from collections import Counter
 from pathlib import Path
 
-PATH = Path(__file__).resolve().parents[2] / 'outputs/P5/校验/核对底表50条.csv'
+_DIR = Path(__file__).resolve().parents[2] / 'outputs/P5/校验'
+PATH = _DIR / '核对底表50条_判定.csv'
+if not PATH.exists():
+    PATH = _DIR / '核对底表50条.csv'
 rows = list(csv.DictReader(open(PATH, encoding='utf-8-sig')))
 pending = [r['序号'] for r in rows if not r['总体判定(合格/不合格)'].strip()]
 if pending:

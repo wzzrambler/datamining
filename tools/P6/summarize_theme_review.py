@@ -12,9 +12,8 @@ if pending:
     sys.exit(1)
 print(json.dumps({'total': len(rows),
                   'verdict': dict(Counter(r['判定(成立/牵强/不成立)'] for r in rows)),
-                  'by_scene': {k: dict(v) for k, v in
-                               ((sc, Counter(r['判定(成立/牵强/不成立)'] for r in rows if r['景区'] == sc))
-                                for sc in sorted({r['景区'] for r in rows})},
+                  'by_scene': {sc: dict(Counter(r['判定(成立/牵强/不成立)'] for r in rows if r['景区'] == sc))
+                               for sc in sorted({r['景区'] for r in rows})},
                   'not_holds': [{'序号': r['序号'], '主题': r['主题标签'], '实体': r['实体名称'],
                                  '备注': r['备注']} for r in rows
                                 if r['判定(成立/牵强/不成立)'].strip() == '不成立']},
