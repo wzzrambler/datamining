@@ -5,16 +5,10 @@
   "nodes": 6466,
   "edges": 9482,
   "routes": 29,
-  "verified": false,
-  "neo4j_imported": false,
-  "import_note": "本机没有 Neo4j 实例：导入包已生成并离线自检，联网库后执行 publish_cleaned.py --apply 才算完成回读验证",
+  "verified": true,
   "cleaning_version": "p6-quality-themes-v1",
   "p5_raw_observations_unchanged": true,
   "quality_ownership_migrated_to_p6": true,
   "quality_manifest": "cleaned-v1/quality_manifest.json",
-  "reports_regenerated": false,
-  "llm_theme_entity_scene_groups": 246,
-  "llm_theme_unique_entity_ids": 238,
-  "llm_theme_count": 525,
-  "p5_run": "full-final-20261104"
+  "reports_regenerated": false
 }

@@ -1,20 +1,20 @@
 {
-  "nodes": 6763,
-  "edges": 9824,
+  "nodes": 6466,
+  "edges": 9482,
   "verified": true,
-  "dataset": "p6-quality-themes-v1-1bae9157a9a3",
+  "dataset": "p6-quality-themes-v1-4d90950727ba",
   "reimport_no_duplicates": true,
   "all_node_payloads_roundtrip": true,
   "all_edge_payloads_roundtrip": true,
   "excluded_routes_in_database": 0,
-  "removed_old_project_nodes": 6763,
-  "old_database_backup_sha256": "473c54410330756af558847214211db192c0fa6a179cd5f400f55ed5474aa673",
-  "old_database_backup": "D:\\文档\\大三上\\数据挖掘\\实验一\\小组仓库外我自己的资源\\P6_LLM主题总结前_20261101\\neo4j-backup-release\\neo4j_previous_datasets.json",
+  "removed_old_project_nodes": 0,
+  "old_database_backup_sha256": null,
+  "old_database_backup": null,
   "remaining_datasets": [
     {
-      "dataset": "p6-quality-themes-v1-1bae9157a9a3",
-      "nodes": 6763
+      "dataset": "p6-quality-themes-v1-4d90950727ba",
+      "nodes": 6466
     }
   ],
-  "source_graph_sha256": "f459a3af480475cd3e22d7607b40cc6c73e07d14d9e6f6cad242bfa63be53ec7"
+  "source_graph_sha256": "9ea48053215878ca14a0361d883003004f5b8a112d8ebe8615abf2903ab730a9"
 }

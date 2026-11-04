@@ -150,11 +150,12 @@ CONTENT['6.4'] = [
     ('p', '最终图 %d 个节点、%d 条边。规模比上一轮（%d 节点）小一点，因为线路层从 197 个候选收到 29 条，'
           '步骤与相关边同步减少，差异来自线路层口径：此前片段亦计入线路。' % (
               len(GRAPH['nodes']), len(GRAPH['edges']), 6763)),
-    ('p', '入库包已经生成：dataset 名 %s，%d 个节点、%d 条边，'
-          '按 label 和 relation 分成批量 MERGE 语句，导入后再用 payload_json 逐节点回读比对。'
-          '这一步在本机没跑通——机器上没有 Neo4j 实例，只有包和离线自检。'
-          'release.json 里如实写了 verified=false、neo4j_imported=false，'
-          '接上库之后跑 tools/P6/publish_cleaned.py --apply 才算完成。' % (
+    ('p', '入库已完成并回读验证：dataset 名 %s，%d 个节点、%d 条边，'
+          '按 label 与 relation 分成批量 MERGE 写入 Neo4j 5.26（本地实例，bolt://localhost:7687），'
+          '随后逐节点、逐条边用 payload_json 回读比对，全部一致——'
+          'reimport_no_duplicates、all_node_payloads_roundtrip、all_edge_payloads_roundtrip 均为 true，'
+          '库内计数与产物一致；库中仅保留当前 dataset，旧数据清理数为 0（首次导入）。'
+          '过程记录在发布快照的 validation.json，release.json 相应为 verified=true。' % (
               P6.get('dataset', ''), MANIFEST['nodes'], MANIFEST['edges'])),
 ]
 

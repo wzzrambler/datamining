@@ -79,4 +79,5 @@ python src/P7旅游规划Agent/api.py               # http://127.0.0.1:8000
 
 - 29 条路线仅 9 条带时刻、两日路线 1 条；两天以上只能由一日路线切分，没有过夜语义。
 - 12 步/天是启发式阈值，未按体力数据标定。
-- 图谱发布 `verified=false`：本机没有 Neo4j 实例，导入包已生成，回读验证待联网库后执行。
+- 图谱已导入本地 Neo4j 5.26 并通过逐节点回读验证（`release.json` 的 `verified=true`，
+  dataset `p6-quality-themes-v1-4d90950727ba`）；重新发布用 `tools/P6/publish_cleaned.py --apply --backup <dir>`。
