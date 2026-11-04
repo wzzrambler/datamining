@@ -247,6 +247,14 @@ button.primary.is-busy .label { opacity: .85; }
   color: var(--danger); font-size: 14px;
 }
 
+/* 离线预览的说明条：不是错误，用中性色 */
+.banner.note {
+  border-color: var(--line-strong); background: var(--panel);
+  color: var(--muted);
+}
+.banner.note strong { color: var(--ink); font-weight: 600; }
+.service.is-offline .dot { background: var(--gold); box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold) 18%, transparent); }
+
 /* 结果 */
 .result { margin-top: 26px; display: grid; gap: 18px; }
 

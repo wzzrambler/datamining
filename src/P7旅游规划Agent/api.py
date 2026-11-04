@@ -5,7 +5,9 @@
 把结果整理成前端能直接渲染的结构。规划逻辑全部留在 p7_agent.py，
 这里不复制任何业务规则——否则改一处要改两份。
 
-    python src/P7旅游规划Agent/api.py            # 默认 127.0.0.1:8000
+    python src/P7旅游规划Agent/serve.py           # 推荐：本机模式，自动选端口并开浏览器
+    python src/P7旅游规划Agent/serve.py --public  # 公网模式，强制口令
+    python src/P7旅游规划Agent/api.py             # 直接起 FastAPI：默认 127.0.0.1:8000
     python src/P7旅游规划Agent/api.py --port 9000
 
 接口：

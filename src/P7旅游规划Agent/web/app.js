@@ -3,6 +3,12 @@
 
 const $ = (sel) => document.querySelector(sel);
 
+/* 离线单页（tools/P7/build_offline.py 生成）把七条真实结果内联进 HTML，
+   此时不需要后端；纯静态托管时页面从同目录 offline.json 取同一份数据；
+   直接双击源文件没有数据，只给引导，不假装能规划。 */
+let offlineData = window.__P7_OFFLINE__ || null;
+const IS_FILE = window.location.protocol === 'file:';
+
 const STATUS_TEXT = {
   ok: '成行',
   partial: '成行 · 有提醒',
@@ -27,6 +33,7 @@ const state = {
   mode: localStorage.getItem('p7.mode') || 'rule',
   llmReady: false,
   running: false,
+  offline: false,
   source: null,
   result: null,
   startedAt: 0,
@@ -88,6 +95,8 @@ async function boot() {
   bindEvents();
   refreshLockBtn();
   applyMode(state.mode);
+  if (offlineData) { bootOffline(); return; }
+  if (IS_FILE) { bootFileFallback(); return; }
   if (!(await ensureAuth())) {
     const service = $('#service');
     service.classList.add('is-dead');
@@ -113,14 +122,182 @@ async function boot() {
     $("#llmMode").title = state.llmReady ? '' : '服务端未配置模型密钥';
     if (!state.llmReady && state.mode === 'llm') applyMode('rule');
   } catch (err) {
+    // 没有后端但同目录有 offline.json（纯静态托管）时，直接降级到回放
+    const fallback = await loadOfflineData();
+    if (fallback) { bootOffline(fallback); return; }
     const service = $('#service');
     service.classList.add('is-dead');
     $('#serviceText').textContent = '服务未连接';
     renderExamples(FALLBACK_EXAMPLES);
     $("#llmMode").disabled = true;
-    showError('连不上后端。确认服务已启动（python src/P7旅游规划Agent/api.py），或稍后刷新。');
+    showError('连不上后端。运行 python src/P7旅游规划Agent/serve.py 启动本地服务，'
+      + '或打开 outputs/P7/行迹-离线预览.html 看七条现成结果。');
   }
 }
+
+/* ---------- 离线预览 ---------- */
+
+async function loadOfflineData() {
+  if (offlineData) return offlineData;
+  try {
+    const response = await fetch('./offline.json', { cache: 'no-store' });
+    if (!response.ok) return null;
+    const data = await response.json();
+    return (data && Array.isArray(data.scenes) && data.scenes.length) ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+function bootOffline(data) {
+  if (data) offlineData = data;
+  state.offline = true;
+  state.llmReady = false;
+  const meta = offlineData.meta || {};
+  const scenes = offlineData.scenes || [];
+  renderStats(meta.counts || {});
+  renderExamples(scenes.map((item) => item.input), scenes.length);
+
+  const service = $('#service');
+  service.classList.remove('is-dead', 'is-live');
+  service.classList.add('is-offline');
+  $('#serviceText').textContent = '离线预览';
+  $('#lockBtn').hidden = true;
+  $('#llmMode').disabled = true;
+  $('#llmMode').title = '离线预览不调用模型';
+  $('#hint').textContent = '离线预览：点示例，或输入需求匹配已有结果';
+  $('#query').placeholder = '离线预览：输入需求，匹配七条已有结果';
+
+  const note = $('#offlineNote');
+  note.innerHTML = `<strong>离线预览</strong>：这 ${scenes.length} 条结果是规则策略的真实运行记录，`
+    + '内联在这一个文件里，不连后端、不调模型。要自由提问，运行 '
+    + '<code>python src/P7旅游规划Agent/serve.py</code> 启动本地服务。';
+  note.hidden = false;
+  if (state.mode !== 'rule') applyMode('rule');
+
+  const empty = $('#empty').querySelector('p');
+  if (empty) empty.textContent = '点上面的示例，会展开完整的行程卡与决策过程。';
+}
+
+function bootFileFallback() {
+  state.offline = true;
+  const service = $('#service');
+  service.classList.add('is-dead');
+  $('#serviceText').textContent = '未连接';
+  $('#llmMode').disabled = true;
+  renderExamples(FALLBACK_EXAMPLES);
+  showError('这是前端源文件，双击打开没有数据。请打开 outputs/P7/行迹-离线预览.html，'
+    + '或运行 python src/P7旅游规划Agent/serve.py 启动本地服务。');
+}
+
+const DAY_PATTERNS = [[/(两|二|2)\s*天/, 2], [/(三|3)\s*天/, 3], [/(四|4)\s*天/, 4], [/(一|1)\s*天/, 1]];
+const PEOPLE_PATTERNS = [
+  { word: '老人', keys: ['老人', '爸妈', '父母', '长辈', '爷爷', '奶奶', '外公', '外婆'] },
+  { word: '孩子', keys: ['孩子', '小孩', '儿童', '宝宝', '亲子', '儿子', '女儿'] },
+  { word: '情侣', keys: ['女朋友', '男朋友', '情侣', '对象', '老婆', '老公'] },
+];
+/* 地名是判断"问的是不是同一件事"最硬的信号：只换了地名的两句，
+   字面仍然很像（"去三亚玩三天"对"去西藏玩三天"），必须靠地名分开。 */
+const PLACES = [
+  { key: '九寨', words: ['九寨沟', '九寨'] },
+  { key: '广州', words: ['广州', '香江'] },
+  { key: '珠海', words: ['珠海', '海洋王国', '横琴'] },
+  { key: '长隆', words: ['长隆'] },
+  { key: '三亚', words: ['三亚'] },
+];
+
+function detectPlace(text) {
+  const value = String(text || '');
+  for (const place of PLACES) {
+    if (place.words.some((word) => value.includes(word))) return place.key;
+  }
+  return '';
+}
+
+
+function wantDays(text) {
+  for (const [pattern, days] of DAY_PATTERNS) {
+    if (pattern.test(text)) return days;
+  }
+  return null;
+}
+
+function wantPeople(text) {
+  for (const item of PEOPLE_PATTERNS) {
+    if (item.keys.some((key) => text.includes(key))) return item.word;
+  }
+  return null;
+}
+
+function bigrams(text) {
+  const clean = String(text || '').replace(/[\s，。、,.!?！？:：;；"'“”‘’()（）\-—]/g, '');
+  const out = new Set();
+  for (let i = 0; i < clean.length - 1; i += 1) out.add(clean.slice(i, i + 2));
+  return out;
+}
+
+function scoreScene(query, scene) {
+  const want = bigrams(query);
+  const have = bigrams(scene.input);
+  if (!want.size || !have.size) return 0;
+  let hit = 0;
+  want.forEach((gram) => { if (have.has(gram)) hit += 1; });
+  let score = hit / want.size;             // 以查询覆盖率为准，短查询不会被长句带偏
+  const queryDays = wantDays(query);
+  if (queryDays && scene.days && queryDays !== scene.days) score -= 0.22;
+  const queryPeople = wantPeople(query);
+  if (queryPeople && scene.visitor && queryPeople !== scene.visitor) score -= 0.12;
+
+  const queryPlace = detectPlace(query);
+  const scenePlace = detectPlace(`${scene.area || ''} ${scene.input || ''}`);
+  if (queryPlace) {
+    if (queryPlace === scenePlace) score += 0.25;
+    else if (queryPlace === '长隆' && (scenePlace === '广州' || scenePlace === '珠海')) score += 0.15;
+    else score -= 0.45;
+  }
+  return score;
+}
+
+function matchScene(query, scenes) {
+  const text = query.trim();
+  let best = null;
+  let bestScore = 0;
+  scenes.forEach((scene) => {
+    const score = text === scene.input ? 1.5 : scoreScene(text, scene);
+    if (score > bestScore) { bestScore = score; best = scene; }
+  });
+  // 没有地名线索时只靠字面，阈值抬高，避免"去西藏"配上"去三亚"
+  const floor = detectPlace(text) ? 0.34 : 0.6;
+  if (!best || bestScore < floor) return null;
+  return { scene: best, score: bestScore, exact: text === best.input };
+}
+
+function offlineRun(query) {
+  const scenes = offlineData.scenes || [];
+  const match = matchScene(query, scenes);
+  clearError();
+  if (!match) {
+    failRun(`离线预览只含 ${scenes.length} 条预置结果，没有与「${query}」接近的一条。`);
+    $('#resultMeta').textContent = '点上面的示例看完整效果，自由提问请启动本地服务。';
+    return;
+  }
+  const result = JSON.parse(JSON.stringify(match.scene.result));
+  startRun(query);
+  finishRun(result);
+  const summary = result.plan
+    ? `${result.plan.steps.length} 步`
+    : (STATUS_TEXT[result.status] || result.status || '无行程');
+  $('#resultMeta').textContent = match.exact
+    ? `离线回放 · ${summary}`
+    : `离线回放 · 最接近「${match.scene.input}」`;
+  if (!match.exact) {
+    const card = document.createElement('div');
+    card.className = 'card notice';
+    card.innerHTML = `<p>离线预览没有与你的输入完全一致的结果，下面这条最接近，仅用于查看界面。</p>`;
+    $('#planCol').prepend(card);
+  }
+}
+
 
 function renderStats(counts) {
   const map = { statRoutes: counts.routes, statDocs: counts.documents, statRules: counts.rules };
@@ -130,10 +307,10 @@ function renderStats(counts) {
   $('#stats').hidden = false;
 }
 
-function renderExamples(list) {
+function renderExamples(list, limit = 4) {
   const box = $('#examples');
   box.innerHTML = '';
-  list.slice(0, 4).forEach((text) => {
+  list.slice(0, limit).forEach((text) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'chip';
@@ -212,6 +389,7 @@ async function submit() {
     showError('服务端没有配置模型密钥，先用规则模式。');
     return;
   }
+  if (state.offline) { offlineRun(query); return; }
   if (!(await ensureAuth())) return;
   clearError();
   startRun(query);
@@ -330,11 +508,17 @@ async function fetchRun(query) {
 function failRun(message) {
   endRun();
   showError(message);
+  state.result = null;
   $('#statusPill').dataset.status = 'no_data';
   $('#statusPill').textContent = '未完成';
   $('#resultTitle').textContent = '这次没跑出结果';
-  $('#resultMeta').textContent = '换个问法，或切到规则模式再试一次。';
+  $('#resultMeta').textContent = '换个问法，或启动本地服务再试一次。';
   $('#planCol').innerHTML = '';
+  $('#sideCol').innerHTML = '';
+  $('#timeline').innerHTML = '';
+  $('#traceCard').hidden = true;
+  $('#answerText').textContent = '';
+  $('.textcard').hidden = true;
 }
 
 /* ---------- 渲染结果 ---------- */

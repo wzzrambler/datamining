@@ -1,0 +1,1365 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="把游记与官网攻略整理成可按人群、天数调整的行程：基于知识图谱的旅游规划 Agent。">
+  <meta name="theme-color" content="#f6f5f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#11151c" media="(prefers-color-scheme: dark)">
+  <title>行迹 · 离线预览</title>
+  <style>
+/* 行迹 · 旅游规划前端
+   无外部依赖：字体、图标、配色全部本地化，离线也能开。 */
+
+:root {
+  --bg: #f5f3ee;
+  --bg-deep: #ece8df;
+  --panel: #fffdf9;
+  --panel-soft: #faf8f2;
+  --ink: #1b202b;
+  --ink-soft: #3c4453;
+  --muted: #6f7787;
+  --line: #e2ded4;
+  --line-strong: #cfc8b9;
+  --accent: #0f6459;
+  --accent-ink: #0b4c44;
+  --accent-soft: #e2f0ec;
+  --gold: #a86b1f;
+  --gold-soft: #f6ecd9;
+  --danger: #a8322a;
+  --danger-soft: #f8e7e4;
+  --ok: #0f6459;
+  --partial: #9a6414;
+  --info: #2b5c9b;
+  --neutral: #5d6472;
+  --shadow: 0 1px 2px rgba(27, 32, 43, .04), 0 12px 32px -18px rgba(27, 32, 43, .28);
+  --radius: 16px;
+  --serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+          "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --mono: "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101419;
+    --bg-deep: #0b0f14;
+    --panel: #171d25;
+    --panel-soft: #1c232d;
+    --ink: #eef1f4;
+    --ink-soft: #c9d0da;
+    --muted: #94a0b0;
+    --line: #2a323d;
+    --line-strong: #3a4452;
+    --accent: #6fc9b8;
+    --accent-ink: #9adfd1;
+    --accent-soft: #143029;
+    --gold: #e0b166;
+    --gold-soft: #2e2618;
+    --danger: #ef8b80;
+    --danger-soft: #33201e;
+    --ok: #6fc9b8;
+    --partial: #e0b166;
+    --info: #8ab4e8;
+    --neutral: #9aa4b2;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 18px 40px -24px rgba(0, 0, 0, .8);
+  }
+}
+
+* { box-sizing: border-box; }
+
+/* hidden 是全局契约：组件里的 display 不能把它顶掉 */
+[hidden] { display: none !important; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background:
+    radial-gradient(1100px 520px at 12% -8%, var(--accent-soft), transparent 62%),
+    radial-gradient(900px 460px at 92% 4%, var(--gold-soft), transparent 58%),
+    var(--bg);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 28px 0 56px;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.muted { color: var(--muted); }
+
+/* 顶栏 */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 6px 2px 26px;
+}
+
+.brand { display: inline-flex; align-items: center; gap: 12px; }
+
+.mark { width: 38px; height: 38px; color: var(--accent); flex: none; }
+
+.brand-text { display: flex; flex-direction: column; line-height: 1.2; }
+.brand-text strong { font-size: 18px; letter-spacing: .12em; }
+.brand-text small { color: var(--muted); font-size: 12px; letter-spacing: .08em; }
+
+.top-actions { display: inline-flex; align-items: center; gap: 10px; }
+
+.mini { padding: 5px 10px; font-size: 12px; border-radius: 8px; }
+
+.service {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 13px; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: 6px 12px; background: color-mix(in srgb, var(--panel) 72%, transparent);
+}
+
+.dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--line-strong); flex: none;
+}
+.service.is-live .dot { background: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.service.is-dead .dot { background: var(--danger); }
+
+/* 首屏 */
+.hero { padding: 26px 2px 34px; max-width: 780px; }
+
+.eyebrow {
+  margin: 0 0 14px; font-size: 12px; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--gold);
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(30px, 4.4vw, 46px);
+  line-height: 1.28; font-weight: 600; letter-spacing: .01em;
+  margin: 0 0 18px;
+}
+
+.lede { margin: 0; color: var(--ink-soft); font-size: 15.5px; max-width: 660px; }
+
+.stats {
+  display: flex; flex-wrap: wrap; gap: 40px;
+  margin: 30px 0 0; padding: 18px 0 0;
+  border-top: 1px solid var(--line);
+}
+.stats[hidden] { display: none; }
+.stats div { display: flex; flex-direction: column; gap: 2px; }
+.stats dt { font-family: var(--serif); font-size: 26px; line-height: 1.1; }
+.stats dd { margin: 0; font-size: 12px; color: var(--muted); letter-spacing: .04em; }
+
+/* 卡片与输入 */
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.composer { padding: 20px 22px 16px; }
+
+.field { position: relative; }
+
+textarea {
+  width: 100%; border: 0; outline: 0; resize: none;
+  background: transparent; color: var(--ink);
+  font: 17px/1.6 var(--sans);
+  padding: 4px 46px 4px 0;
+  min-height: 58px;
+}
+textarea::placeholder { color: var(--muted); }
+
+.counter {
+  position: absolute; right: 0; bottom: 6px;
+  font: 11px/1 var(--mono); color: var(--muted);
+}
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 4px; }
+
+.chip {
+  border: 1px dashed var(--line-strong); background: transparent;
+  color: var(--muted); border-radius: 999px;
+  padding: 5px 12px; font-size: 12.5px; cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.chip:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+
+.composer-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; margin-top: 10px; padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.modes {
+  display: inline-flex; padding: 3px; gap: 2px;
+  background: var(--panel-soft); border: 1px solid var(--line); border-radius: 10px;
+}
+
+.mode {
+  border: 0; background: transparent; color: var(--muted);
+  font: 13px/1 var(--sans); padding: 8px 12px; border-radius: 8px;
+  cursor: pointer; transition: background .15s, color .15s;
+}
+.mode.is-active { background: var(--panel); color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+.mode:disabled { opacity: .45; cursor: not-allowed; }
+
+.actions { display: flex; align-items: center; gap: 12px; }
+
+.hint { font-size: 12px; color: var(--muted); }
+
+button.primary {
+  display: inline-flex; align-items: center; gap: 8px;
+  border: 1px solid transparent; border-radius: 10px;
+  background: var(--accent); color: #fff;
+  font: 600 14px/1 var(--sans); padding: 11px 18px;
+  cursor: pointer; transition: transform .12s, background .15s, opacity .15s;
+}
+button.primary:hover { background: var(--accent-ink); }
+button.primary:active { transform: translateY(1px); }
+button.primary:disabled { opacity: .6; cursor: progress; }
+
+@media (prefers-color-scheme: dark) {
+  button.primary { color: #07120f; }
+}
+
+.ghost {
+  border: 1px solid var(--line-strong); background: transparent; color: var(--ink-soft);
+  border-radius: 10px; padding: 9px 14px; font-size: 13px; cursor: pointer;
+}
+.ghost:hover { border-color: var(--danger); color: var(--danger); }
+
+.spinner {
+  width: 14px; height: 14px; border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.4); border-top-color: #fff;
+  display: none; animation: spin .8s linear infinite;
+}
+button.primary.is-busy .spinner { display: inline-block; }
+button.primary.is-busy .label { opacity: .85; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* 提示条 */
+.banner {
+  margin: 18px 2px 0; padding: 12px 16px;
+  border: 1px solid var(--danger); border-left-width: 3px;
+  border-radius: 10px; background: var(--danger-soft);
+  color: var(--danger); font-size: 14px;
+}
+
+/* 离线预览的说明条：不是错误，用中性色 */
+.banner.note {
+  border-color: var(--line-strong); background: var(--panel);
+  color: var(--muted);
+}
+.banner.note strong { color: var(--ink); font-weight: 600; }
+.service.is-offline .dot { background: var(--gold); box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold) 18%, transparent); }
+
+/* 结果 */
+.result { margin-top: 26px; display: grid; gap: 18px; }
+
+.result-head { padding: 20px 22px; }
+
+.title-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.title-row h2 { margin: 0; font-family: var(--serif); font-size: 23px; font-weight: 600; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; letter-spacing: .04em;
+  padding: 4px 10px; border-radius: 999px;
+  border: 1px solid currentColor;
+}
+.pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.pill[data-status="ok"] { color: var(--ok); background: var(--accent-soft); }
+.pill[data-status="partial"] { color: var(--partial); background: var(--gold-soft); }
+.pill[data-status="need_info"] { color: var(--info); background: color-mix(in srgb, var(--info) 10%, transparent); }
+.pill[data-status="no_data"] { color: var(--neutral); background: var(--panel-soft); }
+.pill[data-status="conflict"] { color: var(--danger); background: var(--danger-soft); }
+
+.meta { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+.meta code { font-family: var(--mono); font-size: 12px; }
+
+.result-grid {
+  display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(260px, .9fr);
+  gap: 18px; align-items: start;
+}
+
+.plan-col { display: grid; gap: 14px; }
+.side-col { display: grid; gap: 14px; }
+
+/* 天卡 */
+.day {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 18px 20px 8px;
+}
+
+.day-head {
+  display: flex; align-items: baseline; gap: 10px;
+  padding-bottom: 10px; margin-bottom: 4px;
+  border-bottom: 1px dashed var(--line);
+}
+.day-no {
+  font-family: var(--serif); font-size: 15px; color: var(--accent);
+  letter-spacing: .08em;
+}
+.day-title { font-size: 13px; color: var(--muted); margin-left: auto; }
+
+.steps { list-style: none; margin: 0; padding: 6px 0 6px; }
+
+.step {
+  position: relative;
+  display: grid; grid-template-columns: 30px minmax(0, 1fr);
+  gap: 12px; padding: 10px 0 10px;
+}
+.step + .step { border-top: 1px solid color-mix(in srgb, var(--line) 60%, transparent); }
+
+.step-idx {
+  width: 26px; height: 26px; border-radius: 50%;
+  display: grid; place-items: center;
+  font: 600 12px/1 var(--mono);
+  color: var(--accent); background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.step-body { min-width: 0; }
+.step-spot { font-size: 15.5px; font-weight: 600; letter-spacing: .01em; }
+
+.step-meta {
+  margin-top: 2px; display: flex; flex-wrap: wrap; gap: 6px 14px;
+  font-size: 12.5px; color: var(--muted);
+}
+.step-meta span { display: inline-flex; align-items: center; gap: 5px; }
+.step-meta svg { width: 13px; height: 13px; opacity: .7; }
+
+.tag {
+  display: inline-block; margin-top: 6px;
+  font-size: 11.5px; color: var(--gold);
+  background: var(--gold-soft); border-radius: 6px; padding: 2px 8px;
+}
+
+/* 侧栏 */
+.side-card { padding: 16px 18px; }
+.side-card h3 {
+  margin: 0 0 10px; font-size: 13px; letter-spacing: .08em;
+  color: var(--muted); font-weight: 600;
+}
+
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; margin: 0; font-size: 13.5px; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; }
+
+.tips { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.tips li {
+  position: relative; padding-left: 18px; font-size: 13.5px; color: var(--ink-soft);
+}
+.tips li::before {
+  content: ""; position: absolute; left: 0; top: .55em;
+  width: 7px; height: 7px; border-radius: 2px;
+  background: var(--gold); transform: rotate(45deg);
+}
+
+.notes li::before { background: var(--info); }
+
+/* 决策过程 */
+.trace { padding: 18px 20px 8px; }
+
+.trace-head {
+  display: flex; align-items: center; gap: 12px;
+  padding-bottom: 10px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+.trace-head h3 { margin: 0; font-size: 14px; letter-spacing: .06em; }
+.trace-head .muted { font-size: 12px; }
+.trace-head .link { margin-left: auto; }
+.head-actions { margin-left: auto; display: flex; gap: 14px; }
+
+.link {
+  border: 0; background: none; padding: 0; cursor: pointer;
+  color: var(--accent); font-size: 13px;
+}
+.link:hover { text-decoration: underline; }
+
+.timeline {
+  list-style: none; margin: 0; padding: 6px 0 12px;
+  position: relative;
+}
+.timeline::before {
+  content: ""; position: absolute; left: 13px; top: 14px; bottom: 20px;
+  width: 1px; background: var(--line);
+}
+.timeline[hidden] { display: none; }
+
+.turn { position: relative; padding: 10px 0 10px 38px; }
+
+.turn-dot {
+  position: absolute; left: 7px; top: 15px;
+  width: 13px; height: 13px; border-radius: 50%;
+  background: var(--panel); border: 2px solid var(--line-strong);
+}
+.turn.is-final .turn-dot { border-color: var(--accent); background: var(--accent); }
+
+.turn-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.turn-no { font: 11px/1 var(--mono); color: var(--muted); }
+
+.action {
+  font: 12px/1 var(--mono);
+  padding: 3px 7px; border-radius: 6px;
+  background: var(--panel-soft); border: 1px solid var(--line);
+  color: var(--ink-soft);
+}
+
+.turn-thought { margin: 6px 0 0; font-size: 14px; }
+.turn-args {
+  margin: 4px 0 0; font: 12px/1.5 var(--mono);
+  color: var(--muted); word-break: break-all;
+}
+.turn-obs {
+  margin: 4px 0 0; font-size: 12.5px; color: var(--muted);
+  padding-left: 10px; border-left: 2px solid var(--line);
+}
+
+/* 文本版 */
+.textcard { padding: 18px 20px; }
+.textcard pre {
+  margin: 8px 0 0; white-space: pre-wrap; word-break: break-word;
+  font: 13.5px/1.8 var(--sans); color: var(--ink-soft);
+}
+
+/* 空态与页脚 */
+.empty { display: grid; place-items: center; gap: 8px; padding: 46px 0 10px; text-align: center; }
+.empty[hidden] { display: none; }
+.empty-art { width: 240px; max-width: 70%; color: var(--line-strong); }
+.empty p { margin: 0; color: var(--muted); font-size: 13.5px; max-width: 460px; }
+
+.footer {
+  margin-top: 54px; padding-top: 18px; border-top: 1px solid var(--line);
+  font-size: 12.5px; color: var(--muted);
+}
+.footer p { margin: 0 0 6px; }
+.footer .muted { font-size: 12px; opacity: .8; }
+
+/* 动效 */
+.result:not([hidden]) .card,
+.result:not([hidden]) .day { animation: rise .28s ease both; }
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* 窄屏 */
+@media (max-width: 860px) {
+  .page { width: min(100% - 28px, 720px); padding-top: 18px; }
+  .result-grid { grid-template-columns: 1fr; }
+  .hero { padding-bottom: 24px; }
+  .stats { gap: 24px; }
+  .composer-foot { flex-direction: column; align-items: stretch; }
+  .actions { justify-content: space-between; }
+  .hint { display: none; }
+}
+
+/* 打印：只留行程，方便老师直接存档 */
+@media print {
+  body { background: #fff; }
+  .topbar, .hero, .composer, .trace, .textcard, .empty, .footer, .banner { display: none !important; }
+  .page { width: 100%; padding: 0; }
+  .result { margin: 0; }
+  .card, .day { box-shadow: none; break-inside: avoid; }
+}
+
+/* 运行中的骨架与提示块 */
+.pill[data-status="running"] { color: var(--info); background: color-mix(in srgb, var(--info) 12%, transparent); }
+.pill[data-status="running"]::before { animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+
+.loading { padding: 22px; display: grid; gap: 12px; }
+.sk {
+  display: block; height: 12px; border-radius: 6px;
+  background: linear-gradient(90deg, var(--panel-soft), var(--line), var(--panel-soft));
+  background-size: 200% 100%; animation: shimmer 1.4s linear infinite;
+}
+.sk-title { height: 18px; width: 42%; }
+.sk.short { width: 64%; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+.notice { padding: 22px; }
+.notice p { margin: 0; font-size: 15px; color: var(--ink-soft); }
+
+</style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="回到首页">
+        <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="16.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M26.5 13.5 22 22l-8.5 4.5L18 18z" fill="currentColor" opacity=".9"/>
+          <circle cx="20" cy="20" r="1.6" fill="var(--panel)"/>
+        </svg>
+        <span class="brand-text">
+          <strong>行迹</strong>
+          <small>知识图谱旅游规划</small>
+        </span>
+      </a>
+      <div class="top-actions">
+        <button type="button" class="ghost mini" id="lockBtn" hidden title="设置或更换访问口令">口令</button>
+        <div class="service" id="service">
+          <span class="dot" aria-hidden="true"></span>
+          <span id="serviceText">连接中</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">项目 7 · ReAct Agent</p>
+        <h1>把散在攻略里的路线，<br>排成一天走得完的路。</h1>
+        <p class="lede">
+          路线、景点与“什么条件下该注意什么”来自 47 篇游记、公众号与景区官网。
+          你说人和天数，它在图谱上取路线、按人群裁剪、把走不完的行程拆开。
+        </p>
+        <dl class="stats" id="stats" hidden>
+          <div><dt id="statRoutes">—</dt><dd>条结构化路线</dd></div>
+          <div><dt id="statDocs">—</dt><dd>篇原始语料</dd></div>
+          <div><dt id="statRules">—</dt><dd>条条件建议</dd></div>
+          <div><dt>5</dt><dd>个确定性工具</dd></div>
+        </dl>
+      </section>
+
+      <section class="composer card" aria-labelledby="composerTitle">
+        <h2 id="composerTitle" class="sr-only">描述你的行程需求</h2>
+        <div class="field">
+          <textarea id="query" rows="2" maxlength="200" autocomplete="off"
+                    placeholder="例如：带爸妈去九寨沟玩一天，他们走不动太久"></textarea>
+          <span class="counter" id="counter">0/200</span>
+        </div>
+        <div class="chips" id="examples" aria-label="示例问句"></div>
+        <div class="composer-foot">
+          <div class="modes" role="radiogroup" aria-label="决策方式">
+            <button type="button" class="mode is-active" data-mode="rule" role="radio" aria-checked="true">
+              规则策略
+            </button>
+            <button type="button" class="mode" data-mode="llm" role="radio" aria-checked="false" id="llmMode">
+              大模型决策
+            </button>
+          </div>
+          <div class="actions">
+            <span class="hint" id="hint">Ctrl / ⌘ + Enter 发送</span>
+            <button type="button" class="ghost" id="cancel" hidden>停止</button>
+            <button type="button" class="primary" id="submit">
+              <span class="label">生成行程</span>
+              <span class="spinner" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <p class="banner note" id="offlineNote" hidden></p>
+      <p class="banner" id="error" role="alert" hidden></p>
+
+      <section class="result" id="result" hidden aria-live="polite">
+        <div class="result-head card">
+          <div class="title-row">
+            <span class="pill" id="statusPill"></span>
+            <h2 id="resultTitle"></h2>
+          </div>
+          <p class="meta" id="resultMeta"></p>
+        </div>
+
+        <div class="result-grid">
+          <div class="plan-col" id="planCol"></div>
+          <aside class="side-col" id="sideCol"></aside>
+        </div>
+
+        <section class="card trace" id="traceCard">
+          <header class="trace-head">
+            <h3>决策过程</h3>
+            <span class="muted" id="turnCount"></span>
+            <button type="button" class="link" id="toggleTrace" aria-expanded="true">收起</button>
+          </header>
+          <ol class="timeline" id="timeline"></ol>
+        </section>
+
+        <section class="card textcard">
+          <header class="trace-head">
+            <h3>文本版</h3>
+            <div class="head-actions">
+              <button type="button" class="link" id="copyAnswer">复制</button>
+              <button type="button" class="link" id="downloadAnswer">下载 .md</button>
+            </div>
+          </header>
+          <pre id="answerText"></pre>
+        </section>
+      </section>
+
+      <section class="empty" id="empty">
+        <svg class="empty-art" viewBox="0 0 240 140" aria-hidden="true">
+          <path d="M18 112c34-6 44-44 74-44s40 26 66 26 44-20 64-30" fill="none"
+                stroke="var(--line-strong)" stroke-width="1.5" stroke-dasharray="4 5"/>
+          <circle cx="22" cy="112" r="4" fill="var(--accent)"/>
+          <circle cx="158" cy="94" r="3" fill="var(--gold)"/>
+          <circle cx="222" cy="64" r="5" fill="var(--accent)"/>
+          <path d="M60 36h52M60 48h34M60 60h44" stroke="var(--line-strong)" stroke-width="2"
+                stroke-linecap="round" opacity=".7"/>
+        </svg>
+        <p>问一句就行。它只会用库里的三个景区，不会替你编一个不存在的景点。</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>数据来自 47 篇游记、公众号与景区官网，属于历史资料；时刻、票价与开放状态请以景区当日公告为准。</p>
+      <p class="muted">项目 1–7 流水线 · 图谱 6466 节点 · 本页只读图谱，不写任何数据</p>
+    </footer>
+  </div>
+  <script>window.__P7_OFFLINE__ = {"meta": {"version": "p7-web-1", "generated_at": "2026-11-04 23:57", "counts": {"routes": 29, "documents": 47, "entities": 1784, "rules": 1268}}, "scenes": [{"input": "带爸妈去九寨沟玩一天，他们走不动太久", "status": "partial", "area": "九寨沟风景名胜区", "days": 1, "visitor": "老人", "result": {"status": "partial", "mode": "rule", "answer": "按九寨沟的两日给你排了 15 步：\n【第1 天】\n【上午】\n  长海\n  五彩池\n  诺日朗换乘\n【中午】\n  诺日朗吃饭休整\n【下午】\n  箭竹海\n  熊猫海\n  五花海\n  珍珠滩\n【第2 天】\n【下午】\n  诺日朗换乘\n【傍晚】\n  犀牛海\n  老虎海\n  树正瀑布\n  树正群海\n  火花海\n  出沟\n注意：5800m 徒步，谨慎；6-11月丰水期，再去\n提醒：这条路线原文没写时刻，只能给顺序；这条路线有 15 步，1 天走不完，已按 2 天排", "elapsed_ms": 0, "route_id": "JZG-NOTE-03-R-7f44fd1c84", "slots": {"area": "九寨沟风景名胜区", "other_place": "", "visitor": "老人", "days": 1}, "plan": {"area": "九寨沟风景名胜区", "area_short": "九寨沟", "visitor": "老人", "days": 1, "days_actual": 2, "route_id": "JZG-NOTE-03-R-7f44fd1c84", "span": "", "steps": [{"step": 1, "period": "上午", "time": "", "spot": "上午长海", "transport": "", "tag": ""}, {"step": 2, "period": "上午", "time": "", "spot": "五彩池", "transport": "", "tag": ""}, {"step": 3, "period": "上午", "time": "", "spot": "诺日朗换乘", "transport": "", "tag": ""}, {"step": 4, "period": "中午", "time": "", "spot": "中午诺日朗吃饭休整", "transport": "", "tag": ""}, {"step": 5, "period": "下午", "time": "", "spot": "下午箭竹海", "transport": "", "tag": ""}, {"step": 6, "period": "下午", "time": "", "spot": "熊猫海", "transport": "", "tag": ""}, {"step": 7, "period": "下午", "time": "", "spot": "五花海", "transport": "", "tag": ""}, {"step": 8, "period": "下午", "time": "", "spot": "珍珠滩", "transport": "", "tag": ""}, {"step": 9, "period": "下午", "time": "", "spot": "诺日朗换乘", "transport": "", "tag": ""}, {"step": 10, "period": "傍晚", "time": "", "spot": "傍晚犀牛海", "transport": "", "tag": ""}, {"step": 11, "period": "傍晚", "time": "", "spot": "老虎海", "transport": "", "tag": ""}, {"step": 12, "period": "傍晚", "time": "", "spot": "树正瀑布", "transport": "", "tag": ""}, {"step": 13, "period": "傍晚", "time": "", "spot": "树正群海", "transport": "", "tag": ""}, {"step": 14, "period": "傍晚", "time": "", "spot": "火花海", "transport": "", "tag": ""}, {"step": 15, "period": "傍晚", "time": "", "spot": "出沟", "transport": "", "tag": ""}], "day_groups": [[{"step": 1, "period": "上午", "time": "", "spot": "上午长海", "transport": "", "tag": ""}, {"step": 2, "period": "上午", "time": "", "spot": "五彩池", "transport": "", "tag": ""}, {"step": 3, "period": "上午", "time": "", "spot": "诺日朗换乘", "transport": "", "tag": ""}, {"step": 4, "period": "中午", "time": "", "spot": "中午诺日朗吃饭休整", "transport": "", "tag": ""}, {"step": 5, "period": "下午", "time": "", "spot": "下午箭竹海", "transport": "", "tag": ""}, {"step": 6, "period": "下午", "time": "", "spot": "熊猫海", "transport": "", "tag": ""}, {"step": 7, "period": "下午", "time": "", "spot": "五花海", "transport": "", "tag": ""}, {"step": 8, "period": "下午", "time": "", "spot": "珍珠滩", "transport": "", "tag": ""}], [{"step": 9, "period": "下午", "time": "", "spot": "诺日朗换乘", "transport": "", "tag": ""}, {"step": 10, "period": "傍晚", "time": "", "spot": "傍晚犀牛海", "transport": "", "tag": ""}, {"step": 11, "period": "傍晚", "time": "", "spot": "老虎海", "transport": "", "tag": ""}, {"step": 12, "period": "傍晚", "time": "", "spot": "树正瀑布", "transport": "", "tag": ""}, {"step": 13, "period": "傍晚", "time": "", "spot": "树正群海", "transport": "", "tag": ""}, {"step": 14, "period": "傍晚", "time": "", "spot": "火花海", "transport": "", "tag": ""}, {"step": 15, "period": "傍晚", "time": "", "spot": "出沟", "transport": "", "tag": ""}]], "tips": ["5800m 徒步，谨慎", "6-11月丰水期，再去", "一天的游览对体能有所要求，来到九寨沟的第一天晚上可以好好休息"], "notes": ["这条路线原文没写时刻，只能给顺序", "这条路线有 15 步，1 天走不完，已按 2 天排"]}, "turns": [{"turn": 0, "thought": "先把这句话里的景区、人群、天数拆出来", "action": "parse_slots", "args": "{\"text\": \"带爸妈去九寨沟玩一天，他们走不动太久\"}", "observation": "景区 九寨沟／人群 老人／1 天"}, {"turn": 1, "thought": "先确认这个景区库里有没有路线", "action": "check_area", "args": "{\"area\": \"九寨沟风景名胜区\"}", "observation": "库里有 7 条路线"}, {"turn": 2, "thought": "景区在库里，先取一条符合天数的路线", "action": "get_route", "args": "{\"area\": \"九寨沟风景名胜区\", \"days\": 1}", "observation": "JZG-NOTE-03-R-7f44fd1c84，15 步，无时刻"}, {"turn": 3, "thought": "再看这个景区有哪些景点能排进去", "action": "search_spots", "args": "{\"area\": \"九寨沟风景名胜区\", \"visitor\": \"老人\", \"top_k\": 8}", "observation": "命中 38 个景点，取前 8 个"}, {"turn": 4, "thought": "顺手取这个景区的注意事项，最后一起给", "action": "get_tips", "args": "{\"area\": \"九寨沟风景名胜区\", \"keyword\": \"\", \"visitor\": \"老人\"}", "observation": "候选 303 条（关键词命中 0），取前 3 条"}, {"turn": 5, "thought": "材料齐了，按人群把路线裁一版", "action": "tailor_route", "args": "{\"visitor\": \"老人\", \"route\": \"JZG-NOTE-03-R-7f44fd1c84\"}", "observation": "成行 15 步，标注 0 处"}, {"turn": 6, "thought": "信息够了，可以出方案", "action": "final", "args": "{\"reason\": \"done\"}", "observation": "结束"}], "diagnostics": []}}, {"input": "带6岁孩子去广州长隆，一天怎么安排", "status": "ok", "area": "广州长隆旅游度假区", "days": 1, "visitor": "亲子", "result": {"status": "ok", "mode": "rule", "answer": "按广州长隆的一日给你排了 8 步：\n【上午】\n  1⃣09:30 开园直冲小火车（09:30）\n  2⃣10:15 青龙山环线（10:15）\n  3⃣11:30 长颈鹿广场+考拉园（11:30）\n【下午】\n  4⃣13:30 熊猫乐园（13:30）（适合孩子）\n  5⃣14:30 空中缆车(选环园线)（14:30）\n  6⃣15:30 百虎山+火烈鸟岛（15:30）\n  7⃣16:30 大象传奇/南美探秘表演（16:30）\n  8⃣花车巡游\n注意：08:50前到北门，赶上第一波进园早、体验好很多；15:00入园，先刷机动项目", "elapsed_ms": 0, "route_id": "GZCL-NOTE-12-R-f5fee04dec", "slots": {"area": "广州长隆旅游度假区", "other_place": "", "visitor": "亲子", "days": 1}, "plan": {"area": "广州长隆旅游度假区", "area_short": "广州长隆", "visitor": "亲子", "days": 1, "days_actual": 1, "route_id": "GZCL-NOTE-12-R-f5fee04dec", "span": "09:30—16:30", "steps": [{"step": 1, "period": "上午", "time": "09:30", "spot": "开园直冲小火车", "transport": "", "tag": ""}, {"step": 2, "period": "上午", "time": "10:15", "spot": "青龙山环线", "transport": "", "tag": ""}, {"step": 3, "period": "上午", "time": "11:30", "spot": "长颈鹿广场+考拉园", "transport": "", "tag": ""}, {"step": 4, "period": "下午", "time": "13:30", "spot": "熊猫乐园", "transport": "", "tag": "适合孩子"}, {"step": 5, "period": "下午", "time": "14:30", "spot": "空中缆车(选环园线)", "transport": "", "tag": ""}, {"step": 6, "period": "下午", "time": "15:30", "spot": "百虎山+火烈鸟岛", "transport": "", "tag": ""}, {"step": 7, "period": "下午", "time": "16:30", "spot": "大象传奇/南美探秘表演", "transport": "", "tag": ""}, {"step": 8, "period": "未说明", "time": "", "spot": "花车巡游", "transport": "", "tag": ""}], "day_groups": [[{"step": 1, "period": "上午", "time": "09:30", "spot": "开园直冲小火车", "transport": "", "tag": ""}, {"step": 2, "period": "上午", "time": "10:15", "spot": "青龙山环线", "transport": "", "tag": ""}, {"step": 3, "period": "上午", "time": "11:30", "spot": "长颈鹿广场+考拉园", "transport": "", "tag": ""}, {"step": 4, "period": "下午", "time": "13:30", "spot": "熊猫乐园", "transport": "", "tag": "适合孩子"}, {"step": 5, "period": "下午", "time": "14:30", "spot": "空中缆车(选环园线)", "transport": "", "tag": ""}, {"step": 6, "period": "下午", "time": "15:30", "spot": "百虎山+火烈鸟岛", "transport": "", "tag": ""}, {"step": 7, "period": "下午", "time": "16:30", "spot": "大象传奇/南美探秘表演", "transport": "", "tag": ""}, {"step": 8, "period": "未说明", "time": "", "spot": "花车巡游", "transport": "", "tag": ""}]], "tips": ["08:50前到北门，赶上第一波进园早、体验好很多", "15:00入园，先刷机动项目", "16:00后，排队减半，体力好可此时乘坐"], "notes": []}, "turns": [{"turn": 0, "thought": "先把这句话里的景区、人群、天数拆出来", "action": "parse_slots", "args": "{\"text\": \"带6岁孩子去广州长隆，一天怎么安排\"}", "observation": "景区 广州长隆／人群 亲子／1 天"}, {"turn": 1, "thought": "先确认这个景区库里有没有路线", "action": "check_area", "args": "{\"area\": \"广州长隆旅游度假区\"}", "observation": "库里有 11 条路线"}, {"turn": 2, "thought": "景区在库里，先取一条符合天数的路线", "action": "get_route", "args": "{\"area\": \"广州长隆旅游度假区\", \"days\": 1}", "observation": "GZCL-NOTE-12-R-f5fee04dec，8 步，09:30—16:30"}, {"turn": 3, "thought": "再看这个景区有哪些景点能排进去", "action": "search_spots", "args": "{\"area\": \"广州长隆旅游度假区\", \"visitor\": \"亲子\", \"top_k\": 8}", "observation": "命中 58 个景点，取前 8 个"}, {"turn": 4, "thought": "顺手取这个景区的注意事项，最后一起给", "action": "get_tips", "args": "{\"area\": \"广州长隆旅游度假区\", \"keyword\": \"\", \"visitor\": \"亲子\"}", "observation": "候选 396 条（关键词命中 0），取前 3 条"}, {"turn": 5, "thought": "材料齐了，按人群把路线裁一版", "action": "tailor_route", "args": "{\"visitor\": \"亲子\", \"route\": \"GZCL-NOTE-12-R-f5fee04dec\"}", "observation": "成行 8 步，标注 1 处"}, {"turn": 6, "thought": "信息够了，可以出方案", "action": "final", "args": "{\"reason\": \"done\"}", "observation": "结束"}], "diagnostics": []}}, {"input": "和女朋友去珠海长隆海洋王国玩两天", "status": "partial", "area": "珠海横琴长隆国际海洋度假区", "days": 2, "visitor": "情侣", "result": {"status": "partial", "mode": "rule", "answer": "按珠海长隆的两日给你排了 18 步：\n【第1 天】\n  海豚湾\n  白鲸馆\n  鲸鲨馆\n  雨林餐厅(午饭)\n  海豚剧场13点\n  白鲸剧场14点\n  北极熊馆\n  企鹅馆\n  海鸟世界\n【第2 天】\n  丛林过山车\n  海象馆\n  激浪帆船\n  海狮剧场17点\n  超级激流\n  梦幻海洋\n  冰山过山车\n  鹦鹉过山车\n  烟花秀20点（适合拍照）\n注意：09:20:00烟花幻彩横琴海前，鲸鲨馆是人最少的时候，你可以拍出你想要的片子；11月1号到15号企鹅馆关门，这段期间去的话，要调整路线，先跳过企鹅馆其他安排\n提醒：这条路线原文没写时刻，只能给顺序；库里没有独立的两日路线，以下按原文顺序拆分到天", "elapsed_ms": 0, "route_id": "ROUTEOBS-327026e22dfe6fb4", "slots": {"area": "珠海横琴长隆国际海洋度假区", "other_place": "", "visitor": "情侣", "days": 2}, "plan": {"area": "珠海横琴长隆国际海洋度假区", "area_short": "珠海长隆", "visitor": "情侣", "days": 2, "days_actual": 2, "route_id": "ROUTEOBS-327026e22dfe6fb4", "span": "", "steps": [{"step": 1, "period": "unspecified", "time": "", "spot": "海豚湾", "transport": "", "tag": ""}, {"step": 2, "period": "unspecified", "time": "", "spot": "白鲸馆", "transport": "", "tag": ""}, {"step": 3, "period": "unspecified", "time": "", "spot": "鲸鲨馆", "transport": "", "tag": ""}, {"step": 4, "period": "unspecified", "time": "", "spot": "雨林餐厅(午饭)", "transport": "", "tag": ""}, {"step": 5, "period": "unspecified", "time": "", "spot": "海豚剧场13点", "transport": "", "tag": ""}, {"step": 6, "period": "unspecified", "time": "", "spot": "白鲸剧场14点", "transport": "", "tag": ""}, {"step": 7, "period": "unspecified", "time": "", "spot": "北极熊馆", "transport": "", "tag": ""}, {"step": 8, "period": "unspecified", "time": "", "spot": "企鹅馆", "transport": "", "tag": ""}, {"step": 9, "period": "unspecified", "time": "", "spot": "海鸟世界", "transport": "", "tag": ""}, {"step": 10, "period": "unspecified", "time": "", "spot": "丛林过山车", "transport": "", "tag": ""}, {"step": 11, "period": "unspecified", "time": "", "spot": "海象馆", "transport": "", "tag": ""}, {"step": 12, "period": "unspecified", "time": "", "spot": "激浪帆船", "transport": "", "tag": ""}, {"step": 13, "period": "unspecified", "time": "", "spot": "海狮剧场17点", "transport": "", "tag": ""}, {"step": 14, "period": "unspecified", "time": "", "spot": "超级激流", "transport": "", "tag": ""}, {"step": 15, "period": "unspecified", "time": "", "spot": "梦幻海洋", "transport": "", "tag": ""}, {"step": 16, "period": "unspecified", "time": "", "spot": "冰山过山车", "transport": "", "tag": ""}, {"step": 17, "period": "unspecified", "time": "", "spot": "鹦鹉过山车", "transport": "", "tag": ""}, {"step": 18, "period": "unspecified", "time": "", "spot": "烟花秀20点", "transport": "", "tag": "适合拍照"}], "day_groups": [[{"step": 1, "period": "unspecified", "time": "", "spot": "海豚湾", "transport": "", "tag": ""}, {"step": 2, "period": "unspecified", "time": "", "spot": "白鲸馆", "transport": "", "tag": ""}, {"step": 3, "period": "unspecified", "time": "", "spot": "鲸鲨馆", "transport": "", "tag": ""}, {"step": 4, "period": "unspecified", "time": "", "spot": "雨林餐厅(午饭)", "transport": "", "tag": ""}, {"step": 5, "period": "unspecified", "time": "", "spot": "海豚剧场13点", "transport": "", "tag": ""}, {"step": 6, "period": "unspecified", "time": "", "spot": "白鲸剧场14点", "transport": "", "tag": ""}, {"step": 7, "period": "unspecified", "time": "", "spot": "北极熊馆", "transport": "", "tag": ""}, {"step": 8, "period": "unspecified", "time": "", "spot": "企鹅馆", "transport": "", "tag": ""}, {"step": 9, "period": "unspecified", "time": "", "spot": "海鸟世界", "transport": "", "tag": ""}], [{"step": 10, "period": "unspecified", "time": "", "spot": "丛林过山车", "transport": "", "tag": ""}, {"step": 11, "period": "unspecified", "time": "", "spot": "海象馆", "transport": "", "tag": ""}, {"step": 12, "period": "unspecified", "time": "", "spot": "激浪帆船", "transport": "", "tag": ""}, {"step": 13, "period": "unspecified", "time": "", "spot": "海狮剧场17点", "transport": "", "tag": ""}, {"step": 14, "period": "unspecified", "time": "", "spot": "超级激流", "transport": "", "tag": ""}, {"step": 15, "period": "unspecified", "time": "", "spot": "梦幻海洋", "transport": "", "tag": ""}, {"step": 16, "period": "unspecified", "time": "", "spot": "冰山过山车", "transport": "", "tag": ""}, {"step": 17, "period": "unspecified", "time": "", "spot": "鹦鹉过山车", "transport": "", "tag": ""}, {"step": 18, "period": "unspecified", "time": "", "spot": "烟花秀20点", "transport": "", "tag": "适合拍照"}]], "tips": ["09:20:00烟花幻彩横琴海前，鲸鲨馆是人最少的时候，你可以拍出你想要的片子", "11月1号到15号企鹅馆关门，这段期间去的话，要调整路线，先跳过企鹅馆其他安排", "不敢玩刺激的机动游戏，那一定要去体验5D影院"], "notes": ["这条路线原文没写时刻，只能给顺序", "库里没有独立的两日路线，以下按原文顺序拆分到天"]}, "turns": [{"turn": 0, "thought": "先把这句话里的景区、人群、天数拆出来", "action": "parse_slots", "args": "{\"text\": \"和女朋友去珠海长隆海洋王国玩两天\"}", "observation": "景区 珠海长隆／人群 情侣／2 天"}, {"turn": 1, "thought": "先确认这个景区库里有没有路线", "action": "check_area", "args": "{\"area\": \"珠海横琴长隆国际海洋度假区\"}", "observation": "库里有 11 条路线"}, {"turn": 2, "thought": "景区在库里，先取一条符合天数的路线", "action": "get_route", "args": "{\"area\": \"珠海横琴长隆国际海洋度假区\", \"days\": 2}", "observation": "ROUTEOBS-327026e22dfe6fb4，18 步，无时刻"}, {"turn": 3, "thought": "再看这个景区有哪些景点能排进去", "action": "search_spots", "args": "{\"area\": \"珠海横琴长隆国际海洋度假区\", \"visitor\": \"情侣\", \"top_k\": 8}", "observation": "命中 49 个景点，取前 8 个"}, {"turn": 4, "thought": "顺手取这个景区的注意事项，最后一起给", "action": "get_tips", "args": "{\"area\": \"珠海横琴长隆国际海洋度假区\", \"keyword\": \"\", \"visitor\": \"情侣\"}", "observation": "候选 288 条（关键词命中 0），取前 3 条"}, {"turn": 5, "thought": "材料齐了，按人群把路线裁一版", "action": "tailor_route", "args": "{\"visitor\": \"情侣\", \"route\": \"ROUTEOBS-327026e22dfe6fb4\"}", "observation": "成行 18 步，标注 1 处"}, {"turn": 6, "thought": "信息够了，可以出方案", "action": "final", "args": "{\"reason\": \"done\"}", "observation": "结束"}], "diagnostics": []}}, {"input": "去三亚玩三天", "status": "no_data", "area": "", "days": 3, "visitor": "", "result": {"status": "no_data", "mode": "rule", "answer": "库里只有九寨沟、广州长隆、珠海长隆三个景区的路线，没有 三亚 的数据，换个景区我可以直接排。", "elapsed_ms": 0, "route_id": "", "slots": {"area": "", "other_place": "三亚", "visitor": "", "days": 3}, "plan": null, "turns": [{"turn": 0, "thought": "先把这句话里的景区、人群、天数拆出来", "action": "parse_slots", "args": "{\"text\": \"去三亚玩三天\"}", "observation": "景区 三亚／人群 未提到／3 天"}, {"turn": 1, "thought": "用户说的是 三亚，库里没有这个地方，直接说明", "action": "final", "args": "{\"reason\": \"no_data\", \"message\": \"库里只有九寨沟、广州长隆、珠海长隆三个景区的路线，没有 三亚 的数据，换个景区我可以直接排。\"}", "observation": "结束"}], "diagnostics": []}}, {"input": "帮我规划一下", "status": "need_info", "area": "", "days": 1, "visitor": "", "result": {"status": "need_info", "mode": "rule", "answer": "想去哪个景区？库里现成的有九寨沟、广州长隆、珠海长隆。", "elapsed_ms": 0, "route_id": "", "slots": {"area": "", "other_place": "", "visitor": "", "days": 1}, "plan": null, "turns": [{"turn": 0, "thought": "先把这句话里的景区、人群、天数拆出来", "action": "parse_slots", "args": "{\"text\": \"帮我规划一下\"}", "observation": "景区 未提到／人群 未提到／1 天"}, {"turn": 1, "thought": "没说去哪个景区，先反问，不猜", "action": "ask", "args": "{\"message\": \"想去哪个景区？库里现成的有九寨沟、广州长隆、珠海长隆。\"}", "observation": "结束"}], "diagnostics": []}}, {"input": "一天想把广州长隆和珠海长隆都玩了", "status": "conflict", "area": "", "days": 1, "visitor": "", "result": {"status": "conflict", "mode": "rule", "answer": "一次只能排一个景区。广州长隆、珠海长隆 不在同一片区域，一天之内走不完，建议先选一个，另一个放到第二天。", "elapsed_ms": 0, "route_id": "", "slots": {"area": "", "other_place": "", "visitor": "", "days": 1}, "plan": null, "turns": [{"turn": 0, "thought": "先把这句话里的景区、人群、天数拆出来", "action": "parse_slots", "args": "{\"text\": \"一天想把广州长隆和珠海长隆都玩了\"}", "observation": "景区 广州长隆、珠海长隆／人群 未提到／1 天"}, {"turn": 1, "thought": "用户点了多个景区但只给一天，先说明排不开", "action": "final", "args": "{\"reason\": \"conflict\", \"message\": \"一次只能排一个景区。广州长隆、珠海长隆 不在同一片区域，一天之内走不完，建议先选一个，另一个放到第二天。\"}", "observation": "结束"}], "diagnostics": []}}, {"input": "九寨沟玩两天，怎么安排", "status": "partial", "area": "九寨沟风景名胜区", "days": 2, "visitor": "未指定", "result": {"status": "partial", "mode": "rule", "answer": "按九寨沟的两日给你排了 8 步：\n【第1 天】\n  长海\n  五彩池\n  诺日朗中心\n  树正群海\n【第2 天】\n  树正瀑布\n  芦苇海\n  盆景滩\n  出景区\n注意：5800m 徒步，谨慎；6-11月丰水期，再去\n提醒：这条路线原文没写时刻，只能给顺序", "elapsed_ms": 0, "route_id": "JZG-NOTE-11-R-a7eac262f6", "slots": {"area": "九寨沟风景名胜区", "other_place": "", "visitor": "", "days": 2}, "plan": {"area": "九寨沟风景名胜区", "area_short": "九寨沟", "visitor": "未指定", "days": 2, "days_actual": 2, "route_id": "JZG-NOTE-11-R-a7eac262f6", "span": "", "steps": [{"step": 1, "period": "未说明", "time": "", "spot": "长海", "transport": "", "tag": ""}, {"step": 2, "period": "未说明", "time": "", "spot": "五彩池", "transport": "", "tag": ""}, {"step": 3, "period": "未说明", "time": "", "spot": "诺日朗中心", "transport": "", "tag": ""}, {"step": 4, "period": "未说明", "time": "", "spot": "树正群海", "transport": "", "tag": ""}, {"step": 5, "period": "未说明", "time": "", "spot": "树正瀑布", "transport": "", "tag": ""}, {"step": 6, "period": "未说明", "time": "", "spot": "芦苇海", "transport": "", "tag": ""}, {"step": 7, "period": "未说明", "time": "", "spot": "盆景滩", "transport": "", "tag": ""}, {"step": 8, "period": "未说明", "time": "", "spot": "出景区", "transport": "", "tag": ""}], "day_groups": [[{"step": 1, "period": "未说明", "time": "", "spot": "长海", "transport": "", "tag": ""}, {"step": 2, "period": "未说明", "time": "", "spot": "五彩池", "transport": "", "tag": ""}, {"step": 3, "period": "未说明", "time": "", "spot": "诺日朗中心", "transport": "", "tag": ""}, {"step": 4, "period": "未说明", "time": "", "spot": "树正群海", "transport": "", "tag": ""}], [{"step": 5, "period": "未说明", "time": "", "spot": "树正瀑布", "transport": "", "tag": ""}, {"step": 6, "period": "未说明", "time": "", "spot": "芦苇海", "transport": "", "tag": ""}, {"step": 7, "period": "未说明", "time": "", "spot": "盆景滩", "transport": "", "tag": ""}, {"step": 8, "period": "未说明", "time": "", "spot": "出景区", "transport": "", "tag": ""}]], "tips": ["5800m 徒步，谨慎", "6-11月丰水期，再去", "一天的游览对体能有所要求，来到九寨沟的第一天晚上可以好好休息"], "notes": ["这条路线原文没写时刻，只能给顺序"]}, "turns": [{"turn": 0, "thought": "先把这句话里的景区、人群、天数拆出来", "action": "parse_slots", "args": "{\"text\": \"九寨沟玩两天，怎么安排\"}", "observation": "景区 九寨沟／人群 未提到／2 天"}, {"turn": 1, "thought": "先确认这个景区库里有没有路线", "action": "check_area", "args": "{\"area\": \"九寨沟风景名胜区\"}", "observation": "库里有 7 条路线"}, {"turn": 2, "thought": "景区在库里，先取一条符合天数的路线", "action": "get_route", "args": "{\"area\": \"九寨沟风景名胜区\", \"days\": 2}", "observation": "JZG-NOTE-11-R-a7eac262f6，8 步，无时刻"}, {"turn": 3, "thought": "再看这个景区有哪些景点能排进去", "action": "search_spots", "args": "{\"area\": \"九寨沟风景名胜区\", \"visitor\": \"\", \"top_k\": 8}", "observation": "命中 38 个景点，取前 8 个"}, {"turn": 4, "thought": "顺手取这个景区的注意事项，最后一起给", "action": "get_tips", "args": "{\"area\": \"九寨沟风景名胜区\", \"keyword\": \"\", \"visitor\": \"\"}", "observation": "候选 304 条（关键词命中 0），取前 3 条"}, {"turn": 5, "thought": "材料齐了，按人群把路线裁一版", "action": "tailor_route", "args": "{\"visitor\": \"\", \"route\": \"JZG-NOTE-11-R-a7eac262f6\"}", "observation": "成行 8 步，标注 0 处"}, {"turn": 6, "thought": "信息够了，可以出方案", "action": "final", "args": "{\"reason\": \"done\"}", "observation": "结束"}], "diagnostics": []}}]};</script>
+<script>
+/* 行迹 · 前端逻辑
+   只用浏览器原生能力：EventSource 逐轮接收，fetch 兜底，无框架无构建。 */
+
+const $ = (sel) => document.querySelector(sel);
+
+/* 离线单页（tools/P7/build_offline.py 生成）把七条真实结果内联进 HTML，
+   此时不需要后端；纯静态托管时页面从同目录 offline.json 取同一份数据；
+   直接双击源文件没有数据，只给引导，不假装能规划。 */
+let offlineData = window.__P7_OFFLINE__ || null;
+const IS_FILE = window.location.protocol === 'file:';
+
+const STATUS_TEXT = {
+  ok: '成行',
+  partial: '成行 · 有提醒',
+  need_info: '需要补充',
+  no_data: '库内无数据',
+  conflict: '条件冲突',
+};
+
+const STATUS_TITLE = {
+  need_info: '还差一个目的地',
+  no_data: '库里没有这个景区',
+  conflict: '这两个景区一天排不开',
+};
+
+const FALLBACK_EXAMPLES = [
+  '带爸妈去九寨沟玩一天，他们走不动太久',
+  '带6岁孩子去广州长隆，一天怎么安排',
+  '和女朋友去珠海长隆海洋王国玩两天',
+];
+
+const state = {
+  mode: localStorage.getItem('p7.mode') || 'rule',
+  llmReady: false,
+  running: false,
+  offline: false,
+  source: null,
+  result: null,
+  startedAt: 0,
+};
+
+/* ---------- 基础工具 ---------- */
+
+function authHeaders() {
+  const token = localStorage.getItem('p7.token');
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
+function withToken(url) {
+  const token = localStorage.getItem('p7.token');
+  if (!token) return url;
+  return `${url}${url.includes('?') ? '&' : '?'}token=${encodeURIComponent(token)}`;
+}
+
+async function ensureAuth() {
+  const response = await fetch('/api/health', { headers: authHeaders() });
+  if (response.status !== 401) { refreshLockBtn(); return true; }
+  const token = window.prompt('This service requires an access token (P7_ACCESS_TOKEN):');
+  if (!token) { refreshLockBtn(); return false; }
+  localStorage.setItem('p7.token', token.trim());
+  const ok = (await fetch('/api/health', { headers: authHeaders() })).ok;
+  refreshLockBtn();
+  if (!ok) showError('Access token verification failed, please try again.');
+  return ok;
+}
+
+function refreshLockBtn() {
+  $('#lockBtn').hidden = !localStorage.getItem('p7.token');
+}
+
+function escapeHtml(text) {
+  return String(text ?? '').replace(/[&<>"']/g, (ch) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[ch]));
+}
+
+function formatMs(ms) {
+  if (!Number.isFinite(ms)) return '';
+  return ms < 1000 ? `${ms} ms` : `${(ms / 1000).toFixed(1)} s`;
+}
+
+function showError(message) {
+  const box = $('#error');
+  box.textContent = message;
+  box.hidden = false;
+}
+
+function clearError() {
+  $('#error').hidden = true;
+}
+
+/* ---------- 启动 ---------- */
+
+async function boot() {
+  bindEvents();
+  refreshLockBtn();
+  applyMode(state.mode);
+  if (offlineData) { bootOffline(); return; }
+  if (IS_FILE) { bootFileFallback(); return; }
+  if (!(await ensureAuth())) {
+    const service = $('#service');
+    service.classList.add('is-dead');
+    $('#serviceText').textContent = '需要口令';
+    renderExamples(FALLBACK_EXAMPLES);
+    return;
+  }
+  try {
+    const [health, scenes, examples] = await Promise.all([
+      fetch('/api/health', { headers: authHeaders() }).then((r) => r.json()),
+      fetch('/api/scenes', { headers: authHeaders() }).then((r) => r.json()),
+      fetch('/api/examples', { headers: authHeaders() }).then((r) => r.json()),
+    ]);
+    state.llmReady = Boolean(health.llm_configured);
+    renderStats(health.counts || {});
+    renderExamples((examples.examples && examples.examples.length) ? examples.examples : FALLBACK_EXAMPLES);
+    const total = (scenes.areas || []).reduce((sum, a) => sum + a.routes, 0);
+    const service = $('#service');
+    service.classList.add('is-live');
+    $('#serviceText').textContent = state.llmReady ? '在线 · 双模式' : '在线 · 规则模式';
+    if (total) $('#statRoutes').textContent = String(total);
+    $("#llmMode").disabled = !state.llmReady;
+    $("#llmMode").title = state.llmReady ? '' : '服务端未配置模型密钥';
+    if (!state.llmReady && state.mode === 'llm') applyMode('rule');
+  } catch (err) {
+    // 没有后端但同目录有 offline.json（纯静态托管）时，直接降级到回放
+    const fallback = await loadOfflineData();
+    if (fallback) { bootOffline(fallback); return; }
+    const service = $('#service');
+    service.classList.add('is-dead');
+    $('#serviceText').textContent = '服务未连接';
+    renderExamples(FALLBACK_EXAMPLES);
+    $("#llmMode").disabled = true;
+    showError('连不上后端。运行 python src/P7旅游规划Agent/serve.py 启动本地服务，'
+      + '或打开 outputs/P7/行迹-离线预览.html 看七条现成结果。');
+  }
+}
+
+/* ---------- 离线预览 ---------- */
+
+async function loadOfflineData() {
+  if (offlineData) return offlineData;
+  try {
+    const response = await fetch('./offline.json', { cache: 'no-store' });
+    if (!response.ok) return null;
+    const data = await response.json();
+    return (data && Array.isArray(data.scenes) && data.scenes.length) ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+function bootOffline(data) {
+  if (data) offlineData = data;
+  state.offline = true;
+  state.llmReady = false;
+  const meta = offlineData.meta || {};
+  const scenes = offlineData.scenes || [];
+  renderStats(meta.counts || {});
+  renderExamples(scenes.map((item) => item.input), scenes.length);
+
+  const service = $('#service');
+  service.classList.remove('is-dead', 'is-live');
+  service.classList.add('is-offline');
+  $('#serviceText').textContent = '离线预览';
+  $('#lockBtn').hidden = true;
+  $('#llmMode').disabled = true;
+  $('#llmMode').title = '离线预览不调用模型';
+  $('#hint').textContent = '离线预览：点示例，或输入需求匹配已有结果';
+  $('#query').placeholder = '离线预览：输入需求，匹配七条已有结果';
+
+  const note = $('#offlineNote');
+  note.innerHTML = `<strong>离线预览<\/strong>：这 ${scenes.length} 条结果是规则策略的真实运行记录，`
+    + '内联在这一个文件里，不连后端、不调模型。要自由提问，运行 '
+    + '<code>python src/P7旅游规划Agent/serve.py<\/code> 启动本地服务。';
+  note.hidden = false;
+  if (state.mode !== 'rule') applyMode('rule');
+
+  const empty = $('#empty').querySelector('p');
+  if (empty) empty.textContent = '点上面的示例，会展开完整的行程卡与决策过程。';
+}
+
+function bootFileFallback() {
+  state.offline = true;
+  const service = $('#service');
+  service.classList.add('is-dead');
+  $('#serviceText').textContent = '未连接';
+  $('#llmMode').disabled = true;
+  renderExamples(FALLBACK_EXAMPLES);
+  showError('这是前端源文件，双击打开没有数据。请打开 outputs/P7/行迹-离线预览.html，'
+    + '或运行 python src/P7旅游规划Agent/serve.py 启动本地服务。');
+}
+
+const DAY_PATTERNS = [[/(两|二|2)\s*天/, 2], [/(三|3)\s*天/, 3], [/(四|4)\s*天/, 4], [/(一|1)\s*天/, 1]];
+const PEOPLE_PATTERNS = [
+  { word: '老人', keys: ['老人', '爸妈', '父母', '长辈', '爷爷', '奶奶', '外公', '外婆'] },
+  { word: '孩子', keys: ['孩子', '小孩', '儿童', '宝宝', '亲子', '儿子', '女儿'] },
+  { word: '情侣', keys: ['女朋友', '男朋友', '情侣', '对象', '老婆', '老公'] },
+];
+/* 地名是判断"问的是不是同一件事"最硬的信号：只换了地名的两句，
+   字面仍然很像（"去三亚玩三天"对"去西藏玩三天"），必须靠地名分开。 */
+const PLACES = [
+  { key: '九寨', words: ['九寨沟', '九寨'] },
+  { key: '广州', words: ['广州', '香江'] },
+  { key: '珠海', words: ['珠海', '海洋王国', '横琴'] },
+  { key: '长隆', words: ['长隆'] },
+  { key: '三亚', words: ['三亚'] },
+];
+
+function detectPlace(text) {
+  const value = String(text || '');
+  for (const place of PLACES) {
+    if (place.words.some((word) => value.includes(word))) return place.key;
+  }
+  return '';
+}
+
+
+function wantDays(text) {
+  for (const [pattern, days] of DAY_PATTERNS) {
+    if (pattern.test(text)) return days;
+  }
+  return null;
+}
+
+function wantPeople(text) {
+  for (const item of PEOPLE_PATTERNS) {
+    if (item.keys.some((key) => text.includes(key))) return item.word;
+  }
+  return null;
+}
+
+function bigrams(text) {
+  const clean = String(text || '').replace(/[\s，。、,.!?！？:：;；"'“”‘’()（）\-—]/g, '');
+  const out = new Set();
+  for (let i = 0; i < clean.length - 1; i += 1) out.add(clean.slice(i, i + 2));
+  return out;
+}
+
+function scoreScene(query, scene) {
+  const want = bigrams(query);
+  const have = bigrams(scene.input);
+  if (!want.size || !have.size) return 0;
+  let hit = 0;
+  want.forEach((gram) => { if (have.has(gram)) hit += 1; });
+  let score = hit / want.size;             // 以查询覆盖率为准，短查询不会被长句带偏
+  const queryDays = wantDays(query);
+  if (queryDays && scene.days && queryDays !== scene.days) score -= 0.22;
+  const queryPeople = wantPeople(query);
+  if (queryPeople && scene.visitor && queryPeople !== scene.visitor) score -= 0.12;
+
+  const queryPlace = detectPlace(query);
+  const scenePlace = detectPlace(`${scene.area || ''} ${scene.input || ''}`);
+  if (queryPlace) {
+    if (queryPlace === scenePlace) score += 0.25;
+    else if (queryPlace === '长隆' && (scenePlace === '广州' || scenePlace === '珠海')) score += 0.15;
+    else score -= 0.45;
+  }
+  return score;
+}
+
+function matchScene(query, scenes) {
+  const text = query.trim();
+  let best = null;
+  let bestScore = 0;
+  scenes.forEach((scene) => {
+    const score = text === scene.input ? 1.5 : scoreScene(text, scene);
+    if (score > bestScore) { bestScore = score; best = scene; }
+  });
+  // 没有地名线索时只靠字面，阈值抬高，避免"去西藏"配上"去三亚"
+  const floor = detectPlace(text) ? 0.34 : 0.6;
+  if (!best || bestScore < floor) return null;
+  return { scene: best, score: bestScore, exact: text === best.input };
+}
+
+function offlineRun(query) {
+  const scenes = offlineData.scenes || [];
+  const match = matchScene(query, scenes);
+  clearError();
+  if (!match) {
+    failRun(`离线预览只含 ${scenes.length} 条预置结果，没有与「${query}」接近的一条。`);
+    $('#resultMeta').textContent = '点上面的示例看完整效果，自由提问请启动本地服务。';
+    return;
+  }
+  const result = JSON.parse(JSON.stringify(match.scene.result));
+  startRun(query);
+  finishRun(result);
+  const summary = result.plan
+    ? `${result.plan.steps.length} 步`
+    : (STATUS_TEXT[result.status] || result.status || '无行程');
+  $('#resultMeta').textContent = match.exact
+    ? `离线回放 · ${summary}`
+    : `离线回放 · 最接近「${match.scene.input}」`;
+  if (!match.exact) {
+    const card = document.createElement('div');
+    card.className = 'card notice';
+    card.innerHTML = `<p>离线预览没有与你的输入完全一致的结果，下面这条最接近，仅用于查看界面。<\/p>`;
+    $('#planCol').prepend(card);
+  }
+}
+
+
+function renderStats(counts) {
+  const map = { statRoutes: counts.routes, statDocs: counts.documents, statRules: counts.rules };
+  Object.entries(map).forEach(([id, value]) => {
+    if (Number.isFinite(value)) $(`#${id}`).textContent = value.toLocaleString('zh-CN');
+  });
+  $('#stats').hidden = false;
+}
+
+function renderExamples(list, limit = 4) {
+  const box = $('#examples');
+  box.innerHTML = '';
+  list.slice(0, limit).forEach((text) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'chip';
+    button.textContent = text;
+    button.addEventListener('click', () => {
+      const input = $('#query');
+      input.value = text;
+      input.dispatchEvent(new Event('input'));
+      input.focus();
+    });
+    box.appendChild(button);
+  });
+}
+
+/* ---------- 输入区 ---------- */
+
+function bindEvents() {
+  const input = $('#query');
+  input.addEventListener('input', () => {
+    $('#counter').textContent = `${input.value.length}/200`;
+    input.style.height = 'auto';
+    input.style.height = `${Math.min(input.scrollHeight, 160)}px`;
+  });
+
+  document.querySelectorAll('.mode').forEach((button) => {
+    button.addEventListener('click', () => {
+      if (button.disabled) return;
+      applyMode(button.dataset.mode);
+    });
+  });
+
+  $('#lockBtn').addEventListener('click', async () => {
+    localStorage.removeItem('p7.token');
+    await ensureAuth();
+  });
+  $('#submit').addEventListener('click', submit);
+  $('#cancel').addEventListener('click', cancel);
+  $('#toggleTrace').addEventListener('click', toggleTrace);
+  $('#copyAnswer').addEventListener('click', copyAnswer);
+  $('#downloadAnswer').addEventListener('click', downloadAnswer);
+
+  input.addEventListener('keydown', (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key === 'Enter') {
+      event.preventDefault();
+      submit();
+    }
+    if (event.key === 'Escape' && state.running) cancel();
+  });
+
+  window.addEventListener('beforeunload', () => {
+    if (state.source) state.source.close();
+  });
+}
+
+function applyMode(mode) {
+  state.mode = mode;
+  localStorage.setItem('p7.mode', mode);
+  document.querySelectorAll('.mode').forEach((button) => {
+    const active = button.dataset.mode === mode;
+    button.classList.toggle('is-active', active);
+    button.setAttribute('aria-checked', String(active));
+  });
+}
+
+/* ---------- 提交 ---------- */
+
+async function submit() {
+  if (state.running) return;
+  const query = $('#query').value.trim();
+  if (query.length < 2) {
+    showError('先写一句需求，比如“带爸妈去九寨沟玩一天”。');
+    $('#query').focus();
+    return;
+  }
+  if (state.mode === 'llm' && !state.llmReady) {
+    showError('服务端没有配置模型密钥，先用规则模式。');
+    return;
+  }
+  if (state.offline) { offlineRun(query); return; }
+  if (!(await ensureAuth())) return;
+  clearError();
+  startRun(query);
+  if (window.EventSource) streamRun(query); else fetchRun(query);
+}
+
+function startRun(query) {
+  state.running = true;
+  state.result = null;
+  state.startedAt = performance.now();
+  $('#submit').classList.add('is-busy');
+  $('#submit').disabled = true;
+  $('#cancel').hidden = false;
+  $('#empty').hidden = true;
+  $('#result').hidden = false;
+  $('#statusPill').dataset.status = 'running';
+  $('#statusPill').textContent = '规划中';
+  $('#resultTitle').textContent = '正在读图谱…';
+  $('#resultMeta').textContent = `${state.mode === 'llm' ? '大模型决策' : '规则策略'} · ${query}`;
+  $('#planCol').innerHTML = `
+    <div class="card loading" aria-hidden="true">
+      <span class="sk sk-title"><\/span><span class="sk"><\/span><span class="sk"><\/span><span class="sk short"><\/span>
+    <\/div>`;
+  $('#sideCol').innerHTML = '';
+  $('#timeline').innerHTML = '';
+  $('#timeline').hidden = false;
+  $('#turnCount').textContent = '';
+  $('#traceCard').hidden = false;
+  $('#answerText').textContent = '';
+  $('.textcard').hidden = true;
+  $('#toggleTrace').textContent = '收起';
+  $('#toggleTrace').setAttribute('aria-expanded', 'true');
+  // 手机上结果区在输入框下面，提交后把视线带过去
+  if (window.innerWidth < 900) {
+    $('#result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function endRun() {
+  state.running = false;
+  $('#submit').classList.remove('is-busy');
+  $('#submit').disabled = false;
+  $('#cancel').hidden = true;
+}
+
+function cancel() {
+  if (state.source) {
+    state.source.close();
+    state.source = null;
+  }
+  endRun();
+  $('#statusPill').dataset.status = 'no_data';
+  $('#statusPill').textContent = '已停止';
+  $('#resultTitle').textContent = '已停止接收';
+  $('#resultMeta').textContent = '服务端可能仍在跑完当前这一轮，结果不会写回页面。';
+}
+
+/* ---------- 两种传输 ---------- */
+
+function streamRun(query) {
+  const url = withToken(`/api/plan/stream?query=${encodeURIComponent(query)}&mode=${state.mode}`);
+  const source = new EventSource(url);
+  state.source = source;
+
+  source.addEventListener('meta', (event) => {
+    const data = JSON.parse(event.data);
+    if (data.mode) applyMode(data.mode);
+  });
+
+  source.addEventListener('turn', (event) => {
+    appendTurn(JSON.parse(event.data), false);
+  });
+
+  source.addEventListener('result', (event) => {
+    source.close();
+    state.source = null;
+    finishRun(JSON.parse(event.data));
+  });
+
+  source.addEventListener('failure', (event) => {
+    source.close();
+    state.source = null;
+    const data = JSON.parse(event.data);
+    failRun(data.message || '规划过程出错');
+  });
+
+  source.onerror = () => {
+    if (!state.running) return;
+    source.close();
+    state.source = null;
+    fetchRun(query);
+  };
+}
+
+async function fetchRun(query) {
+  try {
+    const response = await fetch('/api/plan', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ query, mode: state.mode, max_turns: 6 }),
+    });
+    if (!response.ok) {
+      const detail = await response.json().catch(() => ({}));
+      if (response.status === 401) {
+        localStorage.removeItem('p7.token');
+        if (await ensureAuth()) { fetchRun(query); return; }
+      }
+      throw new Error(detail.detail || `请求失败（${response.status}）`);
+    }
+    finishRun(await response.json());
+  } catch (err) {
+    failRun(err.message || '网络异常');
+  }
+}
+
+function failRun(message) {
+  endRun();
+  showError(message);
+  state.result = null;
+  $('#statusPill').dataset.status = 'no_data';
+  $('#statusPill').textContent = '未完成';
+  $('#resultTitle').textContent = '这次没跑出结果';
+  $('#resultMeta').textContent = '换个问法，或启动本地服务再试一次。';
+  $('#planCol').innerHTML = '';
+  $('#sideCol').innerHTML = '';
+  $('#timeline').innerHTML = '';
+  $('#traceCard').hidden = true;
+  $('#answerText').textContent = '';
+  $('.textcard').hidden = true;
+}
+
+/* ---------- 渲染结果 ---------- */
+
+function finishRun(result) {
+  endRun();
+  state.result = result;
+  const plan = result.plan;
+  const status = result.status || 'no_data';
+
+  $('#statusPill').dataset.status = status;
+  $('#statusPill').textContent = STATUS_TEXT[status] || status;
+  $('#resultTitle').textContent = plan
+    ? `${plan.area_short} · ${dayWord(plan.days_actual)} ${plan.steps.length} 步`
+    : (STATUS_TITLE[status] || '这次没排出方案');
+
+  const meta = [];
+  meta.push(result.mode === 'llm' ? '大模型决策' : '规则策略');
+  meta.push(`用时 ${formatMs(result.elapsed_ms)}`);
+  if (result.route_id) meta.push(`路线 ${result.route_id}`);
+  $('#resultMeta').textContent = meta.join(' · ');
+
+  renderPlan(plan);
+  renderSide(plan, result.slots || {});
+  renderTimeline(result.turns || []);
+  $('#answerText').textContent = result.answer || '';
+  $('.textcard').hidden = !result.answer;
+
+  if (status !== 'ok' && status !== 'partial') {
+    const card = document.createElement('div');
+    card.className = 'card notice';
+    card.innerHTML = `<p>${escapeHtml(result.answer || '')}<\/p>`;
+    $('#planCol').prepend(card);
+  }
+}
+
+function dayWord(n) {
+  return { 1: '一日', 2: '两日', 3: '三日' }[n] || `${n} 天`;
+}
+
+function renderPlan(plan) {
+  const box = $('#planCol');
+  box.innerHTML = '';
+  if (!plan || !plan.day_groups || !plan.day_groups.length) return;
+
+  plan.day_groups.forEach((steps, index) => {
+    const section = document.createElement('section');
+    section.className = 'day';
+    section.innerHTML = `
+      <div class="day-head">
+        <span class="day-no">第 ${index + 1} 天<\/span>
+        <span class="day-title">${steps.length} 步${daySpan(steps)}<\/span>
+      <\/div>
+      <ol class="steps"><\/ol>`;
+    const list = section.querySelector('.steps');
+    steps.forEach((step) => list.appendChild(renderStep(step)));
+    box.appendChild(section);
+  });
+}
+
+function daySpan(steps) {
+  const times = steps.map((s) => s.time).filter(Boolean).sort();
+  if (!times.length) return ' · 原文未标时刻';
+  return ` · ${times[0]}—${times[times.length - 1]}`;
+}
+
+function renderStep(step) {
+  const li = document.createElement('li');
+  li.className = 'step';
+  const meta = [];
+  if (step.time) meta.push(`<span><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor"/><path d="M8 4.5V8l2.4 1.6" fill="none" stroke="currentColor" stroke-linecap="round"/><\/svg>${escapeHtml(step.time)}<\/span>`);
+  if (step.transport) meta.push(`<span>${escapeHtml(step.transport)}<\/span>`);
+  li.innerHTML = `
+    <span class="step-idx">${escapeHtml(step.step)}<\/span>
+    <div class="step-body">
+      <div class="step-spot">${escapeHtml(step.spot)}<\/div>
+      ${meta.length ? `<div class="step-meta">${meta.join('')}<\/div>` : ''}
+      ${step.tag ? `<span class="tag">${escapeHtml(step.tag)}<\/span>` : ''}
+    <\/div>`;
+  return li;
+}
+
+function renderSide(plan, slots) {
+  const box = $('#sideCol');
+  box.innerHTML = '';
+  if (!plan) return;
+
+  const params = document.createElement('section');
+  params.className = 'side-card card';
+  const rows = [
+    ['景区', plan.area_short || plan.area],
+    ['人群', plan.visitor || '未指定'],
+    ['天数', plan.days === plan.days_actual
+      ? `${plan.days_actual} 天`
+      : `你说 ${plan.days} 天，实际需 ${plan.days_actual} 天`],
+    ['步数', `${plan.steps.length} 步`],
+  ];
+  params.innerHTML = `<h3>行程参数<\/h3><dl class="kv">${rows.map(
+    ([k, v]) => `<dt>${escapeHtml(k)}<\/dt><dd>${escapeHtml(v)}<\/dd>`).join('')}<\/dl>`;
+  box.appendChild(params);
+
+  if (plan.tips && plan.tips.length) {
+    const tips = document.createElement('section');
+    tips.className = 'side-card card';
+    tips.innerHTML = `<h3>注意事项<\/h3><ul class="tips">${plan.tips.map(
+      (t) => `<li>${escapeHtml(t)}<\/li>`).join('')}<\/ul>`;
+    box.appendChild(tips);
+  }
+
+  if (plan.notes && plan.notes.length) {
+    const notes = document.createElement('section');
+    notes.className = 'side-card card';
+    notes.innerHTML = `<h3>提醒<\/h3><ul class="tips notes">${plan.notes.map(
+      (t) => `<li>${escapeHtml(t)}<\/li>`).join('')}<\/ul>`;
+    box.appendChild(notes);
+  }
+}
+
+function renderTimeline(turns) {
+  const list = $('#timeline');
+  list.innerHTML = '';
+  turns.forEach((turn) => appendTurn(turn, true));
+  $('#turnCount').textContent = `${Math.max(0, turns.length - 1)} 轮工具调用`;
+}
+
+function appendTurn(turn, silent) {
+  const list = $('#timeline');
+  if (!list) return;
+  const li = document.createElement('li');
+  const isFinal = turn.action === 'final' || turn.action === 'ask';
+  li.className = `turn${isFinal ? ' is-final' : ''}`;
+  li.innerHTML = `
+    <span class="turn-dot" aria-hidden="true"><\/span>
+    <div class="turn-top">
+      <span class="turn-no">${String(turn.turn).padStart(2, '0')}<\/span>
+      <span class="action">${escapeHtml(turn.action || '')}<\/span>
+    <\/div>
+    <p class="turn-thought">${escapeHtml(turn.thought || '')}<\/p>
+    ${turn.args ? `<p class="turn-args">${escapeHtml(turn.args)}<\/p>` : ''}
+    <p class="turn-obs">${escapeHtml(turn.observation || '')}<\/p>`;
+  list.appendChild(li);
+  if (!silent) {
+    li.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    $('#turnCount').textContent = `${Math.max(0, list.children.length - 1)} 轮工具调用`;
+  }
+}
+
+function toggleTrace() {
+  const list = $('#timeline');
+  const button = $('#toggleTrace');
+  const open = list.hidden;
+  list.hidden = !open;
+  button.textContent = open ? '收起' : '展开';
+  button.setAttribute('aria-expanded', String(open));
+}
+
+/* ---------- 复制与下载 ---------- */
+
+async function copyAnswer() {
+  if (!state.result) return;
+  const text = state.result.answer || '';
+  try {
+    await navigator.clipboard.writeText(text);
+    flash('#copyAnswer', '已复制');
+  } catch {
+    const area = document.createElement('textarea');
+    area.value = text;
+    document.body.appendChild(area);
+    area.select();
+    document.execCommand('copy');
+    area.remove();
+    flash('#copyAnswer', '已复制');
+  }
+}
+
+function downloadAnswer() {
+  if (!state.result) return;
+  const result = state.result;
+  const plan = result.plan;
+  const lines = [];
+  lines.push(`# ${plan ? `${plan.area_short} · ${dayWord(plan.days_actual)}` : '行程'}`);
+  lines.push('');
+  lines.push(result.answer || '');
+  if (plan && plan.steps.length) {
+    lines.push('');
+    lines.push('| 天 | 序 | 景点 | 时间 | 交通 | 标注 |');
+    lines.push('| --- | --- | --- | --- | --- | --- |');
+    plan.day_groups.forEach((steps, index) => {
+      steps.forEach((s) => lines.push(
+        `| ${index + 1} | ${s.step} | ${s.spot} | ${s.time || '—'} | ${s.transport || '—'} | ${s.tag || '—'} |`));
+    });
+  }
+  lines.push('');
+  lines.push('> 数据来自历史游记与官网资料，时刻与开放状态请以景区当日公告为准。');
+  const blob = new Blob([lines.join('\n')], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `行程-${plan ? plan.area_short : 'plan'}-${new Date().toISOString().slice(0, 10)}.md`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function flash(selector, text) {
+  const node = $(selector);
+  const original = node.textContent;
+  node.textContent = text;
+  setTimeout(() => { node.textContent = original; }, 1400);
+}
+
+boot();
+
+</script>
+</body>
+</html>

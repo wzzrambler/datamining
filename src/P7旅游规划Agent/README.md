@@ -9,8 +9,9 @@ Agent 循环调用确定性工具取路线、景点、条件建议，按人群�
 |---|---|
 | `p7_agent.py` | Agent 全部逻辑：槽位解析、5 个工具、ReAct 循环、规则/LLM 两套策略 |
 | `api.py` | FastAPI 接口层：参数校验、限流、并发控制、SSE 推送，不复制业务规则 |
-| `web/` | 前端单页（HTML/CSS/JS，无框架无构建） |
-| 仓库根 `tests/P7/` | 26 条测试：工具契约、循环出口、容量拆分、Web 接口 |
+| `serve.py` | 启动器：本机 / 公网两种模式、端口顺延、环境自检 |
+| `web/` | 前端单页（HTML/CSS/JS，无框架无构建），带离线降级 |
+| 仓库根 `tests/P7/` | 49 条测试：工具契约、循环出口、容量拆分、Web 接口、启动器、离线包 |
 
 ## 数据来源
 
@@ -41,11 +42,40 @@ python src/P7旅游规划Agent/p7_agent.py --llm --ask "带6岁孩子去广州�
 
 不配 `OPENAI_API_KEY` 自动退回规则策略：同一循环、同一工具，结果可重复。
 
-## Web
+## 三种打开方式
+
+**一、不装依赖、不起服务**：双击 `outputs/P7/行迹-离线预览.html`。
+七个场景的真实运行结果内联在这一个文件里，不连后端、不调模型；
+输入框按地名、人群、天数匹配已有结果，匹配不到会直接说没有，不会编一份。
+把 `web/` 整个目录传到任意静态空间也能用（页面检测不到接口就读同目录的
+`offline.json`，数据和单文件同源）。重新生成：
+
+```bash
+python tools/P7/build_offline.py     # 同时更新单文件与 web/offline.json
+```
+
+**二、本机起服务**（能自由提问）：
 
 ```bash
 pip install fastapi uvicorn
-python src/P7旅游规划Agent/api.py               # http://127.0.0.1:8000
+python src/P7旅游规划Agent/serve.py             # http://127.0.0.1:8000，自动开浏览器
+python src/P7旅游规划Agent/serve.py --port 9000 --no-browser
+```
+
+**三、公网部署**：
+
+```bash
+python -c "import secrets;print(secrets.token_urlsafe(24))"
+P7_ACCESS_TOKEN=<上一步输出> python src/P7旅游规划Agent/serve.py --public
+```
+
+`--public` 监听 `0.0.0.0`，强制口令（少于 12 位拒绝启动），CORS 默认同源，
+启动后打印 Nginx 反代片段（SSE 必须关 `proxy_buffering`）与三步检查项。
+上线前先跑自检：
+
+```bash
+python src/P7旅游规划Agent/serve.py --check
+P7_ACCESS_TOKEN=... python src/P7旅游规划Agent/serve.py --check --public
 ```
 
 | 接口 | 方法 | 说明 |
@@ -62,6 +92,8 @@ python src/P7旅游规划Agent/api.py               # http://127.0.0.1:8000
 `P7_REQUEST_TIMEOUT`（默认 150 秒）、
 `P7_ACCESS_TOKEN`（默认空=不启用；公网部署必须设置，所有接口要求
 `Authorization: Bearer <token>` 或 `?token=`，前端会弹窗收集并存 localStorage）。
+本机模式不读环境里的口令，免得部署用的 token 把本地调试也拦住；
+要测口令流程用 `--token`。
 
 限流与并发计数是**单进程内存态**：uvicorn 保持单 worker 时有效，
 多 worker 部署需换成 Redis 等外置存储。密钥只放服务端环境变量。
@@ -79,5 +111,6 @@ python src/P7旅游规划Agent/api.py               # http://127.0.0.1:8000
 
 - 29 条路线仅 9 条带时刻、两日路线 1 条；两天以上只能由一日路线切分，没有过夜语义。
 - 12 步/天是启发式阈值，未按体力数据标定。
+- 离线单页只含七个场景的预置结果，匹配不到新问题；自由提问需要起服务。
 - 图谱已导入本地 Neo4j 5.26 并通过逐节点回读验证（`release.json` 的 `verified=true`，
   dataset `p6-quality-themes-v1-4d90950727ba`）；重新发布用 `tools/P6/publish_cleaned.py --apply --backup <dir>`。
