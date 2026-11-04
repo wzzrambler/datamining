@@ -22,6 +22,8 @@
 
 做法：把这四个文件传到任意静态空间（对象存储、Nginx 静态目录、GitHub Pages 都行），
 打开 `index.html` 的地址即可。`offline.json` 必须和 `index.html` 同目录。
+不要直接双击 `web/index.html`：`file://` 下浏览器不允许页面读同目录 JSON，
+那种情况请改用双击 `outputs/P7/行迹-离线预览.html`。
 
 如果要重新生成这份数据（上游结果变了）：
 
@@ -64,18 +66,18 @@ python -m venv .venv
 
 ### C1. 取代码
 
-P7 运行只需要三个 JSON，不必拉整个仓库（完整仓库含 364MB 的 P5 批次目录）：
+P7 运行只需要三个 JSON，不必拉整个仓库（完整仓库约 500MB，大头是 `data/` 原始语料）：
 
 ```bash
 sudo mkdir -p /opt/datamining && sudo chown "$USER" /opt/datamining
 git clone --filter=blob:none --sparse https://github.com/wzzrambler/datamining.git /opt/datamining
 cd /opt/datamining
-git sparse-checkout set src/P7旅游规划Agent processed/P2实体识别 processed/P6知识图谱/cleaned-v1 outputs/P7 deploy
+git sparse-checkout set src/P7旅游规划Agent processed/P2实体识别 processed/P6知识图谱/cleaned-v1 outputs/P7 deploy tools/P7
 ```
 
 拉下来约 30MB。仓库是私有的就先用有权限的账号登录，或换成 SSH 地址。
 
-不想用 sparse 就把第二行改成普通 `git clone`，代价是工作区约 400MB。
+不想用 sparse 就把第二行改成普通 `git clone`，代价是工作区约 500MB，clone 也慢得多。
 
 ### C2. 装依赖
 
@@ -187,6 +189,7 @@ sudo sed -i 's/p7.example.com/你的域名/' /etc/nginx/sites-available/p7
 sudo ln -sf /etc/nginx/sites-available/p7 /etc/nginx/sites-enabled/p7
 sudo rm -f /etc/nginx/sites-enabled/default
 sudo nginx -t && sudo systemctl reload nginx
+sudo ufw allow OpenSSH && sudo ufw allow 'Nginx Full'    # 没启用 ufw 可跳过
 ```
 
 先把域名 A 记录指到服务器 IP，再申请证书：
@@ -214,7 +217,7 @@ sudo ufw allow 8000/tcp                    # 云安全组也要放行 8000
 
 按顺序打勾，全过再交付：
 
-- [ ] `https://你的域名` 能打开，右上角显示“在线 · 规则模式”（配了密钥则“双模式”）
+- [ ] 你实际使用的地址能打开（域名或 `http://IP:8000`），右上角显示“在线 · 规则模式”（配了密钥则“双模式”）
 - [ ] 点一个示例，右侧出现行程卡；决策过程是**逐条冒出来**的，不是最后一次性出现
 - [ ] 复制和下载 .md 都能用
 - [ ] 手机上用 4G 能打开（不是只在家里 Wi-Fi 能用）
@@ -234,8 +237,11 @@ sudo systemctl status p7 --no-pager
 上游数据变了（`processed/` 重新生成过），再补一步重建离线包：
 
 ```bash
+cd /opt/datamining
 sudo -u p7 .venv/bin/python tools/P7/build_offline.py
 ```
+
+停用服务：`sudo systemctl disable --now p7`。
 
 ---
 
@@ -249,7 +255,7 @@ sudo -u p7 .venv/bin/python tools/P7/build_offline.py
 | 结果一次性全出现 | Nginx 开了响应缓冲 | 确认 `proxy_buffering off` 与 `X-Accel-Buffering no` 生效 |
 | `ModuleNotFoundError: fastapi` | systemd 用了系统 Python | `ExecStart` 必须是 `/opt/datamining/.venv/bin/python` |
 | 端口被占 | 旧的测试进程没退 | `ss -ltnp \| grep 8000`，杀掉或换 `--port` |
-| 页面空白 | 静态文件没随代码更新 | `git sparse-checkout` 是否包含 `src/P7旅游规划Agent` |
+| 页面空白 / 502 | 后端没起，或 sparse 漏了 `src/P7旅游规划Agent` | `curl 127.0.0.1:8000/api/health`；`git sparse-checkout list` 核对 |
 | 启动报“公网模式需要一个访问口令” | `/etc/p7/p7.env` 没被读到 | 确认 `EnvironmentFile` 路径、权限 600、属主 root |
 | 限流不准 / 重启后计数清零 | 进程内计数 | 正常现象；保持单 worker，别加 `--workers` |
 
