@@ -16,11 +16,16 @@ ADVICE = json.loads((CLEAN / 'condition_recommendation_summaries.json').read_tex
 MANIFEST = json.loads((CLEAN / 'quality_manifest.json').read_text(encoding='utf-8'))
 NODES = Counter(n['label'] for n in GRAPH['nodes'])
 EDGES = Counter(e['type'] for e in GRAPH['edges'])
-THEMES = P6.get('llm_theme_count', 0)
-GROUPS = P6.get('llm_theme_entity_scene_groups', 0)
-ENTITIES = P6.get('llm_theme_unique_entity_ids', 0)
-POI_WITH_TIME = len({t['target_id'] for t in TIMES})
+# 主题数字以 llm_advice/release.json 为准；publish_cleaned --apply 写的图发布清单不含这些字段
+_ADVICE_REL = json.loads((ROOT / 'processed/P6知识图谱/llm_advice/release.json').read_text(encoding='utf-8'))
+THEMES = _ADVICE_REL.get('themes', 0)
+GROUPS = _ADVICE_REL.get('entities', 0)
+ENTITIES = _ADVICE_REL.get('unique_entity_ids', 0)
+# 时间汇总也有挂在入口、交通上的，"景点有没有时间"必须按 POI 本身数
 POI_TOTAL = sum(1 for n in GRAPH['nodes'] if n['label'] == 'POI')
+POI_WITH_TIME = sum(1 for n in GRAPH['nodes']
+                    if n['label'] == 'POI' and n['id'] in {t['target_id'] for t in TIMES})
+ENTITIES_WITH_TIME = len({t['target_id'] for t in TIMES})
 CHUNKED = (GRAPH['p6_quality'].get('llm_entity_themes') or {}).get('chunked_groups') or []
 CHUNK_ITEMS = CHUNKED[0]['items'] if CHUNKED else 0
 TARGETED = sum(1 for a in ADVICE if a['target_id'])
@@ -214,15 +219,17 @@ CONTENT['6.6'] = [
     ('p', '质量验证分两层。结构层是硬检查：节点 ID 不重复、边不指向不存在的节点、'
           '边不重复、每条汇总都能挂回原始记录、被剔除的线路绝不出现在正式图里。'
           '这几条全是程序断言，不过就退出，没有"警告但继续"。'),
-    ('p', '内容层只能抽查。时间汇总做了 %d 条，覆盖 %d 个实体，平均每个实体挂 1.6 条观察——'
+    ('p', '内容层只能抽查。时间汇总做了 %d 条，覆盖 %d 个实体，平均每个实体 %.1f 条——'
           '这个数字很薄，因为 P5 抽到的事实一共才 %d 条，很多景点根本没有时间信息。'
-          '%d 个景点里有 %d 个连一条时间汇总都没有。第 7 章排行程时经常只能给顺序、给不了时刻，'
-          '根子在这里，不是 Agent 偷懒。' % (
-              len(TIMES), POI_WITH_TIME,
-              len([n for n in GRAPH['nodes'] if n['label'] == 'FACT']), POI_TOTAL, POI_TOTAL - POI_WITH_TIME)),
+          '按景点本身数，%d 个景点里有 %d 个连一条时间汇总都没有。'
+          '第 7 章排行程时经常只能给顺序、给不了时刻，根子在这里，不是 Agent 偷懒。' % (
+              len(TIMES), ENTITIES_WITH_TIME, len(TIMES) / max(1, ENTITIES_WITH_TIME),
+              len([n for n in GRAPH['nodes'] if n['label'] == 'FACT']),
+              POI_TOTAL, POI_TOTAL - POI_WITH_TIME)),
     ('tbl', '表6-5  四步产物的覆盖情况',
      ['产物', '数量', '覆盖', '说明'],
-     [['时间汇总', str(len(TIMES)), '%d/%d 个景点' % (POI_WITH_TIME, POI_TOTAL), '平均 1.6 条观察支撑，很薄'],
+     [['时间汇总', str(len(TIMES)), '覆盖 %d 实体；%d/%d 个景点' % (ENTITIES_WITH_TIME, POI_WITH_TIME, POI_TOTAL),
+       '平均 %.1f 条/实体，很薄' % (len(TIMES) / max(1, ENTITIES_WITH_TIME))],
       ['建议汇总', str(len(ADVICE)), '%d 组有明确目标' % TARGETED, '%d 组因来源是线路片段被隔离' % QUARANTINED],
       ['LLM 主题', str(THEMES), '%d 个实体、%d 组' % (ENTITIES, GROUPS), '一组一调用，成功 %d 组' % GROUPS],
       ['事实', str(len([n for n in GRAPH['nodes'] if n['label'] == 'FACT'])), '—', '景点属性为主']],
@@ -231,10 +238,10 @@ CONTENT['6.6'] = [
           '一次调用塞不进 30K 预算。做法不是放大窗口硬塞，而是把条目二分、跑两次、再按主题标签合并。'
           '代价是跨分片的同类主题合不起来——同一个实体可能出现两条意思接近的主题，'
           '分别来自两个分片。质量清单里记了 chunked_groups，报告里也不掩饰这一点。' % CHUNK_ITEMS),
-    ('p', '以下三项尚未完成。'
-          '一是没连库验证：导入包生成好了，但没有在真实 Neo4j 上跑过回读，'
-          '所以 release.json 里 verified 是 false。'
-          '二是主题的语义正确性没有独立复核，只有"结构和引用合法"这一层保证，'
+    ('p', '三项遗留，一项刚闭环。图已导入本地 Neo4j 5.26 并逐节点、逐条边回读比对，'
+          '库内计数与产物一致，release.json 的 verified 因此为 true——'
+          '但库只在本机运行，未对外提供服务。'
+          '主题的语义正确性没有独立复核，只有"结构和引用合法"这一层保证，'
           '每个主题还都强制以"历史资料记载，"开头，提醒读者这是语料里的说法、不是当前事实。'
-          '三是同义主题没有合并，语义合并这一栏写的是 false。'),
+          '同义主题也没有合并，语义合并这一栏写的是 false。'),
 ]
