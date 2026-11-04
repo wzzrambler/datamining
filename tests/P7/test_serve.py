@@ -84,6 +84,20 @@ class CheckTests(unittest.TestCase):
         token = [row for row in rows if row[1] == '访问口令']
         self.assertEqual(token[0][0], 'FAIL')
 
+    def test_check_accepts_token_argument(self):
+        """文档里写的是 --check --public --token，不应该再去环境里找。"""
+        with patch.dict(os.environ, {'P7_ACCESS_TOKEN': ''}, clear=False):
+            rows = serve.check(public=True, token='x' * 16)
+        token = [row for row in rows if row[1] == '访问口令'][0]
+        self.assertEqual(token[0], 'OK')
+
+    def test_public_check_treats_same_origin_as_ok(self):
+        with patch.dict(os.environ, {'P7_CORS_ORIGINS': ''}, clear=False):
+            rows = serve.check(public=True, token='x' * 16)
+        cors = [row for row in rows if row[1] == 'CORS'][0]
+        self.assertEqual(cors[0], 'OK')
+        self.assertIn('同源', cors[2])
+
     def test_public_banner_prints_proxy_hint(self):
         config = serve.resolve_mode(True, token='x' * 16, port=8123)
         buffer = io.StringIO()
@@ -93,6 +107,17 @@ class CheckTests(unittest.TestCase):
         self.assertIn('proxy_buffering off', text)
         self.assertIn('8123', text)
         self.assertIn('单 worker', text)
+
+    def test_banner_behind_proxy_skips_lan_address(self):
+        """反代场景只监听 127.0.0.1，不能提示一个连不上的局域网地址，也不该让人放行 8000。"""
+        config = serve.resolve_mode(True, token='x' * 16, host='127.0.0.1', port=8123)
+        buffer = io.StringIO()
+        with contextlib.redirect_stdout(buffer):
+            serve.banner(config)
+        text = buffer.getvalue()
+        self.assertIn('Nginx 反代', text)
+        self.assertNotIn('局域网', text)
+        self.assertNotIn('放行 8123', text)
 
 
 if __name__ == '__main__':

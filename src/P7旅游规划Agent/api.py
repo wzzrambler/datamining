@@ -83,6 +83,8 @@ def _auth(request: Request):
 
 
 def _client_ip(request: Request) -> str:
+    # 只信任一层反代：deploy/nginx-p7.conf 用 $remote_addr 覆盖该头，
+    # 客户端自己伪造的值到不了这里。
     forwarded = request.headers.get('x-forwarded-for', '')
     return (forwarded.split(',')[0].strip() if forwarded else
             (request.client.host if request.client else 'unknown'))

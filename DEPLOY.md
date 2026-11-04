@@ -137,6 +137,16 @@ P7_RATE_WINDOW=60
 # OPENAI_MODEL=deepseek-chat
 ```
 
+设完口令，按公网模式再查一次：
+
+```bash
+cd /opt/datamining
+.venv/bin/python src/P7旅游规划Agent/serve.py --check --public \
+  --token "$(sudo grep P7_ACCESS_TOKEN /etc/p7/p7.env | cut -d= -f2)"
+```
+
+“访问口令 已设置”“CORS 同源”都应是 `OK`，再继续。
+
 ### C6. 先手工跑一遍
 
 ```bash
@@ -266,6 +276,8 @@ sudo -u p7 .venv/bin/python tools/P7/build_offline.py
 - **不要配模型密钥也能用**。规则模式零调用、零费用；配了密钥后公网任何人都能消耗额度，
   要么设供应商的额度上限，要么不配。
 - **日志含用户输入**。请求参数在 `?query=` 里，会进 Nginx 访问日志；介意就把 `access_log` 关掉。
+- **限流按真实 IP**。`deploy/nginx-p7.conf` 用 `$remote_addr` 覆盖 `X-Forwarded-For`，
+  客户端自己伪造这个头不会改变限流键；如果再加一层 CDN，需要改成信任 CDN 的固定回源段。
 - **8000 端口不要对公网开放**。反代场景下 uvicorn 只监听 `127.0.0.1`，外部只能走 443。
 - 数据只读，服务不写业务文件；`processed/` 换版本后重启即可。
 

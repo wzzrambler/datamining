@@ -122,6 +122,15 @@ async function boot() {
     $("#llmMode").title = state.llmReady ? '' : '服务端未配置模型密钥';
     if (!state.llmReady && state.mode === 'llm') applyMode('rule');
   } catch (err) {
+    // 接口 500 属于服务异常，不能悄悄降级成回放；只有后端确实不在才读离线数据
+    if (await serviceAlive()) {
+      const service = $('#service');
+      service.classList.add('is-dead');
+      $('#serviceText').textContent = '服务异常';
+      $("#llmMode").disabled = true;
+      showError('后端在运行，但接口返回异常。看服务端日志（journalctl -u p7 -n 50），或稍后刷新。');
+      return;
+    }
     // 没有后端但同目录有 offline.json（纯静态托管）时，直接降级到回放
     const fallback = await loadOfflineData();
     if (fallback) { bootOffline(fallback); return; }
@@ -136,6 +145,15 @@ async function boot() {
 }
 
 /* ---------- 离线预览 ---------- */
+
+async function serviceAlive() {
+  try {
+    const response = await fetch('/api/health', { headers: authHeaders() });
+    return response.ok || response.status === 401;   // 401 说明服务在，只是要口令
+  } catch {
+    return false;
+  }
+}
 
 async function loadOfflineData() {
   if (offlineData) return offlineData;

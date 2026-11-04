@@ -131,7 +131,8 @@ def _data_files() -> list[tuple[str, Path]]:
     ]
 
 
-def check(port: int = 8000, public: bool = False) -> list[tuple[str, str, str]]:
+def check(port: int = 8000, public: bool = False,
+          token: str | None = None) -> list[tuple[str, str, str]]:
     """逐项自检，返回 (级别, 项目, 说明)。级别：OK / WARN / FAIL。"""
     rows: list[tuple[str, str, str]] = []
 
@@ -171,16 +172,18 @@ def check(port: int = 8000, public: bool = False) -> list[tuple[str, str, str]]:
                 else ('WARN', '静态托管数据', '未生成，执行 python tools/P7/build_offline.py'))
 
     if public:
-        token = os.environ.get('P7_ACCESS_TOKEN', '').strip()
-        if len(token) >= MIN_TOKEN:
-            rows.append(('OK', '访问口令', '已设置，%d 位' % len(token)))
-        elif token:
-            rows.append(('FAIL', '访问口令', '只有 %d 位，至少 %d 位' % (len(token), MIN_TOKEN)))
+        secret = (token or os.environ.get('P7_ACCESS_TOKEN', '')).strip()
+        if len(secret) >= MIN_TOKEN:
+            rows.append(('OK', '访问口令', '已设置，%d 位' % len(secret)))
+        elif secret:
+            rows.append(('FAIL', '访问口令', '只有 %d 位，至少 %d 位' % (len(secret), MIN_TOKEN)))
         else:
             rows.append(('FAIL', '访问口令', '未设置，公网模式必须设置'))
         cors = (os.environ.get('P7_CORS_ORIGINS') or '').strip()
-        if cors in ('', '*'):
-            rows.append(('WARN', 'CORS', '同源或未限制；跨域前端才需要显式填域名'))
+        if not cors:
+            rows.append(('OK', 'CORS', '同源，不开放跨域'))
+        elif cors == '*':
+            rows.append(('WARN', 'CORS', '对所有来源开放，公网建议改成具体域名'))
         else:
             rows.append(('OK', 'CORS', cors))
 
@@ -210,20 +213,29 @@ def _lan_hint(port: int) -> str:
 
 
 def banner(config: dict) -> None:
-    url = 'http://%s:%d' % ('127.0.0.1' if config['host'] in ('0.0.0.0', '::') else config['host'],
-                            config['port'])
+    loopback = config['host'] in ('127.0.0.1', 'localhost', '::1')
+    display = '127.0.0.1' if config['host'] in ('0.0.0.0', '::') else config['host']
+    url = 'http://%s:%d' % (display, config['port'])
     print('\n行迹 · 旅游规划 Agent')
     print('  模式    %s' % config['label'])
-    print('  本机    %s' % url)
+    if config['public'] and loopback:
+        print('  入口    仅本机 %s，外部由 Nginx 反代' % url)
+    else:
+        print('  本机    %s' % url)
     if config['public']:
-        lan = _lan_hint(config['port'])
-        if lan:
-            print('  局域网  %s' % lan)
+        if not loopback:
+            lan = _lan_hint(config['port'])
+            if lan:
+                print('  局域网  %s' % lan)
         print('  口令    已启用（%d 位）' % len(config['token']))
         print('  跨域    %s' % (config['cors'] or '同源'))
         print('\n公网还需要三步：')
-        print('  1. 云安全组放行 %d 端口（或只放行 80/443 由反代转发）' % config['port'])
-        print('  2. 用 Nginx/Caddy 加 HTTPS，SSE 要关掉响应缓冲：')
+        if loopback:
+            print('  1. 安全组只放行 22/80/443，不要开放 %d 端口' % config['port'])
+            print('  2. 用 Nginx/Caddy 反代到 %s，SSE 要关掉响应缓冲：' % url)
+        else:
+            print('  1. 云安全组放行 %d 端口（或只放行 80/443 由反代转发）' % config['port'])
+            print('  2. 用 Nginx/Caddy 加 HTTPS，SSE 要关掉响应缓冲：')
         print('\n'.join('     ' + line for line in
                         (PROXY_SNIPPET % {'port': config['port']}).splitlines()))
         print('  3. 保持单 worker：限流与并发计数是进程内内存态，多开会各算各的')
@@ -247,7 +259,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     if args.check:
-        return 0 if print_check(check(args.port or 8000, args.public)) else 1
+        return 0 if print_check(check(args.port or 8000, args.public, args.token)) else 1
 
     config = resolve_mode(args.public, token=args.token, host=args.host,
                           port=args.port, open_browser=False if args.no_browser else None)

@@ -82,6 +82,14 @@ class OfflineBundleTests(unittest.TestCase):
 
         self.assertEqual(shape(data['scenes']), shape(payload['scenes']))
 
+    def test_bundle_embeds_current_assets(self):
+        """改了前端却忘了重建离线包时，这里会红。"""
+        web = ROOT / 'src/P7旅游规划Agent/web'
+        js = (web / 'app.js').read_text(encoding='utf-8')
+        css = (web / 'styles.css').read_text(encoding='utf-8')
+        self.assertIn(build_offline._script_safe(js), self.html, 'app.js 与离线包不同步')
+        self.assertIn(css, self.html, 'styles.css 与离线包不同步')
+
 
 if __name__ == '__main__':
     unittest.main()
