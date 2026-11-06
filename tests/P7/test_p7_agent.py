@@ -216,3 +216,21 @@ class GuardTests(unittest.TestCase):
                           should_stop=lambda: True).run()
         self.assertEqual(len(run["turns"]), 1)   # 只有 parse_slots
         self.assertIn("没有取到路线", run["answer"])
+
+    def test_draw_loop_writes_png_to_output_dir(self):
+        """报告插图：能画出来、不是空文件，且只写指定目录。"""
+        import tempfile
+        try:
+            import matplotlib  # noqa: F401
+        except ImportError:
+            self.skipTest('matplotlib 未安装')
+        old = agent.OUTPUTS
+        with tempfile.TemporaryDirectory() as tmp:
+            agent.OUTPUTS = tmp
+            try:
+                agent.draw_loop()
+            finally:
+                agent.OUTPUTS = old
+            path = Path(tmp) / 'figures' / 'p7_loop.png'
+            self.assertTrue(path.exists())
+            self.assertGreater(path.stat().st_size, 20_000)

@@ -7,6 +7,7 @@
 | `agent_demo.txt` / `agent_llm_demo.txt` / `agent_llm_all.txt` | 上述记录的排版版本，直接阅读用 |
 | `行迹-离线预览.html` | 单文件预览：七个场景的真实结果内联，双击打开，不依赖后端与网络 |
 | `figures/p7_react.png` | ReAct 循环结构与七个场景的结果 |
+| `figures/p7_loop.png` | 只含循环结构的单图，报告第 7 章用，字号更大 |
 | `figures/web-首页.png` / `web-结果-浅色.png` / `web-结果-深色.png` | Web 界面截图 |
 
 重新生成：

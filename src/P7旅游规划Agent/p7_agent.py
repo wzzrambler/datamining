@@ -871,11 +871,11 @@ def draw(result, runs):
     arrow(ax1, (0.28, 0.39), (0.28, 0.61), ls="--")
 
     ax1.text(0.315, 0.50, "不够就继续", ha="left", va="center", fontsize=5.4, color="#777777")
-    ax1.text(0.52, 0.10, "够 → 按记忆里的观察出方案    缺景区 / 排不开 → 反问",
-             ha="center", fontsize=5.6, color="#555555")
+    ax1.text(0.5, 0.13, "够 → 按观察出方案", ha="center", fontsize=5.4, color="#555555")
+    ax1.text(0.5, 0.05, "缺景区 / 排不开 → 反问", ha="center", fontsize=5.4, color="#555555")
 
     ax1.set_xlim(0.0, 1.0)
-    ax1.set_ylim(0.04, 0.94)
+    ax1.set_ylim(0.0, 0.94)
     ax1.axis("off")
     ax1.set_title("ReAct 循环：每轮的观察决定下一轮的动作", fontsize=7.4, pad=4)
 
@@ -891,10 +891,12 @@ def draw(result, runs):
         cols.append(tone.get(r["status"], "#9AA5B1"))
 
     ys = list(range(len(runs)))[::-1]
-    ax2.barh(ys, vals, height=0.52, color=cols)
-    for y, v, r in zip(ys, vals, runs):
+    # 没排出方案的场景步数为 0，画一个最小宽度的浅条，否则整行只剩文字，看不出跑过
+    widths = [v if v else 0.6 for v in vals]
+    ax2.barh(ys, widths, height=0.52, color=cols)
+    for y, v, w, r in zip(ys, vals, widths, runs):
         tag = tag_cn.get(r["status"], r["status"])
-        ax2.text(v + 0.4, y, ("%d 步  %s" % (v, tag)) if v else tag, va="center",
+        ax2.text(w + 0.4, y, ("%d 步  %s" % (v, tag)) if v else tag, va="center",
                  fontsize=5.8, color="#333333")
     ax2.set_yticks(ys)
     ax2.set_yticklabels(labels, fontsize=5.8)
@@ -907,6 +909,60 @@ def draw(result, runs):
     fig.tight_layout(pad=0.4)
     os.makedirs(os.path.join(OUTPUTS, "figures"), exist_ok=True)
     fig.savefig(os.path.join(OUTPUTS, "figures", "p7_react.png"))
+    plt.close(fig)
+
+
+def draw_loop():
+    """报告插图：只画循环结构，尺寸小、字大，单独成图。"""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from matplotlib import font_manager
+    from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+
+    for name in ["Microsoft YaHei", "SimHei"]:
+        try:
+            font_manager.findfont(name, fallback_to_default=False)
+            plt.rcParams["font.sans-serif"] = [name]
+            break
+        except Exception:
+            continue
+    plt.rcParams["axes.unicode_minus"] = False
+
+    fig, ax = plt.subplots(figsize=(5.0, 3.2), dpi=300)
+
+    def box(x, y, w, h, title, sub, fc):
+        ax.add_patch(FancyBboxPatch((x - w / 2, y - h / 2), w, h,
+                                    boxstyle="round,pad=0.012,rounding_size=0.03",
+                                    facecolor=fc, edgecolor="none"))
+        ax.text(x, y + 0.035, title, ha="center", va="center", fontsize=9.2, color="white")
+        ax.text(x, y - 0.045, sub, ha="center", va="center", fontsize=7.4, color="white")
+
+    def arrow(p1, p2, style="-|>", ls="-", color="#9AA5B1"):
+        ax.add_patch(FancyArrowPatch(p1, p2, arrowstyle=style, linestyle=ls,
+                                     color=color, lw=1.2, mutation_scale=9,
+                                     connectionstyle="arc3,rad=0"))
+
+    box(0.28, 0.72, 0.40, 0.22, "思考 Thought", "下一步查什么", "#6B7A90")
+    box(0.76, 0.72, 0.40, 0.22, "动作 Action", "调一个图谱工具", "#E8833A")
+    box(0.76, 0.28, 0.40, 0.22, "观察 Observation", "工具返回写进记忆", "#5B8C5A")
+    box(0.28, 0.28, 0.40, 0.22, "判断", "信息够不够", "#7A6BA8")
+
+    arrow((0.48, 0.72), (0.56, 0.72))
+    arrow((0.76, 0.61), (0.76, 0.39))
+    arrow((0.56, 0.28), (0.48, 0.28))
+    arrow((0.28, 0.39), (0.28, 0.61), ls="--")
+
+    ax.text(0.315, 0.50, "不够就继续", ha="left", va="center", fontsize=7.0, color="#777777")
+    ax.text(0.28, 0.11, "够 → 按观察出方案", ha="center", fontsize=7.2, color="#555555")
+    ax.text(0.28, 0.03, "缺景区 / 排不开 → 反问", ha="center", fontsize=7.2, color="#555555")
+
+    ax.set_xlim(0.0, 1.0)
+    ax.set_ylim(-0.02, 0.94)
+    ax.axis("off")
+    fig.tight_layout(pad=0.3)
+    os.makedirs(os.path.join(OUTPUTS, "figures"), exist_ok=True)
+    fig.savefig(os.path.join(OUTPUTS, "figures", "p7_loop.png"))
     plt.close(fig)
 
 
@@ -934,8 +990,7 @@ def main():
 
     os.makedirs(OUTPUTS, exist_ok=True)
     if args.ask:
-        # 单条查询只打印，不覆盖批量测试的记录
-        draw(runs[0], runs)
+        # 单条查询只打印，不覆盖批量记录，也不覆盖七场景图
         return
     with open(os.path.join(OUTPUTS, "agent_runs.json"), "w", encoding="utf-8") as f:
         json.dump(runs, f, ensure_ascii=False, indent=1)
@@ -951,6 +1006,7 @@ def main():
             f.write("  状态：%s\n  答：\n%s\n" % (r["status"], r["answer"]))
 
     draw(runs[0], runs)
+    draw_loop()
     ok = sum(1 for r in runs if r["status"] in ("ok", "partial"))
     print("\n%d 个场景跑完，成行 %d 个；记录在 outputs/agent_runs.json" % (len(runs), ok))
 
