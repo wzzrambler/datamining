@@ -43,9 +43,14 @@ server {
         proxy_pass http://127.0.0.1:%(port)d;
         proxy_http_version 1.1;
         proxy_set_header Host $host;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        # 覆盖而非追加：客户端自带的 X-Forwarded-For 会留在最前面，
+        # 换个值就能绕过按 IP 的限流。与 deploy/nginx-p7.conf 保持一致
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $remote_addr;
         proxy_buffering off;          # SSE 逐轮推送必须关掉缓冲
+        proxy_cache off;
         proxy_read_timeout 300s;
+        add_header X-Accel-Buffering no;
     }
 }"""
 
