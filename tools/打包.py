@@ -34,7 +34,8 @@ REPORT_DIR = ROOT / "outputs" / "报告"
 SUFFIX = "_《数据挖掘》探索性实验报告.docx"
 MATERIAL_SUFFIX = "_《数据挖掘》实验材料_项目1.zip"
 RAW_SUFFIX = "_《数据挖掘》原始网页存档_项目1.zip"
-SKIP_DIRS = {"__pycache__", ".pytest_cache", ".git", ".work", ".cache"}
+SKIP_DIRS = {"__pycache__", ".pytest_cache", ".git", ".work", ".cache",
+             ".test_tmp", ".test-tmp"}
 # 封面配置含真名学号，属于本地私有文件，任何布局下都不能进交付 zip
 SKIP_FILES = {"封面信息.json"}
 
