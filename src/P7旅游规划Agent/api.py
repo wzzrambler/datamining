@@ -55,7 +55,9 @@ app = FastAPI(title='旅游规划 Agent', version=VERSION,
               description='基于项目 2/3/5/6 产物的 ReAct 规划服务')
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[o.strip() for o in os.environ.get('P7_CORS_ORIGINS', '*').split(',') if o.strip()],
+    # 默认同源：只有经 serve.py 启动才按模式显式放开跨域；直接 uvicorn api:app
+    # 也不该把接口开放给任意来源。
+    allow_origins=[o.strip() for o in os.environ.get('P7_CORS_ORIGINS', '').split(',') if o.strip()],
     allow_methods=['GET', 'POST', 'OPTIONS'],
     allow_headers=['Content-Type'],
 )

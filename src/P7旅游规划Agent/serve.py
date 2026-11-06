@@ -188,10 +188,13 @@ def check(port: int = 8000, public: bool = False,
         else:
             rows.append(('FAIL', '访问口令', '未设置，公网模式必须设置'))
         cors = (os.environ.get('P7_CORS_ORIGINS') or '').strip()
+        # resolve_mode 会把公网模式下的 '*' 归一成同源，自检按实际生效值判断，别误报 WARN
+        normalized_note = ''
+        if cors == '*':
+            cors = ''
+            normalized_note = '（配置里的 * 在公网模式会被归一为同源）'
         if not cors:
-            rows.append(('OK', 'CORS', '同源，不开放跨域'))
-        elif cors == '*':
-            rows.append(('WARN', 'CORS', '对所有来源开放，公网建议改成具体域名'))
+            rows.append(('OK', 'CORS', '同源，不开放跨域' + normalized_note))
         else:
             rows.append(('OK', 'CORS', cors))
 

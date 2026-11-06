@@ -194,9 +194,9 @@ def main():
             print("  " + f)
 
     print("\n接着按顺序跑：")
-    print("  python tools/导出PDF.py     # 封面变了，PDF 要重导")
-    print("  把这份正式报告同步到交付包顶层，并按「第N组_姓名」重命名交付 zip")
-    print("  （见根目录 README「本次交付与验收」）")
+    print("  python tools/导出PDF.py      # 封面变了，PDF 要重导")
+    print("  python tools/打包.py         # 同步报告、重打 zip、两个交付包统一改名")
+    print("  先看会做什么可加 --check；详见根目录 README「本次交付与验收」")
 
 
 if __name__ == "__main__":

@@ -149,8 +149,12 @@ def main():
                         "ok" if d["raw_text"] else "failed", d.get("note", "")])
 
     ok = sum(1 for x in inventory if x["决定"] == "纳入")
+    web_pages = sum(1 for x in inventory if x["文件"].endswith(".html"))
+    snapshots = len(inventory) - web_pages
     print("重建完成：%d 份文档写入 %s" % (len(docs), os.path.basename(JSONL)))
-    print("存档盘点：%d 个页面，纳入 %d，排除 %d" % (len(inventory), ok, len(inventory) - ok))
+    # inventory 里除网页存档还有 manual/ 下的两份正文快照，别把 21 说成 21 个页面
+    print("存档盘点：%d 个网页 + %d 份手工快照，纳入 %d，排除 %d" %
+          (web_pages, snapshots, ok, len(inventory) - ok))
     return docs
 
 

@@ -32,6 +32,11 @@ def prepare_archive(archive=XHS_ARCHIVE, cache=XHS_CACHE):
     archive, cache = Path(archive).resolve(), Path(cache).resolve()
     if not cache.is_relative_to(ROOT) or cache == ROOT:
         raise ValueError('解压缓存必须位于仓库内')
+    if not archive.is_file():
+        raise FileNotFoundError(
+            '缺少原始采集归档 %s。交付包为控制体积不含这个约 290 MiB 的大文件；\n'
+            '需要完整证据核验时，从带 Git LFS 的仓库副本执行 git lfs pull，\n'
+            '或把原始归档放回 data/ 目录。默认质检与全部单元测试不依赖它。' % archive)
     fingerprint = sha256(archive)
     stamp = cache / '.archive.sha256'
     if stamp.exists():

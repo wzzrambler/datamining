@@ -8,12 +8,16 @@
 
 ## 离线复现
 
+在仓库根目录执行（脚本按仓库根定位数据与输出，与当前目录无关）：
+
 ```bash
-python src/rebuild_from_archive.py   # 从存档重解析出 raw_documents.jsonl（不联网）
-python src/clean.py
-python src/quality_check.py
-python src/run_all.py                # 项目2~7 也可以一把跑完
+python src/P1爬虫与数据清洗/微信公众号与景区官方爬虫与数据清洗/rebuild_from_archive.py
+python src/P1爬虫与数据清洗/微信公众号与景区官方爬虫与数据清洗/clean.py
 ```
+
+第一条从 19 个网页存档加 `manual/` 下 2 份快照重解析出 17 份 `raw_documents.jsonl` 和两张盘点表，第二条产出独立的 csv/json/xlsx 清洗结果；都不联网、不改正式 47 篇。
+
+**注意**：这两条是"重建"而不是"只读复现"，会重写本目录下的 `raw_documents.jsonl`、`archive_inventory.csv`、`crawl_log.csv`，并新建 `processed/P1爬虫数据清洗/微信公众号与官网独立清洗/`。随包提交的原始记录里 `raw_html_path` 保留历史目录名 `data/raw/...`，重建后会改成当前目录名；要保留交付时的原始证据，请先备份再跑。验收与全库质检都不需要重建，直接用仓库根的 `python tools/verify_p1.py`、`python tools/quality_p1.py`；各阶段命令见根目录 README，本仓库没有统一的 `run_all.py` 入口。
 
 ## 存档盘点结论
 

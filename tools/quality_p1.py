@@ -270,6 +270,12 @@ def main(argv=None):
     parser.add_argument('--deep', action='store_true', help='解压本地归档，逐项验证原始证据；不联网')
     parser.add_argument('--output', type=Path, default=paths.P1 / '质量检查/自动质检')
     args = parser.parse_args(argv)
+    if args.deep and not paths.XHS_ARCHIVE.is_file():
+        raise SystemExit(
+            '本次要求 --deep 深度核验，但缺少 data/小红书爬虫.zip（约 290 MiB 原始归档）。\n'
+            '交付包默认不含它，因此没有生成任何质检产物，正式结果保持原样。\n'
+            '两个选择：① 跑默认质检 python tools/quality_p1.py（不需要大归档）；\n'
+            '② 从带 Git LFS 的仓库副本 git lfs pull 取回归档后再跑 --deep。')
     folder, dest = paths.P1, args.output.resolve()
     dest.mkdir(parents=True, exist_ok=True)
     docs = load(folder / 'documents.json')

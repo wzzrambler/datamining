@@ -24,10 +24,11 @@
 - 原始语料与盘点表：`data/微信公众号与景区官方/`；19 个页面存档另见 `第X组_组长姓名_《数据挖掘》原始网页存档_项目1.zip`。
 - 复现：`python -m pip install -r requirements.txt`，然后 `python -m pytest -q`（291 条通过）；也可按下面各章用 `python -m unittest discover -s tests/P<n> -v`。
 - P7 免部署：双击 `outputs/P7/行迹-离线预览.html`；本机自由提问：`python src/P7旅游规划Agent/serve.py`；公网部署照 [DEPLOY.md](DEPLOY.md)。
-- **封面待填**：报告封面与组内评分表目前仍是模板占位（「第　组」「组长姓名/学号」「（写自己班的老师）」），报告附录的提交前自查也要求填。做法是复制 `tools/封面信息.示例.json` 为 `tools/封面信息.json` 并填好组号、组长姓名/学号、组员与授课教师，跑 `python tools/填封面.py` 生成正式报告（文件名自动变成「第N组_姓名_《数据挖掘》探索性实验报告.docx」），再跑 `python tools/导出PDF.py` 重导 PDF，最后按同一前缀重命名交付 zip、替换包内报告。该文件含真名学号，已被 `.gitignore` 排除。
+- **封面待填**：报告封面与组内评分表目前仍是模板占位（「第　组」「组长姓名/学号」「（写自己班的老师）」），报告附录的提交前自查也要求填。做法是复制 `tools/封面信息.示例.json` 为 `tools/封面信息.json` 并填好组号、组长姓名/学号、组员与授课教师，跑 `python tools/填封面.py` 生成正式报告（文件名自动变成「第N组_姓名_《数据挖掘》探索性实验报告.docx」），再跑 `python tools/导出PDF.py` 重导 PDF，最后 `python tools/打包.py` 一步完成正式报告同步、实验材料包重打和两个 zip 的统一命名（加 `--check` 可先预演）。该文件含真名学号，已被 `.gitignore` 排除，打包脚本也会把它排除在交付 zip 之外。
 
 `git lfs install` / `git lfs pull` 只适用于从仓库 clone 的场景，交付包没有 `.git`，不需要也不该执行；
-「离线重建正式 47 篇」依赖的大归档同样不在交付包内，但默认质检（`verify_p1.py` 不加 `--deep`）不依赖它。
+「离线重建正式 47 篇」与 `quality_p1.py --deep` 依赖的大归档同样不在交付包内，默认质检与 291 条单元测试都不依赖它，
+误加 `--deep` 只会得到一条可读提示，不会抛堆栈、也不会写出降级的质检产物。
 
 ## 部署
 
@@ -68,11 +69,11 @@ data/小红书爬虫.zip约289.83MiB，超过GitHub普通文件100MiB上限，.g
 
 ```powershell
 python tools/verify_p1.py
-python tools/quality_p1.py --deep
+python tools/quality_p1.py
 python -m unittest discover -s tests/P1 -v
 ```
 
-上述检查无需浏览器、Docker；不加--deep时无需大归档。verify_p1或quality_p1加--deep会安全解压本地zip并检查原始证据，仍不联网。质量检测材料位于processed/P1爬虫数据清洗/质量检查/自动质检，人工抽查表须另行填写。
+上述检查无需浏览器、Docker，也不需要大归档，在交付包内可直接跑通。`--deep` 会安全解压本地 `data/小红书爬虫.zip` 逐项核对原始证据哈希，仍不联网；交付包不含这个约 290 MiB 的归档，误加 `--deep` 会明确报错并说明取回方式，且不会生成降级的质检产物。质检会重写 `processed/P1爬虫数据清洗/质量检查/自动质检/` 下的产物，若要保留交付时的原始结果请先备份；人工抽查表须另行填写。
 
 离线重建正式47篇（复用已保存OCR缓存）：
 
