@@ -14,6 +14,20 @@
 
 旧17篇的正式副本已统一全角ASCII、段落及派生统计，两处负删减量修正为0；历史原件保持不变。noise_char_removed表示非负净缩减量，句数统一识别中英文句末标点、分号及换行。
 
+## 本次交付与验收
+
+交给老师的材料是 `第X组_组长姓名_《数据挖掘》实验材料_项目1.zip`（与 `交付包/` 目录同内容），按本仓库布局整理，
+不含 `.git`、不含 `data/小红书爬虫.zip`（约 290 MiB 的 Git LFS 大归档）。P5 的全部批次都保留：P6 的
+`quality-stages/route-filtered/cleaning_summary.json` 逐文件记录了它们的 SHA-256，缺任一历史批次都会让完整性核验失败。解压后：
+
+- 报告：`第X组_组长姓名_《数据挖掘》探索性实验报告_项目1至7.docx`（也在 `outputs/报告/`）。
+- 原始语料与盘点表：`data/微信公众号与景区官方/`；19 个页面存档另见 `第X组_组长姓名_《数据挖掘》原始网页存档_项目1.zip`。
+- 复现：`python -m pip install -r requirements.txt`，然后 `python -m pytest -q`（291 条通过）；也可按下面各章用 `python -m unittest discover -s tests/P<n> -v`。
+- P7 免部署：双击 `outputs/P7/行迹-离线预览.html`；本机自由提问：`python src/P7旅游规划Agent/serve.py`；公网部署照 [DEPLOY.md](DEPLOY.md)。
+
+`git lfs install` / `git lfs pull` 只适用于从仓库 clone 的场景，交付包没有 `.git`，不需要也不该执行；
+「离线重建正式 47 篇」依赖的大归档同样不在交付包内，但默认质检（`verify_p1.py` 不加 `--deep`）不依赖它。
+
 ## 部署
 
 P7 的 Web 层有三种用法：离线单页（双击即看）、本机服务（自由提问）、公网部署（口令 + Nginx + HTTPS）。
@@ -120,4 +134,4 @@ P4报告已基于P3底稿完成4.1—4.5替换，交付于[outputs/P4](outputs/P
 
 ## P5 / P6交付入口
 
-正式资料、章节Markdown与本地复核指令见[P5P6交付索引](P5P6交付索引.md)。P5/P6已合入Word，最新成稿见[outputs/P6](outputs/P6/README.md)的P6汇总更新版。开发日志、旧版P6报告、重复视图JSON及历史验收材料归档到仓库外私人资源目录；正式结果离线重建不依赖归档。
+正式资料、章节Markdown与本地复核指令见[outputs/P5/README.md](outputs/P5/README.md)和[outputs/P6/README.md](outputs/P6/README.md)；最终成稿见[项目1至7实验报告](outputs/报告/第X组_组长姓名_《数据挖掘》探索性实验报告_项目1至7.docx)。早期的P5P6交付索引、开发日志、旧版P6报告、重复视图JSON及历史验收材料已归档到仓库外私人资源目录，不在本次交付物内；正式结果离线重建不依赖归档。
