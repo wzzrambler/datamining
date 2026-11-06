@@ -51,6 +51,9 @@ server {
         proxy_cache off;
         proxy_read_timeout 300s;
         add_header X-Accel-Buffering no;
+        # SSE 用 ?token= 传口令，访问日志会把它明文写进文件；确需日志
+        # 请自定义 log_format 去掉查询串。与 deploy/nginx-p7.conf 一致
+        access_log off;
     }
 }"""
 

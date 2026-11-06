@@ -21,9 +21,21 @@ import docx
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONF = os.path.join(ROOT, "tools", "封面信息.json")
-PLACEHOLDER = "第X组_组长姓名_《数据挖掘》探索性实验报告_项目1.docx"
-OUTDIR = os.path.join(ROOT, "outputs")
-SUFFIX = "_《数据挖掘》探索性实验报告_项目1.docx"
+REPORT_DIR = os.path.join(ROOT, "outputs", "报告")
+# 任务书附录二要求的命名是「第X组_组长姓名_《数据挖掘》探索性实验报告」，
+# 不带 _项目1 / _项目1至7 后缀。构建链的占位版仍带后缀，靠 find_source 自动找。
+SUFFIX = "_《数据挖掘》探索性实验报告.docx"
+
+
+def find_source():
+    """优先取未填封面的占位版；重复运行不会拿已生成的正式版再填一次。"""
+    cands = [p for p in glob.glob(os.path.join(REPORT_DIR, "*.docx"))
+             if not os.path.basename(p).startswith("~$")]
+    if not cands:
+        raise SystemExit("outputs/报告/ 下没有报告 docx，先跑 python tools/report/build.py")
+    placeholder = [p for p in cands
+                   if "第X组" in os.path.basename(p) or "组长姓名" in os.path.basename(p)]
+    return max(placeholder or cands, key=os.path.getmtime)
 
 
 def load_conf():
@@ -158,15 +170,12 @@ def main():
     if "--check" in sys.argv:
         return
 
-    src = os.path.join(OUTDIR, PLACEHOLDER)
-    if not os.path.exists(src):
-        raise SystemExit("找不到待填的模板报告：outputs/%s\n"
-                         "先跑 python tools/fill_report.py 生成它" % PLACEHOLDER)
-
+    src = find_source()
+    print("\n待填报告：%s" % os.path.basename(src))
     doc = docx.Document(src)
     fill(doc, info)
 
-    dst = os.path.join(OUTDIR, info["前缀"] + SUFFIX)
+    dst = os.path.join(REPORT_DIR, info["前缀"] + SUFFIX)
     if os.path.exists(dst):
         try:
             doc.save(dst)
@@ -174,18 +183,20 @@ def main():
             raise SystemExit("目标文件被 Word 或预览面板占用，关掉后重跑：\n%s" % dst)
     else:
         doc.save(dst)
-    print("\n已生成：outputs/%s" % os.path.basename(dst))
+    print("\n已生成：outputs/报告/%s" % os.path.basename(dst))
 
-    others = [os.path.basename(f) for f in glob.glob(os.path.join(OUTDIR, "*" + SUFFIX))
-              if os.path.basename(f) != os.path.basename(dst)]
+    others = [os.path.basename(f) for f in glob.glob(os.path.join(REPORT_DIR, "*.docx"))
+              if os.path.basename(f) != os.path.basename(dst)
+              and not os.path.basename(f).startswith("~$")]
     if others:
-        print("outputs 里还有这些旧版本，打包时取最新修改的一份，建议删掉以免混淆：")
+        print("outputs/报告/ 里还有这些其它版本，打包时别拿错：")
         for f in others:
             print("  " + f)
 
     print("\n接着按顺序跑：")
     print("  python tools/导出PDF.py     # 封面变了，PDF 要重导")
-    print("  python tools/打包.py        # 生成两个提交 zip")
+    print("  把这份正式报告同步到交付包顶层，并按「第N组_姓名」重命名交付 zip")
+    print("  （见根目录 README「本次交付与验收」）")
 
 
 if __name__ == "__main__":

@@ -24,6 +24,7 @@
 - 原始语料与盘点表：`data/微信公众号与景区官方/`；19 个页面存档另见 `第X组_组长姓名_《数据挖掘》原始网页存档_项目1.zip`。
 - 复现：`python -m pip install -r requirements.txt`，然后 `python -m pytest -q`（291 条通过）；也可按下面各章用 `python -m unittest discover -s tests/P<n> -v`。
 - P7 免部署：双击 `outputs/P7/行迹-离线预览.html`；本机自由提问：`python src/P7旅游规划Agent/serve.py`；公网部署照 [DEPLOY.md](DEPLOY.md)。
+- **封面待填**：报告封面与组内评分表目前仍是模板占位（「第　组」「组长姓名/学号」「（写自己班的老师）」），报告附录的提交前自查也要求填。做法是复制 `tools/封面信息.示例.json` 为 `tools/封面信息.json` 并填好组号、组长姓名/学号、组员与授课教师，跑 `python tools/填封面.py` 生成正式报告（文件名自动变成「第N组_姓名_《数据挖掘》探索性实验报告.docx」），再跑 `python tools/导出PDF.py` 重导 PDF，最后按同一前缀重命名交付 zip、替换包内报告。该文件含真名学号，已被 `.gitignore` 排除。
 
 `git lfs install` / `git lfs pull` 只适用于从仓库 clone 的场景，交付包没有 `.git`，不需要也不该执行；
 「离线重建正式 47 篇」依赖的大归档同样不在交付包内，但默认质检（`verify_p1.py` 不加 `--deep`）不依赖它。

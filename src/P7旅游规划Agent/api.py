@@ -20,6 +20,7 @@
 from __future__ import annotations
 
 import argparse
+import hmac
 import json
 import os
 import queue
@@ -78,7 +79,7 @@ def _auth(request: Request):
     supplied = (request.headers.get('authorization') or '').removeprefix('Bearer ').strip()
     if not supplied:
         supplied = (request.query_params.get('token') or '').strip()
-    if supplied != ACCESS_TOKEN:
+    if not hmac.compare_digest(supplied, ACCESS_TOKEN):
         raise HTTPException(401, '需要访问口令', headers={'WWW-Authenticate': 'Bearer'})
 
 

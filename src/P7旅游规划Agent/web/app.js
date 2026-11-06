@@ -588,7 +588,7 @@ function renderPlan(plan) {
     section.innerHTML = `
       <div class="day-head">
         <span class="day-no">第 ${index + 1} 天</span>
-        <span class="day-title">${steps.length} 步${daySpan(steps)}</span>
+        <span class="day-title">${steps.length} 步${escapeHtml(daySpan(steps))}</span>
       </div>
       <ol class="steps"></ol>`;
     const list = section.querySelector('.steps');
