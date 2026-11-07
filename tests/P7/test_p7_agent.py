@@ -161,10 +161,32 @@ class CapacityTests(unittest.TestCase):
         for g in groups:
             self.assertLessEqual(len(g), agent.MAX_STEPS_PER_DAY)
 
-    def test_requested_days_are_honored_when_enough_capacity(self):
+    def test_requested_days_do_not_invent_an_overnight(self):
+        # 8 步本来就是一日路线，用户想玩两天也不能硬拆出过夜点。
         groups = agent.split_days(self._steps(8), 2)
-        self.assertEqual(len(groups), 2)
+        self.assertEqual(len(groups), 1)
         self.assertEqual(sum(len(g) for g in groups), 8)
+
+    def test_source_day_markers_take_precedence_over_even_split(self):
+        # 原文第 1 天 12 步、第 2 天 7 步；均分会错切成 10+9，把第二天内容挪到第一天。
+        steps = []
+        for i in range(19):
+            steps.append({"step": i + 1, "period": "", "time": "", "spot": "P%d" % i,
+                          "transport": "", "tag": "", "day": 1 if i < 12 else 2})
+        groups = agent.split_days(steps, 2, "", 2)
+        self.assertEqual([len(g) for g in groups], [12, 7])
+        self.assertEqual([s["step"] for g in groups for s in g], list(range(1, 20)))
+
+    def test_second_day_fragment_is_not_a_multiday_route(self):
+        # 只标了"第二日"的片段缺少第一天，不能当成完整两日路线采用。
+        r = agent._norm_route({"route_id": "FRAG", "scenic_code": "JZG",
+                               "granularity": "in_park",
+                               "steps": [{"poi_refs": [], "time": {"day": 2}} for _ in range(3)]})
+        self.assertEqual(r["day_span"], 0)
+
+    def test_needed_days_prefers_source_day_span(self):
+        self.assertEqual(agent.needed_days(28, "", 2), 2)
+        self.assertEqual(agent.needed_days(28, ""), 3)
 
     def test_empty_and_single_day(self):
         self.assertEqual(agent.split_days([], 1), [])

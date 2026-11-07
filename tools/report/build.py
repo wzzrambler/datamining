@@ -287,12 +287,42 @@ def find_plain(doc, text):
     return None
 
 
+# 模板自身的两处笔误：总结第 3 节多一个「3、」，自查清单把「表按顺序标号」写成了
+# 「图按顺序标号」。只在生成的报告里修正，模板文件保持原样。
+TITLE_FIX = {"3、改进/优化方案": "改进/优化方案"}
+TYPO_FIX = [("图按顺序标号、图按顺序标号", "图按顺序标号、表按顺序标号")]
+
+
+def set_para_text(p, text):
+    """保留首个 run 的字体字号，整体替换段落文字。"""
+    runs = p.runs
+    if not runs:
+        p.add_run(text)
+        return
+    runs[0].text = text
+    for r in runs[1:]:
+        r._r.getparent().remove(r._r)
+
+
+def fix_template_typos(doc):
+    for p in doc.paragraphs:
+        t = p.text
+        if not t:
+            continue
+        for old, new in TYPO_FIX:
+            if old in t:
+                set_para_text(p, t.replace(old, new))
+                break
+
+
 def fill_summary(doc):
     heads = []
     for key, title in SUMMARY:
         p = find_plain(doc, title)
         if p is None:
             raise SystemExit("未找到总结小标题：%s" % title)
+        if title in TITLE_FIX:
+            set_para_text(p, TITLE_FIX[title])
         heads.append((key, p))
 
     # 每节的边界是下一个小标题；最后一节到"附录"
@@ -325,6 +355,7 @@ def main():
         print("  已填写 %s" % key)
 
     fill_summary(doc)
+    fix_template_typos(doc)
 
     out = OUT
     argv = sys.argv[1:]

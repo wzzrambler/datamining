@@ -188,7 +188,9 @@ CONTENT['6.6'] = [
      ['产物', '数量', '覆盖', '说明'],
      [['时间汇总', str(len(TIMES)), '覆盖 %d 实体；%d/%d 个景点' % (ENTITIES_WITH_TIME, POI_WITH_TIME, POI_TOTAL),
        '平均 %.1f 条/实体，覆盖不足' % (len(TIMES) / max(1, ENTITIES_WITH_TIME))],
-      ['建议汇总', str(len(ADVICE)), '%d 组有明确目标' % TARGETED, '%d 组因来源是线路片段被隔离' % QUARANTINED],
+      ['建议汇总', str(len(ADVICE)), '%d 组有明确目标（%d 组未定位）' % (TARGETED, len(ADVICE) - TARGETED),
+       '%d 组因线路片段被排除；%d 条来源记录被隔离' % (
+           QUARANTINED, len(MANIFEST['advice_audit']['quarantined_records']))],
       ['LLM 主题', str(THEMES), '%d 个实体、%d 组' % (ENTITIES, GROUPS), '每组一次调用，成功 %d 组' % GROUPS],
       ['事实', str(len([n for n in GRAPH['nodes'] if n['label'] == 'FACT'])), '—', '景点属性为主']],
      [2.6, 1.8, 3.6, 7.4]),

@@ -46,6 +46,26 @@ class ApiTests(unittest.TestCase):
         self.assertNotIn('\u20e3', first['spot'])   # 序号由前端渲染，不再重复带 1⃣
         self.assertTrue(body['turns'])
 
+    def test_day_groups_match_cli_answer_for_every_scene(self):
+        """接口层重算的分组必须和 CLI 的 answer 同源，否则前端"第 N 天"会和文本对不上。"""
+        for query in api.engine.SCENES:
+            body = CLIENT.post('/api/plan', json={'query': query, 'mode': 'rule'}).json()
+            plan = body['plan']
+            if not plan:
+                continue
+            self.assertEqual(len(plan['day_groups']), plan['days_actual'], query)
+            self.assertEqual(sum(len(g) for g in plan['day_groups']),
+                             len(plan['steps']), query)
+
+    def test_two_day_route_uses_source_day_boundary(self):
+        body = CLIENT.post('/api/plan', json={
+            'query': '九寨沟玩两天，怎么安排', 'mode': 'rule'}).json()
+        plan = body['plan']
+        self.assertEqual(plan['days_actual'], 2)
+        self.assertEqual([len(g) for g in plan['day_groups']], [12, 16])
+        self.assertIn('【第1 天】', body['answer'])
+        self.assertIn('【第2 天】', body['answer'])
+
     def test_out_of_library_area_is_explained(self):
         body = CLIENT.post('/api/plan', json={
             'query': '去三亚玩三天', 'mode': 'rule'}).json()

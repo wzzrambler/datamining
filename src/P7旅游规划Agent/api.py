@@ -148,8 +148,11 @@ def _clean_steps(steps):
 def _public_result(result: dict, elapsed_ms: int) -> dict:
     plan = result.get('plan') or {}
     steps = _clean_steps(plan.get('steps') or [])
+    # 与 CLI 共用同一套分组：原文天标记优先，容量估算兜底。
+    # day_span 从 plan 透传，避免接口层重算出的 day_groups 与 answer 文本不一致。
     days = engine.split_days(steps, plan.get('days') or 1,
-                             plan.get('span') or '') if steps else []
+                             plan.get('span') or '',
+                             plan.get('day_span') or 0) if steps else []
     return {
         'status': result.get('status', ''),
         'mode': result.get('mode', 'rule'),

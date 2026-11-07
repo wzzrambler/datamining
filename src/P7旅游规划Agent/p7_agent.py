@@ -107,6 +107,7 @@ def _norm_route(r):
                       "support": [p.get("text", "") for p in refs if p.get("poi_role") == "support"],
                       "transport": (tr[0].get("text") or "").rstrip("。") if tr else "",
                       "period": t.get("period") or "",
+                      "day": t.get("day"),
                       "time_start": _mm(t.get("start_minute")),
                       "time_end": _mm(t.get("end_minute"))})
     starts = [x["time_start"] for x in steps if x["time_start"]]
@@ -116,9 +117,19 @@ def _norm_route(r):
     title = (sums[0].get("text") if sums else "") or r["route_id"]
     # 一日/二日只在摘要里写过，没有独立字段
     sub = next((w for w in ("一日", "二日", "三日") if w in title), "")
+    # 原文的天数标记是最可靠的多日证据，优先于步数、时刻等经验判据。
+    # 只标了"第二日"而没有第 1 天的属于片段，不能当成完整的多日路线。
+    marked = set()
+    for x in steps:
+        try:
+            marked.add(int(x["day"]))
+        except (TypeError, ValueError):
+            pass
+    day_span = max(marked) if marked and marked == set(range(1, max(marked) + 1)) else 0
     return {"route_id": r["route_id"], "scenic_area": CODE_TO_AREA[r["scenic_code"]],
             "title": title, "sub_route": sub, "granularity": r.get("granularity", ""),
             "steps": steps, "step_count": len(steps),
+            "day_span": day_span,
             "time_start": starts[0] if starts else "", "time_end": ends[-1] if ends else ""}
 
 
@@ -264,7 +275,12 @@ def get_route(area, days=1):
     cands = [r for r in ROUTES if r["scenic_area"] == area]
     picked = None
     if days and days >= 2:
-        picked = next((r for r in cands if "二日" in r.get("sub_route", "")), None)
+        # 优先采用原文标了完整多天边界的路线。语料的天数标记比"每天 12 步"
+        # 的经验阈值可靠：一条官方两日游即使 28 步，也不该被当作超容量丢掉。
+        # day_span 只认从第一天起连续覆盖的路线，"第二日"片段记 0。
+        full = [r for r in cands if 2 <= r.get("day_span", 0) <= days]
+        if full:
+            picked = max(full, key=lambda r: (r["day_span"], r["step_count"]))
     if picked is None:
         picked = next((r for r in cands if "一日" in r.get("sub_route", "")),
                       cands[0] if cands else None)
@@ -280,6 +296,7 @@ def get_route(area, days=1):
     return {"ok": True, "route_id": picked["route_id"], "steps": picked["steps"],
             "step_count": picked["step_count"], "span": span,
             "sub_route": picked.get("sub_route", ""), "coarse": coarse,
+            "day_span": picked.get("day_span", 0),
             "title": picked["title"][:24], "area": area}
 
 def search_spots(area, visitor="", top_k=8):
@@ -372,7 +389,8 @@ def tailor_route(route, visitor):
             tag = "适合拍照"
         steps.append({"step": len(steps) + 1, "period": s["period"],
                       "time": s["time_start"], "spot": s["text"],
-                      "transport": s["transport"], "tag": tag})
+                      "transport": s["transport"], "tag": tag,
+                      "day": s.get("day")})
     tagged = sum(1 for x in steps if x["tag"])
     skipped = sum(1 for x in steps if x["tag"] == "可跳过")
     return {"steps": steps, "count": len(steps), "tagged": tagged, "skipped": skipped}
@@ -395,8 +413,10 @@ def span_hours(span):
         return None
 
 
-def needed_days(step_count, span):
-    """按时刻跨度与步数估"这条路线实际要几天"。两个判据取大的。"""
+def needed_days(step_count, span, day_span=0):
+    """估"这条路线实际要几天"。原文标了完整多日边界时照原文，否则取步数与时刻跨度的较大值。"""
+    if day_span >= 2:
+        return day_span
     need = (step_count + MAX_STEPS_PER_DAY - 1) // MAX_STEPS_PER_DAY
     hours = span_hours(span)
     if hours is not None and hours > MAX_HOURS_PER_DAY:
@@ -405,16 +425,29 @@ def needed_days(step_count, span):
     return max(1, need)
 
 
-def split_days(steps, days, span=""):
-    """把一条路线按原文顺序拆成几天。
+def split_days(steps, days, span="", day_span=0):
+    """分组优先级：原文天标记 > 容量估算。
 
-    用户给的天数是意愿，不是约束：路线本身 15 步，一天就排不下，
-    与其悄悄砍掉三步，不如按实际需要的天数排出来并说明。
-    保持原顺序与时段分组。
+    原文写出第 1/2 天时严格按标记分组，不重新均分——均分会把第二天的景点
+    挪到第一天，等于编造行程。没有天标记时才按实际需要的天数顺序切分。
+    用户给的天数是意愿而非约束：既不为凑天数编造过夜点，也不静默砍步骤。
     """
     if not steps:
         return []
-    total = max(1, days or 1, needed_days(len(steps), span))
+    marked = {}
+    for s in steps:
+        try:
+            d = int(s["day"])
+        except (TypeError, ValueError, KeyError):
+            d = None
+        if d is not None:
+            marked.setdefault(d, []).append(s)
+    keys = sorted(marked)
+    marked_steps = sum(len(v) for v in marked.values())
+    if (marked_steps == len(steps) and len(keys) >= 2
+            and keys == list(range(1, keys[-1] + 1))):
+        return [marked[k] for k in keys]
+    total = max(1, needed_days(len(steps), span, day_span))
     size = (len(steps) + total - 1) // total
     return [steps[i:i + size] for i in range(0, len(steps), size)]
 
@@ -644,8 +677,8 @@ class Agent:
             self.say("路线只到园区级（%d 步），撑不起 %d 天" % (route["step_count"], s["days"]))
         if not route["span"]:
             self.say("这条路线原文没写时刻，只能给顺序")
-        if s["days"] >= 2 and "二日" not in route.get("sub_route", ""):
-            self.say("库里没有独立的两日路线，以下按原文顺序拆分到天")
+        if s["days"] >= 2 and route.get("day_span", 0) < 2:
+            self.say("库里没有可直接采用的两日路线，以下按原文顺序拆分到天")
 
         if "search_spots" not in self.obs:
             return ("再看这个景区有哪些景点能排进去", "search_spots",
@@ -729,7 +762,8 @@ class Agent:
         if not steps and route.get("steps"):
             # 轮次用完了但路线已经拿到，用原始步骤兜底，别让用户白等
             steps = [{"step": i, "period": x["period"], "time": x["time_start"],
-                      "spot": x["text"], "transport": x["transport"], "tag": ""}
+                      "spot": x["text"], "transport": x["transport"], "tag": "",
+                      "day": x.get("day")}
                      for i, x in enumerate([y for y in route["steps"] if y["to"]], 1)]
             self.say("轮次上限到了，直接按原路线输出，没做人群裁剪")
         if not steps:
@@ -756,10 +790,13 @@ class Agent:
         # 数据缺口提醒放收尾层，两条策略共用：LLM 自己不会说"原文没写时刻"
         if not route_span:
             self.say("这条路线原文没写时刻，只能给顺序")
-        if want_days >= 2 and "二日" not in (route_obs.get("sub_route") or ""):
-            self.say("库里没有独立的两日路线，以下按原文顺序拆分到天")
-        day_groups = split_days(steps, want_days, route_span)
+        day_span = route_obs.get("day_span") or 0
+        if want_days >= 2 and day_span < 2:
+            self.say("库里没有可直接采用的两日路线，以下按原文顺序拆分到天")
+        day_groups = split_days(steps, want_days, route_span, day_span)
         actual_days = len(day_groups)
+        if want_days > actual_days:
+            self.say("库内该景区最多只有 %d 日路线，多出的天数没有对应内容，不另编行程" % actual_days)
         if actual_days > want_days:
             hours = span_hours(route_span)
             if hours is not None and hours > MAX_HOURS_PER_DAY:
@@ -798,6 +835,7 @@ class Agent:
 
         self.plan = {"area": area, "visitor": self.slots["visitor"] or "未指定",
                      "days": self.slots["days"], "days_actual": actual_days,
+                     "day_span": day_span,
                      "route_id": route.get("route_id", ""), "span": route_span,
                      "steps": steps, "tips": tips, "notes": self.note}
         self.answer = "\n".join(lines)

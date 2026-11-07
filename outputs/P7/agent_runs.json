@@ -14,6 +14,7 @@
    "visitor": "老人",
    "days": 1,
    "days_actual": 2,
+   "day_span": 0,
    "route_id": "JZG-NOTE-03-R-7f44fd1c84",
    "span": "",
    "steps": [
@@ -23,7 +24,8 @@
      "time": "",
      "spot": "上午长海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 2,
@@ -31,7 +33,8 @@
      "time": "",
      "spot": "五彩池",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 3,
@@ -39,7 +42,8 @@
      "time": "",
      "spot": "诺日朗换乘",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 4,
@@ -47,7 +51,8 @@
      "time": "",
      "spot": "中午诺日朗吃饭休整",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 5,
@@ -55,7 +60,8 @@
      "time": "",
      "spot": "下午箭竹海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 6,
@@ -63,7 +69,8 @@
      "time": "",
      "spot": "熊猫海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 7,
@@ -71,7 +78,8 @@
      "time": "",
      "spot": "五花海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 8,
@@ -79,7 +87,8 @@
      "time": "",
      "spot": "珍珠滩",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 9,
@@ -87,7 +96,8 @@
      "time": "",
      "spot": "诺日朗换乘",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 10,
@@ -95,7 +105,8 @@
      "time": "",
      "spot": "傍晚犀牛海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 11,
@@ -103,7 +114,8 @@
      "time": "",
      "spot": "老虎海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 12,
@@ -111,7 +123,8 @@
      "time": "",
      "spot": "树正瀑布",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 13,
@@ -119,7 +132,8 @@
      "time": "",
      "spot": "树正群海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 14,
@@ -127,7 +141,8 @@
      "time": "",
      "spot": "火花海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 15,
@@ -135,7 +150,8 @@
      "time": "",
      "spot": "出沟",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     }
    ],
    "tips": [
@@ -215,6 +231,7 @@
         "support": [],
         "transport": "",
         "period": "上午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -224,6 +241,7 @@
         "support": [],
         "transport": "",
         "period": "上午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -233,6 +251,7 @@
         "support": [],
         "transport": "",
         "period": "上午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -242,6 +261,7 @@
         "support": [],
         "transport": "",
         "period": "中午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -251,6 +271,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -260,6 +281,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -269,6 +291,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -278,6 +301,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -287,6 +311,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -296,6 +321,7 @@
         "support": [],
         "transport": "",
         "period": "傍晚",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -305,6 +331,7 @@
         "support": [],
         "transport": "",
         "period": "傍晚",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -314,6 +341,7 @@
         "support": [],
         "transport": "",
         "period": "傍晚",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -323,6 +351,7 @@
         "support": [],
         "transport": "",
         "period": "傍晚",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -332,6 +361,7 @@
         "support": [],
         "transport": "",
         "period": "傍晚",
+        "day": null,
         "time_start": "",
         "time_end": ""
        },
@@ -341,6 +371,7 @@
         "support": [],
         "transport": "",
         "period": "傍晚",
+        "day": null,
         "time_start": "",
         "time_end": ""
        }
@@ -349,6 +380,7 @@
       "span": "",
       "sub_route": "一日",
       "coarse": false,
+      "day_span": 0,
       "title": "九寨沟一日游路线：上午长海、五彩池后诺日朗换乘，",
       "area": "九寨沟风景名胜区"
      },
@@ -385,6 +417,7 @@
    "visitor": "亲子",
    "days": 1,
    "days_actual": 1,
+   "day_span": 0,
    "route_id": "GZCL-NOTE-12-R-f5fee04dec",
    "span": "09:30—16:30",
    "steps": [
@@ -394,7 +427,8 @@
      "time": "09:30",
      "spot": "1⃣09:30 开园直冲小火车",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 2,
@@ -402,7 +436,8 @@
      "time": "10:15",
      "spot": "2⃣10:15 青龙山环线",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 3,
@@ -410,7 +445,8 @@
      "time": "11:30",
      "spot": "3⃣11:30 长颈鹿广场+考拉园",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 4,
@@ -418,7 +454,8 @@
      "time": "13:30",
      "spot": "4⃣13:30 熊猫乐园",
      "transport": "",
-     "tag": "适合孩子"
+     "tag": "适合孩子",
+     "day": null
     },
     {
      "step": 5,
@@ -426,7 +463,8 @@
      "time": "14:30",
      "spot": "5⃣14:30 空中缆车(选环园线)",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 6,
@@ -434,7 +472,8 @@
      "time": "15:30",
      "spot": "6⃣15:30 百虎山+火烈鸟岛",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 7,
@@ -442,7 +481,8 @@
      "time": "16:30",
      "spot": "7⃣16:30 大象传奇/南美探秘表演",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     },
     {
      "step": 8,
@@ -450,7 +490,8 @@
      "time": "",
      "spot": "8⃣花车巡游",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": null
     }
    ],
    "tips": [
@@ -527,6 +568,7 @@
         "support": [],
         "transport": "",
         "period": "上午",
+        "day": null,
         "time_start": "09:30",
         "time_end": ""
        },
@@ -536,6 +578,7 @@
         "support": [],
         "transport": "",
         "period": "上午",
+        "day": null,
         "time_start": "10:15",
         "time_end": ""
        },
@@ -545,6 +588,7 @@
         "support": [],
         "transport": "",
         "period": "上午",
+        "day": null,
         "time_start": "11:30",
         "time_end": ""
        },
@@ -554,6 +598,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "13:30",
         "time_end": ""
        },
@@ -563,6 +608,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "14:30",
         "time_end": ""
        },
@@ -572,6 +618,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "15:30",
         "time_end": ""
        },
@@ -581,6 +628,7 @@
         "support": [],
         "transport": "",
         "period": "下午",
+        "day": null,
         "time_start": "16:30",
         "time_end": ""
        },
@@ -590,6 +638,7 @@
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": null,
         "time_start": "",
         "time_end": ""
        }
@@ -598,6 +647,7 @@
       "span": "09:30—16:30",
       "sub_route": "一日",
       "coarse": false,
+      "day_span": 0,
       "title": "长隆野生动物世界一日游：开园先坐小火车，随后依次",
       "area": "广州长隆旅游度假区"
      },
@@ -617,7 +667,7 @@
   ],
   "mode": "rule",
   "diagnostics": [],
-  "elapsed": 0.0
+  "elapsed": 0.01
  },
  {
   "input": "和女朋友去珠海长隆海洋王国玩两天",
@@ -628,158 +678,186 @@
    "visitor": "情侣",
    "days": 2
   },
-  "route_id": "ROUTEOBS-327026e22dfe6fb4",
+  "route_id": "ZHCL-NOTE-03-R-c9d09a5f60",
   "plan": {
    "area": "珠海横琴长隆国际海洋度假区",
    "visitor": "情侣",
    "days": 2,
    "days_actual": 2,
-   "route_id": "ROUTEOBS-327026e22dfe6fb4",
+   "day_span": 2,
+   "route_id": "ZHCL-NOTE-03-R-c9d09a5f60",
    "span": "",
    "steps": [
     {
      "step": 1,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "海豚湾",
+     "spot": "海洋大街",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 2,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "白鲸馆",
+     "spot": "旋转木马",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 3,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "鲸鲨馆",
+     "spot": "海狮剧场",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 4,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "雨林餐厅(午饭)",
+     "spot": "鳐鱼池",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 5,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "海豚剧场13点",
+     "spot": "海狸之家",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 6,
-     "period": "unspecified",
-     "time": "",
-     "spot": "白鲸剧场14点",
-     "transport": "",
-     "tag": ""
-    },
-    {
-     "step": 7,
-     "period": "unspecified",
-     "time": "",
-     "spot": "北极熊馆",
-     "transport": "",
-     "tag": ""
-    },
-    {
-     "step": 8,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
      "spot": "企鹅馆",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
+    },
+    {
+     "step": 7,
+     "period": "未说明",
+     "time": "",
+     "spot": "北极熊馆",
+     "transport": "",
+     "tag": "",
+     "day": 1
+    },
+    {
+     "step": 8,
+     "period": "未说明",
+     "time": "",
+     "spot": "白鲸剧场",
+     "transport": "",
+     "tag": "",
+     "day": 1
     },
     {
      "step": 9,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "海鸟世界",
+     "spot": "白鲸馆",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 10,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "丛林过山车",
+     "spot": "海底互动船",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 11,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "海象馆",
+     "spot": "鲸鲨馆",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 12,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "激浪帆船",
+     "spot": "烟花幻彩横琴海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 13,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "海狮剧场17点",
+     "spot": "海洋大街",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 2
     },
     {
      "step": 14,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "超级激流",
+     "spot": "海豚湾",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 2
     },
     {
      "step": 15,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "梦幻海洋",
+     "spot": "海豚剧场",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 2
     },
     {
      "step": 16,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "冰山过山车",
+     "spot": "丛林飞跃",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 2
     },
     {
      "step": 17,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "鹦鹉过山车",
+     "spot": "鲸鲨馆",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 2
     },
     {
      "step": 18,
-     "period": "unspecified",
+     "period": "未说明",
      "time": "",
-     "spot": "烟花秀20点",
+     "spot": "5D城堡电影",
      "transport": "",
-     "tag": "适合拍照"
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 19,
+     "period": "未说明",
+     "time": "",
+     "spot": "烟花幻彩横琴海",
+     "transport": "",
+     "tag": "",
+     "day": 2
     }
    ],
    "tips": [
@@ -788,11 +866,10 @@
     "不敢玩刺激的机动游戏，那一定要去体验5D影院"
    ],
    "notes": [
-    "这条路线原文没写时刻，只能给顺序",
-    "库里没有独立的两日路线，以下按原文顺序拆分到天"
+    "这条路线原文没写时刻，只能给顺序"
    ]
   },
-  "answer": "按珠海长隆的两日给你排了 18 步：\n【第1 天】\n  海豚湾\n  白鲸馆\n  鲸鲨馆\n  雨林餐厅(午饭)\n  海豚剧场13点\n  白鲸剧场14点\n  北极熊馆\n  企鹅馆\n  海鸟世界\n【第2 天】\n  丛林过山车\n  海象馆\n  激浪帆船\n  海狮剧场17点\n  超级激流\n  梦幻海洋\n  冰山过山车\n  鹦鹉过山车\n  烟花秀20点（适合拍照）\n注意：09:20:00烟花幻彩横琴海前，鲸鲨馆是人最少的时候，你可以拍出你想要的片子；11月1号到15号企鹅馆关门，这段期间去的话，要调整路线，先跳过企鹅馆其他安排\n提醒：这条路线原文没写时刻，只能给顺序；库里没有独立的两日路线，以下按原文顺序拆分到天",
+  "answer": "按珠海长隆的两日给你排了 19 步：\n【第1 天】\n  海洋大街\n  旋转木马\n  海狮剧场\n  鳐鱼池\n  海狸之家\n  企鹅馆\n  北极熊馆\n  白鲸剧场\n  白鲸馆\n  海底互动船\n  鲸鲨馆\n  烟花幻彩横琴海\n【第2 天】\n  海洋大街\n  海豚湾\n  海豚剧场\n  丛林飞跃\n  鲸鲨馆\n  5D城堡电影\n  烟花幻彩横琴海\n注意：09:20:00烟花幻彩横琴海前，鲸鲨馆是人最少的时候，你可以拍出你想要的片子；11月1号到15号企鹅馆关门，这段期间去的话，要调整路线，先跳过企鹅馆其他安排\n提醒：这条路线原文没写时刻，只能给顺序",
   "turns": [
    {
     "turn": 0,
@@ -820,7 +897,7 @@
      "area": "珠海横琴长隆国际海洋度假区",
      "days": 2
     },
-    "observation": "ROUTEOBS-327026e22dfe6fb4，18 步，无时刻"
+    "observation": "ZHCL-NOTE-03-R-c9d09a5f60，19 步，无时刻"
    },
    {
     "turn": 3,
@@ -851,68 +928,55 @@
     "args": {
      "route": {
       "ok": true,
-      "route_id": "ROUTEOBS-327026e22dfe6fb4",
+      "route_id": "ZHCL-NOTE-03-R-c9d09a5f60",
       "steps": [
        {
-        "to": "海豚湾",
-        "text": "海豚湾",
+        "to": "海洋大街",
+        "text": "海洋大街",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "白鲸馆",
-        "text": "白鲸馆",
+        "to": "旋转木马",
+        "text": "旋转木马",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "鲸鲨馆",
-        "text": "鲸鲨馆",
+        "to": "海狮剧场",
+        "text": "海狮剧场",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "雨林餐厅(午饭)",
-        "text": "雨林餐厅(午饭)",
+        "to": "鳐鱼池",
+        "text": "鳐鱼池",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "海豚剧场13点",
-        "text": "海豚剧场13点",
+        "to": "海狸之家",
+        "text": "海狸之家",
         "support": [],
         "transport": "",
-        "period": "unspecified",
-        "time_start": "",
-        "time_end": ""
-       },
-       {
-        "to": "白鲸剧场14点",
-        "text": "白鲸剧场14点",
-        "support": [],
-        "transport": "",
-        "period": "unspecified",
-        "time_start": "",
-        "time_end": ""
-       },
-       {
-        "to": "北极熊馆",
-        "text": "北极熊馆",
-        "support": [],
-        "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
@@ -921,111 +985,153 @@
         "text": "企鹅馆",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "海鸟世界",
-        "text": "海鸟世界",
+        "to": "北极熊馆",
+        "text": "北极熊馆",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "丛林过山车",
-        "text": "丛林过山车",
+        "to": "白鲸剧场",
+        "text": "白鲸剧场",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "海象馆",
-        "text": "海象馆",
+        "to": "白鲸馆",
+        "text": "白鲸馆",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "激浪帆船",
-        "text": "激浪帆船",
+        "to": "海底互动船",
+        "text": "海底互动船",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "海狮剧场17点",
-        "text": "海狮剧场17点",
+        "to": "鲸鲨馆",
+        "text": "鲸鲨馆",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "超级激流",
-        "text": "超级激流",
+        "to": "横琴海",
+        "text": "烟花幻彩横琴海",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "梦幻海洋",
-        "text": "梦幻海洋",
+        "to": "海洋大街",
+        "text": "海洋大街",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 2,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "冰山过山车",
-        "text": "冰山过山车",
+        "to": "海豚湾",
+        "text": "海豚湾",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 2,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "鹦鹉过山车",
-        "text": "鹦鹉过山车",
+        "to": "海豚剧场",
+        "text": "海豚剧场",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 2,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "烟花秀20点",
-        "text": "烟花秀20点",
+        "to": "丛林飞跃",
+        "text": "丛林飞跃",
         "support": [],
         "transport": "",
-        "period": "unspecified",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "鲸鲨馆",
+        "text": "鲸鲨馆",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "5D城堡电影",
+        "text": "5D城堡电影",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "横琴海",
+        "text": "烟花幻彩横琴海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
         "time_start": "",
         "time_end": ""
        }
       ],
-      "step_count": 18,
+      "step_count": 19,
       "span": "",
-      "sub_route": "一日",
+      "sub_route": "",
       "coarse": false,
-      "title": "珠海长隆海洋王国一日游览路线，依次游览海豚湾、白",
+      "day_span": 2,
+      "title": "第一天路线：海洋大街-旋转木马-海狮剧场-鳐鱼池",
       "area": "珠海横琴长隆国际海洋度假区"
      },
      "visitor": "情侣"
     },
-    "observation": "成行 18 步，标注 1 处"
+    "observation": "成行 19 步，标注 0 处"
    },
    {
     "turn": 6,
@@ -1160,78 +1266,267 @@
    "visitor": "",
    "days": 2
   },
-  "route_id": "JZG-NOTE-11-R-a7eac262f6",
+  "route_id": "JZG-OFF-01-R-6716383269",
   "plan": {
    "area": "九寨沟风景名胜区",
    "visitor": "未指定",
    "days": 2,
    "days_actual": 2,
-   "route_id": "JZG-NOTE-11-R-a7eac262f6",
+   "day_span": 2,
+   "route_id": "JZG-OFF-01-R-6716383269",
    "span": "",
    "steps": [
     {
      "step": 1,
      "period": "未说明",
      "time": "",
-     "spot": "长海",
-     "transport": "",
-     "tag": ""
+     "spot": "沟口乘车",
+     "transport": "乘车",
+     "tag": "",
+     "day": 1
     },
     {
      "step": 2,
      "period": "未说明",
      "time": "",
-     "spot": "五彩池",
+     "spot": "长海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 3,
      "period": "未说明",
      "time": "",
-     "spot": "诺日朗中心",
+     "spot": "五彩池",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 4,
      "period": "未说明",
      "time": "",
-     "spot": "树正群海",
+     "spot": "诺日朗中心站",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 5,
      "period": "未说明",
      "time": "",
-     "spot": "树正瀑布",
+     "spot": "诺日朗瀑布",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 6,
      "period": "未说明",
      "time": "",
-     "spot": "芦苇海",
+     "spot": "犀牛海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 7,
      "period": "未说明",
      "time": "",
-     "spot": "盆景滩",
+     "spot": "树正瀑布",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
     },
     {
      "step": 8,
      "period": "未说明",
      "time": "",
-     "spot": "出景区",
+     "spot": "树正群海",
      "transport": "",
-     "tag": ""
+     "tag": "",
+     "day": 1
+    },
+    {
+     "step": 9,
+     "period": "未说明",
+     "time": "",
+     "spot": "双龙海",
+     "transport": "",
+     "tag": "",
+     "day": 1
+    },
+    {
+     "step": 10,
+     "period": "未说明",
+     "time": "",
+     "spot": "芦苇海",
+     "transport": "",
+     "tag": "",
+     "day": 1
+    },
+    {
+     "step": 11,
+     "period": "未说明",
+     "time": "",
+     "spot": "盆景滩",
+     "transport": "",
+     "tag": "",
+     "day": 1
+    },
+    {
+     "step": 12,
+     "period": "未说明",
+     "time": "",
+     "spot": "出沟",
+     "transport": "",
+     "tag": "",
+     "day": 1
+    },
+    {
+     "step": 13,
+     "period": "未说明",
+     "time": "",
+     "spot": "游客中心",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 14,
+     "period": "未说明",
+     "time": "",
+     "spot": "原始森林",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 15,
+     "period": "未说明",
+     "time": "",
+     "spot": "芳草海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 16,
+     "period": "未说明",
+     "time": "",
+     "spot": "天鹅湖",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 17,
+     "period": "未说明",
+     "time": "",
+     "spot": "箭竹海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 18,
+     "period": "未说明",
+     "time": "",
+     "spot": "熊猫海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 19,
+     "period": "未说明",
+     "time": "",
+     "spot": "珍珠滩",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 20,
+     "period": "未说明",
+     "time": "",
+     "spot": "五花海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 21,
+     "period": "未说明",
+     "time": "",
+     "spot": "诺日朗中心站",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 22,
+     "period": "未说明",
+     "time": "",
+     "spot": "诺日朗瀑布",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 23,
+     "period": "未说明",
+     "time": "",
+     "spot": "犀牛海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 24,
+     "period": "未说明",
+     "time": "",
+     "spot": "树正瀑布",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 25,
+     "period": "未说明",
+     "time": "",
+     "spot": "树正群海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 26,
+     "period": "未说明",
+     "time": "",
+     "spot": "双龙海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 27,
+     "period": "未说明",
+     "time": "",
+     "spot": "芦苇海",
+     "transport": "",
+     "tag": "",
+     "day": 2
+    },
+    {
+     "step": 28,
+     "period": "未说明",
+     "time": "",
+     "spot": "盆景滩",
+     "transport": "",
+     "tag": "",
+     "day": 2
     }
    ],
    "tips": [
@@ -1243,7 +1538,7 @@
     "这条路线原文没写时刻，只能给顺序"
    ]
   },
-  "answer": "按九寨沟的两日给你排了 8 步：\n【第1 天】\n  长海\n  五彩池\n  诺日朗中心\n  树正群海\n【第2 天】\n  树正瀑布\n  芦苇海\n  盆景滩\n  出景区\n注意：5800m 徒步，谨慎；6-11月丰水期，再去\n提醒：这条路线原文没写时刻，只能给顺序",
+  "answer": "按九寨沟的两日给你排了 28 步：\n【第1 天】\n  沟口乘车，乘车\n  长海\n  五彩池\n  诺日朗中心站\n  诺日朗瀑布\n  犀牛海\n  树正瀑布\n  树正群海\n  双龙海\n  芦苇海\n  盆景滩\n  出沟\n【第2 天】\n  游客中心\n  原始森林\n  芳草海\n  天鹅湖\n  箭竹海\n  熊猫海\n  珍珠滩\n  五花海\n  诺日朗中心站\n  诺日朗瀑布\n  犀牛海\n  树正瀑布\n  树正群海\n  双龙海\n  芦苇海\n  盆景滩\n注意：5800m 徒步，谨慎；6-11月丰水期，再去\n提醒：这条路线原文没写时刻，只能给顺序",
   "turns": [
    {
     "turn": 0,
@@ -1271,7 +1566,7 @@
      "area": "九寨沟风景名胜区",
      "days": 2
     },
-    "observation": "JZG-NOTE-11-R-a7eac262f6，8 步，无时刻"
+    "observation": "JZG-OFF-01-R-6716383269，28 步，无时刻"
    },
    {
     "turn": 3,
@@ -1302,14 +1597,25 @@
     "args": {
      "route": {
       "ok": true,
-      "route_id": "JZG-NOTE-11-R-a7eac262f6",
+      "route_id": "JZG-OFF-01-R-6716383269",
       "steps": [
+       {
+        "to": "沟口乘车",
+        "text": "沟口乘车",
+        "support": [],
+        "transport": "乘车",
+        "period": "未说明",
+        "day": 1,
+        "time_start": "",
+        "time_end": ""
+       },
        {
         "to": "长海",
         "text": "长海",
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
@@ -1319,26 +1625,39 @@
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "诺日朗中心",
-        "text": "诺日朗中心",
+        "to": "诺日朗中心站",
+        "text": "诺日朗中心站",
         "support": [
-         "诺日朗中心"
+         "诺日朗中心站"
         ],
         "transport": "",
         "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "树正群海",
-        "text": "树正群海",
+        "to": "诺日朗瀑布",
+        "text": "诺日朗瀑布",
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": 1,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "犀牛海",
+        "text": "犀牛海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
@@ -1348,6 +1667,27 @@
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": 1,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "树正群海",
+        "text": "树正群海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 1,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "双龙海",
+        "text": "双龙海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
@@ -1357,6 +1697,7 @@
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
@@ -1366,29 +1707,194 @@
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": 1,
         "time_start": "",
         "time_end": ""
        },
        {
-        "to": "出景区",
-        "text": "出景区",
+        "to": "出沟",
+        "text": "出沟",
         "support": [],
         "transport": "",
         "period": "未说明",
+        "day": 1,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "游客中心",
+        "text": "游客中心",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "原始森林",
+        "text": "原始森林",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "芳草海",
+        "text": "芳草海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "天鹅湖",
+        "text": "天鹅湖",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "箭竹海",
+        "text": "箭竹海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "熊猫海",
+        "text": "熊猫海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "珍珠滩",
+        "text": "珍珠滩",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "五花海",
+        "text": "五花海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "诺日朗中心站",
+        "text": "诺日朗中心站",
+        "support": [
+         "诺日朗中心站"
+        ],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "诺日朗瀑布",
+        "text": "诺日朗瀑布",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "犀牛海",
+        "text": "犀牛海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "树正瀑布",
+        "text": "树正瀑布",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "树正群海",
+        "text": "树正群海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "双龙海",
+        "text": "双龙海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "芦苇海",
+        "text": "芦苇海",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
+        "time_start": "",
+        "time_end": ""
+       },
+       {
+        "to": "盆景滩",
+        "text": "盆景滩",
+        "support": [],
+        "transport": "",
+        "period": "未说明",
+        "day": 2,
         "time_start": "",
         "time_end": ""
        }
       ],
-      "step_count": 8,
+      "step_count": 28,
       "span": "",
-      "sub_route": "二日",
+      "sub_route": "",
       "coarse": false,
-      "title": "九寨沟第二日游览：长海→五彩池→诺日朗中心→树正",
+      "day_span": 2,
+      "title": "九寨沟景区游玩路线：沟口乘车至长海、五彩池，经诺",
       "area": "九寨沟风景名胜区"
      },
      "visitor": ""
     },
-    "observation": "成行 8 步，标注 0 处"
+    "observation": "成行 28 步，标注 0 处"
    },
    {
     "turn": 6,
