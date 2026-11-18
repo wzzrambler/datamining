@@ -1,0 +1,17 @@
+{
+  "unit": "thousand_tokens",
+  "before": {
+    "prompt_cache_hit": 33,
+    "prompt_cache_miss": 1035,
+    "hit_share": 0.0309
+  },
+  "cumulative_after": {
+    "prompt_cache_hit": 923,
+    "prompt_cache_miss": 1424
+  },
+  "after_interval": {
+    "prompt_cache_hit": 890,
+    "prompt_cache_miss": 389,
+    "hit_share": 0.6959
+  }
+}

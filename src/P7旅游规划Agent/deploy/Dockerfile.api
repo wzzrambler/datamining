@@ -1,0 +1,17 @@
+FROM python:3.13-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+WORKDIR /srv/p7/src/P7旅游规划Agent
+
+COPY src/P7旅游规划Agent/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt \
+    && useradd --create-home --uid 10001 p7
+
+COPY src/P7旅游规划Agent/p7 ./p7
+COPY src/P7旅游规划Agent/migrations ./migrations
+COPY src/P7旅游规划Agent/alembic.ini .
+COPY src/artifact_integrity.py /srv/p7/src/artifact_integrity.py
+COPY processed /srv/p7/processed
+
+USER p7
+CMD ["python", "-m", "uvicorn", "p7.api:app", "--host", "0.0.0.0", "--port", "8017", "--workers", "1", "--no-proxy-headers"]
