@@ -1,0 +1,39 @@
+services:
+  api:
+    image: p7-1-api:${P7_1_RELEASE:?set P7_1_RELEASE}
+    env_file: "${P7_1_SHARED_DIR:?set P7_1_SHARED_DIR}/runtime.env"
+    environment:
+      P7_1_BROWSER_SESSIONS: "${P7_1_BROWSER_SESSIONS:-0}"
+    networks: [default, database]
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import json, urllib.request; assert json.load(urllib.request.urlopen('http://127.0.0.1:8017/api/v1/status', timeout=3))['service_ready']"
+      interval: 10s
+      timeout: 5s
+      start_period: 10s
+      retries: 5
+
+  web:
+    image: p7-1-web:${P7_1_RELEASE:?set P7_1_RELEASE}
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "${P7_1_WEB_BIND:-127.0.0.1}:${P7_1_WEB_PORT:-8017}:8080"
+    restart: unless-stopped
+
+  migrate:
+    image: p7-1-api:${P7_1_RELEASE:?set P7_1_RELEASE}
+    profiles: [setup]
+    env_file: "${P7_1_SHARED_DIR:?set P7_1_SHARED_DIR}/migration.env"
+    networks: [database]
+    command: ["sh", "-ec", "python -m alembic upgrade head && python -m p7.import_p6 --grant-local"]
+
+networks:
+  database:
+    external: true
+    name: "${P7_1_DB_NETWORK:?set P7_1_DB_NETWORK}"

@@ -1,5 +1,5 @@
-# P7旅游规划Agent
+# P7 中间处理与统计
 
-待开发和运行后生成。本目录当前不包含新的实验结果。
+P7 从 [P6 发布清单](../P6知识图谱/release.json) 验证并导入图谱，在 PostgreSQL 中生成路线、景点、交通及摘要检索索引。会话、工具结果和行程版本保存在独立业务模式中。导入及复现命令见 [P7 使用说明](../../src/P7旅游规划Agent/README.md)。
 
-规划Agent的图谱检索输入约定：只读实体关联的 `TIME_SUMMARY` 与 `ADVICE_SUMMARY`，并使用原实体上的 `advice_themes` 主题摘要；不把零散 `FACT` 或单条 `CONDITIONAL_RULE` 直接作为规划依据。按景区和作用范围筛选，保留历史信息属性，不把旧时间、费用或政策说成当前事实。
+[cache_usage.json](cache_usage.json) 记录 DeepSeek 两段用量的累计读数和区间差。单位为千 token。两段记录用于观察缓存复用情况。

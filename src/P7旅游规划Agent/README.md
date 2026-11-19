@@ -1,117 +1,43 @@
-# P7 旅游规划 Agent（ReAct）
+# P7 行迹旅游规划 Agent
 
-基于项目 2/3/5/6 的产物做旅游规划：一句话需求（景区、人群、天数），
-Agent 循环调用确定性工具取路线、景点、条件建议，按人群裁剪并按天拆分后输出行程。
+Vue 3 + Vite、FastAPI、PostgreSQL 和 DeepSeek Flash 的多轮旅游规划应用。P6 知识数据与业务数据分别落在 `p6_kg` 和 `p7_app`。
 
-## 文件
+## 本机启动
 
-| 文件 | 作用 |
-|---|---|
-| `p7_agent.py` | Agent 全部逻辑：槽位解析、5 个工具、ReAct 循环、规则/LLM 两套策略 |
-| `api.py` | FastAPI 接口层：参数校验、限流、并发控制、SSE 推送，不复制业务规则 |
-| `serve.py` | 启动器：本机 / 公网两种模式、端口顺延、环境自检 |
-| `web/` | 前端单页（HTML/CSS/JS，无框架无构建），带离线降级 |
-| 仓库根 `tests/P7/` | 55 条测试：工具契约、循环出口、容量拆分、Web 接口、启动器、离线包 |
+在 `src/P7旅游规划Agent` 中配置 `P7_1_DATABASE_URL`、可选 `P7_1_MIGRATION_URL` 和 `DEEPSEEK_API_KEY`。本地连接配置也可放在已忽略的 `.env.local`，使用 `KEY=value`。PostgreSQL URL 采用 `postgresql+psycopg://`。应用角色需要读取 `p6_kg` 和读写 `p7_app`，迁移角色需要建表及导入权限。
 
-## 数据来源
-
-只读不写。启动时加载：
-
-- `processed/P2实体识别/entities.json` —— 景点提及（`search_spots` 的候选池）
-- `processed/P5条件建议抽取/runs/<ACTIVE_RUN>/…` —— 观察、路线
-- `processed/P6知识图谱/cleaned-v1/{routes,conditions}.json` —— 29 条路线、1269+ 条条件建议
-
-不连 Neo4j：JSON 一定在，图数据库在现场不一定能起来。
-
-## 图谱检索范围
-
-规划只读取实体关联的两类汇总（`HAS_TIME_SUMMARY` / `HAS_ADVICE_SUMMARY`）与实体属性
-`advice_themes`；路线取 P6 清洗后的正式线路。时间、班次、票价与政策都来自历史资料，
-未记录的时间不代表关闭，未核实的旧信息不能表述成当前实时规则；
-一般 `FACT` 与单条 `CONDITIONAL_RULE` 不作为规划输入。
-
-## 命令行
-
-```bash
-python src/P7旅游规划Agent/p7_agent.py                      # 跑七个场景，写 outputs/P7/
-python src/P7旅游规划Agent/p7_agent.py --ask "带老人去九寨沟一天"
-OPENAI_API_KEY=... OPENAI_BASE_URL=https://api.deepseek.com/v1 \
-OPENAI_MODEL=deepseek-chat \
-python src/P7旅游规划Agent/p7_agent.py --llm --ask "带6岁孩子去广州长隆"
+```powershell
+python -m pip install -r requirements.txt
+python -m alembic upgrade head
+python -m p7.import_p6
+python run.py
 ```
 
-不配 `OPENAI_API_KEY` 自动退回规则策略：同一循环、同一工具，结果可重复。
+使用本机已有的 `p7_1_runtime` 角色时，可在初次导入加 `--grant-local` 应用上述权限。导入以 P6 发布清单与质量哈希为准。同一版本无变化时重复执行不会新增记录。
 
-## 三种打开方式
+在另一个终端启动 Vue：
 
-**一、不装依赖、不起服务**：双击 `outputs/P7/行迹-离线预览.html`。
-七个场景的真实运行结果内联在这一个文件里，不连后端、不调模型；
-输入框按地名、人群、天数匹配已有结果，匹配不到会直接说没有，不会编一份。
-把 `web/` 整个目录传到任意静态空间也能用（页面检测不到接口就读同目录的
-`offline.json`，数据和单文件同源）。重新生成：
-
-```bash
-python tools/P7/build_offline.py     # 同时更新单文件与 web/offline.json
+```powershell
+cd web
+npm ci
+npm run build
+npm run preview
 ```
 
-**二、本机起服务**（能自由提问）：
+访问 [http://127.0.0.1:5177](http://127.0.0.1:5177)。前端默认代理到 8017 的 API，使用 `P7_1_API_PROXY` 可改代理地址。直接单独部署构建时可通过 `VITE_API_BASE` 选择 API 前缀。API 采用单进程运行回合执行器，浏览器断开 SSE 之后可以凭回合和事件序号恢复。
 
-```bash
-pip install fastapi uvicorn
-python src/P7旅游规划Agent/serve.py             # http://127.0.0.1:8000，自动开浏览器
-python src/P7旅游规划Agent/serve.py --port 9000 --no-browser
+## 范围与验证
+
+- 支持多轮澄清、P6 路线排序与摘要、景点及来源、创建行程以及聊天或表单修改。历史消息可打开当时的行程版本。
+- DeepSeek 原生工具调用。读取 `usage.prompt_tokens` 作为压缩依据，旧回合在实测超过 100,000 后压缩，最新一轮原消息与工具配对完整保留。每条新用户消息最多 10 次决策和 30 次工具调用。
+- 模型请求的 `messages[]` 在两次压缩之间按原顺序追加。会话资料在用户消息入库时固定下来。当本轮已执行至少 8 次决策或 20 次工具调用，新增的工具结果通过 `loop_control` 告知剩余额度。工具定义保持固定，由后端拦截超额调用。输入 token 用量供后端判断压缩。
+- 压缩时，在旧轮次的原有消息前缀末尾追加临时用户指令，请模型提取需求、证据、行程和待确认项。校验摘要后，将它作为独立的内部消息放在固定 `system` 和最新轮次之间。摘要请求不占用 ReAct 决策和工具额度。
+- P6 保存历史记录及来源，行程遇到交通或时间证据不足时标记待确认。
+
+```powershell
+python -m unittest discover -s tests -v
+$env:P7_1_RUN_DB_TESTS='1'
+python -m unittest discover -s tests -v
 ```
 
-**三、公网部署**：
-
-```bash
-python -c "import secrets;print(secrets.token_urlsafe(24))"
-P7_ACCESS_TOKEN=<上一步输出> python src/P7旅游规划Agent/serve.py --public
-```
-
-`--public` 监听 `0.0.0.0`，强制口令（少于 12 位拒绝启动），CORS 默认同源，
-启动后打印 Nginx 反代片段（SSE 必须关 `proxy_buffering`）与三步检查项。
-从零到上线的完整步骤（取码、venv、systemd、Nginx、HTTPS、验收、排错）见仓库根 [DEPLOY.md](../../DEPLOY.md)。
-上线前先跑自检：
-
-```bash
-python src/P7旅游规划Agent/serve.py --check
-P7_ACCESS_TOKEN=... python src/P7旅游规划Agent/serve.py --check --public
-```
-
-| 接口 | 方法 | 说明 |
-|---|---|---|
-| `/api/health` | GET | 状态、数据规模、是否配置模型 |
-| `/api/scenes` | GET | 三个景区与路线数 |
-| `/api/examples` | GET | 示例问句 |
-| `/api/plan` | POST | 同步规划，返回完整结果 |
-| `/api/plan/stream` | GET | SSE：meta → slots → turn×n → result |
-
-环境变量：`P7_HOST` / `P7_PORT`、`P7_MAX_CONCURRENCY`（默认 4）、
-`P7_RATE_LIMIT` / `P7_RATE_WINDOW`（默认 60 次 / 60 秒，按 IP）、
-`P7_CORS_ORIGINS`（默认 `*`，部署时改成前端域名）、
-`P7_REQUEST_TIMEOUT`（默认 150 秒）、
-`P7_ACCESS_TOKEN`（默认空=不启用；公网部署必须设置，所有接口要求
-`Authorization: Bearer <token>` 或 `?token=`，前端会弹窗收集并存 localStorage）。
-本机模式不读环境里的口令，免得部署用的 token 把本地调试也拦住；
-要测口令流程用 `--token`。
-
-限流与并发计数是**单进程内存态**：uvicorn 保持单 worker 时有效，
-多 worker 部署需换成 Redis 等外置存储。密钥只放服务端环境变量。
-
-## 行为约定
-
-- 模型不读图谱原文，工具返回压缩摘要；错也只会错在参数上。
-- 参数按函数签名过滤，多余键丢弃并记入 `diagnostics`。
-- 同一调用连续失败两次强制收尾。
-- 步数超过 `MAX_STEPS_PER_DAY=12` 时按实际天数拆分并说明；两日以上路线由一日路线按原文顺序切分。
-- `get_tips` 按人群排除不合的提醒（给情侣不再出现"带小孩别错过水战"）。
-- 状态五种：`ok` / `partial`（有提醒）/ `need_info` / `no_data` / `conflict`。
-
-## 已知限制
-
-- 29 条路线仅 9 条带时刻、两日路线 1 条；两天以上只能由一日路线切分，没有过夜语义。
-- 12 步/天是启发式阈值，未按体力数据标定。
-- 离线单页只含七个场景的预置结果，匹配不到新问题；自由提问需要起服务。
-- 图谱已导入本地 Neo4j 5.26 并通过逐节点回读验证（`release.json` 的 `verified=true`，
-  dataset `p6-quality-themes-v1-4d90950727ba`）；重新发布用 `tools/P6/publish_cleaned.py --apply --backup <dir>`。
+数据库集成测试使用正式 P6 数据和已迁移的业务表。持久化的回合测试会创建标题以「P7_1 回归」开头的测试会话。
